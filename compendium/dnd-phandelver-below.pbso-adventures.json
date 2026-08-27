@@ -157,16 +157,57 @@
           "name": "Atlas"
         },
         "Trouble in Phandalin": {
-          "name": "Problemas en Phandalin"
+          "name": "Problemas en Phandalin",
+          "pages": {
+            "Trouble in Phandalin": { "name": "Problemas en Phandalin" },
+            "Running this Chapter": { "name": "Dirigir este capítulo" },
+            "Welcome to Phandalin": { "name": "Bienvenidos a Phandalin" },
+            "What’s Next?": { "name": "¿Y ahora qué?" },
+            "Encounters in Phandalin": { "name": "Encuentros en Phandalin" },
+            "Important NPCs": { "name": "PNJ importantes" },
+            "Development": { "name": "Desarrollo" }
+          }
         },
         "Phandalin Village": {
-          "name": "Pueblo de Phandalin"
+          "name": "Pueblo de Phandalin",
+          "pages": {
+            "Town Description": { "name": "Descripción del pueblo" },
+            "Stonehill Inn": { "name": "Posada Stonehill" },
+            "Barthen's Provisions": { "name": "Suministros de Barthen" },
+            "Edermath Orchard": { "name": "Huerto Edermath" },
+            "Lionshield Coster": { "name": "Bazar Escudo de León" },
+            "Phandalin Miner’s Exchange": { "name": "Bolsa de Mineros de Phandalin" },
+            "Alderleaf Farm": { "name": "Granja Alderleaf" },
+            "Shrine of Luck": { "name": "Santuario de la Suerte" },
+            "Sleeping Giant": { "name": "Gigante Dormido" },
+            "Townmaster’s Hall": { "name": "Ayuntamiento" },
+            "Tresendar Manor": { "name": "Mansión Tresendar" },
+            "Other Locations": { "name": "Otros lugares" }
+          }
         },
         "Redbrand Ruffians Confrontation": {
-          "name": "Enfrentamiento con los Redbrands"
+          "name": "Enfrentamiento con los Redbrands",
+          "pages": {
+            "Redbrand Ruffians": { "name": "Rufianes Redbrand" }
+          }
         },
         "Redbrands' Hideout": {
-          "name": "Guarida de los Redbrands"
+          "name": "Guarida de los Redbrands",
+          "pages": {
+            "Redbrands’ Hideout": { "name": "Guarida de los Redbrands" },
+            "Cellar": { "name": "Sótano" },
+            "Barrack": { "name": "Barracón" },
+            "Trapped Hall": { "name": "Pasillo con trampa" },
+            "Tresendar Crypts": { "name": "Criptas Tresendar" },
+            "Holding Cells": { "name": "Celdas" },
+            "Armory": { "name": "Armería" },
+            "Storeroom and Work Area": { "name": "Almacén y zona de trabajo" },
+            "Crevasse Cave": { "name": "Cueva de la grieta" },
+            "Guard Barrack": { "name": "Barracón de los guardias" },
+            "Common Room": { "name": "Sala común" },
+            "Wizard’s Workshop": { "name": "Taller del mago" },
+            "Glasstaff’s Quarters": { "name": "Aposentos de Bastón de Cristal" }
+          }
         },
         "pbsoCh3ArtHandou": {
           "name": "Material gráfico"

@@ -192,7 +192,10 @@
         "Phandalin Village": {
           "name": "Pueblo de Phandalin",
           "pages": {
-            "Town Description": { "name": "Descripción del pueblo" },
+            "Town Description": {
+              "name": "Descripción del pueblo",
+              "text": "<p>Phandalin es pequeño, así que los personajes pueden visitar varios lugares y PNJ a lo largo de un día. Si los jugadores deciden separar a sus personajes, podrán abarcar más terreno, pero dividir el grupo hace que el encuentro @UUID[JournalEntry.pbsoRedbrandRuff]{Rufianes Redbrand} pueda resultar más peligroso.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><h3>Activar la escena Pueblo de Phandalin</h3><p>Los siguientes lugares están indicados en la escena @UUID[Scene.pbsoPhandalinVil]{Pueblo de Phandalin} y describen puntos concretos del pueblo. También hay una imagen de diario @UUID[JournalEntry.pbsoCh2Atlas0000.JournalEntryPage.fQg3QQGCccq8wGHs]{sin etiquetas} por si prefieres compartirla con tus jugadores:</p></article></section><p>@Embed[JournalEntry.pbsoCh2Atlas0000.JournalEntryPage.qMwMjRIb8Q1jbSOD caption=false]</p>"
+            },
             "Stonehill Inn": { "name": "Posada Stonehill" },
             "Barthen's Provisions": { "name": "Suministros de Barthen" },
             "Edermath Orchard": { "name": "Huerto Edermath" },
@@ -200,10 +203,19 @@
             "Phandalin Miner’s Exchange": { "name": "Bolsa de Mineros de Phandalin" },
             "Alderleaf Farm": { "name": "Granja Alderleaf" },
             "Shrine of Luck": { "name": "Santuario de la Suerte" },
-            "Sleeping Giant": { "name": "Gigante Dormido" },
+            "Sleeping Giant": {
+              "name": "Gigante Dormido",
+              "text": "<p>@Embed[JournalEntry.pbsoCh2ArtHandou.JournalEntryPage.v1MLn5AzxYaP9Rg7]</p><p>Esta taberna destartalada es un antro sucio y peligroso situado al final de la calle principal de Phandalin. La frecuentan los Redbrand y la dirige una orca hosca llamada Greska. Si los personajes deciden visitarla, consulta el encuentro @UUID[JournalEntry.pbsoRedbrandRuff]{Rufianes Redbrand}.</p>"
+            },
             "Townmaster’s Hall": { "name": "Ayuntamiento" },
-            "Tresendar Manor": { "name": "Mansión Tresendar" },
-            "Other Locations": { "name": "Otros lugares" }
+            "Tresendar Manor": {
+              "name": "Mansión Tresendar",
+              "text": "<p>Más castillo que casa, la Mansión Tresendar se alza en el extremo oriental del pueblo, sobre una colina baja rodeada de bosques y matorrales. La antigua mansión lleva mucho tiempo abandonada, pero sus sótanos se han convertido en un bastión de los Redbrand. Si los personajes investigan el lugar, encuentran la entrada a la @UUID[JournalEntry.pbsoRedbrandsHid]{Guarida de los Redbrand}.</p>"
+            },
+            "Other Locations": {
+              "name": "Otros lugares",
+              "text": "<p>Los siguientes lugares no se describen en detalle, pero aparecen señalados en el mapa:</p><ul><li><p>Casa de Linene</p></li><li><p>Casa de Barthen</p></li><li><p>Casa de Harbin Wester</p></li><li><p>Casa de Halia</p></li><li><p>Casa de la hermana Garaele</p></li><li><p>Sendero de los mineros</p></li><li><p>Prado comunal</p></li><li><p>Camino Triboar</p></li><li><p>Herrería</p></li><li><p>Carpintería</p></li></ul>"
+            }
           }
         },
         "Redbrand Ruffians Confrontation": {

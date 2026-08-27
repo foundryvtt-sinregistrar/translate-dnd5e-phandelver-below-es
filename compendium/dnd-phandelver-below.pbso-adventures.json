@@ -315,22 +315,70 @@
           "name": "Atlas"
         },
         "The Spider's Web": {
-          "name": "La Telaraña"
+          "name": "La Telaraña",
+          "pages": {
+            "The Spider's Web": { "name": "La Telaraña" },
+            "Running This Chapter": { "name": "Dirigir este capítulo" },
+            "What's Next": { "name": "¿Y ahora qué?" },
+            "Quests and Locations": { "name": "Misiones y lugares" }
+          }
         },
         "Conyberry and Agatha's Lair": {
-          "name": "Conyberry y la guarida de Agatha"
+          "name": "Conyberry y la guarida de Agatha",
+          "pages": {
+            "Conyberry and Agatha's Lair": { "name": "Conyberry y la guarida de Agatha" }
+          }
         },
         "Cragmaw Castle": {
-          "name": "Castillo Cragmaw"
+          "name": "Castillo Cragmaw",
+          "pages": {
+            "Cragmaw Castle": { "name": "Castillo Cragmaw" },
+            "Castle Entrance": { "name": "Entrada del castillo" },
+            "Trapped Hall": { "name": "Pasillo con trampa" },
+            "Archer Post": { "name": "Puesto de arqueros" },
+            "Ruined Quarters": { "name": "Aposentos en ruinas" },
+            "Storeroom": { "name": "Almacén" },
+            "Hobgoblin Quarters": { "name": "Aposentos de los hobgoblins" },
+            "Banquet Hall": { "name": "Salón de banquetes" },
+            "Dark Hall": { "name": "Pasillo oscuro" },
+            "Goblin Shrine": { "name": "Santuario goblin" },
+            "Postern Gate": { "name": "Puerta trasera" },
+            "Ruined Tower": { "name": "Torre en ruinas" },
+            "Guard Quarters": { "name": "Aposentos de los guardias" },
+            "Haunted Tower": { "name": "Torre embrujada" },
+            "King’s Quarters": { "name": "Aposentos del rey" }
+          }
         },
         "Old Owl Well": {
-          "name": "Pozo del Viejo Búho"
+          "name": "Pozo del Viejo Búho",
+          "pages": {
+            "Old Owl Well": { "name": "Pozo del Viejo Búho" }
+          }
         },
         "Ruins of Thundertree": {
-          "name": "Ruinas de Thundertree"
+          "name": "Ruinas de Thundertree",
+          "pages": {
+            "Ruins of Thundertree": { "name": "Ruinas de Thundertree" },
+            "Westernmost Cottage": { "name": "Cabaña occidental" },
+            "Blighted Cottages": { "name": "Cabañas corrompidas" },
+            "The Brown Horse": { "name": "El Caballo Marrón" },
+            "Druid’s Watch Post": { "name": "Puesto de vigilancia de la druida" },
+            "Blighted Farmhouse": { "name": "Granja corrompida" },
+            "Ruined Store": { "name": "Tienda en ruinas" },
+            "Old Tower": { "name": "Torre vieja" },
+            "Old Smithy": { "name": "Herrería vieja" },
+            "Herbalist’s Shop": { "name": "Herbolario" },
+            "Town Square": { "name": "Plaza del pueblo" },
+            "Old Garrison": { "name": "Antigua guarnición" },
+            "Weaver’s Cottage": { "name": "Cabaña del tejedor" },
+            "Dragon Cultists’ Cottage": { "name": "Cabaña de los cultistas del dragón" }
+          }
         },
         "Wyvern Tor": {
-          "name": "Túmulo del Wyvern"
+          "name": "Túmulo del Wyvern",
+          "pages": {
+            "Wyvern Tor": { "name": "Túmulo del Wyvern" }
+          }
         },
         "pbsoCh4ArtHandou": {
           "name": "Material gráfico"

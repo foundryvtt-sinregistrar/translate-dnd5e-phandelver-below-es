@@ -68,7 +68,16 @@
           "name": "Atlas"
         },
         "A Dangerous Journey": {
-          "name": "Un viaje peligroso"
+          "name": "Un viaje peligroso",
+          "pages": {
+            "A Dangerous Journey": { "name": "Un viaje peligroso" },
+            "Running This Chapter": { "name": "Dirigir este capítulo" },
+            "The Road to Phandalin": { "name": "El camino a Phandalin" },
+            "Cragmaw Hideout": { "name": "Guarida Cragmaw" },
+            "What's Next?": { "name": "¿Y ahora qué?" },
+            "Goblin Ambush": { "name": "Emboscada goblin" },
+            "Goblin Trail": { "name": "Sendero de los goblins" }
+          }
         },
         "Cragmaw Hideout": {
           "name": "Guarida Cragmaw"

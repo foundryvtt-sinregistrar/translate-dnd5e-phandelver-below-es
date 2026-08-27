@@ -22,7 +22,9 @@
         "Getting Started": "Primeros pasos"
       },
       "journals": {
-        "Art Handouts": { "name": "Material gráfico" },
+        "Art Handouts": {
+          "name": "Material gráfico"
+        },
         "Welcome to Phandalin": {
           "name": "Bienvenido a Phandalin",
           "pages": {
@@ -50,72 +52,191 @@
               "text": "<p>En esta aventura, unos fanáticos consagrados al Reino Lejano intentan transformar a los habitantes de @UUID[JournalEntry.pbsoPhandalinVil]{Phandalin} en @UUID[Actor.pbsoMindFlayer00]{azotamentes} devotos de la malvada deidad menor @UUID[Actor.pbsoIlvaash00000]{Ilvaash}.</p><p>Incluso antes de que los fanáticos intenten completar su ritual en el @UUID[JournalEntry.pbsoChapter80000]{capítulo 8}, su influjo sobre el pueblo impregna el lugar con la energía del Reino Lejano. Los habitantes comienzan a cambiar de formas inquietantes. Los edificios de Phandalin y el entorno circundante también sufren un marchitamiento que confiere a todo el pueblo un aire de decadencia.</p><h2>Transformación de Phandalin</h2><p>Cada vez que los personajes regresan a Phandalin durante las últimas partes de esta aventura, encuentran el pueblo y sus habitantes aún más afectados por el Reino Lejano. Las transformaciones se hacen perceptibles en el @UUID[JournalEntry.pbsoChapter50000]{capítulo 5} y empeoran hasta el enfrentamiento de los personajes con los fanáticos en el Reino Lejano durante el @UUID[JournalEntry.pbsoChapter80000]{capítulo 8}.</p><p>Las ilustraciones de estos capítulos representan esta transformación creciente. Utiliza las siguientes descripciones cuando los personajes estén en el pueblo para añadir un tono más siniestro a la aventura. Los efectos de cada descripción son acumulativos con los de los capítulos anteriores:</p><p><strong>Capítulo 5.</strong> El cielo sobre Phandalin permanece perpetuamente gris y sus edificios parecen más apagados de lo normal. Los habitantes tienen un aspecto cansado y pálido.</p><p><strong>Capítulo 6.</strong> Hongos escamosos casi imperceptibles crecen entre las grietas de los edificios y adoquines de Phandalin. Los habitantes comienzan a parecer enfermos.</p><p><strong>Capítulo 7.</strong> Maleza invasora y carnosa crece como tentáculos por los edificios y las calles de Phandalin. Los habitantes desarrollan síntomas extraños.</p><p><strong>Capítulo 8.</strong> El cielo de Phandalin adquiere un color verde brillante y enfermizo. La maleza carnosa se vuelve más gruesa y larga, y se enrosca alrededor de edificios y vigas como si fueran tallos. A los habitantes les brotan tentáculos y se vuelven irracionalmente furiosos y violentos.</p><p>@Embed[JournalEntry.pbsoIntroArtHand.JournalEntryPage.rXJRMvFv6GB7q2XX cite=false]</p><figure></figure><h2>Transformación de personajes</h2><p>Si los fanáticos tienen éxito, los personajes podrían transformarse en azotamentes (consulta el final del @UUID[JournalEntry.pbsoChapter80000]{capítulo 8}). Puede que los personajes procedentes de fuera de la región no se vean afectados por el ritual del Reino Lejano, aunque estos detalles quedan a tu criterio. Incluso si los personajes no se convierten en azotamentes, experimentan cambios cada vez mayores a medida que avanza el complot de los fanáticos.</p><p>Las siguientes reglas opcionales te permiten llevar un registro de los efectos del influjo del Reino Lejano sobre los personajes.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><h3>Se requiere el consentimiento del jugador</h3><p>Antes de utilizar las reglas de transformación de personajes presentadas en esta sección, consulta con cada jugador para saber si acepta que su personaje experimente efectos de transformación física. Un jugador no perderá beneficios de juego si decide no utilizar estas reglas para su personaje.</p><p><strong>Consejo:</strong> Considera utilizar el módulo <a href=\"https://foundryvtt.com/packages/XCard\">X-Card</a> para asegurarte de que los jugadores se sienten cómodos mientras juegan la aventura.</p></article></section><aside><h4>Etapas de transformación de personajes</h4></aside><p>A medida que aumenta el influjo del Reino Lejano sobre un personaje, este comienza a cambiar. Hay cuatro etapas de transformación, cada una con efectos cada vez más extremos.</p><p><em><strong>Avance.</strong></em> Los personajes comienzan en la etapa 1 al inicio del @UUID[JournalEntry.pbsoChapter50000]{capítulo 5}. Avanzan a la siguiente etapa al comienzo de cada capítulo posterior (etapa 2 en el @UUID[JournalEntry.pbsoChapter60000]{capítulo 6}, etapa 3 en el @UUID[JournalEntry.pbsoChapter70000]{capítulo 7} y etapa 4 en el @UUID[JournalEntry.pbsoChapter80000]{capítulo 8}).</p><p><em><strong>Cambios.</strong></em> Para determinar cómo cambia un personaje cuando aumenta su etapa de transformación, consulta la tabla Efectos de transformación. Los ejemplos enumerados bajo las transformaciones son solo sugerencias; puedes crear otras transformaciones de un alcance similar.</p><p>Adaptar una transformación a un personaje puede aumentar la implicación de los jugadores en la historia. Siempre que sea posible, intenta que cada transformación sea exclusiva de un personaje concreto. Dada la importancia de algunos de estos cambios, es mejor que sea el jugador quien te haga sugerencias sobre un cambio y no al contrario. Los efectos de los cambios pueden producirse con la frecuencia y en el momento que desees. La intención es que resulte divertido, no incomodar a los jugadores.</p><p>A medida que un personaje avanza a etapas superiores de transformación, los efectos de las etapas inferiores se vuelven más pronunciados. Por ejemplo, los susurros se hacen más insistentes, el tentáculo crece o brota otro nuevo.</p><p><em><strong>Reacciones de los PNJ.</strong></em> Es probable que los PNJ y las criaturas reparen en el extraño comportamiento de los personajes, los cambios en sus cuerpos o cualquier efecto que deforme la realidad cuando estén cerca. A tu discreción, la actitud de las criaturas podría cambiar cuando perciban estas mutaciones, dependiendo de la naturaleza del cambio, la personalidad y el trasfondo de la criatura, y las circunstancias del descubrimiento.</p><p><em><strong>Efectos de juego.</strong></em> A tu discreción, estas transformaciones podrían tener efectos en el juego.</p><p>Por ejemplo, las voces que susurran a un personaje podrían proporcionarle una pista útil. También podría escuchar una conversación telepática entre criaturas que hablan con la mente. Un personaje podría obtener ventaja en una prueba de Carisma para persuadir a una Aberración que pueda ver sus transformaciones. Las posibilidades son infinitas.</p><h3>Efectos de transformación de etapa 1</h3><p>@Embed[RollTable.pbsoStage1Transf classes=\"caption-top\"]</p><h3>Efectos de transformación de etapa 2</h3><p>@Embed[RollTable.pbsoStage2Transf classes=\"caption-top\"]</p><h3>Efectos de transformación de etapa 3</h3><p>@Embed[RollTable.pbsoStage3Transf classes=\"caption-top\"]</p><h3>Efectos de transformación de etapa 4</h3><p>@Embed[RollTable.pbsoStage4Transf classes=\"caption-top\"]</p><p>@Embed[JournalEntry.pbsoIntroArtHand.JournalEntryPage.CA466QKcgH3DXP6W cite=false]</p>"
             },
             "Table of Contents": {
-              "name": "Índice"
+              "name": "Índice",
+              "text": "<section class=\"flex-between align-start\"><section class=\"toc-column\"><h3>@UUID[.UOqr9enScoY6VESg]{Bienvenido a Phandalin}</h3><p>@UUID[.waXygAzvZzoq1dsU]{Sobre este libro}</p><p>@UUID[.uJfAblYhxzpOt3AR]{Dirigir la aventura}</p><p>@UUID[.JH9liXxMWLQHdqDW]{Creación de personajes}</p><p>@UUID[.7jgKM3qydy4xOJvT]{Ganchos de aventura}</p><p>@UUID[.tkXUgHoStHdHzIwK]{Influjo del Reino Lejano}</p><h3>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.5RW4Gw1Am978tfBt]{Cap. 1: Un viaje peligroso}</h3><p>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.aFwPacKyJsBeWg73]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.ovXlFZ1K0kbxTAmD]{El camino a Phandalin}</p><p>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.0e32eLFoiQnlmu58]{Emboscada goblin}</p><p>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.xqG1g1xcU5QqjCVn]{Sendero de los goblins}</p><p>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.8nC20gyruv7jg0jH]{Guarida Cragmaw}</p><p>@UUID[JournalEntry.pbsoChapter1ADan.JournalEntryPage.BQk4grY3BR8rMuDe]{¿Y ahora qué?}</p><p>@UUID[JournalEntry.pbsoChapter30000.JournalEntryPage.w8S4JTD5Nk2QCDXd]{La Telaraña}</p><h3>@UUID[JournalEntry.pbsoChapter20000.JournalEntryPage.pgPAF1nfrP2wD8WH]{Cap. 2: Problemas en Phandalin}</h3><p>@UUID[JournalEntry.pbsoChapter20000.JournalEntryPage.dO7mr60ntloBv9Ep]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoChapter20000.JournalEntryPage.ZXrOmtFz00mEWEWw]{Bienvenido a Phandalin}</p><p>@UUID[JournalEntry.pbsoChapter20000.JournalEntryPage.kSkUxnbHMpVn3cQK]{Encuentros en Phandalin}</p><p>@UUID[JournalEntry.pbsoPhandalinVil.JournalEntryPage.5ypi0Nehichr6c2m]{Descripción del pueblo}</p><p>@UUID[JournalEntry.pbsoChapter20000.JournalEntryPage.kSkUxnbHMpVn3cQK#redbrand-ruffians-appear]{Maleantes Redbrand}</p><p>@UUID[JournalEntry.pbsoRedbrandsHid.JournalEntryPage.amOaerrNeKE1X0sb]{Guarida de los Redbrands}</p><p>@UUID[JournalEntry.pbsoChapter20000.JournalEntryPage.DITSU1jey9MSioqo]{¿Y ahora qué?}</p><h3>@UUID[JournalEntry.pbsoChapter30000.JournalEntryPage.w8S4JTD5Nk2QCDXd]{Cap. 3: La Telaraña}</h3><p>@UUID[JournalEntry.pbsoChapter30000.JournalEntryPage.ct8pnWn37FMRSDHG]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoConyberryAnd.JournalEntryPage.tVaUOEExFQYcvGVe]{Conyberry y la guarida de Agatha}</p><p>@UUID[JournalEntry.pbsoOldOwlWell00.JournalEntryPage.KjqPduMKcZuKp7X2]{Pozo del Viejo Búho}</p><p>@UUID[JournalEntry.pbsoRuinsOfThund.JournalEntryPage.UuZLEOCfMpe0NM6v]{Ruinas de Thundertree}</p><p>@UUID[JournalEntry.pbsoWyvernTor000.JournalEntryPage.QTwTwD5nJuHDiiRz]{Túmulo del Wyvern}</p><p>@UUID[JournalEntry.pbsoCragmawCastl.JournalEntryPage.sKSIJiT0uFau3O65]{Castillo Cragmaw}</p><p>@UUID[JournalEntry.pbsoChapter30000.JournalEntryPage.kDodSyEJUYOo5Xmr]{¿Y ahora qué?}</p></section><section class=\"toc-column\"><h3>@UUID[JournalEntry.pbsoChapter40000.JournalEntryPage.UIjeMQdXILD0f1JD]{Cap. 4: La Cueva del Oleaje}</h3><p>@UUID[JournalEntry.pbsoChapter40000.JournalEntryPage.ze34VCdBfeeG4dJL]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoWaveEchoCave.JournalEntryPage.m2AnHrxvpM0pUPpF]{Cueva del Oleaje}</p><p>@UUID[JournalEntry.pbsoChapter40000.JournalEntryPage.7g2ZWQD6JkswodUi]{¿Y ahora qué?}</p><h3>@UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.txt9zybqx8bd4yOw]{Cap. 5: Senderos peligrosos}</h3><p>@UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.CIH2pXSwtSmlzKdf]{Problemas del alcalde}</p><p>@UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.gdg1shUmjEkIwUyZ]{Fragmentos robados}</p><p>@UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.hQc21nL7sikb3Dp1]{Descanso de Zorzula}</p><p>@UUID[JournalEntry.pbsoIndigoSanctu.JournalEntryPage.FGZ7PvaJb1oNxZ4i]{Santuario Índigo}</p><p>@UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.vT6OJkdp2uJteNHv]{¿Y ahora qué?}</p><h3>@UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.trZm87g3Ogci4Aew]{Cap. 6: El Obelisco Fragmentado}</h3><p>@UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.0VRaeOCweyp9g1YX]{La siniestra verdad}</p><p>@UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.trZm87g3Ogci4Aew#running-this-chapter]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.gATX1uMnwVCQ995K]{Regreso a Phandalin}</p><p>@UUID[JournalEntry.pbsoCh6talhunder.JournalEntryPage.lYGJivxULW3zxT4M]{Talhundereth}</p><p>@UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.ehkrLPV6v2RkToDl]{Cripta de Talhund}</p><p>@UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.RBdtKRjBr5bU9c4o]{Cruce del Cadalso}</p><p>@UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.ZERQ8Ew1b7AcnCKu]{¿Y ahora qué?}</p><h3>@UUID[JournalEntry.pbsoChapter70000.JournalEntryPage.4TWXhCn5419f5x0r]{Cap. 7: Grietas en la realidad}</h3><p>@UUID[JournalEntry.pbsoChapter70000.JournalEntryPage.4TWXhCn5419f5x0r#running-this-chapter]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoChapter70000.JournalEntryPage.xiK3f5BhsS3I8PZu]{Sombra sobre Phandalin}</p><p>@UUID[JournalEntry.pbsoCh7tunnelsde.JournalEntryPage.WBk8udIX1q1lnbjG]{Viaje por las profundidades}</p><p>@UUID[JournalEntry.pbsoCh7illithino.JournalEntryPage.dV489w2I1MBc8KY9]{Illithinoch}</p><p>@UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.Amm4kRqrWbHTf56Y]{Grietas del Reino Lejano}</p><p>@UUID[JournalEntry.pbsoChapter70000.JournalEntryPage.PGwPZbOKlVcZ5LDg]{¿Y ahora qué?}</p><h3>@UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.tICwfNOzJ3Hot1kp]{Cap. 8: Más allá de un sol muerto}</h3><p>@UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.tICwfNOzJ3Hot1kp#running-this-chapter]{Dirigir este capítulo}</p><p>@UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.tob7ZcaOZWhU0Zd2]{La perdición llega a Phandalin}</p><p>@UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.899KbrhzYDvz7vmg]{El Laberinto Salino}</p><p>@UUID[JournalEntry.pbsoCh8void00000.JournalEntryPage.xar6cST3fc4vPmMy]{El Vacío Infinito}</p><p>@UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.1JfeQIXdarlx6pcZ]{Conclusión}</p><p>@UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.NEeIlAWJ4ExgTrov]{Epílogo}</p><p>@UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.VQ6PlURuWdeNNmQ2]{Obeliscos netherinos}</p></section><section><p></p></section></section>"
             },
             "Phandelver and Below: the Shattered Obelisk": {
               "name": "Phandelver y Más Allá: El Obelisco Despedazado"
             }
           }
         },
-        "pbsoCh1ArtHandou": { "name": "Material gráfico" },
-        "Atlas": { "name": "Atlas" },
-        "A Dangerous Journey": { "name": "Un viaje peligroso" },
-        "Cragmaw Hideout": { "name": "Guarida Cragmaw" },
-        "Goblin Ambush": { "name": "Emboscada goblin" },
-        "pbsoCh2ArtHandou": { "name": "Material gráfico" },
-        "pbsoCh2Atlas0000": { "name": "Atlas" },
-        "Trouble in Phandalin": { "name": "Problemas en Phandalin" },
-        "Phandalin Village": { "name": "Pueblo de Phandalin" },
-        "Redbrand Ruffians Confrontation": { "name": "Enfrentamiento con los Redbrands" },
-        "Redbrands' Hideout": { "name": "Guarida de los Redbrands" },
-        "pbsoCh3ArtHandou": { "name": "Material gráfico" },
-        "pbsoCh3Atlas0000": { "name": "Atlas" },
-        "The Spider's Web": { "name": "La Telaraña" },
-        "Conyberry and Agatha's Lair": { "name": "Conyberry y la guarida de Agatha" },
-        "Cragmaw Castle": { "name": "Castillo Cragmaw" },
-        "Old Owl Well": { "name": "Pozo del Viejo Búho" },
-        "Ruins of Thundertree": { "name": "Ruinas de Thundertree" },
-        "Wyvern Tor": { "name": "Túmulo del Wyvern" },
-        "pbsoCh4ArtHandou": { "name": "Material gráfico" },
-        "pbsoCh4Atlas0000": { "name": "Atlas" },
-        "Wave Echo Cave": { "name": "Cueva del Oleaje" },
-        "pbsoWaveEchoCave": { "name": "Cueva del Oleaje" },
-        "pbsoArtHandouts0": { "name": "Material gráfico" },
-        "pbsoCh5atlas0000": { "name": "Atlas" },
-        "Paths of Peril": { "name": "Senderos peligrosos" },
-        "Indigo Sanctum": { "name": "Santuario Índigo" },
-        "Stolen Shards Encounters": { "name": "Encuentros de los fragmentos robados" },
-        "Zorzula's Rest": { "name": "Descanso de Zorzula" },
-        "pbsoCh6arthandou": { "name": "Material gráfico" },
-        "pbsoCh6atlas0000": { "name": "Atlas" },
-        "The Shattered Obelisk": { "name": "El Obelisco Fragmentado" },
-        "Crypt of the Talhund": { "name": "Cripta de Talhund" },
-        "Gibbet Crossing": { "name": "Cruce del Cadalso" },
-        "Talhundereth": { "name": "Talhundereth" },
-        "Phandalin Missions": { "name": "Misiones en Phandalin" },
-        "pbsoAtlas0000000": { "name": "Atlas" },
-        "pbsoCh7art000000": { "name": "Material gráfico" },
-        "Rifts in Reality": { "name": "Grietas en la realidad" },
-        "Illithinoch": { "name": "Illithinoch" },
-        "Far Realm Rifts": { "name": "Grietas del Reino Lejano" },
-        "Tunnels of the Deep": { "name": "Túneles de las profundidades" },
-        "pbsoCh8arthandou": { "name": "Material gráfico" },
-        "pbsoCh8atlas0000": { "name": "Atlas" },
-        "Beyond a Lightless Star": { "name": "Más allá de un sol muerto" },
-        "Briny Maze": { "name": "Laberinto Salino" },
-        "The Endless Void": { "name": "El Vacío Infinito" },
-        "Crystal Dome": { "name": "Cúpula de Cristal" },
-        "Empty Bridge": { "name": "Puente Vacío" },
-        "Ilvaash's Anima": { "name": "Ánima de Ilvaash" },
-        "Mire of Doubt": { "name": "Pantano de la Duda" },
-        "Occluding Miasma": { "name": "Miasma Ocultador" },
-        "The Nematode": { "name": "El Nematodo" },
-        "Toppled Statue": { "name": "Estatua Derribada" },
-        "Wailing Battlefield": { "name": "Campo de los Lamentos" },
-        "Credits & License": { "name": "Créditos y licencia" },
-        "Foundry and Adventure Advice": { "name": "Consejos de Foundry y de la aventura" },
-        "Phandelver and Below Changelog": { "name": "Registro de cambios de Phandelver y Más Allá" },
-        "Actor Index": { "name": "Índice de actores" }
+        "pbsoCh1ArtHandou": {
+          "name": "Material gráfico"
+        },
+        "Atlas": {
+          "name": "Atlas"
+        },
+        "A Dangerous Journey": {
+          "name": "Un viaje peligroso"
+        },
+        "Cragmaw Hideout": {
+          "name": "Guarida Cragmaw"
+        },
+        "Goblin Ambush": {
+          "name": "Emboscada goblin"
+        },
+        "pbsoCh2ArtHandou": {
+          "name": "Material gráfico"
+        },
+        "pbsoCh2Atlas0000": {
+          "name": "Atlas"
+        },
+        "Trouble in Phandalin": {
+          "name": "Problemas en Phandalin"
+        },
+        "Phandalin Village": {
+          "name": "Pueblo de Phandalin"
+        },
+        "Redbrand Ruffians Confrontation": {
+          "name": "Enfrentamiento con los Redbrands"
+        },
+        "Redbrands' Hideout": {
+          "name": "Guarida de los Redbrands"
+        },
+        "pbsoCh3ArtHandou": {
+          "name": "Material gráfico"
+        },
+        "pbsoCh3Atlas0000": {
+          "name": "Atlas"
+        },
+        "The Spider's Web": {
+          "name": "La Telaraña"
+        },
+        "Conyberry and Agatha's Lair": {
+          "name": "Conyberry y la guarida de Agatha"
+        },
+        "Cragmaw Castle": {
+          "name": "Castillo Cragmaw"
+        },
+        "Old Owl Well": {
+          "name": "Pozo del Viejo Búho"
+        },
+        "Ruins of Thundertree": {
+          "name": "Ruinas de Thundertree"
+        },
+        "Wyvern Tor": {
+          "name": "Túmulo del Wyvern"
+        },
+        "pbsoCh4ArtHandou": {
+          "name": "Material gráfico"
+        },
+        "pbsoCh4Atlas0000": {
+          "name": "Atlas"
+        },
+        "Wave Echo Cave": {
+          "name": "Cueva del Oleaje"
+        },
+        "pbsoWaveEchoCave": {
+          "name": "Cueva del Oleaje"
+        },
+        "pbsoArtHandouts0": {
+          "name": "Material gráfico"
+        },
+        "pbsoCh5atlas0000": {
+          "name": "Atlas"
+        },
+        "Paths of Peril": {
+          "name": "Senderos peligrosos"
+        },
+        "Indigo Sanctum": {
+          "name": "Santuario Índigo"
+        },
+        "Stolen Shards Encounters": {
+          "name": "Encuentros de los fragmentos robados"
+        },
+        "Zorzula's Rest": {
+          "name": "Descanso de Zorzula"
+        },
+        "pbsoCh6arthandou": {
+          "name": "Material gráfico"
+        },
+        "pbsoCh6atlas0000": {
+          "name": "Atlas"
+        },
+        "The Shattered Obelisk": {
+          "name": "El Obelisco Fragmentado"
+        },
+        "Crypt of the Talhund": {
+          "name": "Cripta de Talhund"
+        },
+        "Gibbet Crossing": {
+          "name": "Cruce del Cadalso"
+        },
+        "Talhundereth": {
+          "name": "Talhundereth"
+        },
+        "Phandalin Missions": {
+          "name": "Misiones en Phandalin"
+        },
+        "pbsoAtlas0000000": {
+          "name": "Atlas"
+        },
+        "pbsoCh7art000000": {
+          "name": "Material gráfico"
+        },
+        "Rifts in Reality": {
+          "name": "Grietas en la realidad"
+        },
+        "Illithinoch": {
+          "name": "Illithinoch"
+        },
+        "Far Realm Rifts": {
+          "name": "Grietas del Reino Lejano"
+        },
+        "Tunnels of the Deep": {
+          "name": "Túneles de las profundidades"
+        },
+        "pbsoCh8arthandou": {
+          "name": "Material gráfico"
+        },
+        "pbsoCh8atlas0000": {
+          "name": "Atlas"
+        },
+        "Beyond a Lightless Star": {
+          "name": "Más allá de un sol muerto"
+        },
+        "Briny Maze": {
+          "name": "Laberinto Salino"
+        },
+        "The Endless Void": {
+          "name": "El Vacío Infinito"
+        },
+        "Crystal Dome": {
+          "name": "Cúpula de Cristal"
+        },
+        "Empty Bridge": {
+          "name": "Puente Vacío"
+        },
+        "Ilvaash's Anima": {
+          "name": "Ánima de Ilvaash"
+        },
+        "Mire of Doubt": {
+          "name": "Pantano de la Duda"
+        },
+        "Occluding Miasma": {
+          "name": "Miasma Ocultador"
+        },
+        "The Nematode": {
+          "name": "El Nematodo"
+        },
+        "Toppled Statue": {
+          "name": "Estatua Derribada"
+        },
+        "Wailing Battlefield": {
+          "name": "Campo de los Lamentos"
+        },
+        "Credits & License": {
+          "name": "Créditos y licencia"
+        },
+        "Foundry and Adventure Advice": {
+          "name": "Consejos de Foundry y de la aventura"
+        },
+        "Phandelver and Below Changelog": {
+          "name": "Registro de cambios de Phandelver y Más Allá"
+        },
+        "Actor Index": {
+          "name": "Índice de actores"
+        }
       }
     }
   }

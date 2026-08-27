@@ -101,7 +101,18 @@
           }
         },
         "Cragmaw Hideout": {
-          "name": "Guarida Cragmaw"
+          "name": "Guarida Cragmaw",
+          "pages": {
+            "Cragmaw Hideout": { "name": "Guarida Cragmaw" },
+            "Cave Mouth": { "name": "Boca de la cueva" },
+            "Goblin Guard Post": { "name": "Puesto de guardia goblin" },
+            "Kennel": { "name": "Perrera" },
+            "Steep Passage": { "name": "Pasadizo inclinado" },
+            "Overpass": { "name": "Paso elevado" },
+            "Goblin Den": { "name": "Madrigueras goblin" },
+            "Twin Pools Cave": { "name": "Cueva de las presas gemelas" },
+            "Klarg's Cave": { "name": "Cueva de Klarg" }
+          }
         },
         "Goblin Ambush": {
           "name": "Emboscada goblin",

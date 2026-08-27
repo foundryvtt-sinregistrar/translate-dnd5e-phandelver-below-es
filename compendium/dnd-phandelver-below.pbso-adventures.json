@@ -422,7 +422,10 @@
           "name": "Ruinas de Thundertree",
           "pages": {
             "Ruins of Thundertree": { "name": "Ruinas de Thundertree" },
-            "Westernmost Cottage": { "name": "Cabaña occidental" },
+            "Westernmost Cottage": {
+              "name": "Cabaña occidental",
+              "text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Acurrucada a la sombra de un árbol viejo hay una cabaña de piedra derruida, invadida por la maleza y sin tejado.</p></section></section><p>Dos @UUID[Actor.pbsoTwigBlight00]{ramas marchitas} se ocultan entre las malas hierbas que flanquean la puerta abierta. Los personajes con una [[/check skill=prc passive=true dc=13]] o superior las detectan a una distancia máxima de 3 metros. Como alternativa, un personaje situado a menos de 3 metros puede buscar señales de peligro y realizar una prueba de [[/check skill=prc dc=13]], descubriéndolas si tiene éxito.</p><p>Las criaturas permanecen completamente inmóviles. No atacan por iniciativa propia, salvo en defensa propia, pero acuden rápidamente en ayuda de las ramas marchitas del @UUID[.lV7dsdOfeoEAPnK3]{área U2} si allí estalla un combate.</p>"
+            },
             "Blighted Cottages": { "name": "Cabañas corrompidas" },
             "The Brown Horse": { "name": "El Caballo Marrón" },
             "Druid’s Watch Post": { "name": "Puesto de vigilancia de la druida" },

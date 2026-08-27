@@ -1,0 +1,66 @@
+{
+  "id": "translate-dnd5e-phandelver-below-es",
+  "title": "D&D 5e Phandelver and Below - Traducción al español (Babele)",
+  "description": "Traducción al español del módulo oficial Phandelver & Below: The Shattered Obelisk mediante Babele.",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "14.363"
+  },
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "es",
+      "name": "Español",
+      "path": "lang/es.json"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "5.3.1"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "babele",
+        "type": "module",
+        "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
+        "compatibility": {
+          "minimum": "2.7.5"
+        }
+      },
+      {
+        "id": "dnd-phandelver-below",
+        "type": "module",
+        "manifest": "https://r2.foundryvtt.com/packages-public/dnd-phandelver-below/module.json",
+        "compatibility": {
+          "minimum": "3.1.0"
+        }
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/babele-register.js"
+  ],
+  "authors": [
+    {
+      "name": "foundryvtt-sinregistrar"
+    }
+  ],
+  "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es",
+  "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/main/module.json",
+  "download": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest/download/translate-dnd5e-phandelver-below-es.zip",
+  "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/issues",
+  "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/README.md",
+  "changelog": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases",
+  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/LICENSE.md"
+}

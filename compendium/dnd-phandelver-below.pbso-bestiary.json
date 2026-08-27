@@ -1,0 +1,8 @@
+{
+  "label": "Bestiario",
+  "mapping": {
+    "biography": "system.details.biography.value",
+    "tokenName": "prototypeToken.name"
+  },
+  "entries": {}
+}

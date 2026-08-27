@@ -1,0 +1,6 @@
+.gitignore export-ignore
+.gitattributes export-ignore
+.github/ export-ignore
+dev-tools/ export-ignore
+dist/ export-ignore
+README.en.md export-ignore

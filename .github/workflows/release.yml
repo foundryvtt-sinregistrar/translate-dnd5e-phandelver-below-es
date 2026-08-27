@@ -1,0 +1,52 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Tag to publish (for example, v0.1.0)"
+        required: true
+        default: "v0.1.0"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Build & Publish Release (Draft)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout tagged commit
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+          ref: ${{ inputs.tag || github.ref_name }}
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Build module zip
+        run: |
+          python dev-tools/buildScripts/build_release.py --dist dist --ref "${{ inputs.tag || github.ref_name }}"
+          ls -lah dist
+
+      - name: Verify release assets
+        run: |
+          test -f "dist/translate-dnd5e-phandelver-below-es.zip"
+          test -f "module.json"
+
+      - name: Create draft GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ inputs.tag || github.ref_name }}
+          draft: true
+          generate_release_notes: true
+          files: |
+            dist/translate-dnd5e-phandelver-below-es.zip
+            module.json

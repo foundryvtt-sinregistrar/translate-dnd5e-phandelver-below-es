@@ -159,8 +159,14 @@
         "Trouble in Phandalin": {
           "name": "Problemas en Phandalin",
           "pages": {
-            "Trouble in Phandalin": { "name": "Problemas en Phandalin" },
-            "Running this Chapter": { "name": "Dirigir este capítulo" },
+            "Trouble in Phandalin": {
+              "name": "Problemas en Phandalin",
+              "text": "<p>El pueblo fronterizo de @UUID[JournalEntry.pbsoPhandalinVil]{Phandalin} está construido sobre las ruinas de un asentamiento mucho más antiguo. Hace cientos de años, la antigua Phandalin era un pueblo próspero cuyos habitantes mantenían una firme alianza con los enanos y gnomos del Pacto de Phandelver. Sin embargo, los mismos bandidos que saquearon las minas de la @UUID[JournalEntry.pbsoWaveEchoCave]{Cueva del Oleaje} atacaron el asentamiento, y Phandalin quedó abandonada durante siglos.</p><p>En los últimos tres o cuatro años, gente tenaz de las ciudades de Neverwinter y Waterdeep ha empezado a asentarse sobre las ruinas de Phandalin. En el lugar del antiguo asentamiento ha surgido un bullicioso pueblo fronterizo, hogar de granjeros, leñadores, comerciantes de pieles y buscadores atraídos por las historias sobre oro y platino en las estribaciones de las Montañas de la Espada. Por desgracia, también se han instalado aquí bastantes rufianes y bandidos, aprovechando que no existe una autoridad local que los expulse. Una banda conocida como los @UUID[JournalEntry.pbsoRedbrandRuff.JournalEntryPage.oOFgVpJogISYtZOX]{Redbrand}s acosa Phandalin, extorsionando e intimidando a todos sus habitantes. La dirige una figura misteriosa a quien la gente del pueblo solo conoce como «@UUID[Actor.pbsoIarnoAlbrek0]{Bastón de Cristal}».</p><p>@Embed[JournalEntry.pbsoCh2ArtHandou.JournalEntryPage.uUiqKfuCoySd1qNr]</p><figure></figure>"
+            },
+            "Running this Chapter": {
+              "name": "Dirigir este capítulo",
+              "text": "<p>En este capítulo, los personajes conocen a habitantes importantes del pueblo que les encomendarán misiones y se convertirán en sus amigos a lo largo de la aventura. Cuando en capítulos posteriores quede claro el plan de los fanáticos azotamentes contra Phandalin, el vínculo de los personajes con uno o más PNJ del pueblo debería animarlos a salvarlo. Por ahora, presenta a los habitantes como personas amistosas y curiosas por los aventureros para fomentar esos lazos.</p><h2>Progreso de los personajes</h2><p>Los personajes deberían ser de nivel 2 al comenzar el capítulo. Obtienen un nivel cuando terminan de explorar la @UUID[JournalEntry.pbsoRedbrandsHid]{Guarida de los Redbrands} bajo la @UUID[JournalEntry.pbsoPhandalinVil.JournalEntryPage.ylDfMUXdEbTQTYIE]{Mansión Tresendar}.</p>"
+            },
             "Welcome to Phandalin": { "name": "Bienvenidos a Phandalin" },
             "What’s Next?": { "name": "¿Y ahora qué?" },
             "Encounters in Phandalin": { "name": "Encuentros en Phandalin" },

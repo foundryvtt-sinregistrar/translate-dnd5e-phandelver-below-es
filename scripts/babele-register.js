@@ -7,23 +7,23 @@ Hooks.on("init", () => {
   const langs = Array.from(new Set([current, current.split("-")[0]]));
   const compendium = {
     "dnd-phandelver-below.pbso-adventures": {
-      label: "Phandelver y Más Abajo - La aventura",
+      label: "Phandelver y Más Allá - La aventura",
       path: "dnd-phandelver-below.pbso-adventures.json"
     },
     "dnd-phandelver-below.pbso-bestiary": {
-      label: "Phandelver y Más Abajo - Bestiario",
+      label: "Phandelver y Más Allá - Bestiario",
       path: "dnd-phandelver-below.pbso-bestiary.json"
     },
     "dnd-phandelver-below.pbso-items": {
-      label: "Phandelver y Más Abajo - Objetos",
+      label: "Phandelver y Más Allá - Objetos",
       path: "dnd-phandelver-below.pbso-items.json"
     },
     "dnd-phandelver-below.pbso-player-options": {
-      label: "Phandelver y Más Abajo - Opciones de personaje",
+      label: "Phandelver y Más Allá - Opciones de personaje",
       path: "dnd-phandelver-below.pbso-player-options.json"
     },
     "dnd-phandelver-below.pbso-player-tables": {
-      label: "Phandelver y Más Abajo - Tablas de trasfondo",
+      label: "Phandelver y Más Allá - Tablas de trasfondo",
       path: "dnd-phandelver-below.pbso-player-tables.json"
     }
   };

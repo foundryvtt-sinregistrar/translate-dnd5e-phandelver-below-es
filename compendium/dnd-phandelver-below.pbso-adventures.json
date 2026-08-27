@@ -1,5 +1,119 @@
 {
-  "label": "Phandelver y Más Abajo: El Obelisco Destrozado",
+  "label": "Phandelver y Más Allá: El Obelisco Despedazado",
   "mapping": {},
-  "entries": {}
+  "entries": {
+    "p9BGA2AmnAZJCwow": {
+      "name": "Phandelver y Más Allá: El Obelisco Despedazado",
+      "folders": {
+        "Phandelver and Below": "Phandelver y Más Allá",
+        "Chapter 1": "Capítulo 1",
+        "Chapter 2": "Capítulo 2",
+        "Chapter 3": "Capítulo 3",
+        "Chapter 4": "Capítulo 4",
+        "Chapter 5": "Capítulo 5",
+        "Chapter 6": "Capítulo 6",
+        "Chapter 7": "Capítulo 7",
+        "Chapter 8": "Capítulo 8",
+        "Containers": "Contenedores",
+        "Creature Variant Features": "Rasgos de variantes de criaturas",
+        "Locations": "Ubicaciones",
+        "Phandelver & Below": "Phandelver y Más Allá",
+        "Welcome to Phandalin": "Bienvenido a Phandalin",
+        "Getting Started": "Primeros pasos"
+      },
+      "journals": {
+        "Art Handouts": { "name": "Material gráfico" },
+        "Welcome to Phandalin": {
+          "name": "Bienvenido a Phandalin",
+          "pages": {
+            "Welcome to Phandalin": {
+              "name": "Bienvenido a Phandalin"
+            },
+            "About This Book": {
+              "name": "Sobre este libro"
+            },
+            "Running the Adventure": {
+              "name": "Dirigir la aventura",
+              "text": "<p>Todo lo que necesitas para dirigir esta aventura está incluido en este módulo.</p><section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>El texto que aparece en un cuadro como este está diseñado para ser leído en voz alta o parafraseado para los jugadores cuando sus personajes llegan por primera vez a un lugar o en circunstancias específicas, según se indique en el texto.</p></section></section><p>El módulo contiene Actores completos para todas las criaturas que aparecen en esta aventura.</p><p>Cuando el nombre de una criatura aparece como @UUID[Actor.TjWQOgI3A4UAl7lC]{este}, puedes hacer clic en él para acceder a su ficha. Los conjuros y el equipo mencionados en la aventura también están incluidos como Objetos completos enlazados a lo largo del texto de la aventura.</p><h2>Uso de los mapas</h2><p>Este libro contiene varios mapas de interiores, regionales y de poblaciones. Estos elementos se describen con más detalle a continuación.</p><h4>Mapas de interiores</h4><p>Cada mapa que aparece en esta aventura incluye una versión exclusiva para el DM, con símbolos útiles en la entrada de diario de esa zona, así como una versión para los jugadores con muros, iluminación y Tokens colocados previamente.</p><h4>Mapas regionales y de poblaciones</h4><p>La aventura también incluye un diario de @UUID[JournalEntry.pbsoIntroArtHand]{Material gráfico} que contiene un mapa de la región de Phandalin para el DM y otro para los jugadores, con lugares destacados de la Infraoscuridad a los que viajarán los personajes. Si los jugadores todavía no reconocen esos nombres, ¡mejor! Cuando descubran durante la partida hacia dónde se dirigen, se darán cuenta de que ya habían oído hablar del lugar y podrán encaminarse en la dirección correcta cuando quieran.</p><p>También hay mapas de la población de Phandalin para el DM y para los jugadores.</p><p>@Embed[JournalEntry.pbsoCh1Atlas0000.JournalEntryPage.UrjDSKcq2vSzOcPg]</p><figure><h2>Resoluciones no letales</h2></figure><p>Esta aventura está repleta de encuentros en los que los personajes podrían querer luchar contra sus enemigos. Sin embargo, el combate no es la única opción: muchas confrontaciones pueden resolverse de forma no violenta o sin causar muertes. Los personajes podrían dejar inconscientes a sus enemigos, intimidarlos para que huyan, sobornarlos a cambio de información o encontrar otras formas creativas de resolver los conflictos. Usa tu criterio y, si los personajes buscan una solución sin violencia, acepta su propuesta siempre que la historia lo permita.</p><h2>Los Reinos Olvidados</h2><p>Los Reinos Olvidados son un mundo de alta fantasía habitado por elfos, enanos, medianos, humanos y otros pueblos. Los Reinos están llenos de valerosos caballeros que emprenden misiones ancestrales, pícaros furtivos que recorren las calles de las ciudades, clérigos que empuñan mazas y lanzan conjuros al servicio de sus dioses, y magos que saquean las ruinas del desaparecido imperio netherino. Los héroes son escasos y los peligros, ya sean el aliento de un dragón o el conjuro de un liche, abundan.</p><p>Esta aventura transcurre en una región llamada la Costa de la Espada, donde almas audaces se adentran en los restos de fortalezas caídas y exploran las ruinas de civilizaciones perdidas. Bajo tierra, la historia y los peligros son igual de ricos. La Infraoscuridad de esta región está repleta de monstruos y vestigios de poderosas civilizaciones, además de horrores desconocidos.</p><p>El mapa anterior muestra la región de la Costa de la Espada que rodea Phandalin. En él aparecen señalados varios lugares de interés, entre ellos ubicaciones de la Infraoscuridad fundamentales para la trama de esta aventura. Otras partes del mapa no tienen nombre: ¡las aventuras que los personajes encuentren allí quedan en tus manos!</p>"
+            },
+            "Adventure Hooks": {
+              "name": "Ganchos de aventura",
+              "text": "<p>Los jugadores pueden inventar sus propios motivos para visitar @UUID[JournalEntry.pbsoPhandalinVil]{Phandalin} o utilizar los siguientes ganchos de aventura. Los ganchos de personaje vinculados a trasfondos también proporcionan a los personajes razones para visitar Phandalin.</p><p>Se recomienda que al menos un personaje utilice el gancho de aventura <strong>Encuéntrame en Phandalin</strong> que aparece a continuación, para que el grupo tenga una conexión con el enano @UUID[Actor.pbsoGundrenRocks]{Gundren Rockseeker}, quien desempeña un papel destacado en los capítulos 1–<span>4</span>:</p><figure class=\"float-right size-three\"><figcaption>@Embed[JournalEntry.pbsoIntroArtHand.JournalEntryPage.pfTKJtz5I0xCTXRI cite=false]</figcaption></figure><p><strong>Encuéntrame en Phandalin.</strong> Te encuentras en la ciudad de Neverwinter cuando tu patrón y amigo enano, Gundren Rockseeker, te contrata para escoltar una carreta hasta Phandalin. Gundren se ha adelantado junto a un guerrero, Sildar Hallwinter, para atender unos asuntos en el pueblo mientras tú los sigues con los suministros. El propietario de Suministros de Barthen, en Phandalin, os pagará 10 po a cada uno cuando entreguéis la carreta sana y salva en el puesto comercial.</p><p><strong>Amigo de los Harpistas.</strong> Has pasado gran parte de tu vida admirando a los Harpistas, una organización secreta dedicada a promover el bien y preservar la historia. Siempre has querido unirte a ellos, pero te ha costado llamar la atención del grupo. Te diriges a Phandalin con la esperanza de que tus buenas acciones hagan que los Harpistas reparen en ti.</p><p><strong>Aprendiz del Guantelete.</strong> Te has comprometido con la Orden del Guantelete, un grupo devoto y vigilante que busca proteger a los demás de los malhechores. Antes de convertirte en miembro de pleno derecho, has decidido conocer a tu héroe, un aventurero retirado llamado @UUID[JournalEntry.pbsoPhandalinVil.JournalEntryPage.zftIv8cpWW4tEmS9]{Daran Edermath}, que perteneció a la orden y ha frustrado numerosas amenazas locales. Daran vive en Phandalin, en una cabaña junto a un huerto de manzanos. Piensas visitarlo y empaparte de su sabiduría antes de unirte tú mismo a la orden.</p><h2>Inicio de la aventura</h2><p>Cuando comienza esta aventura, los personajes se encuentran en Neverwinter. Considera decirles que todos viajarán en la misma carreta rumbo a Phandalin, ya sea porque trabajan para el enano Gundren Rockseeker (consulta el gancho de aventura <strong>Encuéntrame en Phandalin</strong> anterior) o porque tienen otro motivo para dirigirse al pueblo fronterizo. Sea cual sea su motivación, permíteles viajar en la carreta sin coste adicional y narra cómo consiguió cada personaje su pasaje según sea necesario. Si estableces por qué viajan juntos antes de iniciar la aventura, las sesiones de juego posteriores se desarrollarán con mayor fluidez.</p>"
+            },
+            "Character Creation": {
+              "name": "Creación de personajes"
+            },
+            "Far Realm Influence": {
+              "name": "Influjo del Reino Lejano"
+            },
+            "Table of Contents": {
+              "name": "Índice"
+            },
+            "Phandelver and Below: the Shattered Obelisk": {
+              "name": "Phandelver y Más Allá: El Obelisco Despedazado"
+            }
+          }
+        },
+        "pbsoCh1ArtHandou": { "name": "Material gráfico" },
+        "Atlas": { "name": "Atlas" },
+        "A Dangerous Journey": { "name": "Un viaje peligroso" },
+        "Cragmaw Hideout": { "name": "Guarida Cragmaw" },
+        "Goblin Ambush": { "name": "Emboscada goblin" },
+        "pbsoCh2ArtHandou": { "name": "Material gráfico" },
+        "pbsoCh2Atlas0000": { "name": "Atlas" },
+        "Trouble in Phandalin": { "name": "Problemas en Phandalin" },
+        "Phandalin Village": { "name": "Pueblo de Phandalin" },
+        "Redbrand Ruffians Confrontation": { "name": "Enfrentamiento con los Redbrands" },
+        "Redbrands' Hideout": { "name": "Guarida de los Redbrands" },
+        "pbsoCh3ArtHandou": { "name": "Material gráfico" },
+        "pbsoCh3Atlas0000": { "name": "Atlas" },
+        "The Spider's Web": { "name": "La Telaraña" },
+        "Conyberry and Agatha's Lair": { "name": "Conyberry y la guarida de Agatha" },
+        "Cragmaw Castle": { "name": "Castillo Cragmaw" },
+        "Old Owl Well": { "name": "Pozo del Viejo Búho" },
+        "Ruins of Thundertree": { "name": "Ruinas de Thundertree" },
+        "Wyvern Tor": { "name": "Túmulo del Wyvern" },
+        "pbsoCh4ArtHandou": { "name": "Material gráfico" },
+        "pbsoCh4Atlas0000": { "name": "Atlas" },
+        "Wave Echo Cave": { "name": "Cueva del Oleaje" },
+        "pbsoWaveEchoCave": { "name": "Cueva del Oleaje" },
+        "pbsoArtHandouts0": { "name": "Material gráfico" },
+        "pbsoCh5atlas0000": { "name": "Atlas" },
+        "Paths of Peril": { "name": "Senderos peligrosos" },
+        "Indigo Sanctum": { "name": "Santuario Índigo" },
+        "Stolen Shards Encounters": { "name": "Encuentros de los fragmentos robados" },
+        "Zorzula's Rest": { "name": "Descanso de Zorzula" },
+        "pbsoCh6arthandou": { "name": "Material gráfico" },
+        "pbsoCh6atlas0000": { "name": "Atlas" },
+        "The Shattered Obelisk": { "name": "El Obelisco Fragmentado" },
+        "Crypt of the Talhund": { "name": "Cripta de Talhund" },
+        "Gibbet Crossing": { "name": "Cruce del Cadalso" },
+        "Talhundereth": { "name": "Talhundereth" },
+        "Phandalin Missions": { "name": "Misiones en Phandalin" },
+        "pbsoAtlas0000000": { "name": "Atlas" },
+        "pbsoCh7art000000": { "name": "Material gráfico" },
+        "Rifts in Reality": { "name": "Grietas en la realidad" },
+        "Illithinoch": { "name": "Illithinoch" },
+        "Far Realm Rifts": { "name": "Grietas del Reino Lejano" },
+        "Tunnels of the Deep": { "name": "Túneles de las profundidades" },
+        "pbsoCh8arthandou": { "name": "Material gráfico" },
+        "pbsoCh8atlas0000": { "name": "Atlas" },
+        "Beyond a Lightless Star": { "name": "Más allá de un sol muerto" },
+        "Briny Maze": { "name": "Laberinto Salino" },
+        "The Endless Void": { "name": "El Vacío Infinito" },
+        "Crystal Dome": { "name": "Cúpula de Cristal" },
+        "Empty Bridge": { "name": "Puente Vacío" },
+        "Ilvaash's Anima": { "name": "Ánima de Ilvaash" },
+        "Mire of Doubt": { "name": "Pantano de la Duda" },
+        "Occluding Miasma": { "name": "Miasma Ocultador" },
+        "The Nematode": { "name": "El Nematodo" },
+        "Toppled Statue": { "name": "Estatua Derribada" },
+        "Wailing Battlefield": { "name": "Campo de los Lamentos" },
+        "Credits & License": { "name": "Créditos y licencia" },
+        "Foundry and Adventure Advice": { "name": "Consejos de Foundry y de la aventura" },
+        "Phandelver and Below Changelog": { "name": "Registro de cambios de Phandelver y Más Allá" },
+        "Actor Index": { "name": "Índice de actores" }
+      }
+    }
+  }
 }

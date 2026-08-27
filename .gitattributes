@@ -4,3 +4,4 @@
 dev-tools/ export-ignore
 dist/ export-ignore
 README.en.md export-ignore
+DEVELOPER.md export-ignore

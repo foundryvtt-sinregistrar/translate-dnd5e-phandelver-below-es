@@ -1,4 +1,4 @@
-# 🇪🇸 Phandelver y Más Abajo — Español (Babele)
+# 🇪🇸 Phandelver y Más Allá — Español (Babele)
 
 Traducción al español para Foundry VTT del módulo oficial **Phandelver & Below: The Shattered Obelisk**.
 

@@ -1152,7 +1152,17 @@
           "name": "Material gráfico"
         },
         "Rifts in Reality": {
-          "name": "Grietas en la realidad"
+          "name": "Grietas en la realidad",
+          "pages": {
+            "Rifts in Reality": {
+              "name": "Grietas en la realidad",
+              "text": "<p>Mientras buscaban los fragmentos del obelisco en el capítulo anterior, los personajes descubrieron la sede de los fanáticos: un enclave de @UUID[Actor.pbsoMindFlayer00]{mind flayer} llamado @UUID[JournalEntry.pbsoCh7illithino]{Illithinoch}, situado en las profundidades de la Infraoscuridad bajo @UUID[JournalEntry.pbsoPhandalinVil]{Phandalin}. En este capítulo, los personajes averiguan más cosas sobre los fanáticos y rescatan a las víctimas secuestradas en Phandalin. Sin embargo, lograrlo —y detener el ritual que amenaza con convertir a los habitantes de Phandalin en azotamentes— será mucho más angustioso de lo que imaginan. @Embed[JournalEntry.pbsoCh7art000000.JournalEntryPage.X3YnRZWJnACGcOHz]</p><h1>Dirigir este capítulo</h1><p>Los personajes comienzan el capítulo sabiendo que un trío de azotamentes prepara un ritual para transformar en azotamentes a los humanoides de la superficie. El ritual afectará con toda seguridad a Phandalin y podría extenderse por otros pequeños núcleos de población de la región. Tú decides sus parámetros exactos.</p><p>Si consideras que los personajes están superando con demasiada facilidad los desafíos de la aventura, puedes decidir que el ritual de los fanáticos está casi terminado, lo que los obligará a seguir adelante sin descansar ni reabastecerse. Si las amenazas de la aventura les han supuesto dificultades considerables, puedes decirles que disponen de tiempo suficiente antes de que los fanáticos terminen el ritual, de modo que los héroes podrán descansar y reabastecerse cuando lo necesiten. Ambas opciones son válidas.</p><p>La mejor opción de los personajes es regresar a Phandalin y compartir sus descubrimientos con un aliado entendido, como @UUID[Actor.CHEUjiYrVM9X0vIT]{Gwyn Oresong} o @UUID[Actor.pbsoRivibiddel00]{Rivibiddel}.</p><p>Poco después de volver a Phandalin, los personajes descubren bajo el pueblo un pasadizo que conduce a la Infraoscuridad y a @UUID[JournalEntry.pbsoCh7illithino]{Illithinoch}. Se ponen en marcha por la Infraoscuridad para llegar a la deteriorada fortaleza azotamentes, afrontando diversos peligros por el camino. En Illithinoch descubren que los fanáticos ya han escapado por un portal al Reino Lejano. Para perseguirlos, deben explorar tres @UUID[JournalEntry.pbsoCh7rifts0000]{Far Realm rifts} dispersas por Illithinoch y reunir las llaves necesarias para abrir el portal.</p><h2>Avance de los personajes</h2><p>Los personajes deberían ser de nivel 9 al comenzar el capítulo. Suben un nivel después de abrir el portal al Reino Lejano.</p>"
+            },
+            "What's Next": {
+              "name": "Qué viene después",
+              "text": "<p>Este capítulo concluye cuando los personajes abren el portal al Reino Lejano. Ya pueden perseguir a los fanáticos «más allá de una estrella sin luz», hasta el extraño corazón del dominio de un semidiós. Allí se enfrentarán a ellos y por fin tendrán la oportunidad de detener el ritual y rescatar a los habitantes de @UUID[JournalEntry.pbsoPhandalinVil]{Phandalin}.</p><p>Puede que los personajes quieran regresar a Phandalin o continuar a través del portal de la @UUID[JournalEntry.pbsoCh7illithino.JournalEntryPage.zh2vB6ztbbmSipBX]{area X16}. En cualquier caso, sus aventuras prosiguen en el @UUID[JournalEntry.pbsoChapter80000]{chapter 8}.</p>"
+            }
+          }
         },
         "Illithinoch": {
           "name": "Illithinoch"

@@ -911,7 +911,29 @@
           }
         },
         "Gibbet Crossing": {
-          "name": "Cruce del Cadalso"
+          "name": "Cruce del Cadalso",
+          "pages": {
+            "Gibbet Crossing": {
+              "name": "Cruce del Cadalso",
+              "text": "<p>El @UUID[JournalEntry.pbsoCh6gibbetcro]{Cruce del Cadalso} es un lugar desolado. Antaño fue una encrucijada de la Infraoscuridad donde comunidades drow, duergar y svirfneblin convivían en una paz incómoda. Los duergar mantenían un lucrativo negocio de jaulas plegables —sus bien fabricadas jaulas colgantes dieron nombre al cruce— y dependían del mithril suministrado por los svirfneblin. Los drows ofrecían seguridad a cambio de participar en los contratos comerciales con los svirfneblin y, al mismo tiempo, negociaban precios justos para los productos duergar. Siempre hubo tensiones. Cuando los azotamentes atacaron hace mucho, los grupos no lucharon juntos y fueron aniquilados por separado.</p><p>Hoy solo viven monstruos en la región. Los humanoides rara vez la atraviesan, pues los derrumbes y las inundaciones la han vuelto incómoda como vía de paso.</p><p>Un grupo de ladrones que había conseguido un fragmento del obelisco vino a saquear una cámara acorazada abandonada. La magia del obelisco activó un objeto mágico olvidado y los dejó atrapados. Murieron con sus tesoros.</p><p>Hace poco, los fanáticos azotamentes enviaron a uno de sus agentes más poderosos, un brujo azotamentes llamado @UUID[Actor.pbsoQunbraxel000]{Qunbraxel}, para conseguir los fragmentos. Sabe que uno se oculta en algún lugar del Cruce del Cadalso y ha ordenado a sus esbirros grimlocks que lo busquen.</p><p>Llegar suele ser una empresa abrumadora, pues los peligros de la Infraoscuridad disuaden a la mayoría de los viajeros. Qunbraxel ha matado o ahuyentado a las criaturas peligrosas que suelen acechar en la zona para que los grimlocks puedan ir y venir con facilidad. Los peligros del propio cruce han resultado más difíciles de erradicar, pero el azotamentes tiene una idea de dónde está el fragmento, así que no ha necesitado despejar la antigua encrucijada.</p><p>Cuando viajen hasta allí, tú decides si los personajes se enfrentan a monstruos o amenazas aleatorias de la Infraoscuridad. Narrar el peligroso viaje puede resultar tan eficaz como dirigir encuentros aleatorios.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/vtt-512.png\"></figure><article><h3>Activar la escena Cruce del Cadalso</h3><p>Cuando lleguen los jugadores, activa la escena @UUID[Scene.pbsoMap6p5000000]{Cruce del Cadalso}.</p></article></section>"
+            },
+            "Gibbet Crossing Features": {
+              "name": "Características del Cruce del Cadalso",
+              "text": "<p>El Cruce del Cadalso consta de tres zonas separadas por anchos túneles naturales alisados para facilitar el tránsito. El taller duergar está al oeste, el enclave svirfneblin al nordeste y las salas comerciales drow al sudeste.</p><h3>Iluminación</h3><p>Unos conjuros de @UUID[Compendium.dnd5e.spells.Item.MK6gpQMeDFo0cP9f]{Llama Permanente} siguen iluminando los túneles naturales después de muchos años, pero las cámaras están a oscuras y los habitantes actuales dependen de &amp;Reference[darkvision]. Las descripciones presuponen que los personajes tienen una fuente de luz u otro método para ver.</p><h3>Puertas</h3><p>Las puertas son losas de piedra de 5 centímetros de grosor. Las que dan a un túnel natural tienen ranuras para colocar una barra de refuerzo, pero no se encuentra ninguna salvo en el pasadizo a Talhundereth (zona @UUID[.pgPurWbnRFNOsZOx]{G11}).</p><h3>Techos</h3><p>Los techos del enclave svirfneblin (zonas @UUID[.pgPurWbnRFNOsZOx]{G11} a @UUID[.l37BZzpIfBelLsxg]{G14}) tienen 2,7 metros de altura. En el resto del Cruce tienen 3 metros salvo que el texto indique lo contrario.</p>"
+            },
+            "Gibbet Crossing Locations": {
+              "name": "Lugares del Cruce del Cadalso",
+              "text": "<p>Los siguientes lugares se corresponden con la escena @UUID[Scene.pbsoMap6p5000000]{Cruce del Cadalso}.</p><p>@Embed[JournalEntry.pbsoCh6atlas0000.JournalEntryPage.Iox0gWJXWMbZxi21 caption=false]</p>"
+            },
+            "Surface Entrance": {
+              "name": "Entrada desde la superficie",
+              "text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Unos pocos montones de escoria antigua y piedras caídas son todo lo que queda en esta gran sala. Hay palabras talladas en una puerta doble que conduce al sur. Otras puertas dan al este y al oeste; la occidental presenta una gran «X» de color rojo oscuro.</p></section></section><p>El túnel desde la superficie serpentea bajo tierra durante más de 1,5 kilómetros. Su punto más profundo es un derrumbe que hundió la pared trasera de esta sala.</p><p>Las palabras de la puerta meridional repiten «labor» en enano.</p><p>Exploradores anteriores se llevaron todo lo que tenía valor. La marca roja pretende señalar una salida segura, aunque los personajes podrían interpretarla de otra forma.</p>"
+            },
+            "Storeroom": {
+              "name": "Almacén",
+              "text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Los estantes y soportes de este almacén contienen barras de hierro de distintas longitudes.</p></section></section><p>Las pesadas barras eran materia prima para el taller duergar y quedaron aquí cuando empezaron a depender del mithril de sus vecinos svirfneblin. Están muy oxidadas y carecen de valor. Si un personaje enano o competente en &amp;Reference[skill=history] las examina, identifica marcas que indican su fabricación duergar. Un personaje competente en Historia también comprende que el clan que utilizaba esas marcas desapareció hace mucho, arrasado por los azotamentes muchas generaciones atrás.</p>"
+            }
+          }
         },
         "Talhundereth": {
           "name": "Talhundereth",

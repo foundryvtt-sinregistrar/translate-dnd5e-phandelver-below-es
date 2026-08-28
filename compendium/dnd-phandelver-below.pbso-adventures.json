@@ -1398,7 +1398,13 @@
           "name": "Atlas"
         },
         "Beyond a Lightless Star": {
-          "name": "Más allá de un sol muerto"
+          "name": "Más allá de un sol muerto",
+          "pages": {
+            "Beyond a Lightless Star": {
+              "name": "Más allá de un sol muerto",
+              "text": "<p>Los fanáticos azotamentes han huido de la fortaleza subterránea de Illithinoch al Reino Lejano. Allí comulgan directamente con su malvada deidad, Ilvaash, mientras inician un siniestro ritual que transformará en azotamentes a los humanoides de Phandalin y sus alrededores. En el corazón del dominio oculto de Ilvaash, los fanáticos utilizan la antigua magia del obelisco netherino para completar el ritual. ¡Nadie salvo los personajes puede detener su vil plan!</p><p>@Embed[JournalEntry.pbsoCh8arthandou.JournalEntryPage.If8OLyu8JJFJEAA5]</p><h1>Dirigir este capítulo</h1><p>Los fanáticos ya han comenzado su prolongado ritual. Se creen a salvo en el dominio de Ilvaash, llamado el @UUID[JournalEntry.pbsoCh8brinymaze]{Laberinto Salino.} En su corazón, Ilvaash acecha en un inmenso reducto vacío de cuasirealidad psíquica llamado el @UUID[JournalEntry.pbsoCh8void00000]{Vacío Infinito.} Los personajes deben recorrer el Laberinto Salino —superar sus peligros y negociar con posibles aliados— antes de alcanzar el Vacío Infinito y enfrentarse tanto a los fanáticos como a una @UUID[Actor.pbsoIlvaash00000]{refracción psíquica de Ilvaash.}</p><h2>En el Reino Lejano</h2><p>La mayor parte de este capítulo transcurre en el Reino Lejano, un lugar hostil para los mortales. Cualquier criatura que no sea habitante del Reino Lejano y termine un descanso largo allí debe realizar una tirada de salvación de [[/save ability=wis dc=15]]. Si falla, obtiene 1 nivel de &amp;Reference[exhaustion]{agotamiento}.</p><h2>Avance de los personajes</h2><p>Los personajes deberían ser de nivel 10 al comenzar el capítulo. El avance se gestiona del siguiente modo:</p><ul><li>Los personajes suben un nivel después de alcanzar la entrada al Vacío Infinito.</li><li>Los personajes suben un nivel cuando derrotan a los tres fanáticos azotamentes.</li></ul>"
+            }
+          }
         },
         "Briny Maze": {
           "name": "Laberinto Salino"

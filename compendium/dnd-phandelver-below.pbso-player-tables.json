@@ -4,7 +4,8 @@
     "Charlatan": "Charlatán",
     "Criminal": "Criminal",
     "Folk Hero": "Héroe del pueblo",
-    "Entertainer": "Artista"
+    "Entertainer": "Artista",
+    "Guild Artisan": "Artesano gremial"
   },
   "mapping": {
     "description": "description"
@@ -328,6 +329,74 @@
         "4-4": { "name": "", "description": "Cambio de identidad como quien cambia de ropa." },
         "5-5": { "name": "", "description": "Realizo timos de prestidigitación en las esquinas." },
         "6-6": { "name": "", "description": "Convenzo a la gente de que una baratija sin valor merece el dinero que tanto les ha costado ganar." }
+      }
+    },
+    "pbsoGuildBusines": {
+      "name": "Oficio del gremio",
+      "description": "<p>Los gremios suelen encontrarse en ciudades lo bastante grandes como para albergar a varios artesanos del mismo oficio. Sin embargo, tu gremio podría ser una red informal de artesanos que trabajan en distintas aldeas de un reino mayor. Decide con tu DM la naturaleza del gremio. Puedes elegir su oficio en la tabla Oficio del gremio o determinarlo al azar.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Alquimistas y boticarios" },
+        "2-2": { "name": "", "description": "Armeros, cerrajeros y herreros de precisión" },
+        "3-3": { "name": "", "description": "Cerveceros, destiladores y vinateros" },
+        "4-4": { "name": "", "description": "Calígrafos, escribas y copistas" },
+        "5-5": { "name": "", "description": "Carpinteros, techadores y yeseros" },
+        "6-6": { "name": "", "description": "Cartógrafos, agrimensores y trazadores de mapas" },
+        "7-7": { "name": "", "description": "Zapateros y remendones" },
+        "8-8": { "name": "", "description": "Cocineros y panaderos" },
+        "9-9": { "name": "", "description": "Sopladores de vidrio y vidrieros" },
+        "10-10": { "name": "", "description": "Joyeros y talladores de gemas" },
+        "11-11": { "name": "", "description": "Marroquineros, desolladores y curtidores" },
+        "12-12": { "name": "", "description": "Albañiles y canteros" },
+        "13-13": { "name": "", "description": "Pintores, iluminadores y rotulistas" },
+        "14-14": { "name": "", "description": "Alfareros y fabricantes de azulejos" },
+        "15-15": { "name": "", "description": "Constructores navales y veleros" },
+        "16-16": { "name": "", "description": "Herreros y forjadores" },
+        "17-17": { "name": "", "description": "Caldereros, estañeros y fundidores" },
+        "18-18": { "name": "", "description": "Carreteros y constructores de ruedas" },
+        "19-19": { "name": "", "description": "Tejedores y tintoreros" },
+        "20-20": { "name": "", "description": "Tallistas, toneleros y arqueros" }
+      }
+    },
+    "pbsoGuildbond000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "El taller donde aprendí mi oficio es el lugar más importante del mundo para mí." },
+        "2-2": { "name": "", "description": "Creé una gran obra para alguien y después descubrí que no era digno de recibirla. Aún busco a alguien que lo sea." },
+        "3-3": { "name": "", "description": "Tengo una enorme deuda con mi gremio por haberme convertido en la persona que soy hoy." },
+        "4-4": { "name": "", "description": "Busco riquezas para ganarme el amor de alguien." },
+        "5-5": { "name": "", "description": "Algún día regresaré a mi gremio y demostraré que soy el mejor artesano de todos." },
+        "6-6": { "name": "", "description": "Me vengaré de las fuerzas malignas que destruyeron mi negocio y arruinaron mi medio de vida." }
+      }
+    },
+    "pbsoGuildflaw000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "Haré cualquier cosa para hacerme con algo raro o de valor incalculable." },
+        "2-2": { "name": "", "description": "Enseguida supongo que alguien intenta estafarme." },
+        "3-3": { "name": "", "description": "Nadie debe descubrir jamás que una vez robé dinero de las arcas del gremio." },
+        "4-4": { "name": "", "description": "Nunca estoy satisfecho con lo que tengo: siempre quiero más." },
+        "5-5": { "name": "", "description": "Mataría por conseguir un título nobiliario." },
+        "6-6": { "name": "", "description": "Siento unos celos terribles de cualquiera cuya obra pueda eclipsar la mía. Allá donde voy estoy rodeado de rivales." }
+      }
+    },
+    "pbsoGuildideal00": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Comunidad. Es deber de todos reforzar los lazos y la seguridad de las comunidades. (Legal)" },
+        "2-2": { "name": "", "description": "Generosidad. Recibí mis talentos para emplearlos en beneficio del mundo. (Bueno)" },
+        "3-3": { "name": "", "description": "Libertad. Todo el mundo debería ser libre de ganarse la vida como prefiera. (Caótico)" },
+        "4-4": { "name": "", "description": "Avaricia. Solo me interesa el dinero. (Maligno)" },
+        "5-5": { "name": "", "description": "Personas. Mi compromiso es con las personas que me importan, no con unos ideales. (Neutral)" },
+        "6-6": { "name": "", "description": "Aspiración. Trabajo duro para ser el mejor en mi oficio. (Cualquiera)" }
+      }
+    },
+    "pbsoGuildtrait00": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Creo que, si merece la pena hacer algo, merece la pena hacerlo bien. No puedo evitarlo: soy perfeccionista." },
+        "2-2": { "name": "", "description": "Soy un esnob que menosprecia a quienes no saben apreciar el buen arte." },
+        "3-3": { "name": "", "description": "Siempre quiero saber cómo funcionan las cosas y qué motiva a las personas." },
+        "4-4": { "name": "", "description": "Estoy lleno de aforismos ingeniosos y tengo un refrán para cada ocasión." },
+        "5-5": { "name": "", "description": "Soy grosero con quienes no comparten mi dedicación al trabajo duro y al juego limpio." },
+        "6-6": { "name": "", "description": "Me gusta hablar largo y tendido sobre mi profesión." },
+        "7-7": { "name": "", "description": "No me desprendo fácilmente de mi dinero y regateo sin descanso para conseguir el mejor trato posible." },
+        "8-8": { "name": "", "description": "Mi trabajo es muy conocido y quiero asegurarme de que todo el mundo lo aprecie. Siempre me sorprende que alguien no haya oído hablar de mí." }
       }
     }
   }

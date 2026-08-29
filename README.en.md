@@ -15,6 +15,6 @@ Install this module and its dependencies, enable them in your world, and select 
 
 ## Status
 
-This project is in its initial stage. Translation files for all five official compendiums are ready to receive entries.
+Translation is in progress. All **53 background tables** in the player tables compendium are translated into Spanish. The adventure compendium contains an initial set of translated journals; the remaining compendiums are still pending.
 
 This project does not include or redistribute content from the original commercial module.

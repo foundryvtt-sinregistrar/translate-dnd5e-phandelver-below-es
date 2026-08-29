@@ -15,7 +15,7 @@ Instala este módulo y sus dependencias, actívalos en el mundo y selecciona Esp
 
 ## Estado
 
-El proyecto se encuentra en fase inicial. Los archivos de los cinco compendios oficiales están preparados para incorporar las traducciones.
+La traducción está en desarrollo. Las **53 tablas de trasfondo** del compendio de opciones para jugadores están traducidas al español. El compendio de aventuras contiene una primera tanda de diarios traducidos; los demás compendios siguen pendientes.
 
 ## Desarrollo
 

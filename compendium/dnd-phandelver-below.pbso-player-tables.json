@@ -10,7 +10,8 @@
     "Noble": "Noble",
     "Outlander": "Forastero",
     "Sage": "Sabio",
-    "Sailor": "Marinero"
+    "Sailor": "Marinero",
+    "Soldier": "Soldado"
   },
   "mapping": {
     "description": "description"
@@ -656,6 +657,62 @@
         "6-6": { "name": "", "description": "Nunca rechazo una apuesta amistosa." },
         "7-7": { "name": "", "description": "Mi vocabulario es tan sucio como el nido de un otyugh." },
         "8-8": { "name": "", "description": "Me gusta el trabajo bien hecho, sobre todo si puedo convencer a otra persona para que lo haga." }
+      }
+    },
+    "pbsoSoldbond0000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Todavía daría la vida por quienes sirvieron a mi lado." },
+        "2-2": { "name": "", "description": "Alguien me salvó la vida en el campo de batalla. Desde entonces, jamás dejo atrás a un amigo." },
+        "3-3": { "name": "", "description": "Mi honor es mi vida." },
+        "4-4": { "name": "", "description": "Nunca olvidaré la aplastante derrota que sufrió mi compañía ni a los enemigos que nos la infligieron." },
+        "5-5": { "name": "", "description": "Quienes luchan a mi lado son aquellos por quienes merece la pena morir." },
+        "6-6": { "name": "", "description": "Lucho por quienes no pueden luchar por sí mismos." }
+      }
+    },
+    "pbsoSoldflaw0000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "El monstruoso enemigo al que nos enfrentamos en batalla aún me hace temblar de miedo." },
+        "2-2": { "name": "", "description": "Siento poco respeto por quienes no han demostrado ser guerreros." },
+        "3-3": { "name": "", "description": "Cometí un error terrible en batalla que costó muchas vidas y haría cualquier cosa para mantenerlo en secreto." },
+        "4-4": { "name": "", "description": "Mi odio hacia mis enemigos es ciego e irracional." },
+        "5-5": { "name": "", "description": "Obedezco la ley, aunque provoque sufrimiento." },
+        "6-6": { "name": "", "description": "Preferiría comerme mi armadura antes que admitir que me equivoco." }
+      }
+    },
+    "pbsoSoldideal000": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Bien común. Nuestro destino es dar la vida en defensa de los demás. (Bueno)" },
+        "2-2": { "name": "", "description": "Responsabilidad. Hago lo que debo y obedezco a la autoridad justa. (Legal)" },
+        "3-3": { "name": "", "description": "Independencia. Cuando las personas obedecen órdenes ciegamente, abrazan una forma de tiranía. (Caótico)" },
+        "4-4": { "name": "", "description": "Poder. Tanto en la vida como en la guerra, vence la fuerza superior. (Maligno)" },
+        "5-5": { "name": "", "description": "Vive y deja vivir. No merece la pena matar ni ir a la guerra por unos ideales. (Neutral)" },
+        "6-6": { "name": "", "description": "Nación. Mi ciudad, mi nación o mi pueblo son lo único que importa. (Cualquiera)" }
+      }
+    },
+    "pbsoSoldtrait000": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Siempre soy educado y respetuoso." },
+        "2-2": { "name": "", "description": "Me atormentan los recuerdos de la guerra. No puedo apartar de mi mente las imágenes de violencia." },
+        "3-3": { "name": "", "description": "He perdido demasiados amigos y me cuesta hacer otros nuevos." },
+        "4-4": { "name": "", "description": "Mi experiencia militar me ha dejado multitud de relatos inspiradores y aleccionadores para casi cualquier situación de combate." },
+        "5-5": { "name": "", "description": "Puedo sostenerle la mirada a un mastín infernal sin pestañear." },
+        "6-6": { "name": "", "description": "Disfruto siendo fuerte y me gusta romper cosas." },
+        "7-7": { "name": "", "description": "Tengo un sentido del humor vulgar." },
+        "8-8": { "name": "", "description": "Afronto los problemas de frente. Una solución sencilla y directa es el mejor camino hacia el éxito." }
+      }
+    },
+    "pbsoSpecialtySol": {
+      "name": "Especialidad",
+      "description": "<p>Durante tu etapa como soldado desempeñaste un papel concreto en tu unidad o ejército. Tira 1d8 o elige una de las opciones de la tabla siguiente para determinarlo:</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Oficial" },
+        "2-2": { "name": "", "description": "Explorador" },
+        "3-3": { "name": "", "description": "Infantería" },
+        "4-4": { "name": "", "description": "Caballería" },
+        "5-5": { "name": "", "description": "Sanador" },
+        "6-6": { "name": "", "description": "Intendente" },
+        "7-7": { "name": "", "description": "Abanderado" },
+        "8-8": { "name": "", "description": "Personal de apoyo (cocinero, herrero o similar)" }
       }
     }
   }

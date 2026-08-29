@@ -1,7 +1,8 @@
 {
   "label": "Tablas de trasfondo",
   "folders": {
-    "Charlatan": "Charlatán"
+    "Charlatan": "Charlatán",
+    "Criminal": "Criminal"
   },
   "mapping": {
     "description": "description"
@@ -133,6 +134,70 @@
           "name": "",
           "description": "Me guardo en el bolsillo cualquier cosa que vea y que pueda tener algún valor."
         }
+      }
+    },
+    "pbsoCrimbond0000": {
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": { "name": "", "description": "Intento saldar una antigua deuda que tengo con un benefactor generoso." },
+        "2-2": { "name": "", "description": "Mis ganancias mal habidas sirven para mantener a mi familia." },
+        "3-3": { "name": "", "description": "Me arrebataron algo importante y pretendo recuperarlo robándolo." },
+        "4-4": { "name": "", "description": "Me convertiré en el ladrón más grande que jamás haya existido." },
+        "5-5": { "name": "", "description": "Soy culpable de un crimen terrible. Espero poder redimirme por ello." },
+        "6-6": { "name": "", "description": "Alguien a quien amaba murió por culpa de un error que cometí. Eso no volverá a suceder." }
+      }
+    },
+    "pbsoCrimflaw0000": {
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": { "name": "", "description": "Cuando veo algo valioso, no puedo pensar en otra cosa que no sea cómo robarlo." },
+        "2-2": { "name": "", "description": "Cuando debo elegir entre el dinero y mis amigos, normalmente elijo el dinero." },
+        "3-3": { "name": "", "description": "Si hay un plan, lo olvidaré. Si no lo olvido, lo ignoraré." },
+        "4-4": { "name": "", "description": "Tengo un gesto delator que revela cuándo miento." },
+        "5-5": { "name": "", "description": "Doy media vuelta y huyo cuando las cosas se ponen feas." },
+        "6-6": { "name": "", "description": "Una persona inocente está en prisión por un crimen que cometí yo. No me importa." }
+      }
+    },
+    "pbsoCrimideal000": {
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": { "name": "", "description": "Honor. No robo a otros del oficio. (Legal)" },
+        "2-2": { "name": "", "description": "Libertad. Las cadenas están hechas para romperse, al igual que quienes las forjan. (Caótico)" },
+        "3-3": { "name": "", "description": "Caridad. Robo a los ricos para ayudar a quienes lo necesitan. (Bueno)" },
+        "4-4": { "name": "", "description": "Avaricia. Haré lo que sea necesario para hacerme rico. (Maligno)" },
+        "5-5": { "name": "", "description": "Personas. Soy leal a mis amigos, no a ningún ideal; por mí, todos los demás pueden irse de paseo por la Estigia. (Neutral)" },
+        "6-6": { "name": "", "description": "Redención. En todos hay una chispa de bondad. (Bueno)" }
+      }
+    },
+    "pbsoCriminalSpec": {
+      "name": "Especialidad criminal",
+      "description": "<p>Hay muchos tipos de criminales y, dentro de un gremio de ladrones o una organización criminal similar, cada miembro posee una especialidad concreta. Incluso quienes actúan al margen de tales organizaciones muestran una marcada preferencia por determinados delitos. Elige el papel que desempeñabas durante tu vida criminal o tira en la tabla siguiente.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Chantajista" },
+        "2-2": { "name": "", "description": "Ladrón de viviendas" },
+        "3-3": { "name": "", "description": "Matón" },
+        "4-4": { "name": "", "description": "Perista" },
+        "5-5": { "name": "", "description": "Salteador de caminos" },
+        "6-6": { "name": "", "description": "Asesino a sueldo" },
+        "7-7": { "name": "", "description": "Carterista" },
+        "8-8": { "name": "", "description": "Contrabandista" }
+      }
+    },
+    "pbsoCrimtrait000": {
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": { "name": "", "description": "Siempre tengo un plan para cuando las cosas salen mal." },
+        "2-2": { "name": "", "description": "Siempre mantengo la calma, sea cual sea la situación. Nunca levanto la voz ni dejo que me dominen las emociones." },
+        "3-3": { "name": "", "description": "Lo primero que hago al llegar a un lugar nuevo es fijarme en dónde está todo lo valioso o dónde podría ocultarse." },
+        "4-4": { "name": "", "description": "Prefiero hacer un nuevo amigo que un nuevo enemigo." },
+        "5-5": { "name": "", "description": "Me cuesta muchísimo confiar en los demás. Quienes parecen más honrados suelen ser quienes más tienen que ocultar." },
+        "6-6": { "name": "", "description": "No presto atención a los riesgos de una situación. Nunca me digas qué probabilidades tengo." },
+        "7-7": { "name": "", "description": "La mejor forma de conseguir que haga algo es decirme que no puedo hacerlo." },
+        "8-8": { "name": "", "description": "Estallo ante el menor insulto." }
       }
     }
   }

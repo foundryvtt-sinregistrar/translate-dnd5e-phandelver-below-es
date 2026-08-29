@@ -8,7 +8,8 @@
     "Guild Artisan": "Artesano gremial",
     "Hermit": "Ermitaño",
     "Noble": "Noble",
-    "Outlander": "Forastero"
+    "Outlander": "Forastero",
+    "Sage": "Sabio"
   },
   "mapping": {
     "description": "description"
@@ -556,6 +557,62 @@
         "6-6": { "name": "", "description": "Siempre estoy recogiendo cosas, jugueteando con ellas distraídamente y, a veces, rompiéndolas por accidente." },
         "7-7": { "name": "", "description": "Me siento mucho más cómodo entre animales que entre personas." },
         "8-8": { "name": "", "description": "De hecho, me criaron los lobos." }
+      }
+    },
+    "pbsoSagebond0000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Es mi deber proteger a mis estudiantes." },
+        "2-2": { "name": "", "description": "Poseo un texto antiguo que contiene secretos terribles y no debe caer en malas manos." },
+        "3-3": { "name": "", "description": "Trabajo para conservar una biblioteca, universidad, scriptorium o monasterio." },
+        "4-4": { "name": "", "description": "La obra de mi vida es una serie de tomos dedicados a un campo concreto del saber." },
+        "5-5": { "name": "", "description": "Llevo toda la vida buscando la respuesta a una pregunta determinada." },
+        "6-6": { "name": "", "description": "Vendí mi alma a cambio de conocimiento. Espero realizar grandes hazañas y recuperarla." }
+      }
+    },
+    "pbsoSageflaw0000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "La promesa de obtener información me distrae con facilidad." },
+        "2-2": { "name": "", "description": "La mayoría grita y huye cuando ve un demonio. Yo me detengo y tomo notas sobre su anatomía." },
+        "3-3": { "name": "", "description": "Desvelar un misterio antiguo vale el precio de una civilización." },
+        "4-4": { "name": "", "description": "Paso por alto las soluciones evidentes en favor de otras complicadas." },
+        "5-5": { "name": "", "description": "Hablo sin pensar de verdad en mis palabras e insulto invariablemente a los demás." },
+        "6-6": { "name": "", "description": "No puedo guardar un secreto ni aunque mi vida, o la de otra persona, dependa de ello." }
+      }
+    },
+    "pbsoSageideal000": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Conocimiento. El camino hacia el poder y la superación personal pasa por el conocimiento. (Neutral)" },
+        "2-2": { "name": "", "description": "Belleza. Lo bello nos señala más allá de sí mismo, hacia lo verdadero. (Bueno)" },
+        "3-3": { "name": "", "description": "Lógica. Las emociones no deben nublar nuestro pensamiento lógico. (Legal)" },
+        "4-4": { "name": "", "description": "Sin límites. Nada debe encadenar las posibilidades infinitas inherentes a toda existencia. (Caótico)" },
+        "5-5": { "name": "", "description": "Poder. El conocimiento es el camino hacia el poder y la dominación. (Maligno)" },
+        "6-6": { "name": "", "description": "Superación personal. El objetivo de una vida de estudio es mejorar como persona. (Cualquiera)" }
+      }
+    },
+    "pbsoSagetrait000": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Uso palabras polisilábicas que dan la impresión de una gran erudición." },
+        "2-2": { "name": "", "description": "He leído todos los libros de las bibliotecas más importantes del mundo, o eso me gusta presumir." },
+        "3-3": { "name": "", "description": "Estoy acostumbrado a ayudar a quienes no son tan inteligentes como yo y les explico cualquier cosa con paciencia." },
+        "4-4": { "name": "", "description": "No hay nada que me guste más que un buen misterio." },
+        "5-5": { "name": "", "description": "Estoy dispuesto a escuchar todas las posturas de una discusión antes de formarme mi propio juicio." },
+        "6-6": { "name": "", "description": "Hablo... despacio... cuando me dirijo... a idiotas..., que son... casi todos... comparados conmigo." },
+        "7-7": { "name": "", "description": "Soy terriblemente, terriblemente torpe en situaciones sociales." },
+        "8-8": { "name": "", "description": "Estoy convencido de que la gente siempre intenta robar mis secretos." }
+      }
+    },
+    "pbsoSpecialty000": {
+      "name": "Especialidad",
+      "description": "<p>Para determinar la naturaleza de tu formación académica, tira 1d8 o elige una de las opciones de la tabla siguiente.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Alquimista" },
+        "2-2": { "name": "", "description": "Astrónomo" },
+        "3-3": { "name": "", "description": "Académico desacreditado" },
+        "4-4": { "name": "", "description": "Bibliotecario" },
+        "5-5": { "name": "", "description": "Profesor" },
+        "6-6": { "name": "", "description": "Investigador" },
+        "7-7": { "name": "", "description": "Aprendiz de mago" },
+        "8-8": { "name": "", "description": "Escriba" }
       }
     }
   }

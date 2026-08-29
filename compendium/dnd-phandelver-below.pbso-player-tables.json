@@ -6,7 +6,8 @@
     "Folk Hero": "Héroe del pueblo",
     "Entertainer": "Artista",
     "Guild Artisan": "Artesano gremial",
-    "Hermit": "Ermitaño"
+    "Hermit": "Ermitaño",
+    "Noble": "Noble"
   },
   "mapping": {
     "description": "description"
@@ -454,6 +455,48 @@
         "6-6": { "name": "", "description": "Necesitaba entrar en comunión con la naturaleza, lejos de la civilización." },
         "7-7": { "name": "", "description": "Era el guardián de una ruina o reliquia antigua." },
         "8-8": { "name": "", "description": "Era un peregrino en busca de una persona, lugar o reliquia de importancia espiritual." }
+      }
+    },
+    "pbsoNoblebond000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Afrontaré cualquier desafío para ganarme la aprobación de mi familia." },
+        "2-2": { "name": "", "description": "La alianza de mi casa con otra familia noble debe mantenerse a cualquier precio." },
+        "3-3": { "name": "", "description": "Nada es más importante que los demás miembros de mi familia." },
+        "4-4": { "name": "", "description": "Estoy enamorado del heredero de una familia a la que la mía desprecia." },
+        "5-5": { "name": "", "description": "Mi lealtad a mi soberano es inquebrantable." },
+        "6-6": { "name": "", "description": "La gente común debe verme como un héroe del pueblo." }
+      }
+    },
+    "pbsoNobleflaw000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "En secreto, creo que todo el mundo está por debajo de mí." },
+        "2-2": { "name": "", "description": "Oculto un secreto verdaderamente escandaloso que podría arruinar a mi familia para siempre." },
+        "3-3": { "name": "", "description": "Con demasiada frecuencia percibo insultos y amenazas veladas en cada palabra que me dirigen, y me enfado enseguida." },
+        "4-4": { "name": "", "description": "Siento un deseo insaciable de placeres decadentes." },
+        "5-5": { "name": "", "description": "En realidad, el mundo sí gira a mi alrededor." },
+        "6-6": { "name": "", "description": "A menudo avergüenzo a mi familia con mis palabras y acciones." }
+      }
+    },
+    "pbsoNobleideal00": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Respeto. Mi posición exige que me respeten, pero todas las personas, sin importar su condición, merecen ser tratadas con dignidad. (Bueno)" },
+        "2-2": { "name": "", "description": "Responsabilidad. Es mi deber respetar la autoridad de quienes están por encima de mí, igual que quienes están por debajo deben respetar la mía. (Legal)" },
+        "3-3": { "name": "", "description": "Independencia. Debo demostrar que puedo valerme por mí mismo sin que mi familia me proteja. (Caótico)" },
+        "4-4": { "name": "", "description": "Poder. Si consigo más poder, nadie me dirá qué debo hacer. (Maligno)" },
+        "5-5": { "name": "", "description": "Familia. La sangre tira más que el agua. (Cualquiera)" },
+        "6-6": { "name": "", "description": "Obligación nobiliaria. Es mi deber proteger y cuidar a quienes están por debajo de mí. (Bueno)" }
+      }
+    },
+    "pbsoNobletrait00": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Mis elocuentes halagos hacen que todos aquellos con los que hablo se sientan las personas más maravillosas e importantes del mundo." },
+        "2-2": { "name": "", "description": "La gente común me aprecia por mi bondad y generosidad." },
+        "3-3": { "name": "", "description": "Al ver mi porte regio, nadie podría dudar que estoy por encima de la plebe." },
+        "4-4": { "name": "", "description": "Me esfuerzo mucho por ofrecer siempre mi mejor aspecto y seguir las últimas modas." },
+        "5-5": { "name": "", "description": "No me gusta ensuciarme las manos y jamás permitiría que me vieran en un alojamiento inadecuado." },
+        "6-6": { "name": "", "description": "A pesar de mi noble cuna, no me considero superior a los demás. Todos tenemos la misma sangre." },
+        "7-7": { "name": "", "description": "Quien pierde mi favor, lo pierde para siempre." },
+        "8-8": { "name": "", "description": "Si me haces daño, te aplastaré, arruinaré tu nombre y sembraré tus campos de sal." }
       }
     }
   }

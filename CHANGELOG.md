@@ -13,4 +13,4 @@ All notable changes to this project will be documented in this file.
 - Foundry source-export utility and translation workflow documentation.
 - Spanish navigation names for the adventure, folders, and journal sections.
 - Initial translated journal pages for running and starting the adventure.
-- Spanish translation of the Charlatan, Criminal, Folk Hero, Entertainer, Guild Artisan, and Hermit background tables.
+- Spanish translation of the Charlatan, Criminal, Folk Hero, Entertainer, Guild Artisan, Hermit, and Noble background tables.

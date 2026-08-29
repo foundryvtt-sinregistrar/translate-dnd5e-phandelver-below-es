@@ -2,7 +2,8 @@
   "label": "Tablas de trasfondo",
   "folders": {
     "Charlatan": "Charlatán",
-    "Criminal": "Criminal"
+    "Criminal": "Criminal",
+    "Folk Hero": "Héroe del pueblo"
   },
   "mapping": {
     "description": "description"
@@ -198,6 +199,64 @@
         "6-6": { "name": "", "description": "No presto atención a los riesgos de una situación. Nunca me digas qué probabilidades tengo." },
         "7-7": { "name": "", "description": "La mejor forma de conseguir que haga algo es decirme que no puedo hacerlo." },
         "8-8": { "name": "", "description": "Estallo ante el menor insulto." }
+      }
+    },
+    "pbsoDefiningEven": {
+      "name": "Acontecimiento decisivo",
+      "description": "<p>Como procedes de entre la gente común, encajas entre ellos con facilidad. Puedes encontrar un lugar donde esconderte, descansar o recuperarte entre otros plebeyos, salvo que hayas demostrado ser un peligro para ellos. Te protegerán de la ley o de cualquiera que te busque, aunque no arriesgarán la vida por ti.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Me enfrenté a los agentes de un tirano." },
+        "2-2": { "name": "", "description": "Salvé a varias personas durante un desastre natural." },
+        "3-3": { "name": "", "description": "Me enfrenté en solitario a un monstruo terrible." },
+        "4-4": { "name": "", "description": "Robé a un mercader corrupto para ayudar a los pobres." },
+        "5-5": { "name": "", "description": "Lideré una milicia para rechazar a un ejército invasor." },
+        "6-6": { "name": "", "description": "Entré en el castillo de un tirano y robé armas para equipar al pueblo." },
+        "7-7": { "name": "", "description": "Enseñé al campesinado a usar herramientas de labranza como armas contra los soldados de un tirano." },
+        "8-8": { "name": "", "description": "Un señor revocó un decreto impopular después de que yo encabezara un acto simbólico de protesta." },
+        "9-9": { "name": "", "description": "Un celestial, un feérico o una criatura similar me concedió una bendición o reveló mi origen secreto." },
+        "10-10": { "name": "", "description": "Tras ser reclutado por el ejército de un señor, ascendí hasta una posición de liderazgo y fui condecorado por mi heroísmo." }
+      }
+    },
+    "pbsoFolkbond0000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Tengo una familia, pero no sé dónde está. Espero volver a verla algún día." },
+        "2-2": { "name": "", "description": "Trabajé la tierra, amo la tierra y protegeré la tierra." },
+        "3-3": { "name": "", "description": "Una vez, un noble arrogante me propinó una paliza terrible, y me vengaré de cualquier abusón con el que me cruce." },
+        "4-4": { "name": "", "description": "Mis herramientas simbolizan mi vida anterior y las llevo conmigo para no olvidar nunca mis raíces." },
+        "5-5": { "name": "", "description": "Protejo a quienes no pueden protegerse por sí mismos." },
+        "6-6": { "name": "", "description": "Ojalá mi amor de la infancia hubiera venido conmigo en busca de mi destino." }
+      }
+    },
+    "pbsoFolkflaw0000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "El tirano que gobierna mi tierra no se detendrá ante nada con tal de verme muerto." },
+        "2-2": { "name": "", "description": "Estoy convencido de la importancia de mi destino y no veo ni mis defectos ni el riesgo de fracasar." },
+        "3-3": { "name": "", "description": "Quienes me conocieron de joven saben mi vergonzoso secreto, así que nunca podré volver a casa." },
+        "4-4": { "name": "", "description": "Siento debilidad por los vicios de la ciudad, especialmente por la bebida fuerte." },
+        "5-5": { "name": "", "description": "En secreto, creo que todo iría mejor si yo fuera un tirano que gobernara estas tierras." },
+        "6-6": { "name": "", "description": "Me cuesta confiar en mis aliados." }
+      }
+    },
+    "pbsoFolkideal000": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Respeto. Las personas merecen ser tratadas con dignidad y respeto. (Bueno)" },
+        "2-2": { "name": "", "description": "Justicia. Nadie debería recibir un trato de favor ante la ley y nadie está por encima de ella. (Legal)" },
+        "3-3": { "name": "", "description": "Libertad. No se debe permitir que los tiranos opriman al pueblo. (Caótico)" },
+        "4-4": { "name": "", "description": "Poder. Si me hago fuerte, podré tomar lo que quiera, lo que merezco. (Maligno)" },
+        "5-5": { "name": "", "description": "Sinceridad. No sirve de nada fingir ser algo que no soy. (Neutral)" },
+        "6-6": { "name": "", "description": "Destino. Nada ni nadie puede apartarme de mi elevada vocación. (Cualquiera)" }
+      }
+    },
+    "pbsoFolktrait000": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Juzgo a las personas por sus actos, no por sus palabras." },
+        "2-2": { "name": "", "description": "Si alguien está en apuros, siempre estoy dispuesto a ayudar." },
+        "3-3": { "name": "", "description": "Cuando me propongo algo, lo llevo hasta el final sin importar qué se interponga en mi camino." },
+        "4-4": { "name": "", "description": "Tengo un marcado sentido del juego limpio y siempre intento encontrar la solución más equitativa a las disputas." },
+        "5-5": { "name": "", "description": "Confío en mis propias capacidades y hago cuanto puedo para infundir confianza a los demás." },
+        "6-6": { "name": "", "description": "Pensar es cosa de otros. Yo prefiero actuar." },
+        "7-7": { "name": "", "description": "Uso mal las palabras largas para intentar parecer más inteligente." },
+        "8-8": { "name": "", "description": "Me aburro con facilidad. ¿Cuándo voy a poder cumplir mi destino?" }
       }
     }
   }

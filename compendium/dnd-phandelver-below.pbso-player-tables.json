@@ -317,6 +317,18 @@
         "7-7": { "name": "", "description": "No me conformo con nada que no sea la perfección." },
         "8-8": { "name": "", "description": "Cambio de humor o de opinión tan deprisa como cambio de tonalidad en una canción." }
       }
+    },
+    "pbsoFavoriteSche": {
+      "name": "Estafas favoritas",
+      "description": "<p>Todo charlatán tiene un engaño que prefiere por encima de los demás. Elige tu estafa favorita o tira en la tabla siguiente.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Hago trampas en los juegos de azar." },
+        "2-2": { "name": "", "description": "Recorto monedas o falsifico documentos." },
+        "3-3": { "name": "", "description": "Me introduzco en la vida de los demás para aprovecharme de sus debilidades y apoderarme de sus fortunas." },
+        "4-4": { "name": "", "description": "Cambio de identidad como quien cambia de ropa." },
+        "5-5": { "name": "", "description": "Realizo timos de prestidigitación en las esquinas." },
+        "6-6": { "name": "", "description": "Convenzo a la gente de que una baratija sin valor merece el dinero que tanto les ha costado ganar." }
+      }
     }
   }
 }

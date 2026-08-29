@@ -3,7 +3,8 @@
   "folders": {
     "Charlatan": "Charlatán",
     "Criminal": "Criminal",
-    "Folk Hero": "Héroe del pueblo"
+    "Folk Hero": "Héroe del pueblo",
+    "Entertainer": "Artista"
   },
   "mapping": {
     "description": "description"
@@ -257,6 +258,64 @@
         "6-6": { "name": "", "description": "Pensar es cosa de otros. Yo prefiero actuar." },
         "7-7": { "name": "", "description": "Uso mal las palabras largas para intentar parecer más inteligente." },
         "8-8": { "name": "", "description": "Me aburro con facilidad. ¿Cuándo voy a poder cumplir mi destino?" }
+      }
+    },
+    "pbsoEntbond00000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Mi instrumento es mi posesión más preciada y me recuerda a alguien a quien amo." },
+        "2-2": { "name": "", "description": "Alguien robó mi preciado instrumento y algún día lo recuperaré." },
+        "3-3": { "name": "", "description": "Quiero alcanzar la fama, cueste lo que cueste." },
+        "4-4": { "name": "", "description": "Idolatro a un héroe de los relatos antiguos y comparo mis hazañas con las suyas." },
+        "5-5": { "name": "", "description": "Haré lo que sea para demostrar que soy superior a mi odiado rival." },
+        "6-6": { "name": "", "description": "Haría cualquier cosa por los demás integrantes de mi antigua compañía." }
+      }
+    },
+    "pbsoEntflaw00000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "Haré cualquier cosa para obtener fama y reconocimiento." },
+        "2-2": { "name": "", "description": "Pierdo la cabeza por una cara bonita." },
+        "3-3": { "name": "", "description": "Un escándalo me impide volver a casa. Ese tipo de problemas parece perseguirme." },
+        "4-4": { "name": "", "description": "Una vez satiricé a un noble que aún quiere mi cabeza. Fue un error que probablemente repetiré." },
+        "5-5": { "name": "", "description": "Me cuesta ocultar lo que siento de verdad. Mi lengua afilada me mete en problemas." },
+        "6-6": { "name": "", "description": "A pesar de mis esfuerzos, mis amigos no pueden confiar en mí." }
+      }
+    },
+    "pbsoEntideal0000": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Belleza. Cuando actúo, hago del mundo un lugar mejor. (Bueno)" },
+        "2-2": { "name": "", "description": "Tradición. Los relatos, leyendas y canciones del pasado nunca deben olvidarse, pues nos enseñan quiénes somos. (Legal)" },
+        "3-3": { "name": "", "description": "Creatividad. El mundo necesita ideas nuevas y acciones audaces. (Caótico)" },
+        "4-4": { "name": "", "description": "Avaricia. Solo me interesan el dinero y la fama. (Maligno)" },
+        "5-5": { "name": "", "description": "Personas. Me gusta ver sonreír al público cuando actúo. Eso es lo único que importa. (Neutral)" },
+        "6-6": { "name": "", "description": "Honestidad. El arte debe reflejar el alma; debe surgir de nuestro interior y revelar quiénes somos en realidad. (Cualquiera)" }
+      }
+    },
+    "pbsoEntroutines0": {
+      "name": "Números de artista",
+      "description": "<p>Un buen artista es versátil y anima cada actuación con distintos números. Elige entre uno y tres números o tira en la tabla siguiente para definir tu especialidad como artista.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Actor" },
+        "2-2": { "name": "", "description": "Bailarín" },
+        "3-3": { "name": "", "description": "Tragafuegos" },
+        "4-4": { "name": "", "description": "Bufón" },
+        "5-5": { "name": "", "description": "Malabarista" },
+        "6-6": { "name": "", "description": "Instrumentista" },
+        "7-7": { "name": "", "description": "Poeta" },
+        "8-8": { "name": "", "description": "Cantante" },
+        "9-9": { "name": "", "description": "Narrador" },
+        "10-10": { "name": "", "description": "Acróbata" }
+      }
+    },
+    "pbsoEnttrat00000": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Conozco un relato apropiado para casi cualquier situación." },
+        "2-2": { "name": "", "description": "Siempre que llego a un lugar nuevo, recopilo rumores locales y difundo cotilleos." },
+        "3-3": { "name": "", "description": "Soy un romántico empedernido que siempre busca a esa persona especial." },
+        "4-4": { "name": "", "description": "Nadie permanece enfadado conmigo ni a mi alrededor durante mucho tiempo, pues puedo aliviar cualquier tensión." },
+        "5-5": { "name": "", "description": "Me encanta un buen insulto, incluso cuando va dirigido contra mí." },
+        "6-6": { "name": "", "description": "Me amargo cuando no soy el centro de atención." },
+        "7-7": { "name": "", "description": "No me conformo con nada que no sea la perfección." },
+        "8-8": { "name": "", "description": "Cambio de humor o de opinión tan deprisa como cambio de tonalidad en una canción." }
       }
     }
   }

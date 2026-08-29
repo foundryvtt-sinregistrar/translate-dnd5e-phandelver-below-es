@@ -1,7 +1,139 @@
 {
   "label": "Tablas de trasfondo",
+  "folders": {
+    "Charlatan": "Charlatán"
+  },
   "mapping": {
     "description": "description"
   },
-  "entries": {}
+  "entries": {
+    "pbsoCharlbond000": {
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Estafé a la persona equivocada y debo asegurarme de que nunca se cruce conmigo ni con mis seres queridos."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Se lo debo todo a mi mentor, una persona horrible que probablemente se esté pudriendo en alguna cárcel."
+        },
+        "3-3": {
+          "name": "",
+          "description": "En algún lugar tengo un hijo que no sabe quién soy. Intento hacer del mundo un lugar mejor para él."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Provengo de una familia noble y algún día recuperaré mis tierras y mi título de quienes me los arrebataron."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Una persona poderosa mató a alguien a quien amaba. Algún día, muy pronto, me vengaré."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Estafé y arruiné a alguien que no lo merecía. Intento expiar mis malas acciones, pero quizá nunca logre perdonarme."
+        }
+      }
+    },
+    "pbsoCharlflaw000": {
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "No puedo resistirme a una cara bonita."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Siempre estoy endeudado. Gasto mis ganancias mal habidas en lujos decadentes más deprisa de lo que consigo reunirlas..."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Estoy convencido de que nadie podría engañarme como yo engaño a los demás."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Soy demasiado avaricioso para mi propio bien. No puedo resistirme a correr un riesgo si hay dinero de por medio."
+        },
+        "5-5": {
+          "name": "",
+          "description": "No puedo resistirme a estafar a personas más poderosas que yo."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Odio admitirlo y me odiaré por ello, pero, si las cosas se ponen feas, huiré para salvar el pellejo."
+        }
+      }
+    },
+    "pbsoCharlideal00": {
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Independencia. Soy un espíritu libre: nadie me dice qué debo hacer. (Caótico)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Justicia. Nunca elijo como víctima a quien no pueda permitirse perder unas monedas. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Caridad. Reparto el dinero que consigo entre quienes de verdad lo necesitan. (Bueno)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Creatividad. Nunca repito la misma estafa. (Caótico)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Amistad. Los bienes materiales van y vienen, pero los lazos de amistad duran para siempre. (Bueno)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Aspiración. Estoy decidido a llegar a ser alguien. (Cualquiera)"
+        }
+      }
+    },
+    "pbsoCharltrait00": {
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Me enamoro y desenamoro con facilidad, y siempre estoy intentando conquistar a alguien."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Tengo una broma para cada ocasión, especialmente para aquellas en las que el humor resulta inapropiado."
+        },
+        "3-3": {
+          "name": "",
+          "description": "La adulación es mi truco favorito para conseguir lo que quiero."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Soy un jugador nato incapaz de resistirse a correr un riesgo si existe una posible recompensa."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Miento sobre casi todo, incluso cuando no hay ningún buen motivo para hacerlo."
+        },
+        "6-6": {
+          "name": "",
+          "description": "El sarcasmo y los insultos son mis armas preferidas."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Llevo encima varios símbolos sagrados e invoco a la deidad que pueda resultarme útil en cada momento."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Me guardo en el bolsillo cualquier cosa que vea y que pueda tener algún valor."
+        }
+      }
+    }
+  }
 }

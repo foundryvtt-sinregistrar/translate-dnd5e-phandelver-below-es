@@ -13,3 +13,4 @@ All notable changes to this project will be documented in this file.
 - Foundry source-export utility and translation workflow documentation.
 - Spanish navigation names for the adventure, folders, and journal sections.
 - Initial translated journal pages for running and starting the adventure.
+- Spanish translation of the Charlatan background tables.

@@ -7,7 +7,8 @@
     "Entertainer": "Artista",
     "Guild Artisan": "Artesano gremial",
     "Hermit": "Ermitaño",
-    "Noble": "Noble"
+    "Noble": "Noble",
+    "Outlander": "Forastero"
   },
   "mapping": {
     "description": "description"
@@ -497,6 +498,64 @@
         "6-6": { "name": "", "description": "A pesar de mi noble cuna, no me considero superior a los demás. Todos tenemos la misma sangre." },
         "7-7": { "name": "", "description": "Quien pierde mi favor, lo pierde para siempre." },
         "8-8": { "name": "", "description": "Si me haces daño, te aplastaré, arruinaré tu nombre y sembraré tus campos de sal." }
+      }
+    },
+    "pbsoOrigin000000": {
+      "name": "Origen",
+      "description": "<p>Has estado en lugares extraños y has visto cosas que los demás ni siquiera pueden imaginar. Piensa en algunas de las tierras lejanas que has visitado y en cómo te afectaron. Puedes tirar en la tabla siguiente para determinar tu ocupación durante el tiempo que pasaste en las tierras salvajes o elegir la que mejor encaje con tu personaje.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Forestal" },
+        "2-2": { "name": "", "description": "Trampero" },
+        "3-3": { "name": "", "description": "Colono" },
+        "4-4": { "name": "", "description": "Guía" },
+        "5-5": { "name": "", "description": "Exiliado o marginado" },
+        "6-6": { "name": "", "description": "Cazarrecompensas" },
+        "7-7": { "name": "", "description": "Peregrino" },
+        "8-8": { "name": "", "description": "Nómada tribal" },
+        "9-9": { "name": "", "description": "Cazador-recolector" },
+        "10-10": { "name": "", "description": "Saqueador tribal" }
+      }
+    },
+    "pbsoOutlanderbon": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Mi familia, clan o tribu es lo más importante de mi vida, incluso cuando está lejos de mí." },
+        "2-2": { "name": "", "description": "Cualquier daño contra la naturaleza virgen de mi hogar es un daño contra mí." },
+        "3-3": { "name": "", "description": "Desataré una ira terrible sobre los malhechores que destruyeron mi tierra natal." },
+        "4-4": { "name": "", "description": "Soy el último de mi tribu y depende de mí que sus nombres pasen a la leyenda." },
+        "5-5": { "name": "", "description": "Sufro visiones terribles de un desastre venidero y haré cualquier cosa para impedirlo." },
+        "6-6": { "name": "", "description": "Es mi deber tener descendencia para asegurar la continuidad de mi tribu." }
+      }
+    },
+    "pbsoOutlanderfla": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "Me gustan demasiado la cerveza, el vino y otros embriagantes." },
+        "2-2": { "name": "", "description": "No hay lugar para la cautela en una vida vivida al máximo." },
+        "3-3": { "name": "", "description": "Recuerdo todos los insultos que he recibido y guardo un resentimiento silencioso contra cualquiera que me haya ofendido." },
+        "4-4": { "name": "", "description": "Me cuesta confiar en miembros de otras especies, tribus y sociedades." },
+        "5-5": { "name": "", "description": "La violencia es mi respuesta a casi cualquier desafío." },
+        "6-6": { "name": "", "description": "No esperes que salve a quienes no pueden salvarse por sí mismos. La naturaleza dicta que los fuertes prosperen y los débiles perezcan." }
+      }
+    },
+    "pbsoOutlanderide": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Cambio. La vida es como las estaciones, cambia sin cesar y nosotros debemos cambiar con ella. (Caótico)" },
+        "2-2": { "name": "", "description": "Bien común. Es responsabilidad de cada persona procurar la mayor felicidad para toda la tribu. (Bueno)" },
+        "3-3": { "name": "", "description": "Honor. Si me deshonro, deshonro a todo mi clan. (Legal)" },
+        "4-4": { "name": "", "description": "Poder. Los más fuertes están destinados a gobernar. (Maligno)" },
+        "5-5": { "name": "", "description": "Naturaleza. El mundo natural es más importante que todas las creaciones de la civilización. (Neutral)" },
+        "6-6": { "name": "", "description": "Gloria. Debo ganar gloria en batalla, para mí y para mi clan. (Cualquiera)" }
+      }
+    },
+    "pbsoOutlandertra": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Me impulsa el ansia de viajar que me alejó de mi hogar." },
+        "2-2": { "name": "", "description": "Cuido de mis amigos como si fueran una camada de cachorros recién nacidos." },
+        "3-3": { "name": "", "description": "Una vez recorrí cuarenta kilómetros sin detenerme para advertir a mi clan de que se acercaba una horda de orcos. Volvería a hacerlo si fuera necesario." },
+        "4-4": { "name": "", "description": "Tengo una lección para cada situación, extraída de la observación de la naturaleza." },
+        "5-5": { "name": "", "description": "No doy importancia a la gente rica o bien educada. Ni el dinero ni los modales te salvarán de un oso lechuza hambriento." },
+        "6-6": { "name": "", "description": "Siempre estoy recogiendo cosas, jugueteando con ellas distraídamente y, a veces, rompiéndolas por accidente." },
+        "7-7": { "name": "", "description": "Me siento mucho más cómodo entre animales que entre personas." },
+        "8-8": { "name": "", "description": "De hecho, me criaron los lobos." }
       }
     }
   }

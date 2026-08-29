@@ -9,7 +9,8 @@
     "Hermit": "Ermitaño",
     "Noble": "Noble",
     "Outlander": "Forastero",
-    "Sage": "Sabio"
+    "Sage": "Sabio",
+    "Sailor": "Marinero"
   },
   "mapping": {
     "description": "description"
@@ -613,6 +614,48 @@
         "6-6": { "name": "", "description": "Investigador" },
         "7-7": { "name": "", "description": "Aprendiz de mago" },
         "8-8": { "name": "", "description": "Escriba" }
+      }
+    },
+    "pbsoSailbond0000": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Mi lealtad es primero para mi capitán y después para todo lo demás." },
+        "2-2": { "name": "", "description": "El barco es lo más importante; los tripulantes y capitanes van y vienen." },
+        "3-3": { "name": "", "description": "Siempre recordaré mi primer barco." },
+        "4-4": { "name": "", "description": "En una ciudad portuaria tengo un amante cuyos ojos casi consiguieron apartarme del mar." },
+        "5-5": { "name": "", "description": "Me estafaron la parte de las ganancias que me correspondía y quiero recibir lo que se me debe." },
+        "6-6": { "name": "", "description": "Unos piratas despiadados asesinaron a mi capitán y a mis compañeros, saquearon nuestro barco y me dejaron morir. Me vengaré." }
+      }
+    },
+    "pbsoSailflaw0000": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "Obedezco las órdenes, aunque crea que son equivocadas." },
+        "2-2": { "name": "", "description": "Diré cualquier cosa para evitar tener que trabajar de más." },
+        "3-3": { "name": "", "description": "Cuando alguien pone en duda mi valor, nunca retrocedo, sin importar lo peligrosa que sea la situación." },
+        "4-4": { "name": "", "description": "Cuando empiezo a beber, me cuesta parar." },
+        "5-5": { "name": "", "description": "No puedo evitar embolsarme las monedas sueltas y otras baratijas que encuentro." },
+        "6-6": { "name": "", "description": "Probablemente mi orgullo acabará destruyéndome." }
+      }
+    },
+    "pbsoSailideal000": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Respeto. Lo que mantiene unido a un barco es el respeto mutuo entre el capitán y la tripulación. (Bueno)" },
+        "2-2": { "name": "", "description": "Justicia. Todos hacemos el trabajo, así que todos compartimos la recompensa. (Legal)" },
+        "3-3": { "name": "", "description": "Libertad. El mar es libertad: libertad para ir a cualquier lugar y hacer cualquier cosa. (Caótico)" },
+        "4-4": { "name": "", "description": "Dominio. Soy un depredador y los demás barcos del mar son mis presas. (Maligno)" },
+        "5-5": { "name": "", "description": "Personas. Mi compromiso es con mis compañeros de tripulación, no con unos ideales. (Neutral)" },
+        "6-6": { "name": "", "description": "Aspiración. Algún día tendré mi propio barco y trazaré mi propio destino. (Cualquiera)" }
+      }
+    },
+    "pbsoSailtrait000": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "Mis amigos saben que pueden contar conmigo pase lo que pase." },
+        "2-2": { "name": "", "description": "Trabajo duro para poder divertirme a lo grande cuando termina la faena." },
+        "3-3": { "name": "", "description": "Disfruto navegando hasta puertos nuevos y haciendo nuevos amigos ante una jarra de cerveza." },
+        "4-4": { "name": "", "description": "Adorno la verdad para contar una buena historia." },
+        "5-5": { "name": "", "description": "Para mí, una pelea de taberna es una buena forma de conocer una ciudad nueva." },
+        "6-6": { "name": "", "description": "Nunca rechazo una apuesta amistosa." },
+        "7-7": { "name": "", "description": "Mi vocabulario es tan sucio como el nido de un otyugh." },
+        "8-8": { "name": "", "description": "Me gusta el trabajo bien hecho, sobre todo si puedo convencer a otra persona para que lo haga." }
       }
     }
   }

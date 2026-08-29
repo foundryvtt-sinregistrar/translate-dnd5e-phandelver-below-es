@@ -5,7 +5,8 @@
     "Criminal": "Criminal",
     "Folk Hero": "Héroe del pueblo",
     "Entertainer": "Artista",
-    "Guild Artisan": "Artesano gremial"
+    "Guild Artisan": "Artesano gremial",
+    "Hermit": "Ermitaño"
   },
   "mapping": {
     "description": "description"
@@ -397,6 +398,62 @@
         "6-6": { "name": "", "description": "Me gusta hablar largo y tendido sobre mi profesión." },
         "7-7": { "name": "", "description": "No me desprendo fácilmente de mi dinero y regateo sin descanso para conseguir el mejor trato posible." },
         "8-8": { "name": "", "description": "Mi trabajo es muy conocido y quiero asegurarme de que todo el mundo lo aprecie. Siempre me sorprende que alguien no haya oído hablar de mí." }
+      }
+    },
+    "pbsoHermitbond00": {
+      "name": "Vínculo", "description": "", "results": {
+        "1-1": { "name": "", "description": "Nada es más importante que los demás miembros de mi eremitorio, orden o asociación." },
+        "2-2": { "name": "", "description": "Me recluí para ocultarme de quienes quizá aún me persiguen. Algún día tendré que enfrentarme a ellos." },
+        "3-3": { "name": "", "description": "Aún busco la iluminación que perseguía durante mi retiro, pero sigue eludiéndome." },
+        "4-4": { "name": "", "description": "Me recluí porque amaba a alguien a quien no podía tener." },
+        "5-5": { "name": "", "description": "Si mi descubrimiento saliera a la luz, podría causar la ruina del mundo." },
+        "6-6": { "name": "", "description": "Mi aislamiento me permitió comprender un gran mal que solo yo puedo destruir." }
+      }
+    },
+    "pbsoHermitflaw00": {
+      "name": "Defecto", "description": "", "results": {
+        "1-1": { "name": "", "description": "Ahora que he regresado al mundo, disfruto demasiado de sus placeres." },
+        "2-2": { "name": "", "description": "Albergo pensamientos sanguinarios que ni el aislamiento ni la meditación lograron aplacar." },
+        "3-3": { "name": "", "description": "Soy dogmático en mis ideas y mi filosofía." },
+        "4-4": { "name": "", "description": "Dejo que mi necesidad de ganar las discusiones se anteponga a la amistad y la armonía." },
+        "5-5": { "name": "", "description": "Arriesgaría demasiado por descubrir un conocimiento perdido." },
+        "6-6": { "name": "", "description": "Me gusta guardar secretos y no los comparto con nadie." }
+      }
+    },
+    "pbsoHermitideal0": {
+      "name": "Ideal", "description": "", "results": {
+        "1-1": { "name": "", "description": "Bien común. Mis dones deben compartirse con todo el mundo, no utilizarse en mi propio beneficio. (Bueno)" },
+        "2-2": { "name": "", "description": "Lógica. Las emociones no deben nublar nuestro sentido de lo correcto y verdadero ni nuestro pensamiento lógico. (Legal)" },
+        "3-3": { "name": "", "description": "Librepensamiento. La investigación y la curiosidad son los pilares del progreso. (Caótico)" },
+        "4-4": { "name": "", "description": "Poder. La soledad y la contemplación son caminos hacia el poder místico o mágico. (Maligno)" },
+        "5-5": { "name": "", "description": "Vive y deja vivir. Entrometerse en los asuntos de los demás solo causa problemas. (Neutral)" },
+        "6-6": { "name": "", "description": "Autoconocimiento. Si te conoces a ti mismo, no queda nada más por conocer. (Cualquiera)" }
+      }
+    },
+    "pbsoHermittrait0": {
+      "name": "Rasgo de personalidad", "description": "", "results": {
+        "1-1": { "name": "", "description": "He vivido aislado durante tanto tiempo que apenas hablo; prefiero los gestos y algún que otro gruñido." },
+        "2-2": { "name": "", "description": "Mantengo una serenidad absoluta, incluso ante el desastre." },
+        "3-3": { "name": "", "description": "El líder de mi comunidad tenía algo sabio que decir sobre cualquier tema, y estoy deseando compartir esa sabiduría." },
+        "4-4": { "name": "", "description": "Siento una enorme empatía por todos los que sufren." },
+        "5-5": { "name": "", "description": "Ignoro por completo la etiqueta y las expectativas sociales." },
+        "6-6": { "name": "", "description": "Relaciono todo lo que me sucede con un grandioso plan cósmico." },
+        "7-7": { "name": "", "description": "A menudo me pierdo en mis propios pensamientos y reflexiones y dejo de percibir lo que me rodea." },
+        "8-8": { "name": "", "description": "Trabajo en una gran teoría filosófica y me encanta compartir mis ideas." }
+      }
+    },
+    "pbsoLifeOfSeclus": {
+      "name": "Vida de reclusión",
+      "description": "<p>¿Por qué te aislaste y qué cambió para que pudieras poner fin a tu soledad? Puedes decidir con tu DM la naturaleza exacta de tu retiro, o elegir o tirar en la tabla siguiente para determinar el motivo.</p>",
+      "results": {
+        "1-1": { "name": "", "description": "Buscaba la iluminación espiritual." },
+        "2-2": { "name": "", "description": "Participaba en una vida comunitaria conforme a los preceptos de una orden religiosa." },
+        "3-3": { "name": "", "description": "Fui exiliado por un crimen que no cometí." },
+        "4-4": { "name": "", "description": "Me retiré de la sociedad tras un acontecimiento que cambió mi vida." },
+        "5-5": { "name": "", "description": "Necesitaba un lugar tranquilo donde trabajar en mi arte, literatura, música o manifiesto." },
+        "6-6": { "name": "", "description": "Necesitaba entrar en comunión con la naturaleza, lejos de la civilización." },
+        "7-7": { "name": "", "description": "Era el guardián de una ruina o reliquia antigua." },
+        "8-8": { "name": "", "description": "Era un peregrino en busca de una persona, lugar o reliquia de importancia espiritual." }
       }
     }
   }

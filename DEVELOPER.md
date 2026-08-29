@@ -1,5 +1,15 @@
 # Translation workflow
 
+## Versioning
+
+Releases use `MAJOR.FOUNDRY.PATCH`:
+
+- `MAJOR`: structural or content milestone;
+- `FOUNDRY`: supported Foundry VTT major version;
+- `PATCH`: incremental corrections for that compatibility line.
+
+Therefore, `1.14.0` is the first release milestone for Foundry VTT 14.
+
 ## 1. Export the source compendiums
 
 Enable the following modules in a private Foundry VTT world:
@@ -100,3 +110,14 @@ For every pack:
 - Confirm that no `_data/`, PDF, source export, or temporary file is tracked.
 - Build the ZIP from a clean Git commit.
 - Install the generated ZIP in a clean Foundry data directory before publishing.
+
+## 7. Release process
+
+1. Move the completed entries from `[Unreleased]` to a dated version in `CHANGELOG.md`.
+2. Set the same version in `module.json`.
+3. Run the source-export validator and validate every tracked JSON file.
+4. Commit the release preparation on `develop`.
+5. Fast-forward `main` to the validated `develop` commit and push both branches.
+6. Create and push the annotated tag `vMAJOR.FOUNDRY.PATCH` from `main`.
+7. Confirm that the GitHub Actions release workflow builds the ZIP and uploads both the stable archive and `module.json`.
+8. Inspect the generated draft release and publish it after verifying its assets and manifest URLs.

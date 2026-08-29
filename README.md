@@ -11,7 +11,13 @@ Traducción al español para Foundry VTT del módulo oficial **Phandelver & Belo
 
 ## Instalación
 
-Instala este módulo y sus dependencias, actívalos en el mundo y selecciona Español como idioma de Foundry VTT.
+En Foundry VTT, abre **Add-on Modules**, selecciona **Install Module** y utiliza este manifiesto:
+
+```text
+https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/main/module.json
+```
+
+También puedes descargar el ZIP de la [última versión](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest). Instala este módulo y sus dependencias, actívalos en el mundo y selecciona Español como idioma de Foundry VTT.
 
 ## Estado
 
@@ -21,4 +27,8 @@ La traducción está en desarrollo. Las **53 tablas de trasfondo** del compendio
 
 Las traducciones se almacenan en `compendium/`, usando el identificador original de cada documento dentro de `entries`.
 
-Este proyecto no incluye ni redistribuye el contenido del módulo comercial original.
+La versión sigue el esquema `MAJOR.FOUNDRY.PATCH`. En `1.14.0`, el segundo componente indica compatibilidad con Foundry VTT 14.
+
+Consulta [DEVELOPER.md](DEVELOPER.md) para el flujo de exportación, traducción, validación y publicación.
+
+Este proyecto no está afiliado ni respaldado por Wizards of the Coast o Foundry Gaming. Requiere el módulo comercial oficial y no redistribuye sus archivos fuente, ilustraciones ni bases de datos.

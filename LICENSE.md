@@ -2,6 +2,12 @@ MIT License
 
 Copyright (c) 2026 foundryvtt-sinregistrar
 
+This license applies only to the original software, scripts, configuration,
+and documentation created for this translation module. It does not grant any
+rights to Dungeons & Dragons rules text, artwork, trademarks, or content from
+the commercial Phandelver & Below module. Those materials remain the property
+of their respective rights holders and are not redistributed by this project.
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights

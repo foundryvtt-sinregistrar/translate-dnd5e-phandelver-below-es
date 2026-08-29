@@ -7,9 +7,9 @@ on:
   workflow_dispatch:
     inputs:
       tag:
-        description: "Tag to publish (for example, v0.1.0)"
+        description: "Tag to publish (for example, v1.14.0)"
         required: true
-        default: "v0.1.0"
+        default: "v1.14.0"
 
 permissions:
   contents: write

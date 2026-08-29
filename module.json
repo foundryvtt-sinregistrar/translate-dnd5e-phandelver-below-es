@@ -2,7 +2,7 @@
   "id": "translate-dnd5e-phandelver-below-es",
   "title": "D&D 5e Phandelver y Más Allá - Traducción al español (Babele)",
   "description": "Traducción al español del módulo oficial Phandelver & Below: The Shattered Obelisk mediante Babele.",
-  "version": "0.1.0",
+  "version": "1.14.0",
   "compatibility": {
     "minimum": "13",
     "verified": "14.363"
@@ -24,8 +24,10 @@
       {
         "id": "dnd5e",
         "type": "system",
+        "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
-          "minimum": "5.3.1"
+          "minimum": "5.3.1",
+          "verified": "5.3.3"
         }
       }
     ],
@@ -35,7 +37,8 @@
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
         "compatibility": {
-          "minimum": "2.7.5"
+          "minimum": "2.7.5",
+          "verified": "2.7.5"
         }
       },
       {
@@ -43,7 +46,8 @@
         "type": "module",
         "manifest": "https://r2.foundryvtt.com/packages-public/dnd-phandelver-below/module.json",
         "compatibility": {
-          "minimum": "3.1.0"
+          "minimum": "3.1.0",
+          "verified": "3.1.0"
         }
       }
     ]

@@ -2,7 +2,36 @@
   "label": "Bestiario",
   "mapping": {
     "biography": "system.details.biography.value",
-    "tokenName": "prototypeToken.name"
+    "tokenName": "prototypeToken.name",
+    "items": {
+      "path": "items",
+      "converter": "phandelverDocuments",
+      "documentType": "Item",
+      "cardinality": "many",
+      "mapping": {
+        "description": "system.description.value",
+        "requirements": "system.requirements",
+        "descriptionChat": "system.description.chat",
+        "unidentifiedName": "system.unidentified.name",
+        "unidentifiedDescription": "system.unidentified.description",
+        "activities": {
+          "path": "system.activities",
+          "converter": "phandelverActivities"
+        },
+        "effects": {
+          "path": "effects",
+          "converter": "phandelverEffects"
+        },
+        "advancement": {
+          "path": "system.advancement",
+          "converter": "phandelverAdvancementNames"
+        }
+      }
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phandelverEffects"
+    }
   },
   "entries": {
     "1vaBSMUfOy6JPJ14": {
@@ -15,7 +44,12 @@
     },
     "6qnT52lZtZblgGw8": {
       "name": "Hobgoblin",
-      "tokenName": "Hobgoblin"
+      "tokenName": "Hobgoblin",
+      "items": {
+        "H7NwPMCFCLtZxIh7": {
+          "description": "<p>La cota de malla está formada por anillas metálicas entrelazadas e incluye una capa de tela acolchada que se lleva debajo para evitar rozaduras y amortiguar los golpes. La armadura incluye guanteletes.</p>"
+        }
+      }
     },
     "7EmUVycEASn7SFL0": {
       "name": "Hongo violeta",
@@ -194,7 +228,12 @@
     },
     "pbsoAberrantZeal": {
       "name": "Fanático aberrante",
-      "tokenName": "Fanático aberrante"
+      "tokenName": "Fanático aberrante",
+      "items": {
+        "eoNGHRxJYKpV2lMt": {
+          "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance.</p>"
+        }
+      }
     },
     "pbsoArcanaloth00": {
       "name": "Arcanaloth",
@@ -362,7 +401,18 @@
       "tokenName": "Humanoide mutado"
     },
     "pbsoIarnoAlbrek0": {
-      "name": "Iarno «Bastón de Cristal» Albrek"
+      "name": "Iarno «Bastón de Cristal» Albrek",
+      "items": {
+        "pNj09dwqZ7IzNvy0": {
+          "description": "<section class=\"secret\" id=\"secret-Gnb48Fg1PWHF63xD\"><p><em>Requiere sintonización.</em></p><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras. Mientras lo sostienes, obtienes un bonificador de +1 a tu Clase de Armadura.</p><p>Conjuros. El bastón tiene 10 cargas. Mientras lo sostienes, puedes gastar las cargas necesarias para lanzar uno de los siguientes conjuros desde él: [[/item Mage Armor]] (1 carga) o [[/item Shield]] (2 cargas).</p><p>El bastón recupera 1d6 + 4 cargas gastadas cada día al amanecer. Si gastas su última carga, tira un d20. Si obtienes un 1, el bastón se hace añicos y queda destruido.</p></section><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras.</p>",
+          "effects": {
+            "Wd0iA1lfF9Qofcfj": {
+              "name": "Bastón de defensa: bonificador a la CA",
+              "description": "<p>Mientras sostienes el bastón, obtienes un bonificador de +1 a tu Clase de Armadura.</p>"
+            }
+          }
+        }
+      }
     },
     "pbsoIlvaash00000": {
       "name": "Refracción de Ilvaash",
@@ -459,7 +509,12 @@
       "tokenName": "Slaad rojo"
     },
     "pbsoRedbrandRuff": {
-      "name": "Rufián Redbrand"
+      "name": "Rufián Redbrand",
+      "items": {
+        "x0bQnqskNcVQJHYz": {
+          "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance.</p>"
+        }
+      }
     },
     "pbsoReidoth00000": {
       "name": "Reidoth",
@@ -479,7 +534,12 @@
     },
     "pbsoRuxithidTheC": {
       "name": "Ruxithid el Elegido",
-      "tokenName": "Ruxithid el Elegido"
+      "tokenName": "Ruxithid el Elegido",
+      "items": {
+        "xbahHBzxNcEQ01th": {
+          "description": "<p>La cota de malla está formada por anillas metálicas entrelazadas e incluye una capa de tela acolchada que se lleva debajo para evitar rozaduras y amortiguar los golpes. La armadura incluye guanteletes.</p>"
+        }
+      }
     },
     "pbsoSeveredHead0": {
       "name": "Cabeza cercenada de Chishinix",
@@ -487,7 +547,15 @@
     },
     "pbsoShalfiLewin0": {
       "name": "Shalfi Lewin",
-      "tokenName": "Shalfi Lewin"
+      "tokenName": "Shalfi Lewin",
+      "items": {
+        "eoNGHRxJYKpV2lMt": {
+          "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance.</p>"
+        },
+        "895jR5MsMCfzUtdE": {
+          "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.7k8feoLXpOlFIsEw]{B9.}</strong></p>"
+        }
+      }
     },
     "pbsoSlaadTadpole": {
       "name": "Renacuajo slaad",

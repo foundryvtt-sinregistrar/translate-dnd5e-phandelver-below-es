@@ -11,6 +11,29 @@ async function json(path) {
 function require(value, message) { if (!value) throw new Error(message); }
 // Foundry's HTML field removes the XHTML slash from bare horizontal rules.
 function normalizeHtml(value) { return value.replace(/<hr\s*\/>/g, '<hr>'); }
+function verifyItem(item, patch, address) {
+  if (!patch) return;
+  const mapping={name:'name',requirements:'system.requirements',description:'system.description.value',
+    descriptionChat:'system.description.chat',unidentifiedName:'system.unidentified.name',unidentifiedDescription:'system.unidentified.description'};
+  for (const [alias,path] of Object.entries(mapping)) {
+    if (patch[alias] !== undefined) require(path.split('.').reduce((v,k)=>v?.[k],item)===patch[alias],`${address}.${alias}`);
+  }
+  function nested(actual, expected, at) {
+    for (const [key,value] of Object.entries(expected ?? {})) {
+      if (typeof value==='string') require(actual?.[key]===value,`${at}.${key}`);
+      else nested(actual?.[key],value,`${at}.${key}`);
+    }
+  }
+  for (const [id,patchActivity] of Object.entries(patch.activities ?? {})) nested(item.system.activities[id],patchActivity,`${address}.activities.${id}`);
+  for (const [id,patchEffect] of Object.entries(patch.effects ?? {})) nested(item.effects.find(e=>e._id===id),patchEffect,`${address}.effects.${id}`);
+}
+function verifyActor(actor,patch,address) {
+  if (!patch) return;
+  for (const [alias,path] of Object.entries({name:'name',tokenName:'prototypeToken.name',biography:'system.details.biography.value'})) {
+    if (patch[alias]!==undefined) require(path.split('.').reduce((v,k)=>v?.[k],actor)===patch[alias],`${address}.${alias}`);
+  }
+  for (const [id,item] of Object.entries(patch.items ?? {})) verifyItem(actor.items.find(i=>i._id===id),item,`${address}.items.${id}`);
+}
 
 export async function validateRuntime({pilot = false} = {}) {
   require(game.user.isGM && game.babele && game.modules.get(MODULE)?.active, 'GM, Babele and translation required');
@@ -30,6 +53,8 @@ export async function validateRuntime({pilot = false} = {}) {
       try {
         const result = game.babele.translate(collection, foundry.utils.deepClone(original));
         const patch = payload.entries[original._id];
+        if (source.documentType==='Item') verifyItem(result,patch,original._id);
+        if (source.documentType==='Actor') verifyActor(result,patch,original._id);
         if (patch?.name !== undefined) require(result.name === patch.name, `Root name: ${original._id}`);
         if (source.documentType === 'Item' && patch?.description !== undefined) {
           require(result.system.description.value === patch.description, `Item description: ${original._id}`);
@@ -39,6 +64,8 @@ export async function validateRuntime({pilot = false} = {}) {
         }
         if (collection.endsWith('.pbso-player-options') && original._id === 'pbsoCharlatan000') itemPilot = result;
         if (source.documentType === 'Adventure') {
+          for (const [id,item] of Object.entries(patch.items ?? {})) verifyItem(result.items.find(i=>i._id===id),item,`Adventure.items.${id}`);
+          for (const [id,actor] of Object.entries(patch.actors ?? {})) verifyActor(result.actors.find(a=>a._id===id),actor,`Adventure.actors.${id}`);
           for (const field of ['description','caption']) {
             if (patch[field] !== undefined) require(result[field] === patch[field], `Adventure ${field}`);
           }

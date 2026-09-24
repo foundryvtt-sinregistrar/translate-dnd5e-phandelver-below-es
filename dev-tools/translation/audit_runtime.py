@@ -44,6 +44,13 @@ def is_text(path, original, translated):
         r'/(actors/\d+/)?items/\d+/(name|system/description/value)',
         r'/actors/\d+/(name|prototypeToken/name|system/details/biography/value)',
     ]
+    item_prefix = r'/(?:actors/\d+/)?(?:items/\d+/)?'
+    patterns += [
+        item_prefix+r'system/(?:requirements|description/(?:value|chat)|unidentified/(?:name|description))',
+        item_prefix+r'system/activities/[A-Za-z0-9]+/(?:name|activation/condition|description/(?:chatFlavor|value)|range/special|roll/name|target/affects/special)',
+        item_prefix+r'effects/\d+/(?:name|description)',
+        r'/(?:actors/\d+/)?(?:prototypeToken/name|system/details/(?:alignment|habitat/custom|type/(?:custom|subtype)|biography/(?:value|public))|system/traits/languages/custom|system/attributes/senses/special)',
+    ]
     return any(re.fullmatch(pattern, path) for pattern in patterns)
 
 

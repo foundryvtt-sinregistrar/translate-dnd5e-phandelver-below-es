@@ -5,6 +5,18 @@
     "advancement": {
       "path": "system.advancement",
       "converter": "phandelverAdvancementNames"
+    },
+    "requirements": "system.requirements",
+    "descriptionChat": "system.description.chat",
+    "unidentifiedName": "system.unidentified.name",
+    "unidentifiedDescription": "system.unidentified.description",
+    "activities": {
+      "path": "system.activities",
+      "converter": "phandelverActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phandelverEffects"
     }
   },
   "entries": {
@@ -14,7 +26,8 @@
     },
     "64N1NWh9kC1dI7zN": {
       "name": "Refugio de los fieles",
-      "description": "<p>Como acólito, te ganas el respeto de quienes comparten tu fe y puedes oficiar las ceremonias religiosas de tu deidad. Tú y tus compañeros de aventuras podéis recibir curación y cuidados gratuitos en un templo, santuario u otro lugar establecido de vuestra fe, aunque debéis aportar los componentes materiales necesarios para los conjuros. Quienes comparten tu religión te mantendrán a ti, y solo a ti, con un nivel de vida modesto.</p>\n<p>También puedes tener vínculos con un templo concreto dedicado a la deidad o al panteón que hayas elegido, y disponer allí de una residencia. Podría ser el templo en el que servías, si mantienes una buena relación con él, o uno en el que hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes solicitar ayuda a sus sacerdotes, siempre que lo que pidas no los ponga en peligro y sigas gozando del favor del templo.</p>"
+      "description": "<p>Como acólito, te ganas el respeto de quienes comparten tu fe y puedes oficiar las ceremonias religiosas de tu deidad. Tú y tus compañeros de aventuras podéis recibir curación y cuidados gratuitos en un templo, santuario u otro lugar establecido de vuestra fe, aunque debéis aportar los componentes materiales necesarios para los conjuros. Quienes comparten tu religión te mantendrán a ti, y solo a ti, con un nivel de vida modesto.</p>\n<p>También puedes tener vínculos con un templo concreto dedicado a la deidad o al panteón que hayas elegido, y disponer allí de una residencia. Podría ser el templo en el que servías, si mantienes una buena relación con él, o uno en el que hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes solicitar ayuda a sus sacerdotes, siempre que lo que pidas no los ponga en peligro y sigas gozando del favor del templo.</p>",
+      "requirements": "Acólito"
     },
     "hqrqNyOqfY7i2vut": {
       "name": "Ropa común oscura con capucha",

@@ -5398,5 +5398,2675 @@
     "sourceSha256": "274814f1a96fb52d27a72df64b5558e96816647b69f87ec1fc4b024fc414099e",
     "translationSha256": "a7bf13f04dcc107ddfc5a3fa8bef4c4529a95289b24e137c6d9a80f98aa52026",
     "review": "root-name-dictionary"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoSildarHallwi.items.235O8jaIp0TP6p1D.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoRedbrandRuff.items.x0bQnqskNcVQJHYz.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.6qnT52lZtZblgGw8.items.H7NwPMCFCLtZxIh7.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoRuxithidTheC.items.xbahHBzxNcEQ01th.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoAberrantZeal.items.eoNGHRxJYKpV2lMt.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoShalfiLewin0.items.eoNGHRxJYKpV2lMt.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.EwL5Te2JYM7BDl7U.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.IcyuUi6D65nMQUXJ.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.53QBagoPYQWbWsLf.description",
+    "sourceSha256": "67375dbfd05d40cb3463e7a11b15de7a6b5918d6d01abe34787f31d36d66137a",
+    "translationSha256": "0cb9c5e6a4705b281a28752e6f583c9be066b6ca837ff5e6bbb3d6b9ed54226c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.53QBagoPYQWbWsLf.effects.q1wbe9ru251bfnhg.name",
+    "sourceSha256": "ca15cee95192abe8715a5d078686c35e74fe349f12738591b1cf4239116381c8",
+    "translationSha256": "35b85cfbd34586f62f5c36212877107b4b8797445b4396023ae6caa377ef5f1a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9kskVuk6Nn1ECinO.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.J45ebuzqkXb5Oqmv.description",
+    "sourceSha256": "c3c4cab08df5ceede39265e8c764fc36f11488e30faf23419696c9a9b44bd044",
+    "translationSha256": "0ef112713b7c80c2e815c76d3825d024b86559a5d6fbe6b8f68512b798654df8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.J45ebuzqkXb5Oqmv.effects.OgubIc0XF1U3cduP.name",
+    "sourceSha256": "3224a57d0f82f9f8f7ea182117f09058d6764ade4c2cb32763e24ec7d40d54a2",
+    "translationSha256": "5bd433e7b0250bbda89e7488f55a027d926b31ecf5953f1fcc79b7d37e004814",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.J45ebuzqkXb5Oqmv.effects.OgubIc0XF1U3cduP.description",
+    "sourceSha256": "74fb14bf166d584919786635002f4a9b996d9dfe055fe84e7826cd3bfd21cb86",
+    "translationSha256": "e5df7b8ac39b78aec2a80492ec27525a56ee37dd906dc9f6e92c164d554da9c0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.1taRIMF9w7jpnonN.description",
+    "sourceSha256": "cf92b90054ef9f56976d83bc755363188716e6a400f6025194a479a8f05eb904",
+    "translationSha256": "7efc7ba07a70967ea9a7eb3d2e551d1b10929bf7cae496e8e9b9870081a298a5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.10ZP2Bu3vnCuYMIB.description",
+    "sourceSha256": "e283e6a3d2c25f9e09fb382efa2bf1ef691de251449e44889e9b3bdcd373e41a",
+    "translationSha256": "392b2ddc42e7fb7cf7b52db50906d880dc99b523996e39c883082cca8726bd20",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.IoJIJdOLKSpminMe.description",
+    "sourceSha256": "50f79b10671c51942de45c934f649ffff5aae41c781063e4453be1416f4efd93",
+    "translationSha256": "a972bbc75f455717a52753dd11075ac6e0d34267e36f8f3a8665998783fe6d1c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.LEC1wkaAUnWzDPDD.description",
+    "sourceSha256": "4216fcfb2d364572844c2602340bcda48001e2202313235eed533241a31380bd",
+    "translationSha256": "36ce8071bd6fbb2c1a333b3c160289bc8425bafa9b528e088595c7b78e14b118",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.LEC1wkaAUnWzDPDD.descriptionChat",
+    "sourceSha256": "644e95c0dbf934ea1f159fed1c963cff893919582a2014bbaa10358b416d4640",
+    "translationSha256": "7e470f7e62c1c34ce1fa3029accd9f9a0e48d62afce3c0bb9ac66ffd3dac1832",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.LEC1wkaAUnWzDPDD.unidentifiedName",
+    "sourceSha256": "7c235ca89dba690b4dae7a29abb1f0f573fb3c6bdcd8fb26b8a4df2e4c081518",
+    "translationSha256": "b0c20ca75b6df267ba0d976f3eac0d8573fef693268114cd76f331cefa7c7b38",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.LEC1wkaAUnWzDPDD.unidentifiedDescription",
+    "sourceSha256": "83243e89801bebd168f7cd5bc3e86eea843ef3c0531bf4086e4e04b51ffea055",
+    "translationSha256": "5170b63f7b124edc370fd198872a9f54ad48c7dc5010162265e3ab5e0c64667c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.LEC1wkaAUnWzDPDD.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.LEC1wkaAUnWzDPDD.activities.dnd5eactivity100.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.7i4s9msZWpAw4Ynv.description",
+    "sourceSha256": "f70831546e80cee0f3a128edbcc0c11a40025b9e48b4c05aab85fbe21676bed1",
+    "translationSha256": "25de927ca883dde7b4de0d645b61d51acacd80d2038f48f3371eec01ab5628a9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.HLEhnzLbpRbYdAHo.description",
+    "sourceSha256": "b0267c94c1df65f0b85c80c29891e6b134e5c2ab04887be1c3369c847947aa77",
+    "translationSha256": "ce68b78d98fed78c244b4421372dd61b2937304f196ccc8cc56541bd938531e7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.thkvJ5QBRORIwkkV.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.1Lxk6kmoRhG8qQ0u.description",
+    "sourceSha256": "3d1c0ded50c85324a549c3e7368115ad5fa2cbf840517811eaefa9ddf8f08799",
+    "translationSha256": "95c779ec5684ced06374384e9a8fd0242f519d7f88a47aa0b099228ba8aceb58",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9v0TPDXNa9S7aNB4.description",
+    "sourceSha256": "db4192e2ca5113de8cf954823b2cf6b365add3b9807696e91193930bb1ad7ef0",
+    "translationSha256": "369c49e8a751174d15b4fdb2f93d878cd5866ce41cc581bb79d0a15dd5e95f3c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9v0TPDXNa9S7aNB4.unidentifiedName",
+    "sourceSha256": "d9bede70f8da804a088b1af7b34f042a2ac0604b2c00ac1912ea0fcfb6ede0d4",
+    "translationSha256": "3815510d6ce689b7460a636eaf01167d844b7b5e78b0c5ba19718030700f2329",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.7vqs5AqI4VCmuszx.description",
+    "sourceSha256": "3a94702ed55ec46e11ab620eaaa746237e8d1aa68e7163a3ef0ffd60462dab71",
+    "translationSha256": "6b5cd7e1bb171999757e1870cbdc1d5a759fedb773fdf7ce6c30fdc4d0537f48",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.7vqs5AqI4VCmuszx.unidentifiedName",
+    "sourceSha256": "b146ce55d69c6df2b260cf868a4f1a6872a75f674b5397bbd2f050ed134c501d",
+    "translationSha256": "3fa92cc84eee3627452205d18a19e02a3f452f96ef5039249fb5f88494c38187",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.7vqs5AqI4VCmuszx.unidentifiedDescription",
+    "sourceSha256": "31d3b28efae092728cb75598b2f663b40f722192d8d3e16e92eec835b187b478",
+    "translationSha256": "5f0468de7860754d7cf71480ec5ecd869b9ef013cdbdf18663f7a55c6bda3140",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.0E565kQUBmndJ1a2.description",
+    "sourceSha256": "936177d2f47bf8ef508dda99c2fdac4ca3dba5153e93dde940ffe8a9463b4f78",
+    "translationSha256": "30fcef276ace2c1d3d4b838fff44923cb6eabcffb3fa6017045add658c948f3a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.7FLs8qIGdOFnz9oL.description",
+    "sourceSha256": "347416741be03d36456e5a74ecf37bc17154643ac6c95bc6480892038ea26cb4",
+    "translationSha256": "a44130dc376bc9848b8de4ad2d6e15fe2bf1012ff794ce3a3b564c1ff9847c03",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9stfX2i2I1YPo8vx.description",
+    "sourceSha256": "606d8cd254fdff1d292ea1ab380aab5c6e01c843c4bd11f2791880a4392990ea",
+    "translationSha256": "f3b366aab576df21feecc000a2194259ac4cf9cb8d1e1329fc6a860a8650e706",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9stfX2i2I1YPo8vx.unidentifiedName",
+    "sourceSha256": "3d735300a253fa795b54f3d04aa2aa06de88e29f3cf4e5d6eb58f12ca4c2f183",
+    "translationSha256": "00e7bdcc4bf64c644454bc08e38a6a6736f7715e4076ea83a8d49e82264929ba",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9stfX2i2I1YPo8vx.unidentifiedDescription",
+    "sourceSha256": "c313373c9ab29bf64e52357e5a22dd3c1d032e86550f2a5e4eb34a19c9c658e4",
+    "translationSha256": "811d93948497424160e9eaf57f3513c01137e2c954594d03b5f6987df56190f0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9stfX2i2I1YPo8vx.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.18fbyArtidKzON01.description",
+    "sourceSha256": "034bca9523967a4163406909a4b6912ac2b1e62e86580272978a08070b5e7a27",
+    "translationSha256": "9e7db63dea36b7b63546ed341eeb947763bcb1bffd8771d2325d9a14737c32b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.18fbyArtidKzON01.unidentifiedName",
+    "sourceSha256": "e5b350a7add601a00895ee77defe4986b2b6b5c7165dc417386b953cef1a1598",
+    "translationSha256": "7103ba22892d5787b7d91038d3768fc19b179b5dd1d1f9124dddd11550afb6d6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.bHCShCmmkYsjOqjN.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.UpZLeIx96uo1QmpZ.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.YaEGBvr05Df5dFiX.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.q6WfZBXQZThu4MPV.description",
+    "sourceSha256": "7ee5d08f085254f9b8acd68d0c3e21d01308100cbd53123c79b7f730e95495e8",
+    "translationSha256": "ce702932c8501a74523df6f6c96370d84f2c5e48a4578c0e64b5c5d393c54f6d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.q6WfZBXQZThu4MPV.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoHeightenedMi.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindcrystalp.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.U6cAGx2IYsMvDopz.description",
+    "sourceSha256": "570618763e0249452d25d660575c004d39ec4cdfccf3bb1cc677305ab6cf28f1",
+    "translationSha256": "2b6259e673c26b99acd1141eb0d95848f9f49102671a25762d49dcb45a9df524",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.U6cAGx2IYsMvDopz.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.M2DVjWcdPt2k8kMj.description",
+    "sourceSha256": "7ee5d08f085254f9b8acd68d0c3e21d01308100cbd53123c79b7f730e95495e8",
+    "translationSha256": "ce702932c8501a74523df6f6c96370d84f2c5e48a4578c0e64b5c5d393c54f6d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.M2DVjWcdPt2k8kMj.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9uDSQNxwAIUO0WXe.description",
+    "sourceSha256": "570618763e0249452d25d660575c004d39ec4cdfccf3bb1cc677305ab6cf28f1",
+    "translationSha256": "2b6259e673c26b99acd1141eb0d95848f9f49102671a25762d49dcb45a9df524",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.9uDSQNxwAIUO0WXe.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSubtleMindCr.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.JFiSlgcm3uSSBM5t.description",
+    "sourceSha256": "5c4df184cf95eca39fa83ee2e1ac896dc0aaf99a07f079ebced07eaa40afbaec",
+    "translationSha256": "41465b5d75465952436736043f4fba91359c9ee5fd961c0f0d9964b7764a3c31",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.50N8zf58FR4JWR05.description",
+    "sourceSha256": "53b800b1311e7ce625813c2e1f0a557e424396469090302801841bffc43a31a0",
+    "translationSha256": "a05685d5154a21de8ce051bdb16529e7d7241b39ab339099d0cf8887620e7c57",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.50N8zf58FR4JWR05.unidentifiedName",
+    "sourceSha256": "bc46c2bec4b3bae8d0f77e5482da194b5ceb4c42d1599f7d22d00834aa7d28ab",
+    "translationSha256": "61dab6b7c27240efb0dcb65feffcdcc1d55ada5b0c1678cd9bb3e800464f4bd4",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSilverGreatS.description",
+    "sourceSha256": "23e0abac1e3f7538c4a9ba807de540df0498c80b9363d0c57e4662c6c29d87c2",
+    "translationSha256": "93e010d93094f2f0fef4797f19253282b0da5dd23baefbd423d96c146c893085",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.6qnT52lZtZblgGw8.items.H7NwPMCFCLtZxIh7.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoAberrantZeal.items.eoNGHRxJYKpV2lMt.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoRedbrandRuff.items.x0bQnqskNcVQJHYz.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoRuxithidTheC.items.xbahHBzxNcEQ01th.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoShalfiLewin0.items.eoNGHRxJYKpV2lMt.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.0E565kQUBmndJ1a2.description",
+    "sourceSha256": "936177d2f47bf8ef508dda99c2fdac4ca3dba5153e93dde940ffe8a9463b4f78",
+    "translationSha256": "30fcef276ace2c1d3d4b838fff44923cb6eabcffb3fa6017045add658c948f3a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.10ZP2Bu3vnCuYMIB.description",
+    "sourceSha256": "e283e6a3d2c25f9e09fb382efa2bf1ef691de251449e44889e9b3bdcd373e41a",
+    "translationSha256": "392b2ddc42e7fb7cf7b52db50906d880dc99b523996e39c883082cca8726bd20",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.18fbyArtidKzON01.description",
+    "sourceSha256": "034bca9523967a4163406909a4b6912ac2b1e62e86580272978a08070b5e7a27",
+    "translationSha256": "9e7db63dea36b7b63546ed341eeb947763bcb1bffd8771d2325d9a14737c32b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.18fbyArtidKzON01.unidentifiedName",
+    "sourceSha256": "e5b350a7add601a00895ee77defe4986b2b6b5c7165dc417386b953cef1a1598",
+    "translationSha256": "7103ba22892d5787b7d91038d3768fc19b179b5dd1d1f9124dddd11550afb6d6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.1Lxk6kmoRhG8qQ0u.description",
+    "sourceSha256": "3d1c0ded50c85324a549c3e7368115ad5fa2cbf840517811eaefa9ddf8f08799",
+    "translationSha256": "95c779ec5684ced06374384e9a8fd0242f519d7f88a47aa0b099228ba8aceb58",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.1taRIMF9w7jpnonN.description",
+    "sourceSha256": "cf92b90054ef9f56976d83bc755363188716e6a400f6025194a479a8f05eb904",
+    "translationSha256": "7efc7ba07a70967ea9a7eb3d2e551d1b10929bf7cae496e8e9b9870081a298a5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.4lux04xCxe8XetEQ.description",
+    "sourceSha256": "23e0abac1e3f7538c4a9ba807de540df0498c80b9363d0c57e4662c6c29d87c2",
+    "translationSha256": "93e010d93094f2f0fef4797f19253282b0da5dd23baefbd423d96c146c893085",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.50N8zf58FR4JWR05.description",
+    "sourceSha256": "53b800b1311e7ce625813c2e1f0a557e424396469090302801841bffc43a31a0",
+    "translationSha256": "a05685d5154a21de8ce051bdb16529e7d7241b39ab339099d0cf8887620e7c57",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.50N8zf58FR4JWR05.unidentifiedName",
+    "sourceSha256": "bc46c2bec4b3bae8d0f77e5482da194b5ceb4c42d1599f7d22d00834aa7d28ab",
+    "translationSha256": "61dab6b7c27240efb0dcb65feffcdcc1d55ada5b0c1678cd9bb3e800464f4bd4",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.53QBagoPYQWbWsLf.description",
+    "sourceSha256": "67375dbfd05d40cb3463e7a11b15de7a6b5918d6d01abe34787f31d36d66137a",
+    "translationSha256": "0cb9c5e6a4705b281a28752e6f583c9be066b6ca837ff5e6bbb3d6b9ed54226c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.53QBagoPYQWbWsLf.effects.q1wbe9ru251bfnhg.name",
+    "sourceSha256": "ca15cee95192abe8715a5d078686c35e74fe349f12738591b1cf4239116381c8",
+    "translationSha256": "35b85cfbd34586f62f5c36212877107b4b8797445b4396023ae6caa377ef5f1a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.53uQGToM86zaSWf9.description",
+    "sourceSha256": "3174dbd8fe2ac9a56cf352af57587dcff6b1954838679ed020e49406ee7170c1",
+    "translationSha256": "1254372ad8858e8c2fea664b9f67b002e550fefdd8ca54abe48ae14203294f26",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.7FLs8qIGdOFnz9oL.description",
+    "sourceSha256": "347416741be03d36456e5a74ecf37bc17154643ac6c95bc6480892038ea26cb4",
+    "translationSha256": "a44130dc376bc9848b8de4ad2d6e15fe2bf1012ff794ce3a3b564c1ff9847c03",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.7i4s9msZWpAw4Ynv.description",
+    "sourceSha256": "f70831546e80cee0f3a128edbcc0c11a40025b9e48b4c05aab85fbe21676bed1",
+    "translationSha256": "25de927ca883dde7b4de0d645b61d51acacd80d2038f48f3371eec01ab5628a9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.7vqs5AqI4VCmuszx.description",
+    "sourceSha256": "3a94702ed55ec46e11ab620eaaa746237e8d1aa68e7163a3ef0ffd60462dab71",
+    "translationSha256": "6b5cd7e1bb171999757e1870cbdc1d5a759fedb773fdf7ce6c30fdc4d0537f48",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.7vqs5AqI4VCmuszx.unidentifiedName",
+    "sourceSha256": "b146ce55d69c6df2b260cf868a4f1a6872a75f674b5397bbd2f050ed134c501d",
+    "translationSha256": "3fa92cc84eee3627452205d18a19e02a3f452f96ef5039249fb5f88494c38187",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.7vqs5AqI4VCmuszx.unidentifiedDescription",
+    "sourceSha256": "31d3b28efae092728cb75598b2f663b40f722192d8d3e16e92eec835b187b478",
+    "translationSha256": "5f0468de7860754d7cf71480ec5ecd869b9ef013cdbdf18663f7a55c6bda3140",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9stfX2i2I1YPo8vx.description",
+    "sourceSha256": "606d8cd254fdff1d292ea1ab380aab5c6e01c843c4bd11f2791880a4392990ea",
+    "translationSha256": "f3b366aab576df21feecc000a2194259ac4cf9cb8d1e1329fc6a860a8650e706",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9stfX2i2I1YPo8vx.unidentifiedName",
+    "sourceSha256": "3d735300a253fa795b54f3d04aa2aa06de88e29f3cf4e5d6eb58f12ca4c2f183",
+    "translationSha256": "00e7bdcc4bf64c644454bc08e38a6a6736f7715e4076ea83a8d49e82264929ba",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9stfX2i2I1YPo8vx.unidentifiedDescription",
+    "sourceSha256": "c313373c9ab29bf64e52357e5a22dd3c1d032e86550f2a5e4eb34a19c9c658e4",
+    "translationSha256": "811d93948497424160e9eaf57f3513c01137e2c954594d03b5f6987df56190f0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9stfX2i2I1YPo8vx.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9uDSQNxwAIUO0WXe.description",
+    "sourceSha256": "570618763e0249452d25d660575c004d39ec4cdfccf3bb1cc677305ab6cf28f1",
+    "translationSha256": "2b6259e673c26b99acd1141eb0d95848f9f49102671a25762d49dcb45a9df524",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9uDSQNxwAIUO0WXe.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9v0TPDXNa9S7aNB4.description",
+    "sourceSha256": "db4192e2ca5113de8cf954823b2cf6b365add3b9807696e91193930bb1ad7ef0",
+    "translationSha256": "369c49e8a751174d15b4fdb2f93d878cd5866ce41cc581bb79d0a15dd5e95f3c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9v0TPDXNa9S7aNB4.unidentifiedName",
+    "sourceSha256": "d9bede70f8da804a088b1af7b34f042a2ac0604b2c00ac1912ea0fcfb6ede0d4",
+    "translationSha256": "3815510d6ce689b7460a636eaf01167d844b7b5e78b0c5ba19718030700f2329",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.9v0TPDXNa9S7aNB4.effects.TVtmX2uxGh2iP7Fn.name",
+    "sourceSha256": "12cec68f0e36cbc129bb820c62d29eb322c5c6eba8d75723aab6476580e07312",
+    "translationSha256": "f2e826928dc42e7da667255cde3760f2e12dea8f110fea7b03d1567473b7b2d9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.EwL5Te2JYM7BDl7U.description",
+    "sourceSha256": "404b2284e9ae7d8077a514da67e975c07920f20b15824bdc3ee380bf71d6ec5e",
+    "translationSha256": "04a23d0d421f0e6160fc554288fb0b525f917e91f2ab58f24413b310d1cf0da0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.HLEhnzLbpRbYdAHo.description",
+    "sourceSha256": "b0267c94c1df65f0b85c80c29891e6b134e5c2ab04887be1c3369c847947aa77",
+    "translationSha256": "ce68b78d98fed78c244b4421372dd61b2937304f196ccc8cc56541bd938531e7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.IcyuUi6D65nMQUXJ.description",
+    "sourceSha256": "61674a6ed6a8ca6cd3e9508c8176a4396b59cc8cb88b3e0a0b1ec13f8bc35349",
+    "translationSha256": "3ab875784cdf9350022e7cb483a17a9f02bf392bfeb820b1991d782ef4e51a8b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.IoJIJdOLKSpminMe.description",
+    "sourceSha256": "50f79b10671c51942de45c934f649ffff5aae41c781063e4453be1416f4efd93",
+    "translationSha256": "a972bbc75f455717a52753dd11075ac6e0d34267e36f8f3a8665998783fe6d1c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.J45ebuzqkXb5Oqmv.description",
+    "sourceSha256": "c3c4cab08df5ceede39265e8c764fc36f11488e30faf23419696c9a9b44bd044",
+    "translationSha256": "0ef112713b7c80c2e815c76d3825d024b86559a5d6fbe6b8f68512b798654df8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.J45ebuzqkXb5Oqmv.effects.OgubIc0XF1U3cduP.name",
+    "sourceSha256": "3224a57d0f82f9f8f7ea182117f09058d6764ade4c2cb32763e24ec7d40d54a2",
+    "translationSha256": "5bd433e7b0250bbda89e7488f55a027d926b31ecf5953f1fcc79b7d37e004814",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.J45ebuzqkXb5Oqmv.effects.OgubIc0XF1U3cduP.description",
+    "sourceSha256": "74fb14bf166d584919786635002f4a9b996d9dfe055fe84e7826cd3bfd21cb86",
+    "translationSha256": "e5df7b8ac39b78aec2a80492ec27525a56ee37dd906dc9f6e92c164d554da9c0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.JFiSlgcm3uSSBM5t.description",
+    "sourceSha256": "5c4df184cf95eca39fa83ee2e1ac896dc0aaf99a07f079ebced07eaa40afbaec",
+    "translationSha256": "41465b5d75465952436736043f4fba91359c9ee5fd961c0f0d9964b7764a3c31",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.LEC1wkaAUnWzDPDD.description",
+    "sourceSha256": "4216fcfb2d364572844c2602340bcda48001e2202313235eed533241a31380bd",
+    "translationSha256": "36ce8071bd6fbb2c1a333b3c160289bc8425bafa9b528e088595c7b78e14b118",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.LEC1wkaAUnWzDPDD.descriptionChat",
+    "sourceSha256": "644e95c0dbf934ea1f159fed1c963cff893919582a2014bbaa10358b416d4640",
+    "translationSha256": "7e470f7e62c1c34ce1fa3029accd9f9a0e48d62afce3c0bb9ac66ffd3dac1832",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.LEC1wkaAUnWzDPDD.unidentifiedName",
+    "sourceSha256": "7c235ca89dba690b4dae7a29abb1f0f573fb3c6bdcd8fb26b8a4df2e4c081518",
+    "translationSha256": "b0c20ca75b6df267ba0d976f3eac0d8573fef693268114cd76f331cefa7c7b38",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.LEC1wkaAUnWzDPDD.unidentifiedDescription",
+    "sourceSha256": "83243e89801bebd168f7cd5bc3e86eea843ef3c0531bf4086e4e04b51ffea055",
+    "translationSha256": "5170b63f7b124edc370fd198872a9f54ad48c7dc5010162265e3ab5e0c64667c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.LEC1wkaAUnWzDPDD.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.LEC1wkaAUnWzDPDD.activities.dnd5eactivity100.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.M2DVjWcdPt2k8kMj.description",
+    "sourceSha256": "7ee5d08f085254f9b8acd68d0c3e21d01308100cbd53123c79b7f730e95495e8",
+    "translationSha256": "ce702932c8501a74523df6f6c96370d84f2c5e48a4578c0e64b5c5d393c54f6d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.M2DVjWcdPt2k8kMj.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.U6cAGx2IYsMvDopz.description",
+    "sourceSha256": "570618763e0249452d25d660575c004d39ec4cdfccf3bb1cc677305ab6cf28f1",
+    "translationSha256": "2b6259e673c26b99acd1141eb0d95848f9f49102671a25762d49dcb45a9df524",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.U6cAGx2IYsMvDopz.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.UpZLeIx96uo1QmpZ.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.YaEGBvr05Df5dFiX.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.bHCShCmmkYsjOqjN.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoHeightenedMi.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindcrystalp.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSubtleMindCr.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.q6WfZBXQZThu4MPV.description",
+    "sourceSha256": "7ee5d08f085254f9b8acd68d0c3e21d01308100cbd53123c79b7f730e95495e8",
+    "translationSha256": "ce702932c8501a74523df6f6c96370d84f2c5e48a4578c0e64b5c5d393c54f6d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.q6WfZBXQZThu4MPV.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.rWTwLtOfjSbYvhcq.description",
+    "sourceSha256": "7ee5d08f085254f9b8acd68d0c3e21d01308100cbd53123c79b7f730e95495e8",
+    "translationSha256": "ce702932c8501a74523df6f6c96370d84f2c5e48a4578c0e64b5c5d393c54f6d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.rWTwLtOfjSbYvhcq.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "12792b9da6044fa2bebfcb88c6b588289bc370f363c3153b01bd18fdf0bcddea",
+    "translationSha256": "034a46e2c545b7c72d15c806664b4fe951c5b1ef0ef25fa54ce090ca34602ba1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.thkvJ5QBRORIwkkV.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "309b7348950a7388bfffc1a4e2ea746433c06b70a1c39f778cc566ba4c468fb4",
+    "translationSha256": "2dd88c71faf2a54e65a8fe8f3a281e980b7feac7ccedbb141f40cb6b24d31ef5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-player-options.64N1NWh9kC1dI7zN.requirements",
+    "sourceSha256": "86a7946a420561db48c91ae42e7324b1d56fd51ecaf419dd2d642fddda7da619",
+    "translationSha256": "c07917b32a880acc8a6e54f64b45756ad6cd213065116773bf578328def506b8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoSildarHallwi.items.ZDdpL5XRUP0xX6SB.description",
+    "sourceSha256": "6542a6e30c69207151e3c0aed1a34b970fcc19e6c04c38fd16b3c2fc387eb35c",
+    "translationSha256": "87c740370d2186e57a5bd57055f92fcf05c07cf374da02897591aafe5f311b33",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoWagon0000000.items.67KCK7PLB0Lp5JpJ.description",
+    "sourceSha256": "afb7202d3bc49d38897e66389db9ce9fe71b9eec9c823ed4b142a3f475786c4b",
+    "translationSha256": "1ce20f969e4897ecbd872d6e19ff3ac8a37b2e3015613f514f01bf25385895a3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoWagon0000000.items.EfNbkNYtCBTG9IFH.description",
+    "sourceSha256": "17c050c90bcea2481a3e2006fe21585e9e512b58ee6895568e2c3466fc841bbf",
+    "translationSha256": "26d40a5821bdc2ab306220954de01f9a28930ce637cbcf505c0902c2e6bda9b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoShalfiLewin0.items.895jR5MsMCfzUtdE.description",
+    "sourceSha256": "87933d2ebab1dad9b82dd2ac38d4b9dc8572adbd8a2233570eea1379795140aa",
+    "translationSha256": "74454f89f3f6f85fd46c480cb26dcdc41b952402edbd9d16726de87afbaf4bbd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoBarrelOfOil0.description",
+    "sourceSha256": "afb7202d3bc49d38897e66389db9ce9fe71b9eec9c823ed4b142a3f475786c4b",
+    "translationSha256": "1ce20f969e4897ecbd872d6e19ff3ac8a37b2e3015613f514f01bf25385895a3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.U9f6G1u107DbFIAr.description",
+    "sourceSha256": "17c050c90bcea2481a3e2006fe21585e9e512b58ee6895568e2c3466fc841bbf",
+    "translationSha256": "26d40a5821bdc2ab306220954de01f9a28930ce637cbcf505c0902c2e6bda9b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.XPXcxG51oz9o3Kxq.description",
+    "sourceSha256": "73c1e5c0d3d5905d6007463028dab91e362889dafd2ca574d0f42c750f9ccb2a",
+    "translationSha256": "2e0c4ba1eb44222acb35060fafe66fc95530046fff49b58d158d6a60303f22b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.YLsbATjmQ4tRIbiQ.description",
+    "sourceSha256": "324879e430c415abdb22fd31a26eed7386cdcbc068b71349d16faa632a02a7fb",
+    "translationSha256": "521dd9d5ddc81da20a3f073d8f15f232fb826fba31e3022626f68c4aea953cee",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.ge9mF0LFYBsQAFHY.description",
+    "sourceSha256": "221abbae72af2bffd01058b189935b8525dfd095aafcfd4531d08009f757f4bb",
+    "translationSha256": "7abb87a8030a702ec5283259f669ef7a47282dc72016dc9802fbf08bd14bf9fa",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.e03khppdzSdud2qN.description",
+    "sourceSha256": "6542a6e30c69207151e3c0aed1a34b970fcc19e6c04c38fd16b3c2fc387eb35c",
+    "translationSha256": "87c740370d2186e57a5bd57055f92fcf05c07cf374da02897591aafe5f311b33",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.SK2HATQ4abKUlV8i.description",
+    "sourceSha256": "f859c746a7c6573c8df1595f20a6459c44dcd908ed371fbb0fd248eb6228e551",
+    "translationSha256": "b150d1004f70388da7c87deb250523f968070b3df3210eca7df9b828ac642e8a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.l2T46xCqUbJvKE7A.description",
+    "sourceSha256": "e7da8835f7ff951f819ac367ebfd4399b80b98fe82ffef1efe1adbca921668a5",
+    "translationSha256": "e553e87e3dfac5d1a0386fc101a0393f1fd102bc2f5cc14a6944d7af564c83a2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.l2T46xCqUbJvKE7A.unidentifiedName",
+    "sourceSha256": "17c5c58551cf2ae6b9154600476b144f14c9e30772b6c8d500becf0321534198",
+    "translationSha256": "6a1126c82f6f3e8f82f3e80aa1c4cba06a30407aef1103da17183877cbf9545a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.l2T46xCqUbJvKE7A.unidentifiedDescription",
+    "sourceSha256": "0e1a3b31d1180b5d2cd01e16c0c728113cb59ed1a2d90d593a4a154166718843",
+    "translationSha256": "206dd5ec279c3583183e2bbb13fff1cc93613db3c7addfc65996f195935d222f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.dGnkwePemh7ovuDv.description",
+    "sourceSha256": "6577b48727e0c9ebae9d28002377de39ec5c7e3e1e7d07435519e3eacc711783",
+    "translationSha256": "5fce31c50d95e756fc8c84498d6c49eed1f5d3d10e9ba570f4d25422a16aaad9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.dGnkwePemh7ovuDv.unidentifiedName",
+    "sourceSha256": "edabd45c2f489dd52a518baae7dae0b025a348ff2c7a310016e76d364527878e",
+    "translationSha256": "eaf5c67e0c3369b25cbc696f6716784543715d1821580f8f3454352b14f14b8c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.ZYEqOSY9BLZs2GPx.description",
+    "sourceSha256": "021b7a055bb25d877e8ff68d01a2cdccb547ef8b7572fb05c7886e472dde1959",
+    "translationSha256": "6b62feb509be065e718fa4c251a447f03443a66644328e0f02d9bf07c6abbb36",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.ZYEqOSY9BLZs2GPx.unidentifiedName",
+    "sourceSha256": "fcf48578852aba24d711ab14e42b2ff298c7fb96bfec1eb01eb9d0fe91c0ed97",
+    "translationSha256": "ff125ad3bda9eab9ecca8080c0ac6f4734445500cc3369d30e829a137d79353c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.ZYEqOSY9BLZs2GPx.unidentifiedDescription",
+    "sourceSha256": "ca088b696034aeea3742a5ddb3e5323a0203fc7db6fe392d0b80b521d64ad3d3",
+    "translationSha256": "c5bb1df8d50977dac4140320a606fbe3de9d294b14db0a88230019b0768f74f1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.ZYEqOSY9BLZs2GPx.effects.ChaLjlYldFzDgHHv.name",
+    "sourceSha256": "0cf121a0d37cc1b185aeda0d90549a20e855102264c4634ddcaa65fc884977ce",
+    "translationSha256": "0ad18905512391d8de31860aa338e2d8258d4a77fca14dbe6e7ee685d2d26989",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.TZggpdbOYqOCG7mY.description",
+    "sourceSha256": "ee3157643bd53a6773e8019151b7d283afdced0108d171ad409fd90005cc2b5e",
+    "translationSha256": "25528169cc164036d81e7c9a35f7070188928a7c277ebed2e750b2e8c603c168",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoAmethyst0000.description",
+    "sourceSha256": "aa3860f2cef4bccf88f0314a761c0a940572fc816c8af84820b1afd0394c5fcf",
+    "translationSha256": "876100455f65f280741ed0c4d2c1922e10e565f72340a37e4252bb7953a40f53",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.SqTtbBCfiEsmZ36N.description",
+    "sourceSha256": "01d682266a7aac6119959b328bdc93c1ca3c1dfa1fe951ce9a57d7394ad649ac",
+    "translationSha256": "13084a61aa283978c022ece875f2934bf93b06dce2402453e55d0132811a0416",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.OjkIqlW2UpgFcjZa.description",
+    "sourceSha256": "7fcca7c23ddb68fccec5f30fb5b6909532166878fbcd38a5c54257c28f0659b0",
+    "translationSha256": "0c5975a36ca3122dcb48b146ccfb7be5f19c8cc693d7705d800f6d0d6a6a957a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.OjkIqlW2UpgFcjZa.descriptionChat",
+    "sourceSha256": "e233068498f513dd494a5a86a995239368782906dfa9fa13545f91d7fa42cfbb",
+    "translationSha256": "f09f3305b45eee83f69c8f6e72803f45baa5054fef1c733a50724c5fa1983d5b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.WVdSEHlCN9onfOk2.description",
+    "sourceSha256": "995bc0598baf2190d67467925d2a6e671d9801b43168ac9c6bde1d400291ccea",
+    "translationSha256": "593b3ea8ac624e2a37bece1b5b6ec6a62234b4227ede8f7faa65c4a8c196c450",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoRingOfTheOra.unidentifiedName",
+    "sourceSha256": "edabd45c2f489dd52a518baae7dae0b025a348ff2c7a310016e76d364527878e",
+    "translationSha256": "eaf5c67e0c3369b25cbc696f6716784543715d1821580f8f3454352b14f14b8c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.RMi9efrW9ouHVLI2.description",
+    "sourceSha256": "89c22ca37763fb3f45042cea8e9d21fa606a4f69208be98d923218edbce666a2",
+    "translationSha256": "87796dce084afc6f7ec5b15884e0bd4ab2684f75f6ba12509bfc0fa88d8d3671",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.jhjo20QoiD5exf09.description",
+    "sourceSha256": "ea5247fc3e6d67849287176171dba2fbd022730cea70dfdb0d987bad59d148a9",
+    "translationSha256": "bda1c64cdcdb31e6675b838912f4d357236ff50a2d7cf3c05142c7ec58a98134",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.fC0lFK8P4RuhpfaU.description",
+    "sourceSha256": "1ef754efa7231f3349244affc762e8ba4039219db8fbfab31d200397f89caead",
+    "translationSha256": "7fa915c16190cca1f394e78a3c663137f3e275705d87e13e6b5f378621cb475b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.cruo7AyPDNquXirJ.description",
+    "sourceSha256": "078efe6f1a44f2d086384ab8733a147f9654c8315aaa4426b988c9db0d639c66",
+    "translationSha256": "bc923d325038b0cd6aed042a5b1dd6c0737194d9699fff8c540fcb4927cdb5ea",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.cruo7AyPDNquXirJ.unidentifiedName",
+    "sourceSha256": "e6731d4513d3b35e9785d4f16ed5832e18c757acc7d2732fc46e2230d501de2d",
+    "translationSha256": "29e973ba1ac62f05f21124fb2143937b7fb41f963e8757165a4cfad3f1008bfc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.cruo7AyPDNquXirJ.unidentifiedDescription",
+    "sourceSha256": "d758488a3512c0775fdfba89e9659033166bfa84c706e5d0a044c47a9ad173a1",
+    "translationSha256": "84c6c7d44372f55a0489da3ae4826b8f4dea4da07f32cd9d30ba94c7ae9f4327",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.paqlMjggWkBIAeCe.description",
+    "sourceSha256": "19d3ff19acd38afc5b231b888cbb12074e03629a327869f9498aad0e07a5b99a",
+    "translationSha256": "b395c6d65571ae778f213f0437ba80bd12417fd9abab5c002f23d4b45f2921dd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.paqlMjggWkBIAeCe.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "ce828ce31629b41a953def8e744b082c2bf261fa2f6886820bd347491535fdc3",
+    "translationSha256": "0e0ef4993ec02953243187a19d1971c98a4a9de750355c507b03e4145e5d9454",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.l794iywHk8Wc6Uvi.description",
+    "sourceSha256": "47b6f117fde49a4f3a5fa449bab79d3227862bb062f1f5e6b3380d5f1c731f61",
+    "translationSha256": "ac391df2ff2ee3f457bb7a0214cdad1aa29bd906e4c348238432b25c231c8bb6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.psoZaItkOScMVaHL.description",
+    "sourceSha256": "17c050c90bcea2481a3e2006fe21585e9e512b58ee6895568e2c3466fc841bbf",
+    "translationSha256": "26d40a5821bdc2ab306220954de01f9a28930ce637cbcf505c0902c2e6bda9b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.oY8KbpGmB5H2Deoy.description",
+    "sourceSha256": "65b2f24903409ba247191bb51ccbd125d92278ffa95412451df4a1d3ab2426a3",
+    "translationSha256": "6bde3d8e69dea15f94bad2a7e4ed4703df44e0a2c7f3da1d7c209cca51ca54e0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.bHCShCmmkYsjOqjN.description",
+    "sourceSha256": "6ba3b50c88145260649cd96dfe6ce151c1f4b00debb52440e163786a9ca03010",
+    "translationSha256": "d197a67c5da7ff0c2a0f9f05e1b9dbe4792b0f31f62d627b3780d2ff81e70927",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.UpZLeIx96uo1QmpZ.description",
+    "sourceSha256": "5784c15a6938dc6dbff17b2bf7d2d730f1dd638f7b0c00f5028bca297fb582a4",
+    "translationSha256": "0816fb375a6bf44ae5fc14cbb8a920f240845e87b10c397f630ab7156a434592",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.YaEGBvr05Df5dFiX.description",
+    "sourceSha256": "0ffdfafffb53c4055cceb9ce25eb066311db37df78804da6a00df19de5ef6f8f",
+    "translationSha256": "7f3c936f825a602bf1cbc7f212c24b72fdc7f30dc03c33e6c9466bbef50bcce7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoAntiquemaps0.description",
+    "sourceSha256": "d9cf279aa69bd179e507b431b31ba8ca69eeaa2a2175b9a64c9a4c7d652a3671",
+    "translationSha256": "51714cc02fda5834cfef150f5fd28cb8e42d3c8dcbefe56ce87901a246de4231",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoBeholderstat.description",
+    "sourceSha256": "52fb30d01d1a744962a80175cfb06721813175768c579bf9c170bf836bdbdde5",
+    "translationSha256": "760d2a6099e46bbf6ceeae22cfc9c2574d893a1aa99cb2a83883d7f1bee28bcf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.YfBwELTgPFHmQdHh.description",
+    "sourceSha256": "0cb857d32c94b7847378b04d6c089695c188374aa686d019b5550d822da907b1",
+    "translationSha256": "f6006a04d2e63dcb29c176ab85bd2754b3545447ce80292c23417ce4a72600d6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.m6D8huOpY18o6LlJ.description",
+    "sourceSha256": "d89ab0af9ecd0b5effe853812f0668cfe85ec644211f72695de374a92f2e3046",
+    "translationSha256": "6dbc43e33be04fa408339fd3e97fa27cea20ebbd46e6b96ff82033c64caaadaa",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.m6D8huOpY18o6LlJ.unidentifiedName",
+    "sourceSha256": "244c86a2fdfa208ba322b562b9d508d4dd1a13b6e5d6a8753e348bddc0e976b1",
+    "translationSha256": "4bd7bb53736eb48d9dd2402ae467cfc473cd68da8a821a97b6b4f771038fbb1b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.m6D8huOpY18o6LlJ.unidentifiedDescription",
+    "sourceSha256": "3354e870b1ddeb99888f8773d34c483df141e57c3d1662f700a5c8972762315d",
+    "translationSha256": "221b0f5fb6c0818e28c365acfa10dcf53fd1c28328fa2a94354a7d223d150bed",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoB9treasure00.description",
+    "sourceSha256": "87933d2ebab1dad9b82dd2ac38d4b9dc8572adbd8a2233570eea1379795140aa",
+    "translationSha256": "74454f89f3f6f85fd46c480cb26dcdc41b952402edbd9d16726de87afbaf4bbd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.a47tkfgDfNCv5uxY.description",
+    "sourceSha256": "14413a664777d37dcd0d607e5c9d320314e0648983665db6cdd82f600816a200",
+    "translationSha256": "c828d8aad8df73fbd711a4ae29a03d943d9ed5929ad7fd5c925b45aa7d385886",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoBasiliskFigu.description",
+    "sourceSha256": "8df4f29506464288356baed0986882bdf9dbcced25fde042a16f204abd50825b",
+    "translationSha256": "37e71b1e9a5e04a90cf87bc08fdad19c7dbc6e94972f5a9d6b228f5f47f24f95",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.azIuFvXlnoxWyyYU.description",
+    "sourceSha256": "93a77c1463904184331b843438c66c2f8001276c2299a620ddcff0c793723f6f",
+    "translationSha256": "b3b3d98f287aec0d0ed598a4db15c947bce8f7e89d6bc44d7276cbc4df7a53e3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoShalfiLewin0.items.895jR5MsMCfzUtdE.description",
+    "sourceSha256": "87933d2ebab1dad9b82dd2ac38d4b9dc8572adbd8a2233570eea1379795140aa",
+    "translationSha256": "74454f89f3f6f85fd46c480cb26dcdc41b952402edbd9d16726de87afbaf4bbd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.OjkIqlW2UpgFcjZa.description",
+    "sourceSha256": "7fcca7c23ddb68fccec5f30fb5b6909532166878fbcd38a5c54257c28f0659b0",
+    "translationSha256": "0c5975a36ca3122dcb48b146ccfb7be5f19c8cc693d7705d800f6d0d6a6a957a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.OjkIqlW2UpgFcjZa.descriptionChat",
+    "sourceSha256": "e233068498f513dd494a5a86a995239368782906dfa9fa13545f91d7fa42cfbb",
+    "translationSha256": "f09f3305b45eee83f69c8f6e72803f45baa5054fef1c733a50724c5fa1983d5b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.RMi9efrW9ouHVLI2.description",
+    "sourceSha256": "89c22ca37763fb3f45042cea8e9d21fa606a4f69208be98d923218edbce666a2",
+    "translationSha256": "87796dce084afc6f7ec5b15884e0bd4ab2684f75f6ba12509bfc0fa88d8d3671",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.SK2HATQ4abKUlV8i.description",
+    "sourceSha256": "f859c746a7c6573c8df1595f20a6459c44dcd908ed371fbb0fd248eb6228e551",
+    "translationSha256": "b150d1004f70388da7c87deb250523f968070b3df3210eca7df9b828ac642e8a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.SqTtbBCfiEsmZ36N.description",
+    "sourceSha256": "01d682266a7aac6119959b328bdc93c1ca3c1dfa1fe951ce9a57d7394ad649ac",
+    "translationSha256": "13084a61aa283978c022ece875f2934bf93b06dce2402453e55d0132811a0416",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.TZggpdbOYqOCG7mY.description",
+    "sourceSha256": "ee3157643bd53a6773e8019151b7d283afdced0108d171ad409fd90005cc2b5e",
+    "translationSha256": "25528169cc164036d81e7c9a35f7070188928a7c277ebed2e750b2e8c603c168",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.U9f6G1u107DbFIAr.description",
+    "sourceSha256": "17c050c90bcea2481a3e2006fe21585e9e512b58ee6895568e2c3466fc841bbf",
+    "translationSha256": "26d40a5821bdc2ab306220954de01f9a28930ce637cbcf505c0902c2e6bda9b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.UpZLeIx96uo1QmpZ.description",
+    "sourceSha256": "5784c15a6938dc6dbff17b2bf7d2d730f1dd638f7b0c00f5028bca297fb582a4",
+    "translationSha256": "0816fb375a6bf44ae5fc14cbb8a920f240845e87b10c397f630ab7156a434592",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.WVdSEHlCN9onfOk2.description",
+    "sourceSha256": "995bc0598baf2190d67467925d2a6e671d9801b43168ac9c6bde1d400291ccea",
+    "translationSha256": "593b3ea8ac624e2a37bece1b5b6ec6a62234b4227ede8f7faa65c4a8c196c450",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.XPXcxG51oz9o3Kxq.description",
+    "sourceSha256": "73c1e5c0d3d5905d6007463028dab91e362889dafd2ca574d0f42c750f9ccb2a",
+    "translationSha256": "2e0c4ba1eb44222acb35060fafe66fc95530046fff49b58d158d6a60303f22b7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.YLsbATjmQ4tRIbiQ.description",
+    "sourceSha256": "324879e430c415abdb22fd31a26eed7386cdcbc068b71349d16faa632a02a7fb",
+    "translationSha256": "521dd9d5ddc81da20a3f073d8f15f232fb826fba31e3022626f68c4aea953cee",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.YaEGBvr05Df5dFiX.description",
+    "sourceSha256": "0ffdfafffb53c4055cceb9ce25eb066311db37df78804da6a00df19de5ef6f8f",
+    "translationSha256": "7f3c936f825a602bf1cbc7f212c24b72fdc7f30dc03c33e6c9466bbef50bcce7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.YfBwELTgPFHmQdHh.description",
+    "sourceSha256": "0cb857d32c94b7847378b04d6c089695c188374aa686d019b5550d822da907b1",
+    "translationSha256": "f6006a04d2e63dcb29c176ab85bd2754b3545447ce80292c23417ce4a72600d6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.ZYEqOSY9BLZs2GPx.description",
+    "sourceSha256": "021b7a055bb25d877e8ff68d01a2cdccb547ef8b7572fb05c7886e472dde1959",
+    "translationSha256": "6b62feb509be065e718fa4c251a447f03443a66644328e0f02d9bf07c6abbb36",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.ZYEqOSY9BLZs2GPx.unidentifiedName",
+    "sourceSha256": "fcf48578852aba24d711ab14e42b2ff298c7fb96bfec1eb01eb9d0fe91c0ed97",
+    "translationSha256": "ff125ad3bda9eab9ecca8080c0ac6f4734445500cc3369d30e829a137d79353c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.ZYEqOSY9BLZs2GPx.unidentifiedDescription",
+    "sourceSha256": "ca088b696034aeea3742a5ddb3e5323a0203fc7db6fe392d0b80b521d64ad3d3",
+    "translationSha256": "c5bb1df8d50977dac4140320a606fbe3de9d294b14db0a88230019b0768f74f1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.ZYEqOSY9BLZs2GPx.effects.ChaLjlYldFzDgHHv.name",
+    "sourceSha256": "0cf121a0d37cc1b185aeda0d90549a20e855102264c4634ddcaa65fc884977ce",
+    "translationSha256": "0ad18905512391d8de31860aa338e2d8258d4a77fca14dbe6e7ee685d2d26989",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.a47tkfgDfNCv5uxY.description",
+    "sourceSha256": "14413a664777d37dcd0d607e5c9d320314e0648983665db6cdd82f600816a200",
+    "translationSha256": "c828d8aad8df73fbd711a4ae29a03d943d9ed5929ad7fd5c925b45aa7d385886",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.azIuFvXlnoxWyyYU.description",
+    "sourceSha256": "93a77c1463904184331b843438c66c2f8001276c2299a620ddcff0c793723f6f",
+    "translationSha256": "b3b3d98f287aec0d0ed598a4db15c947bce8f7e89d6bc44d7276cbc4df7a53e3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.bHCShCmmkYsjOqjN.description",
+    "sourceSha256": "6ba3b50c88145260649cd96dfe6ce151c1f4b00debb52440e163786a9ca03010",
+    "translationSha256": "d197a67c5da7ff0c2a0f9f05e1b9dbe4792b0f31f62d627b3780d2ff81e70927",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.cruo7AyPDNquXirJ.description",
+    "sourceSha256": "078efe6f1a44f2d086384ab8733a147f9654c8315aaa4426b988c9db0d639c66",
+    "translationSha256": "bc923d325038b0cd6aed042a5b1dd6c0737194d9699fff8c540fcb4927cdb5ea",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.cruo7AyPDNquXirJ.unidentifiedName",
+    "sourceSha256": "e6731d4513d3b35e9785d4f16ed5832e18c757acc7d2732fc46e2230d501de2d",
+    "translationSha256": "29e973ba1ac62f05f21124fb2143937b7fb41f963e8757165a4cfad3f1008bfc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.cruo7AyPDNquXirJ.unidentifiedDescription",
+    "sourceSha256": "d758488a3512c0775fdfba89e9659033166bfa84c706e5d0a044c47a9ad173a1",
+    "translationSha256": "84c6c7d44372f55a0489da3ae4826b8f4dea4da07f32cd9d30ba94c7ae9f4327",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.dGnkwePemh7ovuDv.description",
+    "sourceSha256": "6577b48727e0c9ebae9d28002377de39ec5c7e3e1e7d07435519e3eacc711783",
+    "translationSha256": "5fce31c50d95e756fc8c84498d6c49eed1f5d3d10e9ba570f4d25422a16aaad9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.dGnkwePemh7ovuDv.unidentifiedName",
+    "sourceSha256": "edabd45c2f489dd52a518baae7dae0b025a348ff2c7a310016e76d364527878e",
+    "translationSha256": "eaf5c67e0c3369b25cbc696f6716784543715d1821580f8f3454352b14f14b8c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.e03khppdzSdud2qN.description",
+    "sourceSha256": "6542a6e30c69207151e3c0aed1a34b970fcc19e6c04c38fd16b3c2fc387eb35c",
+    "translationSha256": "87c740370d2186e57a5bd57055f92fcf05c07cf374da02897591aafe5f311b33",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.fC0lFK8P4RuhpfaU.description",
+    "sourceSha256": "1ef754efa7231f3349244affc762e8ba4039219db8fbfab31d200397f89caead",
+    "translationSha256": "7fa915c16190cca1f394e78a3c663137f3e275705d87e13e6b5f378621cb475b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.ge9mF0LFYBsQAFHY.description",
+    "sourceSha256": "221abbae72af2bffd01058b189935b8525dfd095aafcfd4531d08009f757f4bb",
+    "translationSha256": "7abb87a8030a702ec5283259f669ef7a47282dc72016dc9802fbf08bd14bf9fa",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.jhjo20QoiD5exf09.description",
+    "sourceSha256": "ea5247fc3e6d67849287176171dba2fbd022730cea70dfdb0d987bad59d148a9",
+    "translationSha256": "bda1c64cdcdb31e6675b838912f4d357236ff50a2d7cf3c05142c7ec58a98134",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.l2T46xCqUbJvKE7A.description",
+    "sourceSha256": "e7da8835f7ff951f819ac367ebfd4399b80b98fe82ffef1efe1adbca921668a5",
+    "translationSha256": "e553e87e3dfac5d1a0386fc101a0393f1fd102bc2f5cc14a6944d7af564c83a2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.l2T46xCqUbJvKE7A.unidentifiedName",
+    "sourceSha256": "17c5c58551cf2ae6b9154600476b144f14c9e30772b6c8d500becf0321534198",
+    "translationSha256": "6a1126c82f6f3e8f82f3e80aa1c4cba06a30407aef1103da17183877cbf9545a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.l2T46xCqUbJvKE7A.unidentifiedDescription",
+    "sourceSha256": "0e1a3b31d1180b5d2cd01e16c0c728113cb59ed1a2d90d593a4a154166718843",
+    "translationSha256": "206dd5ec279c3583183e2bbb13fff1cc93613db3c7addfc65996f195935d222f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.l794iywHk8Wc6Uvi.description",
+    "sourceSha256": "47b6f117fde49a4f3a5fa449bab79d3227862bb062f1f5e6b3380d5f1c731f61",
+    "translationSha256": "ac391df2ff2ee3f457bb7a0214cdad1aa29bd906e4c348238432b25c231c8bb6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.m6D8huOpY18o6LlJ.description",
+    "sourceSha256": "d89ab0af9ecd0b5effe853812f0668cfe85ec644211f72695de374a92f2e3046",
+    "translationSha256": "6dbc43e33be04fa408339fd3e97fa27cea20ebbd46e6b96ff82033c64caaadaa",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.m6D8huOpY18o6LlJ.unidentifiedName",
+    "sourceSha256": "244c86a2fdfa208ba322b562b9d508d4dd1a13b6e5d6a8753e348bddc0e976b1",
+    "translationSha256": "4bd7bb53736eb48d9dd2402ae467cfc473cd68da8a821a97b6b4f771038fbb1b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.m6D8huOpY18o6LlJ.unidentifiedDescription",
+    "sourceSha256": "3354e870b1ddeb99888f8773d34c483df141e57c3d1662f700a5c8972762315d",
+    "translationSha256": "221b0f5fb6c0818e28c365acfa10dcf53fd1c28328fa2a94354a7d223d150bed",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.oY8KbpGmB5H2Deoy.description",
+    "sourceSha256": "65b2f24903409ba247191bb51ccbd125d92278ffa95412451df4a1d3ab2426a3",
+    "translationSha256": "6bde3d8e69dea15f94bad2a7e4ed4703df44e0a2c7f3da1d7c209cca51ca54e0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.paqlMjggWkBIAeCe.description",
+    "sourceSha256": "19d3ff19acd38afc5b231b888cbb12074e03629a327869f9498aad0e07a5b99a",
+    "translationSha256": "b395c6d65571ae778f213f0437ba80bd12417fd9abab5c002f23d4b45f2921dd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.paqlMjggWkBIAeCe.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "ce828ce31629b41a953def8e744b082c2bf261fa2f6886820bd347491535fdc3",
+    "translationSha256": "0e0ef4993ec02953243187a19d1971c98a4a9de750355c507b03e4145e5d9454",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoAmethyst0000.description",
+    "sourceSha256": "aa3860f2cef4bccf88f0314a761c0a940572fc816c8af84820b1afd0394c5fcf",
+    "translationSha256": "876100455f65f280741ed0c4d2c1922e10e565f72340a37e4252bb7953a40f53",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoAntiquemaps0.description",
+    "sourceSha256": "d9cf279aa69bd179e507b431b31ba8ca69eeaa2a2175b9a64c9a4c7d652a3671",
+    "translationSha256": "51714cc02fda5834cfef150f5fd28cb8e42d3c8dcbefe56ce87901a246de4231",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoB9treasure00.description",
+    "sourceSha256": "87933d2ebab1dad9b82dd2ac38d4b9dc8572adbd8a2233570eea1379795140aa",
+    "translationSha256": "74454f89f3f6f85fd46c480cb26dcdc41b952402edbd9d16726de87afbaf4bbd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoBarrelOfOil0.description",
+    "sourceSha256": "afb7202d3bc49d38897e66389db9ce9fe71b9eec9c823ed4b142a3f475786c4b",
+    "translationSha256": "1ce20f969e4897ecbd872d6e19ff3ac8a37b2e3015613f514f01bf25385895a3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoBasiliskFigu.description",
+    "sourceSha256": "8df4f29506464288356baed0986882bdf9dbcced25fde042a16f204abd50825b",
+    "translationSha256": "37e71b1e9a5e04a90cf87bc08fdad19c7dbc6e94972f5a9d6b228f5f47f24f95",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoBeholderstat.description",
+    "sourceSha256": "52fb30d01d1a744962a80175cfb06721813175768c579bf9c170bf836bdbdde5",
+    "translationSha256": "760d2a6099e46bbf6ceeae22cfc9c2574d893a1aa99cb2a83883d7f1bee28bcf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoRingOfTheOra.description",
+    "sourceSha256": "6577b48727e0c9ebae9d28002377de39ec5c7e3e1e7d07435519e3eacc711783",
+    "translationSha256": "5fce31c50d95e756fc8c84498d6c49eed1f5d3d10e9ba570f4d25422a16aaad9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoRingOfTheOra.unidentifiedName",
+    "sourceSha256": "edabd45c2f489dd52a518baae7dae0b025a348ff2c7a310016e76d364527878e",
+    "translationSha256": "eaf5c67e0c3369b25cbc696f6716784543715d1821580f8f3454352b14f14b8c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoWagon0000000.items.t2eCPC92ZmiVeApF.description",
+    "sourceSha256": "c70256a69fd8e96d15b8fc58f7f937a9c6db79d79a1350d7dd7ba27fbb2a03d2",
+    "translationSha256": "858548fa5df42770ff3fa222b372e6aad366fc194e9c7bd6eb01922b35eac683",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoWagon0000000.items.M9X7yvug4gaiamnQ.description",
+    "sourceSha256": "1404d3759e1e1aa6d4d0a58941985df1fa1ff807f7a01f5c8e36b9c4f7d7baa3",
+    "translationSha256": "d991d021a38dff53096b48330693015083d344804df2bd74b2b48d5221565e89",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCaskOfSalted.description",
+    "sourceSha256": "c70256a69fd8e96d15b8fc58f7f937a9c6db79d79a1350d7dd7ba27fbb2a03d2",
+    "translationSha256": "858548fa5df42770ff3fa222b372e6aad366fc194e9c7bd6eb01922b35eac683",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoKegOfStrongA.description",
+    "sourceSha256": "1404d3759e1e1aa6d4d0a58941985df1fa1ff807f7a01f5c8e36b9c4f7d7baa3",
+    "translationSha256": "d991d021a38dff53096b48330693015083d344804df2bd74b2b48d5221565e89",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoJadeStatuett.description",
+    "sourceSha256": "ab3fd16ce4488ac5e68f98513366f0774906dbd417478c13daae80c330ad6b5e",
+    "translationSha256": "2c78abfaf9c5957246eb55b5494ae32b84eef882667537500b1a6887147753c9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoJeweledGoldB.description",
+    "sourceSha256": "75c9efa90af24218dad88c89c928718630773d312b36f8e86024b9afc0d6779d",
+    "translationSha256": "514f087beebf5b76d7ee424e6e41e7d027a2d7e56115d92205bf1f078a80a55a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoJeweledSilve.description",
+    "sourceSha256": "f3374945d84b9e14b0b5b3f65116c3eaf351f9d02952ffae7aa7cbc6029b3fa9",
+    "translationSha256": "7aee6b91601926dc97c854c279ae72db805283766f1df02bb5bafad000b2c6fc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGarnet000000.description",
+    "sourceSha256": "df68ef0d38d96a27e5ec441113079c4d0f3798ca46f6d62605cf4da1c6e8468a",
+    "translationSha256": "f23f87f19dc50ee4f9d0f5d62c503d687485beaeb1b9cc3177ff748a5940daad",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGoldenEarrin.description",
+    "sourceSha256": "5f7d92cee9ee4e6c2d9f731f80fd9aeda86340fc5cfa5a2f6779bf135a0c9c90",
+    "translationSha256": "5209127be38e84803e88ccf8ae4434b1b523166dd8c9bbc56d4c0d0bf70a81fb",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoFireballScro.description",
+    "sourceSha256": "fcfd683d88240c946243b4e0fd676cb13f81abf7450776daab2b2997b6356a10",
+    "translationSha256": "4867f2ef0aebdb64b5a3b2590a12d9d9166d75821eae5f329b496e8f8b2c0b56",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoHoldPersonSc.description",
+    "sourceSha256": "1c7c664a715ffd5dcbae91784f09b8462e11c14999f174dfafa431b8c880f084",
+    "translationSha256": "9a47c3feef38a58982378b02ede5ead8e28e0914e4dc6511db9320fedb08f71a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCensercragma.description",
+    "sourceSha256": "4a50038812b36c73f7341c3af4996c98bdc8e79fae9ea70443d1ce8de81fcdab",
+    "translationSha256": "bb33469e931ffd88006705ae765e9fae8c066934de6560d7381cadf9b2e4d425",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoChalicecragm.description",
+    "sourceSha256": "cd13e62ee49294f4d4b2e41bd424df5e088b81fde1e05e24ca21d31ccc0f4324",
+    "translationSha256": "5d88c29dffc5330b84f95327743d55777d692419c0c8c6a5f2cbf757ebd88fe3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoEmboldeningB.description",
+    "sourceSha256": "9342b93705bf04dec0f0f2a8e20d977976d3df660965ccf7b23104803a8b4f17",
+    "translationSha256": "09cdd6111e3738f71cc9de08642ca2f5892acd91bf94e4fd83459b74ac2c2d85",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoFineEmeraldP.description",
+    "sourceSha256": "5370a2dcc026646a18d6843e2e80fa09f2b79fe0c451a09b78fe08fff5bd5173",
+    "translationSha256": "943af627c66a75257c013fd5b3f632aeecf33a8ef3bf7e3ce4f9d642ee70c23f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGoldenElfSta.description",
+    "sourceSha256": "c1917c95890b917db24f913df901a9285a743b0618fd876af6c1222de230ffde",
+    "translationSha256": "b2973d6f6d1621e5d3f54169d23ee7beeec638096b0528a4096fe9761997a117",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGoldenElfSta.unidentifiedName",
+    "sourceSha256": "c478427859d20b7432c6aa344980bf9f724d0b2ede1130b1a4aa1f632605f67d",
+    "translationSha256": "3de3b1f5f63ea7e89cc5a841098e0b6dacc73aa9479d85d832d63de80641bbcb",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGoldenElfSta.unidentifiedDescription",
+    "sourceSha256": "f8258a1cb378b33e34476c9b2370cfd7a194d52b0ea5744c1e5e9b2083b46fe1",
+    "translationSha256": "5c8c0b95bdf1dbf251ba8a4e679573c6fac95caa2e86536c74f8ef53b134cedf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoLightFeather.description",
+    "sourceSha256": "2ba9a1e805cedbfc134bd35928a6b784c86fffe95341538e5f742147dd8e161f",
+    "translationSha256": "98fceb56f92e2bc2d2adc30a27df5384436f2ed45dad823eb077dd6e957b7bbb",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoFavricsAmeth.description",
+    "sourceSha256": "0cd5cbf26ef0f4144ab25521a7c005574b6113a630adf9a6fc077fafedba618e",
+    "translationSha256": "b91675e212a3bdefc77c99ce80b5c63aff830a579243ba24f020a3d5766c21c2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoBrassDragonS.description",
+    "sourceSha256": "927a903d0931dd72944c2a10a096db8cb067fa6d7a0819a7170d047c358be6d3",
+    "translationSha256": "afea97498c3efb7f9887bc89353ad88a83e0214a201ef447c92465a411df401a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGobletMoonst.description",
+    "sourceSha256": "b2066ef8dcc472c5609845344f501fd8456a7ad78114682341197ff906ea0194",
+    "translationSha256": "8c2ddad4999e673a838aa76a192dfa714019bd0ae5e092460421a1617283de19",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoHew000000000.description",
+    "sourceSha256": "89aa32b01ab6711aff0f1013f42eb9b1242b9f02df1d5a94ae80282121139359",
+    "translationSha256": "6eea2ef16a1c360f0b4b4fa2233213af3dcca0ea9cf907ea87dd53ea81537fd0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoLightningBol.description",
+    "sourceSha256": "c34de8097a832279eab2bbfdb950dba1830c746e962e3ab6ddb9f2508e2ad607",
+    "translationSha256": "c1e3b2d4fa1d9f43b0b9cb4623c771ef0d66838c0bf2fa524aa19e7e648aa7ea",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMistyStepSpe.description",
+    "sourceSha256": "28359eb0144f3844c6ace844d6ae6feeef4dc819615dd91b6585c091b6bb5d0d",
+    "translationSha256": "e75ce54f44217a413573b92b698c80c735d0c937916a4adb17a6a2e4ddc78ebd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoLightbringer.description",
+    "sourceSha256": "661e1d496447589d33abe313f5670d1c737666f08c80c5e8877609a306208579",
+    "translationSha256": "fdc4df5233caef26378aff0dff45d196cb917f8f0e056d81248a325e6dad5a7c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoDwarvenAleMu.description",
+    "sourceSha256": "6cc334421ba4646ad3cf08568fe288b54aa1bc4f8164da7bd8513ea8dcc6e6a5",
+    "translationSha256": "cb375dfc827b57208eb51b46955105026c75193cc90698f29580b67ce395882a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCeleritybrac.description",
+    "sourceSha256": "fad66fb9f2077fafa9215e7f5cebab0a57ec571662e779178b8c425c06f55262",
+    "translationSha256": "4e36af85baaec4546cb3645ab3695281b081b9b753f2ed83d80e9dfcd5539ecf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCeleritybrac.unidentifiedName",
+    "sourceSha256": "a00d1c41bdfdf1fa58786198e7d6de6aedd6e44d9c6ba72b16b036ed69fba553",
+    "translationSha256": "589971d534400e4328e863b9e410549cb2ada37598e7b1a86d43cb712c2fa284",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCeleritybrac.unidentifiedDescription",
+    "sourceSha256": "4ecd2d5828da24f1685809120bedac25d0e5a3100679510859d8c6cb09cfe78b",
+    "translationSha256": "b21d7e40dc8fc50881675b3435067fa6a4047fc0efaa0dd0d3b338d29bd60738",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoEnergizedSha.description",
+    "sourceSha256": "4c1169fce7f7eb27f2f8ce6aea59b9aa9e88e12da8549a396d071a2ee913bdf0",
+    "translationSha256": "5ab62f0899b758eeb166f590fa645a3e147a69f6e69503d647df33ffab376c95",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoBlessingOfDu.description",
+    "sourceSha256": "06533626d826aadd568868a5cd17c629d119adb2a1f677d86ebe7456ebd4637d",
+    "translationSha256": "cc277217a6019ef1453234a064800017ee82aba41ba2a9c5affe05c4f741f406",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCollapsableC.description",
+    "sourceSha256": "09ab09fd736a4b582d03ffc8de45921d432c624c1477d3ce747549c959af30ce",
+    "translationSha256": "7c6b36a8030c02cbe90037ee9a2688dbf882c430bca8dad7a1faaa82a076563b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoP17gem000000.description",
+    "sourceSha256": "b91b2b334d6db665f25433697d9be45dbb869ee8d9dfc81558f4f50bec70df6a",
+    "translationSha256": "c25d889df9191fdb7f8a97f7dfd0c5fcc50a8262c2b143d738c827f3c18f9348",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMarthungrims.description",
+    "sourceSha256": "1e84df1ff31ae411981f80ba6da4c90d194612cf2bf0cec5ad2832be2d165504",
+    "translationSha256": "9c2d4458390d1227ade3085e1af50c21dc2091126efe63af81ccb0766c5d5c87",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoObeliskFragm.description",
+    "sourceSha256": "e579470820d5fef54f7e02f229ba7ff478a980e83a2c017bed4730f1e6e75dcf",
+    "translationSha256": "45c5f1f5ed3ca0e4f117d3543ebfd89c80d8f16ad3f5724436394a6b282121f9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoP11gemstone0.description",
+    "sourceSha256": "2479c4eb806dfdbdd6ba8be913e6308c9642ad74f66d43fca7082b8e3fb98ba7",
+    "translationSha256": "7f4b6e9ed9aaf16b7c54b00279c977cb9ed7f5751149eb21ecb2f2f4c2a2693f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindguardCro.description",
+    "sourceSha256": "53c8c08e7eabd29656521cbc3794f26e747ce5853f7857e53eebe6ada51b106f",
+    "translationSha256": "6136d6df3f1b7d7294a221ceb86da7d42f4c2e280851d48539df153f130777b4",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindguardCro.unidentifiedName",
+    "sourceSha256": "7fa627d9a17c5dbab159bcd000f084f963df5ba9b4f45e546fcc6e31067585b4",
+    "translationSha256": "c925d991910a286e9d2ad088e10e67b2a65208faec036a4cbb83329c29ffa5df",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindguardCro.unidentifiedDescription",
+    "sourceSha256": "b0c6a654d3578ef1812e96e5aee6e085f3cabebe27a3e723cb7beaf8248075f1",
+    "translationSha256": "60f29178f9f2e9fcb92c8b9f0f92f272ed66c865c14d55043764b808aba8fa59",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindguardCro.effects.auShcrcu1Bn5AgYE.name",
+    "sourceSha256": "07fccc5d5dcfdcd5e9d2bb779d1781fe41cf79d22d0b1db70f1a2aca7eb3991e",
+    "translationSha256": "c917936814e99add2fa2994dc692e8c98395730491e14a998db33cf549c73bda",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoInvulerabili.description",
+    "sourceSha256": "73cf39e06221b1b831a391886108a36ef71c348b67943a20430270205c72a40e",
+    "translationSha256": "c96a6d3a63d3738ae6fb8a50048e29925155e71c62cfadbf389a2545e692f54d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoInvulerabili.unidentifiedName",
+    "sourceSha256": "b20fbac5f043bfeb7ab1b3abf3ac325cac5779ad86907ed90fbb17f63f7ff4cb",
+    "translationSha256": "287558718cba61fe1e656bdb340953b3f3f08e294f24df15ef97e24b9be5c043",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoInvulerabili.unidentifiedDescription",
+    "sourceSha256": "ed177e7aa8cba861ad5de59942e6819dc39aaffefcf183845055d09fde8efb4f",
+    "translationSha256": "bfc61c1e20fcb2efede8186f636bbf5683508cfa383699d4f975217b22eab095",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoLizardmedall.description",
+    "sourceSha256": "d7dfd3946949e637ee537c4af9c95d289e2a4af5e39497fabfaacea636209e99",
+    "translationSha256": "909a3b578986ba5de1d47d98fe1149dbf4f4f57a066353b0dae7de8a8e005d73",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoGnawbleFeede.description",
+    "sourceSha256": "c1c36afb406ed5e6dde3b5acfde0261b2800282f3dcef50e6082c29a89bc9e89",
+    "translationSha256": "f6202c4dbbe01c90a340a017c826c18a1ef543a1c8cffb5a982991153d75fcb8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoHeightenedMi.description",
+    "sourceSha256": "a4aa1b21e058dc6673ecac88fdb5ea736b13f72d8fcd5fe14801493ddda8e9cd",
+    "translationSha256": "1ef972f0540783d385d02961bab232d8e3db2bc0acc4257ad4fab44f81f6351f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoIronquillsJo.description",
+    "sourceSha256": "511cc83a982e72c88f181774727800843a86e819272dbb4b30613faaaa3619ae",
+    "translationSha256": "cebffd436327bb49be707e90157051452bd714c77d7b0a9592d3a951b6f7cf0c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindcrystalp.description",
+    "sourceSha256": "c87d99d22a4c2f9d2cca69e22ca882372280208693d63cfb6609396ed57dda00",
+    "translationSha256": "e0791a4fc0d861a09b97ba801ed245d2d7eebe2be182d01c98e4a81d513b36fe",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCrystaldagge.description",
+    "sourceSha256": "5b1f5f0549a133d4bc586e6a59e88a98c8b90ffbb7dc186ee3b9dbdc683a675c",
+    "translationSha256": "5989de093c8d59ba4755d2399d95f45b169637f7c5019a15b42dbc1bf1557b7f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCrystalpitch.description",
+    "sourceSha256": "28c3da994d890c41f52bfc27b05cbb5a2567c02efbc9bfe8101a206fea5710ed",
+    "translationSha256": "f64b9a8feeadf6eb452dc982fa49ab87f89763068c295c805f08a43188a2876e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoL7rubies0000.description",
+    "sourceSha256": "b0a213a30e648bbe9c81d6d48b19204d9b8d85d614ca820bb9cfb0adee8daf26",
+    "translationSha256": "d7c7330424b60c6d4b7f85bb0f927af2a25005d4c187f6e0a8ce73f0fc591bc6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCapeOfEnlarg.description",
+    "sourceSha256": "cf28a1e0a7bae915f28ee1be033b637f01b32ce659da4998f801518d3396c605",
+    "translationSha256": "90e7fc8dac510d1444080e741fb5d17906875629625a5533e7af67eca7784c42",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCapeOfEnlarg.unidentifiedName",
+    "sourceSha256": "0de5c34767270a388b540db1b89cf7bfa6250ca8db6884829f2d8684e82f0a65",
+    "translationSha256": "adadbcff79dbcd9215f367c794532174fab6e87fe0f206eaa7cdd99a02e85ce0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCapeOfEnlarg.unidentifiedDescription",
+    "sourceSha256": "1330f304d7c8dbc18574b74559806cc586396a00d1b5f9466790c5cee018a94c",
+    "translationSha256": "54910d6403d177f86df59d65e6d485d5ad38f957c01cb2586487462bf3148a2c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCapeOfEnlarg.effects.MUvMvWwZNTd7Mjbz.name",
+    "sourceSha256": "de2716902d3adbcea09619e5a106c0d266505085b3f89923592f83df8459888c",
+    "translationSha256": "c6e3853f71d578eac1780304e5d8afb3b906b7e2e6597af6152d087fa1e37f29",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoCapeOfEnlarg.effects.MUvMvWwZNTd7Mjbz.description",
+    "sourceSha256": "96fb2e051cf07e8b7f283314cec5de8c5a53b7e9c0dc14159ad4d5cba8bf4cc1",
+    "translationSha256": "03274dd9fbb3bc0588425afcaf34f3f1c8f198da93fc3234df98cb385052f1a8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoDiamond00000.description",
+    "sourceSha256": "6bc0ffdf7009675ae3815496a350b5584d082c61d9b64434824c481209ec1a62",
+    "translationSha256": "05c7736bc51ccb3612548a4fad553d5fd10e0542bc6732f15aa0b12ae4b7667f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMetalTongue0.description",
+    "sourceSha256": "83d080e9f3db47cac3662dd6a68306088981d0732d157b485f6632dd21aa2476",
+    "translationSha256": "fdf931b3f3a511714e674ebcf455ad57ba8191c31d486bb9fe547f2ae8bff057",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindblasting.description",
+    "sourceSha256": "aac33b91956a64e67d4787886077dca822f744cf88e213ca10a42a9c30a6f81b",
+    "translationSha256": "01db7a198e6c402b56dc5b38c7d546f6d175622635857d557a7faadb3745b3e1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindblasting.unidentifiedName",
+    "sourceSha256": "f2aa0e1e8e8f53746ba02465358924249ec051f446d12eed841abf06603f5fc6",
+    "translationSha256": "4f9d923d53908a6b1f4dd29f989642b381b104473a4c932f07cfe14d1c6bdebf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoMindblasting.unidentifiedDescription",
+    "sourceSha256": "7ed1b3619f2eaa1e1ab2d9b3daeb76b5052f56ba9e0919d8b3c695f1f4cb3b63",
+    "translationSha256": "f34509fa3b15e8d0cba75c32152066cdfdd617870f836420e81d760074f51d8e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoOpal00000000.description",
+    "sourceSha256": "b296dadd1ae421b0740efca0ebe8aa1414c345f23bd20e426487a47bf5f24068",
+    "translationSha256": "5114c9907bbf155bbab4411fc38ef5eccc3a3a3e000dfaafaef116da7ee8cee3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoBoxOfSilverF.description",
+    "sourceSha256": "4f0a4371c9643f6b56792eccecfc5b71bd11734d452aa36c83df076022680e64",
+    "translationSha256": "0954b9df3f799b830537beb5f97f384d3c12aa935f4708b6330fd30e8a1d5b90",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoBlessingOfDu.description",
+    "sourceSha256": "06533626d826aadd568868a5cd17c629d119adb2a1f677d86ebe7456ebd4637d",
+    "translationSha256": "cc277217a6019ef1453234a064800017ee82aba41ba2a9c5affe05c4f741f406",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoBoxOfSilverF.description",
+    "sourceSha256": "4f0a4371c9643f6b56792eccecfc5b71bd11734d452aa36c83df076022680e64",
+    "translationSha256": "0954b9df3f799b830537beb5f97f384d3c12aa935f4708b6330fd30e8a1d5b90",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoBrassDragonS.description",
+    "sourceSha256": "927a903d0931dd72944c2a10a096db8cb067fa6d7a0819a7170d047c358be6d3",
+    "translationSha256": "afea97498c3efb7f9887bc89353ad88a83e0214a201ef447c92465a411df401a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCapeOfEnlarg.description",
+    "sourceSha256": "cf28a1e0a7bae915f28ee1be033b637f01b32ce659da4998f801518d3396c605",
+    "translationSha256": "90e7fc8dac510d1444080e741fb5d17906875629625a5533e7af67eca7784c42",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCapeOfEnlarg.unidentifiedName",
+    "sourceSha256": "0de5c34767270a388b540db1b89cf7bfa6250ca8db6884829f2d8684e82f0a65",
+    "translationSha256": "adadbcff79dbcd9215f367c794532174fab6e87fe0f206eaa7cdd99a02e85ce0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCapeOfEnlarg.unidentifiedDescription",
+    "sourceSha256": "1330f304d7c8dbc18574b74559806cc586396a00d1b5f9466790c5cee018a94c",
+    "translationSha256": "54910d6403d177f86df59d65e6d485d5ad38f957c01cb2586487462bf3148a2c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCapeOfEnlarg.effects.MUvMvWwZNTd7Mjbz.name",
+    "sourceSha256": "de2716902d3adbcea09619e5a106c0d266505085b3f89923592f83df8459888c",
+    "translationSha256": "c6e3853f71d578eac1780304e5d8afb3b906b7e2e6597af6152d087fa1e37f29",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCapeOfEnlarg.effects.MUvMvWwZNTd7Mjbz.description",
+    "sourceSha256": "96fb2e051cf07e8b7f283314cec5de8c5a53b7e9c0dc14159ad4d5cba8bf4cc1",
+    "translationSha256": "03274dd9fbb3bc0588425afcaf34f3f1c8f198da93fc3234df98cb385052f1a8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCaskOfSalted.description",
+    "sourceSha256": "c70256a69fd8e96d15b8fc58f7f937a9c6db79d79a1350d7dd7ba27fbb2a03d2",
+    "translationSha256": "858548fa5df42770ff3fa222b372e6aad366fc194e9c7bd6eb01922b35eac683",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCeleritybrac.description",
+    "sourceSha256": "fad66fb9f2077fafa9215e7f5cebab0a57ec571662e779178b8c425c06f55262",
+    "translationSha256": "4e36af85baaec4546cb3645ab3695281b081b9b753f2ed83d80e9dfcd5539ecf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCeleritybrac.unidentifiedName",
+    "sourceSha256": "a00d1c41bdfdf1fa58786198e7d6de6aedd6e44d9c6ba72b16b036ed69fba553",
+    "translationSha256": "589971d534400e4328e863b9e410549cb2ada37598e7b1a86d43cb712c2fa284",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCeleritybrac.unidentifiedDescription",
+    "sourceSha256": "4ecd2d5828da24f1685809120bedac25d0e5a3100679510859d8c6cb09cfe78b",
+    "translationSha256": "b21d7e40dc8fc50881675b3435067fa6a4047fc0efaa0dd0d3b338d29bd60738",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCensercragma.description",
+    "sourceSha256": "4a50038812b36c73f7341c3af4996c98bdc8e79fae9ea70443d1ce8de81fcdab",
+    "translationSha256": "bb33469e931ffd88006705ae765e9fae8c066934de6560d7381cadf9b2e4d425",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoChalicecragm.description",
+    "sourceSha256": "cd13e62ee49294f4d4b2e41bd424df5e088b81fde1e05e24ca21d31ccc0f4324",
+    "translationSha256": "5d88c29dffc5330b84f95327743d55777d692419c0c8c6a5f2cbf757ebd88fe3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCollapsableC.description",
+    "sourceSha256": "09ab09fd736a4b582d03ffc8de45921d432c624c1477d3ce747549c959af30ce",
+    "translationSha256": "7c6b36a8030c02cbe90037ee9a2688dbf882c430bca8dad7a1faaa82a076563b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCrystaldagge.description",
+    "sourceSha256": "5b1f5f0549a133d4bc586e6a59e88a98c8b90ffbb7dc186ee3b9dbdc683a675c",
+    "translationSha256": "5989de093c8d59ba4755d2399d95f45b169637f7c5019a15b42dbc1bf1557b7f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoCrystalpitch.description",
+    "sourceSha256": "28c3da994d890c41f52bfc27b05cbb5a2567c02efbc9bfe8101a206fea5710ed",
+    "translationSha256": "f64b9a8feeadf6eb452dc982fa49ab87f89763068c295c805f08a43188a2876e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoDiamond00000.description",
+    "sourceSha256": "6bc0ffdf7009675ae3815496a350b5584d082c61d9b64434824c481209ec1a62",
+    "translationSha256": "05c7736bc51ccb3612548a4fad553d5fd10e0542bc6732f15aa0b12ae4b7667f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoDwarvenAleMu.description",
+    "sourceSha256": "6cc334421ba4646ad3cf08568fe288b54aa1bc4f8164da7bd8513ea8dcc6e6a5",
+    "translationSha256": "cb375dfc827b57208eb51b46955105026c75193cc90698f29580b67ce395882a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoEmboldeningB.description",
+    "sourceSha256": "9342b93705bf04dec0f0f2a8e20d977976d3df660965ccf7b23104803a8b4f17",
+    "translationSha256": "09cdd6111e3738f71cc9de08642ca2f5892acd91bf94e4fd83459b74ac2c2d85",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoEnergizedSha.description",
+    "sourceSha256": "4c1169fce7f7eb27f2f8ce6aea59b9aa9e88e12da8549a396d071a2ee913bdf0",
+    "translationSha256": "5ab62f0899b758eeb166f590fa645a3e147a69f6e69503d647df33ffab376c95",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoFavricsAmeth.description",
+    "sourceSha256": "0cd5cbf26ef0f4144ab25521a7c005574b6113a630adf9a6fc077fafedba618e",
+    "translationSha256": "b91675e212a3bdefc77c99ce80b5c63aff830a579243ba24f020a3d5766c21c2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoFineEmeraldP.description",
+    "sourceSha256": "5370a2dcc026646a18d6843e2e80fa09f2b79fe0c451a09b78fe08fff5bd5173",
+    "translationSha256": "943af627c66a75257c013fd5b3f632aeecf33a8ef3bf7e3ce4f9d642ee70c23f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoFireballScro.description",
+    "sourceSha256": "fcfd683d88240c946243b4e0fd676cb13f81abf7450776daab2b2997b6356a10",
+    "translationSha256": "4867f2ef0aebdb64b5a3b2590a12d9d9166d75821eae5f329b496e8f8b2c0b56",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGarnet000000.description",
+    "sourceSha256": "df68ef0d38d96a27e5ec441113079c4d0f3798ca46f6d62605cf4da1c6e8468a",
+    "translationSha256": "f23f87f19dc50ee4f9d0f5d62c503d687485beaeb1b9cc3177ff748a5940daad",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGnawbleFeede.description",
+    "sourceSha256": "c1c36afb406ed5e6dde3b5acfde0261b2800282f3dcef50e6082c29a89bc9e89",
+    "translationSha256": "f6202c4dbbe01c90a340a017c826c18a1ef543a1c8cffb5a982991153d75fcb8",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGobletMoonst.description",
+    "sourceSha256": "b2066ef8dcc472c5609845344f501fd8456a7ad78114682341197ff906ea0194",
+    "translationSha256": "8c2ddad4999e673a838aa76a192dfa714019bd0ae5e092460421a1617283de19",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGoldenEarrin.description",
+    "sourceSha256": "5f7d92cee9ee4e6c2d9f731f80fd9aeda86340fc5cfa5a2f6779bf135a0c9c90",
+    "translationSha256": "5209127be38e84803e88ccf8ae4434b1b523166dd8c9bbc56d4c0d0bf70a81fb",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGoldenElfSta.description",
+    "sourceSha256": "c1917c95890b917db24f913df901a9285a743b0618fd876af6c1222de230ffde",
+    "translationSha256": "b2973d6f6d1621e5d3f54169d23ee7beeec638096b0528a4096fe9761997a117",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGoldenElfSta.unidentifiedName",
+    "sourceSha256": "c478427859d20b7432c6aa344980bf9f724d0b2ede1130b1a4aa1f632605f67d",
+    "translationSha256": "3de3b1f5f63ea7e89cc5a841098e0b6dacc73aa9479d85d832d63de80641bbcb",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoGoldenElfSta.unidentifiedDescription",
+    "sourceSha256": "f8258a1cb378b33e34476c9b2370cfd7a194d52b0ea5744c1e5e9b2083b46fe1",
+    "translationSha256": "5c8c0b95bdf1dbf251ba8a4e679573c6fac95caa2e86536c74f8ef53b134cedf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoHeightenedMi.description",
+    "sourceSha256": "a4aa1b21e058dc6673ecac88fdb5ea736b13f72d8fcd5fe14801493ddda8e9cd",
+    "translationSha256": "1ef972f0540783d385d02961bab232d8e3db2bc0acc4257ad4fab44f81f6351f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoHew000000000.description",
+    "sourceSha256": "89aa32b01ab6711aff0f1013f42eb9b1242b9f02df1d5a94ae80282121139359",
+    "translationSha256": "6eea2ef16a1c360f0b4b4fa2233213af3dcca0ea9cf907ea87dd53ea81537fd0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoHoldPersonSc.description",
+    "sourceSha256": "1c7c664a715ffd5dcbae91784f09b8462e11c14999f174dfafa431b8c880f084",
+    "translationSha256": "9a47c3feef38a58982378b02ede5ead8e28e0914e4dc6511db9320fedb08f71a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoInvulerabili.description",
+    "sourceSha256": "73cf39e06221b1b831a391886108a36ef71c348b67943a20430270205c72a40e",
+    "translationSha256": "c96a6d3a63d3738ae6fb8a50048e29925155e71c62cfadbf389a2545e692f54d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoInvulerabili.unidentifiedName",
+    "sourceSha256": "b20fbac5f043bfeb7ab1b3abf3ac325cac5779ad86907ed90fbb17f63f7ff4cb",
+    "translationSha256": "287558718cba61fe1e656bdb340953b3f3f08e294f24df15ef97e24b9be5c043",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoInvulerabili.unidentifiedDescription",
+    "sourceSha256": "ed177e7aa8cba861ad5de59942e6819dc39aaffefcf183845055d09fde8efb4f",
+    "translationSha256": "bfc61c1e20fcb2efede8186f636bbf5683508cfa383699d4f975217b22eab095",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoIronquillsJo.description",
+    "sourceSha256": "511cc83a982e72c88f181774727800843a86e819272dbb4b30613faaaa3619ae",
+    "translationSha256": "cebffd436327bb49be707e90157051452bd714c77d7b0a9592d3a951b6f7cf0c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoJadeStatuett.description",
+    "sourceSha256": "ab3fd16ce4488ac5e68f98513366f0774906dbd417478c13daae80c330ad6b5e",
+    "translationSha256": "2c78abfaf9c5957246eb55b5494ae32b84eef882667537500b1a6887147753c9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoJeweledGoldB.description",
+    "sourceSha256": "75c9efa90af24218dad88c89c928718630773d312b36f8e86024b9afc0d6779d",
+    "translationSha256": "514f087beebf5b76d7ee424e6e41e7d027a2d7e56115d92205bf1f078a80a55a",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoJeweledSilve.description",
+    "sourceSha256": "f3374945d84b9e14b0b5b3f65116c3eaf351f9d02952ffae7aa7cbc6029b3fa9",
+    "translationSha256": "7aee6b91601926dc97c854c279ae72db805283766f1df02bb5bafad000b2c6fc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoKegOfStrongA.description",
+    "sourceSha256": "1404d3759e1e1aa6d4d0a58941985df1fa1ff807f7a01f5c8e36b9c4f7d7baa3",
+    "translationSha256": "d991d021a38dff53096b48330693015083d344804df2bd74b2b48d5221565e89",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoL7rubies0000.description",
+    "sourceSha256": "b0a213a30e648bbe9c81d6d48b19204d9b8d85d614ca820bb9cfb0adee8daf26",
+    "translationSha256": "d7c7330424b60c6d4b7f85bb0f927af2a25005d4c187f6e0a8ce73f0fc591bc6",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoLightFeather.description",
+    "sourceSha256": "2ba9a1e805cedbfc134bd35928a6b784c86fffe95341538e5f742147dd8e161f",
+    "translationSha256": "98fceb56f92e2bc2d2adc30a27df5384436f2ed45dad823eb077dd6e957b7bbb",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoLightbringer.description",
+    "sourceSha256": "661e1d496447589d33abe313f5670d1c737666f08c80c5e8877609a306208579",
+    "translationSha256": "fdc4df5233caef26378aff0dff45d196cb917f8f0e056d81248a325e6dad5a7c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoLightningBol.description",
+    "sourceSha256": "c34de8097a832279eab2bbfdb950dba1830c746e962e3ab6ddb9f2508e2ad607",
+    "translationSha256": "c1e3b2d4fa1d9f43b0b9cb4623c771ef0d66838c0bf2fa524aa19e7e648aa7ea",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoLizardmedall.description",
+    "sourceSha256": "d7dfd3946949e637ee537c4af9c95d289e2a4af5e39497fabfaacea636209e99",
+    "translationSha256": "909a3b578986ba5de1d47d98fe1149dbf4f4f57a066353b0dae7de8a8e005d73",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMarthungrims.description",
+    "sourceSha256": "1e84df1ff31ae411981f80ba6da4c90d194612cf2bf0cec5ad2832be2d165504",
+    "translationSha256": "9c2d4458390d1227ade3085e1af50c21dc2091126efe63af81ccb0766c5d5c87",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMetalTongue0.description",
+    "sourceSha256": "83d080e9f3db47cac3662dd6a68306088981d0732d157b485f6632dd21aa2476",
+    "translationSha256": "fdf931b3f3a511714e674ebcf455ad57ba8191c31d486bb9fe547f2ae8bff057",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindblasting.description",
+    "sourceSha256": "aac33b91956a64e67d4787886077dca822f744cf88e213ca10a42a9c30a6f81b",
+    "translationSha256": "01db7a198e6c402b56dc5b38c7d546f6d175622635857d557a7faadb3745b3e1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindblasting.unidentifiedName",
+    "sourceSha256": "f2aa0e1e8e8f53746ba02465358924249ec051f446d12eed841abf06603f5fc6",
+    "translationSha256": "4f9d923d53908a6b1f4dd29f989642b381b104473a4c932f07cfe14d1c6bdebf",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindblasting.unidentifiedDescription",
+    "sourceSha256": "7ed1b3619f2eaa1e1ab2d9b3daeb76b5052f56ba9e0919d8b3c695f1f4cb3b63",
+    "translationSha256": "f34509fa3b15e8d0cba75c32152066cdfdd617870f836420e81d760074f51d8e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindcrystalp.description",
+    "sourceSha256": "c87d99d22a4c2f9d2cca69e22ca882372280208693d63cfb6609396ed57dda00",
+    "translationSha256": "e0791a4fc0d861a09b97ba801ed245d2d7eebe2be182d01c98e4a81d513b36fe",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindguardCro.description",
+    "sourceSha256": "53c8c08e7eabd29656521cbc3794f26e747ce5853f7857e53eebe6ada51b106f",
+    "translationSha256": "6136d6df3f1b7d7294a221ceb86da7d42f4c2e280851d48539df153f130777b4",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindguardCro.unidentifiedName",
+    "sourceSha256": "7fa627d9a17c5dbab159bcd000f084f963df5ba9b4f45e546fcc6e31067585b4",
+    "translationSha256": "c925d991910a286e9d2ad088e10e67b2a65208faec036a4cbb83329c29ffa5df",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindguardCro.unidentifiedDescription",
+    "sourceSha256": "b0c6a654d3578ef1812e96e5aee6e085f3cabebe27a3e723cb7beaf8248075f1",
+    "translationSha256": "60f29178f9f2e9fcb92c8b9f0f92f272ed66c865c14d55043764b808aba8fa59",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMindguardCro.effects.auShcrcu1Bn5AgYE.name",
+    "sourceSha256": "07fccc5d5dcfdcd5e9d2bb779d1781fe41cf79d22d0b1db70f1a2aca7eb3991e",
+    "translationSha256": "c917936814e99add2fa2994dc692e8c98395730491e14a998db33cf549c73bda",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoMistyStepSpe.description",
+    "sourceSha256": "28359eb0144f3844c6ace844d6ae6feeef4dc819615dd91b6585c091b6bb5d0d",
+    "translationSha256": "e75ce54f44217a413573b92b698c80c735d0c937916a4adb17a6a2e4ddc78ebd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoObeliskFragm.description",
+    "sourceSha256": "e579470820d5fef54f7e02f229ba7ff478a980e83a2c017bed4730f1e6e75dcf",
+    "translationSha256": "45c5f1f5ed3ca0e4f117d3543ebfd89c80d8f16ad3f5724436394a6b282121f9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoOpal00000000.description",
+    "sourceSha256": "b296dadd1ae421b0740efca0ebe8aa1414c345f23bd20e426487a47bf5f24068",
+    "translationSha256": "5114c9907bbf155bbab4411fc38ef5eccc3a3a3e000dfaafaef116da7ee8cee3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoP11gemstone0.description",
+    "sourceSha256": "2479c4eb806dfdbdd6ba8be913e6308c9642ad74f66d43fca7082b8e3fb98ba7",
+    "translationSha256": "7f4b6e9ed9aaf16b7c54b00279c977cb9ed7f5751149eb21ecb2f2f4c2a2693f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoP17gem000000.description",
+    "sourceSha256": "b91b2b334d6db665f25433697d9be45dbb869ee8d9dfc81558f4f50bec70df6a",
+    "translationSha256": "c25d889df9191fdb7f8a97f7dfd0c5fcc50a8262c2b143d738c827f3c18f9348",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIarnoAlbrek0.items.pNj09dwqZ7IzNvy0.description",
+    "sourceSha256": "c9743ba800f1e332e92ca166ad9e135716e3286edb23823644460f3a91a04e6b",
+    "translationSha256": "f262b2963c07f418bbb12a431ce618a2ed00757a1c2cb743b70537099c15d704",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIarnoAlbrek0.items.pNj09dwqZ7IzNvy0.effects.Wd0iA1lfF9Qofcfj.name",
+    "sourceSha256": "64dc4817254794e2ab6141f781276344cf1f854f242062c063427ee6064924be",
+    "translationSha256": "70eaa5a1efd8ad1aa706a308f5f2168644ec92f7c2eb3bb4aaf21501687e98dc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIarnoAlbrek0.items.pNj09dwqZ7IzNvy0.effects.Wd0iA1lfF9Qofcfj.description",
+    "sourceSha256": "c89dcd09cbc3e5b841d171f35ffd759b2d200709f3a36c515b37471253859a7a",
+    "translationSha256": "67082f772167e0aa201016af10ebeda840270a00f0ecb27e7e7460b7ce3d1e58",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoThelsPendant.description",
+    "sourceSha256": "5b7aab329168bc1a1abc964fc2e9bc7f64c98b8addbbac01d8a2f23da18cdb96",
+    "translationSha256": "b8685e60822ffbad92619c19ca245fa562de41d9016ca7340655ebdfce6a9eb0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoScarletCloak.description",
+    "sourceSha256": "e76efb42fd81d3eb7c741b236539b3e55eb1bc2c05265410ffc3336c79f54e82",
+    "translationSha256": "69f8f4e58c7d722f7018c5c490511d2926218e7024821954be2b5a4ff55d606f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStaffOfDefen.description",
+    "sourceSha256": "c9743ba800f1e332e92ca166ad9e135716e3286edb23823644460f3a91a04e6b",
+    "translationSha256": "f262b2963c07f418bbb12a431ce618a2ed00757a1c2cb743b70537099c15d704",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStaffOfDefen.effects.Wd0iA1lfF9Qofcfj.name",
+    "sourceSha256": "64dc4817254794e2ab6141f781276344cf1f854f242062c063427ee6064924be",
+    "translationSha256": "70eaa5a1efd8ad1aa706a308f5f2168644ec92f7c2eb3bb4aaf21501687e98dc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStaffOfDefen.effects.Wd0iA1lfF9Qofcfj.description",
+    "sourceSha256": "c89dcd09cbc3e5b841d171f35ffd759b2d200709f3a36c515b37471253859a7a",
+    "translationSha256": "67082f772167e0aa201016af10ebeda840270a00f0ecb27e7e7460b7ce3d1e58",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoUrmonsJourna.description",
+    "sourceSha256": "d98e4f845191d11d3a4a3e5418f5996c9c0e7bd2963fd429a6e71d38e36dbe55",
+    "translationSha256": "4e4abead1058776ab555cbc0903a6cc75a42a581132ca132b303d667b383adcd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.rrwax1qmOI21dyhl.description",
+    "sourceSha256": "e3b03b1b892bece4fe721183a0dba7b9e7e51b6f361b9712164eb40bd1a9396c",
+    "translationSha256": "fa650d7bb9250bae5959c7c1c5047e0bbb73df7b9addf28876198b7f41c82c83",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSemiprecious.description",
+    "sourceSha256": "ea50bdbeaf1ca86a0bee71efc835b4b0cc2f66d88e8d3a9fc605266dd57d09a5",
+    "translationSha256": "8ee79d52bb02a6bd14378697ae0a6b49b0ea9f2a14afd8c3e306710957fb4cf7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoTalon0000000.description",
+    "sourceSha256": "e949dcf5693d7af7c414e5e578c8faca0b85740515dbd43cc84169d47e56f71e",
+    "translationSha256": "89cb1c4d19f5d5491291da831244551dd739811e5d787e52d2e5881f4c4be540",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.uI6pZfHM4kE54PIt.description",
+    "sourceSha256": "ec4eaa154ce0c01855d5ba7efe10d15f98aebfce61af127ea8e74d7d0305c2a8",
+    "translationSha256": "925b1162813a115278156b9e6974fb4ca50f66a1f64b92623370cc3b3e74beed",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSildarsSword.description",
+    "sourceSha256": "bae255e574fd61635e34f79ed17db20fe232cf695aab609f7cfbe58e445c7f95",
+    "translationSha256": "c346eb08fd79e4881baf01e074ab3f646299599634ee8ae2cb60c8e2ab94c1bd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoScrollOfDark.description",
+    "sourceSha256": "611697c68bfc49cd142dc6abee3c709f5375be605904de16409b5dad9b13ec29",
+    "translationSha256": "9b3dcb2424575906783fe4096279746d1dd99b053169ccb9596834fba3166c61",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoRevivifyspel.description",
+    "sourceSha256": "7ae38378fd5ca50878e5cc0c1ef2a3fb4459d267113ee8a106a831cd8ac53b22",
+    "translationSha256": "7037c533a8a89e99b1d6c73e0f3dfcc2e2cd5c04077766397bd93d58b6df1626",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSilencespell.description",
+    "sourceSha256": "2340eaffe16769f1cff2a6d536de48de3cba690243403f5fcc87ab4ffbec3934",
+    "translationSha256": "f8e6b9b55bfb02da318af32022748e1a44ba1794a91cf48e89a4516e1b61f7d2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoVialOfPerfum.description",
+    "sourceSha256": "db5b013adf302fa80d33225de65bc0929c6c553e1d2467ef51ada0dc95602935",
+    "translationSha256": "35d5aab3b7f35e3ae4cadd3d89e953a5e74895e92b8b669e291c1bb993c6a9dc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSpiderStaff0.description",
+    "sourceSha256": "8d28460ea8c47f2be443896af6e33079362d8eceb753d77e64877fb1ef5bd92c",
+    "translationSha256": "2c4626a0ebb155784f47525f17f1dcf71632270e61ef5ebdaed1fa109a1d2b21",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStatuesEmera.description",
+    "sourceSha256": "277bd94c210aa532ae91efbaaa632c5de981d0ebe22388f6eadb0c6787f745e5",
+    "translationSha256": "c6a6d2228dd6435176d00b22f2a6f057a8d05d9ff419ab372d24b71b94ab41f2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSmallGemston.description",
+    "sourceSha256": "77b9429bcc87709b3ff391306c199719d3ab336391836307b60b06619ba24524",
+    "translationSha256": "209bce237905165e4a58f4215088071168ca2ff5f324fafdcc2e343a2615f5aa",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoWoodenPipe00.description",
+    "sourceSha256": "9d7fd2886f9f3d4302ea0d5c6a0cf2ea14e3b2f1327e29f7c25fa207d4938ac9",
+    "translationSha256": "e66b42e915bfc59434dcd6b8a58e9e189da126a7d05715a6ad1b124a52c1160b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.s9ZNjlUlDN5fztnW.description",
+    "sourceSha256": "bf479d6043a08519bfddf33fec41b4e8fb917e38f3eb07dd4a0d24a8a6d34578",
+    "translationSha256": "d4640989b7e45864593716453389cf86841352a0b0d3412bc1176add0c9aee3c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pkpkvyW31ZIx4pvC.description",
+    "sourceSha256": "0f3bc8f56987ffc99c6f077d913faee8d22004ab2f265c0632c0e58daaf451bc",
+    "translationSha256": "ea6f18ce4b1d4cd825934455b81a4b0288f8fca7b0c1c149ae62b6e1d2fbacea",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoTapestrydeur.description",
+    "sourceSha256": "299a4093485f9b22f05c19a0dce168080331f89511e8d9fb81d7b4d96a9f595b",
+    "translationSha256": "72ca029cc248847038634eb2767532fc77b85898b95aa40072a02d411fabea7f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.thkvJ5QBRORIwkkV.description",
+    "sourceSha256": "68d852a54ab0688f092565633e228cb1e21c8f2020c3bdada06cfc854f1baf14",
+    "translationSha256": "efeb79f955e71375a51b62964726a08bb2e061534d03d24362fa80c9861ca3d9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.thkvJ5QBRORIwkkV.unidentifiedName",
+    "sourceSha256": "63213d376ca8f4385faf1fbb05f4eb18436973479543d451d975165303e0d171",
+    "translationSha256": "4347b302d542ddeee88a40cdbd8ddaec020f3f4d26172e5ac5e6247b5586f5dd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.thkvJ5QBRORIwkkV.unidentifiedDescription",
+    "sourceSha256": "a5bb3b12c5624be7af0740e9244394a2e5fad89c0250265332de9fb0c5db942b",
+    "translationSha256": "bffd8acaa8cbb8e2db8a688ad02a51ac77a750b4209b59fe3ba438a0c7ce3c93",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoPsionicFortP.description",
+    "sourceSha256": "4fe3798740484e9b007705f3be8485cff5975e7199eebe404f406e9c7b89f24c",
+    "translationSha256": "1eb3766cfb8ae646121e66532d4c30235682cdf2b64f78c02653be6bc75c0856",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoPsionicFortP.unidentifiedName",
+    "sourceSha256": "cae6180ef2c75d6a5f31d67303a0ddf2c3a9219342f93cf9a713ecd43b41070a",
+    "translationSha256": "c65d04cec21329c1085c257f4de175b6791aa60134a48d50f60a99047ec47e22",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoPsionicFortP.unidentifiedDescription",
+    "sourceSha256": "13e9aaf11d99e1cff288b328f10396e1631242f053e3f6f044376c043ea1d991",
+    "translationSha256": "03a389ca319bc01d1abba7ac90cfe670278df3ffb674ac02e28ab73a95ff0cc1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoRibcageGem00.description",
+    "sourceSha256": "2c6737c939b99686451e8a2e2cb86e44d50ed1928fe23aa7574d0b641fe25f1a",
+    "translationSha256": "7b6dd1df36a7ed81faac2eb0f4f67370cdd1ab91a36463bfa0fb93276339397c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoTheGraniteLe.description",
+    "sourceSha256": "48caa6e0f7e178b74f8d1001846b62d3299294357503ddeb4bfc16f64f5d9d8e",
+    "translationSha256": "5004e78027dd9d829c349664bc0b2a9c7666e74ebb175d586be32f827337f7c5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoT8statuette0.description",
+    "sourceSha256": "bd1581bce01c82c6a6b8813c7ae0c9eb66a1d7041c5b7e650dc2fa4c8851d7f1",
+    "translationSha256": "e7c9ed3d31e7a2753bd61524a864f50c41f87aca693fccbb61fa496e5c727138",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.woWZ1sO5IUVGzo58.description",
+    "sourceSha256": "4ca6102c0d3dc654205179cd609bd08cfe685965ccde5776b3014bbd13b2c45d",
+    "translationSha256": "7af2d327734888ab70c9fbc1b2c02afd08baf03a01d27f981c1bb53e8d408d29",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStatueMucus0.description",
+    "sourceSha256": "8b13c918c4ea4fd1044b2c8b259bb7d8694707e928fdf037e8cd62036848d633",
+    "translationSha256": "d55ce4d636ac9a1e944a21bd51f5424117611eaaee731e6c1ebf3c373f1a99ff",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStatueMucus0.effects.jXxwmmM73nbJJZcR.name",
+    "sourceSha256": "2bf399904c01bab07257f5c740866d1239a3ed0a8c32269d80b076a946495529",
+    "translationSha256": "c118dcdfe58c93c3d5f5e8f2760c898f3053e77080d8c1f578c7e0666574a704",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoStatueMucus0.effects.jXxwmmM73nbJJZcR.description",
+    "sourceSha256": "653fcb2550066fc74cb488a6fbd4c27e026de318237fe660a72b19dcef05df23",
+    "translationSha256": "fb5badbfa84027ba1651fee00d91c43294e88ce68c8d1e59783b62be367687fe",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoRarePerfume0.description",
+    "sourceSha256": "3a502219ac03817dd4585d6d3703c9ddc41484204f377758e5029a093169f9fd",
+    "translationSha256": "b310e491a9a1274db19b079e682d454af32ba515610e8667eeaf763a48d3cd18",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSubtleMindCr.description",
+    "sourceSha256": "e9d4b82a01219178393728730fcedc65438039e0a1628298f792002693257baf",
+    "translationSha256": "2b70aa780a58314c26deb482f276828e11cfb159b54a0d684323eb213d18a9d3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSolipsisticM.description",
+    "sourceSha256": "451bf093a7ee048874bcd6bf8257bee6cb729a94bea5bccedd3128ab440752cb",
+    "translationSha256": "9f1f9f9aba9d14f8d129dc982e2b8eda5f6c9f1e87e494e969e20e070666639d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSolipsisticM.effects.z3xRV7hzlJobiDZu.name",
+    "sourceSha256": "005c5c4c61a940aaa1442a565d4e7692fe2d1e94193c449d8a797b0e15806885",
+    "translationSha256": "6a2e9e8bc669e08b4bda1c3edd41df262c3f35c556390d9723c473961a53e1e4",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSolipsisticM.effects.z3xRV7hzlJobiDZu.description",
+    "sourceSha256": "90f04e4011ad07c0332f2df5fbe7dd4576f0b1d4eb70e64cf241c8f1aadbc4e8",
+    "translationSha256": "5587cf50ea0432a02c3a8119607edbf6d0623184cebd3f380ea2f7dd5fbd91b3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.qhdGVfT5j6u46mtk.description",
+    "sourceSha256": "dfd2d4201661551610674684fec046086bfaec2372d06d532ecca16bfa72393d",
+    "translationSha256": "5db7979cd0458d39540f0a5c2ecaed3c48d535fb887ad91f3792319d33d4ac93",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.qhdGVfT5j6u46mtk.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "823fcb0c786b35f13d73707a9a822f966978fd1aa12223f514af2001fc1b3f86",
+    "translationSha256": "eabf39315db068aef8398cf56d90a8a21f5ffd090182514a5ee007857a52337e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.qhdGVfT5j6u46mtk.activities.dnd5eactivity100.activation.condition",
+    "sourceSha256": "823fcb0c786b35f13d73707a9a822f966978fd1aa12223f514af2001fc1b3f86",
+    "translationSha256": "eabf39315db068aef8398cf56d90a8a21f5ffd090182514a5ee007857a52337e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoPlatinumMusi.description",
+    "sourceSha256": "7c33a1597dbee8103dbb9e66165798c0c60b6ccd4de39fc09805aa7041146cd8",
+    "translationSha256": "844ad5d22365b83c995aafffc24a25c3603fa01b3c50c9d49043c41f031414e5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoSnowGlobe000.description",
+    "sourceSha256": "52efc68f8bb6c59eb18ac2382422249acc51b2ac0ad961716c837af9fd8dd1a9",
+    "translationSha256": "e4ef89fd578bdcf7a5b4215fbd849bf5fce32241b9b3b3676571ce10b507741f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.rItVb7CZVorFpI0s.description",
+    "sourceSha256": "0da53f5ced8f98c57af2373fdc9d03682e53e60831f8d2aeb9cfddfcc3551efa",
+    "translationSha256": "8a9503386e46b8381a0737d026e01a44bbdf49270e45e8c78b42d9691734976f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.items.pbsoTruthsoftheI.description",
+    "sourceSha256": "68b7248f9c3e40b9fba6a38e42d3ce73b66c123e12fca44c670ce4ddf198c6a9",
+    "translationSha256": "b4b1be4521dcb2a310c9149fc9d9f09d5f314e34568ff14b15609c60148f0205",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoIarnoAlbrek0.items.pNj09dwqZ7IzNvy0.description",
+    "sourceSha256": "c9743ba800f1e332e92ca166ad9e135716e3286edb23823644460f3a91a04e6b",
+    "translationSha256": "f262b2963c07f418bbb12a431ce618a2ed00757a1c2cb743b70537099c15d704",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoIarnoAlbrek0.items.pNj09dwqZ7IzNvy0.effects.Wd0iA1lfF9Qofcfj.name",
+    "sourceSha256": "64dc4817254794e2ab6141f781276344cf1f854f242062c063427ee6064924be",
+    "translationSha256": "70eaa5a1efd8ad1aa706a308f5f2168644ec92f7c2eb3bb4aaf21501687e98dc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoIarnoAlbrek0.items.pNj09dwqZ7IzNvy0.effects.Wd0iA1lfF9Qofcfj.description",
+    "sourceSha256": "c89dcd09cbc3e5b841d171f35ffd759b2d200709f3a36c515b37471253859a7a",
+    "translationSha256": "67082f772167e0aa201016af10ebeda840270a00f0ecb27e7e7460b7ce3d1e58",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoPlatinumMusi.description",
+    "sourceSha256": "7c33a1597dbee8103dbb9e66165798c0c60b6ccd4de39fc09805aa7041146cd8",
+    "translationSha256": "844ad5d22365b83c995aafffc24a25c3603fa01b3c50c9d49043c41f031414e5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoPsionicFortP.description",
+    "sourceSha256": "4fe3798740484e9b007705f3be8485cff5975e7199eebe404f406e9c7b89f24c",
+    "translationSha256": "1eb3766cfb8ae646121e66532d4c30235682cdf2b64f78c02653be6bc75c0856",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoPsionicFortP.unidentifiedName",
+    "sourceSha256": "cae6180ef2c75d6a5f31d67303a0ddf2c3a9219342f93cf9a713ecd43b41070a",
+    "translationSha256": "c65d04cec21329c1085c257f4de175b6791aa60134a48d50f60a99047ec47e22",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoPsionicFortP.unidentifiedDescription",
+    "sourceSha256": "13e9aaf11d99e1cff288b328f10396e1631242f053e3f6f044376c043ea1d991",
+    "translationSha256": "03a389ca319bc01d1abba7ac90cfe670278df3ffb674ac02e28ab73a95ff0cc1",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoRarePerfume0.description",
+    "sourceSha256": "3a502219ac03817dd4585d6d3703c9ddc41484204f377758e5029a093169f9fd",
+    "translationSha256": "b310e491a9a1274db19b079e682d454af32ba515610e8667eeaf763a48d3cd18",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoRevivifyspel.description",
+    "sourceSha256": "7ae38378fd5ca50878e5cc0c1ef2a3fb4459d267113ee8a106a831cd8ac53b22",
+    "translationSha256": "7037c533a8a89e99b1d6c73e0f3dfcc2e2cd5c04077766397bd93d58b6df1626",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoRibcageGem00.description",
+    "sourceSha256": "2c6737c939b99686451e8a2e2cb86e44d50ed1928fe23aa7574d0b641fe25f1a",
+    "translationSha256": "7b6dd1df36a7ed81faac2eb0f4f67370cdd1ab91a36463bfa0fb93276339397c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoRingOfTheOra.effects.Ffwu6IMX9pBnFnDV.name",
+    "sourceSha256": "babe94bf81640278873df70280b91ecb97a67d85f3cd3858c7f9a846389591f4",
+    "translationSha256": "fb7811d73af555d2cb699d50cb8ed7f21bfa334dd4c851d5828a6c0bf59b3fb2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoScarletCloak.description",
+    "sourceSha256": "e76efb42fd81d3eb7c741b236539b3e55eb1bc2c05265410ffc3336c79f54e82",
+    "translationSha256": "69f8f4e58c7d722f7018c5c490511d2926218e7024821954be2b5a4ff55d606f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoScrollOfDark.description",
+    "sourceSha256": "611697c68bfc49cd142dc6abee3c709f5375be605904de16409b5dad9b13ec29",
+    "translationSha256": "9b3dcb2424575906783fe4096279746d1dd99b053169ccb9596834fba3166c61",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSemiprecious.description",
+    "sourceSha256": "ea50bdbeaf1ca86a0bee71efc835b4b0cc2f66d88e8d3a9fc605266dd57d09a5",
+    "translationSha256": "8ee79d52bb02a6bd14378697ae0a6b49b0ea9f2a14afd8c3e306710957fb4cf7",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSildarsSword.description",
+    "sourceSha256": "bae255e574fd61635e34f79ed17db20fe232cf695aab609f7cfbe58e445c7f95",
+    "translationSha256": "c346eb08fd79e4881baf01e074ab3f646299599634ee8ae2cb60c8e2ab94c1bd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSilencespell.description",
+    "sourceSha256": "2340eaffe16769f1cff2a6d536de48de3cba690243403f5fcc87ab4ffbec3934",
+    "translationSha256": "f8e6b9b55bfb02da318af32022748e1a44ba1794a91cf48e89a4516e1b61f7d2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSmallGemston.description",
+    "sourceSha256": "77b9429bcc87709b3ff391306c199719d3ab336391836307b60b06619ba24524",
+    "translationSha256": "209bce237905165e4a58f4215088071168ca2ff5f324fafdcc2e343a2615f5aa",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSnowGlobe000.description",
+    "sourceSha256": "52efc68f8bb6c59eb18ac2382422249acc51b2ac0ad961716c837af9fd8dd1a9",
+    "translationSha256": "e4ef89fd578bdcf7a5b4215fbd849bf5fce32241b9b3b3676571ce10b507741f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSolipsisticM.description",
+    "sourceSha256": "451bf093a7ee048874bcd6bf8257bee6cb729a94bea5bccedd3128ab440752cb",
+    "translationSha256": "9f1f9f9aba9d14f8d129dc982e2b8eda5f6c9f1e87e494e969e20e070666639d",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSolipsisticM.effects.z3xRV7hzlJobiDZu.name",
+    "sourceSha256": "005c5c4c61a940aaa1442a565d4e7692fe2d1e94193c449d8a797b0e15806885",
+    "translationSha256": "6a2e9e8bc669e08b4bda1c3edd41df262c3f35c556390d9723c473961a53e1e4",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSolipsisticM.effects.z3xRV7hzlJobiDZu.description",
+    "sourceSha256": "90f04e4011ad07c0332f2df5fbe7dd4576f0b1d4eb70e64cf241c8f1aadbc4e8",
+    "translationSha256": "5587cf50ea0432a02c3a8119607edbf6d0623184cebd3f380ea2f7dd5fbd91b3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSpiderStaff0.description",
+    "sourceSha256": "8d28460ea8c47f2be443896af6e33079362d8eceb753d77e64877fb1ef5bd92c",
+    "translationSha256": "2c4626a0ebb155784f47525f17f1dcf71632270e61ef5ebdaed1fa109a1d2b21",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStaffOfDefen.description",
+    "sourceSha256": "c9743ba800f1e332e92ca166ad9e135716e3286edb23823644460f3a91a04e6b",
+    "translationSha256": "f262b2963c07f418bbb12a431ce618a2ed00757a1c2cb743b70537099c15d704",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStaffOfDefen.effects.Wd0iA1lfF9Qofcfj.name",
+    "sourceSha256": "64dc4817254794e2ab6141f781276344cf1f854f242062c063427ee6064924be",
+    "translationSha256": "70eaa5a1efd8ad1aa706a308f5f2168644ec92f7c2eb3bb4aaf21501687e98dc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStaffOfDefen.effects.Wd0iA1lfF9Qofcfj.description",
+    "sourceSha256": "c89dcd09cbc3e5b841d171f35ffd759b2d200709f3a36c515b37471253859a7a",
+    "translationSha256": "67082f772167e0aa201016af10ebeda840270a00f0ecb27e7e7460b7ce3d1e58",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStatueMucus0.description",
+    "sourceSha256": "8b13c918c4ea4fd1044b2c8b259bb7d8694707e928fdf037e8cd62036848d633",
+    "translationSha256": "d55ce4d636ac9a1e944a21bd51f5424117611eaaee731e6c1ebf3c373f1a99ff",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStatueMucus0.effects.jXxwmmM73nbJJZcR.name",
+    "sourceSha256": "2bf399904c01bab07257f5c740866d1239a3ed0a8c32269d80b076a946495529",
+    "translationSha256": "c118dcdfe58c93c3d5f5e8f2760c898f3053e77080d8c1f578c7e0666574a704",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStatueMucus0.effects.jXxwmmM73nbJJZcR.description",
+    "sourceSha256": "653fcb2550066fc74cb488a6fbd4c27e026de318237fe660a72b19dcef05df23",
+    "translationSha256": "fb5badbfa84027ba1651fee00d91c43294e88ce68c8d1e59783b62be367687fe",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoStatuesEmera.description",
+    "sourceSha256": "277bd94c210aa532ae91efbaaa632c5de981d0ebe22388f6eadb0c6787f745e5",
+    "translationSha256": "c6a6d2228dd6435176d00b22f2a6f057a8d05d9ff419ab372d24b71b94ab41f2",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoSubtleMindCr.description",
+    "sourceSha256": "e9d4b82a01219178393728730fcedc65438039e0a1628298f792002693257baf",
+    "translationSha256": "2b70aa780a58314c26deb482f276828e11cfb159b54a0d684323eb213d18a9d3",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoT8statuette0.description",
+    "sourceSha256": "bd1581bce01c82c6a6b8813c7ae0c9eb66a1d7041c5b7e650dc2fa4c8851d7f1",
+    "translationSha256": "e7c9ed3d31e7a2753bd61524a864f50c41f87aca693fccbb61fa496e5c727138",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoTalon0000000.description",
+    "sourceSha256": "e949dcf5693d7af7c414e5e578c8faca0b85740515dbd43cc84169d47e56f71e",
+    "translationSha256": "89cb1c4d19f5d5491291da831244551dd739811e5d787e52d2e5881f4c4be540",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoTapestrydeur.description",
+    "sourceSha256": "299a4093485f9b22f05c19a0dce168080331f89511e8d9fb81d7b4d96a9f595b",
+    "translationSha256": "72ca029cc248847038634eb2767532fc77b85898b95aa40072a02d411fabea7f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoTheGraniteLe.description",
+    "sourceSha256": "48caa6e0f7e178b74f8d1001846b62d3299294357503ddeb4bfc16f64f5d9d8e",
+    "translationSha256": "5004e78027dd9d829c349664bc0b2a9c7666e74ebb175d586be32f827337f7c5",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoThelsPendant.description",
+    "sourceSha256": "5b7aab329168bc1a1abc964fc2e9bc7f64c98b8addbbac01d8a2f23da18cdb96",
+    "translationSha256": "b8685e60822ffbad92619c19ca245fa562de41d9016ca7340655ebdfce6a9eb0",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoTruthsoftheI.description",
+    "sourceSha256": "68b7248f9c3e40b9fba6a38e42d3ce73b66c123e12fca44c670ce4ddf198c6a9",
+    "translationSha256": "b4b1be4521dcb2a310c9149fc9d9f09d5f314e34568ff14b15609c60148f0205",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoUrmonsJourna.description",
+    "sourceSha256": "d98e4f845191d11d3a4a3e5418f5996c9c0e7bd2963fd429a6e71d38e36dbe55",
+    "translationSha256": "4e4abead1058776ab555cbc0903a6cc75a42a581132ca132b303d667b383adcd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoVialOfPerfum.description",
+    "sourceSha256": "db5b013adf302fa80d33225de65bc0929c6c553e1d2467ef51ada0dc95602935",
+    "translationSha256": "35d5aab3b7f35e3ae4cadd3d89e953a5e74895e92b8b669e291c1bb993c6a9dc",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pbsoWoodenPipe00.description",
+    "sourceSha256": "9d7fd2886f9f3d4302ea0d5c6a0cf2ea14e3b2f1327e29f7c25fa207d4938ac9",
+    "translationSha256": "e66b42e915bfc59434dcd6b8a58e9e189da126a7d05715a6ad1b124a52c1160b",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.pkpkvyW31ZIx4pvC.description",
+    "sourceSha256": "0f3bc8f56987ffc99c6f077d913faee8d22004ab2f265c0632c0e58daaf451bc",
+    "translationSha256": "ea6f18ce4b1d4cd825934455b81a4b0288f8fca7b0c1c149ae62b6e1d2fbacea",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.qhdGVfT5j6u46mtk.description",
+    "sourceSha256": "dfd2d4201661551610674684fec046086bfaec2372d06d532ecca16bfa72393d",
+    "translationSha256": "5db7979cd0458d39540f0a5c2ecaed3c48d535fb887ad91f3792319d33d4ac93",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.qhdGVfT5j6u46mtk.activities.dnd5eactivity000.activation.condition",
+    "sourceSha256": "823fcb0c786b35f13d73707a9a822f966978fd1aa12223f514af2001fc1b3f86",
+    "translationSha256": "eabf39315db068aef8398cf56d90a8a21f5ffd090182514a5ee007857a52337e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.qhdGVfT5j6u46mtk.activities.dnd5eactivity100.activation.condition",
+    "sourceSha256": "823fcb0c786b35f13d73707a9a822f966978fd1aa12223f514af2001fc1b3f86",
+    "translationSha256": "eabf39315db068aef8398cf56d90a8a21f5ffd090182514a5ee007857a52337e",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.rItVb7CZVorFpI0s.description",
+    "sourceSha256": "0da53f5ced8f98c57af2373fdc9d03682e53e60831f8d2aeb9cfddfcc3551efa",
+    "translationSha256": "8a9503386e46b8381a0737d026e01a44bbdf49270e45e8c78b42d9691734976f",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.rrwax1qmOI21dyhl.description",
+    "sourceSha256": "e3b03b1b892bece4fe721183a0dba7b9e7e51b6f361b9712164eb40bd1a9396c",
+    "translationSha256": "fa650d7bb9250bae5959c7c1c5047e0bbb73df7b9addf28876198b7f41c82c83",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.s9ZNjlUlDN5fztnW.description",
+    "sourceSha256": "bf479d6043a08519bfddf33fec41b4e8fb917e38f3eb07dd4a0d24a8a6d34578",
+    "translationSha256": "d4640989b7e45864593716453389cf86841352a0b0d3412bc1176add0c9aee3c",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.thkvJ5QBRORIwkkV.description",
+    "sourceSha256": "68d852a54ab0688f092565633e228cb1e21c8f2020c3bdada06cfc854f1baf14",
+    "translationSha256": "efeb79f955e71375a51b62964726a08bb2e061534d03d24362fa80c9861ca3d9",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.thkvJ5QBRORIwkkV.unidentifiedName",
+    "sourceSha256": "63213d376ca8f4385faf1fbb05f4eb18436973479543d451d975165303e0d171",
+    "translationSha256": "4347b302d542ddeee88a40cdbd8ddaec020f3f4d26172e5ac5e6247b5586f5dd",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.thkvJ5QBRORIwkkV.unidentifiedDescription",
+    "sourceSha256": "a5bb3b12c5624be7af0740e9244394a2e5fad89c0250265332de9fb0c5db942b",
+    "translationSha256": "bffd8acaa8cbb8e2db8a688ad02a51ac77a750b4209b59fe3ba438a0c7ce3c93",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.uI6pZfHM4kE54PIt.description",
+    "sourceSha256": "ec4eaa154ce0c01855d5ba7efe10d15f98aebfce61af127ea8e74d7d0305c2a8",
+    "translationSha256": "925b1162813a115278156b9e6974fb4ca50f66a1f64b92623370cc3b3e74beed",
+    "review": "item-texts-exact-source"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-items.woWZ1sO5IUVGzo58.description",
+    "sourceSha256": "4ca6102c0d3dc654205179cd609bd08cfe685965ccde5776b3014bbd13b2c45d",
+    "translationSha256": "7af2d327734888ab70c9fbc1b2c02afd08baf03a01d27f981c1bb53e8d408d29",
+    "review": "item-texts-exact-source"
   }
 ]

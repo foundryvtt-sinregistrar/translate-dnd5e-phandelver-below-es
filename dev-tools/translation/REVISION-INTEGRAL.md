@@ -48,3 +48,12 @@ sin inferir que los rasgos incrustados con nombres similares tengan el mismo
 significado. Se han añadido 900 campos y sus hashes a `reviewed-fields.json`.
 Las descripciones de estas entradas siguen pendientes; el recuento de entradas
 ya no debe interpretarse como cobertura editorial completa.
+
+## Lote de descripciones de objetos
+
+Completado después del lote de nombres: [LOTE-OBJETOS.md](LOTE-OBJETOS.md).
+La cobertura de objetos es 377/377 campos; bestiario y Adventure siguen abiertos.
+La prueba de integración detectó y corrigió la pérdida de traducciones auxiliares
+y la sustitución de nombres propios por nombres genéricos. El adaptador de
+documentos conserva el comportamiento auxiliar de Babele y da prioridad final a
+los textos revisados por ID.

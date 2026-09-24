@@ -2,6 +2,7 @@
 from collections import Counter
 from hashlib import sha256
 from text_schema import ROOT, SOURCE, fields, get, put, load, save
+from configure_mappings import configure
 
 
 def main():
@@ -43,6 +44,7 @@ def main():
     path=ROOT/'dev-tools/translation/reviewed-fields.json'
     previous={x['field']:x for x in load(path)} if path.exists() else {}
     previous.update({x['field']:x for x in evidence});save(path,list(previous.values()))
+    configure()
     print(dict(count))
 
 

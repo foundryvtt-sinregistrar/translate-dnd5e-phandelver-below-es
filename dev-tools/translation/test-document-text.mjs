@@ -1,6 +1,15 @@
 import {test} from 'node:test';
 import assert from 'node:assert/strict';
 import {translateItem,translateActor,translateScene,phandelverTables,phandelverMacros} from '../../scripts/document-text.mjs';
+import {reviewedDocumentConverter} from '../../scripts/document-fallback.mjs';
+
+test('reviewed proper names override fallback even when unchanged from English',()=>{
+  const fallback=[{_id:'droop',name:'Goblin',prototypeToken:{name:'Goblin'},items:[{_id:'sword',name:'Espada',system:{description:{value:'Descripción auxiliar'}}}]}];
+  const converter=reviewedDocumentConverter({translate:()=>structuredClone(fallback)});
+  const result=converter.translate({params:{documentType:'Actor'},translation:{droop:{name:'Droop',tokenName:'Droop'}}});
+  assert.equal(result[0].name,'Droop');assert.equal(result[0].prototypeToken.name,'Droop');
+  assert.deepEqual(result[0].items,fallback[0].items);
+});
 
 test('item text overlay preserves combat data, identities, order and source',()=>{
   const source={_id:'weapon',name:'Sword',type:'weapon',system:{description:{value:'Original',chat:''},

@@ -1,164 +1,340 @@
 {
   "label": "Objetos",
   "mapping": {
-    "description": "system.description.value"
+    "description": "system.description.value",
+    "requirements": "system.requirements",
+    "descriptionChat": "system.description.chat",
+    "unidentifiedName": "system.unidentified.name",
+    "unidentifiedDescription": "system.unidentified.description",
+    "activities": {
+      "path": "system.activities",
+      "converter": "phandelverActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phandelverEffects"
+    },
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phandelverAdvancementNames"
+    }
   },
   "entries": {
     "0E565kQUBmndJ1a2": {
-      "name": "Daga enjoyada"
+      "name": "Daga enjoyada",
+      "description": "<p>Una hoja corta de metal unida a una pequeña empuñadura con guarda. La daga resulta eficaz como arma secundaria para guerreros curtidos o como hoja oculta para asesinos y ladrones.</p>"
     },
     "10ZP2Bu3vnCuYMIB": {
-      "name": "Espada larga decorada"
+      "name": "Espada larga decorada",
+      "description": "<p>@UUID[Compendium.dnd5e.items.Item.10ZP2Bu3vnCuYMIB]{Espada larga} decorada con filigranas relucientes.</p>"
     },
     "18fbyArtidKzON01": {
-      "name": "Varita de detección mágica"
+      "name": "Varita de detección mágica",
+      "description": "<p>Esta varita tiene 3 cargas. Mientras la sostienes, puedes gastar 1 carga como acción para lanzar el conjuro @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{detectar magia} desde ella. La varita recupera 1d3 cargas gastadas cada día al amanecer.</p>",
+      "unidentifiedName": "Varita no identificada"
     },
     "1Lxk6kmoRhG8qQ0u": {
-      "name": "Hacha a dos manos inamovible"
+      "name": "Hacha a dos manos inamovible",
+      "description": "<p>Esta hacha a dos manos no es mágica, pero su mango es una @UUID[Compendium.dnd5e.items.Item.eQNXan0zp279jDtk]{vara inamovible}. El botón que controla la vara está al alcance de cualquiera que empuñe el hacha como arma.</p><p>Puedes usar una acción para pulsar el botón y hacer que el hacha quede mágicamente fija en su posición. Hasta que tú u otra criatura uséis una acción para volver a pulsar el botón, el hacha no se mueve, aunque desafíe la gravedad. Puede soportar hasta 8.000 libras de peso. Un peso mayor la desactiva y hace que caiga. Una criatura puede usar una acción para realizar una prueba de [[/check ability=str dc=30]]; si tiene éxito, desplaza el hacha fija hasta 10 pies.</p>"
     },
     "1taRIMF9w7jpnonN": {
-      "name": "Varita de proyectiles mágicos"
+      "name": "Varita de proyectiles mágicos",
+      "description": "<p>Esta varita tiene 7 cargas. Mientras la sostienes, puedes usar una acción para gastar 1 o más cargas y lanzar el conjuro @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{proyectil mágico} desde ella. Con 1 carga lanzas la versión de nivel 1 del conjuro. Puedes aumentar el nivel del espacio de conjuro en uno por cada carga adicional que gastes.</p>\n<p>La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas su última carga, tira un d20. Si obtienes un 1, la varita se deshace en cenizas y queda destruida.</p>"
     },
     "4lux04xCxe8XetEQ": {
-      "name": "Mandoble de plata"
+      "name": "Mandoble de plata",
+      "description": "<section class=\"secret\" id=\"secret-HkgaY7gUdgF78zNG\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 13 (2d6 + 6) de daño cortante más 10 (3d6) de daño psíquico. Este es un ataque con arma mágica. Si logra un impacto crítico contra un objetivo en un cuerpo astral (como con el conjuro @UUID[Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi]{proyección astral}), el githyanki puede cortar el cordón plateado que une al objetivo con su cuerpo material en lugar de infligir daño.</p></section><p>El caballero ataca con su mandoble de plata.</p>"
     },
     "50N8zf58FR4JWR05": {
-      "name": "Amuleto de protección contra detección y localización"
+      "name": "Amuleto de protección contra detección y localización",
+      "description": "<div><div><p><em>Objeto maravilloso (requiere sintonización)</em></p></div><div><p>Mientras llevas puesto este amuleto, permaneces oculto ante la magia de adivinación. No puedes ser objetivo de esa magia ni ser percibido a través de sensores mágicos de escudriñamiento.</p></div></div>",
+      "unidentifiedName": "Amuleto no identificado"
     },
     "53QBagoPYQWbWsLf": {
-      "name": "Anillo de protección"
+      "name": "Anillo de protección",
+      "description": "<p><em>(Requiere sintonización)</em></p><p>Obtienes un bonificador de +1 a la CA y a las tiradas de salvación mientras llevas este anillo. Su portador también recibe un bonificador de +4 a las tiradas de salvación o pruebas realizadas para evitar soltar cualquier objeto que sostenga en esa mano o que lo desarmen de él.</p>",
+      "effects": {
+        "q1wbe9ru251bfnhg": {
+          "name": "Anillo de protección"
+        }
+      }
     },
     "53uQGToM86zaSWf9": {
-      "name": "Pergamino de conjuro: libertad de movimiento"
+      "name": "Pergamino de conjuro: libertad de movimiento",
+      "description": "<p>Un pergamino de conjuro contiene las palabras de un único conjuro, escritas en una clave mística. Si el conjuro figura en la lista de conjuros de tu clase, puedes leer el pergamino y lanzarlo sin aportar componentes materiales. De lo contrario, el pergamino resulta ininteligible. Lanzar el conjuro leyendo el pergamino requiere su tiempo de lanzamiento habitual. Una vez lanzado, las palabras se desvanecen y el pergamino se deshace en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.</p>\n      <hr /><h3>Libertad de movimiento (nivel 4)</h3>\n      \n      <hr /><p>Tocas a una criatura voluntaria. Mientras dura el conjuro, el movimiento del objetivo no se ve afectado por el terreno difícil, y los conjuros y otros efectos mágicos no pueden reducir su velocidad ni imponerle los estados paralizado o apresado.</p><p>El objetivo también puede gastar 5 pies de movimiento para escapar automáticamente de ataduras no mágicas, como unos grilletes o una criatura que lo tenga agarrado. Por último, estar bajo el agua no impone penalizadores al movimiento ni a los ataques del objetivo.</p><hr />\n      <h3>Detalles del pergamino</h3><hr />\n<p>Si el conjuro figura en la lista de conjuros de tu clase pero es de un nivel superior al que puedes lanzar normalmente, debes superar una prueba de característica CD 14 usando tu aptitud mágica para lanzarlo con éxito. Si fallas, el conjuro desaparece del pergamino sin ningún otro efecto.</p>\n<p>El nivel del conjuro del pergamino determina su CD de salvación y su bonificador de ataque, así como la rareza del pergamino.</p>\n<p><strong>CD de salvación</strong>: 15<br /><strong>Bonificador de ataque</strong>: +7.</p>\n<p>Un conjuro de mago escrito en un pergamino puede copiarse igual que los conjuros de los libros de conjuros. Para copiarlo, quien lo copie debe superar una prueba de Inteligencia (Conocimiento Arcano) CD 14. Si tiene éxito, copia el conjuro correctamente. Tanto si tiene éxito como si falla, el pergamino queda destruido.</p>"
     },
     "7FLs8qIGdOFnz9oL": {
-      "name": "Linterna de revelación"
+      "name": "Linterna de revelación",
+      "description": "<p><em>Objeto maravilloso</em></p>\n<p>Encendida, esta linterna sorda arde durante 6 horas con 1 pinta de aceite y emite luz brillante en un radio de 30 pies y luz tenue otros 30 pies más allá. Las criaturas y los objetos invisibles se vuelven visibles mientras estén en la luz brillante de la linterna. Puedes usar una acción para bajar la cubierta, reduciendo la iluminación a luz tenue en un radio de 5 pies.</p>"
     },
     "7i4s9msZWpAw4Ynv": {
-      "name": "Daga de veneno"
+      "name": "Daga de veneno",
+      "description": "<p>Obtienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con esta arma mágica.</p>\n<p>Puedes usar una acción para cubrir la hoja de un espeso veneno negro. El veneno permanece durante 1 minuto o hasta que un ataque con esta arma impacte a una criatura. Esa criatura debe superar una tirada de salvación de Constitución CD 15 o recibir 2d10 de daño de veneno y quedar envenenada durante 1 minuto. La daga no puede volver a usarse de esta forma hasta el siguiente amanecer.</p>"
     },
     "7vqs5AqI4VCmuszx": {
-      "name": "Morral práctico de Heward"
+      "name": "Morral práctico de Heward",
+      "description": "<p><em>Objeto maravilloso</em></p>\n<p>Esta mochila tiene un compartimento central y dos bolsillos laterales, cada uno de ellos un espacio extradimensional. Cada bolsillo lateral puede contener hasta 20 libras de material, sin superar un volumen de 2 pies cúbicos. El gran compartimento central puede contener hasta 8 pies cúbicos u 80 libras de material. La mochila siempre pesa 5 libras, independientemente de su contenido.</p>\n<p>Introducir un objeto en el morral sigue las reglas habituales de interacción con objetos. Sacar un objeto del morral requiere una acción. Cuando introduces la mano para buscar un objeto concreto, este siempre se encuentra mágicamente en la parte superior.</p>\n<p>El morral tiene algunas limitaciones. Si se sobrecarga o si un objeto afilado lo perfora o desgarra, se rompe y queda destruido. Si se destruye, su contenido se pierde para siempre, aunque los artefactos siempre acaban reapareciendo en algún lugar. Si se vuelve del revés, su contenido se derrama sin sufrir daños, y hay que devolver el morral a su posición normal antes de usarlo de nuevo. Una criatura que necesite respirar puede sobrevivir en su interior hasta 10 minutos; después comienza a asfixiarse.</p>\n<p>Introducir el morral en un espacio extradimensional creado por una bolsa de contención, un agujero portátil u otro objeto similar destruye ambos objetos al instante y abre un portal al Plano Astral. El portal aparece donde se introdujo un objeto en el otro. Cualquier criatura situada a 10 pies o menos del portal es absorbida y depositada en un lugar aleatorio del Plano Astral. Después, el portal se cierra. Solo permite viajar en un sentido y no puede volver a abrirse.</p>",
+      "unidentifiedName": "Mochila sencilla",
+      "unidentifiedDescription": "<p><span style=\"font-family:Signika, sans-serif\">Esta mochila tiene un compartimento central y dos bolsillos laterales.</span></p>"
     },
     "9stfX2i2I1YPo8vx": {
-      "name": "Torre de lodo resbaladizo"
+      "name": "Torre de lodo resbaladizo",
+      "description": "<p><em>Objeto maravilloso, muy raro</em></p><p>Puedes usar una acción para colocar en el suelo esta esfera de granito de 1 pulgada de diámetro y pronunciar su palabra de mando, que significa «petrificación» en terrano. La esfera crece rápidamente hasta convertirse en una torre robusta que permanece hasta que uses una acción para tocarla y repetir la palabra de mando. Entonces vuelve a encogerse hasta convertirse en una esfera de granito de 1 pulgada de diámetro. La torre debe estar vacía para poder encogerse. Su superficie está erizada de protuberancias de barro que sobresalen y se retraen constantemente, como si respirase a través de una gruesa capa de lodo.</p><p>Cada criatura situada en el área donde aparece la torre debe realizar una tirada de salvación de Destreza CD 15; recibe 10d10 de daño contundente si falla, o la mitad si tiene éxito. En ambos casos, la criatura es empujada a un espacio desocupado fuera de la torre, pero junto a ella. Los objetos de esa área que nadie lleve puestos ni transporte reciben ese daño y son empujados automáticamente.</p><p>Cada vez que se expande, la torre de lodo resbaladizo se fusiona con cualquier piedra natural que toque, inclinándose y encajándose torpemente para entrar en contacto con tanta piedra natural como sea posible.</p><p>La torre mide 20 pies de lado y 30 pies de altura, tiene aspilleras en todos sus lados y está coronada por un parapeto almenado. Su interior se divide en dos plantas conectadas por una escalera de mano situada junto a una pared. La escalera termina en una trampilla que da acceso al tejado. Al activarse, la torre tiene una pequeña puerta en el lado que mira hacia ti. La puerta solo se abre cuando das la orden, que puedes pronunciar como acción adicional. Es inmune al conjuro de apertura y a la magia similar, como la de una campana de apertura.</p><p>Aunque parece de piedra, la torre está hecha de adamantina, y su magia impide que las criaturas la vuelquen. El tejado, la puerta y cada pared tienen 100 puntos de golpe, inmunidad al daño de armas no mágicas, salvo las armas de asedio, y resistencia a todos los demás daños. Mientras está fusionada con piedra natural, la torre es inmune a todo daño. Solo un conjuro de deseo puede repararla (este uso cuenta como reproducir un conjuro de nivel 8 o inferior). Cada lanzamiento de deseo hace que el tejado, la puerta o una pared recupere 50 puntos de golpe.</p>",
+      "unidentifiedName": "Baratija no identificada",
+      "unidentifiedDescription": "<p>Una esfera de granito de 1 pulgada de diámetro.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Palabra de mando."
+          }
+        }
+      }
     },
     "9uDSQNxwAIUO0WXe": {
-      "name": "Cristal mental acelerado"
+      "name": "Cristal mental acelerado",
+      "description": "<p><em>Objeto maravilloso, raro</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Cambias el tiempo de lanzamiento del conjuro a 1 acción adicional para este lanzamiento.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      }
     },
     "9v0TPDXNa9S7aNB4": {
-      "name": "Periáptero de salud"
+      "name": "Periáptero de salud",
+      "description": "<p><em>Objeto maravilloso</em></p>\n<p>Eres inmune a contraer cualquier enfermedad mientras lleves este colgante. Si ya padeces una enfermedad, sus efectos quedan suprimidos mientras lo lleves.</p>",
+      "unidentifiedName": "Colgante no identificado",
+      "effects": {
+        "TVtmX2uxGh2iP7Fn": {
+          "name": "Periáptero de salud"
+        }
+      }
     },
     "EuFE7ysIBTCpRIMu": {
       "name": "Esmeralda"
     },
     "EwL5Te2JYM7BDl7U": {
-      "name": "Espada corta"
+      "name": "Espada corta",
+      "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance.</p>"
     },
     "HLEhnzLbpRbYdAHo": {
-      "name": "Gema elemental de esmeralda"
+      "name": "Gema elemental de esmeralda",
+      "description": "<p><em>Objeto maravilloso</em></p>\n<p>Esta esmeralda contiene una mota de energía elemental. Cuando usas una acción para romper la gema, se invoca un @Compendium[dnd5e.monsters.namJz755U1EhvEJa]{elemental de agua} como si hubieras lanzado el conjuro @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{conjurar elemental}, y la gema pierde su magia.</p>"
     },
     "IcyuUi6D65nMQUXJ": {
-      "name": "Cota de malla ensangrentada"
+      "name": "Cota de malla ensangrentada",
+      "description": "<p>La cota de malla está formada por anillas metálicas entrelazadas e incluye una capa de tela acolchada que se lleva debajo para evitar rozaduras y amortiguar los golpes. La armadura incluye guanteletes.</p>"
     },
     "IoJIJdOLKSpminMe": {
-      "name": "Lingote de hierro"
+      "name": "Lingote de hierro",
+      "description": "<p>El hierro, uno de los materiales más usados en metalurgia, se aprecia por su relativa abundancia y facilidad de obtención. En la superficie puede encontrarse en meteoritos caídos y xenolitos, aunque es mucho más habitual extraerlo de minas subterráneas. Sin embargo, hay que cuidarlo para evitar que el óxido lo deteriore.</p>"
     },
     "J45ebuzqkXb5Oqmv": {
-      "name": "Guardia del Dragón"
+      "name": "Guardia del Dragón",
+      "description": "<section class=\"secret\" id=\"secret-Q26D5eHK5Wr390yw\"><p><span style=\"font-family:Roboto, Helvetica, sans-serif\">Obtienes un bonificador de +1 a la CA mientras llevas esta armadura.</span></p><p><span style=\"font-family:Roboto, Helvetica, sans-serif\">Esta coraza incorpora un motivo de dragón de oro en su diseño. Creada para Tergon, un héroe humano del antiguo Neverwinter, concede a su portador ventaja en las tiradas de salvación contra las armas de aliento de los dragones.</span></p></section><p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>",
+      "effects": {
+        "OgubIc0XF1U3cduP": {
+          "name": "Mejora de armadura de Guardia del Dragón",
+          "description": "<p>Obtienes un bonificador de +1 a la CA mientras llevas esta armadura.</p>"
+        }
+      }
     },
     "JFiSlgcm3uSSBM5t": {
-      "name": "Poción de curación suprema"
+      "name": "Poción de curación suprema",
+      "description": "<p><em>El líquido rojo de la poción brilla al agitarlo.</em></p>\n<p>Recuperas 10d4+20 puntos de golpe al beber esta poción.</p>"
     },
     "LEC1wkaAUnWzDPDD": {
-      "name": "Jabalina del relámpago"
+      "name": "Jabalina del relámpago",
+      "description": "<p><em>Jabalina del relámpago con punta de oro.</em></p><p>Esta jabalina es un arma mágica. Cuando la arrojas y pronuncias su palabra de mando, se transforma en un relámpago que forma una línea de 5 pies de ancho desde ti hasta un objetivo a 120 pies o menos. Cada criatura situada en la línea, salvo tú y el objetivo, debe realizar una tirada de salvación de Destreza CD 13; recibe 4d6 de daño de relámpago si falla, o la mitad si tiene éxito. Al alcanzar al objetivo, el relámpago vuelve a convertirse en jabalina. Haz un ataque con arma a distancia contra el objetivo. Si impactas, el objetivo recibe el daño de la jabalina más 4d6 de daño de relámpago.</p><p>Esta propiedad de la jabalina no puede volver a usarse hasta el siguiente amanecer. Entretanto, puede seguir utilizándose como arma mágica.</p>",
+      "descriptionChat": "<p>Cada criatura situada en la línea, salvo tú y el objetivo, debe realizar una tirada de salvación de Destreza CD 13; recibe 4d6 de daño de relámpago si falla, o la mitad si tiene éxito. Al alcanzar al objetivo, el relámpago vuelve a convertirse en jabalina. </p><p>Haz un ataque con arma a distancia contra el objetivo. Si impactas, el objetivo recibe el daño de la jabalina más 4d6 de daño de relámpago.</p>",
+      "unidentifiedName": "Jabalina no identificada",
+      "unidentifiedDescription": "<p>Esta lanza ligera y flexible está diseñada para arrojarla, pero resulta lo bastante versátil como para usarla también en combate cuerpo a cuerpo.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Palabra de mando."
+          }
+        },
+        "dnd5eactivity100": {
+          "activation": {
+            "condition": "Palabra de mando."
+          }
+        }
+      }
     },
     "M2DVjWcdPt2k8kMj": {
-      "name": "Cristal mental prolongado"
+      "name": "Cristal mental prolongado",
+      "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      }
     },
     "OjkIqlW2UpgFcjZa": {
-      "name": "Armadura funeraria"
+      "name": "Armadura funeraria",
+      "description": "<p><em>Esta armadura de placas funeraria pertenece a los Talhund, por lo que los fieles de Dumathoin son reacios a atacar a quien la lleve.</em> </p><p>Los <strong>enanos muertos vivientes</strong> de la Cripta de los Talhund tienen desventaja en las tiradas de ataque contra cualquiera que lleve esta armadura.</p>",
+      "descriptionChat": "<p><span style=\"font-family:Signika, sans-serif\">Los enanos muertos vivientes de la Cripta de los Talhund tienen desventaja en las tiradas de ataque contra el portador.</span></p>"
     },
     "RMi9efrW9ouHVLI2": {
-      "name": "Libro"
+      "name": "Libro",
+      "description": "<p>Un libro sin usar, con las páginas en blanco.</p>"
     },
     "SK2HATQ4abKUlV8i": {
-      "name": "Coraza de bronce"
+      "name": "Coraza de bronce",
+      "description": "<p>@UUID[Compendium.dnd5e.items.Item.SK2HATQ4abKUlV8i]{Coraza} de bronce engastada con cuarzo.</p>"
     },
     "SqTtbBCfiEsmZ36N": {
-      "name": "Cuenta de fuerza"
+      "name": "Cuenta de fuerza",
+      "description": "<p><em>Objeto maravilloso</em></p>\n<p>Esta pequeña esfera negra mide 3/4 de pulgada de diámetro y pesa una onza. Normalmente se encuentran juntas 1d4 + 4 cuentas de fuerza.</p>\n<p>Puedes usar una acción para arrojar la cuenta hasta 60 pies. Esta explota al impactar y queda destruida. Cada criatura en un radio de 10 pies del punto de impacto debe superar una tirada de salvación de Destreza CD 15 o recibir 5d4 de daño de fuerza. A continuación, una esfera de fuerza transparente encierra el área durante 1 minuto. Las criaturas que hayan fallado la salvación y estén completamente dentro del área quedan atrapadas en la esfera. Las que hayan superado la salvación o estén parcialmente dentro del área son empujadas desde el centro hasta quedar fuera de ella. Solo el aire respirable puede atravesar la pared de la esfera; ningún ataque ni otro efecto puede hacerlo.</p>\n<p>Una criatura encerrada puede usar su acción para empujar la pared de la esfera y desplazarla hasta la mitad de su velocidad caminando. La esfera se puede levantar, y su magia hace que pese solo 1 libra, independientemente del peso de las criaturas de su interior.</p>"
     },
     "TZggpdbOYqOCG7mY": {
-      "name": "Jarra de alquimia"
+      "name": "Jarra de alquimia",
+      "description": "<div><p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6talhunder.JournalEntryPage.7yykJG22FtRRTJmV]{T11.}</strong></p><p><em>Objeto maravilloso</em></p></div><div><p>Esta jarra de cerámica parece tener capacidad para un galón de líquido y pesa 12 libras tanto llena como vacía. Al agitarla se oye chapotear un líquido en su interior, aunque esté vacía.</p></div><div><p>Puedes usar una acción y nombrar uno de los líquidos de la tabla siguiente para que la jarra lo produzca. Después puedes destaparla como acción y verter ese líquido, hasta 2 galones por minuto. La cantidad máxima que puede producir depende del líquido elegido.</p></div><div><p>Una vez que la jarra empieza a producir un líquido, no puede producir otro distinto ni más cantidad de uno que ya haya alcanzado su límite hasta el siguiente amanecer.</p><table><tbody><tr><th><p>Líquido</p></th><th><p>Cantidad máxima</p></th></tr><tr><td><p>Ácido</p></td><td><p>8 onzas</p></td></tr><tr><td><p>Veneno básico</p></td><td><p>1/2 onza</p></td></tr><tr><td><p>Cerveza</p></td><td><p>4 galones</p></td></tr><tr><td><p>Miel</p></td><td><p>1 galón</p></td></tr><tr><td><p>Mayonesa</p></td><td><p>2 galones</p></td></tr><tr><td><p>Aceite</p></td><td><p>1 cuarto de galón</p></td></tr><tr><td><p>Vinagre</p></td><td><p>2 galones</p></td></tr><tr><td><p>Agua dulce</p></td><td><p>8 galones</p></td></tr><tr><td><p>Agua salada</p></td><td><p>12 galones</p></td></tr><tr><td><p>Vino</p></td><td><p>1 galón</p></td></tr></tbody></table></div>"
     },
     "U6cAGx2IYsMvDopz": {
-      "name": "Cristal mental acelerado"
+      "name": "Cristal mental acelerado",
+      "description": "<p><em>Objeto maravilloso, raro</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Cambias el tiempo de lanzamiento del conjuro a 1 acción adicional para este lanzamiento.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      }
     },
     "U9f6G1u107DbFIAr": {
-      "name": "Frasco de aceite"
+      "name": "Frasco de aceite",
+      "description": "<p>El aceite suele venir en un frasco de arcilla con capacidad para 1 pinta. Como acción, puedes salpicar con el aceite del frasco a una criatura a 5 pies o menos de ti, o arrojarlo hasta 20 pies para que se rompa al impactar. Haz un ataque a distancia contra una criatura u objeto, tratando el aceite como arma improvisada.</p>\n<p>Si impactas, el objetivo queda cubierto de aceite. Si recibe daño de fuego antes de que el aceite se seque (tras 1 minuto), recibe 5 de daño de fuego adicional por el aceite ardiendo. También puedes verter un frasco de aceite en el suelo para cubrir un área de 5 pies de lado, siempre que la superficie sea llana.</p>\n<p>Si se prende, el aceite arde durante 2 asaltos e inflige 5 de daño de fuego a cualquier criatura que entre en el área o termine su turno en ella. Una criatura solo puede recibir este daño una vez por turno.</p>"
     },
     "UpZLeIx96uo1QmpZ": {
-      "name": "Cristal mental distante"
+      "name": "Cristal mental distante",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto</strong><em><strong>.</strong></em> Si el conjuro tiene un alcance de 5 pies o más y no tiene un alcance de lanzador, su alcance aumenta en 100 pies. Si su alcance es de toque, pasa a ser de 30 pies.</p>"
     },
     "WVdSEHlCN9onfOk2": {
-      "name": "Jaula plegable grande"
+      "name": "Jaula plegable grande",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.xXHsGkGDLo7YqHpD]{G6.}</strong></p><p>Puede plegarse hasta quedar plana con 2 minutos de trabajo. Pesa 500 libras y tiene el tamaño adecuado para una criatura Grande. Aunque gran parte de la jaula es de hierro, sus barras de refuerzo y bisagras son de mithral, y tiene púas orientadas hacia dentro. La jaula no tiene cerradura; los clientes pagaban un suplemento por cerraduras fabricadas en otro lugar.</p>"
     },
     "XPXcxG51oz9o3Kxq": {
-      "name": "Poción de invisibilidad"
+      "name": "Poción de invisibilidad",
+      "description": "<p><em>El recipiente de esta poción parece vacío, pero al sostenerlo da la sensación de contener líquido. </em></p>\n<p>Al beberla, te vuelves invisible durante 1 hora. Todo lo que lleves puesto o transportes se vuelve invisible contigo. El efecto termina antes si atacas o lanzas un conjuro.</p>\n<p> </p>"
     },
     "YLsbATjmQ4tRIbiQ": {
-      "name": "Ropa de viajero"
+      "name": "Ropa de viajero",
+      "description": "<p>Un conjunto de ropa que usan los viajeros.</p>"
     },
     "YaEGBvr05Df5dFiX": {
-      "name": "Cristal mental potenciado"
+      "name": "Cristal mental potenciado",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto</strong><em><strong>.</strong></em> Cuando tiras el daño del conjuro, puedes repetir hasta tres dados de daño. Debes usar los nuevos resultados.</p>"
     },
     "YfBwELTgPFHmQdHh": {
-      "name": "Herramientas de joyero"
+      "name": "Herramientas de joyero",
+      "description": "<p>Estas herramientas especiales incluyen los utensilios necesarios para ejercer el oficio de joyero.</p>\n<p>La competencia con un tipo de herramientas de artesano te permite sumar tu bonificador por competencia a las pruebas de característica que realices usando esas herramientas en tu oficio. Cada tipo de herramientas requiere una competencia distinta.</p>"
     },
     "ZYEqOSY9BLZs2GPx": {
-      "name": "Brazales de arquería de plata"
+      "name": "Brazales de arquería de plata",
+      "description": "<p><em>Objeto maravilloso (requiere sintonización)</em></p><p><em>Un par de delicados brazales de arquería de plata.</em></p><p>Mientras llevas estos brazales, tienes competencia con el arco largo y el arco corto, y obtienes un bonificador de +2 a las tiradas de daño de los ataques a distancia realizados con esas armas.</p>",
+      "unidentifiedName": "Brazales de plata",
+      "unidentifiedDescription": "<p>Un par de delicados brazales de plata.</p>",
+      "effects": {
+        "ChaLjlYldFzDgHHv": {
+          "name": "Brazales de arquería"
+        }
+      }
     },
     "a47tkfgDfNCv5uxY": {
-      "name": "Pergamino de conjuro: cono de frío"
+      "name": "Pergamino de conjuro: cono de frío",
+      "description": "<p>Un pergamino de conjuro contiene las palabras de un único conjuro, escritas en una clave mística. Si el conjuro figura en la lista de conjuros de tu clase, puedes leer el pergamino y lanzarlo sin aportar componentes materiales. De lo contrario, el pergamino resulta ininteligible. Lanzar el conjuro leyendo el pergamino requiere su tiempo de lanzamiento habitual. Una vez lanzado, las palabras se desvanecen y el pergamino se deshace en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.</p>\n      <hr /><h3>Cono de frío (nivel 5)</h3>\n      \n      <hr /><p>Una ráfaga de aire frío brota de tus manos. Cada criatura en un cono de 60 pies debe realizar una tirada de salvación de Constitución; recibe 8d8 de daño de frío si falla, o la mitad si tiene éxito.</p><p>Una criatura que muera a causa de este conjuro se convierte en una estatua helada hasta que se descongele.</p><p><strong>A niveles superiores. </strong>Cuando lanzas este conjuro usando un espacio de nivel 6 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 5.</p><hr />\n      <h3>Detalles del pergamino</h3><hr />\n<p>Si el conjuro figura en la lista de conjuros de tu clase pero es de un nivel superior al que puedes lanzar normalmente, debes superar una prueba de característica CD 15 usando tu aptitud mágica para lanzarlo con éxito. Si fallas, el conjuro desaparece del pergamino sin ningún otro efecto.</p>\n<p>El nivel del conjuro del pergamino determina su CD de salvación y su bonificador de ataque, así como la rareza del pergamino.</p>\n<p><strong>CD de salvación</strong>: 17<br /><strong>Bonificador de ataque</strong>: +9.</p>\n<p>Un conjuro de mago escrito en un pergamino puede copiarse igual que los conjuros de los libros de conjuros. Para copiarlo, quien lo copie debe superar una prueba de Inteligencia (Conocimiento Arcano) CD 15. Si tiene éxito, copia el conjuro correctamente. Tanto si tiene éxito como si falla, el pergamino queda destruido.</p>"
     },
     "azIuFvXlnoxWyyYU": {
-      "name": "Pergamino de conjuro: comprender idiomas"
+      "name": "Pergamino de conjuro: comprender idiomas",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 1</em></p><p>@Embed[Compendium.dnd5e.spells.Item.4dSvfvTy2ZIJ3K4k inline]</p>"
     },
     "bHCShCmmkYsjOqjN": {
-      "name": "Cristal mental cuidadoso"
+      "name": "Cristal mental cuidadoso",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Elige hasta tres criaturas afectadas por el conjuro. Las criaturas elegidas superan automáticamente sus tiradas de salvación contra él.</p>"
     },
     "cruo7AyPDNquXirJ": {
-      "name": "Ojos de visión minuciosa"
+      "name": "Ojos de visión minuciosa",
+      "description": "<p><em>Objeto maravilloso</em></p><p>Estas lentes de cristal se colocan sobre los ojos. Mientras las llevas, puedes ver mucho mejor de lo normal hasta una distancia de 1 pie. Tienes <strong>ventaja</strong> en las pruebas de &amp;Reference[investigation] que dependan de la vista al registrar una zona o estudiar un objeto dentro de esa distancia.</p>",
+      "unidentifiedName": "Lentes de cristal",
+      "unidentifiedDescription": "<p><span style=\"font-family:Signika, sans-serif\">Estas lentes de cristal se colocan sobre los ojos.</span></p>"
     },
     "dGnkwePemh7ovuDv": {
-      "name": "Anillo de escudo mental"
+      "name": "Anillo de escudo mental",
+      "description": "<p><em>(Requiere sintonización)</em></p>\n<p>Mientras llevas este anillo, eres inmune a la magia que permita a otras criaturas leer tus pensamientos, determinar si mientes, conocer tu alineamiento o conocer tu tipo de criatura. Las criaturas solo pueden comunicarse contigo telepáticamente si lo permites.</p>\n<p>Puedes usar una acción para volver invisible el anillo hasta que uses otra acción para hacerlo visible, te lo quites o mueras.</p>\n<p>Si mueres mientras llevas el anillo, tu alma entra en él, salvo que ya albergue otra alma. Puedes permanecer en el anillo o partir al más allá. Mientras tu alma esté en él, puedes comunicarte telepáticamente con cualquier criatura que lo lleve. El portador no puede impedir esta comunicación telepática.</p>",
+      "unidentifiedName": "Anillo no identificado"
     },
     "e03khppdzSdud2qN": {
-      "name": "Ballesta pesada"
+      "name": "Ballesta pesada",
+      "description": "<p>Una gran ballesta montada sobre una sólida pieza de madera que se carga mediante una manivela y dispara gruesos virotes de acero con una aceleración letal, capaz de atravesar armadura y carne.</p>"
     },
     "fC0lFK8P4RuhpfaU": {
-      "name": "Herramientas de cartógrafo"
+      "name": "Herramientas de cartógrafo",
+      "description": "<p>Estas herramientas especiales incluyen los utensilios necesarios para ejercer el oficio de cartógrafo.</p>\n<p>La competencia con un tipo de herramientas de artesano te permite sumar tu bonificador por competencia a las pruebas de característica que realices usando esas herramientas en tu oficio. Cada tipo de herramientas requiere una competencia distinta.</p>"
     },
     "ge9mF0LFYBsQAFHY": {
-      "name": "Ballesta ligera de buena factura"
+      "name": "Ballesta ligera de buena factura",
+      "description": "<p>Una pequeña ballesta de cuerpo de madera y cuerda tensa, capaz de disparar un único virote que puede perforar incluso armaduras pesadas a corta distancia. La madera tiene incrustaciones de plata.</p>"
     },
     "jhjo20QoiD5exf09": {
-      "name": "Útiles de calígrafo"
+      "name": "Útiles de calígrafo",
+      "description": "<p>Estos útiles especiales incluyen los utensilios necesarios para ejercer el oficio de calígrafo.</p>\n<p>La competencia con un tipo de herramientas de artesano te permite sumar tu bonificador por competencia a las pruebas de característica que realices usando esas herramientas en tu oficio. Cada tipo de herramientas requiere una competencia distinta.</p>"
     },
     "l2T46xCqUbJvKE7A": {
-      "name": "Pico de guerra luminoso"
+      "name": "Pico de guerra luminoso",
+      "description": "<p><em>Arma (pico de guerra), rara (requiere sintonización)</em></p><p>El mango de este pico de guerra tiene incrustaciones de piedras nacaradas trituradas que otorgan al arma una tenue luminiscencia. Obtienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con este pico de guerra.</p><p>Mientras lo empuñas, puedes usar una acción adicional para lanzar el conjuro @UUID[Item.s9ZNjlUlDN5fztnW]{luz del día}, eligiendo un punto del pico de guerra. Una vez usada esta acción adicional, no puedes volver a usarla hasta el siguiente amanecer.</p>",
+      "unidentifiedName": "Pico de guerra no identificado",
+      "unidentifiedDescription": "<p>El mango de este pico de guerra tiene incrustaciones de piedras nacaradas trituradas que otorgan al arma una tenue luminiscencia.</p>"
     },
     "l794iywHk8Wc6Uvi": {
-      "name": "Libro ilustrado sobre los lazos"
+      "name": "Libro ilustrado sobre los lazos",
+      "description": "<p>Un libro que contiene relatos históricos o información sobre un campo concreto del saber, los mitos o las leyendas.</p>"
     },
     "m6D8huOpY18o6LlJ": {
-      "name": "Ungüento de Keoghtom"
+      "name": "Ungüento de Keoghtom",
+      "description": "<p><em>Objeto maravilloso</em></p><p>Este frasco de cristal de 3 pulgadas de diámetro contiene 4 dosis de una mezcla espesa con un ligero olor a aloe. El frasco y su contenido pesan 1/2 libra.</p><p>Como acción, se puede ingerir una dosis del ungüento o aplicarla sobre la piel. La criatura que la recibe recupera 2d8 + 2 puntos de golpe, deja de estar envenenada y se cura de cualquier enfermedad.</p>",
+      "unidentifiedName": "Ungüento espeso",
+      "unidentifiedDescription": "<p>Este frasco de cristal de 3 pulgadas de diámetro contiene 4 dosis de una mezcla espesa con un ligero olor a aloe. El frasco y su contenido pesan 1/2 libra.</p>"
     },
     "oY8KbpGmB5H2Deoy": {
-      "name": "Cuerda de seda (50 pies)"
+      "name": "Cuerda de seda (50 pies)",
+      "description": "<p>Una cuerda, ya sea de cáñamo o de seda, tiene 2 puntos de golpe y puede romperse con una prueba de Fuerza CD 17.</p>"
     },
     "paqlMjggWkBIAeCe": {
-      "name": "Símbolo sagrado de Dumathoin"
+      "name": "Símbolo sagrado de Dumathoin",
+      "description": "<p>Un símbolo sagrado de Dumathoin hecho de platino, a través del cual un creyente verdadero puede invocar su poder y, con ello, extender la fe.</p><p><strong>Canalizador mágico</strong>. Un clérigo o paladín puede usar un símbolo sagrado como canalizador mágico. Para ello, debe sostenerlo en una mano, llevarlo a la vista o portarlo en un escudo.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "El símbolo sagrado debe estar claramente visible."
+          }
+        }
+      }
     },
     "pbsoAgate0000000": {
       "name": "Ágata"
@@ -167,100 +343,137 @@
       "name": "Tintero de ámbar"
     },
     "pbsoAmethyst0000": {
-      "name": "Amatistas"
+      "name": "Amatistas",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.CNHEaWPdgnXVAhCl]{G10.}</strong></p>"
     },
     "pbsoAntiquemaps0": {
-      "name": "Mapas antiguos"
+      "name": "Mapas antiguos",
+      "description": "<p>Una colección de mapas históricos y antiguos de la Infraoscuridad. Son valiosos para un historiador o coleccionista.</p>"
     },
     "pbsoB8treasure00": {
       "name": "Tapón de tonel de oro"
     },
     "pbsoB9treasure00": {
-      "name": "Flautas de marfil de Shalfi"
+      "name": "Flautas de marfil de Shalfi",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.7k8feoLXpOlFIsEw]{B9.}</strong></p>"
     },
     "pbsoBarrelOfOil0": {
-      "name": "Barril de aceite"
+      "name": "Barril de aceite",
+      "description": "<p>Un barril con unos 50 frascos de aceite de los suministros que se transportan a Phandalin.</p>"
     },
     "pbsoBasiliskFigu": {
-      "name": "Figurita de basilisco"
+      "name": "Figurita de basilisco",
+      "description": "<p>Una figurita de basilisco hecha de platino.</p>"
     },
     "pbsoBeaverPelts0": {
       "name": "Piel de castor"
     },
     "pbsoBeholderstat": {
-      "name": "Estatuilla de contemplador"
+      "name": "Estatuilla de contemplador",
+      "description": "<p>Una estatuilla de contemplador con esmeraldas en los extremos de los pedúnculos oculares y un enorme diamante como ojo central.</p>"
     },
     "pbsoBlessingOfDu": {
-      "name": "Bendición de Dumathoin"
+      "name": "Bendición de Dumathoin",
+      "description": "<p>Tu vista se vuelve lo bastante aguda como para descubrir secretos ocultos. Obtienes &amp;Reference[darkvision]. Si ya tenías visión en la oscuridad, puedes ver en color en la oscuridad.</p><p>Además, puedes usar una acción para obtener &amp;Reference[truesight] durante 1 minuto. Una vez obtenida la visión verdadera de esta forma, no puedes volver a hacerlo hasta terminar un descanso largo.</p>"
     },
     "pbsoBoxOfSilverF": {
-      "name": "Caja de tenedores de plata"
+      "name": "Caja de tenedores de plata",
+      "description": "<p>Una caja que contiene un juego de varios tenedores de plata de seis púas.</p>"
     },
     "pbsoBrassDragonS": {
-      "name": "Escamas de dragón de oropel"
+      "name": "Escamas de dragón de oropel",
+      "description": "<p>Una extraña placa romboidal de color marrón dorado. Cada una tiene aproximadamente la mitad del tamaño de una mano humana, es ligera y tan resistente como el hierro.</p>"
     },
     "pbsoBrocadevelve": {
       "name": "Brocado de terciopelo"
     },
     "pbsoCapeOfEnlarg": {
-      "name": "Capa de agrandamiento"
+      "name": "Capa de agrandamiento",
+      "description": "<p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.I8k8EFYg3y4FHCgH]{B2.}</strong></p><p>Antiguas runas están bordadas con hilo de plata a lo largo del dobladillo de esta capa de color púrpura grisáceo.</p><p>La capa tiene 3 cargas. Como acción adicional mientras la llevas puesta, puedes gastar 1 carga para agrandarte y obtener los siguientes beneficios:</p><ul><li><p>Tu tamaño aumenta una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para aumentar una categoría, adquieres el mayor tamaño posible dentro del espacio disponible.</p></li><li><p>Tienes ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza.</p></li><li><p>Cuando impactas con una tirada de ataque usando un arma o un ataque sin armas, puedes sumar tu bonificador por competencia al daño del ataque.</p></li></ul><p>Estos beneficios duran 10 minutos o hasta que uses otra acción adicional para ponerles fin. La capa recupera 1d3 cargas gastadas cada día al amanecer.</p>",
+      "unidentifiedName": "Capa con dobladillo de plata",
+      "unidentifiedDescription": "<p>Antiguas runas están bordadas con hilo de plata a lo largo del dobladillo de esta capa de color púrpura grisáceo.</p>",
+      "effects": {
+        "MUvMvWwZNTd7Mjbz": {
+          "name": "Capa de agrandamiento",
+          "description": "<ul><li><p>Tu tamaño aumenta una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para aumentar una categoría, adquieres el mayor tamaño posible dentro del espacio disponible.</p></li><li><p>Tienes ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza.</p></li><li><p>Cuando impactas con una tirada de ataque usando un arma o un ataque sin armas, puedes sumar tu bonificador por competencia al daño del ataque.</p></li></ul>"
+        }
+      }
     },
     "pbsoCarnelian000": {
       "name": "Cornalina"
     },
     "pbsoCaskOfSalted": {
-      "name": "Tonel de carne de cerdo en salazón"
+      "name": "Tonel de carne de cerdo en salazón",
+      "description": "<p>Un tonel de carne de cerdo en salazón de las provisiones que se transportan a Phandalin.</p>"
     },
     "pbsoCeleritybrac": {
-      "name": "Brazales de celeridad"
+      "name": "Brazales de celeridad",
+      "description": "<p><em>Objeto maravilloso, raro (requiere sintonización)</em></p><p>Este par de ligeros brazales de bronce está forrado con suave terciopelo púrpura y grabado con motivos en espiral.</p><p>Mientras llevas estos brazales, todas tus velocidades aumentan en 10 pies y tienes <strong>ventaja</strong> en las tiradas de salvación para evitar o poner fin a los estados &amp;Reference[paralyzed] o &amp;Reference[restrained] que te afecten.</p>",
+      "unidentifiedName": "Brazales de bronce",
+      "unidentifiedDescription": "<p>Este par de ligeros brazales de bronce está forrado con suave terciopelo púrpura y grabado con motivos en espiral.</p>"
     },
     "pbsoCensercragma": {
-      "name": "Incensario"
+      "name": "Incensario",
+      "description": "<p>Un hermoso incensario encontrado en el santuario goblin del Castillo Cragmaw.</p>"
     },
     "pbsoChalicecragm": {
-      "name": "Cáliz"
+      "name": "Cáliz",
+      "description": "<p>Un cáliz de factura magistral encontrado en el santuario goblin del Castillo Cragmaw.</p>"
     },
     "pbsoCollapsableC": {
-      "name": "Jaula plegable"
+      "name": "Jaula plegable",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.y37U98syx1IS7rV4]{G3.}</strong></p><p>Puede plegarse hasta quedar plana con 1 minuto de trabajo. Pesa 50 libras. Aunque gran parte de la jaula es de hierro, sus barras de refuerzo y bisagras son de mithral, y tiene púas orientadas hacia dentro. La jaula no tiene cerradura; los clientes pagaban un suplemento por cerraduras fabricadas en otro lugar.</p>"
     },
     "pbsoCrystaldagge": {
-      "name": "Dagas ornamentales de cristal"
+      "name": "Dagas ornamentales de cristal",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.26QfiOYclNf5AUna]{L4.}</strong></p>"
     },
     "pbsoCrystalpitch": {
-      "name": "Jarra de cristal"
+      "name": "Jarra de cristal",
+      "description": "<p>Frágil.</p>"
     },
     "pbsoDiamond00000": {
-      "name": "Diamante(s)"
+      "name": "Diamante(s)",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoIlvaashsAnim.JournalEntryPage.GlgP94R4ncHIWPlD]{A3.}</strong></p>"
     },
     "pbsoDragonBile00": {
       "name": "Bilis de dragón"
     },
     "pbsoDwarvenAleMu": {
-      "name": "Jarra de cerveza enana"
+      "name": "Jarra de cerveza enana",
+      "description": "<p>Una jarra de cerveza enana hecha de electro martillado.</p>"
     },
     "pbsoEmboldeningB": {
-      "name": "Brandy envalentonador"
+      "name": "Brandy envalentonador",
+      "description": "<section class=\"secret\" id=\"secret-8hB0iy2aWhb2fnzL\"><p>Un personaje que beba una copa de brandy obtiene 1 &amp;Reference[temporary-hit-points], pero si bebe dos copas o más en 1 hora, tiene el estado &amp;Reference[condition=poisoned]{envenenado} durante 1 hora.</p></section><p>Un pequeño tonel lleno de un excepcional brandy enano. Contiene el equivalente a veinte copas.</p>"
     },
     "pbsoEnergizedSha": {
-      "name": "Fragmento energizado"
+      "name": "Fragmento energizado",
+      "description": "<p><em>Las agujas de cristal iridiscente que cubren la caverna chisporrotean con energía mágica.</em></p><p>Puede usarse como canalizador mágico.</p>"
     },
     "pbsoFavricsAmeth": {
-      "name": "Amatistas brillantes"
+      "name": "Amatistas brillantes",
+      "description": "<p>Una amatista brillante.</p>"
     },
     "pbsoFineEmeraldP": {
-      "name": "Collar de oro con colgante de esmeralda"
+      "name": "Collar de oro con colgante de esmeralda",
+      "description": "<p>Un collar de oro con un hermoso colgante de esmeralda.</p>"
     },
     "pbsoFireballScro": {
-      "name": "Pergamino de bola de fuego"
+      "name": "Pergamino de bola de fuego",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0 inline]</p>"
     },
     "pbsoGarnet000000": {
-      "name": "Granate"
+      "name": "Granate",
+      "description": "<p>Un hermoso granate.</p>"
     },
     "pbsoGnawbleFeede": {
-      "name": "Gnawble"
+      "name": "Gnawble",
+      "description": "<p><strong>Consulta @UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.Amm4kRqrWbHTf56Y#gnawbles]{Gnawbles (características de las grietas del Reino Lejano)} para obtener más información.</strong></p><p>Esta esfera peluda tiene el tamaño de la palma de una mano y una boca con dientes afilados.</p>"
     },
     "pbsoGobletMoonst": {
-      "name": "Copa engastada con piedras lunares"
+      "name": "Copa engastada con piedras lunares",
+      "description": "<p>Una copa de plata engastada con piedras lunares, encontrada en la Torre Vieja de las Ruinas de Thundertree.</p>"
     },
     "pbsoGoldFeather0": {
       "name": "Pluma de oro"
@@ -269,28 +482,46 @@
       "name": "Alianza de oro"
     },
     "pbsoGoldenEarrin": {
-      "name": "Pendiente de oro"
+      "name": "Pendiente de oro",
+      "description": "<p>Un sencillo pendiente de oro engastado con un diminuto rubí.</p>"
     },
     "pbsoGoldenElfSta": {
-      "name": "Estatuilla de elfo de oro"
+      "name": "Estatuilla de elfo de oro",
+      "description": "<section id=\"secret-WmW0xwczQtZl3QaN\" class=\"secret\"><p>Un conjuro de detectar magia revela que la estatuilla está imbuida de magia de adivinación. Una criatura que no sea malvada puede sostenerla, hacerle una pregunta y recibir una respuesta telepática, como si hubiera lanzado augurio. Una vez que una criatura haya formulado su pregunta y recibido respuesta, nunca podrá volver a activar la estatuilla.</p></section><p>Una estatuilla de oro de un elfo, envuelta en una tela carmesí.</p>",
+      "unidentifiedName": "Estatuilla de un elfo",
+      "unidentifiedDescription": "<p>Una estatuilla de oro de un elfo, envuelta en una tela carmesí.</p>"
     },
     "pbsoHeightenedMi": {
-      "name": "Cristal mental intensificado"
+      "name": "Cristal mental intensificado",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso, raro</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Elige una criatura afectada por el conjuro. Esa criatura tiene <strong>desventaja</strong> en la primera tirada de salvación que realice contra él.</p>"
     },
     "pbsoHew000000000": {
-      "name": "Hendedora"
+      "name": "Hendedora",
+      "description": "<p><em>Ya sea mediante una bendición demoníaca, un don celestial, un experimento demente o una hábil labor artesanal, esta arma ha sido mejorada para que su portador derrame más sangre.</em></p><p>Obtienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica.</p><p>Unas runas en la cabeza del hacha deletrean «Hendedora» en enano, y su óxido resulta engañoso. Hendedora inflige el daño máximo cuando su portador ataca a una criatura de tipo Planta o a un objeto de madera. Su creador la usaba para protegerse en el bosque mientras cortaba leña.</p>"
     },
     "pbsoHoldPersonSc": {
-      "name": "Pergamino de inmovilizar persona"
+      "name": "Pergamino de inmovilizar persona",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4 inline]</p>"
     },
     "pbsoIarnosPerido": {
       "name": "Peridoto"
     },
     "pbsoInvulerabili": {
-      "name": "Poción de invulnerabilidad"
+      "name": "Poción de invulnerabilidad",
+      "description": "<p>Durante 1 minuto después de beber esta poción, tienes &amp;Reference[damageresistance]{resistencia} a todo daño. Su líquido almibarado parece hierro licuado.</p>",
+      "unidentifiedName": "Poción almibarada",
+      "unidentifiedDescription": "<p><span style=\"font-family:Signika, sans-serif\">El líquido almibarado de la poción parece hierro licuado.</span></p>"
     },
     "pbsoIronquillsJo": {
-      "name": "Diario y exlibris de Ironquill"
+      "name": "Diario y exlibris de Ironquill",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh7tunnelsde.JournalEntryPage.doMvucAxNgnTscja]{J2.}</strong>@Embed[JournalEntry.pbsoCh7art000000.JournalEntryPage.epqj8hlUZJ3wuFKg]{ }</p><blockquote><p>El ornamentado exlibris lleva el nombre «Thorgran Ironquill, historiador». Solo se conservan las primeras páginas del diario. Recogen rumores sobre un aumento de la actividad de los azotamentes bajo las Montañas de la Espada. Su autor planea espiar una fortaleza de azotamentes llamada Illithinoch, situada a gran profundidad bajo tierra. Espera que esta información le permita advertir a los enclaves enanos cercanos, incluido el templo de Talhundereth.</p></blockquote><p>Aunque el ornamentado exlibris de plata ya es valioso por sí solo, los restos del diario pueden interesar mucho a ciertos eruditos.</p>"
     },
     "pbsoJacinth00000": {
       "name": "Jacintos"
@@ -299,106 +530,160 @@
       "name": "Jade"
     },
     "pbsoJadeStatuett": {
-      "name": "Estatuilla de jade"
+      "name": "Estatuilla de jade",
+      "description": "<p>Una estatuilla de jade de una rana con diminutas esferas de oro por ojos.</p>"
     },
     "pbsoJeweledGoldB": {
-      "name": "Brazalete de oro enjoyado"
+      "name": "Brazalete de oro enjoyado",
+      "description": "<p>Un brazalete de oro enjoyado encontrado entre los huesos de un sarcófago en la Guarida de los Redbrands de Phandalin.</p>"
     },
     "pbsoJeweledSilve": {
-      "name": "Peine de plata enjoyado"
+      "name": "Peine de plata enjoyado",
+      "description": "<p>Un peine de plata enjoyado entregado por la @UUID[JournalEntry.pbsoPhandalinVil.JournalEntryPage.2NFsevkbevf8r0ZP#sister-garaeles-bargain]{hermana Garaele} del Santuario de la Suerte para ofrecérselo a la banshee Agatha en @UUID[JournalEntry.pbsoConyberryAnd]{Conyberry}.</p>"
     },
     "pbsoKegOfStrongA": {
-      "name": "Barrilete de cerveza fuerte"
+      "name": "Barrilete de cerveza fuerte",
+      "description": "<p>Un barrilete de cerveza fuerte de los suministros que se transportan a Phandalin.</p>"
     },
     "pbsoL7rubies0000": {
-      "name": "Ojo de rubí"
+      "name": "Ojo de rubí",
+      "description": "<p>Un rubí tallado con forma de globo ocular.</p>"
     },
     "pbsoLightFeather": {
-      "name": "Bastón ligero grabado con plumas"
+      "name": "Bastón ligero grabado con plumas",
+      "description": "<p>Una gruesa vara de madera con una empuñadura firme constituye un arma muy práctica, además de un sólido bastón para caminar. Este bastón es sorprendentemente ligero y está grabado con plumas estilizadas.</p>"
     },
     "pbsoLightbringer": {
-      "name": "Portadora de Luz"
+      "name": "Portadora de Luz",
+      "description": "<section class=\"secret\" id=\"secret-vSzDTMGvNqi4xrqv\"><p>Esta arma, conocida como Portadora de Luz, fue creada para un clérigo de Lathander, dios del amanecer. La cabeza de la maza tiene forma de sol radiante y está hecha de latón macizo. La maza brilla como una antorcha cuando su portador se lo ordena. Mientras brilla, inflige 1d6 de daño adicional a las criaturas muertas vivientes.</p></section>"
     },
     "pbsoLightningBol": {
-      "name": "Pergamino de conjuro de relámpago"
+      "name": "Pergamino de conjuro de relámpago",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ inline]</p>"
     },
     "pbsoLizardmedall": {
-      "name": "Medallón de plata"
+      "name": "Medallón de plata",
+      "description": "<p>Un medallón de plata que muestra la cabeza de un lagarto con una pluma de escribir detrás.</p>"
     },
     "pbsoMalachite000": {
       "name": "Malaquita"
     },
     "pbsoMarthungrims": {
-      "name": "Diario de Marthungrim"
+      "name": "Diario de Marthungrim",
+      "description": "<p>Encontrado junto a un esqueleto enano y un santuario de Dumathoin, contiene la siguiente información:</p><table class=\"fvtt\"><tbody><tr><td><p>Marthungrim era un paladín de Dumathoin que excavó esta morada hace más de 60 años. Dumathoin le encomendó devolver el descanso a unos espíritus cuando una cripta para los fieles del dios fue corrompida.</p></td></tr><tr><td><p>Marthungrim averiguó que la cripta se encuentra bajo un templo llamado Talhundereth, pero el templo estaba infestado de monstruos peligrosos. Una cerradura con un acertijo protege la cripta; los fieles de Dumathoin podrían resolverlo más fácilmente que otros. (El diario no incluye la solución).</p></td></tr><tr><td><p>Marthungrim planeaba destruir a los inquietos fantasmas que rondan la cripta para que pudieran descansar en paz.</p></td></tr><tr><td><p>Gravemente herido por una criatura que describió como «montones de tentáculos en agitación», Marthungrim regresó aquí. Su última entrada describe cómo empeoran sus heridas.</p></td></tr></tbody></table>"
     },
     "pbsoMercury00000": {
       "name": "Mercurio"
     },
     "pbsoMetalTongue0": {
-      "name": "Lengua de metal"
+      "name": "Lengua de metal",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoOccludingMia.JournalEntryPage.GzuBwWdyY2ELY48g]{Miasma Oclusivo.}</strong></p><p>La lengua mide alrededor de 1 pie de largo y la mitad de ancho.</p>"
     },
     "pbsoMindblasting": {
-      "name": "Gorro de explosión mental"
+      "name": "Gorro de explosión mental",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.eJUjJD548m7pElFP]{B21.}</strong></p><p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p><em>Este suave gorro violeta tiene bordados que imitan los pliegues de un cerebro.</em></p><p>Como acción adicional mientras llevas el gorro, puedes proyectar energía psíquica en un cono de 60 pies. Cada criatura de esa área debe realizar una tirada de salvación de Inteligencia CD 15. Si falla, recibe 5d8 de daño psíquico y tiene el estado &amp;Reference[stunned] durante 1 minuto. Si tiene éxito, solo recibe la mitad del daño. Al final de cada uno de sus turnos, una criatura aturdida puede repetir la tirada de salvación y, si tiene éxito, poner fin a ese estado.</p><p>Una vez usada esta acción adicional, no puede volver a usarse hasta el siguiente amanecer.</p><p></p>",
+      "unidentifiedName": "Gorro violeta bordado",
+      "unidentifiedDescription": "<p>Este suave gorro violeta tiene bordados que imitan los pliegues de un cerebro.</p>"
     },
     "pbsoMindcrystalp": {
-      "name": "Cristal mental"
+      "name": "Cristal mental",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso, rareza variable</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Cuidadoso (</strong><em><strong>poco común</strong></em><strong>).</strong> Elige hasta tres criaturas afectadas por el conjuro. Las criaturas elegidas superan automáticamente sus tiradas de salvación contra él.</p><p><strong>Distante (</strong><em><strong>poco común</strong></em><strong>).</strong> Si el conjuro tiene un alcance de 5 pies o más y no tiene un alcance de lanzador, su alcance aumenta en 100 pies. Si su alcance es de toque, pasa a ser de 30 pies.</p><p><strong>Potenciado (</strong><em><strong>poco común</strong></em><strong>).</strong> Cuando tiras el daño del conjuro, puedes repetir hasta tres dados de daño. Debes usar los nuevos resultados.</p><p><strong>Prolongado (</strong><em><strong>poco común</strong></em><strong>).</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p><p><strong>Intensificado (</strong><em><strong>raro</strong></em><strong>).</strong> Elige una criatura afectada por el conjuro. Esa criatura tiene desventaja en la primera tirada de salvación que realice contra él.</p><p><strong>Acelerado (</strong><em><strong>raro</strong></em><strong>).</strong> Cambias el tiempo de lanzamiento del conjuro a 1 acción adicional para este lanzamiento.</p><p><strong>Sutil (</strong><em><strong>común</strong></em><strong>)</strong>. Lanzas el conjuro sin componentes somáticos ni verbales en este lanzamiento.</p>"
     },
     "pbsoMindguardCro": {
-      "name": "Corona de protección mental"
+      "name": "Corona de protección mental",
+      "description": "<p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p>Mientras llevas esta corona de adamantina, tienes <strong>ventaja</strong> en las tiradas de salvación de Inteligencia, Sabiduría y Carisma, y resistencia al daño psíquico.</p>",
+      "unidentifiedName": "Corona de adamantina",
+      "unidentifiedDescription": "<p>Una corona de adamantina.</p>",
+      "effects": {
+        "auShcrcu1Bn5AgYE": {
+          "name": "Corona de protección mental"
+        }
+      }
     },
     "pbsoMistyStepSpe": {
-      "name": "Pergamino de conjuro de paso brumoso"
+      "name": "Pergamino de conjuro de paso brumoso",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2</em></p><p>@Embed[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL inline]</p>"
     },
     "pbsoObeliskFragm": {
-      "name": "Fragmento de obelisco"
+      "name": "Fragmento de obelisco",
+      "description": "<p>Cada uno de estos fragmentos es mayor que los pedazos de Phandalin: pesa 50 libras y mide más de un pie de lado. Los fragmentos están endurecidos de forma sobrenatural y no pueden dañarse por ningún medio.</p>"
     },
     "pbsoOpal00000000": {
-      "name": "Ópalo de la maleza"
+      "name": "Ópalo de la maleza",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoMireOfDoubt0.JournalEntryPage.ZL2iVKS028oq5UTN]{M3.}</strong></p>"
     },
     "pbsoP11gemstone0": {
-      "name": "Piedra preciosa"
+      "name": "Piedra preciosa",
+      "description": "<p><strong>Se encuentra por toda la @UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.ehkrLPV6v2RkToDl]{Cripta de los Talhund}.</strong></p>"
     },
     "pbsoP17gem000000": {
-      "name": "Piedra preciosa polvorienta"
+      "name": "Piedra preciosa polvorienta",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.iY12gUH289TDQ9oA]{P17.}</strong></p>"
     },
     "pbsoPeridot00000": {
       "name": "Peridoto grande"
     },
     "pbsoPlatinumMusi": {
-      "name": "Caja de música de platino"
+      "name": "Caja de música de platino",
+      "description": "<p>Reproduce música que los enanos no pueden oír.</p>"
     },
     "pbsoPowderedNigh": {
       "name": "Belladona en polvo"
     },
     "pbsoPsionicFortP": {
-      "name": "Poción de fortaleza psiónica"
+      "name": "Poción de fortaleza psiónica",
+      "description": "<p><em>Poción, poco común</em></p><p>Al beber esta poción, durante 1 hora tienes ventaja en las tiradas de salvación para evitar o poner fin a los estados hechizado o aturdido que te afecten.</p><p>En esta poción negra se arremolinan motas relucientes de color rosa y púrpura.</p>",
+      "unidentifiedName": "Poción negra",
+      "unidentifiedDescription": "<p>En esta poción negra se arremolinan motas relucientes de color rosa y púrpura.</p>"
     },
     "pbsoRarePerfume0": {
-      "name": "Perfume raro"
+      "name": "Perfume raro",
+      "description": "<p>Un frasco de perfume especialmente raro.</p>"
     },
     "pbsoRevivifyspel": {
-      "name": "Pergamino de conjuro de revivir"
+      "name": "Pergamino de conjuro de revivir",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6 inline]</p>"
     },
     "pbsoRibcageGem00": {
-      "name": "Gema de la caja torácica"
+      "name": "Gema de la caja torácica",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.OttQ9p536P2tpWIk]{P8}, @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.R9pBC836TtWultCR]{P10} y @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.9XygTO6hd7IGLkYN]{P11.}</strong></p>"
     },
     "pbsoRingOfTheOra": {
-      "name": "Anillo de escudo mental"
+      "name": "Anillo de escudo mental",
+      "description": "<p><em>(Requiere sintonización)</em></p>\n<p>Mientras llevas este anillo, eres inmune a la magia que permita a otras criaturas leer tus pensamientos, determinar si mientes, conocer tu alineamiento o conocer tu tipo de criatura. Las criaturas solo pueden comunicarse contigo telepáticamente si lo permites.</p>\n<p>Puedes usar una acción para volver invisible el anillo hasta que uses otra acción para hacerlo visible, te lo quites o mueras.</p>\n<p>Si mueres mientras llevas el anillo, tu alma entra en él, salvo que ya albergue otra alma. Puedes permanecer en el anillo o partir al más allá. Mientras tu alma esté en él, puedes comunicarte telepáticamente con cualquier criatura que lo lleve. El portador no puede impedir esta comunicación telepática.</p>",
+      "unidentifiedName": "Anillo no identificado",
+      "effects": {
+        "Ffwu6IMX9pBnFnDV": {
+          "name": "Voz proyectada"
+        }
+      }
     },
     "pbsoScarletCloak": {
-      "name": "Capa escarlata"
+      "name": "Capa escarlata",
+      "description": "<p>Una capa escarlata sucia que llevan los rufianes Redbrand de Phandalin.</p>"
     },
     "pbsoScrollOfDark": {
-      "name": "Pergamino de conjuro de oscuridad"
+      "name": "Pergamino de conjuro de oscuridad",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq inline]</p>"
     },
     "pbsoSemiprecious": {
-      "name": "Piedras semipreciosas"
+      "name": "Piedras semipreciosas",
+      "description": "<p>Unas piedras semipreciosas.</p>"
     },
     "pbsoSildarsSword": {
-      "name": "Espada larga de Sildar"
+      "name": "Espada larga de Sildar",
+      "description": "<p>La espada larga, una hoja larga y recta diseñada para cortar a los enemigos, es un arma muy versátil que también puede empuñarse a dos manos para asestar golpes más contundentes. Su empuñadura lleva el emblema de Neverwinter.</p>"
     },
     "pbsoSilencespell": {
-      "name": "Pergamino de conjuro de silencio"
+      "name": "Pergamino de conjuro de silencio",
+      "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp inline]</p>"
     },
     "pbsoSilverTiara0": {
       "name": "Tiara de plata"
@@ -407,52 +692,93 @@
       "name": "Gemas pequeñas"
     },
     "pbsoSmallGemston": {
-      "name": "Piedra preciosa pequeña"
+      "name": "Piedra preciosa pequeña",
+      "description": "<p>Una piedra preciosa pequeña.</p>"
     },
     "pbsoSnowGlobe000": {
-      "name": "Bola de nieve"
+      "name": "Bola de nieve",
+      "description": "<p>Una bola de nieve que contiene un mercado callejero en miniatura.</p>"
     },
     "pbsoSolipsisticM": {
-      "name": "Bendición de la mente solipsista"
+      "name": "Bendición de la mente solipsista",
+      "description": "<p>Accedes a las verdades esotéricas de un antiguo tomo al concentrarte profundamente en tus propios pensamientos. Puedes usar una acción para concentrar tu mente interior. Esta concentración dura 1 hora. Mientras tu mente interior esté concentrada, no puedes realizar &amp;Reference[reaction]{reacciones.} </p><p>Mientras dure el efecto, cuando realices una prueba de Inteligencia o Sabiduría, o una tirada de salvación de Inteligencia o Sabiduría, puedes tirar un d8 y sumar el resultado a la prueba o tirada de salvación. Recuperas la capacidad de concentrar tu mente interior al terminar un descanso largo.</p>",
+      "effects": {
+        "z3xRV7hzlJobiDZu": {
+          "name": "Bendición de la mente solipsista",
+          "description": "<p><span style=\"font-family:Signika, sans-serif\">Mientras dure el efecto, cuando realices una prueba de Inteligencia o Sabiduría, o una tirada de salvación de Inteligencia o Sabiduría, puedes tirar un d8 y sumar el resultado a la prueba o tirada de salvación.</span></p>"
+        }
+      }
     },
     "pbsoSpiderStaff0": {
-      "name": "Bastón de la Araña"
+      "name": "Bastón de la Araña",
+      "description": "<section id=\"secret-Qz4cjfTxw3uIy85w\" class=\"secret\"><p>La parte superior de este bastón negro de adamantina tiene forma de araña. El bastón pesa 6 libras. Debes estar sintonizado con él para obtener sus beneficios y lanzar sus conjuros.</p><p>Puede empuñarse como un bastón. Inflige 1d6 de daño de veneno adicional al impactar cuando se usa para realizar un ataque con arma.</p><p>El bastón tiene 10 cargas que alimentan los conjuros que contiene. Con él en la mano, puedes usar tu acción para lanzar uno de los siguientes conjuros desde el bastón si figura en la lista de conjuros de tu clase: trepar cual arácnido (1 carga) o telaraña (2 cargas, CD de salvación 15). No se requieren componentes.</p><p>El bastón recupera [[/r 1d6 + 4]] cargas gastadas cada día al anochecer. Si gastas su última carga, tira [[/gmroll d20]]. Si obtienes un 1, el bastón se deshace en polvo y queda destruido.</p></section><p>Nezznar ataca con el Bastón de la Araña.</p>"
     },
     "pbsoStaffOfDefen": {
-      "name": "Bastón de defensa"
+      "name": "Bastón de defensa",
+      "description": "<section class=\"secret\" id=\"secret-Gnb48Fg1PWHF63xD\"><p><em>Requiere sintonización.</em></p><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras. Mientras lo sostienes, obtienes un bonificador de +1 a tu Clase de Armadura.</p><p>Conjuros. El bastón tiene 10 cargas. Mientras lo sostienes, puedes gastar las cargas necesarias para lanzar uno de los siguientes conjuros desde él: [[/item Mage Armor]] (1 carga) o [[/item Shield]] (2 cargas).</p><p>El bastón recupera 1d6 + 4 cargas gastadas cada día al amanecer. Si gastas su última carga, tira un d20. Si obtienes un 1, el bastón se hace añicos y queda destruido.</p></section><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras.</p>",
+      "effects": {
+        "Wd0iA1lfF9Qofcfj": {
+          "name": "Bastón de defensa: bonificador a la CA",
+          "description": "<p>Mientras sostienes el bastón, obtienes un bonificador de +1 a tu Clase de Armadura.</p>"
+        }
+      }
     },
     "pbsoStatueMucus0": {
-      "name": "Mucosidad de la estatua"
+      "name": "Mucosidad de la estatua",
+      "description": "<p>La mucosidad es insípida pero nutritiva y, extrañamente, fortalece la mente. Cualquier personaje que ingiera el líquido obtiene &amp;Reference[rule=damagevulnerability]{resistencia} al daño psíquico durante 10 minutos. El líquido que gotea del cerebro pierde sus propiedades tras 1 hora.</p>",
+      "effects": {
+        "jXxwmmM73nbJJZcR": {
+          "name": "Fortaleza de la mucosidad",
+          "description": "<p>Cualquier personaje que ingiera el líquido obtiene resistencia al daño psíquico durante 10 minutos.</p>"
+        }
+      }
     },
     "pbsoStatuesEmera": {
-      "name": "Ojos de esmeralda de la estatua"
+      "name": "Ojos de esmeralda de la estatua",
+      "description": "<p>Un ojo de esmeralda de la estatua de Dumathoin de la Cueva del Oleaje.</p>"
     },
     "pbsoSubtleMindCr": {
-      "name": "Cristal mental sutil"
+      "name": "Cristal mental sutil",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso, común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> <span style=\"font-family:Signika, sans-serif\">Lanzas el conjuro sin componentes somáticos ni verbales en este lanzamiento.</span></p>"
     },
     "pbsoT8statuette0": {
-      "name": "Estatuilla de oro"
+      "name": "Estatuilla de oro",
+      "description": "<p>Una estatuilla de oro de un guerrero enano.</p>"
     },
     "pbsoTalon0000000": {
-      "name": "Garra"
+      "name": "Garra",
+      "description": "<p><em>Ya sea mediante una bendición demoníaca, un don celestial, un experimento demente o una hábil labor artesanal, esta arma ha sido mejorada para que su portador derrame más sangre.</em></p><p>Esta espada larga descansa en una polvorienta vaina con adornos de plata. Lleva inscrito el nombre «Garra» y tiene una empuñadura con forma de ave rapaz con las alas extendidas.</p><p>Obtienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica.</p>"
     },
     "pbsoTapestrydeur": {
-      "name": "Tapiz duergar"
+      "name": "Tapiz duergar",
+      "description": "<p><em>Un tapiz duergar de rica factura, pero cubierto de polvo.</em></p>"
     },
     "pbsoTheGraniteLe": {
-      "name": "El registro de granito"
+      "name": "El registro de granito",
+      "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6talhunder.JournalEntryPage.IzrwA51W0euRYVZh]{T16.}</strong></p><p>Tiene páginas de metal y una cubierta hecha de finas placas de granito. Este libro es El registro de granito, un compendio de los secretos de Talhundereth.</p>"
     },
     "pbsoThelsPendant": {
-      "name": "Colgante de madera tallada"
+      "name": "Colgante de madera tallada",
+      "description": "<p>Un colgante de madera tallada con forma de cabeza de unicornio, encontrado en un esqueleto en el fondo de la grieta de la Guarida de los Redbrands.</p>"
     },
     "pbsoTruthsoftheI": {
-      "name": "Verdades de la mente introspectiva"
+      "name": "Verdades de la mente introspectiva",
+      "description": "<p>Un libro titulado <em>Verdades de la mente introspectiva</em>.</p>"
     },
     "pbsoUrmonsJourna": {
-      "name": "Diario de Urmon"
+      "name": "Diario de Urmon",
+      "description": "<p>El diario de un aventurero llamado Urmon, encontrado en la Guarida de los Redbrands y escrito en enano. Contiene la siguiente información:</p><blockquote><p>Hace más de quinientos años, varios clanes de enanos y gnomos sellaron un acuerdo conocido como el Pacto de Phandelver, por el que compartirían una rica mina situada en una maravillosa caverna llamada Cueva del Oleaje. Además de su riqueza mineral, la mina albergaba un gran poder mágico. Lanzadores de conjuros humanos se aliaron con los enanos y los gnomos para canalizar y concentrar esa energía en una gran forja llamada Forja de Conjuros, donde podían fabricarse objetos mágicos. Fueron tiempos prósperos, también para la cercana localidad de Phandalin. Pero llegó el desastre cuando unos bandidos arrasaron el Norte y destruyeron cuanto encontraban a su paso.</p><p>Una poderosa fuerza de bandidos, reforzada por malvados magos mercenarios, atacó la Cueva del Oleaje para apoderarse de sus riquezas y tesoros mágicos. Los magos humanos lucharon junto a sus aliados enanos y gnomos para defender la Forja de Conjuros, y la batalla de magia que siguió destruyó gran parte de la caverna. Pocos sobrevivieron a los derrumbes y temblores, y la ubicación de la Cueva del Oleaje se perdió.</p></blockquote>"
     },
     "pbsoVialOfPerfum": {
-      "name": "Vial de perfume"
+      "name": "Vial de perfume",
+      "description": "<p>Un producto aromático que suelen usar las personas adineradas.</p>"
     },
     "pbsoWellmadeSpec": {
       "name": "Gafas de buena factura"
@@ -461,7 +787,8 @@
       "name": "Anillo enjoyado"
     },
     "pbsoWoodenPipe00": {
-      "name": "Pipa de madera"
+      "name": "Pipa de madera",
+      "description": "<p>Una pipa de madera adornada con filigranas de platino.</p>"
     },
     "pbsoZ18amethyst0": {
       "name": "Trozo de cuarzo azul"
@@ -470,34 +797,79 @@
       "name": "Amatista grande"
     },
     "pkpkvyW31ZIx4pvC": {
-      "name": "Mineral de hierro sin refinar"
+      "name": "Mineral de hierro sin refinar",
+      "description": "<p>Treinta libras de este mineral sin refinar proporcionan materia prima suficiente para que un herrero diestro produzca @UUID[Item.IoJIJdOLKSpminMe]{siete lingotes de hierro} valorados en 25 po cada uno.</p>"
     },
     "q6WfZBXQZThu4MPV": {
-      "name": "Cristal mental prolongado"
+      "name": "Cristal mental prolongado",
+      "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      }
     },
     "qhdGVfT5j6u46mtk": {
-      "name": "Matador de azotamentes"
+      "name": "Matador de azotamentes",
+      "description": "<p><em>Arma (hacha a dos manos), rara (requiere sintonización)</em></p><p><em>La hoja de metal de esta hacha está adornada con grabados de azotamentes decapitados.</em></p><p>Obtienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con esta hacha a dos manos.</p><p>Una aberración alcanzada por ella recibe 1d12 de daño cortante adicional. Si la aberración está agarrando a alguna criatura, debe superar una tirada de salvación de Fuerza CD 15 o soltar a todas las criaturas que tenga agarradas.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Al impactar a una aberración"
+          }
+        },
+        "dnd5eactivity100": {
+          "activation": {
+            "condition": "Al impactar a una aberración"
+          }
+        }
+      }
     },
     "rItVb7CZVorFpI0s": {
-      "name": "Pergamino de conjuro: lenguas"
+      "name": "Pergamino de conjuro: lenguas",
+      "description": "<p>Un pergamino de conjuro contiene las palabras de un único conjuro, escritas en una clave mística. Si el conjuro figura en la lista de conjuros de tu clase, puedes leer el pergamino y lanzarlo sin aportar componentes materiales. De lo contrario, el pergamino resulta ininteligible. Lanzar el conjuro leyendo el pergamino requiere su tiempo de lanzamiento habitual. Una vez lanzado, las palabras se desvanecen y el pergamino se deshace en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.</p>\n      <hr /><h3>Lenguas (nivel 3)</h3>\n      \n      <hr /><p>Este conjuro concede a la criatura que tocas la capacidad de comprender cualquier idioma hablado que oiga. Además, cuando el objetivo habla, cualquier criatura que conozca al menos un idioma y pueda oírlo comprende lo que dice.</p><hr />\n      <h3>Detalles del pergamino</h3><hr />\n<p>Si el conjuro figura en la lista de conjuros de tu clase pero es de un nivel superior al que puedes lanzar normalmente, debes superar una prueba de característica CD 13 usando tu aptitud mágica para lanzarlo con éxito. Si fallas, el conjuro desaparece del pergamino sin ningún otro efecto.</p>\n<p>El nivel del conjuro del pergamino determina su CD de salvación y su bonificador de ataque, así como la rareza del pergamino.</p>\n<p><strong>CD de salvación</strong>: 15<br /><strong>Bonificador de ataque</strong>: +7.</p>\n<p>Un conjuro de mago escrito en un pergamino puede copiarse igual que los conjuros de los libros de conjuros. Para copiarlo, quien lo copie debe superar una prueba de Inteligencia (Conocimiento Arcano) CD 13. Si tiene éxito, copia el conjuro correctamente. Tanto si tiene éxito como si falla, el pergamino queda destruido.</p>"
     },
     "rWTwLtOfjSbYvhcq": {
-      "name": "Cristal mental prolongado"
+      "name": "Cristal mental prolongado",
+      "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p>",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+          }
+        }
+      }
     },
     "rrwax1qmOI21dyhl": {
-      "name": "Poción de escalada"
+      "name": "Poción de escalada",
+      "description": "<p><em>La poción está separada en capas marrones, plateadas y grises que recuerdan a bandas de roca. Agitar el frasco no mezcla sus colores.</em></p>\n<p>Al beber esta poción, obtienes una velocidad trepando igual a tu velocidad caminando durante 1 hora. Durante ese tiempo, tienes ventaja en las pruebas de Fuerza (Atletismo) que realices para trepar. </p>"
     },
     "s9ZNjlUlDN5fztnW": {
-      "name": "Luz del día luminosa"
+      "name": "Luz del día luminosa",
+      "description": "<p>Una esfera de luz de 60 pies de radio se extiende desde un punto del pico de guerra que elijas. La esfera emite luz brillante y luz tenue otros 60 pies más allá.</p><p>Si eliges un punto de un objeto que sostengas o de uno que nadie lleve puesto ni transporte, la luz brilla desde el objeto y se mueve con él. Cubrir por completo el objeto afectado con otro objeto opaco, como un cuenco o un yelmo, bloquea la luz.</p><p>Si parte del área de este conjuro se solapa con un área de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que creó la oscuridad queda disipado.</p>"
     },
     "thkvJ5QBRORIwkkV": {
-      "name": "Gema de brillo"
+      "name": "Gema de brillo",
+      "activities": {
+        "dnd5eactivity000": {
+          "activation": {
+            "condition": "Palabra de mando."
+          }
+        }
+      },
+      "description": "<p><em>Objeto maravilloso</em></p>\n<p>Este prisma tiene 50 cargas. Mientras lo sostienes, puedes usar una acción para pronunciar una de sus tres palabras de mando y producir uno de los siguientes efectos:</p>\n<ul>\n<li>La primera palabra de mando hace que la gema emita luz brillante en un radio de 30 pies y luz tenue otros 30 pies más allá. Este efecto no gasta cargas. Dura hasta que uses una acción adicional para repetir la palabra de mando o hasta que uses otra función de la gema.</li>\n<li>La segunda palabra de mando gasta 1 carga y hace que la gema dispare un brillante rayo de luz contra una criatura que puedas ver a 60 pies o menos de ti. La criatura debe superar una tirada de salvación de Constitución CD 15 o quedar cegada durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</li>\n<li>La tercera palabra de mando gasta 5 cargas y hace que la gema emita una luz cegadora en un cono de 30 pies que parte de ella. Cada criatura del cono debe realizar una tirada de salvación como si hubiera sido alcanzada por el rayo creado con la segunda palabra de mando.</li>\n</ul>\n<p>Cuando se agotan todas sus cargas, la gema se convierte en una joya no mágica valorada en 50 po.</p>",
+      "unidentifiedName": "Cristal translúcido",
+      "unidentifiedDescription": "<p>Un fragmento de cristal translúcido de color azul claro, surcado por vetas de luz índigo.</p>"
     },
     "uI6pZfHM4kE54PIt": {
-      "name": "Espada corta de buena factura"
+      "name": "Espada corta de buena factura",
+      "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance. Su pomo y su guarda están engastados con piedras semipreciosas.</p>"
     },
     "woWZ1sO5IUVGzo58": {
-      "name": "Herramientas de ladrón"
+      "name": "Herramientas de ladrón",
+      "description": "<p>Este juego de herramientas incluye una pequeña lima, un juego de ganzúas, un pequeño espejo montado en un mango de metal, unas tijeras de hojas estrechas y unos alicates. La competencia con estas herramientas te permite sumar tu bonificador por competencia a las pruebas de característica que realices para desactivar trampas o abrir cerraduras.</p>"
     }
   }
 }

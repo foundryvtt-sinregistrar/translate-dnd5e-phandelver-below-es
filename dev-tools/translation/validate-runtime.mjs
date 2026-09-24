@@ -13,7 +13,9 @@ function require(value, message) { if (!value) throw new Error(message); }
 export async function validateRuntime({pilot = false} = {}) {
   require(game.user.isGM && game.babele && game.modules.get(MODULE)?.active, 'GM, Babele and translation required');
   const report = {date:new Date().toISOString(), foundry:game.version, system:game.system.version,
-    babele:game.modules.get('babele').version, checks:[], errors:[], pilot:[]};
+    babele:game.modules.get('babele').version, source:SOURCE,
+    activeModules:[...game.modules.values()].filter(m => m.active).map(m => ({id:m.id,version:m.version})),
+    checks:[], errors:[], pilot:[]};
   let journalPilot;
   for (const name of PACKS) {
     const collection = `dnd-phandelver-below.${name}`;
@@ -52,7 +54,8 @@ export async function validateRuntime({pilot = false} = {}) {
             if (tr?.description !== undefined) require(row.description === tr.description, `Table result: ${row._id}`);
           }
         }
-        const document = new (getDocumentClass(source.documentType))(result, {pack:collection});
+        // Constructors migrate/normalize their input. Preserve the actual Babele output.
+        const document = new (getDocumentClass(source.documentType))(foundry.utils.deepClone(result), {pack:collection});
         document.validate({strict:true});
         translatedDocuments.push(result);
         report.checks.push({collection,id:original._id});

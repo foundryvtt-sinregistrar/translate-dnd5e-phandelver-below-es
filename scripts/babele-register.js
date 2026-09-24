@@ -1,39 +1,10 @@
-/** Registra en Babele los compendios de Phandelver & Below. */
-Hooks.on("init", () => {
-  const babele = game?.babele;
-  if (!babele) return;
-
-  const current = game.i18n?.lang ?? "es";
-  const langs = Array.from(new Set([current, current.split("-")[0]]));
-  const compendium = {
-    "dnd-phandelver-below.pbso-adventures": {
-      label: "Phandelver y Más Allá - La aventura",
-      path: "dnd-phandelver-below.pbso-adventures.json"
-    },
-    "dnd-phandelver-below.pbso-bestiary": {
-      label: "Phandelver y Más Allá - Bestiario",
-      path: "dnd-phandelver-below.pbso-bestiary.json"
-    },
-    "dnd-phandelver-below.pbso-items": {
-      label: "Phandelver y Más Allá - Objetos",
-      path: "dnd-phandelver-below.pbso-items.json"
-    },
-    "dnd-phandelver-below.pbso-player-options": {
-      label: "Phandelver y Más Allá - Opciones de personaje",
-      path: "dnd-phandelver-below.pbso-player-options.json"
-    },
-    "dnd-phandelver-below.pbso-player-tables": {
-      label: "Phandelver y Más Allá - Tablas de trasfondo",
-      path: "dnd-phandelver-below.pbso-player-tables.json"
+/** Register this Spanish translation after Babele and core settings exist. */
+Hooks.once("babele.init", (babele) => {
+  Hooks.once("setup", () => {
+    const language = game.settings.get("core", "language");
+    if (typeof language !== "string" || language.split("-")[0].toLowerCase() !== "es") return;
+    for (const lang of new Set([language, "es"])) {
+      babele.register({module: "translate-dnd5e-phandelver-below-es", lang, dir: "compendium"});
     }
-  };
-
-  for (const lang of langs) {
-    babele.register({
-      module: "translate-dnd5e-phandelver-below-es",
-      lang,
-      dir: "compendium",
-      compendium
-    });
-  }
+  });
 });

@@ -11,6 +11,10 @@ dnd5e 6.0.3. Véase [fuentes actuales](translation/FUENTES-ACTUALES.md).
 Siguiente paso: fase 2, mapeos y resolución de claves por ID; no se ha iniciado
 todavía la corrección editorial de los lotes.
 
+Avance de fase 2: registro limitado a `es` y variantes, mediante `babele.init`
+y `setup`, cuando ya existen los ajustes de idioma. Pruebas para `en`, `fr`,
+`es` y `es-ES` superadas. La validación del piloto sigue pendiente.
+
 ## Punto de partida comprobado
 
 - [Inventario reproducible](translation/INVENTARIO.md): 406 documentos principales

@@ -1,5 +1,15 @@
 # Translation workflow
 
+## Current review plan (September 2026)
+
+Follow [the review roadmap](dev-tools/ROADMAP.md),
+[the current inventory](dev-tools/translation/INVENTARIO.md), and
+[the bilingual PDF reference guide](dev-tools/export/README.md).
+The existing translation is partial. Phase 1 is complete on Foundry 14.368 /
+dnd5e 6.0.3; see [current sources](dev-tools/translation/FUENTES-ACTUALES.md).
+Use `python dev-tools/export/prepare_pdf_references.py --ocr-all en es` for PDF
+references. Preserve the existing worklist: its legacy builder overwrites it.
+
 ## Versioning
 
 Releases use `MAJOR.FOUNDRY.PATCH`:
@@ -12,38 +22,21 @@ Therefore, `1.14.0` is the first release milestone for Foundry VTT 14.
 
 ## 1. Export the source compendiums
 
-Enable the following modules in a private Foundry VTT world:
-
-- `babele`
-- `dnd-phandelver-below`
-- `translate-dnd5e-phandelver-below-es`
-
-Sign in as GM, open the browser developer console, and execute the complete contents of:
-
-```text
-dev-tools/export/export-source.js
-```
-
-The script downloads `phandelver-below-source-export.zip`. Extract it into:
-
-```text
-dev-tools/export/_data/source/
-```
-
-This directory is intentionally ignored by Git. It can contain copyrighted source material and must not be committed or redistributed.
-
-The export contains:
-
-- `inventory.json`: IDs, names, types, folders, versions, and translation status.
-- `translations/*.json`: Babele-compatible starter files populated with the original translatable fields.
-
-Validate the extracted export before translating:
+Follow [the current export guide](dev-tools/export/README.md). As GM, keep the
+official adventure active, disable this translation and reload, then execute
+`dev-tools/export/export-source.js` in a Script macro. The exporter uses full
+Foundry documents, rejects translated sources, and writes a dated directory
+under `dev-tools/export/_data/source-current/`. Restore the translation afterwards.
+It preserves the historical `dev-tools/export/_data/source/` directory.
 
 ```powershell
-python dev-tools/export/validate_source_export.py
+python dev-tools/export/validate_current_export.py
+python dev-tools/translation/inventory_current.py
 ```
 
-The validation must finish with `OK`. If it reports names instead of document IDs as unexpected keys, repeat the export with the current `export-source.js`.
+The files are private and ignored by Git. Do not copy full original documents
+into `compendium/`; that directory only accepts reviewed Babele translation payloads.
+The old `validate_source_export.py` checks the historical export only.
 
 ## 2. Work in pack order
 

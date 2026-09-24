@@ -26,6 +26,9 @@ export async function validateRuntime({pilot = false} = {}) {
         const patch = payload.entries[original._id];
         if (patch?.name !== undefined) require(result.name === patch.name, `Root name: ${original._id}`);
         if (source.documentType === 'Adventure') {
+          for (const field of ['description','caption']) {
+            if (patch[field] !== undefined) require(result[field] === patch[field], `Adventure ${field}`);
+          }
           for (const folder of result.folders) {
             if (patch.folders?.[folder._id] !== undefined) require(folder.name === patch.folders[folder._id], `Folder: ${folder._id}`);
           }
@@ -38,6 +41,7 @@ export async function validateRuntime({pilot = false} = {}) {
               if (!pp) continue;
               if (pp.name !== undefined) require(page.name === pp.name, `Page name: ${journal._id}.${page._id}`);
               if (pp.text !== undefined) require(page.text.content === pp.text, `Page text: ${journal._id}.${page._id}`);
+              if (pp.caption !== undefined) require(page.image.caption === pp.caption, `Page caption: ${journal._id}.${page._id}`);
             }
             if (journal._id === 'pbsoWelcomeToPha') journalPilot = journal;
           }

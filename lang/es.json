@@ -1,4 +1,49 @@
 {
+  "PBSO": {
+    "IMPORT": {
+      "ActivateScene": "Activar escena inicial",
+      "Configure": "Configurar aventura",
+      "ConvertMonsters2024": "Convertir a monstruos de 2024",
+      "ConvertSpells2024": "Convertir a conjuros de 2024",
+      "CustomizeJoin": "Personalizar detalles del mundo",
+      "DisplayJournal": "Mostrar diario de primeros pasos",
+      "Finished": "Ha finalizado la preparación de Phandelver y Más Allá: El Obelisco Despedazado.",
+      "ImportAll": "Importar todo",
+      "Launch": "Iniciar aventura",
+      "Options": "Opciones"
+    },
+    "BGF": {
+      "Title": "Brasero de la Llama Verde",
+      "PlusOneWep": "Arma +1",
+      "PlusOneArm": "Armadura +1",
+      "EnchantItem": "Encantar <q>{name}</q>",
+      "DispelEnchant": "Disipar encantamiento",
+      "NoEnchants": "No se puede encantar",
+      "DropPrompt": "Arrastra un objeto para encantarlo",
+      "ChatEnchant": "{name} recibe el encantamiento <q>{enchantment}</q> durante <strong>{duration} {units}</strong>",
+      "ChatDispel": "El encantamiento de <q>{name}</q> ha terminado.",
+      "OnlyItems": "El Brasero de la Llama Verde solo puede encantar objetos",
+      "NoEnchantSubmit": "No se ha seleccionado ningún encantamiento.",
+      "NameSuffix": " (encantado)"
+    },
+    "ROT": {
+      "NoTile": "No se encuentra la baldosa de la sala que se quiere girar. Comprueba que estás viendo la escena correspondiente."
+    },
+    "JOURNAL": {
+      "Tooltip": "Haz clic para ver la escena"
+    },
+    "CONFIGURE_VISION": {
+      "Title": "Configurar visión de actores y tokens",
+      "Content": "Por defecto, los actores y tokens de PNJ tienen la visión desactivada para que el Dungeon Master no pierda visibilidad de la escena al controlarlos. Esta macro actualizará los actores y tokens de Phandelver y Más Allá según tu elección.",
+      "Enable": "Activar visión de tokens",
+      "Disable": "Desactivar visión de tokens"
+    },
+    "PROGRESS": {
+      "ConfigureVision": "Se están actualizando los actores y tokens.",
+      "ConfigureVisionComplete": "Se han actualizado todos los actores y tokens de Phandelver y Más Allá."
+    },
+    "Title": "Phandelver y Más Allá: El Obelisco Despedazado"
+  },
   "TDPBSO": {
     "module": {
       "name": "D&D 5e Phandelver y Más Allá - Español (Babele)",

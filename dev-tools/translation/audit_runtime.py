@@ -36,6 +36,7 @@ def is_text(path, original, translated):
     patterns = [
         r'/(name|description|caption)',
         r'/system/description/value',
+        r'/(?:actors/\d+/)?(?:items/\d+/)?system/advancement/[A-Za-z0-9]{16}/name',
         r'/folders/\d+/name',
         r'/journal/\d+/name',
         r'/journal/\d+/pages/\d+/(name|text/content|image/caption)',
@@ -48,7 +49,7 @@ def is_text(path, original, translated):
 
 def main():
     runtime = read(DATA/'runtime-validation.json')
-    if runtime['errors']:
+    if runtime.get('status') != 'passed' or runtime['errors']:
         raise SystemExit('Runtime validation contains errors')
     source = ROOT/runtime['source']
     manifest = read(source/'inventory.json')

@@ -60,13 +60,15 @@
           "description": "<p>Bajo la luz solar, el drow tiene<strong> desventaja </strong>en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "G2nFsJdp1Q3gshyr": {
-          "name": "Espada corta"
+          "name": "Espada corta",
+          "description": "<section class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño perforante</em></strong>.</p><p></p></section><p>El drow ataca con su Espada corta.</p>"
         },
         "LqnhZjRtRqhLIFTm": {
           "name": "Ballesta de mano"
         },
         "S684g3gtaxOsMxME": {
-          "name": "Camisa de malla"
+          "name": "Camisa de malla",
+          "description": "<p>La camisa de malla está hecha de anillas metálicas entrelazadas y se lleva entre capas de ropa o cuero. Ofrece una protección modesta al torso y permite que las capas exteriores amortigüen el ruido de las anillas al rozarse.</p>"
         },
         "TwM9yO9Psqv23tIQ": {
           "name": "Luces danzantes",
@@ -101,10 +103,12 @@
       "habitat": "Infraoscuridad",
       "items": {
         "ODAa1IROPs40MUI2": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-tRLDcLFhS1DGlUWk\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>13 (3d6 + 3) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El xorn ataca con su Mordisco.</p>"
         },
         "LRjB7lk0aa4TOd16": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-7RwcFccBzPy2eXdS\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>6 (1d6 + 3) </strong><em><strong>de daño cortante</strong></em>.</p></section><p>El xorn ataca con su Garra.</p>"
         },
         "a5CLV8aL4SowIich": {
           "name": "Deslizarse por la tierra",
@@ -136,10 +140,12 @@
           "name": "Ventaja marcial"
         },
         "is4wHu9FG6SPackl": {
-          "name": "Espada larga"
+          "name": "Espada larga",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+3 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d8 + 1) <em>de daño cortante</em></strong>, o <strong>6 (1d10 + 1) <em>de daño cortante</em></strong> si se usa a dos manos.</p>\n</section>\n<p>El hobgoblin ataca con su Espada larga.</p>"
         },
         "ahUVLSMfFY5mqJ66": {
-          "name": "Arco largo"
+          "name": "Arco largo",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma a distancia: +3 a impactar, alcance 150/600 pies, un objetivo. Impacto: <strong>5 (1d8 + 1) <em>de daño perforante</em></strong>.</p>\n</section>\n<p>El hobgoblin ataca con su Arco largo.</p>"
         },
         "sSs3hSzkKBMNBgTs": {
           "name": "Escudo",
@@ -158,7 +164,8 @@
       "senses": "Ciego más allá de este radio",
       "items": {
         "OEx9iy4HDipiYsPt": {
-          "name": "Toque putrefacto"
+          "name": "Toque putrefacto",
+          "description": "<section class=\"secret\" id=\"secret-xuvNHRR4COmmQRaJ\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+2 a impactar</strong>, alcance <strong>10 pies,</strong> una criatura. Impacto: <strong>4 (1d8) </strong><em><strong>de daño necrótico</strong></em>.</p></section><p>El hongo violeta ataca con su Toque putrefacto.</p>"
         },
         "wjDktLNTUnueuX2X": {
           "name": "Ataque múltiple",
@@ -184,7 +191,8 @@
           "name": "Mordisco"
         },
         "EfOy3BSCcAKxdYJ9": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-9AIdngq8GG4ozjF8\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>11 (2d6 + 4) </strong><em><strong>de daño cortante</strong></em>.</p></section><p>El dragón verde joven ataca con su Garra.</p>"
         },
         "MPbE4Uah1MCsdzSW": {
           "name": "Ataque múltiple",
@@ -255,7 +263,8 @@
           "name": "Ilusión menor"
         },
         "ctW81uiX56xZR2c5": {
-          "name": "Rayo de escarcha"
+          "name": "Rayo de escarcha",
+          "description": "<p>Un gélido haz de luz blancoazulada se dirige hacia una criatura dentro del alcance. Realiza un ataque de conjuro a distancia contra el objetivo. Si impactas, recibe 1d8 de daño de frío y su velocidad se reduce en 10 pies hasta el comienzo de tu siguiente turno.</p><p>El daño del conjuro aumenta en 1d8 cuando alcanzas el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).</p>"
         },
         "eS7XnnApoxRxYXPs": {
           "name": "Hechizar persona"
@@ -317,7 +326,8 @@
           "description": "<p>El mefit puede lanzar de forma innata @UUID[Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku]{dormir} sin componentes materiales. Su aptitud mágica innata es Carisma.</p>"
         },
         "lazTMrXNUpGCrKdR": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\" id=\"secret-FXRmwKVtNm25JYC4\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>4 (1d4 + 2) </strong><em><strong>de daño cortante</strong></em>.</p></section><p>El mephit de polvo ataca con sus Garras.</p>"
         },
         "RTpPc5fs27dBqDuj": {
           "name": "Aliento cegador",
@@ -350,7 +360,8 @@
       "habitat": "Urbano",
       "items": {
         "dJyouOu3yDwHTXEX": {
-          "name": "Cascos"
+          "name": "Cascos",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>9 (2d4 + 4) <em>de daño contundente</em></strong>.</p></section>\n<p>El caballo de tiro ataca con sus Cascos.</p>"
         }
       }
     },
@@ -365,13 +376,15 @@
           "name": "Lanzamiento de conjuros"
         },
         "swpThURVHnaQRjfY": {
-          "name": "Garrote"
+          "name": "Garrote",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+2 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>2 (1d4) <em>de daño contundente</em></strong>.</p></section>\n<p>El acólito ataca con su Garrote.</p>"
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luz"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Llama sagrada"
+          "name": "Llama sagrada",
+          "description": "<p>Un resplandor similar a una llama desciende sobre una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Destreza o recibir 1d8 de daño radiante. La cobertura no le proporciona ningún beneficio en esta tirada de salvación.</p><p>El daño del conjuro aumenta en 1d8 cuando alcanzas el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
@@ -388,7 +401,8 @@
           "name": "Santuario"
         },
         "uUWb1wZgtMou0TVP": {
-          "name": "Curar heridas"
+          "name": "Curar heridas",
+          "description": "<p>Una criatura que toques recupera una cantidad de puntos de golpe igual a 1d8 + tu modificador de aptitud mágica. Este conjuro no afecta a muertos vivientes ni a constructos.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, la curación aumenta en 1d8 por cada nivel del espacio por encima de 1.</p>"
         }
       }
     },
@@ -400,7 +414,8 @@
       "languages": "Los idiomas que conocía en vida",
       "items": {
         "idILnIUj76QH9v8w": {
-          "name": "Movimiento incorpóreo"
+          "name": "Movimiento incorpóreo",
+          "description": "<section class=\"secret\"><p>La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. </p><p>Recibe <strong>5 (1d10) <em>de daño de fuerza</em></strong> si termina su turno dentro de un objeto.</p></section><p>La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil.</p>"
         },
         "xZPFtf2vCYraWXVe": {
           "name": "Aparición: drenar vida"
@@ -483,7 +498,8 @@
           "name": "Lanzamiento de conjuros"
         },
         "KUP8WEfLxlcY7K2x": {
-          "name": "Bastón"
+          "name": "Bastón",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma cuerpo a cuerpo: +2 a impactar (+4 a impactar con garrote), alcance 5 pies, un objetivo. Impacto: <strong>3 (1d6) <em>de daño contundente</em></strong>, o <strong>6 (1d8 + 2) <em>de daño contundente</em></strong> con garrote o si se empuña a dos manos.</p></section>\n<p>El druida ataca con su Bastón.</p>"
         },
         "SbSvZKkJASyk8jKo": {
           "name": "Saber druídico"
@@ -553,7 +569,8 @@
           "description": "<p>La hidra realiza tantos ataques de [[/item Bite]] como cabezas tenga.</p>"
         },
         "fYE4f0Oa2I0MetId": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-KBP96SGpmFtESN4h\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+8 a impactar</strong>, alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>10 (1d10 + 5) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>La hidra ataca con su Mordisco.</p>"
         }
       }
     },
@@ -601,7 +618,8 @@
       "languages": "Entiende los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "Ed7XgnZu9qRs3qdn": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-Pv6ewNlryB3DyuNS\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+3 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>4 (1d6 + 1) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El zombi ataca con su Golpe.</p>"
         },
         "RDeCoZRniQBNq0rX": {
           "name": "Fortaleza de los muertos vivientes"
@@ -615,7 +633,8 @@
       "habitat": "Subacuático",
       "items": {
         "qB9j7Epq7UVkGWzY": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-QuVgbVvhPjfstIny\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar</strong>, alcance <strong>10 pies,</strong> una criatura. Impacto: <strong>11 (2d6 + 4) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>La serpiente constrictora gigante ataca con su Mordisco.</p>"
         },
         "3FIKn37A037kPgzc": {
           "name": "Constreñir",
@@ -640,7 +659,8 @@
       "habitat": "Infraoscuridad",
       "items": {
         "E5cmqIqRIwyTkhgp": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-MoGV1kWNOLr6733e\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+2 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>9 (2d6 + 2) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El gul ataca con su Mordisco.</p>"
         },
         "ArxzPC3rsBztgUvI": {
           "name": "Garras",
@@ -677,7 +697,8 @@
           "name": "Tentáculos",
           "effects": {
             "lmkMxX2c3g5KBYoX": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo está &amp;Reference[poisoned apply=false]. Hasta que termine el envenenamiento, está &amp;Reference[paralyzed apply=false]{paralizado}. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
           }
         },
@@ -725,7 +746,8 @@
       "languages": "Entiende todos los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "FpoS5qzlgE3YPZGN": {
-          "name": "Movimiento incorpóreo"
+          "name": "Movimiento incorpóreo",
+          "description": "<section class=\"secret\"><p>El espectro puede moverse a través de otras criaturas y objetos como si fueran terreno difícil.</p><p>Recibe <strong>5 (1d10) <em>de daño de fuerza</em></strong> si termina su turno dentro de un objeto.</p></section><p>El espectro puede moverse a través de otras criaturas y objetos como si fueran terreno difícil.</p>"
         },
         "pxm7rAqI5ackW8Oy": {
           "name": "Drenar vida"
@@ -773,7 +795,8 @@
       "languages": "Entiende común y gigante, pero no puede hablar",
       "items": {
         "Gj35Y1i6Ph90Wn3R": {
-          "name": "Lucero del alba"
+          "name": "Lucero del alba",
+          "description": "<section class=\"secret\" id=\"secret-zCKWdF0O03V8rPZl\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar,</strong> <strong>5 pies,</strong> un objetivo. Impacto: <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El ogro zombi ataca con su Lucero del alba.</p>"
         },
         "NPmV7puA7Yg3esqg": {
           "name": "Fortaleza de los muertos vivientes"
@@ -787,7 +810,8 @@
       "languages": "Un idioma cualquiera (normalmente común)",
       "items": {
         "HwktDnB8qdr0BYGZ": {
-          "name": "Garrote"
+          "name": "Garrote",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+2 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>2 (1d4) <em>de daño contundente</em></strong>.</p></section>\n<p>El plebeyo ataca con su Garrote.</p>"
         }
       },
       "biography": "<p>Entre los plebeyos se encuentran campesinos, siervos, sirvientes, peregrinos, mercaderes, artesanos y ermitaños.</p>"
@@ -806,7 +830,8 @@
           "name": "Apariencia falsa",
           "description": "<p>Mientras el chillón permanezca inmóvil, es indistinguible de un hongo corriente.</p>"
         }
-      }
+      },
+      "biography": "<p>Un hongo chillón es una seta del tamaño de un humano que emite un chillido penetrante para ahuyentar a las criaturas que lo molestan. Otras criaturas lo utilizan como alarma para advertir de la llegada de presas, y varias razas inteligentes de la Infraoscuridad cultivan hongos chillones en las afueras de sus comunidades para disuadir a los intrusos.</p>"
     },
     "TjWQOgI3A4UAl7lC": {
       "name": "Goblin",
@@ -828,10 +853,12 @@
           "description": "<p>El goblin puede realizar la acción de Destrabarse u Ocultarse como acción adicional en cada uno de sus turnos.</p>"
         },
         "S6UTTLu0bEB32HNG": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño cortante</em></strong>.</p></section>\n<p>El goblin ataca con su Cimitarra.</p>"
         },
         "YqS3dsIlpWb2Q2UI": {
-          "name": "Arco corto"
+          "name": "Arco corto",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma a distancia: +4 a impactar, alcance 80/320 pies, un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño perforante</em></strong>.</p></section>\n<p>El goblin ataca con su Arco corto.</p>"
         }
       }
     },
@@ -850,7 +877,8 @@
             "CfaZuewNWYVhMMbK": {
               "name": "Acelerar"
             }
-          }
+          },
+          "description": "<section class=\"secret\">\n<p>Recarga 5-6.</p>\n</section>\n<p>Hasta el final de su siguiente turno, el gólem obtiene mágicamente un bonificador de +2 a la CA, tiene ventaja en las tiradas de salvación de Destreza y puede realizar su ataque de golpe como acción adicional.</p>"
         },
         "91uPF10lBpn5EOhn": {
           "name": "Resistencia mágica",
@@ -873,7 +901,8 @@
           "description": "<p>Los ataques con arma del gólem son mágicos.</p>"
         },
         "hftXBQthz8jMjFTs": {
-          "name": "Absorción de ácido"
+          "name": "Absorción de ácido",
+          "description": "<p>Siempre que el gólem sufra <strong><em>daño de ácido</em></strong>, no recibe daño y, en su lugar, recupera tantos<strong> puntos de golpe</strong> como <strong><em>daño de ácido</em> se le fuera a infligir</strong>.</p>"
         },
         "g0R4u7liRAurxB04": {
           "name": "Ataque múltiple",
@@ -927,7 +956,8 @@
           }
         },
         "Qt2pknvSq5CVWvjr": {
-          "name": "Invisibilidad"
+          "name": "Invisibilidad",
+          "description": "<section class=\"secret\">\n<p>El quasit se vuelve invisible mágicamente hasta que ataque, utilice Asustar o pierda la concentración (como si se concentrara en un conjuro). Cualquier equipo que vista o lleve consigo también se vuelve invisible.</p></section>\n<p>El quasit se vuelve invisible mágicamente. Cualquier equipo que vista o lleve consigo también se vuelve invisible.</p>"
         },
         "j0FvCAk6xDeICOCz": {
           "name": "Cambiaformas"
@@ -947,7 +977,8 @@
           "name": "Asustar",
           "effects": {
             "Plg5bpcbEVFQEeqT": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>La criatura está &amp;Reference[Frightened] durante 1 minuto. El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos, con desventaja si el quasit está en su línea de visión, y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
           }
         }
@@ -964,10 +995,12 @@
           "description": "<p>El tejón tiene<strong> ventaja </strong>en las pruebas de Sabiduría (Percepción) que dependan del olfato.</p>"
         },
         "3cfTcHoBqseLoWVJ": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-jBKpsQ1zRsoiDhxL\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+3 a impactar,</strong> <strong>5 pies,</strong> un objetivo. Impacto: <strong>4 (1d6 + 1) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El tejón gigante ataca con su Mordisco.</p>"
         },
         "dITuQVlX0MXN8F1i": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+3 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>6 (2d4 + 1) <em>de daño cortante</em></strong>.</p></section>\n<p>El tejón gigante ataca con sus Garras.</p>"
         },
         "HhkkFQ7TFOfsKD9w": {
           "name": "Ataque múltiple",
@@ -982,10 +1015,12 @@
       "habitat": "Pradera",
       "items": {
         "1bqysUVTadmvi8nb": {
-          "name": "Garrote grande"
+          "name": "Garrote grande",
+          "description": "<section class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>13 (2d8 + 4) <em>de daño contundente</em></strong>.</p><p></p></section><p>El ogro ataca con su Garrote grande.</p>"
         },
         "tXgnd9qKOE2b7Wis": {
-          "name": "Jabalina"
+          "name": "Jabalina",
+          "description": "<section class=\"secret\" id=\"secret-FmYO3QAdmhMsZi5p\"><p>Ataque con arma cuerpo a cuerpo o a distancia: +6 a impactar, alcance 5 pies o alcance 30/120 pies, un objetivo. Impacto: <strong>11 (2d6 + 4) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El ogro ataca con su Jabalina.</p>"
         },
         "lJ2gJxLDBbFtLwdk": {
           "name": "Armadura de pieles",
@@ -1011,7 +1046,8 @@
           "description": "<p>La armadura realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "vUqKQJ1GGWbKg6cX": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-ewDlQdFZbWAyJcaJ\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>¡La armadura animada realiza un ataque de golpe!</p>"
         }
       }
     },
@@ -1023,16 +1059,19 @@
       "senses": "Ciego más allá de este radio",
       "items": {
         "gyAyLX9CJBbawmr3": {
-          "name": "Absorción de relámpagos"
+          "name": "Absorción de relámpagos",
+          "description": "<p>Siempre que la broza movediza sufra <strong><em>daño de relámpago</em></strong>, no recibe daño y recupera tantos<strong> puntos de golpe</strong> como <strong><em>daño de relámpago</em> se le fuera a infligir</strong>.</p>"
         },
         "2aGoBVVEF54VcC9d": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La broza movediza realiza dos ataques de golpe. Si ambos impactan a un objetivo Mediano o menor, este queda &amp;Reference[grappled]{agarrado} [[/check ability=str dc=14]], y la broza movediza usa [[/item Engulf]] contra él.</p>"
         },
         "N42BQALoCmeYphD1": {
           "name": "Engullir"
         },
         "lOIA9YKQU8xSx7Lj": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-7hsObAueXmkIEteW\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El montículo errante ataca con su Golpe.</p>"
         }
       }
     },
@@ -1069,7 +1108,8 @@
       "languages": "Otyugh",
       "items": {
         "z8zfieQSSbMtBNQz": {
-          "name": "Telepatía limitada"
+          "name": "Telepatía limitada",
+          "description": "<p>El otyugh puede transmitir mágicamente mensajes e imágenes simples a cualquier criatura a <strong>120 pies</strong> o menos que pueda entender un idioma. Esta forma de telepatía no permite a la criatura receptora responder telepáticamente.</p>"
         },
         "CCawltKiVU4Mup9i": {
           "name": "Mordisco",
@@ -1112,7 +1152,8 @@
           "description": "<p>Al comienzo de su turno, el bersérker puede obtener ventaja en todas las tiradas de ataque con arma cuerpo a cuerpo que realice durante ese turno, pero las tiradas de ataque contra él tienen ventaja hasta el comienzo de su siguiente turno.</p>"
         },
         "RrHhFZOd6QT75V3W": {
-          "name": "Golpe psíquico"
+          "name": "Golpe psíquico",
+          "description": "<section class=\"secret\" id=\"secret-evRzTKWT1MxQzvU0\"><aside><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 6 (1d6 + 3) de daño contundente más 3 (1d6) de daño psíquico.</p></aside></section><p>El habitante ataca con energía del Reino Lejano.</p>"
         }
       },
       "tokenName": "Bersérker"
@@ -1138,7 +1179,8 @@
         "2HPk5TdUTeEhD2eG": {
           "name": "Mordisco"
         }
-      }
+      },
+      "biography": "<p>La araña de fase posee la capacidad mágica de entrar y salir del Plano Etéreo. Parece surgir de la nada y desaparece rápidamente tras atacar. Su movimiento por el Plano Etéreo antes de regresar al Material da la impresión de que puede teletransportarse.</p>"
     },
     "mQnsXanewsPiV7QE": {
       "name": "Mago",
@@ -1151,7 +1193,8 @@
           "name": "Lanzamiento de conjuros"
         },
         "LcMdsxbtVEhUDXju": {
-          "name": "Daga"
+          "name": "Daga",
+          "description": "<section class=\"secret\" id=\"secret-m4RYZBIOzeT2tSzq\"><p>Ataque con arma cuerpo a cuerpo o a distancia: +5 a impactar, alcance 5 pies o alcance 20/60 pies, un objetivo. Impacto: <strong>4 (1d4 + 2) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El mago ataca con su Daga.</p>"
         },
         "EOmsUcFQJTfG2oio": {
           "name": "Descarga de fuego"
@@ -1169,13 +1212,15 @@
           "name": "Detectar magia"
         },
         "CKZTpZlxj7hjjo2H": {
-          "name": "Armadura de mago"
+          "name": "Armadura de mago",
+          "description": "<p>Tocas a una criatura voluntaria que no lleve armadura, y una fuerza mágica protectora la rodea hasta que termine el conjuro. Su CA base pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si lo disipas como acción.</p>"
         },
         "41JIhpDyM9Anm7cs": {
           "name": "Proyectil mágico"
         },
         "z1mx84ONwkXKUZd7": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Una barrera invisible de fuerza mágica aparece y te protege. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
         },
         "wqfAVANuQonNBgnL": {
           "name": "Paso brumoso",
@@ -1211,7 +1256,8 @@
         "6pbotGIvqQkraPva": {
           "name": "Escudo"
         }
-      }
+      },
+      "biography": "<p>Los magos dedican su vida al estudio y la práctica de la magia. Los de alineamiento bueno aconsejan a nobles y otras personas poderosas, mientras que los malvados viven en lugares aislados donde llevan a cabo experimentos innombrables sin interferencias.</p>"
     },
     "mWbrPhcKOz6oLXMV": {
       "name": "Doppelganger",
@@ -1233,7 +1279,8 @@
           "description": "<p>El doppelganger realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "scZU8bs551DZRvgC": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>7 (1d6 + 4) <em>de daño contundente</em></strong>.</p></section>\n<p>El doppelganger ataca con su Golpe.</p>"
         },
         "YIoB9xCKEcrrPRt9": {
           "name": "Leer pensamientos"
@@ -1250,10 +1297,12 @@
       "languages": "Un idioma cualquiera (normalmente común)",
       "items": {
         "4oIyAj7rN5JbTjDZ": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+3 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>4 (1d6 + 1) <em>de daño cortante</em></strong>.</p></section>\n<p>El bandido ataca con su Cimitarra.</p>"
         },
         "hSxEhrT9CFdLG40m": {
-          "name": "Ballesta ligera"
+          "name": "Ballesta ligera",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma a distancia: +3 a impactar, alcance 80 pies/320 pies, un objetivo. Impacto: <strong>5 (1d8 + 1) <em>de daño perforante</em></strong>.</p></section>\n<p>El bandido ataca con su Ballesta ligera.</p>"
         },
         "pByEnV0Y7QOI0ndA": {
           "name": "Armadura de cuero",
@@ -1269,10 +1318,12 @@
       "languages": "Entiende todos los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "hrTC2vP0xMgI8q8y": {
-          "name": "Arco corto"
+          "name": "Arco corto",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma a distancia: +4 a impactar, alcance 80/320 pies, un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño perforante</em></strong>.</p></section>\n<p>El esqueleto ataca con su Arco corto.</p>"
         },
         "qXbbvudRpBoul3bH": {
-          "name": "Espada corta"
+          "name": "Espada corta",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño perforante</em></strong>.</p></section>\n<p>El esqueleto ataca con su Espada corta.</p>"
         }
       }
     },
@@ -1283,7 +1334,8 @@
       "habitat": "Subacuático",
       "items": {
         "sZcc3bwnRjaDV9BZ": {
-          "name": "Congelación"
+          "name": "Congelación",
+          "description": "<section class=\"secret\"><p>Si el elemental recibe <strong><em>daño de frío</em></strong>, se congela parcialmente; su velocidad se reduce en <strong>20 pies</strong> hasta el final de su siguiente turno.</p></section><p>Si el elemental recibe <strong><em>daño de frío</em></strong>, se congela parcialmente.</p>"
         },
         "6AQXZ1FlO8qhnPTR": {
           "name": "Forma de agua",
@@ -1294,12 +1346,14 @@
           "description": "<p>El elemental realiza dos ataques de golpe.</p>"
         },
         "7xDGPsWicxgP6feT": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-SDB47NEHUiSGIxlp\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El elemental de agua ataca con su Golpe.</p>"
         },
         "5XUFTldfE6mtRUfd": {
           "name": "Envolver"
         }
-      }
+      },
+      "biography": "<p>Un elemental de agua es una ola encrespada que recorre el suelo y se vuelve casi &amp;Reference[invisible]{invisible} al atravesar una masa de agua mayor. Envuelve a las criaturas que se le oponen y llena sus bocas y pulmones con la misma facilidad con la que apaga una llama.</p>"
     },
     "oDspGxRQFBhE74L2": {
       "name": "Acechador invisible",
@@ -1320,7 +1374,8 @@
           "description": "<p>El acechador realiza dos ataques de golpe.</p>"
         },
         "rpKiEPQVeOZTLwjf": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-9ED6sHKbUoxKjXkX\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>10 (2d6 + 3) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El acechador invisible ataca con su Golpe.</p>"
         }
       },
       "effects": {
@@ -1437,7 +1492,8 @@
           }
         }
       },
-      "alignment": "Normalmente caótico malvado"
+      "alignment": "Normalmente caótico malvado",
+      "biography": "<p>Los fanáticos aberrantes son sectarios que han intentado contactar con los poderes del Reino Lejano y han recibido una respuesta. Impregnados de extrañas energías, toman prestado su brutal poder de las entidades monstruosas que habitan ese plano funesto.</p>"
     },
     "pbsoArcanaloth00": {
       "name": "Arcanaloth",
@@ -1447,7 +1503,8 @@
       "languages": "Todos; telepatía (120 pies)",
       "items": {
         "8eNdEZqMaOREOiP3": {
-          "name": "Mente en blanco"
+          "name": "Mente en blanco",
+          "description": "<p>Hasta que termine el conjuro, una criatura voluntaria que toques es inmune al daño psíquico, a cualquier efecto que perciba sus emociones o lea sus pensamientos, a los conjuros de adivinación y al estado hechizado. El conjuro incluso frustra conjuros de deseo y otros conjuros o efectos de poder similar empleados para afectar a la mente del objetivo u obtener información sobre él.</p>"
         },
         "PGJw3mdgKwyyFMld": {
           "name": "Cadena de relámpagos"
@@ -1502,7 +1559,8 @@
             "6pbotGIvqQkraPva": {
               "name": "Escudo"
             }
-          }
+          },
+          "description": "<p>Una barrera invisible de fuerza mágica aparece y te protege. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
         },
         "FSMdjyxAveKVLsJm": {
           "name": "Disco flotante de Tenser"
@@ -1571,7 +1629,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -1596,7 +1655,8 @@
       "languages": "Entiende los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "Ed7XgnZu9qRs3qdn": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-SDiFovnMAnWB1gfF\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong> +3 a impactar,</strong> alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>4 (1d6 + 1) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El zombi ataca con su Golpe.</p>"
         },
         "RDeCoZRniQBNq0rX": {
           "name": "Fortaleza de los muertos vivientes"
@@ -1605,7 +1665,8 @@
           "name": "Nube de ceniza",
           "effects": {
             "hujmT9eps4shUtuk": {
-              "name": "Nube de ceniza"
+              "name": "Nube de ceniza",
+              "description": "<p>Cualquier criatura viva a 5 pies o menos del zombi debe superar una tirada de salvación de Constitución CD 10 o sufrir desventaja en las tiradas de ataque, las tiradas de salvación y las pruebas de característica durante 1 minuto. La criatura puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto antes de tiempo si la supera.</p>"
             }
           },
           "activities": {
@@ -1649,10 +1710,12 @@
           "description": "<p>La banshee puede percibir mágicamente la presencia de criaturas que no sean muertos vivientes ni autómatas hasta a 5 millas de distancia. Conoce su dirección general, pero no su ubicación exacta.</p>"
         },
         "rSG2tYRoGjdDD3U2": {
-          "name": "Toque corruptor"
+          "name": "Toque corruptor",
+          "description": "<section id=\"secret-920RAV7hQHrYRREM\" class=\"secret\"><p><em>Ataque de conjuro cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 12 (3d6 + 2) de daño necrótico.</p></section><p>La banshee extiende la mano con un toque corruptor.</p>"
         },
         "DjlWvdijZJ9l8Vyp": {
-          "name": "Lamento"
+          "name": "Lamento",
+          "description": "<p>La banshee emite un lamento lastimero, siempre que no esté bajo la luz del sol. Este lamento no afecta a constructos ni a muertos vivientes. Todas las demás criaturas a 30 pies o menos de ella que puedan oírla deben realizar una tirada de salvación de Constitución CD 13. Si una criatura falla, sus puntos de golpe se reducen a 0. Si supera la tirada, recibe 10 (3d6) de daño psíquico.</p>"
         }
       }
     },
@@ -1684,16 +1747,19 @@
           "description": "<p>El barlgura realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Fist]]{Puños}.</p>"
         },
         "4c1PP3emX7VHUule": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-tPqA2XXbVxB3jILn\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. Impacto: 11 (2d6 + 4) de daño perforante.</p></section><p>El barlgura ataca con su Mordisco.</p>"
         },
         "uWuzE0ud85kEchhj": {
-          "name": "Puño"
+          "name": "Puño",
+          "description": "<section class=\"secret\" id=\"secret-tPqA2XXbVxB3jILn\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. Impacto: 9 (1d10 + 4) de daño contundente.</p></section><p>El barlgura ataca con su Puño.</p>"
         },
         "U67fXhr6hE97HuGq": {
           "name": "Enmarañar",
           "effects": {
             "fO14IutGR3Hrepun": {
-              "name": "Enmarañar"
+              "name": "Enmarañar",
+              "description": "<p>Una criatura en el área está apresada por las plantas enmarañadas hasta que termine el conjuro. Puede usar su acción para realizar una prueba de Fuerza contra tu CD de salvación de conjuros. Si tiene éxito, se libera.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -1720,7 +1786,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -1742,10 +1809,12 @@
                 "condition": "Al comienzo de cada turno"
               }
             }
-          }
+          },
+          "description": "<p>El ojo central del contemplador crea un área de antimagia, como la del conjuro @UUID[Compendium.dnd5e.spells.Item.Eon0jzGzQRNluTPQ]{campo antimagia}, en un cono de 150 pies. Al comienzo de cada uno de sus turnos, el contemplador decide hacia dónde apunta el cono y si está activo. El área también afecta a sus propios rayos oculares.</p>"
         },
         "1T2GwoWtaWcUsV4a": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 14 (4d6) de daño perforante.</p></section><p>El contemplador ataca con su Mordisco.</p>"
         },
         "sQjF5AaSYUfUbeCY": {
           "name": "Rayos oculares"
@@ -1755,10 +1824,12 @@
           "description": "<p>La criatura objetivo debe superar una tirada de salvación de Sabiduría CD 16 o quedar &amp;Reference[charmed]{hechizada} por el contemplador durante 1 hora, o hasta que este le haga daño.</p>"
         },
         "mE1eabICJu4hrx5P": {
-          "name": "Rayo paralizante"
+          "name": "Rayo paralizante",
+          "description": "<p>La criatura objetivo debe superar una tirada de salvación de Constitución CD 16 o quedar &amp;Reference[paralyzed]{paralizada} durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</p>"
         },
         "fctKGxfFZoGM6s3z": {
-          "name": "Rayo de miedo"
+          "name": "Rayo de miedo",
+          "description": "<p>La criatura objetivo debe superar una tirada de salvación de Sabiduría CD 16 o quedar &amp;Reference[frightened]{asustada} durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</p>"
         },
         "1KSNmwX7SvXf8lCV": {
           "name": "Rayo ralentizador"
@@ -1771,7 +1842,8 @@
           "name": "Rayo telequinético"
         },
         "mssOCG1h0bENsZnX": {
-          "name": "Rayo de sueño"
+          "name": "Rayo de sueño",
+          "description": "<p>La criatura objetivo debe superar una tirada de salvación de Sabiduría CD 16 o quedarse dormida y permanecer &amp;Reference[unconscious]{inconsciente} durante 1 minuto. El objetivo se despierta si recibe daño o si otra criatura utiliza una acción para despertarlo. Este rayo no afecta a constructos ni a muertos vivientes.</p>"
         },
         "kkrVXPb50lWVJbt6": {
           "name": "Rayo petrificante"
@@ -1797,7 +1869,8 @@
           "name": "Acciones de guarida"
         },
         "SgGQXsKumTDdlab1": {
-          "name": "Acción de guarida: rayo ocular"
+          "name": "Acción de guarida: rayo ocular",
+          "description": "<p>Se abre un ojo en una superficie sólida a 60 pies o menos del contemplador. Desde él se dispara uno de los rayos oculares del contemplador, elegido al azar, contra un objetivo de su elección que pueda ver. Después, el ojo se cierra y desaparece.</p>"
         },
         "KgZ6fmoYipgXE3uF": {
           "name": "Acción de guarida: tentáculos en las paredes"
@@ -1819,14 +1892,16 @@
           "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "PQhPdo7WBMDEyYGz": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<section class=\"secret\" id=\"secret-o97E6HKdPo9eUyYy\"><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
         },
         "fm5jdZMluTQ6kNjY": {
           "name": "Ataque múltiple",
           "description": "<p>El slaad realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Claw]].</p>"
         },
         "BmLUyjgxqRZWTC4q": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. Impacto: 12 (2d6 + 5) de daño perforante.</p></section><p>El slaad azul ataca con su Mordisco.</p>"
         },
         "UYYUuhSs43uiJBAP": {
           "name": "Garra",
@@ -1847,7 +1922,8 @@
       "languages": "Telepatía (1 milla); entiende común, habla de las profundidades e infracomún, pero no puede hablar",
       "items": {
         "gqbEs5mup6znnv3A": {
-          "name": "Armadura de anillas"
+          "name": "Armadura de anillas",
+          "description": "<p>Esta armadura de cuero lleva pesadas anillas cosidas que la refuerzan contra los golpes de espadas y hachas. La armadura de anillas es inferior a la cota de malla y normalmente solo la llevan quienes no pueden permitirse una armadura mejor.</p>"
         },
         "WBPEbDYCud1bYVQ0": {
           "name": "Detectar criaturas"
@@ -1857,7 +1933,8 @@
           "description": "<p>El rompecerebros tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "RHJH3o41naE1jPHV": {
-          "name": "Nexo telepático"
+          "name": "Nexo telepático",
+          "description": "<p>El rompecerebros puede usar su telepatía para iniciar y mantener conversaciones telepáticas con hasta diez criaturas a la vez. Puede permitir que esas criaturas se escuchen telepáticamente entre sí mientras estén conectadas de esta forma.</p>"
         },
         "mbg00gBEosQNhhdy": {
           "name": "Ataque múltiple",
@@ -1917,10 +1994,12 @@
       "creatureSubtype": "Orco",
       "items": {
         "fZVdDx2M5mF8lqPx": {
-          "name": "Hacha a dos manos"
+          "name": "Hacha a dos manos",
+          "description": "<section class=\"secret\" id=\"secret-9bM1BmbNlcNAXOZH\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+5 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>9 (1d12 + 3) </strong><em><strong>de daño cortante</strong></em>.</p></section><p>El orco ataca con su Hacha a dos manos.</p>"
         },
         "9AQixbrnqIMbLNUO": {
-          "name": "Jabalina"
+          "name": "Jabalina",
+          "description": "<section class=\"secret\" id=\"secret-w5LQcjQuj1y2Few4\"><p>Ataque con arma cuerpo a cuerpo o a distancia: +5 a impactar, alcance 5 pies o alcance 30/120 pies, un objetivo. Impacto: <strong>6 (1d6 + 3) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El orco ataca con su Jabalina.</p>"
         },
         "nyrvuG12q4jnmy35": {
           "name": "Agresivo",
@@ -1939,7 +2018,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "hTVJqkUPW2QgzJ0P": {
-          "name": "Coraza"
+          "name": "Coraza",
+          "description": "<p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>"
         },
         "tjGPQJDcEvM525V3": {
           "name": "Resistencia legendaria",
@@ -1964,7 +2044,8 @@
                 "condition": "Cuando le impacta una tirada de ataque"
               }
             }
-          }
+          },
+          "description": "<p>Cuando le impacta una tirada de ataque, el azotamentes obtiene un bonificador de +4 a la CA contra esa tirada, lo que puede hacer que falle. Después se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "ZuKn7qxfrflI6xUm": {
           "name": "Cabeza cercenada de Chishinix"
@@ -2034,7 +2115,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "hTVJqkUPW2QgzJ0P": {
-          "name": "Coraza"
+          "name": "Coraza",
+          "description": "<p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>"
         },
         "tjGPQJDcEvM525V3": {
           "name": "Resistencia legendaria",
@@ -2070,7 +2152,8 @@
                 "condition": "Cuando le impacta una tirada de ataque"
               }
             }
-          }
+          },
+          "description": "<p>Cuando le impacta una tirada de ataque, el azotamentes obtiene un bonificador de +4 a la CA contra esa tirada, lo que puede hacer que falle. Después se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "2zDpKe2gWQu92zmu": {
           "name": "Tentáculo"
@@ -2145,7 +2228,8 @@
           "description": "<p>Si la criatura mutada sufre un efecto que le permita realizar una tirada de salvación para recibir solo la mitad del daño, no recibe daño si la supera y solo recibe la mitad si la falla.</p>"
         },
         "uRadHweVgqb8hdl4": {
-          "name": "Duplicados fantasmales"
+          "name": "Duplicados fantasmales",
+          "description": "<p>La criatura mutada proyecta mágicamente hasta cuatro copias ilusorias de sí misma. Estos duplicados dificultan determinar su verdadera ubicación y duran hasta el final de su siguiente turno. Mientras existan las copias, las tiradas de ataque contra la criatura mutada se realizan con desventaja.</p>"
         },
         "29guKR3YHcS5qxgb": {
           "name": "Golpe con cadáver",
@@ -2157,7 +2241,8 @@
           }
         },
         "2YWUd0SZiKuQbW0e": {
-          "name": "Cola"
+          "name": "Cola",
+          "description": "<section class=\"secret\" id=\"secret-IubKpn4eVYyG6WA0\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 10 pies, un objetivo. Impacto: 13 (2d8 + 4) de daño cortante.</p></section><p>La criatura mutada ataca con su cola.</p>"
         },
         "eFR69CS9Ycxor9FI": {
           "name": "Gemido psíquico",
@@ -2199,10 +2284,12 @@
           "description": "<p>El goblin puede realizar la acción de Destrabarse u Ocultarse como acción adicional en cada uno de sus turnos.</p>"
         },
         "S6UTTLu0bEB32HNG": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño cortante</em></strong>.</p></section>\n<p>El goblin ataca con su Cimitarra.</p>"
         },
         "YqS3dsIlpWb2Q2UI": {
-          "name": "Arco corto"
+          "name": "Arco corto",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma a distancia: +4 a impactar, alcance 80/320 pies, un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño perforante</em></strong>.</p></section>\n<p>El goblin ataca con su Arco corto.</p>"
         }
       },
       "effects": {
@@ -2302,7 +2389,8 @@
           "name": "Hacha de batalla"
         },
         "48iMqeXq9nc35Bzn": {
-          "name": "Camisa de malla"
+          "name": "Camisa de malla",
+          "description": "<p>La camisa de malla está hecha de anillas metálicas entrelazadas y se lleva entre capas de ropa o cuero. Ofrece una protección modesta al torso y permite que las capas exteriores amortigüen el ruido de las anillas al rozarse.</p>"
         }
       }
     },
@@ -2330,7 +2418,8 @@
           "description": "<p>El cerebro anciano tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "3t4wZjGO6F1iQKzv": {
-          "name": "Nexo telepático"
+          "name": "Nexo telepático",
+          "description": "<p>El cerebro anciano puede usar su telepatía para iniciar y mantener conversaciones telepáticas con hasta diez criaturas a la vez. Puede permitir que esas criaturas se escuchen telepáticamente entre sí mientras estén conectadas de esta forma.</p>"
         },
         "mHTBFyBpsm1TxTkb": {
           "name": "Ataque múltiple",
@@ -2346,9 +2435,11 @@
           "name": "Explosión mental",
           "effects": {
             "30xlWDZwS4LJ5UX7": {
-              "name": "Afectado por explosión mental"
+              "name": "Afectado por explosión mental",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[stunned apply=false] durante 1 minuto. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</p>"
             }
-          }
+          },
+          "description": "<p>Las criaturas que el cerebro anciano elija a 60 pies o menos de sí mismo deben superar una tirada de salvación de Inteligencia CD 17 o recibir 32 (5d10 + 5) de daño psíquico y quedar &amp;Reference[stunned] durante 1 minuto. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si la supera.</p>"
         },
         "49MPThWygo8lG6iU": {
           "name": "Detectar pensamientos",
@@ -2396,7 +2487,8 @@
           }
         },
         "Kng1UvdDqX4EywBr": {
-          "name": "Engendrar progenie"
+          "name": "Engendrar progenie",
+          "description": "<p>El cúmulo se hincha y expulsa [[/r 1d4]] huevos maduros. Cada huevo cae en un espacio desocupado que el cúmulo elija a 30 pies o menos de sí mismo y se transforma inmediatamente en una @UUID[Actor.pbsoGemmule00000]{gémula encefálica}. Las gémulas obedecen las órdenes del cúmulo y realizan sus turnos inmediatamente después de él.</p>"
         },
         "1QXJTOhkoHacyUlb": {
           "name": "Hambre agresiva",
@@ -2406,7 +2498,8 @@
                 "condition": "Inmediatamente después de que le impacte un ataque"
               }
             }
-          }
+          },
+          "description": "<p>Inmediatamente después de recibir el impacto de un ataque, el cúmulo se mueve hasta su velocidad hacia el atacante. Este movimiento no provoca ataques de oportunidad. Si termina este movimiento a 5 pies o menos del atacante, realiza un ataque de [[/item Slam]] contra él.</p>"
         }
       }
     },
@@ -2442,7 +2535,8 @@
           "name": "Taladro llameante"
         },
         "w53r65npqCPFiqzq": {
-          "name": "Estallido de calor"
+          "name": "Estallido de calor",
+          "description": "<p>El perforador libera una intensa oleada de calor en una esfera de 30 pies de radio centrada en sí mismo. El calor se propaga por las esquinas. Cada criatura en esta área debe realizar una tirada de salvación de Constitución CD 17; recibe 13 (3d8) de daño de fuego si falla o la mitad si la supera.</p>"
         }
       }
     },
@@ -2481,10 +2575,12 @@
             "6pbotGIvqQkraPva": {
               "name": "Escudo"
             }
-          }
+          },
+          "description": "<p>Una barrera invisible de fuerza mágica aparece y te protege. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
         },
         "CJXryUMfPUlWHmQc": {
-          "name": "Contorno borroso"
+          "name": "Contorno borroso",
+          "description": "<p>Tu cuerpo se vuelve borroso, cambiante y oscilante para quienes puedan verte. Mientras dure el conjuro, cualquier criatura tiene desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si no depende de la vista, como ocurre con la visión ciega, o si puede ver a través de las ilusiones, como sucede con la visión verdadera.</p>"
         },
         "uPx0EefBvwCOJ5xC": {
           "name": "Esfera de llamas"
@@ -2493,7 +2589,8 @@
           "name": "Bola de fuego"
         },
         "PNTRtp6bxRxc9eEX": {
-          "name": "Rayo de fuego"
+          "name": "Rayo de fuego",
+          "description": "<section id=\"secret-W6YDH24p34ClMU9m\" class=\"secret\"><p><em>Ataque de conjuro a distancia:</em> +5 a impactar, alcance 30 pies, un objetivo. Impacto: 10 (3d6) de daño de fuego.</p></section><p>La calavera llameante ataca con un rayo de fuego.</p>"
         }
       }
     },
@@ -2523,7 +2620,8 @@
           "description": "<p>El amasijo de carne realiza dos ataques de [[/item Bite]].</p>"
         },
         "43peYTuFWlev4FaA": {
-          "name": "Aura de muerte"
+          "name": "Aura de muerte",
+          "description": "<p>Al comienzo de cada turno del amasijo de carne, cada criatura a 5 pies o menos debe superar una tirada de salvación de Constitución CD 15 o recibir 3 (1d6) de daño necrótico y tener el estado &amp;Reference[poisoned]{envenenado} hasta el comienzo del siguiente turno del amasijo de carne.</p>"
         },
         "gmDycXk9QuQeGZAd": {
           "name": "Consumir criatura",
@@ -2548,7 +2646,8 @@
           "description": "<p>El flumph puede percibir el contenido de cualquier comunicación telepática a 60 pies o menos de él, y no puede ser &amp;Reference[surprised]{sorprendido} por criaturas que posean alguna forma de telepatía.</p>"
         },
         "4p8R5JclL0oMbYOP": {
-          "name": "Dificultad para levantarse"
+          "name": "Dificultad para levantarse",
+          "description": "<p>Si el flumph queda derribado, tira un [[/r 1d2]]{dado}. Con un resultado impar, cae boca arriba y queda &amp;Reference[incapacitated]{incapacitado}. Al final de cada uno de sus turnos, puede realizar una tirada de salvación de Destreza CD 10; si la supera, se endereza y deja de estar incapacitado.</p>"
         },
         "XQHVWj0KPX22sWnp": {
           "name": "Velo telepático",
@@ -2572,18 +2671,21 @@
           "description": "<p>El fomoré ataca dos veces con su [[/item Greatclub]], o realiza un ataque con garrote grande y usa [[/item Evil Eye]] una vez.</p>"
         },
         "l2L7UXanuyB5JoL6": {
-          "name": "Garrote grande"
+          "name": "Garrote grande",
+          "description": "<section id=\"secret-YSls1yiozgEWETsT\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 15 pies, un objetivo. Impacto: 19 (3d8 + 6) de daño contundente.</p></section><p>Una variante más grande del garrote simple: un pesado mango de madera con un enorme nudo en el extremo que inflige un devastador daño contundente a los enemigos desafortunados.</p>"
         },
         "Z8dRPQdmUpuaGiCD": {
           "name": "Maldición del mal de ojo",
           "effects": {
             "Lv0NBMWRJHqCJJWu": {
-              "name": "Maldito por el mal de ojo"
+              "name": "Maldito por el mal de ojo",
+              "description": "<p>La criatura queda maldita con deformidades mágicas. Mientras esté deformada, su velocidad se reduce a la mitad y tiene desventaja en las pruebas de característica, tiradas de salvación y ataques basados en Fuerza o Destreza.</p><p>La criatura transformada puede repetir la tirada de salvación cada vez que termine un descanso largo y poner fin al efecto si la supera.</p>"
             }
           }
         },
         "trlWR59wRR7vf1Eo": {
-          "name": "Mal de ojo"
+          "name": "Mal de ojo",
+          "description": "<p>El fomoré obliga mágicamente a una criatura que pueda ver a 60 pies o menos de él a realizar una tirada de salvación de Carisma CD 14. La criatura recibe 27 (6d8) de daño psíquico si falla, o la mitad si tiene éxito.</p>"
         }
       }
     },
@@ -2598,7 +2700,8 @@
         },
         "dmRHTkF0rr78dF7w": {
           "name": "Golpe",
-          "unidentifiedName": "Golpe"
+          "unidentifiedName": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-XS5XKDAyNjeaIVvs\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. Impacto: 12 (2d6 + 5) de daño contundente.</p></section><p>La criatura golpea a su objetivo.</p>"
         },
         "8mniXKauW1kUt0P1": {
           "name": "Animar rocas"
@@ -2633,7 +2736,8 @@
           "description": "<p>La gémula tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mrz2wfgVrduEvH8Z": {
-          "name": "Golpe psíquico"
+          "name": "Golpe psíquico",
+          "description": "<section id=\"secret-LPnREy83tyFVBvck\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies, un objetivo. Impacto: 16 (3d10) de daño psíquico.</p></section><p>La gémula golpea psíquicamente al objetivo.</p>"
         },
         "ccb4AwJvLv27Jqd2": {
           "name": "Drenar"
@@ -2648,7 +2752,8 @@
       "creatureSubtype": "Gith",
       "items": {
         "nWrjXgxJoJOd9B2U": {
-          "name": "Armadura de placas"
+          "name": "Armadura de placas",
+          "description": "<p>La armadura de placas consta de placas metálicas moldeadas y encajadas entre sí que cubren todo el cuerpo. Incluye guanteletes, botas de cuero pesado, un yelmo con visera y gruesas capas de acolchado bajo la armadura. Las hebillas y correas distribuyen el peso por el cuerpo.</p>"
         },
         "4pr7YIzCp3x6Q9cd": {
           "name": "Lanzamiento innato de conjuros (psiónico)",
@@ -2697,7 +2802,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Mientras dure el conjuro, ocultas de la magia de adivinación a un objetivo que toques. Puede ser una criatura voluntaria, un lugar o un objeto que no mida más de 10 pies en ninguna dimensión. Ninguna magia de adivinación puede seleccionar al objetivo ni percibirlo a través de sensores mágicos de escudriñamiento.</p>"
         },
         "2m2TVeXZLB23t5cK": {
           "name": "Lenguas",
@@ -2705,7 +2811,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro concede a la criatura que tocas la capacidad de comprender cualquier idioma hablado que oiga. Además, cuando el objetivo habla, cualquier criatura que conozca al menos un idioma y pueda oírlo comprende lo que dice.</p>"
         },
         "Czrcyctya0JViknM": {
           "name": "Desplazamiento entre planos",
@@ -2783,7 +2890,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Mientras dure el conjuro, ocultas de la magia de adivinación a un objetivo que toques. Puede ser una criatura voluntaria, un lugar o un objeto que no mida más de 10 pies en ninguna dimensión. Ninguna magia de adivinación puede seleccionar al objetivo ni percibirlo a través de sensores mágicos de escudriñamiento.</p>"
         }
       }
     },
@@ -2794,14 +2902,16 @@
       "creatureSubtype": "Goblinoide",
       "items": {
         "nDGRKdbGBPUrZ04k": {
-          "name": "Camisa de malla"
+          "name": "Camisa de malla",
+          "description": "<p>La camisa de malla está hecha de anillas metálicas entrelazadas y se lleva entre capas de ropa o cuero. Ofrece una protección modesta al torso y permite que las capas exteriores amortigüen el ruido de las anillas al rozarse.</p>"
         },
         "totAuHsLnS52ezZp": {
           "name": "Escudo",
           "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "fPESXRHkWlg9qIIi": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) <em>de daño cortante</em></strong>.</p></section>\n<p>El goblin ataca con su Cimitarra.</p>"
         },
         "3lC4CDHv5hsPr5jo": {
           "name": "Jabalina",
@@ -2844,7 +2954,8 @@
           "description": "<p>El goblin realiza dos ataques de [[/item Unarmed Strike]].</p>"
         },
         "5dzQkNRBrNddEt8Q": {
-          "name": "Ataque sin armas"
+          "name": "Ataque sin armas",
+          "description": "<section id=\"secret-sSfY2XF0EY9XNyHm\" class=\"secret\"><p>Ataque con arma cuerpo a cuerpo: +5 a impactar, alcance 5 pies, un objetivo. Impacto: 5 (1d4 + 3) de daño contundente más 3 (1d6) de daño psíquico.</p></section><p>El goblin realiza un ataque sin armas.</p>"
         },
         "xes5EUWLQUmB30P2": {
           "name": "Huida ágil",
@@ -2858,7 +2969,8 @@
                 "condition": "Cuando el goblin muere"
               }
             }
-          }
+          },
+          "description": "<section id=\"secret-xftgxhUkNlHvXEUX\" class=\"secret\"><p>Cuando el goblin muere, su energía mental acumulada estalla en una explosión psíquica. Cada criatura a 5 pies o menos de él debe superar una tirada de salvación de Inteligencia CD 13 o recibir 5 (2d4) de daño psíquico.</p></section><p>La energía mental acumulada del goblin estalla en una explosión psíquica.</p>"
         },
         "uvSdZxsjSUZKhbGy": {
           "name": "Fortaleza mental",
@@ -2870,7 +2982,8 @@
             "8spdPKuHvxkTuuin": {
               "name": "Derribado"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-sSfY2XF0EY9XNyHm\"><p>El goblin dirige una embestida de fuerza telequinética contra una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe superar una tirada de salvación de Fuerza CD 13 o quedar &amp;Reference[prone].</p></section><p>El goblin empuja con una fuerza telequinética.</p>"
         }
       }
     },
@@ -2897,7 +3010,8 @@
                 "condition": "Cuando el goblin muere"
               }
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-xftgxhUkNlHvXEUX\"><p>Cuando el goblin muere, su energía mental acumulada estalla en una explosión psíquica. Cada criatura a 5 pies o menos de él debe superar una tirada de salvación de Inteligencia CD 13 o recibir 10 (4d4) de daño psíquico.</p></section><p>La energía mental acumulada del goblin estalla en una explosión psíquica.</p>"
         },
         "m1Q8Apw5SJjNtrEH": {
           "name": "Ataque múltiple",
@@ -2947,7 +3061,8 @@
                 "condition": "Cuando una tirada de ataque impacta al goblin o a uno de sus aliados a 15 pies o menos"
               }
             }
-          }
+          },
+          "description": "<p>Cuando una tirada de ataque impacta al goblin o a uno de sus aliados a 15 pies o menos de él, el goblin conjura un escudo de fuerza. El objetivo del ataque obtiene un bonificador de +3 a su CA contra esa tirada, lo que puede hacer que el ataque falle.</p>"
         },
         "6iLtyDTaDEyOOLwH": {
           "name": "Mano de mago",
@@ -3007,10 +3122,12 @@
           "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "jX3Nl2ZkYFJYWQEq": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<section class=\"secret\" id=\"secret-o97E6HKdPo9eUyYy\"><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
         },
         "XvJ7UfqvU7fiXSPO": {
-          "name": "Mordisco (solo en forma de slaad)"
+          "name": "Mordisco (solo en forma de slaad)",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo: </em>+7 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño perforante.</p></section><p>El slaad ataca con su Mordisco.</p>"
         },
         "QjTpdR9jDkpSX6GJ": {
           "name": "Ataque múltiple",
@@ -3038,7 +3155,8 @@
           "description": "<p>Los ataques con arma del slaad son mágicos.</p>"
         },
         "BOxei41lEef1BQwO": {
-          "name": "Garra (solo en forma de slaad)"
+          "name": "Garra (solo en forma de slaad)",
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 8 (1d10 + 3) de daño cortante.</p></section><p>El slaad ataca con sus garras.</p>"
         },
         "qeZTWgYHmlQxX9X4": {
           "name": "Detectar magia",
@@ -3060,7 +3178,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3087,7 +3206,8 @@
           "name": "Miedo",
           "effects": {
             "4QpReACTSQTg2KTw": {
-              "name": "Miedo"
+              "name": "Miedo",
+              "description": "<p>El objetivo suelta lo que sostenga y queda asustado mientras dura el conjuro. Mientras esté asustada por este conjuro, la criatura debe realizar la acción de Correr y alejarse del lanzador por la ruta más segura disponible en cada uno de sus turnos, salvo que no haya ningún lugar al que moverse.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3116,7 +3236,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro concede a la criatura que tocas la capacidad de comprender cualquier idioma hablado que oiga. Además, cuando el objetivo habla, cualquier criatura que conozca al menos un idioma y pueda oírlo comprende lo que dice.</p>"
         },
         "NMlxdfQe8kdbnVHN": {
           "name": "Desplazamiento entre planos",
@@ -3151,23 +3272,27 @@
           "description": "<p>{creature} tiene<strong> ventaja </strong>en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "fyzI8jLYjN7W3xGD": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<section class=\"secret\"><p>{creature} recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>{creature} recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
         },
         "MFPmLKf1Ynoi7MZ6": {
           "name": "Ataque múltiple",
           "description": "<p>El slaad realiza tres ataques: uno de [[/item Bite (Slaad Form Only)]] y dos de [[/item Claw (Slaad Form Only)]].</p>"
         },
         "nCZWWASHdKyg50Jy": {
-          "name": "Mordisco (solo en forma de slaad)"
+          "name": "Mordisco (solo en forma de slaad)",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. Impacto: 12 (2d6 + 4) de daño perforante.</p></section><p>El slaad verde ataca con su Mordisco.</p>"
         },
         "rQpvIM6CG7zOmflI": {
-          "name": "Garra (solo en forma de slaad)"
+          "name": "Garra (solo en forma de slaad)",
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo: +7 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (1d6 + 4) de daño cortante.</em></p></section><p>El slaad verde ataca con sus garras.</p>"
         },
         "gb3JC9f9NZsXJnJG": {
           "name": "Bastón"
         },
         "8Adw9CPOTsQCCfyz": {
-          "name": "Arrojar llamas"
+          "name": "Arrojar llamas",
+          "description": "<section class=\"secret\" id=\"secret-pvdrwz7HJfrlARly\"><p><em>Ataque de conjuro a distancia:</em> +4 a impactar, alcance 60 pies, un objetivo. <em>Impacto:</em> 10 (3d6) de daño de fuego. El fuego prende los objetos inflamables que nadie lleve puestos ni transporte.</p></section><p>El slaad arroja una llama.</p>"
         },
         "W7bTdTJOcUNjJi89": {
           "name": "Detectar magia",
@@ -3197,7 +3322,8 @@
           "name": "Miedo",
           "effects": {
             "4QpReACTSQTg2KTw": {
-              "name": "Miedo"
+              "name": "Miedo",
+              "description": "<p>El objetivo suelta lo que sostenga y queda asustado mientras dura el conjuro. Mientras esté asustada por este conjuro, la criatura debe realizar la acción de Correr y alejarse del lanzador por la ruta más segura disponible en cada uno de sus turnos, salvo que no haya ningún lugar al que moverse.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3208,7 +3334,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3239,12 +3366,14 @@
           "name": "Tentáculos",
           "effects": {
             "oub6LyTXMvRKxsNB": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo está &amp;Reference[poisoned apply=false] durante 1 minuto. Mientras está envenenado, está &amp;Reference[Paralyzed apply=false] y puede repetir la tirada de salvación al final de cada uno de sus turnos para poner fin al efecto si tiene éxito.</p>"
             }
           }
         },
         "Ahr1TUItyOtOsm0W": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<section id=\"secret-mXNMaxZGYbFogHJv\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (2d4 + 2) de daño perforante.</p></section><p>El grell ataca con su pico.</p>"
         }
       }
     },
@@ -3262,7 +3391,8 @@
           "name": "Lanzamiento de conjuros (psiónico)"
         },
         "cY9EfMKaqudsKgJv": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<section class=\"secret\" id=\"secret-bnaTES8C4wBAtws6\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, un objetivo. Impacto: 10 (3d4 + 3) de daño perforante.</p></section><p>El grell ataca con su pico.</p>"
         },
         "FDu9P95QLGHIj6Km": {
           "name": "Tentáculo"
@@ -3285,7 +3415,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria que no lleve armadura, y una fuerza mágica protectora la rodea hasta que termine el conjuro. Su CA base pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si lo disipas como acción.</p>"
         },
         "J64QgB67nw4bGN5C": {
           "name": "Mano de mago",
@@ -3307,7 +3438,8 @@
           "name": "Miedo",
           "effects": {
             "4QpReACTSQTg2KTw": {
-              "name": "Miedo"
+              "name": "Miedo",
+              "description": "<p>El objetivo suelta lo que sostenga y queda asustado mientras dura el conjuro. Mientras esté asustada por este conjuro, la criatura debe realizar la acción de Correr y alejarse del lanzador por la ruta más segura disponible en cada uno de sus turnos, salvo que no haya ningún lugar al que moverse.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3326,17 +3458,20 @@
           "description": "<p>El grick realiza un ataque de [[/item Tentacles]]. Si impacta, puede realizar un ataque de [[/item Beak]] contra el mismo objetivo.</p>"
         },
         "GDZ4MBb1nYwEZHyS": {
-          "name": "Tentáculos"
+          "name": "Tentáculos",
+          "description": "<section class=\"secret\" id=\"secret-hq5qa4PU22QZM2qw\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 10 pies, un objetivo. <em>Impacto:</em> 22 (4d8 + 4) de daño cortante.</p></section><p>El grick ataca con sus Tentáculos.</p>"
         },
         "EOoXrKbJeMPIHvR1": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<section class=\"secret\" id=\"secret-dH5th63hmG0PreK0\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar,</strong> <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (2d8 + 4) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El grick ataca con su Pico.</p>"
         },
         "OeFkDRBPATYvXYYU": {
           "name": "Camuflaje rocoso",
           "description": "<p>El grick tiene<strong> ventaja </strong>en las pruebas de Destreza (Sigilo) para esconderse en terreno rocoso.</p>"
         },
         "9volxDfBKariG69T": {
-          "name": "Cola"
+          "name": "Cola",
+          "description": "<section class=\"secret\" id=\"secret-hq5qa4PU22QZM2qw\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 10 pies, un objetivo. <em>Impacto:</em> 11 (2d6 + 4) de daño contundente</p></section><p>El grick ataca con su cola.</p>"
         }
       }
     },
@@ -3348,7 +3483,8 @@
       "languages": "Un idioma cualquiera (normalmente común)",
       "items": {
         "HwktDnB8qdr0BYGZ": {
-          "name": "Garrote"
+          "name": "Garrote",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+2 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>2 (1d4) <em>de daño contundente</em></strong>.</p></section>\n<p>El plebeyo ataca con su Garrote.</p>"
         }
       },
       "effects": {
@@ -3366,7 +3502,8 @@
       "languages": "Cuatro idiomas cualesquiera",
       "items": {
         "iYROV4pytzb3fk5s": {
-          "name": "Daga"
+          "name": "Daga",
+          "description": "<section class=\"secret\"><p>Ataque con arma cuerpo a cuerpo o a distancia: +5 a impactar, alcance 5 pies o alcance 20/60 pies, un objetivo. Impacto: <strong>4 (1d4 + 2) <em>de daño perforante</em></strong>.</p><p></p></section><p>El mago ataca con su Daga.</p>"
         },
         "hYpimAtz3E9Humk5": {
           "name": "Lanzamiento de conjuros"
@@ -3389,7 +3526,8 @@
             "cfwMU7LuOJ619Lny": {
               "name": "Armadura de mago"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria que no lleve armadura, y una fuerza mágica protectora la rodea hasta que termine el conjuro. Su CA base pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si lo disipas como acción.</p>"
         },
         "7f03qYp8XVLJDMgL": {
           "name": "Proyectil mágico"
@@ -3400,7 +3538,8 @@
             "6pbotGIvqQkraPva": {
               "name": "Escudo"
             }
-          }
+          },
+          "description": "<p>Una barrera invisible de fuerza mágica aparece y te protege. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
         },
         "AzCXI8gadTlljSA5": {
           "name": "Paso brumoso",
@@ -3440,7 +3579,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "hTVJqkUPW2QgzJ0P": {
-          "name": "Coraza"
+          "name": "Coraza",
+          "description": "<p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>"
         },
         "tjGPQJDcEvM525V3": {
           "name": "Resistencia legendaria",
@@ -3479,7 +3619,8 @@
                 "condition": "Cuando le impacta una tirada de ataque"
               }
             }
-          }
+          },
+          "description": "<p>Cuando le impacta una tirada de ataque, el azotamentes obtiene un bonificador de +4 a la CA contra esa tirada, lo que puede hacer que falle. Después se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "jC6Q4IPsLP1IHAYf": {
           "name": "Extraer cerebro"
@@ -3544,7 +3685,8 @@
       "languages": "Entiende los idiomas de su creador, pero no puede hablar",
       "items": {
         "KxJe7WuxXnBnjHWj": {
-          "name": "Armadura de placas"
+          "name": "Armadura de placas",
+          "description": "<p>La armadura de placas consta de placas metálicas moldeadas y encajadas entre sí que cubren todo el cuerpo. Incluye guanteletes, botas de cuero pesado, un yelmo con visera y gruesas capas de acolchado bajo la armadura. Las hebillas y correas distribuyen el peso por el cuerpo.</p>"
         },
         "BbwK9KSuLJgzZMZf": {
           "name": "Escudo",
@@ -3618,7 +3760,8 @@
           "name": "Mirada petrificante",
           "effects": {
             "CeTTn0jllFULOUbv": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>El objetivo comienza a convertirse en piedra y está apresado. Debe repetir la tirada de salvación al final de su siguiente turno: si falla, queda petrificado; si tiene éxito, el efecto termina.</p>"
             },
             "AG4oDGjeGZOhQxyh": {
               "name": "Petrificado",
@@ -3643,10 +3786,12 @@
           "name": "Cabellera de serpientes"
         },
         "ixrzcEmkn9jaDOZ0": {
-          "name": "Espada corta"
+          "name": "Espada corta",
+          "description": "<section class=\"secret\" id=\"secret-F8kUmlM6GslvYk9K\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+5 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>La medusa ataca con su Espada corta.</p>"
         },
         "4U98oe3Qr28BGbzG": {
-          "name": "Arco largo"
+          "name": "Arco largo",
+          "description": "<section class=\"secret\" id=\"secret-rVEhlQ1kRjJS1xiA\"><p>Ataque con arma a distancia: +5 a impactar, alcance 150/600 pies, un objetivo. Impacto: <strong>6 (1d8 + 2) </strong><em><strong>de daño perforante</strong></em> más <strong>7 (2d6) </strong><em><strong>de daño de veneno</strong></em>.</p></section><p>La medusa ataca con su Arco largo.</p>"
         }
       },
       "tokenName": "Medusa"
@@ -3671,7 +3816,8 @@
           "description": "<p>El horror ganchudo realiza dos ataques de [[/item Hook]].</p>"
         },
         "1l9kJXgD4EWuexAW": {
-          "name": "Gancho"
+          "name": "Gancho",
+          "description": "<section id=\"secret-E8TigAp9U59VHpYL\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 10 pies, un objetivo. Impacto: 11 (2d6 + 4) de daño perforante.</p></section><p>El horror ataca con su gancho.</p>"
         }
       }
     },
@@ -3691,7 +3837,8 @@
         },
         "g1sAuBYxavMiEQXS": {
           "name": "Ataque sin armas",
-          "unidentifiedName": "Ataque sin armas"
+          "unidentifiedName": "Ataque sin armas",
+          "description": "<section class=\"secret\" id=\"secret-sSfY2XF0EY9XNyHm\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (1d6 + 4) de daño contundente más 10 (3d6) de daño psíquico.</p></section><p>La criatura mutada realiza un ataque sin armas.</p>"
         },
         "dv91HdC7WHU81m0n": {
           "name": "Explosión de pesadilla",
@@ -3729,7 +3876,8 @@
           "description": "<p>Bastón de Cristal realiza dos ataques de [[/item Shocking Burst]].</p>"
         },
         "36o8Sc4MpPEafd6q": {
-          "name": "Teletransportarse"
+          "name": "Teletransportarse",
+          "description": "<section id=\"secret-kG2Ir1darI3Rq0sn\" class=\"secret\"><p>Bastón de Cristal se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 30 pies a un espacio desocupado que pueda ver.</p></section><p>Bastón de Cristal se teletransporta mágicamente.</p>"
         },
         "msRDCMuZBvUjQtRp": {
           "name": "Luz"
@@ -3760,7 +3908,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria que no lleve armadura, y una fuerza mágica protectora la rodea hasta que termine el conjuro. Su CA base pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si lo disipas como acción.</p>"
         },
         "MANTCOhdovQawnwE": {
           "name": "Escudo",
@@ -3772,7 +3921,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una barrera invisible de fuerza mágica aparece y te protege. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
         },
         "FC0jP5mdclkQ4RM6": {
           "name": "Estallido eléctrico",
@@ -3815,9 +3965,11 @@
           "name": "Explosión mental",
           "effects": {
             "VpekY0sJ1ocEcPm3": {
-              "name": "Afectado por explosión mental"
+              "name": "Afectado por explosión mental",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[stunned apply=false] durante 1 minuto. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</p>"
             }
-          }
+          },
+          "description": "<p>Las criaturas que la refracción elija a 60 pies o menos de sí misma deben superar una tirada de salvación de Inteligencia CD 19 o recibir 33 (5d10 + 6) de daño psíquico y quedar &amp;Reference[stunned apply=false] durante 1 minuto. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si la supera.</p>"
         },
         "iClxXak62u1QZBKG": {
           "name": "Acciones legendarias"
@@ -3827,7 +3979,8 @@
           "description": "<p>Si la refracción falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "bqLE7N3LHIHCjUsn": {
-          "name": "Garra disonante"
+          "name": "Garra disonante",
+          "description": "<section id=\"secret-bWc4a01QfJMzecQL\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +11 a impactar, alcance 10 pies o alcance 120 pies, una criatura. Impacto: 25 (3d12 + 6) de daño psíquico. Si el objetivo es una criatura que se está concentrando en un conjuro, pierde la concentración.</p></section><p>La refracción ataca con una garra disonante.</p>"
         },
         "VJ2KxIoB481SEeOc": {
           "name": "Teletransportarse",
@@ -3840,10 +3993,12 @@
               "name": "Mente quebrantada",
               "description": "<p>Los procesos mentales del objetivo se ven alterados, por lo que tiene <strong>desventaja</strong> en todas las pruebas de característica, tiradas de ataque y tiradas de salvación hasta el final de su siguiente turno.</p>"
             }
-          }
+          },
+          "description": "<p>La refracción elige a una criatura a 120 pies o menos de ella y altera sus procesos mentales, haciendo que tenga <strong>desventaja</strong> en todas las pruebas de característica, tiradas de ataque y tiradas de salvación hasta el final del siguiente turno del objetivo.</p>"
         },
         "tgW103SXnA3vAQTn": {
-          "name": "Garra proyectada"
+          "name": "Garra proyectada",
+          "description": "<section id=\"secret-bWc4a01QfJMzecQL\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +11 a impactar, alcance 10 pies o alcance 120 pies, una criatura. Impacto: 25 (3d12 + 6) de daño psíquico. Si el objetivo es una criatura que se está concentrando en un conjuro, pierde la concentración.</p></section><p>La refracción ataca con una garra disonante.</p>"
         },
         "FexDzg5A49oRILDw": {
           "name": "Detectar magia",
@@ -3881,7 +4036,8 @@
           "name": "Debilidad mental",
           "effects": {
             "flpBCg1pgZchf5Hz": {
-              "name": "Debilidad mental"
+              "name": "Debilidad mental",
+              "description": "<p>Las puntuaciones de Inteligencia y Carisma de la criatura pasan a ser 1. No puede lanzar conjuros, activar objetos mágicos, entender idiomas ni comunicarse de forma inteligible. Sin embargo, puede reconocer a sus amigos, seguirlos e incluso protegerlos.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3912,7 +4068,8 @@
           "name": "Ladrón de cuerpos"
         },
         "84fFcrr9LS6M59jW": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\" id=\"secret-0jagqFvrCtc6npm4\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (2d4 + 2) de daño cortante.</p></section><p>El devorador de intelectos ataca con sus garras.</p>"
         },
         "V6Be3ZrzgWJT41mg": {
           "name": "Devorar intelecto",
@@ -3953,7 +4110,8 @@
                 "condition": "Mientras agarra a una criatura"
               }
             }
-          }
+          },
+          "description": "<p>La trampa de intelecto elige como objetivo a una criatura que tenga &amp;Reference[grappled]{agarrada}. El objetivo debe realizar una tirada de salvación de Inteligencia CD 17; recibe 21 (6d6) de daño psíquico si falla o la mitad si la supera. A continuación, la trampa de intelecto recupera una cantidad de puntos de golpe igual al daño recibido por el objetivo.</p>"
         }
       }
     },
@@ -4059,7 +4217,8 @@
           "description": "<p>El mezzoloth realiza dos ataques: uno de [[/item Claws]] y uno de [[/item Trident]].</p>"
         },
         "O3BgmokCc40ukiRI": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 9 (2d4 + 4) de daño cortante.</p></section><p>El mezzoloth ataca con sus garras.</p>"
         },
         "AIoNev25Smw1THcs": {
           "name": "Teletransportarse",
@@ -4102,7 +4261,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "w8J1fwh5WyWVNqsn": {
-          "name": "Coraza"
+          "name": "Coraza",
+          "description": "<p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>"
         },
         "8rljp7zKNHDZKqis": {
           "name": "Resistencia mágica",
@@ -4185,7 +4345,8 @@
           "description": "<p>El azotamentes tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "8m5B5mzvoymn921B": {
-          "name": "Alerta"
+          "name": "Alerta",
+          "description": "<p>El azotamentes tiene <strong>ventaja</strong> en las tiradas de iniciativa y no puede ser &amp;Reference[surprised]{sorprendido} mientras no tenga el estado &amp;Reference[incapacitated]{incapacitado}.</p>"
         },
         "OQl4usLtUewdXDvo": {
           "name": "Extraer cerebro"
@@ -4257,7 +4418,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro concede a la criatura voluntaria que toques la capacidad de ver las cosas tal como son. Mientras dure, tiene visión verdadera, percibe puertas secretas ocultas mediante magia y puede ver en el Plano Etéreo, todo ello hasta un alcance de 120 pies.</p>"
         },
         "lwcp7XIPXntO6bi1": {
           "name": "Detectar magia",
@@ -4288,7 +4450,8 @@
           }
         },
         "idILnIUj76QH9v8w": {
-          "name": "Movimiento incorpóreo"
+          "name": "Movimiento incorpóreo",
+          "description": "<section class=\"secret\"><p>La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. </p><p>Recibe <strong>5 (1d10) <em>de daño de fuerza</em></strong> si termina su turno dentro de un objeto.</p></section><p>La aparición puede moverse a través de otras criaturas y objetos como si fueran terreno difícil.</p>"
         },
         "xZPFtf2vCYraWXVe": {
           "name": "Aparición: drenar vida"
@@ -4307,10 +4470,12 @@
       "languages": "Entiende común, pero no puede hablar",
       "items": {
         "Gh6KO7nvel7fN6Og": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\" id=\"secret-IuwXxuPftX1QjXfz\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +3 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 3 (2d4 + 1) de daño perforante.</p></section><p>La aguja marchita ataca con sus garras.</p>"
         },
         "uDt6xsjZSYn9izHN": {
-          "name": "Agujas"
+          "name": "Agujas",
+          "description": "<section id=\"secret-kLYc8zqnAOv6WQTb\" class=\"secret\"><p><em>Ataque con arma a distancia:</em> +3 a impactar, alcance 30/60 pies, un objetivo. <em>Impacto:</em> 8 (2d6 + 1) de daño perforante.</p></section><p>La aguja marchita ataca con sus agujas.</p>"
         }
       }
     },
@@ -4336,10 +4501,12 @@
           "description": "<p>Nezznar realiza dos ataques de Explosión venenosa.</p>"
         },
         "XVNSOD0GixL5wd9D": {
-          "name": "Explosión venenosa"
+          "name": "Explosión venenosa",
+          "description": "<section id=\"secret-RDMFsX0aZN9dnSxv\" class=\"secret\"><p><em>Ataque de conjuro a distancia:</em> +5 a impactar, alcance 5 pies o alcance 120 pies, una criatura. Impacto: 9 (2d8) de daño de veneno.</p></section><p>Nezznar ataca con una explosión venenosa.</p>"
         },
         "1guE1yLBUGQ9NwdC": {
-          "name": "Explosión venenosa (ataque de conjuro cuerpo a cuerpo)"
+          "name": "Explosión venenosa (ataque de conjuro cuerpo a cuerpo)",
+          "description": "<section class=\"secret\" id=\"secret-RDMFsX0aZN9dnSxv\"><p><em>Ataque de conjuro cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, una criatura. Impacto: 9 (2d8) de daño de veneno.</p></section><p>Nezznar ataca con una explosión venenosa.</p>"
         },
         "0aG4XwdBY69Ex1NK": {
           "name": "Bastón de la Araña"
@@ -4388,7 +4555,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4405,7 +4573,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria que no lleve armadura, y una fuerza mágica protectora la rodea hasta que termine el conjuro. Su CA base pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si lo disipas como acción.</p>"
         },
         "ZoIsTdV55hOzxNaA": {
           "name": "Proyectil mágico",
@@ -4429,7 +4598,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Hasta que termine el conjuro, una criatura voluntaria que toques puede desplazarse hacia arriba, hacia abajo y lateralmente por superficies verticales, y boca abajo por los techos, dejando las manos libres. También obtiene una velocidad trepando igual a su velocidad caminando.</p>"
         },
         "eVkMx2R5IkEMKVqP": {
           "name": "Telaraña",
@@ -4439,7 +4609,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>La Araña —un cerebro criminal drow llamado Nezznar— busca en la Cueva del Eco la Forja de Conjuros, una forja mágica que enanos y gnomos utilizaban antaño para fabricar poderosos objetos mágicos.</p><p>La Araña quiere la Cueva del Eco para sí y está tomando medidas para asegurarse de que nadie más sepa dónde está.</p>"
     },
     "pbsoNothic000000": {
       "name": "Nótico",
@@ -4459,7 +4630,8 @@
           "description": "<section class=\"secret\" id=\"secret-UH4ybxROaLODperM\"><p>+4 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño cortante.</p></section><p>El nótico ataca con su Garra.</p>"
         },
         "rW0LRQAwoWPIZXtc": {
-          "name": "Mirada putrefacta"
+          "name": "Mirada putrefacta",
+          "description": "<section id=\"secret-HKtmpWJxArOJglOw\" class=\"secret\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de él. El objetivo debe superar una tirada de salvación de Constitución CD 12 contra esta magia o recibir 10 (3d6) de daño necrótico.</p></section>"
         },
         "Yph8vnGwI4VsrSpT": {
           "name": "Perspicacia extraña"
@@ -4563,7 +4735,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4602,14 +4775,16 @@
           "name": "Contacto aterrador"
         },
         "mOIxYIKmKo1YcfzI": {
-          "name": "Haz ocular"
+          "name": "Haz ocular",
+          "description": "<section id=\"secret-fElCJcT8CIGbYJ3H\" class=\"secret\"><p><em>Ataque de conjuro a distancia:</em> +8 a impactar, alcance 120 pies, una criatura. Impacto: 14 (3d6 + 4) de daño psíquico.</p></section><p>El oculorbo dispara un haz ocular.</p>"
         },
         "F6UNGzJccKgTUqie": {
           "name": "Inundación antipática",
           "description": "<p>El oculorbo libera una oleada de emociones negativas y elige una de las siguientes opciones: @UUID[.6YFSyrWx0GP6vLR6]{Ojos llorosos} o @UUID[.veLjObZ9BfrcGgeZ]{Mirada marchitadora}</p>"
         },
         "6YFSyrWx0GP6vLR6": {
-          "name": "Ojos llorosos"
+          "name": "Ojos llorosos",
+          "description": "<p>El oculorbo llora y libera una oleada de desesperación abrumadora. Cada criatura a 30 pies o menos de él debe realizar una tirada de salvación de Constitución CD 16. Si falla, su velocidad se reduce a 0 pies hasta el final del siguiente turno del oculorbo y, si se estaba concentrando, pierde la concentración.</p>"
         },
         "veLjObZ9BfrcGgeZ": {
           "name": "Mirada marchitadora",
@@ -4628,7 +4803,8 @@
                 "condition": "Cuando el oculorbo recibe daño de una criatura que pueda ver a 60 pies o menos"
               }
             }
-          }
+          },
+          "description": "<p>Cuando el oculorbo recibe daño de una criatura que pueda ver a 60 pies o menos de él, la obliga a realizar una tirada de salvación de Sabiduría CD 16. La criatura recibe 10 (3d6) de daño psíquico si falla, o la mitad si tiene éxito.</p>"
         }
       }
     },
@@ -4651,7 +4827,8 @@
         },
         "UJwHs2hKZaWEwAvg": {
           "name": "Ataque sin armas",
-          "unidentifiedName": "Ataque sin armas"
+          "unidentifiedName": "Ataque sin armas",
+          "description": "<section class=\"secret\" id=\"secret-sSfY2XF0EY9XNyHm\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (1d6 + 4) de daño contundente más 10 (3d6) de daño psíquico.</p></section><p>La criatura mutada realiza un ataque sin armas.</p>"
         },
         "nuY6MXk1YGgr59qO": {
           "name": "Explosión de pesadilla",
@@ -4692,10 +4869,12 @@
           }
         },
         "5H7Hy9NvkPUMCXTu": {
-          "name": "Presa escalofriante"
+          "name": "Presa escalofriante",
+          "description": "<section class=\"secret\" id=\"secret-JRFxgyvdRh8Nhflb\"><p><em>Ataque de conjuro cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. Impacto: 14 (4d6) de daño de frío, y Oshundo recupera 14 puntos de golpe si el objetivo es una criatura.</p></section><p>Oshundo ataca con una presa escalofriante.</p>"
         },
         "40G9hXORQ7vDj7tT": {
-          "name": "Descarga arcana"
+          "name": "Descarga arcana",
+          "description": "<section class=\"secret\" id=\"secret-9tPQZ6qvePnq1JVT\"><p><em>Ataque de conjuro a distancia:</em> +8 a impactar, alcance 120 pies, un objetivo. Impacto: 28 (8d6) de daño de fuerza.</p></section><p>Oshundo ataca con una descarga arcana.</p>"
         },
         "Jg6TFXEeEkMmjgnD": {
           "name": "Explosión atronadora",
@@ -4789,7 +4968,8 @@
           "name": "Invisibilidad",
           "effects": {
             "TeFxBRKYKIXtg6pS": {
-              "name": "Invisibilidad"
+              "name": "Invisibilidad",
+              "description": "<p>El objetivo se vuelve invisible hasta que termine el conjuro. Todo lo que lleve puesto o transporte es invisible mientras lo lleve consigo. El conjuro termina para un objetivo que ataque o lance un conjuro.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4820,7 +5000,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>Oshundo vivió en Illithinoch durante el apogeo del imperio de los azotamentes, hace muchos siglos, pero fue expulsado por practicar magia arcana. Resulta evidente que aquel rechazo aún le duele: se refiere a los dirigentes de Illithinoch, muertos hace mucho tiempo, como «necios ignorantes» que están «cerrados a la flexibilidad y el poder de la magia arcana».</p>"
     },
     "pbsoOtyughMutate": {
       "name": "Otyugh mutado",
@@ -4852,10 +5033,12 @@
                 }
               }
             }
-          }
+          },
+          "description": "<p>La criatura mutada elige como objetivo a una criatura que tenga agarrada y la golpea contra su coraza quitinosa. </p><p>La criatura debe superar una tirada de salvación de Constitución CD 15 o recibir 3d10 de daño contundente y quedar &amp;Reference[stunned]{aturdida} hasta el final del siguiente turno de la criatura mutada.</p>"
         },
         "0srg3RlkpoeMUiyw": {
-          "name": "Aliento virulento"
+          "name": "Aliento virulento",
+          "description": "<p>De la boca de la criatura mutada salen gases nocivos producidos por la digestión de comidas anteriores. Al comienzo de su turno, cada criatura a 5 pies o menos debe superar una tirada de salvación de Constitución CD 15 o recibir 1d6 de daño de veneno.</p>"
         },
         "acoimv2dhBlGmT3X": {
           "name": "Mordisco",
@@ -4926,13 +5109,15 @@
           "description": "<p>Mientras el cieno permanezca inmóvil, es indistinguible de un charco aceitoso o una roca húmeda.</p>"
         },
         "B9SuvIVzGSmsqeHA": {
-          "name": "Aplastamiento psíquico"
+          "name": "Aplastamiento psíquico",
+          "description": "<p>El cieno elige como objetivo a una criatura que pueda percibir a 60 pies o menos de él. El objetivo debe realizar una tirada de salvación de Inteligencia CD 10; recibe 10 (3d6) de daño psíquico si falla, o la mitad si tiene éxito.</p>"
         },
         "b9kRQl27OMF9S7a8": {
           "name": "Pseudópodo",
           "unidentifiedName": "Arma no identificada"
         }
-      }
+      },
+      "biography": "<p>Un cieno gris que viva mucho tiempo puede evolucionar, volverse más inteligente y desarrollar una capacidad psiónica limitada. Esto ocurre con mayor frecuencia entre los cienos grises que viven cerca de criaturas psiónicas, como los azotamentes, lo que sugiere que el cieno puede percibir e imitar dicha capacidad.</p>"
     },
     "pbsoQuaggoth0000": {
       "name": "Quaggoth",
@@ -4944,7 +5129,8 @@
           "description": "<p>El quaggoth realiza dos ataques de [[/item Claw]].</p>"
         },
         "eMppQZyDD5wEiUXV": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño cortante.</p></section><p>El quaggoth ataca con su Garra.</p>"
         },
         "UVyKYFilAau2xWQa": {
           "name": "Furia del herido",
@@ -4973,7 +5159,8 @@
           "description": "<p>El quaggoth realiza dos ataques de [[/item Claw]].</p>"
         },
         "eMppQZyDD5wEiUXV": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño cortante.</p></section><p>El quaggoth ataca con su Garra.</p>"
         },
         "UVyKYFilAau2xWQa": {
           "name": "Furia del herido",
@@ -4999,7 +5186,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Elige hasta cinco criaturas que estén cayendo dentro del alcance. Su velocidad de descenso se reduce a 60 pies por asalto hasta que termine el conjuro. Si una criatura llega al suelo antes de que termine, no recibe daño por la caída, puede aterrizar de pie y el conjuro termina para ella.</p>"
         },
         "CFr2nsTR29PEy0go": {
           "name": "Mano de mago",
@@ -5015,7 +5203,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura que toques recupera una cantidad de puntos de golpe igual a 1d8 + tu modificador de aptitud mágica. Este conjuro no afecta a muertos vivientes ni a constructos.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, la curación aumenta en 1d8 por cada nivel del espacio por encima de 1.</p>"
         },
         "5vrr2Y0lsbakGpQ1": {
           "name": "Agrandar/reducir",
@@ -5082,7 +5271,8 @@
           "description": "<p>Qunbraxel realiza dos ataques de [[/item Eldritch Bolt]], o uno de Descarga sobrenatural y uno de [[/item Tentacle]].</p>"
         },
         "tS0IRglM9Erb10KX": {
-          "name": "Descarga sobrenatural"
+          "name": "Descarga sobrenatural",
+          "description": "<section id=\"secret-CpqLV7izKRwD1JVN\" class=\"secret\"><p><em>Ataque de conjuro a distancia:</em> +8 a impactar, alcance 120 pies, un objetivo. Impacto: 20 (3d10 + 4) de daño de fuerza.</p></section><p>Qunbraxel ataca con una descarga sobrenatural.</p>"
         },
         "acOWKwGggV4EyfQn": {
           "name": "Tentáculo",
@@ -5127,7 +5317,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria que no lleve armadura, y una fuerza mágica protectora la rodea hasta que termine el conjuro. Su CA base pasa a ser 13 + su modificador por Destreza. El conjuro termina si el objetivo se pone una armadura o si lo disipas como acción.</p>"
         },
         "TLaH9qOL7vzw4l06": {
           "name": "Mano de mago",
@@ -5198,7 +5389,8 @@
       "languages": "Slaad; telepatía (60 pies)",
       "items": {
         "mQpUsfCWNap5ajTx": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo: +6 a impactar, alcance 5 pies, un objetivo. Impacto: 8 (2d4 + 3) de daño perforante.</em></p></section><p>El slaad ataca con su Mordisco.</p>"
         },
         "CW3sG2GLyZZHi3K4": {
           "name": "Garra"
@@ -5212,7 +5404,8 @@
           "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "R1K5MADSIynmFyT6": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<section class=\"secret\" id=\"secret-o97E6HKdPo9eUyYy\"><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
         }
       }
     },
@@ -5239,7 +5432,8 @@
       "languages": "Dos idiomas cualesquiera",
       "items": {
         "UaD7LMQ4yXiXB59M": {
-          "name": "Bastón"
+          "name": "Bastón",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma cuerpo a cuerpo: +2 a impactar (+4 a impactar con garrote), alcance 5 pies, un objetivo. Impacto: <strong>3 (1d6) <em>de daño contundente</em></strong>, o <strong>6 (1d8 + 2) <em>de daño contundente</em></strong> con garrote o si se empuña a dos manos.</p></section>\n<p>El druida ataca con su Bastón.</p>"
         },
         "GKDuVb0GbonkqtPO": {
           "name": "Lanzamiento de conjuros"
@@ -5322,7 +5516,8 @@
           "description": "<p>El renacido realiza dos ataques de [[/item Fist]].</p>"
         },
         "reDsM3qRBRjYCMPX": {
-          "name": "Rastreador vengativo"
+          "name": "Rastreador vengativo",
+          "description": "<p>El renacido conoce la distancia y la dirección de cualquier criatura de la que busque vengarse, aunque ambos estén en distintos planos de existencia. Si la criatura a la que rastrea muere, el renacido lo sabe.</p>"
         },
         "2xeaS6yyI3cUN5iZ": {
           "name": "Mirada vengativa",
@@ -5361,7 +5556,8 @@
       "creatureSubtype": "Gnomo",
       "items": {
         "pH2kaEPWY0VHkUGf": {
-          "name": "Camisa de malla"
+          "name": "Camisa de malla",
+          "description": "<p>La camisa de malla está hecha de anillas metálicas entrelazadas y se lleva entre capas de ropa o cuero. Ofrece una protección modesta al torso y permite que las capas exteriores amortigüen el ruido de las anillas al rozarse.</p>"
         },
         "UQwj9W2cUN6qDjL1": {
           "name": "Camuflaje rocoso",
@@ -5380,7 +5576,8 @@
           }
         },
         "BOSMM7xW5FozfYtG": {
-          "name": "Pico de guerra"
+          "name": "Pico de guerra",
+          "description": "<section id=\"secret-9pC9ppl1IjQi2ezL\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d8 + 2) de daño perforante.</p></section><p>Una brutal púa curva montada en el extremo de un mango robusto, diseñada para perforar armaduras con una fuerza letal.</p>"
         },
         "EusVag8OLP9ZwUry": {
           "name": "Dardo envenenado"
@@ -5391,7 +5588,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Mientras dure el conjuro, ocultas de la magia de adivinación a un objetivo que toques. Puede ser una criatura voluntaria, un lugar o un objeto que no mida más de 10 pies en ninguna dimensión. Ninguna magia de adivinación puede seleccionar al objetivo ni percibirlo a través de sensores mágicos de escudriñamiento.</p>"
         },
         "DdId8vMHKbwwXLtl": {
           "name": "Ceguera/sordera",
@@ -5415,7 +5613,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tu cuerpo se vuelve borroso, cambiante y oscilante para quienes puedan verte. Mientras dure el conjuro, cualquier criatura tiene desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si no depende de la vista, como ocurre con la visión ciega, o si puede ver a través de las ilusiones, como sucede con la visión verdadera.</p>"
         },
         "s3VU1pdEgDQDIns5": {
           "name": "Disfrazarse",
@@ -5448,7 +5647,8 @@
           "description": "<p>Ruxithid realiza dos ataques de [[/item Psi-Charged Scimitar]].</p>"
         },
         "O2l61LzC76zIy8Oj": {
-          "name": "Cimitarra cargada de energía psiónica"
+          "name": "Cimitarra cargada de energía psiónica",
+          "description": "<section id=\"secret-rlsfYd227QC092Ja\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. Impacto: 11 (2d6 + 4) de daño cortante más 7 (2d6) de daño psíquico.</p></section><p>Ruxithid ataca con su cimitarra.</p>"
         },
         "cGkvm1VCKrFiwgZR": {
           "name": "Zarcillos cerebrales",
@@ -5457,7 +5657,8 @@
               "name": "Aturdido",
               "description": "<p>El objetivo debe superar una tirada de salvación de Destreza CD 15 o recibir 9 (2d8) de daño psíquico y tener el estado &amp;Reference[stunned] hasta el comienzo del siguiente turno de Ruxithid.</p>"
             }
-          }
+          },
+          "description": "<p>Ruxithid libera desde su cerebro una ráfaga de zarcillos psíquicos cristalinos contra una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe superar una tirada de salvación de Destreza CD 15 o recibir 9 (2d8) de daño psíquico y quedar &amp;Reference[stunned] hasta el comienzo del siguiente turno de Ruxithid.</p>"
         },
         "PkzUjYoKFcylph2J": {
           "name": "Orden de combate",
@@ -5482,7 +5683,8 @@
           "description": "<p>La gémula tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mrz2wfgVrduEvH8Z": {
-          "name": "Golpe psíquico"
+          "name": "Golpe psíquico",
+          "description": "<section id=\"secret-LPnREy83tyFVBvck\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies, un objetivo. Impacto: 16 (3d10) de daño psíquico.</p></section><p>La gémula golpea psíquicamente al objetivo.</p>"
         },
         "ccb4AwJvLv27Jqd2": {
           "name": "Drenar"
@@ -5556,7 +5758,8 @@
           }
         }
       },
-      "alignment": "Normalmente caótico malvado"
+      "alignment": "Normalmente caótico malvado",
+      "biography": "<p>Los fanáticos aberrantes son sectarios que han intentado contactar con los poderes del Reino Lejano y han recibido una respuesta. Impregnados de extrañas energías, toman prestado su brutal poder de las entidades monstruosas que habitan ese plano funesto.</p>"
     },
     "pbsoSlaadTadpole": {
       "name": "Renacuajo slaad",
@@ -5569,7 +5772,8 @@
           "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "b8iTUfCz893HgDG2": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-uFsLYMXIvT9r9H15\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 4 (1d4 + 2) de daño perforante.</p></section><p>El renacuajo slaad ataca con su Mordisco.</p>"
         }
       }
     },
@@ -5580,10 +5784,12 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "9bRjYTnoL2im3smt": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-SsRt4PMwzGKAOaJl\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +1 a impactar, alcance 5 pies, un objetivo. Impacto: 2 (1d6 − 1) de daño perforante.</p></section><p>El espectador ataca con su Mordisco.</p>"
         },
         "ReBcnSyYDtzypWPF": {
-          "name": "Rayo de confusión"
+          "name": "Rayo de confusión",
+          "description": "<p>El objetivo debe superar una tirada de salvación de Sabiduría CD 13 o no podrá realizar reacciones hasta el final de su siguiente turno. Durante su turno, no puede moverse y utiliza su acción para realizar un ataque cuerpo a cuerpo o a distancia contra una criatura elegida al azar dentro de su alcance. Si no puede atacar, no hace nada durante su turno.</p>"
         },
         "H8qjYbnqZi63sIWr": {
           "name": "Crear comida y agua",
@@ -5619,10 +5825,12 @@
           "description": "<p>El troglodita realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Claw]]{Garras}.</p>"
         },
         "6kvVYZURmRaLeyrh": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-fpPEQONB02JagIQF\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 4 (1d4 + 2) de daño cortante.</p></section><p>El troglodita ataca con sus garras.</p>"
         },
         "ZZRSrIYKijnvt7Av": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-hxDkJnfSBmFTFTfj\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 5 pies, un objetivo. Impacto: 4 (1d4 + 2) de daño perforante.</p></section><p>El troglodita ataca con su Mordisco.</p>"
         },
         "Cz1tQPWtndyT8XM4": {
           "name": "Piel de camaleón",
@@ -5641,7 +5849,8 @@
           "description": "<p>Mientras la criatura marchita permanezca inmóvil, es indistinguible de un arbusto muerto.</p>"
         },
         "qW4UQvAKTes3clgo": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section id=\"secret-IuwXxuPftX1QjXfz\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +3 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 3 (1d4 + 1) de daño perforante.</p></section><p>La ramita marchita ataca con sus garras.</p>"
         }
       }
     },
@@ -5663,10 +5872,12 @@
           "description": "<p>La mole sombría realiza tres ataques: dos de [[/item Claws]] y uno de [[/item Mandibles]].</p>"
         },
         "Bcy68dYNMFmyALFo": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 9 (1d8 + 5) de daño cortante.</p></section><p>La mole sombría ataca con una garra.</p>"
         },
         "tDUCSaonecAiqfR5": {
-          "name": "Mandíbulas"
+          "name": "Mandíbulas",
+          "description": "<section id=\"secret-YJm6AfYehoyv0BWi\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 14 (2d8 + 5) de daño cortante.</p></section><p>La mole sombría ataca con sus mandíbulas.</p>"
         }
       }
     },
@@ -5677,7 +5888,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "hTVJqkUPW2QgzJ0P": {
-          "name": "Coraza"
+          "name": "Coraza",
+          "description": "<p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>"
         },
         "tjGPQJDcEvM525V3": {
           "name": "Resistencia legendaria",
@@ -5702,7 +5914,8 @@
                 "condition": "Cuando le impacta una tirada de ataque"
               }
             }
-          }
+          },
+          "description": "<p>Cuando le impacta una tirada de ataque, el azotamentes obtiene un bonificador de +4 a la CA contra esa tirada, lo que puede hacer que falle. Después se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "sXDVbNgJeArUxlax": {
           "name": "Extraer cerebro"
@@ -5812,7 +6025,8 @@
           "name": "Lanzamiento innato de conjuros"
         },
         "ARYhqOnnaWb8HmCj": {
-          "name": "Golpe (mordisco en forma de araña)"
+          "name": "Golpe (mordisco en forma de araña)",
+          "description": "<section class=\"secret\" id=\"secret-fSDsufkIQDkU4glM\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies (10 pies en forma de demonio), un objetivo. <em>Impacto:</em> 5 (1d6 + 2) de daño contundente (perforante en forma de araña) más 21 (6d6) de daño de veneno.</p></section><p>La yochlol golpea a su objetivo.</p>"
         },
         "O0e5pd5fpXDCBIm6": {
           "name": "Forma de niebla",
@@ -5893,7 +6107,8 @@
           "name": "Acelerar",
           "effects": {
             "DEPrzDiNHOqKj4Hj": {
-              "name": "Acelerar"
+              "name": "Acelerar",
+              "description": "<p>Hasta que termine el conjuro, la velocidad del objetivo se duplica, obtiene un bonificador de +2 a la CA, tiene ventaja en las tiradas de salvación de Destreza y obtiene una acción adicional en cada uno de sus turnos. Solo puede usar esa acción para Atacar (un único ataque con arma), Correr, Destrabarse, Esconderse o Usar un objeto.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -5901,10 +6116,12 @@
           }
         },
         "PoU2l4cDp5TGkxDJ": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-fhrD9AFcYw6dN8zn\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 10 pies, un objetivo. <em>Impacto:</em> 16 (2d10 + 5) de daño perforante más 4 (1d8) de daño de fuerza.</p></section><p>Lowarnizel ataca con su Mordisco.</p>"
         },
         "6MEXF1RGpABcEHOt": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 9 (1d8 + 5) de daño cortante.</p></section><p>Lowarnizel ataca con sus garras.</p>"
         },
         "KQvs2cRdzWr33NQq": {
           "name": "Ataque múltiple",
@@ -5914,7 +6131,8 @@
           "name": "Aliento de singularidad"
         },
         "pUwUCvveIDdVw1LM": {
-          "name": "Cambiar de forma"
+          "name": "Cambiar de forma",
+          "description": "<p>Lowarnizel se transforma mágicamente en cualquier criatura de tamaño Mediano o Pequeño, conservando sus estadísticas de juego salvo el tamaño. Esta transformación termina si el dragón queda reducido a 0 puntos de golpe o usa una acción adicional para ponerle fin.</p>"
         }
       },
       "tokenName": "Dragón amatista joven",
@@ -5938,7 +6156,8 @@
           "description": "<p>El lazo puede trepar por superficies difíciles, incluso boca abajo por los techos, sin realizar una prueba de característica.</p>"
         },
         "mBRjMwEitGrPDm5I": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-jVmo1KTBhojWGB66\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>22 (4d8 + 4) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El lazo ataca con su Mordisco.</p>"
         },
         "bTiw89tDx64zTqDk": {
           "name": "Zarcillo"
@@ -5968,7 +6187,8 @@
           "description": "<p>El sectario tiene<strong> ventaja </strong>en las tiradas de salvación para evitar quedar hechizado o asustado.</p>"
         },
         "dldXP9XwjVIdIj5U": {
-          "name": "Cimitarra"
+          "name": "Cimitarra",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+3 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>4 (1d6 + 1) <em>de daño cortante</em></strong>.</p></section>\n<p>El sectario ataca con su Cimitarra.</p>"
         }
       },
       "biography": "<p>Los sectarios juran lealtad a poderes oscuros, como príncipes elementales, señores demoníacos o archidiablos. La mayoría oculta sus lealtades para evitar ser marginados, encarcelados o ejecutados por sus creencias.</p>"
@@ -5984,13 +6204,16 @@
           "description": "<p>El fantasma puede ver hasta <strong>60 pies</strong> en el Plano Etéreo mientras está en el Plano Material, y viceversa.</p>"
         },
         "SiBsPubItj26pcHa": {
-          "name": "Movimiento incorpóreo"
+          "name": "Movimiento incorpóreo",
+          "description": "<section class=\"secret\"><p>El fantasma puede moverse a través de otras criaturas y objetos como si fueran terreno difícil. </p><p>Recibe <strong>5 (1d10) <em>de daño de fuerza</em></strong> si termina su turno dentro de un objeto.</p></section><p>El fantasma puede moverse a través de otras criaturas y objetos como si fueran terreno difícil.</p>"
         },
         "wdOqdYfLb2Nu1Uud": {
-          "name": "Toque marchitador"
+          "name": "Toque marchitador",
+          "description": "<section class=\"secret\" id=\"secret-zb6LzFgF7wtYpHwg\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+5 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>17 (4d6 + 3) </strong><em><strong>de daño necrótico</strong></em>.</p></section><p>El fantasma ataca con su Toque marchitador.</p>"
         },
         "WyxVuCp4iU10bA7m": {
-          "name": "Excursión etérea"
+          "name": "Excursión etérea",
+          "description": "<p>El fantasma entra en el Plano Etéreo desde el Plano Material, o viceversa. Mientras está en la Frontera Etérea, es visible desde el Plano Material, y viceversa, pero no puede afectar a nada del otro plano ni ser afectado por ello.</p>"
         },
         "lOzkFHeXCdO2FB9X": {
           "name": "Rostro horripilante",
@@ -6034,10 +6257,12 @@
           "description": "<p>El tumulario realiza dos ataques de [[/item Longsword]] o dos de [[/item Longbow]]. Puede usar [[/item Life Drain]] en lugar de uno de los ataques con espada larga.</p>"
         },
         "PUYwkzEiKopyM6YL": {
-          "name": "Arco largo"
+          "name": "Arco largo",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma a distancia: +4 a impactar, alcance 150/600 pies, un objetivo. Impacto: <strong>6 (1d8 + 2) <em>de daño perforante</em></strong>.</p>\n</section>\n<p>El tumulario ataca con su Arco largo.</p>"
         },
         "WZ3XGh48UoyAvBhS": {
-          "name": "Espada larga"
+          "name": "Espada larga",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>6 (1d8 + 2) <em>de daño cortante</em></strong>, o <strong>7 (1d10 + 2) <em>de daño cortante</em></strong> si se usa a dos manos.</p>\n</section>\n<p>El tumulario ataca con su Espada larga.</p>"
         },
         "NX8cqG6aZMns8wvY": {
           "name": "Drenar vida"
@@ -6063,7 +6288,8 @@
           "description": "<p>El elemental realiza dos ataques de [[/item Slam]].</p>"
         },
         "2AD5aTLMPDmQFhGZ": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-Hm88q7geZUMUIaYj\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+8 a impactar</strong>, alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>14 (2d8 + 5) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El elemental de tierra ataca con su Golpe.</p>"
         }
       }
     },
@@ -6093,7 +6319,8 @@
           "description": "<section class=\"secret\">\n<p>El aboleth realiza un ataque de cola.</p>\n</section>\n<p>¡El aboleth golpea a su presa con la cola!</p>"
         },
         "SCTJPlV2KrhVflgI": {
-          "name": "Drenaje psíquico"
+          "name": "Drenaje psíquico",
+          "description": "<p>Una criatura &amp;Reference[charmed]{hechizada} por el aboleth recibe <strong>10 (3d6)</strong> <strong>de daño psíquico</strong>, y el aboleth recupera tantos puntos de golpe como daño reciba la criatura.</p>"
         },
         "dZWUNgKiLNxVg983": {
           "name": "Nube mucosa"
@@ -6124,13 +6351,15 @@
           "name": "Acciones de guarida"
         },
         "SHlQeobxHZU6iQ24": {
-          "name": "Acciones legendarias"
+          "name": "Acciones legendarias",
+          "description": "<section class=\"secret\">\n<p>El aboleth puede realizar 3 acciones legendarias. Solo puede usar una opción de acción legendaria cada vez y únicamente al final del turno de otra criatura. El aboleth recupera las acciones legendarias gastadas al comienzo de su turno.</p>\n</section>\n<p>El aboleth puede realizar 3 acciones legendarias.</p>"
         },
         "a4mvD9abiTdVlDIh": {
           "name": "Efectos regionales",
           "description": "<p>La mera presencia de una criatura legendaria puede producir efectos extraños y maravillosos en su entorno. Los efectos regionales terminan abruptamente o se disipan con el tiempo cuando la criatura legendaria muere.</p>"
         }
-      }
+      },
+      "biography": "<p>Los aboleths tienen sus guaridas en lagos subterráneos o en las profundidades rocosas del océano, a menudo rodeados por las ruinas de una antigua ciudad aboleth caída. Un aboleth pasa casi toda su existencia bajo el agua y sale ocasionalmente a la superficie para tratar con visitantes o adoradores.</p>"
     },
     "t8WYD7ak07X7xpx8": {
       "name": "Momia",
@@ -6146,7 +6375,8 @@
           "name": "Puño putrefacto",
           "effects": {
             "Uqu9OiTt0XxW4HWH": {
-              "name": "Maldito"
+              "name": "Maldito",
+              "description": "<p>El objetivo queda maldito con la podredumbre de momia. No puede recuperar puntos de golpe y sus puntos de golpe máximos disminuyen en [[/damage 3d6 average]] por cada 24 horas transcurridas. Si la maldición reduce sus puntos de golpe máximos a 0, el objetivo muere y su cuerpo se convierte en polvo.</p>"
             }
           }
         },
@@ -6179,10 +6409,12 @@
           "description": "<p>El grick realiza un ataque de [[/item Tentacles]]. Si impacta, puede realizar un ataque de [[/item Beak]] contra el mismo objetivo.</p>"
         },
         "tkVlxJxg4LBVJvuX": {
-          "name": "Tentáculos"
+          "name": "Tentáculos",
+          "description": "<section class=\"secret\" id=\"secret-oAhR1lQ1liZMKHXa\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>9 (2d6 + 2) </strong><em><strong>de daño cortante</strong></em>.</p></section><p>El grick ataca con sus Tentáculos.</p>"
         },
         "AGLjE9RSCjg1vQ6R": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<section class=\"secret\" id=\"secret-vynDE0upwSudVmn0\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>5 (1d6 + 2) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El grick ataca con su Pico.</p>"
         }
       }
     },
@@ -6209,13 +6441,15 @@
           "description": "<p>El fanático realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "zTX7ZTUkqUMSbGII": {
-          "name": "Daga"
+          "name": "Daga",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma cuerpo a cuerpo o a distancia: +4 a impactar, alcance 5 pies o alcance 20/60 pies, una criatura. Impacto: <strong>4 (1d4 + 2) <em>de daño perforante</em></strong>.</p></section>\n<p>El fanático del culto ataca con su Daga.</p>"
         },
         "Bnn9Nzajixvow9xi": {
           "name": "Luz"
         },
         "n9pJzTDsAwQxJVRl": {
-          "name": "Llama sagrada"
+          "name": "Llama sagrada",
+          "description": "<p>Un resplandor similar a una llama desciende sobre una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Destreza o recibir 1d8 de daño radiante. La cobertura no le proporciona ningún beneficio en esta tirada de salvación.</p><p>El daño del conjuro aumenta en 1d8 cuando alcanzas el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
           "name": "Taumaturgia"
@@ -6224,7 +6458,8 @@
           "name": "Orden imperiosa"
         },
         "ksaaTxIbKx2sJfia": {
-          "name": "Infligir heridas"
+          "name": "Infligir heridas",
+          "description": "<p>Realiza un ataque de conjuro cuerpo a cuerpo contra una criatura a la que puedas alcanzar. Si impactas, el objetivo recibe 3d10 de daño necrótico.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d10 por cada nivel del espacio por encima de 1.</p>"
         },
         "jZ6JNykRtdQ90MOo": {
           "name": "Escudo de fe",
@@ -6261,7 +6496,8 @@
           "name": "Mordisco",
           "effects": {
             "G13tgTmzHgGlGVp8": {
-              "name": "Envenenado y paralizado"
+              "name": "Envenenado y paralizado",
+              "description": "<p>Si el daño de veneno reduce al objetivo a 0 puntos de golpe, queda estable pero &amp;Reference[poisoned apply=false] durante 1 hora, incluso después de recuperar puntos de golpe, y está &amp;Reference[paralyzed apply=false] mientras permanezca envenenado de esta forma.</p>"
             }
           }
         },
@@ -6274,7 +6510,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>Para atrapar a sus presas, una araña gigante teje elaboradas telarañas o dispara hilos pegajosos desde el abdomen. Estas arañas suelen vivir bajo tierra y establecen sus guaridas en techos o grietas oscuras cubiertas de telarañas. A menudo, estas guaridas están adornadas con capullos de seda que contienen víctimas anteriores.</p>"
     },
     "x47ZnpHfYl0ptDM9": {
       "name": "Behir",
@@ -6287,7 +6524,8 @@
           "description": "<p>El behir realiza dos ataques: uno de [[/item Bite]] y otro de [[/item Constrict]].</p>"
         },
         "4fNbTxkAFYHxDdJX": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-MeksLhDRT3xY7CAa\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+10 a impactar</strong>, alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>22 (3d10 + 6) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El behir ataca con su Mordisco.</p>"
         },
         "GCUh42hMUnKtxx8j": {
           "name": "Constreñir"
@@ -6343,7 +6581,8 @@
           "description": "<p>La cabra tiene<strong> ventaja </strong>en las tiradas de salvación de Fuerza y Destreza contra efectos que la derriben.</p>"
         },
         "I3ioyE4CVHPLGGy7": {
-          "name": "Embestida"
+          "name": "Embestida",
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+3 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>3 (1d4 + 1) <em>de daño contundente</em></strong>.</p></section>\n<p>La cabra ataca con su Embestida.</p>"
         }
       }
     },
@@ -6383,7 +6622,8 @@
           "name": "Vinculado"
         },
         "vk0gd3buCPWGpyYF": {
-          "name": "Regeneración"
+          "name": "Regeneración",
+          "description": "<section class=\"secret\"><p>El guardián escudo recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El guardián escudo recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
         },
         "qbSL2A0uKuh2iER5": {
           "name": "Almacenamiento de conjuros"
@@ -6393,7 +6633,8 @@
           "description": "<p>El guardián realiza dos ataques de [[/item Fist]].</p>"
         },
         "r6GQ1TwNK7pinX0a": {
-          "name": "Puño"
+          "name": "Puño",
+          "description": "<section class=\"secret\" id=\"secret-izzHCdRF9bO3s8mv\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>11 (2d6 + 4) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El guardián escudo ataca con su Puño.</p>"
         },
         "EjeLsaCua7yjgxax": {
           "name": "Escudo",
@@ -6416,10 +6657,12 @@
           "description": "<p>El oso lechuza realiza dos ataques: uno de [[/item Beak]] y uno de [[/item Claws]].</p>"
         },
         "CwKQlVkFc2uJW0HL": {
-          "name": "Pico"
+          "name": "Pico",
+          "description": "<section class=\"secret\" id=\"secret-eiz8Ue9Ls5CU3Qxs\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>10 (1d10 + 5) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El oso lechuza ataca con su Pico.</p>"
         },
         "FpbBzMs3wu1NK3Zu": {
-          "name": "Garras"
+          "name": "Garras",
+          "description": "<section class=\"secret\" id=\"secret-gQ4VX0JmrhpFEQoY\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>14 (2d8 + 5) </strong><em><strong>de daño cortante</strong></em>.</p></section><p>El oso lechuza ataca con sus Garras.</p>"
         }
       }
     }

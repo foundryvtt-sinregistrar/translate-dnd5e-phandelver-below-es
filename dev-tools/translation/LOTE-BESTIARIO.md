@@ -48,3 +48,16 @@ Tras aplicar el lote: 2.372/3.227 campos del bestiario y 4.071/6.718 de Adventur
 Todos los hashes de los campos revisados, números, tokens y atributos HTML pasan
 `check_reviewed.py`. Esta cifra sigue siendo cobertura parcial; faltan las
 descripciones extensas y la mayor parte de las biografías.
+
+## Segundo lote de prosa: textos 0306–0500
+
+Revisados 195 originales adicionales: ataques, efectos, conjuros y biografías
+breves. Las frases repetidas de los ataques se componen desde un diccionario
+revisado y una lista explícita de originales inspeccionados; no se sustituyen
+atributos HTML ni comandos. Se conservan incluso las discrepancias numéricas
+del original, como el daño medio indicado en algunos ataques de grick.
+
+La cobertura llega a 2.615/3.227 campos del bestiario y 4.360/6.718 de Adventure.
+`check_reviewed.py` confirma cero errores de evidencia y conservación técnica.
+La validación dentro de Foundry de esta nueva prosa está pendiente; la sesión
+citada anteriormente corresponde al lote de nombres y campos breves.

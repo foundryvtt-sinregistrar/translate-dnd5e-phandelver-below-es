@@ -11,6 +11,10 @@ def configure():
     def documents(path,kind,mapping):
         return {'path':path,'converter':'phandelverDocuments','documentType':kind,'cardinality':'many','mapping':mapping}
     actor={'biography':'system.details.biography.value','tokenName':'prototypeToken.name',
+           'alignment':'system.details.alignment','habitat':'system.details.habitat.custom',
+           'creatureType':'system.details.type.custom','creatureSubtype':'system.details.type.subtype',
+           'languages':'system.traits.languages.custom','senses':'system.attributes.senses.special',
+           'biographyPublic':'system.details.biography.public',
            'items':documents('items','Item',item),'effects':{'path':'effects','converter':'phandelverEffects'}}
     for name in ['pbso-items','pbso-player-options','pbso-bestiary','pbso-adventures']:
         path=ROOT/f'compendium/dnd-phandelver-below.{name}.json';payload=load(path)

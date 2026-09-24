@@ -29,10 +29,17 @@ function verifyItem(item, patch, address) {
 }
 function verifyActor(actor,patch,address) {
   if (!patch) return;
-  for (const [alias,path] of Object.entries({name:'name',tokenName:'prototypeToken.name',biography:'system.details.biography.value'})) {
+  for (const [alias,path] of Object.entries({name:'name',tokenName:'prototypeToken.name',biography:'system.details.biography.value',
+    biographyPublic:'system.details.biography.public',alignment:'system.details.alignment',habitat:'system.details.habitat.custom',
+    creatureType:'system.details.type.custom',creatureSubtype:'system.details.type.subtype',languages:'system.traits.languages.custom',
+    senses:'system.attributes.senses.special'})) {
     if (patch[alias]!==undefined) require(path.split('.').reduce((v,k)=>v?.[k],actor)===patch[alias],`${address}.${alias}`);
   }
   for (const [id,item] of Object.entries(patch.items ?? {})) verifyItem(actor.items.find(i=>i._id===id),item,`${address}.items.${id}`);
+  for (const [id,effect] of Object.entries(patch.effects ?? {})) {
+    const actual=actor.effects.find(e=>e._id===id);
+    for (const [key,value] of Object.entries(effect)) require(actual?.[key]===value,`${address}.effects.${id}.${key}`);
+  }
 }
 
 export async function validateRuntime({pilot = false} = {}) {

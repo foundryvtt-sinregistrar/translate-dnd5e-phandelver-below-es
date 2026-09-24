@@ -66,6 +66,8 @@ def main():
         for doc in source:
             tr=entries.get(doc['_id'],{});prefix=f"{pack['collection']}/{doc['_id']}"
             if 'name' in tr:compare(prefix+'/name',doc['name'],tr['name'])
+            if pack['documentType']=='Item' and 'description' in tr:
+                compare(prefix+'/description',doc.get('system',{}).get('description',{}).get('value',''),tr['description'])
             if pack['documentType']=='Adventure':
                 for field in ['description','caption']:
                     if field in tr:compare(prefix+'/'+field,doc.get(field,''),tr[field])

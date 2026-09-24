@@ -35,6 +35,7 @@ def is_text(path, original, translated):
         return False
     patterns = [
         r'/(name|description|caption)',
+        r'/system/description/value',
         r'/folders/\d+/name',
         r'/journal/\d+/name',
         r'/journal/\d+/pages/\d+/(name|text/content|image/caption)',

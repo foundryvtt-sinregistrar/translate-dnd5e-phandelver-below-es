@@ -27,6 +27,9 @@ export async function validateRuntime({pilot = false} = {}) {
         const result = game.babele.translate(collection, foundry.utils.deepClone(original));
         const patch = payload.entries[original._id];
         if (patch?.name !== undefined) require(result.name === patch.name, `Root name: ${original._id}`);
+        if (source.documentType === 'Item' && patch?.description !== undefined) {
+          require(result.system.description.value === patch.description, `Item description: ${original._id}`);
+        }
         if (source.documentType === 'Adventure') {
           for (const field of ['description','caption']) {
             if (patch[field] !== undefined) require(result[field] === patch[field], `Adventure ${field}`);

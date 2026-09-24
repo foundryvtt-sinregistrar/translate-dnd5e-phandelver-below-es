@@ -49,13 +49,15 @@
       "creatureSubtype": "Elfo",
       "items": {
         "Jwx7Sfs5m3RDWckF": {
-          "name": "Linaje feérico"
+          "name": "Linaje feérico",
+          "description": "<p>El drow tiene<strong> ventaja </strong>en las tiradas de salvación para evitar quedar hechizado, y la magia no puede dormirlo.</p>"
         },
         "A4OySWt5j3QXyAPW": {
           "name": "Lanzamiento innato de conjuros"
         },
         "Up2YzkDn0uBKQj6K": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, el drow tiene<strong> desventaja </strong>en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "G2nFsJdp1Q3gshyr": {
           "name": "Espada corta"
@@ -105,16 +107,20 @@
           "name": "Garra"
         },
         "a5CLV8aL4SowIich": {
-          "name": "Deslizarse por la tierra"
+          "name": "Deslizarse por la tierra",
+          "description": "<p>El xorn puede excavar a través de tierra y piedra no mágicas y sin trabajar. Al hacerlo, no altera el material que atraviesa.</p>"
         },
         "kRGZU8eMwOBt3kVd": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El xorn realiza tres ataques de [[/item Claw]] y uno de [[/item Bite]].</p>"
         },
         "ryNcNrIgtkYHRKWj": {
-          "name": "Camuflaje rocoso"
+          "name": "Camuflaje rocoso",
+          "description": "<p>El xorn tiene<strong> ventaja </strong>en las pruebas de Destreza (Sigilo) para esconderse en terreno rocoso.</p>"
         },
         "x6Hd2pSXy7TDwgjR": {
-          "name": "Percibir tesoros"
+          "name": "Percibir tesoros",
+          "description": "<p>El xorn puede determinar por el olfato la ubicación exacta de metales y piedras preciosas, como monedas y gemas, a <strong>60 pies</strong> o menos de él.</p>"
         }
       }
     },
@@ -136,7 +142,8 @@
           "name": "Arco largo"
         },
         "sSs3hSzkKBMNBgTs": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         }
       },
       "alignment": "Legal malvado",
@@ -154,10 +161,12 @@
           "name": "Toque putrefacto"
         },
         "wjDktLNTUnueuX2X": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El hongo realiza [[/r 1d4]] ataques de [[/item Rotting Touch]].</p>"
         },
         "fZgfSlczUTtrCNEb": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p>Mientras el hongo violeta permanezca inmóvil, es indistinguible de un hongo corriente.</p>"
         }
       }
     },
@@ -168,7 +177,8 @@
       "habitat": "Bosque",
       "items": {
         "6VIuuNCntP3W9Tki": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El dragón puede respirar aire y agua.</p>"
         },
         "EqoJv70ZNpGruHNE": {
           "name": "Mordisco"
@@ -177,7 +187,8 @@
           "name": "Garra"
         },
         "MPbE4Uah1MCsdzSW": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El dragón realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Claws]].</p>"
         },
         "tFT9VqnanPEg8NsA": {
           "name": "Aliento venenoso"
@@ -202,7 +213,8 @@
           }
         },
         "qlBBeTku9uoaEv8G": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El barbotador realiza un ataque de [[/item Bite]] y, si puede, usa [[/item Blinding Spittle]].</p>"
         },
         "lfUDtJ8hdeULQzqa": {
           "name": "Mordisco",
@@ -264,7 +276,8 @@
           "name": "Relámpago"
         },
         "13uVuBQP6VaiSPvC": {
-          "name": "Respirar bajo el agua"
+          "name": "Respirar bajo el agua",
+          "description": "<p>Este conjuro permite respirar bajo el agua a hasta diez criaturas voluntarias que puedas ver dentro del alcance hasta que termine el conjuro. Las criaturas afectadas también conservan su forma habitual de respirar.</p>"
         },
         "pybg5MNc3lkerH4Y": {
           "name": "Marchitar"
@@ -287,7 +300,8 @@
           "name": "Estallido mortal",
           "effects": {
             "7l7DGU9h17RrP28k": {
-              "name": "Cegado"
+              "name": "Cegado",
+              "description": "<p>Una criatura cegada puede repetir la tirada de salvación en cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</p>"
             }
           },
           "activities": {
@@ -299,7 +313,8 @@
           }
         },
         "muKb2wMq6khBe1yH": {
-          "name": "Lanzamiento innato de conjuros (1/día)"
+          "name": "Lanzamiento innato de conjuros (1/día)",
+          "description": "<p>El mefit puede lanzar de forma innata @UUID[Compendium.dnd5e.spells.Item.KhwiSi9fwVfUPtku]{dormir} sin componentes materiales. Su aptitud mágica innata es Carisma.</p>"
         },
         "lazTMrXNUpGCrKdR": {
           "name": "Garras"
@@ -308,7 +323,8 @@
           "name": "Aliento cegador",
           "effects": {
             "t5UiWNa6QX90H8aK": {
-              "name": "Cegado"
+              "name": "Cegado",
+              "description": "<p>El objetivo está &amp;Reference[blinded apply=false] durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
           }
         },
@@ -316,14 +332,16 @@
           "name": "Dormir",
           "effects": {
             "MowBnXpRu2aG48i9": {
-              "name": "Dormir"
+              "name": "Dormir",
+              "description": "<p>La criatura afectada por este conjuro queda inconsciente hasta que el conjuro termine, reciba daño o alguien use una acción para despertarla con una sacudida o una bofetada.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
           }
         }
-      }
+      },
+      "biography": "<p>Compuestos de tierra y aire, los mefits de polvo se sienten atraídos por las catacumbas y sienten una fascinación morbosa por la muerte.</p>"
     },
     "Bupo3E9X5Ptx6XeT": {
       "name": "Caballo de tiro",
@@ -388,7 +406,8 @@
           "name": "Aparición: drenar vida"
         },
         "3ERjE4pz2bgxXIPi": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, la aparición tiene<strong> desventaja </strong>en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "0HScn4xcUPnjjLCd": {
           "name": "Crear espectro",
@@ -411,10 +430,12 @@
       "habitat": "Bosque",
       "items": {
         "K0u6bJqRtcj0cSzK": {
-          "name": "Oído y olfato agudos"
+          "name": "Oído y olfato agudos",
+          "description": "<p>El lobo tiene<strong> ventaja </strong>en las pruebas de Sabiduría (Percepción) que dependan del oído o del olfato.</p>"
         },
         "weFcATmtqqUJ39Pw": {
-          "name": "Tácticas de manada"
+          "name": "Tácticas de manada",
+          "description": "<p>El lobo tiene<strong> ventaja </strong>en una tirada de ataque contra una criatura si al menos uno de sus aliados está a <strong>5 pies</strong> o menos de ella y no está incapacitado.</p>"
         },
         "tx9xPDEQ8osJq6ZQ": {
           "name": "Mordisco",
@@ -435,13 +456,16 @@
       "senses": "10 pies mientras está ensordecido (ciego más allá de este radio)",
       "items": {
         "MqBAJfU738aXBgBE": {
-          "name": "Sentidos ciegos"
+          "name": "Sentidos ciegos",
+          "description": "<p>El grimlock no puede usar su visión ciega mientras esté ensordecido y no pueda oler.</p>"
         },
         "GUsD8GdOLhuqFUih": {
-          "name": "Oído y olfato agudos"
+          "name": "Oído y olfato agudos",
+          "description": "<p>El grimlock tiene<strong> ventaja </strong>en las pruebas de Sabiduría (Percepción) que dependan del oído o del olfato.</p>"
         },
         "B7KYqupW3iRUpWAU": {
-          "name": "Camuflaje rocoso"
+          "name": "Camuflaje rocoso",
+          "description": "<p>El grimlock tiene<strong> ventaja </strong>en las pruebas de Destreza (Sigilo) para esconderse en terreno rocoso.</p>"
         },
         "aEWZXCiyNusgb3Ro": {
           "name": "Garrote de hueso con púas"
@@ -471,7 +495,8 @@
           "name": "Enmarañar"
         },
         "B0pnIcc52O6G8hi8": {
-          "name": "Zancada prodigiosa"
+          "name": "Zancada prodigiosa",
+          "description": "<p>Tocas a una criatura. La velocidad del objetivo aumenta en 10 pies hasta que termine el conjuro.</p>"
         },
         "aL1F8fvYLtNzUbKu": {
           "name": "Hablar con los animales"
@@ -491,14 +516,16 @@
             "uM6rgctYpcbCVSkn": {
               "name": "Piel robliza"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria. Hasta que termine el conjuro, la piel del objetivo adquiere una apariencia áspera similar a la corteza y su CA no puede ser inferior a 16, independientemente de la armadura que lleve.</p>"
         }
       },
       "effects": {
         "uM6rgctYpcbCVSkn": {
           "name": "Piel robliza"
         }
-      }
+      },
+      "biography": "<p>\n        <em>\n          Ilustración del token de\n          <a href=\"https://www.forgotten-adventures.net/\" target=\"_blank\" rel=\"noopener\">Forgotten Adventures</a>.\n        </em>      \n      </p>"
     },
     "K4vsSlHqbBAHUDHY": {
       "name": "Hidra",
@@ -507,19 +534,23 @@
       "habitat": "Pantano",
       "items": {
         "xr59rWl3oCOLdQBQ": {
-          "name": "Aguantar la respiración"
+          "name": "Aguantar la respiración",
+          "description": "<p>La hidra puede aguantar la respiración durante 1 hora.</p>"
         },
         "fsAeJDaI0a6sBeFk": {
           "name": "Múltiples cabezas"
         },
         "bE965DuMt1ReAulm": {
-          "name": "Cabezas reactivas"
+          "name": "Cabezas reactivas",
+          "description": "<p>Por cada cabeza que tenga además de la primera, la hidra obtiene una reacción adicional que solo puede usar para ataques de oportunidad.</p>"
         },
         "cLcVpNuZOHIxLfPP": {
-          "name": "Vigilia"
+          "name": "Vigilia",
+          "description": "<p>Mientras la hidra duerme, al menos una de sus cabezas permanece despierta.</p>"
         },
         "USl5HDilKxVI4BHh": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La hidra realiza tantos ataques de [[/item Bite]] como cabezas tenga.</p>"
         },
         "fYE4f0Oa2I0MetId": {
           "name": "Mordisco"
@@ -540,18 +571,22 @@
           "name": "Máscara inquietante",
           "effects": {
             "uLf6RznXTCt57Uns": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo está &amp;Reference[frightened apply=false] hasta el final de su turno.</p>"
             }
           }
         },
         "FkvVIJjzEPFMgvsc": {
-          "name": "Vista del diablo"
+          "name": "Vista del diablo",
+          "description": "<p>La oscuridad mágica no obstaculiza la visión en la oscuridad del diablo.</p>"
         },
         "ZZ4l35Sr34AL2Ett": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>La criatura tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "AGKUD82KJZaMKVRt": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El diablo realiza dos ataques con sus [[/item Chain]]{cadenas}.</p>"
         },
         "B9KJpn20n0tG4xit": {
           "name": "Animar cadenas"
@@ -591,7 +626,8 @@
           },
           "effects": {
             "EVsPi7KPLefAHe3V": {
-              "name": "Constreñido"
+              "name": "Constreñido",
+              "description": "<p>El objetivo está &amp;Reference[grappled apply=false] (CD 16 para escapar). Hasta que termine el agarre, la criatura está &amp;Reference[restrained apply=false] y la serpiente no puede constreñir a otro objetivo.</p>"
             }
           }
         }
@@ -610,7 +646,8 @@
           "name": "Garras",
           "effects": {
             "1a1IBtdcht4eovlh": {
-              "name": "Paralizado"
+              "name": "Paralizado",
+              "description": "<p>El objetivo está &amp;Reference[paralyzed] durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
           },
           "activities": {
@@ -645,13 +682,16 @@
           }
         },
         "uMZgFW5l9JQmFBp8": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El chuul puede respirar aire y agua.</p>"
         },
         "OtOJ4eSobUE30d2S": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El chuul realiza dos ataques de [[/item Pincer]]. Si está agarrando a una criatura, también puede usar [[/item Tentacles]] una vez.</p>"
         },
         "03oy1y5rwobZdg46": {
-          "name": "Percibir magia"
+          "name": "Percibir magia",
+          "description": "<p>El chuul percibe magia a voluntad a <strong>120 pies o menos</strong> de él. Por lo demás, este rasgo funciona como el conjuro detectar magia, aunque no es mágico.</p>"
         }
       }
     },
@@ -662,10 +702,12 @@
       "habitat": "Infraoscuridad",
       "items": {
         "ZgUj67GknsWFnbAR": {
-          "name": "Excavador"
+          "name": "Excavador",
+          "description": "<p>El gusano puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 10 pies de diámetro.</p>"
         },
         "Uo4oxB1xZmJcWVsZ": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El gusano realiza dos ataques: uno de [[/item Bite]] y uno de [[/item Stinger]].</p>"
         },
         "dlzFJ5UjbMAfJ6Sb": {
           "name": "Mordisco"
@@ -689,7 +731,8 @@
           "name": "Drenar vida"
         },
         "1FbU02rRuNLnEDXC": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, el espectro tiene<strong> desventaja </strong>en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         }
       }
     },
@@ -703,16 +746,20 @@
           "name": "Lucero del alba"
         },
         "CgwJLpd3sHn21cUQ": {
-          "name": "Ataque por sorpresa"
+          "name": "Ataque por sorpresa",
+          "description": "<p>Si el osgo sorprende a una criatura y la impacta con un ataque durante el primer asalto del combate, el objetivo recibe 7 (2d6) de daño adicional de ese ataque.</p>"
         },
         "BsMLwJ3gDd0jADY3": {
-          "name": "Bruto"
+          "name": "Bruto",
+          "description": "<p>Un arma cuerpo a cuerpo inflige un dado adicional de su daño cuando el osgo impacta con ella (incluido en el ataque).</p>"
         },
         "SvFPSD4QGfNEvB0c": {
-          "name": "Armadura de pieles"
+          "name": "Armadura de pieles",
+          "description": "<p>Esta armadura rudimentaria está hecha de pieles y pelajes gruesos. Suelen llevarla tribus bárbaras, humanoides malvados y otros pueblos que no tienen acceso a las herramientas y materiales necesarios para fabricar armaduras mejores.</p>"
         },
         "sSs3hSzkKBMNBgTs": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "xwZYlJUYOv2J044p": {
           "name": "Jabalina"
@@ -742,7 +789,8 @@
         "HwktDnB8qdr0BYGZ": {
           "name": "Garrote"
         }
-      }
+      },
+      "biography": "<p>Entre los plebeyos se encuentran campesinos, siervos, sirvientes, peregrinos, mercaderes, artesanos y ermitaños.</p>"
     },
     "TaK6nQMGqZ0y8gt7": {
       "name": "Chillón",
@@ -755,7 +803,8 @@
           "name": "Chillido"
         },
         "NAyTy2HfzqvHtjRh": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p>Mientras el chillón permanezca inmóvil, es indistinguible de un hongo corriente.</p>"
         }
       }
     },
@@ -767,13 +816,16 @@
       "creatureSubtype": "Goblinoide",
       "items": {
         "Ti3XQOmTKdgcnpAa": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         },
         "sSs3hSzkKBMNBgTs": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "SxVatHq02vURYDt3": {
-          "name": "Huida ágil"
+          "name": "Huida ágil",
+          "description": "<p>El goblin puede realizar la acción de Destrabarse u Ocultarse como acción adicional en cada uno de sus turnos.</p>"
         },
         "S6UTTLu0bEB32HNG": {
           "name": "Cimitarra"
@@ -801,7 +853,8 @@
           }
         },
         "91uPF10lBpn5EOhn": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El gólem tiene<strong> ventaja </strong>en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "K5xMZVNv8m2Pw87E": {
           "name": "Frenesí",
@@ -812,16 +865,19 @@
           }
         },
         "og0rfDmwPObM3ulb": {
-          "name": "Forma inmutable"
+          "name": "Forma inmutable",
+          "description": "<p>El gólem es inmune a cualquier conjuro o efecto que altere su forma.</p>"
         },
         "J1NgIuQWtR4G9JKd": {
-          "name": "Armas mágicas"
+          "name": "Armas mágicas",
+          "description": "<p>Los ataques con arma del gólem son mágicos.</p>"
         },
         "hftXBQthz8jMjFTs": {
           "name": "Absorción de ácido"
         },
         "g0R4u7liRAurxB04": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El gólem realiza dos ataques de [[/item Slam]].</p>"
         }
       }
     },
@@ -835,7 +891,8 @@
           "name": "Mordisco"
         },
         "5bFYYcQnfN1KtOwr": {
-          "name": "Vínculo telepático"
+          "name": "Vínculo telepático",
+          "description": "<p>Mientras el homúnculo esté en el mismo plano de existencia que su amo, puede transmitirle mágicamente lo que percibe, y ambos pueden comunicarse telepáticamente.</p>"
         }
       }
     },
@@ -857,13 +914,15 @@
       "creatureSubtype": "Demonio, cambiaformas",
       "items": {
         "vlmHYqAZxNGh8xQ6": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El quasit tiene<strong> ventaja </strong>en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "dLnawASvLiEnzgM2": {
           "name": "Garra (mordisco en forma de bestia)",
           "effects": {
             "jACky5dMvQcwhrK8": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo queda &amp;Reference[poisoned] durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
           }
         },
@@ -901,7 +960,8 @@
       "habitat": "Bosque",
       "items": {
         "MdbJir3UFvpFs2Zq": {
-          "name": "Olfato agudo"
+          "name": "Olfato agudo",
+          "description": "<p>El tejón tiene<strong> ventaja </strong>en las pruebas de Sabiduría (Percepción) que dependan del olfato.</p>"
         },
         "3cfTcHoBqseLoWVJ": {
           "name": "Mordisco"
@@ -910,7 +970,8 @@
           "name": "Garras"
         },
         "HhkkFQ7TFOfsKD9w": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El tejón realiza dos ataques: uno de [[/item Bite]] y uno de [[/item Claws]].</p>"
         }
       }
     },
@@ -927,7 +988,8 @@
           "name": "Jabalina"
         },
         "lJ2gJxLDBbFtLwdk": {
-          "name": "Armadura de pieles"
+          "name": "Armadura de pieles",
+          "description": "<p>Esta armadura rudimentaria está hecha de pieles y pelajes gruesos. Suelen llevarla tribus bárbaras, humanoides malvados y otros pueblos que no tienen acceso a las herramientas y materiales necesarios para fabricar armaduras mejores.</p>"
         }
       }
     },
@@ -941,10 +1003,12 @@
           "name": "Susceptibilidad a la antimagia"
         },
         "Kwed9PPaTkZYr8Jh": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p>Mientras la armadura permanezca inmóvil, es indistinguible de una armadura normal.</p>"
         },
         "bdRuWKCO8gXQPu16": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La armadura realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "vUqKQJ1GGWbKg6cX": {
           "name": "Golpe"
@@ -1022,12 +1086,14 @@
           "name": "Golpe de tentáculo",
           "effects": {
             "M09LwRYZ3wA0lGfJ": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>El objetivo está &amp;Reference[stunned] hasta el final del siguiente turno del otyugh.</p>"
             }
           }
         },
         "O9otNESvCCUdwYhc": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El otyugh realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Tentacles]].</p>"
         }
       }
     },
@@ -1038,10 +1104,12 @@
       "languages": "Un idioma cualquiera (normalmente común)",
       "items": {
         "vdaEgOdpIO2o7GNX": {
-          "name": "Armadura de pieles"
+          "name": "Armadura de pieles",
+          "description": "<p>Esta armadura rudimentaria está hecha de pieles y pelajes gruesos. Suelen llevarla tribus bárbaras, humanoides malvados y otros pueblos que no tienen acceso a las herramientas y materiales necesarios para fabricar armaduras mejores.</p>"
         },
         "Qzj9HKnvRGhYoggC": {
-          "name": "Temerario"
+          "name": "Temerario",
+          "description": "<p>Al comienzo de su turno, el bersérker puede obtener ventaja en todas las tiradas de ataque con arma cuerpo a cuerpo que realice durante ese turno, pero las tiradas de ataque contra él tienen ventaja hasta el comienzo de su siguiente turno.</p>"
         },
         "RrHhFZOd6QT75V3W": {
           "name": "Golpe psíquico"
@@ -1056,13 +1124,16 @@
       "habitat": "Infraoscuridad",
       "items": {
         "LKJEecvimhbb9hhg": {
-          "name": "Incursión etérea"
+          "name": "Incursión etérea",
+          "description": "<p>Como acción adicional, la araña puede pasar mágicamente del Plano Material al Plano Etéreo, o viceversa.</p>"
         },
         "X78NpT0YZG0rZcaP": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>La araña puede trepar por superficies difíciles, incluso boca abajo por los techos, sin realizar una prueba de característica.</p>"
         },
         "HZklbue3nXLHIevM": {
-          "name": "Caminar por telarañas"
+          "name": "Caminar por telarañas",
+          "description": "<p>La araña ignora las restricciones de movimiento causadas por las telarañas.</p>"
         },
         "2HPk5TdUTeEhD2eG": {
           "name": "Mordisco"
@@ -1107,7 +1178,8 @@
           "name": "Escudo"
         },
         "wqfAVANuQonNBgnL": {
-          "name": "Paso brumoso"
+          "name": "Paso brumoso",
+          "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
         },
         "zMAWdyc8UVb37BK4": {
           "name": "Sugestión"
@@ -1122,7 +1194,8 @@
           "name": "Volar"
         },
         "tEpDmYZNGc9f5OhJ": {
-          "name": "Invisibilidad mejorada"
+          "name": "Invisibilidad mejorada",
+          "description": "<p>Tú o una criatura que toques os volvéis invisibles hasta que termine el conjuro. Todo lo que el objetivo lleve puesto o transporte es invisible mientras lo lleve consigo.</p>"
         },
         "WN2LWEljYU6QqnRH": {
           "name": "Tormenta de hielo"
@@ -1148,13 +1221,16 @@
       "creatureSubtype": "Cambiaformas",
       "items": {
         "Cp2MgsVDDSRiF2aj": {
-          "name": "Emboscador"
+          "name": "Emboscador",
+          "description": "<p>En el primer asalto de un combate, el doppelganger tiene<strong> ventaja </strong>en las tiradas de ataque contra cualquier criatura a la que haya sorprendido.</p>"
         },
         "yfN4gklLV7zqhzxo": {
-          "name": "Ataque por sorpresa"
+          "name": "Ataque por sorpresa",
+          "description": "<p>Si el doppelganger sorprende a una criatura y la impacta con un ataque durante el primer asalto del combate, el objetivo recibe 10 (3d6) de daño adicional de ese ataque.</p>"
         },
         "Sr7ZTAYd1TQ6Nfto": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El doppelganger realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "scZU8bs551DZRvgC": {
           "name": "Golpe"
@@ -1180,7 +1256,8 @@
           "name": "Ballesta ligera"
         },
         "pByEnV0Y7QOI0ndA": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         }
       }
     },
@@ -1209,10 +1286,12 @@
           "name": "Congelación"
         },
         "6AQXZ1FlO8qhnPTR": {
-          "name": "Forma de agua"
+          "name": "Forma de agua",
+          "description": "<p>El elemental puede entrar en el espacio de una criatura hostil y detenerse allí. Puede pasar por un espacio de tan solo 1 pulgada de ancho sin apretujarse.</p>"
         },
         "9saHudPLoj6va2em": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El elemental realiza dos ataques de golpe.</p>"
         },
         "7xDGPsWicxgP6feT": {
           "name": "Golpe"
@@ -1233,10 +1312,12 @@
           "name": "Rastreador infalible"
         },
         "UR2TYdvh0VZzLKyO": {
-          "name": "Invisibilidad"
+          "name": "Invisibilidad",
+          "description": "<p>El acechador es invisible.</p>"
         },
         "bl0mrJpx4dqL9Ub8": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El acechador realiza dos ataques de golpe.</p>"
         },
         "rpKiEPQVeOZTLwjf": {
           "name": "Golpe"
@@ -1255,15 +1336,18 @@
       "habitat": "Subacuático",
       "items": {
         "Fz4N05s53rXx3EKX": {
-          "name": "Aguantar la respiración"
+          "name": "Aguantar la respiración",
+          "description": "<p>Fuera del agua, el pulpo puede aguantar la respiración durante 1 hora.</p>"
         },
         "NDE2nul3OiWsL2Hq": {
           "name": "Camuflaje subacuático",
-          "requirements": "Pulpo"
+          "requirements": "Pulpo",
+          "description": "<p>El pulpo tiene<strong> ventaja </strong>en las pruebas de Destreza (Sigilo) realizadas bajo el agua.</p>"
         },
         "WkrcqZN7dSJu9CYC": {
           "name": "Respirar bajo el agua",
-          "requirements": "Pulpo"
+          "requirements": "Pulpo",
+          "description": "<p>El pulpo solo puede respirar bajo el agua.</p>"
         },
         "HoGLXQIsF3riSu3X": {
           "name": "Nube de tinta"
@@ -1277,7 +1361,8 @@
           },
           "effects": {
             "A8xQGN6p5lt3iKas": {
-              "name": "Agarrado y apresado"
+              "name": "Agarrado y apresado",
+              "description": "<p>El objetivo está &amp;Reference[grappled apply=false] (CD 16 para escapar). Hasta que termine el agarre, la criatura está &amp;Reference[restrained apply=false] y la serpiente no puede constreñir a otro objetivo.</p>"
             }
           }
         }
@@ -1292,19 +1377,23 @@
           "name": "Espada corta"
         },
         "XTVxrbVzwmW887Pb": {
-          "name": "Armadura de cuero tachonado"
+          "name": "Armadura de cuero tachonado",
+          "description": "<p>La armadura de cuero tachonado está hecha de cuero resistente pero flexible, reforzado con remaches o púas muy juntos.</p>"
         },
         "AA695fXTUGE4MGhU": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El fanático realiza un ataque de Desgarro psíquico y dos con Espada corta.</p>"
         },
         "SXsHRU17Ru5MCepF": {
           "name": "Lanzamiento de conjuros (psiónico)"
         },
         "7BoBETkuRVQ9AJJn": {
-          "name": "Forma aberrante"
+          "name": "Forma aberrante",
+          "description": "<p>El fanático emana el caos del Reino Lejano. Cualquier criatura que no sea una aberración y comience su turno a 5 pies o menos del fanático debe superar una tirada de salvación de Sabiduría CD 15 o recibir 7 (2d6) de daño psíquico.</p>"
         },
         "qkiR0ZHbMO6OncEQ": {
-          "name": "Flexibilidad extraña"
+          "name": "Flexibilidad extraña",
+          "description": "<p>El fanático, junto con el equipo que lleve puesto o transporte, es antinaturalmente flexible. Puede pasar por cualquier espacio de tan solo 1 pulgada de ancho sin apretujarse.</p>"
         },
         "6vrEU3PgVQtC3fyJ": {
           "name": "Distorsión del vacío"
@@ -1375,16 +1464,19 @@
           }
         },
         "46nsSeJ6U86kobba": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>{creature} tiene<strong> ventaja </strong>en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "bw4fYdvd1FQxAPds": {
-          "name": "Armas mágicas"
+          "name": "Armas mágicas",
+          "description": "<p>Los ataques con arma de {creature} son mágicos.</p>"
         },
         "sq7RzU6BjoQf7wpM": {
           "name": "Lanzamiento de conjuros"
         },
         "ReirpMVGE28gxGkN": {
-          "name": "Teletransportarse"
+          "name": "Teletransportarse",
+          "description": "<p>El arcanaloth se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "Q38AQgcCvnyTl1Ww": {
           "name": "Descarga de fuego"
@@ -1524,7 +1616,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>Estos zombis fueron creados por la devastación mágica causada por la erupción del Monte Hotenow hace treinta años.</p>"
     },
     "pbsoBanshee00000": {
       "name": "Banshee",
@@ -1552,7 +1645,8 @@
                 }
               }
             }
-          }
+          },
+          "description": "<p>La banshee puede percibir mágicamente la presencia de criaturas que no sean muertos vivientes ni autómatas hasta a 5 millas de distancia. Conoce su dirección general, pero no su ubicación exacta.</p>"
         },
         "rSG2tYRoGjdDD3U2": {
           "name": "Toque corruptor"
@@ -1578,13 +1672,16 @@
           }
         },
         "Br1hkLaFdkkpowB9": {
-          "name": "Temerario"
+          "name": "Temerario",
+          "description": "<p>Al comienzo de su turno, el barlgura puede obtener ventaja en todas las tiradas de ataque con arma cuerpo a cuerpo que realice durante ese turno, pero las tiradas de ataque contra él tienen ventaja hasta el comienzo de su siguiente turno.</p>"
         },
         "5r9DjZB2dhAUgu6H": {
-          "name": "Salto con carrerilla"
+          "name": "Salto con carrerilla",
+          "description": "<p>Con carrerilla, el barlgura puede saltar hasta 40 pies de longitud y hasta 20 pies de altura.</p>"
         },
         "I4zJx6T7lZ3fhmWP": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El barlgura realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Fist]]{Puños}.</p>"
         },
         "4c1PP3emX7VHUule": {
           "name": "Mordisco"
@@ -1654,7 +1751,8 @@
           "name": "Rayos oculares"
         },
         "yB4KNNcTeWURkALQ": {
-          "name": "Rayo de hechizo"
+          "name": "Rayo de hechizo",
+          "description": "<p>La criatura objetivo debe superar una tirada de salvación de Sabiduría CD 16 o quedar &amp;Reference[charmed]{hechizada} por el contemplador durante 1 hora, o hasta que este le haga daño.</p>"
         },
         "mE1eabICJu4hrx5P": {
           "name": "Rayo paralizante"
@@ -1666,7 +1764,8 @@
           "name": "Rayo ralentizador"
         },
         "3y9RyZvkGjScxlor": {
-          "name": "Rayo de debilitamiento"
+          "name": "Rayo de debilitamiento",
+          "description": "<p>La criatura objetivo debe realizar una tirada de salvación de Constitución CD 16; recibe 36 (8d8) de daño necrótico si falla, o la mitad si tiene éxito.</p>"
         },
         "txO8mWSqaeNYxEe5": {
           "name": "Rayo telequinético"
@@ -1681,7 +1780,8 @@
           "name": "Rayo de desintegración"
         },
         "m5s2eogxxSmIizAZ": {
-          "name": "Rayo mortal"
+          "name": "Rayo mortal",
+          "description": "<p>La criatura objetivo debe superar una tirada de salvación de Destreza CD 16 o recibir 55 (10d10) de daño necrótico. Muere si el rayo la reduce a 0 puntos de golpe.</p>"
         },
         "rb3DsFPrkeNpX82z": {
           "name": "Acciones legendarias",
@@ -1703,7 +1803,8 @@
           "name": "Acción de guarida: tentáculos en las paredes"
         },
         "yDN78VOVnMtMTsME": {
-          "name": "Acción de guarida: alteración del terreno"
+          "name": "Acción de guarida: alteración del terreno",
+          "description": "<p>Un área de terreno de 50 pies de lado a 120 pies o menos del contemplador se vuelve viscosa; es terreno difícil hasta la cuenta de iniciativa 20 del siguiente asalto.</p>"
         }
       }
     },
@@ -1714,13 +1815,15 @@
       "languages": "Slaad; telepatía (60 pies)",
       "items": {
         "lLMn1GbQhC4fqLRK": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "PQhPdo7WBMDEyYGz": {
           "name": "Regeneración"
         },
         "fm5jdZMluTQ6kNjY": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El slaad realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Claw]].</p>"
         },
         "BmLUyjgxqRZWTC4q": {
           "name": "Mordisco"
@@ -1729,7 +1832,8 @@
           "name": "Garra",
           "effects": {
             "1s4OVg6M1qxoZ0G4": {
-              "name": "Infectado"
+              "name": "Infectado",
+              "description": "<p>El objetivo está infectado con fago del caos.</p>"
             }
           }
         }
@@ -1749,13 +1853,15 @@
           "name": "Detectar criaturas"
         },
         "LG42rs1qIXP7u8hu": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El rompecerebros tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "RHJH3o41naE1jPHV": {
           "name": "Nexo telepático"
         },
         "mbg00gBEosQNhhdy": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El rompecerebros realiza dos ataques de [[/item Tentacle]].</p>"
         },
         "2RBKYhp4HSIu5m0x": {
           "name": "Tentáculo",
@@ -1801,7 +1907,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>Los rompecerebros parecen cerebros gigantes con patas robustas y llevan armaduras de acero hechas de eslabones entrelazados con las runas de Ilvaash: nudos de tentáculos, cerebros y líneas dentadas que recuerdan a mandíbulas.</p>"
     },
     "pbsoBrughorAxebi": {
       "name": "Brughor Muerdehachas",
@@ -1816,10 +1923,12 @@
           "name": "Jabalina"
         },
         "nyrvuG12q4jnmy35": {
-          "name": "Agresivo"
+          "name": "Agresivo",
+          "description": "<p>Como acción adicional, el orco puede moverse hasta su velocidad hacia una criatura hostil que pueda ver.</p>"
         },
         "hdRkUV60J3vSiau6": {
-          "name": "Armadura de pieles"
+          "name": "Armadura de pieles",
+          "description": "<p>Esta armadura rudimentaria está hecha de pieles y pelajes gruesos. Suelen llevarla tribus bárbaras, humanoides malvados y otros pueblos que no tienen acceso a las herramientas y materiales necesarios para fabricar armaduras mejores.</p>"
         }
       }
     },
@@ -1833,13 +1942,16 @@
           "name": "Coraza"
         },
         "tjGPQJDcEvM525V3": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si el azotamentes falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "QStGd2Kn2YGeEwoL": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El azotamentes tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Vi77mf4861AfFLis": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El azotamentes realiza dos ataques de Tentáculo.</p>"
         },
         "RQ1kZFWK7kIOysKc": {
           "name": "Desatar el vacío"
@@ -1925,13 +2037,16 @@
           "name": "Coraza"
         },
         "tjGPQJDcEvM525V3": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si el azotamentes falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "QStGd2Kn2YGeEwoL": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El azotamentes tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Vi77mf4861AfFLis": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El azotamentes realiza dos ataques de [[/item Tentacle]].</p>"
         },
         "H3Eq72JfHTt1ZQlD": {
           "name": "Extraer cerebro"
@@ -2018,13 +2133,16 @@
       "languages": "Telepatía (60 pies)",
       "items": {
         "UIjIUZBMYCqoxhzs": {
-          "name": "Sensibilidad a la luz"
+          "name": "Sensibilidad a la luz",
+          "description": "<p>Mientras esté bajo luz brillante, la criatura mutada tiene <strong>desventaja</strong> en las tiradas de ataque.</p>"
         },
         "uR5Vs2SzEVkV9lNC": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La criatura mutada realiza un ataque de [[/item Corpse Swipe]] y dos de [[/item Tail]], o realiza cuatro ataques de Cola.</p>"
         },
         "RKJCxAKwyrjtbZdo": {
-          "name": "Evasión"
+          "name": "Evasión",
+          "description": "<p>Si la criatura mutada sufre un efecto que le permita realizar una tirada de salvación para recibir solo la mitad del daño, no recibe daño si la supera y solo recibe la mitad si la falla.</p>"
         },
         "uRadHweVgqb8hdl4": {
           "name": "Duplicados fantasmales"
@@ -2033,7 +2151,8 @@
           "name": "Golpe con cadáver",
           "effects": {
             "v9icfqehdDbFfBRT": {
-              "name": "Envenenado"
+              "name": "Envenenado",
+              "description": "<p>El objetivo tiene el estado envenenado durante 1 minuto. Mientras esté envenenada de esta forma, una criatura no puede recuperar puntos de golpe.</p>"
             }
           }
         },
@@ -2044,7 +2163,8 @@
           "name": "Gemido psíquico",
           "effects": {
             "J9GHxJqzSoTtLf4f": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[frightened]{asustado} hasta el final del siguiente turno de la criatura mutada.</p>"
             }
           },
           "activities": {
@@ -2067,13 +2187,16 @@
       "creatureSubtype": "Goblinoide",
       "items": {
         "Ti3XQOmTKdgcnpAa": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         },
         "sSs3hSzkKBMNBgTs": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "SxVatHq02vURYDt3": {
-          "name": "Huida ágil"
+          "name": "Huida ágil",
+          "description": "<p>El goblin puede realizar la acción de Destrabarse u Ocultarse como acción adicional en cada uno de sus turnos.</p>"
         },
         "S6UTTLu0bEB32HNG": {
           "name": "Cimitarra"
@@ -2094,13 +2217,16 @@
       "alignment": "Neutral malvado",
       "items": {
         "FtowTMRwCLqJPiit": {
-          "name": "Armadura de cuero tachonado"
+          "name": "Armadura de cuero tachonado",
+          "description": "<p>La armadura de cuero tachonado está hecha de cuero resistente pero flexible, reforzado con remaches o púas muy juntos.</p>"
         },
         "ycRGhaqbwk9XGi4d": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "UZwV6bb9jFiYcmIL": {
-          "name": "Linaje feérico"
+          "name": "Linaje feérico",
+          "description": "<p>El drow tiene ventaja en las tiradas de salvación para evitar quedar &amp;Reference[charmed]{hechizado}, y la magia no puede dormirlo.</p>"
         },
         "xNYXi9R4dBeiAxX9": {
           "name": "Lanzamiento innato de conjuros",
@@ -2111,10 +2237,12 @@
           }
         },
         "AnIp4UaGwiJT39Pb": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, el drow tiene <strong>desventaja</strong> en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "dhBMDOLttD61E2ap": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El drow realiza dos ataques con espada corta.</p>"
         },
         "gwpvyCBAObk6JkAx": {
           "name": "Espada corta"
@@ -2123,7 +2251,8 @@
           "name": "Ballesta de mano"
         },
         "30lpnVly2kmmAVgu": {
-          "name": "Parada"
+          "name": "Parada",
+          "description": "<p>El drow suma 3 a su CA contra un ataque cuerpo a cuerpo que fuera a impactarle. Para hacerlo, debe ver al atacante y estar empuñando un arma cuerpo a cuerpo.</p>"
         },
         "wEhO883TMZxDcKza": {
           "name": "Luces danzantes",
@@ -2166,7 +2295,8 @@
       "languages": "Entiende enano, pero no puede hablar",
       "items": {
         "QzpkoNQWu0XgTvNf": {
-          "name": "Pies firmes"
+          "name": "Pies firmes",
+          "description": "<p>El esqueleto tiene ventaja en las tiradas de salvación de Fuerza y Destreza contra efectos que le impongan el estado &amp;Reference[prone]{derribado}.</p>"
         },
         "4zWXF7cwfUgYwb7U": {
           "name": "Hacha de batalla"
@@ -2196,13 +2326,15 @@
           "name": "Detectar criaturas"
         },
         "HGRiJWfLLrO5geMA": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El cerebro anciano tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "3t4wZjGO6F1iQKzv": {
           "name": "Nexo telepático"
         },
         "mHTBFyBpsm1TxTkb": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El cerebro anciano realiza dos ataques de [[/item Tentacle]].</p>"
         },
         "MynnEBELobHf1Lxn": {
           "name": "Lanzamiento de conjuros (psiónico)"
@@ -2234,7 +2366,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>El Reino Lejano ha corrompido al cerebro anciano que alimenta a los azotamentes de Illithinoch.</p>"
     },
     "pbsoEncephalonCl": {
       "name": "Cúmulo de encéfalos",
@@ -2242,19 +2375,23 @@
       "alignment": "Sin alineamiento",
       "items": {
         "JYYRrhaETB8MC8rQ": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si el cúmulo falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "RF8DqTmJU8tEwIfh": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El cúmulo tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "1FUW6uVJnpRunl8v": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El cúmulo realiza dos ataques de [[/item Slam]]. Puede sustituir uno de ellos por [[/item Spawn Progeny]] si está disponible.</p>"
         },
         "oBHjawRAzw64Hfjf": {
           "name": "Golpe",
           "effects": {
             "KLAvXadFALMw63RA": {
-              "name": "Derribado por un golpe"
+              "name": "Derribado por un golpe",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[Prone apply=false].</p>"
             }
           }
         },
@@ -2280,7 +2417,8 @@
       "languages": "Entiende los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "u11iAe99PFZ1aMY3": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El espectro cinéreo realiza dos ataques de [[/item Necrotic Shard]].</p>"
         },
         "rw0SKSffUksbaqgY": {
           "name": "Fragmento necrótico"
@@ -2293,10 +2431,12 @@
       "alignment": "Normalmente neutral malvado",
       "items": {
         "HRRGWW3gAJm6LLWE": {
-          "name": "Monstruo de asedio"
+          "name": "Monstruo de asedio",
+          "description": "<p>La barrena inflige el doble de daño a objetos y estructuras.</p>"
         },
         "NgIDLdZpBdIcYjbG": {
-          "name": "Excavador"
+          "name": "Excavador",
+          "description": "<p>La barrena puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 10 pies de diámetro.</p>"
         },
         "M7gFhTpXhppDJd5H": {
           "name": "Taladro llameante"
@@ -2312,13 +2452,16 @@
       "alignment": "Neutral malvado",
       "items": {
         "EgdB2KdIVxHO6BD4": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La calavera llameante usa [[/item Fire Ray]] dos veces.</p>"
         },
         "UZuQFbBjpdFe7dFD": {
-          "name": "Iluminación"
+          "name": "Iluminación",
+          "description": "<p>La calavera llameante emite luz brillante en un radio de 15 pies, o luz brillante en un radio de 15 pies y luz tenue otros 15 pies más allá. Puede cambiar entre ambas opciones como acción.</p>"
         },
         "sKRijvyy8WyhLTKu": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>La calavera llameante tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "pvLbL08zWGkegbJ5": {
           "name": "Rejuvenecimiento"
@@ -2361,19 +2504,23 @@
       "languages": "Entiende todos los idiomas, pero no puede hablar",
       "items": {
         "o0HAfVCowroNpRQd": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>El amasijo de carne puede pasar por un espacio de tan solo 1 pulgada de ancho sin apretujarse.</p>"
         },
         "GMlttbSzCJSVr3px": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El amasijo de carne tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "yWEthhC8smlhiYQl": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El amasijo de carne puede trepar por superficies difíciles, incluidos los techos, sin realizar una prueba de característica.</p>"
         },
         "ihUVhLcpwnpB2IkK": {
           "name": "Mordisco"
         },
         "DBRkI4frFbm85VpA": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El amasijo de carne realiza dos ataques de [[/item Bite]].</p>"
         },
         "43peYTuFWlev4FaA": {
           "name": "Aura de muerte"
@@ -2397,13 +2544,15 @@
       "languages": "Telepatía (60 pies); entiende infracomún, pero no puede hablarlo",
       "items": {
         "qDehJMDmi5vG93u2": {
-          "name": "Telepatía avanzada"
+          "name": "Telepatía avanzada",
+          "description": "<p>El flumph puede percibir el contenido de cualquier comunicación telepática a 60 pies o menos de él, y no puede ser &amp;Reference[surprised]{sorprendido} por criaturas que posean alguna forma de telepatía.</p>"
         },
         "4p8R5JclL0oMbYOP": {
           "name": "Dificultad para levantarse"
         },
         "XQHVWj0KPX22sWnp": {
-          "name": "Velo telepático"
+          "name": "Velo telepático",
+          "description": "<p>El flumph es inmune a cualquier efecto que perciba sus emociones o lea sus pensamientos, así como a todos los conjuros de adivinación.</p>"
         },
         "IolQj4vA4MeO1syv": {
           "name": "Zarcillos"
@@ -2419,7 +2568,8 @@
       "alignment": "Caótico malvado",
       "items": {
         "mL3gBIdwakS5OqE2": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El fomoré ataca dos veces con su [[/item Greatclub]], o realiza un ataque con garrote grande y usa [[/item Evil Eye]] una vez.</p>"
         },
         "l2L7UXanuyB5JoL6": {
           "name": "Garrote grande"
@@ -2443,7 +2593,8 @@
       "alignment": "Neutral",
       "items": {
         "4KubZGWYK39epvbT": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p><span style=\"font-family:'Scala Sans Offc', Roboto, Helvetica, sans-serif\">Mientras el galeb duhr permanezca inmóvil, es indistinguible de una roca normal.</span></p>"
         },
         "dmRHTkF0rr78dF7w": {
           "name": "Golpe",
@@ -2474,10 +2625,12 @@
       "alignment": "Sin alineamiento",
       "items": {
         "VrxwEYWvvt63WqFZ": {
-          "name": "Progenie encefálica"
+          "name": "Progenie encefálica",
+          "description": "<p>La gémula madura hasta convertirse en un cúmulo de encéfalos si no muere en los 30 ([[/r 4d12 + 4]]) días siguientes a su creación.</p>"
         },
         "ntADgFFlEODKBrIY": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>La gémula tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mrz2wfgVrduEvH8Z": {
           "name": "Golpe psíquico"
@@ -2506,7 +2659,8 @@
           }
         },
         "FIobccRx0qa7oUyC": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El githyanki realiza dos ataques de [[/item Silver Greatsword]].</p>"
         },
         "8kUH436a3KJFVBpL": {
           "name": "Mandoble de plata"
@@ -2525,7 +2679,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura. Su distancia de salto se triplica hasta que termine el conjuro.</p>"
         },
         "nkHzkiuFKPCa9zmt": {
           "name": "Paso brumoso",
@@ -2533,7 +2688,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
         },
         "ccTYsks83N1UYwHm": {
           "name": "Indetectable",
@@ -2576,7 +2732,8 @@
       "creatureSubtype": "Gith",
       "items": {
         "6xZmn7UJiafxCQBW": {
-          "name": "Armadura de semiplacas"
+          "name": "Armadura de semiplacas",
+          "description": "<p>La armadura de semiplacas consta de placas de metal moldeadas que cubren la mayor parte del cuerpo del portador. No protege las piernas más allá de unas sencillas grebas sujetas con correas de cuero.</p>"
         },
         "PRoLLbKwND9uaWUB": {
           "name": "Lanzamiento innato de conjuros (psiónico)",
@@ -2587,10 +2744,12 @@
           }
         },
         "Sl8HTOsZ4m4rPgDg": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El githyanki realiza dos ataques de [[/item Greatsword]].</p>"
         },
         "FPhRiuyVDRn3DdRu": {
-          "name": "Mandoble"
+          "name": "Mandoble",
+          "description": "<p>Una imponente hoja a dos manos de más de cuatro pies de largo y casi cinco pulgadas de ancho. Esta arma exige un amplio entrenamiento marcial, pero quienes dominan su uso son guerreros formidables.</p>"
         },
         "l9uDLa9h4r1tvj4F": {
           "name": "Mano de mago",
@@ -2606,7 +2765,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura. Su distancia de salto se triplica hasta que termine el conjuro.</p>"
         },
         "LiVTv6NzY9Vh3rJy": {
           "name": "Paso brumoso",
@@ -2614,7 +2774,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
         },
         "OWY0J6txXBK8YavW": {
           "name": "Indetectable",
@@ -2636,16 +2797,19 @@
           "name": "Camisa de malla"
         },
         "totAuHsLnS52ezZp": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "fPESXRHkWlg9qIIi": {
           "name": "Cimitarra"
         },
         "3lC4CDHv5hsPr5jo": {
-          "name": "Jabalina"
+          "name": "Jabalina",
+          "description": "<p>Esta lanza ligera y flexible está diseñada para arrojarla, pero resulta lo bastante versátil como para usarla también en combate cuerpo a cuerpo.</p>"
         },
         "H2sTHM0QkYTOa5cD": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El goblin realiza dos ataques con su [[/item Scimitar]]. El segundo ataque tiene desventaja.</p>"
         },
         "rglr1r8wKSuu7MWB": {
           "name": "Redirigir ataque",
@@ -2655,10 +2819,12 @@
                 "condition": "Cuando una criatura que el goblin pueda ver lo elige como objetivo de un ataque"
               }
             }
-          }
+          },
+          "description": "<p>Cuando una criatura que el goblin pueda ver lo elige como objetivo de un ataque, el goblin elige a otro goblin a 5 pies o menos. Ambos intercambian sus posiciones y el goblin elegido pasa a ser el objetivo del ataque.</p>"
         },
         "xgLA7NE5S6eD5UuV": {
-          "name": "Huida ágil"
+          "name": "Huida ágil",
+          "description": "<p>El goblin puede realizar la acción de Destrabarse u Ocultarse como acción adicional en cada uno de sus turnos.</p>"
         }
       }
     },
@@ -2670,16 +2836,19 @@
       "languages": "Telepatía (30 pies)",
       "items": {
         "Y5FX4YEwVac5RUDB": {
-          "name": "Armadura de cuero tachonado"
+          "name": "Armadura de cuero tachonado",
+          "description": "<p>La armadura de cuero tachonado está hecha de cuero resistente pero flexible, reforzado con remaches o púas muy juntos.</p>"
         },
         "VRWXwFqOk5b3Z6az": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El goblin realiza dos ataques de [[/item Unarmed Strike]].</p>"
         },
         "5dzQkNRBrNddEt8Q": {
           "name": "Ataque sin armas"
         },
         "xes5EUWLQUmB30P2": {
-          "name": "Huida ágil"
+          "name": "Huida ágil",
+          "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
         },
         "5OtmMNTSGJfr1nSM": {
           "name": "Estallido mental",
@@ -2692,7 +2861,8 @@
           }
         },
         "uvSdZxsjSUZKhbGy": {
-          "name": "Fortaleza mental"
+          "name": "Fortaleza mental",
+          "description": "<p>El goblin tiene ventaja en las tiradas de salvación contra efectos que le impongan los estados &amp;reference[charmed apply=false] o &amp;reference[frightened apply=false].</p>"
         },
         "pSii6qgG7peHWMLa": {
           "name": "Empujón telequinético",
@@ -2712,10 +2882,12 @@
       "languages": "Telepatía (60 pies)",
       "items": {
         "qr8bgU5Bp0ZT43Qs": {
-          "name": "Armadura de cuero tachonado"
+          "name": "Armadura de cuero tachonado",
+          "description": "<p>La armadura de cuero tachonado está hecha de cuero resistente pero flexible, reforzado con remaches o púas muy juntos.</p>"
         },
         "IIfQQyxDup2hRpDN": {
-          "name": "Fortaleza mental"
+          "name": "Fortaleza mental",
+          "description": "<p>El goblin tiene ventaja en las tiradas de salvación contra efectos que le impongan los estados hechizado o asustado.</p>"
         },
         "TqRVYyledc3Ktbza": {
           "name": "Estallido mental",
@@ -2728,10 +2900,12 @@
           }
         },
         "m1Q8Apw5SJjNtrEH": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El goblin realiza tres ataques de [[/item Psychic Blade]].</p>"
         },
         "F0RoZ97VrYaAPXwn": {
-          "name": "Huida ágil"
+          "name": "Huida ágil",
+          "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
         },
         "aGi3oH5vg8hupS45": {
           "name": "Hoja psíquica",
@@ -2760,7 +2934,8 @@
           "name": "Desgarro sináptico",
           "effects": {
             "PJ9EV7ppcKtrwrDm": {
-              "name": "Incapacitado"
+              "name": "Incapacitado",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[incapacitated apply=false] hasta el final del siguiente turno del goblin.</p>"
             }
           }
         },
@@ -2794,7 +2969,8 @@
           "name": "Hechizar persona",
           "effects": {
             "1QhUB3231btaCO0b": {
-              "name": "Hechizar persona"
+              "name": "Hechizar persona",
+              "description": "<p>El objetivo está hechizado por el lanzador hasta que termine el conjuro y lo considera un conocido amistoso. Cuando el conjuro termina, la criatura sabe que ha sido hechizada.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -2827,7 +3003,8 @@
       "languages": "Slaad; telepatía (60 pies)",
       "items": {
         "pVQGheqBD8OeSM7a": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "jX3Nl2ZkYFJYWQEq": {
           "name": "Regeneración"
@@ -2836,7 +3013,8 @@
           "name": "Mordisco (solo en forma de slaad)"
         },
         "QjTpdR9jDkpSX6GJ": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El slaad realiza tres ataques: uno de [[/item Bite (Slaad Form Only)]]{Mordisco} y dos de [[/item Claw (Slaad Form Only)]]{Garras} o [[/item Greatsword]].</p>"
         },
         "jedTzuQWqsKjy4ox": {
           "name": "Mandoble"
@@ -2856,7 +3034,8 @@
           }
         },
         "RwILZYbflPolBQju": {
-          "name": "Armas mágicas"
+          "name": "Armas mágicas",
+          "description": "<p>Los ataques con arma del slaad son mágicos.</p>"
         },
         "BOxei41lEef1BQwO": {
           "name": "Garra (solo en forma de slaad)"
@@ -2968,13 +3147,15 @@
           }
         },
         "5wasiKCS4L8jZYkh": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>{creature} tiene<strong> ventaja </strong>en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "fyzI8jLYjN7W3xGD": {
           "name": "Regeneración"
         },
         "MFPmLKf1Ynoi7MZ6": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El slaad realiza tres ataques: uno de [[/item Bite (Slaad Form Only)]] y dos de [[/item Claw (Slaad Form Only)]].</p>"
         },
         "nCZWWASHdKyg50Jy": {
           "name": "Mordisco (solo en forma de slaad)"
@@ -3051,7 +3232,8 @@
       "languages": "Grell",
       "items": {
         "Qti0YKNTe1SdIHxP": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El grell realiza dos ataques: uno de [[/item Tentacles]] y uno de [[/item Beak]].</p>"
         },
         "UqIrZNEzSymfgW43": {
           "name": "Tentáculos",
@@ -3073,7 +3255,8 @@
       "languages": "Grell",
       "items": {
         "z6owLOqxyvD1t25G": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El grell psíquico realiza un ataque de [[/item Tentacle]] y uno de [[/item Beak]].</p>"
         },
         "d9FqsNW4sMaN68nj": {
           "name": "Lanzamiento de conjuros (psiónico)"
@@ -3096,7 +3279,8 @@
           "name": "Armadura de mago",
           "effects": {
             "cfwMU7LuOJ619Lny": {
-              "name": "Armadura de mago"
+              "name": "Armadura de mago",
+              "description": "<p>La CA base del objetivo pasa a ser 13 + su modificador por Destreza.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3138,7 +3322,8 @@
       "alignment": "Neutral",
       "items": {
         "Yke4p9O8lCSdnMD1": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El grick realiza un ataque de [[/item Tentacles]]. Si impacta, puede realizar un ataque de [[/item Beak]] contra el mismo objetivo.</p>"
         },
         "GDZ4MBb1nYwEZHyS": {
           "name": "Tentáculos"
@@ -3147,7 +3332,8 @@
           "name": "Pico"
         },
         "OeFkDRBPATYvXYYU": {
-          "name": "Camuflaje rocoso"
+          "name": "Camuflaje rocoso",
+          "description": "<p>El grick tiene<strong> ventaja </strong>en las pruebas de Destreza (Sigilo) para esconderse en terreno rocoso.</p>"
         },
         "9volxDfBKariG69T": {
           "name": "Cola"
@@ -3217,7 +3403,8 @@
           }
         },
         "AzCXI8gadTlljSA5": {
-          "name": "Paso brumoso"
+          "name": "Paso brumoso",
+          "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
         },
         "rOTkNg4rr7vt25sg": {
           "name": "Sugestión"
@@ -3232,7 +3419,8 @@
           "name": "Volar"
         },
         "H3sGVJ7ByA1OGjQj": {
-          "name": "Invisibilidad mejorada"
+          "name": "Invisibilidad mejorada",
+          "description": "<p>Tú o una criatura que toques os volvéis invisibles hasta que termine el conjuro. Todo lo que el objetivo lleve puesto o transporte es invisible mientras lo lleve consigo.</p>"
         },
         "F1NfiT5vlWSlcjKg": {
           "name": "Tormenta de hielo"
@@ -3255,13 +3443,16 @@
           "name": "Coraza"
         },
         "tjGPQJDcEvM525V3": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si el azotamentes falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "QStGd2Kn2YGeEwoL": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El azotamentes tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Vi77mf4861AfFLis": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El azotamentes realiza dos ataques de [[/item Tentacle]].</p>"
         },
         "0k4yrPEaRl4ZCZmD": {
           "name": "Lanzamiento de conjuros (psiónico)",
@@ -3275,7 +3466,8 @@
           "name": "Desatar el vacío",
           "effects": {
             "JTxfKkLasDYPpRAy": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[stunned] durante 1 minuto.</p>"
             }
           }
         },
@@ -3355,16 +3547,20 @@
           "name": "Armadura de placas"
         },
         "BbwK9KSuLJgzZMZf": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "dWy0ELOxGirg9SU0": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El horror acorazado tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "X3l4Bq6vRDdxSVrq": {
-          "name": "Inmunidad a conjuros"
+          "name": "Inmunidad a conjuros",
+          "description": "<p>El horror acorazado es inmune a tres conjuros elegidos por su creador. Entre las inmunidades habituales se encuentran bola de fuego, calentar metal y relámpago.</p>"
         },
         "iyGm3DtX66XdxLE0": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El horror acorazado realiza dos ataques de [[/item Longsword]].</p>"
         },
         "4deTW1cRagaH45As": {
           "name": "Espada larga"
@@ -3378,7 +3574,8 @@
       "languages": "Telepatía (120 pies); entiende los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "2uD2UhXkP7HufJet": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El espectro cinéreo realiza dos ataques de [[/item Necrotic Shard]]. También usa [[/item Psionic Crown]] si está disponible.</p>"
         },
         "34eLcq70VbhTQxhx": {
           "name": "Corona psiónica",
@@ -3424,7 +3621,8 @@
               "name": "Apresado"
             },
             "AG4oDGjeGZOhQxyh": {
-              "name": "Petrificado"
+              "name": "Petrificado",
+              "description": "<p>La criatura queda &amp;Reference[petrified apply=false] al instante.</p>"
             }
           },
           "activities": {
@@ -3438,7 +3636,8 @@
           }
         },
         "udfhkp3BOEpgThbR": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La medusa realiza tres ataques cuerpo a cuerpo —uno de [[/item Snake Hair]] y dos de [[/item Shortsword]]— o dos ataques a distancia con su [[/item Longbow]].</p>"
         },
         "1N53jrQmsZuhiREF": {
           "name": "Cabellera de serpientes"
@@ -3460,13 +3659,16 @@
       "items": {
         "GwHvs7dln8hTpup2": {
           "name": "Ecolocalización",
-          "requirements": "Murciélago"
+          "requirements": "Murciélago",
+          "description": "<p>El horror ganchudo no puede usar su visión ciega mientras está ensordecido.</p>"
         },
         "UpXZwYtAnvFxCl8Z": {
-          "name": "Oído agudo"
+          "name": "Oído agudo",
+          "description": "<p>El horror ganchudo tiene <strong>ventaja</strong> en las pruebas de Sabiduría (Percepción) que dependan del oído.</p>"
         },
         "F9wxw1dphmZxaruj": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El horror ganchudo realiza dos ataques de [[/item Hook]].</p>"
         },
         "1l9kJXgD4EWuexAW": {
           "name": "Gancho"
@@ -3480,10 +3682,12 @@
       "languages": "Telepatía (60 pies)",
       "items": {
         "Q1nan0VdXog7TcQy": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Mientras esté bajo la luz solar, la criatura mutada tiene desventaja en las tiradas de ataque.</p>"
         },
         "6twt2yReHaZIgus3": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La criatura mutada realiza dos ataques de [[/item Unarmed Strike]] o [[/item Nightmare Blast]].</p>"
         },
         "g1sAuBYxavMiEQXS": {
           "name": "Ataque sin armas",
@@ -3493,12 +3697,14 @@
           "name": "Explosión de pesadilla",
           "effects": {
             "qU5OpkwCJWcGQaJR": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[frightened] hasta el comienzo del siguiente turno de la criatura mutada.</p>"
             }
           }
         },
         "4eoSuWx0iCO3TbiP": {
-          "name": "Vuelo defensivo"
+          "name": "Vuelo defensivo",
+          "description": "<p>Inmediatamente después de recibir daño, la criatura mutada vuela hasta su velocidad. Este movimiento no provoca ataques de oportunidad.</p>"
         }
       }
     },
@@ -3519,7 +3725,8 @@
           "name": "Lanzamiento de conjuros"
         },
         "gXHbttLY0pYT3Upq": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>Bastón de Cristal realiza dos ataques de [[/item Shocking Burst]].</p>"
         },
         "36o8Sc4MpPEafd6q": {
           "name": "Teletransportarse"
@@ -3540,13 +3747,15 @@
           "name": "Proyectil mágico"
         },
         "ZCF3Liv5BonHWz7V": {
-          "name": "Llave de la Guarida de los Redbrands"
+          "name": "Llave de la Guarida de los Redbrands",
+          "description": "<p>Una llave encontrada en la Guarida de los Redbrands.</p>"
         },
         "M6p3RjPROw5eflOK": {
           "name": "Armadura de mago",
           "effects": {
             "cfwMU7LuOJ619Lny": {
-              "name": "Armadura de mago"
+              "name": "Armadura de mago",
+              "description": "<p>La CA base del objetivo pasa a ser 13 + su modificador por Destreza.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3557,7 +3766,8 @@
           "name": "Escudo",
           "effects": {
             "6pbotGIvqQkraPva": {
-              "name": "Escudo"
+              "name": "Escudo",
+              "description": "<p>Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3565,7 +3775,8 @@
           }
         },
         "FC0jP5mdclkQ4RM6": {
-          "name": "Estallido eléctrico"
+          "name": "Estallido eléctrico",
+          "description": "<section id=\"secret-x6uViyYUhFKPgVjO\" class=\"secret\"><p>[[/attack extended]]. [[/damage extended]].</p></section><p>Bastón de Cristal ataca con un estallido eléctrico.</p>"
         }
       },
       "alignment": "Legal malvado",
@@ -3579,10 +3790,12 @@
       "languages": "Telepatía (100 millas)",
       "items": {
         "6laMO89QEpwYt2Yn": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La refracción realiza dos ataques de [[/item Dissonant Claw]].</p>"
         },
         "CTpMWKOgKUiGS8h3": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>La refracción tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "EZFQsbdxdHGvXUeD": {
           "name": "Detectar criaturas"
@@ -3610,19 +3823,22 @@
           "name": "Acciones legendarias"
         },
         "WXgHfyJUlIBbYR78": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si la refracción falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "bqLE7N3LHIHCjUsn": {
           "name": "Garra disonante"
         },
         "VJ2KxIoB481SEeOc": {
-          "name": "Teletransportarse"
+          "name": "Teletransportarse",
+          "description": "<p>La refracción se teletransporta, junto con el equipo que lleve puesto o transporte, hasta 120 pies a un lugar desocupado que pueda ver.</p>"
         },
         "o2b75DpSdxrAc3tk": {
           "name": "Romper la mente",
           "effects": {
             "SEUDC0cnkTte22ZB": {
-              "name": "Mente quebrantada"
+              "name": "Mente quebrantada",
+              "description": "<p>Los procesos mentales del objetivo se ven alterados, por lo que tiene <strong>desventaja</strong> en todas las pruebas de característica, tiradas de ataque y tiradas de salvación hasta el final de su siguiente turno.</p>"
             }
           }
         },
@@ -3689,7 +3905,8 @@
       "languages": "Entiende habla de las profundidades, pero no puede hablar; telepatía (60 pies)",
       "items": {
         "eNanFGpHm5zIBMkL": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El devorador de intelectos realiza un ataque de [[/item Claws]] y usa [[/item Devour Intellect]].</p>"
         },
         "8z0bYDwcsHCwynPp": {
           "name": "Ladrón de cuerpos"
@@ -3701,7 +3918,8 @@
           "name": "Devorar intelecto",
           "effects": {
             "SxuADu10IZqYv7rQ": {
-              "name": "Intelecto devorado"
+              "name": "Intelecto devorado",
+              "description": "<p>La puntuación de Inteligencia del objetivo se reduce a 0. El objetivo está &amp;Reference[stunned]{aturdido} hasta que recupere al menos un punto de Inteligencia.</p>"
             }
           }
         }
@@ -3717,10 +3935,12 @@
           "name": "Cacofonía de mentes"
         },
         "IzY5XNkIXQ9Vs0GS": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La trampa de intelecto realiza dos ataques de Tentáculo.</p>"
         },
         "VVblNF6YIa1zoTyQ": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>La trampa de intelecto tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "435X05oKVv5Z1jg5": {
           "name": "Tentáculo"
@@ -3747,16 +3967,20 @@
           "name": "Lucero del alba"
         },
         "CgwJLpd3sHn21cUQ": {
-          "name": "Ataque por sorpresa"
+          "name": "Ataque por sorpresa",
+          "description": "<p>Si el osgo sorprende a una criatura y la impacta con un ataque durante el primer asalto del combate, el objetivo recibe 7 (2d6) de daño adicional de ese ataque.</p>"
         },
         "BsMLwJ3gDd0jADY3": {
-          "name": "Bruto"
+          "name": "Bruto",
+          "description": "<p>Un arma cuerpo a cuerpo inflige un dado adicional de su daño cuando el osgo impacta con ella (incluido en el ataque).</p>"
         },
         "SvFPSD4QGfNEvB0c": {
-          "name": "Armadura de pieles"
+          "name": "Armadura de pieles",
+          "description": "<p>Esta armadura rudimentaria está hecha de pieles y pelajes gruesos. Suelen llevarla tribus bárbaras, humanoides malvados y otros pueblos que no tienen acceso a las herramientas y materiales necesarios para fabricar armaduras mejores.</p>"
         },
         "sSs3hSzkKBMNBgTs": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
         },
         "xwZYlJUYOv2J044p": {
           "name": "Jabalina"
@@ -3771,16 +3995,19 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "HTibqPZnGrnrtv5V": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El kraken puede respirar aire y agua.</p>"
         },
         "Aesanw8hrCpPHH8G": {
           "name": "Libertad de movimiento"
         },
         "tXPfdvkNuZ6c7Ore": {
-          "name": "Monstruo de asedio"
+          "name": "Monstruo de asedio",
+          "description": "<p>El kraken inflige el doble de daño a objetos y estructuras.</p>"
         },
         "aEg7FZpDOihZpD9d": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El kraken realiza tres ataques de [[/item Tentacle]] y puede sustituir cualquiera de ellos por un uso de [[/item Fling]].</p>"
         },
         "8hawsqXAitxKomx5": {
           "name": "Mordisco"
@@ -3795,7 +4022,8 @@
           "name": "Tormenta de relámpagos"
         },
         "a4o87JY5xqDm7Nru": {
-          "name": "Ataque de tentáculo o arrojar"
+          "name": "Ataque de tentáculo o arrojar",
+          "description": "<p>{creature} realiza un ataque de tentáculo o usa Arrojar.</p>"
         },
         "Xoc7H679JW6Zw98B": {
           "name": "Nube de tinta"
@@ -3819,22 +4047,27 @@
           "name": "Lanzamiento innato de conjuros"
         },
         "xmfeiPJlNua4BdUi": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El mezzoloth tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "WciWSqlnU0lTfq3r": {
-          "name": "Armas mágicas"
+          "name": "Armas mágicas",
+          "description": "<p>Los ataques con arma del mezzoloth son mágicos.</p>"
         },
         "UkxzJbKv626vFVdM": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El mezzoloth realiza dos ataques: uno de [[/item Claws]] y uno de [[/item Trident]].</p>"
         },
         "O3BgmokCc40ukiRI": {
           "name": "Garras"
         },
         "AIoNev25Smw1THcs": {
-          "name": "Teletransportarse"
+          "name": "Teletransportarse",
+          "description": "<p>El mezzoloth se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "I42edAlsKJHQtWZ0": {
-          "name": "Tridente"
+          "name": "Tridente",
+          "description": "<p>Una lanza de varias puntas diseñada para empalar al objetivo en varios puntos y mantenerlo inmovilizado. A menudo se usa junto con una red para atrapar y hostigar a los enemigos.</p>"
         },
         "0UYIdZgfMORC4rso": {
           "name": "Oscuridad",
@@ -3872,7 +4105,8 @@
           "name": "Coraza"
         },
         "8rljp7zKNHDZKqis": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p><span style=\"font-family:'Scala Sans Offc', Roboto, Helvetica, sans-serif\">El azotamentes tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</span></p>"
         },
         "KXH9oouqw4EM9gjQ": {
           "name": "Lanzamiento innato de conjuros (psiónico)",
@@ -3889,7 +4123,8 @@
           "name": "Explosión mental",
           "effects": {
             "o1pV0DESOWj4uRQG": {
-              "name": "Afectado por explosión mental"
+              "name": "Afectado por explosión mental",
+              "description": "<p>Una criatura que falle su salvación queda aturdida durante 1 minuto.</p>"
             }
           }
         },
@@ -3921,7 +4156,8 @@
           "name": "Dominar monstruo",
           "effects": {
             "fBMLyF7ftAaWmv1s": {
-              "name": "Dominar monstruo"
+              "name": "Dominar monstruo",
+              "description": "<p>El objetivo está hechizado y debe hacer todo lo posible por obedecer las órdenes del lanzador.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -3945,7 +4181,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "CVDl4957gStrqaTl": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El azotamentes tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "8m5B5mzvoymn921B": {
           "name": "Alerta"
@@ -3957,7 +4194,8 @@
           "name": "Látigo mental",
           "effects": {
             "0YFCQUSHeFazupj3": {
-              "name": "Azotado mentalmente"
+              "name": "Azotado mentalmente",
+              "description": "<p>La criatura tiene el estado aturdido durante 1 minuto.</p>"
             }
           }
         },
@@ -3997,7 +4235,8 @@
           "name": "Dominar monstruo",
           "effects": {
             "fBMLyF7ftAaWmv1s": {
-              "name": "Dominar monstruo"
+              "name": "Dominar monstruo",
+              "description": "<p>El objetivo está hechizado y debe hacer todo lo posible por obedecer las órdenes del lanzador.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4055,7 +4294,8 @@
           "name": "Aparición: drenar vida"
         },
         "3ERjE4pz2bgxXIPi": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, la aparición tiene<strong> desventaja </strong>en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         }
       },
       "tokenName": "Mormesk"
@@ -4084,13 +4324,16 @@
           "name": "Lanzamiento de conjuros"
         },
         "zr3Gs9CdFnGDIiDR": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Nezznar tiene <strong>desventaja</strong> en las tiradas de ataque mientras él o su objetivo estén bajo la luz solar.</p>"
         },
         "Tr8F0BbVqFDcUj2f": {
-          "name": "Linaje feérico"
+          "name": "Linaje feérico",
+          "description": "<p>Nezznar tiene ventaja en las tiradas de salvación para evitar o poner fin al estado &amp;Reference[charmed apply=false]{hechizado} que lo afecte, y la magia no puede dormirlo.</p>"
         },
         "4W7arUwBSlSqBuZp": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>Nezznar realiza dos ataques de Explosión venenosa.</p>"
         },
         "XVNSOD0GixL5wd9D": {
           "name": "Explosión venenosa"
@@ -4102,10 +4345,12 @@
           "name": "Bastón de la Araña"
         },
         "flDawBiokLtV3jjT": {
-          "name": "Poción de curación"
+          "name": "Poción de curación",
+          "description": "<p><em>El líquido rojo de la poción brilla al agitarlo.</em></p><p>Recuperas 2d4+2 puntos de golpe al beber esta poción.</p>"
         },
         "tdZlXkBG58O9h48u": {
-          "name": "Llave de hierro"
+          "name": "Llave de hierro",
+          "description": "<p>Una llave de hierro con la cabeza en forma de yunque.</p>"
         },
         "nx0MEwTuDyRsUajy": {
           "name": "Luces danzantes",
@@ -4154,7 +4399,8 @@
           "name": "Armadura de mago",
           "effects": {
             "cfwMU7LuOJ619Lny": {
-              "name": "Armadura de mago"
+              "name": "Armadura de mago",
+              "description": "<p>La CA base del objetivo pasa a ser 13 + su modificador por Destreza.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4201,13 +4447,16 @@
       "alignment": "Neutral malvado",
       "items": {
         "kwroxhPkHZRu3z9Z": {
-          "name": "Vista aguda"
+          "name": "Vista aguda",
+          "description": "<p>El nótico tiene <strong>ventaja</strong> en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "IwCZSbYtohkJVzG1": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El nótico realiza dos ataques de [[/item Claw]].</p>"
         },
         "tb58j615mxHY7Abc": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-UH4ybxROaLODperM\"><p>+4 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño cortante.</p></section><p>El nótico ataca con su Garra.</p>"
         },
         "rW0LRQAwoWPIZXtc": {
           "name": "Mirada putrefacta"
@@ -4227,16 +4476,19 @@
           "name": "Explosión mental"
         },
         "kwroxhPkHZRu3z9Z": {
-          "name": "Vista aguda"
+          "name": "Vista aguda",
+          "description": "<p>El nótico tiene <strong>ventaja</strong> en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "IwCZSbYtohkJVzG1": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El nótico realiza dos ataques de [[/item Claw]].</p>"
         },
         "Yph8vnGwI4VsrSpT": {
           "name": "Perspicacia extraña"
         },
         "AgC9LBN7g92xQI6a": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-APhVuKzxGT8EHM1r\"><p>+4 a impactar, alcance 5 pies, un objetivo. Impacto: 6 (1d6 + 3) de daño cortante.</p></section><p>El nótico ataca con su Garra.</p>"
         }
       }
     },
@@ -4256,13 +4508,16 @@
           }
         },
         "fU2hV03QpdfpVTpF": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El nycaloth tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "ADoNx6NhGhRuc83a": {
-          "name": "Armas mágicas"
+          "name": "Armas mágicas",
+          "description": "<p>Los ataques con arma del nycaloth son mágicos.</p>"
         },
         "l9bTQB5Q7XL0eKSL": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El nycaloth realiza dos ataques cuerpo a cuerpo, o realiza uno y se teletransporta antes o después del ataque.</p>"
         },
         "rKaHBaLu5IrGntP1": {
           "name": "Garra",
@@ -4273,10 +4528,12 @@
           }
         },
         "474nrWBAHH2zGac2": {
-          "name": "Teletransportarse"
+          "name": "Teletransportarse",
+          "description": "<p>El nycaloth se teletransporta mágicamente, junto con el equipo que lleve puesto o transporte, hasta 60 pies a un espacio desocupado que pueda ver.</p>"
         },
         "tIrVwrU886zQxMsT": {
-          "name": "Hacha a dos manos"
+          "name": "Hacha a dos manos",
+          "description": "<p>Esta enorme hacha tiene dos hojas gemelas en forma de media luna, montadas a ambos lados de un largo mango rematado en punta. Está diseñada para empuñarse a dos manos y partir a los enemigos en dos.</p>"
         },
         "SlptKWluz1LUtIRD": {
           "name": "Oscuridad",
@@ -4330,13 +4587,16 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "7xTAwJwXH2Py00RS": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El oculorbo tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "xMoVV82RjCNmxiuc": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El oculorbo realiza dos ataques de [[/item Dreadful Contact]] o cuatro de [[/item Eye Beam]].</p>"
         },
         "hVfbJ0h0RHLa1Blt": {
-          "name": "Ojos vigilantes"
+          "name": "Ojos vigilantes",
+          "description": "<p>El oculorbo tiene <strong>ventaja</strong> en las tiradas de iniciativa y no puede ser &amp;Reference[surprise]{sorprendido}.</p>"
         },
         "9fozGA5iQSs2Rk5p": {
           "name": "Contacto aterrador"
@@ -4345,7 +4605,8 @@
           "name": "Haz ocular"
         },
         "F6UNGzJccKgTUqie": {
-          "name": "Inundación antipática"
+          "name": "Inundación antipática",
+          "description": "<p>El oculorbo libera una oleada de emociones negativas y elige una de las siguientes opciones: @UUID[.6YFSyrWx0GP6vLR6]{Ojos llorosos} o @UUID[.veLjObZ9BfrcGgeZ]{Mirada marchitadora}</p>"
         },
         "6YFSyrWx0GP6vLR6": {
           "name": "Ojos llorosos"
@@ -4354,7 +4615,8 @@
           "name": "Mirada marchitadora",
           "effects": {
             "WDH2igq2tiJdBQ2n": {
-              "name": "Marchitado"
+              "name": "Marchitado",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[Frightened] durante 1 minuto.</p>"
             }
           }
         },
@@ -4376,13 +4638,16 @@
       "languages": "Telepatía (60 pies)",
       "items": {
         "Q1nan0VdXog7TcQy": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Mientras esté bajo la luz solar, la criatura mutada tiene desventaja en las tiradas de ataque.</p>"
         },
         "6twt2yReHaZIgus3": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La criatura mutada realiza dos ataques de [[/item Unarmed Strike]] o [[/item Nightmare Blast]].</p>"
         },
         "4eoSuWx0iCO3TbiP": {
-          "name": "Vuelo defensivo"
+          "name": "Vuelo defensivo",
+          "description": "<p>Inmediatamente después de recibir daño, la criatura mutada vuela hasta su velocidad. Este movimiento no provoca ataques de oportunidad.</p>"
         },
         "UJwHs2hKZaWEwAvg": {
           "name": "Ataque sin armas",
@@ -4392,7 +4657,8 @@
           "name": "Explosión de pesadilla",
           "effects": {
             "IhuXnWN4F0yekH3d": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo tiene el estado &amp;Reference[frightened] hasta el comienzo del siguiente turno de la criatura mutada.</p>"
             }
           }
         }
@@ -4410,10 +4676,12 @@
           "name": "Cristal mental potenciado"
         },
         "Cj6qPhu5tuev75AB": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>Oshundo tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "amCthdt2gGJaPJPU": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>Oshundo realiza dos ataques de [[/item Chilling Grasp]] o [[/item Arcane Bolt]].</p>"
         },
         "OOQOc9dwO8VOZ5jd": {
           "name": "Lanzamiento de conjuros",
@@ -4433,7 +4701,8 @@
           "name": "Explosión atronadora",
           "effects": {
             "ADQnk6CdpUm5kAPo": {
-              "name": "Afectado por la explosión"
+              "name": "Afectado por la explosión",
+              "description": "<p>La criatura tiene el estado aturdido durante 1 minuto.</p>"
             }
           }
         },
@@ -4445,7 +4714,8 @@
                 "condition": "Una criatura que pueda ver y que esté lanzando un conjuro a 60 pies o menos"
               }
             }
-          }
+          },
+          "description": "<p>Oshundo elige como objetivo a una criatura que pueda percibir a 60 pies o menos y que esté lanzando un conjuro. Si el conjuro es de nivel 3 o inferior, falla, pero no se gastan sus espacios de conjuro ni sus cargas.</p>"
         },
         "qS98EQIwYGyqUrK4": {
           "name": "Luces danzantes",
@@ -4499,7 +4769,8 @@
           "name": "Dominar monstruo",
           "effects": {
             "fBMLyF7ftAaWmv1s": {
-              "name": "Dominar monstruo"
+              "name": "Dominar monstruo",
+              "description": "<p>El objetivo está hechizado y debe hacer todo lo posible por obedecer las órdenes del lanzador.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4557,7 +4828,8 @@
       "alignment": "Normalmente neutral",
       "items": {
         "kgQ07Hadtl7CcUar": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>[[lookup @name]] realiza dos ataques de [[/item Bite]] o [[/item Tentacle]]. Puede sustituir uno de ellos por [[/item Chitin Slam]].</p>"
         },
         "1DsYXRDXLpsjcIUN": {
           "name": "Tentáculo"
@@ -4602,7 +4874,8 @@
       "languages": "Telepatía (120 pies); entiende los idiomas que conocía en vida, pero no puede hablar",
       "items": {
         "FzWl3jHuTDujQaD7": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El espectro cinéreo realiza dos ataques de Fragmento necrótico. También usa Corona psiónica si está disponible.</p>"
         },
         "ZFagudTM2Icfnvrn": {
           "name": "Lanzamiento de conjuros (psiónico)"
@@ -4642,13 +4915,15 @@
       "alignment": "Sin alineamiento",
       "items": {
         "889AV3zKsC94PJkk": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>El cieno puede pasar por un espacio de tan solo 1 pulgada de ancho sin apretujarse.</p>"
         },
         "xyBVpucOyyF9RH3V": {
           "name": "Corroer metal"
         },
         "dajbi3cr6CUeGNuV": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p>Mientras el cieno permanezca inmóvil, es indistinguible de un charco aceitoso o una roca húmeda.</p>"
         },
         "B9SuvIVzGSmsqeHA": {
           "name": "Aplastamiento psíquico"
@@ -4665,7 +4940,8 @@
       "alignment": "Caótico neutral",
       "items": {
         "vVgCcywu3Rq5iffe": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El quaggoth realiza dos ataques de [[/item Claw]].</p>"
         },
         "eMppQZyDD5wEiUXV": {
           "name": "Garra"
@@ -4693,7 +4969,8 @@
       "alignment": "Caótico neutral",
       "items": {
         "vVgCcywu3Rq5iffe": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El quaggoth realiza dos ataques de [[/item Claw]].</p>"
         },
         "eMppQZyDD5wEiUXV": {
           "name": "Garra"
@@ -4774,13 +5051,15 @@
       "languages": "Telepatía (60 pies)",
       "items": {
         "SAVmnmc5x2INF2bi": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>Qunbraxel tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "dLPzLIldIFjTxtsO": {
           "name": "Explosión mental",
           "effects": {
             "kZN3vLD9gKY45t6q": {
-              "name": "Afectado por explosión mental"
+              "name": "Afectado por explosión mental",
+              "description": "<p>La criatura tiene el estado aturdido durante 1 minuto.</p>"
             }
           }
         },
@@ -4799,7 +5078,8 @@
           }
         },
         "wzoiL7unxPuIcDG8": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>Qunbraxel realiza dos ataques de [[/item Eldritch Bolt]], o uno de Descarga sobrenatural y uno de [[/item Tentacle]].</p>"
         },
         "tS0IRglM9Erb10KX": {
           "name": "Descarga sobrenatural"
@@ -4808,7 +5088,8 @@
           "name": "Tentáculo",
           "effects": {
             "6d4p6RWGPmhTQTFY": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>La criatura tiene el estado aturdido hasta que termine el agarre.</p>"
             }
           }
         },
@@ -4840,7 +5121,8 @@
           "name": "Armadura de mago",
           "effects": {
             "cfwMU7LuOJ619Lny": {
-              "name": "Armadura de mago"
+              "name": "Armadura de mago",
+              "description": "<p>La CA base del objetivo pasa a ser 13 + su modificador por Destreza.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4891,7 +5173,8 @@
           "name": "Dominar monstruo",
           "effects": {
             "fBMLyF7ftAaWmv1s": {
-              "name": "Dominar monstruo"
+              "name": "Dominar monstruo",
+              "description": "<p>El objetivo está hechizado y debe hacer todo lo posible por obedecer las órdenes del lanzador.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -4921,10 +5204,12 @@
           "name": "Garra"
         },
         "mH6tqdBB7GDISM9m": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El slaad realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Claw]]{Garras}.</p>"
         },
         "TMdlkXpz3Zc0wEzC": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "R1K5MADSIynmFyT6": {
           "name": "Regeneración"
@@ -4939,11 +5224,13 @@
           "name": "Espada corta"
         },
         "Z87zO7jjPGNvDDH9": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         }
       },
       "alignment": "Normalmente neutral malvado",
-      "tokenName": "Rufianes Redbrand"
+      "tokenName": "Rufianes Redbrand",
+      "biography": "<p>Los rufianes Redbrand son matones despiadados, expertos en intimidación y violencia. Trabajan por dinero y no tienen escrúpulos.</p>"
     },
     "pbsoReidoth00000": {
       "name": "Reidoth",
@@ -4970,7 +5257,8 @@
           "name": "Enmarañar"
         },
         "snqD585GzIOzxlNQ": {
-          "name": "Zancada prodigiosa"
+          "name": "Zancada prodigiosa",
+          "description": "<p>Tocas a una criatura. La velocidad del objetivo aumenta en 10 pies hasta que termine el conjuro.</p>"
         },
         "sILrFD9bVDQVpLMK": {
           "name": "Hablar con los animales"
@@ -4987,7 +5275,8 @@
             "uM6rgctYpcbCVSkn": {
               "name": "Piel robliza"
             }
-          }
+          },
+          "description": "<p>Tocas a una criatura voluntaria. Hasta que termine el conjuro, la piel del objetivo adquiere una apariencia áspera similar a la corteza y su CA no puede ser inferior a 16, independientemente de la armadura que lleve.</p>"
         }
       }
     },
@@ -4997,7 +5286,8 @@
       "alignment": "Sin alineamiento",
       "items": {
         "Z8BmshpXldIVU1dP": {
-          "name": "Cuerpo ardiente"
+          "name": "Cuerpo ardiente",
+          "description": "<p>Una criatura que toque al remorhaz o lo impacte con un ataque cuerpo a cuerpo estando a 5 pies o menos de él recibe 10 (3d6) de daño de fuego.</p>"
         },
         "1SbhoDst9VjK9Dq7": {
           "name": "Mordisco"
@@ -5014,7 +5304,8 @@
       "languages": "Los idiomas que conocía en vida",
       "items": {
         "P4V2MYNeFYp1bMDQ": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         },
         "6JRwA0ar66hRjJrd": {
           "name": "Regeneración"
@@ -5023,10 +5314,12 @@
           "name": "Rejuvenecimiento"
         },
         "YdWIpXeLQb8CAFmU": {
-          "name": "Inmunidad a la expulsión"
+          "name": "Inmunidad a la expulsión",
+          "description": "<p>El renacido es inmune a los efectos que expulsan muertos vivientes.</p>"
         },
         "oJuGGwApWnwuauTG": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El renacido realiza dos ataques de [[/item Fist]].</p>"
         },
         "reDsM3qRBRjYCMPX": {
           "name": "Rastreador vengativo"
@@ -5071,10 +5364,12 @@
           "name": "Camisa de malla"
         },
         "UQwj9W2cUN6qDjL1": {
-          "name": "Camuflaje rocoso"
+          "name": "Camuflaje rocoso",
+          "description": "<p>El gnomo tiene <strong>ventaja</strong> en las pruebas de Destreza (Sigilo) para esconderse en terreno rocoso.</p>"
         },
         "EUTWcM0FjduWNKGP": {
-          "name": "Astucia gnoma"
+          "name": "Astucia gnoma",
+          "description": "<p>El gnomo tiene <strong>ventaja</strong> en las tiradas de salvación de Inteligencia, Sabiduría y Carisma contra la magia.</p>"
         },
         "8ajCRlnVP73TZuvC": {
           "name": "Lanzamiento innato de conjuros",
@@ -5102,10 +5397,12 @@
           "name": "Ceguera/sordera",
           "effects": {
             "59WpbiZFULwixyvC": {
-              "name": "Ceguera"
+              "name": "Ceguera",
+              "description": "<p>El objetivo está cegado mientras dura el conjuro. Al final de cada uno de sus turnos, puede realizar una tirada de salvación de Constitución. Si tiene éxito, el conjuro termina.</p>"
             },
             "H0SG0oq3VfiCxBOQ": {
-              "name": "Sordera"
+              "name": "Sordera",
+              "description": "<p>El objetivo está ensordecido mientras dura el conjuro. Al final de cada uno de sus turnos, puede realizar una tirada de salvación de Constitución. Si tiene éxito, el conjuro termina.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -5139,13 +5436,16 @@
           "name": "Cota de malla"
         },
         "5AF8RPVtqCJ2EuFq": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si Ruxithid falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "16EDvKD9kl8za1T6": {
-          "name": "Fortaleza mental"
+          "name": "Fortaleza mental",
+          "description": "<p>Ruxithid tiene ventaja en las tiradas de salvación contra los estados hechizado y asustado.</p>"
         },
         "u4kn78ObMMKNBu3Q": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>Ruxithid realiza dos ataques de [[/item Psi-Charged Scimitar]].</p>"
         },
         "O2l61LzC76zIy8Oj": {
           "name": "Cimitarra cargada de energía psiónica"
@@ -5154,15 +5454,18 @@
           "name": "Zarcillos cerebrales",
           "effects": {
             "dBuff7RUgWz6t4mL": {
-              "name": "Aturdido"
+              "name": "Aturdido",
+              "description": "<p>El objetivo debe superar una tirada de salvación de Destreza CD 15 o recibir 9 (2d8) de daño psíquico y tener el estado &amp;Reference[stunned] hasta el comienzo del siguiente turno de Ruxithid.</p>"
             }
           }
         },
         "PkzUjYoKFcylph2J": {
-          "name": "Orden de combate"
+          "name": "Orden de combate",
+          "description": "<p>Ruxithid ordena atacar a una criatura aliada que pueda ver a 60 pies o menos de él. La criatura puede usar inmediatamente su reacción para realizar un ataque con arma cuerpo a cuerpo contra un objetivo a su alcance.</p>"
         },
         "orKJ41r1hYtm2MPq": {
-          "name": "Llave de los aposentos"
+          "name": "Llave de los aposentos",
+          "description": "<p>Llave de los aposentos privados de Ruxithid. @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.vU8dDpPmNlmhFBDo]{Z10}</p>"
         }
       },
       "alignment": "Neutral malvado",
@@ -5175,7 +5478,8 @@
       "alignment": "Sin alineamiento",
       "items": {
         "ntADgFFlEODKBrIY": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>La gémula tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "mrz2wfgVrduEvH8Z": {
           "name": "Golpe psíquico"
@@ -5198,19 +5502,23 @@
           "name": "Flautas de marfil de Shalfi"
         },
         "XTVxrbVzwmW887Pb": {
-          "name": "Armadura de cuero tachonado"
+          "name": "Armadura de cuero tachonado",
+          "description": "<p>La armadura de cuero tachonado está hecha de cuero resistente pero flexible, reforzado con remaches o púas muy juntos.</p>"
         },
         "AA695fXTUGE4MGhU": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El fanático realiza un ataque de [[/item Psychic Rend]] y dos de [[/item Shortsword]].</p>"
         },
         "SXsHRU17Ru5MCepF": {
           "name": "Lanzamiento de conjuros (psiónico)"
         },
         "7BoBETkuRVQ9AJJn": {
-          "name": "Forma aberrante"
+          "name": "Forma aberrante",
+          "description": "<p>El fanático emana el caos del Reino Lejano. Cualquier criatura que no sea una aberración y comience su turno a 5 pies o menos del fanático debe superar una tirada de salvación de Sabiduría CD 15 o recibir 7 (2d6) de daño psíquico.</p>"
         },
         "qkiR0ZHbMO6OncEQ": {
-          "name": "Flexibilidad extraña"
+          "name": "Flexibilidad extraña",
+          "description": "<p>El fanático, junto con el equipo que lleve puesto o transporte, es antinaturalmente flexible. Puede pasar por cualquier espacio de tan solo 1 pulgada de ancho sin apretujarse.</p>"
         },
         "6vrEU3PgVQtC3fyJ": {
           "name": "Distorsión del vacío"
@@ -5257,7 +5565,8 @@
       "languages": "Slaad (lo entiende, pero no puede hablar)",
       "items": {
         "RIkjlEgQE4VCNISk": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El slaad tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "b8iTUfCz893HgDG2": {
           "name": "Mordisco"
@@ -5277,7 +5586,8 @@
           "name": "Rayo de confusión"
         },
         "H8qjYbnqZi63sIWr": {
-          "name": "Crear comida y agua"
+          "name": "Crear comida y agua",
+          "description": "<p>El espectador crea mágicamente comida y agua suficientes para sustentarse durante 24 horas.</p>"
         },
         "FilMHS7RIedRnhIg": {
           "name": "Reflejar conjuros",
@@ -5301,10 +5611,12 @@
           "name": "Hedor"
         },
         "0e79KozTuEIFTOLQ": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, el troglodita tiene <strong>desventaja</strong> en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "8F19yfJBQBQHxm82": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El troglodita realiza tres ataques: uno de [[/item Bite]] y dos de [[/item Claw]]{Garras}.</p>"
         },
         "6kvVYZURmRaLeyrh": {
           "name": "Garra"
@@ -5313,7 +5625,8 @@
           "name": "Mordisco"
         },
         "Cz1tQPWtndyT8XM4": {
-          "name": "Piel de camaleón"
+          "name": "Piel de camaleón",
+          "description": "<p>El troglodita tiene <strong>ventaja</strong> en las pruebas de Destreza (Sigilo) para esconderse.</p>"
         }
       }
     },
@@ -5324,7 +5637,8 @@
       "languages": "Entiende común, pero no puede hablar",
       "items": {
         "jrTcifRK39k0bu6V": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p>Mientras la criatura marchita permanezca inmóvil, es indistinguible de un arbusto muerto.</p>"
         },
         "qW4UQvAKTes3clgo": {
           "name": "Garras"
@@ -5341,10 +5655,12 @@
           "name": "Mirada desconcertante"
         },
         "JsaWQVHkQ1M7xISf": {
-          "name": "Excavador"
+          "name": "Excavador",
+          "description": "<p>La mole sombría puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 5 pies de ancho y 8 pies de alto.</p>"
         },
         "DHuJrpegxVAyb0yU": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La mole sombría realiza tres ataques: dos de [[/item Claws]] y uno de [[/item Mandibles]].</p>"
         },
         "Bcy68dYNMFmyALFo": {
           "name": "Garra"
@@ -5364,13 +5680,16 @@
           "name": "Coraza"
         },
         "tjGPQJDcEvM525V3": {
-          "name": "Resistencia legendaria"
+          "name": "Resistencia legendaria",
+          "description": "<p>Si el azotamentes falla una tirada de salvación, puede elegir superarla en su lugar.</p>"
         },
         "QStGd2Kn2YGeEwoL": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El azotamentes tiene <strong>ventaja</strong> en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "Vi77mf4861AfFLis": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El azotamentes realiza dos ataques de Tentáculo.</p>"
         },
         "0k4yrPEaRl4ZCZmD": {
           "name": "Lanzamiento de conjuros (psiónico)"
@@ -5451,10 +5770,12 @@
       "languages": "Entiende acuano, pero no habla",
       "items": {
         "YB35EXn6D9DVYdBA": {
-          "name": "Invisible en el agua"
+          "name": "Invisible en el agua",
+          "description": "<p>El extraño de agua es invisible mientras está completamente sumergido en agua.</p>"
         },
         "S1r7HFlssgTwxQDs": {
-          "name": "Vinculado al agua"
+          "name": "Vinculado al agua",
+          "description": "<p>El extraño de agua muere si abandona el agua a la que está vinculado o si esa agua es destruida.</p>"
         },
         "t9sY6EXCDrZ1Gsu2": {
           "name": "Constreñir",
@@ -5472,16 +5793,20 @@
           "name": "Cambiaformas"
         },
         "1ImrMJVu1MjNqPXd": {
-          "name": "Resistencia mágica"
+          "name": "Resistencia mágica",
+          "description": "<p>El yochlol tiene ventaja en las tiradas de salvación contra conjuros y otros efectos mágicos.</p>"
         },
         "wvKv1ALnjX92l2lm": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El yochlol puede trepar por superficies difíciles, incluso boca abajo por los techos, sin realizar una prueba de característica.</p>"
         },
         "ngK04nKjWt4Ba0oc": {
-          "name": "Caminar por telarañas"
+          "name": "Caminar por telarañas",
+          "description": "<p>El yochlol ignora las restricciones de movimiento causadas por las telarañas.</p>"
         },
         "fPFTKhzCbXp5sZw1": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El yochlol realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "MazbueNJtxArOXzs": {
           "name": "Lanzamiento innato de conjuros"
@@ -5517,7 +5842,8 @@
           "name": "Dominar persona",
           "effects": {
             "t7q0nA3ojHoNF0A8": {
-              "name": "Dominar persona"
+              "name": "Dominar persona",
+              "description": "<p>El objetivo está hechizado y debe hacer todo lo posible por obedecer las órdenes del lanzador.</p>"
             },
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
@@ -5533,7 +5859,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "gV6NBIPwMNy0fjON": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>Lowarnizel puede respirar tanto aire como agua.</p>"
         },
         "AsDOKr55q49EtAZs": {
           "name": "Lanzamiento de conjuros (psiónico)"
@@ -5580,7 +5907,8 @@
           "name": "Garras"
         },
         "KQvs2cRdzWr33NQq": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>Lowarnizel realiza un ataque de Mordisco y dos de Garra.</p>"
         },
         "nbpEFnGnViHTUF0D": {
           "name": "Aliento de singularidad"
@@ -5589,7 +5917,8 @@
           "name": "Cambiar de forma"
         }
       },
-      "tokenName": "Dragón amatista joven"
+      "tokenName": "Dragón amatista joven",
+      "biography": "<p>Lowarnizel es un dragón amatista joven y su compañera es una @UUID[Actor.mQnsXanewsPiV7QE]{maga} humana legal neutral llamada Gossa. Ambos odian el Reino Lejano y todo lo que ha corrompido.</p>"
     },
     "qZyLwdx7lj5d1wfD": {
       "name": "Lazo",
@@ -5598,13 +5927,15 @@
       "habitat": "Infraoscuridad",
       "items": {
         "rnluQsu6p0n6s70W": {
-          "name": "Apariencia falsa"
+          "name": "Apariencia falsa",
+          "description": "<p>Mientras el lazo permanezca inmóvil, es indistinguible de una formación natural de una cueva, como una estalagmita.</p>"
         },
         "hQLj7Zzuva4M9KzH": {
           "name": "Zarcillos prensiles"
         },
         "JsrlYsn9HM9HAeKH": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>El lazo puede trepar por superficies difíciles, incluso boca abajo por los techos, sin realizar una prueba de característica.</p>"
         },
         "mBRjMwEitGrPDm5I": {
           "name": "Mordisco"
@@ -5613,10 +5944,12 @@
           "name": "Zarcillo"
         },
         "iGuyFLbKazqPCcXY": {
-          "name": "Atraer"
+          "name": "Atraer",
+          "description": "<p>El lazo atrae directamente hacia sí, hasta 25 pies, a cada criatura que tenga &amp;Reference[grappled]{agarrada}.</p>"
         },
         "fyF8vQbuvkuLKmKf": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El lazo realiza cuatro ataques con sus [[/item Tendril]]{zarcillos}, usa [[/item Reel]] y realiza un ataque de [[/item Bite]].</p>"
         }
       }
     },
@@ -5627,15 +5960,18 @@
       "languages": "Un idioma cualquiera (normalmente común)",
       "items": {
         "nfPMecUVS2iOgAKJ": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         },
         "MyhBa9G8ryUWGm5D": {
-          "name": "Devoción oscura"
+          "name": "Devoción oscura",
+          "description": "<p>El sectario tiene<strong> ventaja </strong>en las tiradas de salvación para evitar quedar hechizado o asustado.</p>"
         },
         "dldXP9XwjVIdIj5U": {
           "name": "Cimitarra"
         }
-      }
+      },
+      "biography": "<p>Los sectarios juran lealtad a poderes oscuros, como príncipes elementales, señores demoníacos o archidiablos. La mayoría oculta sus lealtades para evitar ser marginados, encarcelados o ejecutados por sus creencias.</p>"
     },
     "qoFEjfrANBdrCP6m": {
       "name": "Fantasma",
@@ -5644,7 +5980,8 @@
       "languages": "Los idiomas que conocía en vida",
       "items": {
         "tjrDz1IWVcjF7PMl": {
-          "name": "Visión etérea"
+          "name": "Visión etérea",
+          "description": "<p>El fantasma puede ver hasta <strong>60 pies</strong> en el Plano Etéreo mientras está en el Plano Material, y viceversa.</p>"
         },
         "SiBsPubItj26pcHa": {
           "name": "Movimiento incorpóreo"
@@ -5685,13 +6022,16 @@
       "languages": "Los idiomas que conocía en vida",
       "items": {
         "nkPIb1htkHIdbJ97": {
-          "name": "Armadura de cuero tachonado"
+          "name": "Armadura de cuero tachonado",
+          "description": "<p>La armadura de cuero tachonado está hecha de cuero resistente pero flexible, reforzado con remaches o púas muy juntos.</p>"
         },
         "qodTzcDY37TCj4GN": {
-          "name": "Sensibilidad a la luz solar"
+          "name": "Sensibilidad a la luz solar",
+          "description": "<p>Bajo la luz solar, el tumulario tiene<strong> desventaja </strong>en las tiradas de ataque y en las pruebas de Sabiduría (Percepción) que dependan de la vista.</p>"
         },
         "fKIUImfcNk0pU2HN": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El tumulario realiza dos ataques de [[/item Longsword]] o dos de [[/item Longbow]]. Puede usar [[/item Life Drain]] en lugar de uno de los ataques con espada larga.</p>"
         },
         "PUYwkzEiKopyM6YL": {
           "name": "Arco largo"
@@ -5711,13 +6051,16 @@
       "habitat": "Infraoscuridad",
       "items": {
         "Ctnlm397G5vkwWA4": {
-          "name": "Deslizarse por la tierra"
+          "name": "Deslizarse por la tierra",
+          "description": "<p>El elemental puede excavar a través de tierra y piedra no mágicas y sin trabajar. Al hacerlo, no altera el material que atraviesa.</p>"
         },
         "1fGoFeub69Dueemk": {
-          "name": "Monstruo de asedio"
+          "name": "Monstruo de asedio",
+          "description": "<p>El elemental inflige el doble de daño a objetos y estructuras.</p>"
         },
         "A8nxS57cG2yZpu1m": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El elemental realiza dos ataques de [[/item Slam]].</p>"
         },
         "2AD5aTLMPDmQFhGZ": {
           "name": "Golpe"
@@ -5742,10 +6085,12 @@
                 "chatFlavor": "¡El aboleth fija la mirada!"
               }
             }
-          }
+          },
+          "description": "<p>El aboleth realiza una prueba de Sabiduría (Percepción).</p>"
         },
         "nb2rVHLawik6EjMJ": {
-          "name": "Barrido de cola"
+          "name": "Barrido de cola",
+          "description": "<section class=\"secret\">\n<p>El aboleth realiza un ataque de cola.</p>\n</section>\n<p>¡El aboleth golpea a su presa con la cola!</p>"
         },
         "SCTJPlV2KrhVflgI": {
           "name": "Drenaje psíquico"
@@ -5754,22 +6099,26 @@
           "name": "Nube mucosa"
         },
         "R5sQYgehDyPiDyyE": {
-          "name": "Telepatía exploradora"
+          "name": "Telepatía exploradora",
+          "description": "<p>Si una criatura se comunica telepáticamente con el aboleth y este puede verla, el aboleth conoce sus mayores deseos.</p>"
         },
         "sgauK8Lyt8qxsxOH": {
           "name": "Tentáculo"
         },
         "FwOZEwx7MPDq8Igu": {
-          "name": "Cola"
+          "name": "Cola",
+          "description": "<section class=\"secret\">\n<p>Ataque con arma cuerpo a cuerpo: +9 a impactar, alcance 10 pies, un objetivo. Impacto: <strong>15 (3d6 + 5) <em>de daño contundente</em></strong>.</p>\n</section>\n<p>El aboleth ataca con su Cola.</p>"
         },
         "fI8m07LnyCCdsSpn": {
-          "name": "Anfibio"
+          "name": "Anfibio",
+          "description": "<p>El aboleth puede respirar aire y agua.</p>"
         },
         "Lnp6wFaKnkpuWJs2": {
           "name": "Enfermedad de los tentáculos"
         },
         "5zfFkWqOMddCmxiR": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El aboleth realiza tres ataques de [[/item Tentacle]].</p>"
         },
         "7GePgmNDyzzHHCKS": {
           "name": "Acciones de guarida"
@@ -5778,7 +6127,8 @@
           "name": "Acciones legendarias"
         },
         "a4mvD9abiTdVlDIh": {
-          "name": "Efectos regionales"
+          "name": "Efectos regionales",
+          "description": "<p>La mera presencia de una criatura legendaria puede producir efectos extraños y maravillosos en su entorno. Los efectos regionales terminan abruptamente o se disipan con el tiempo cuando la criatura legendaria muere.</p>"
         }
       }
     },
@@ -5789,7 +6139,8 @@
       "languages": "Los idiomas que conocía en vida",
       "items": {
         "uGJpXeUbei6zXTd1": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>La momia puede usar [[/item Dreadful Glare]] y realiza un ataque de [[/item Rotting Fist]].</p>"
         },
         "ik1IkSZi4fpiGbB3": {
           "name": "Puño putrefacto",
@@ -5803,7 +6154,8 @@
           "name": "Mirada aterradora",
           "effects": {
             "6BX2oJGQkeh2sLF7": {
-              "name": "Asustado"
+              "name": "Asustado",
+              "description": "<p>El objetivo queda &amp;Reference[frightened]{asustado} hasta el final del siguiente turno de la momia.</p>"
             },
             "vjvFhu5FFB80OiAL": {
               "name": "Aterrorizado"
@@ -5819,10 +6171,12 @@
       "habitat": "Infraoscuridad",
       "items": {
         "mZf3scqsBLavvot1": {
-          "name": "Camuflaje rocoso"
+          "name": "Camuflaje rocoso",
+          "description": "<p>El grick tiene<strong> ventaja </strong>en las pruebas de Destreza (Sigilo) para esconderse en terreno rocoso.</p>"
         },
         "dw5lQaT8ySNuOVd4": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El grick realiza un ataque de [[/item Tentacles]]. Si impacta, puede realizar un ataque de [[/item Beak]] contra el mismo objetivo.</p>"
         },
         "tkVlxJxg4LBVJvuX": {
           "name": "Tentáculos"
@@ -5840,16 +6194,19 @@
       "languages": "Un idioma cualquiera (normalmente común)",
       "items": {
         "vTb2KSllrajm88Ni": {
-          "name": "Armadura de cuero"
+          "name": "Armadura de cuero",
+          "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
         },
         "lSteE7vBmM70Jy3Z": {
-          "name": "Devoción oscura"
+          "name": "Devoción oscura",
+          "description": "<p>El fanático tiene<strong> ventaja </strong>en las tiradas de salvación para evitar quedar &amp;Reference[charmed]{hechizado} o &amp;Reference[frightened]{asustado}.</p>"
         },
         "KRbUbk5AkQOabBhO": {
           "name": "Lanzamiento de conjuros"
         },
         "WfqCnxOUS8aXxd7O": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El fanático realiza dos ataques cuerpo a cuerpo.</p>"
         },
         "zTX7ZTUkqUMSbGII": {
           "name": "Daga"
@@ -5870,7 +6227,8 @@
           "name": "Infligir heridas"
         },
         "jZ6JNykRtdQ90MOo": {
-          "name": "Escudo de fe"
+          "name": "Escudo de fe",
+          "description": "<p>Un campo reluciente aparece y rodea a una criatura de tu elección dentro del alcance, otorgándole un bonificador de +2 a la CA mientras dure el conjuro.</p>"
         },
         "3Lo9boi7P2ro6QV4": {
           "name": "Inmovilizar persona"
@@ -5878,7 +6236,8 @@
         "JbxsYXxSOTZbf9I0": {
           "name": "Arma espiritual"
         }
-      }
+      },
+      "biography": "<p>Los fanáticos suelen formar parte de la cúpula de un culto y usan su carisma y sus dogmas para influir en las personas de voluntad débil y aprovecharse de ellas. A la mayoría les interesa ante todo el poder personal.</p>"
     },
     "v99wOosUJjUgcUNF": {
       "name": "Araña gigante",
@@ -5887,13 +6246,16 @@
       "habitat": "Infraoscuridad",
       "items": {
         "OPXUPzkwhBaLTt7a": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>La araña puede trepar por superficies difíciles, incluso boca abajo por los techos, sin realizar una prueba de característica.</p>"
         },
         "1LTl2RCToU6ZLZdi": {
-          "name": "Sentir la telaraña"
+          "name": "Sentir la telaraña",
+          "description": "<p>Mientras esté en contacto con una telaraña, la araña conoce la ubicación exacta de cualquier otra criatura en contacto con esa misma telaraña.</p>"
         },
         "tEmV0HTreVHudOYa": {
-          "name": "Caminar por telarañas"
+          "name": "Caminar por telarañas",
+          "description": "<p>La araña ignora las restricciones de movimiento causadas por las telarañas.</p>"
         },
         "SuRAERXystPvC7Ci": {
           "name": "Mordisco",
@@ -5907,7 +6269,8 @@
           "name": "Telaraña",
           "effects": {
             "bhIaaq7vrSbcS58s": {
-              "name": "Apresado"
+              "name": "Apresado",
+              "description": "<p>El objetivo está &amp;Reference[restrained apply=false] por las telarañas.</p>"
             }
           }
         }
@@ -5920,7 +6283,8 @@
       "habitat": "Infraoscuridad",
       "items": {
         "LzR8BLFWMmqI6gTl": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El behir realiza dos ataques: uno de [[/item Bite]] y otro de [[/item Constrict]].</p>"
         },
         "4fNbTxkAFYHxDdJX": {
           "name": "Mordisco"
@@ -5952,10 +6316,12 @@
           "name": "Pseudópodo"
         },
         "Rrswv9BPB94D3xHQ": {
-          "name": "Amorfo"
+          "name": "Amorfo",
+          "description": "<p>La gelatina puede pasar por un espacio de tan solo 1 pulgada de ancho sin apretujarse.</p>"
         },
         "aaVwT7vVSywUzWhC": {
-          "name": "Trepar cual arácnido"
+          "name": "Trepar cual arácnido",
+          "description": "<p>La gelatina puede trepar por superficies difíciles, incluso boca abajo por los techos, sin realizar una prueba de característica.</p>"
         },
         "2ifhxY5f2Xs4GMxR": {
           "name": "Dividirse"
@@ -5973,7 +6339,8 @@
         },
         "gyY5rw0x4itzMKoj": {
           "name": "Pies firmes",
-          "requirements": "Cabra"
+          "requirements": "Cabra",
+          "description": "<p>La cabra tiene<strong> ventaja </strong>en las tiradas de salvación de Fuerza y Destreza contra efectos que la derriben.</p>"
         },
         "I3ioyE4CVHPLGGy7": {
           "name": "Embestida"
@@ -5987,16 +6354,19 @@
       "habitat": "Pradera",
       "items": {
         "z1WFJdHb8OXvW2yy": {
-          "name": "Oído y olfato agudos"
+          "name": "Oído y olfato agudos",
+          "description": "<p>El lobo tiene<strong> ventaja </strong>en las pruebas de Sabiduría (Percepción) que dependan del oído o del olfato.</p>"
         },
         "GtradZW0Fk8JKMAe": {
-          "name": "Tácticas de manada"
+          "name": "Tácticas de manada",
+          "description": "<p>El lobo tiene<strong> ventaja </strong>en una tirada de ataque contra una criatura si al menos uno de sus aliados está a <strong>5 pies</strong> o menos de ella y no está incapacitado.</p>"
         },
         "MuH5aMoKOyZanrFf": {
           "name": "Mordisco",
           "effects": {
             "TUUcjR5UnF0LSfie": {
-              "name": "Derribado"
+              "name": "Derribado",
+              "description": "<p>La criatura tiene el estado &amp;Reference[Prone].</p>"
             }
           }
         }
@@ -6019,13 +6389,15 @@
           "name": "Almacenamiento de conjuros"
         },
         "7R1cDGKMv0mdxaE7": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El guardián realiza dos ataques de [[/item Fist]].</p>"
         },
         "r6GQ1TwNK7pinX0a": {
           "name": "Puño"
         },
         "EjeLsaCua7yjgxax": {
-          "name": "Escudo"
+          "name": "Escudo",
+          "description": "<p>Cuando una criatura ataca al portador del amuleto del guardián, el guardián concede un bonificador de +2 a la CA del portador si se encuentra a 5 pies o menos de él.</p>"
         }
       }
     },
@@ -6036,10 +6408,12 @@
       "habitat": "Bosque",
       "items": {
         "QOTQoJFlLIMWmJsu": {
-          "name": "Vista y olfato agudos"
+          "name": "Vista y olfato agudos",
+          "description": "<p>El oso lechuza tiene<strong> ventaja </strong>en las pruebas de Sabiduría (Percepción) que dependan de la vista o del olfato.</p>"
         },
         "R7Vx1RxO8OjXpzQd": {
-          "name": "Ataque múltiple"
+          "name": "Ataque múltiple",
+          "description": "<p>El oso lechuza realiza dos ataques: uno de [[/item Beak]] y uno de [[/item Claws]].</p>"
         },
         "CwKQlVkFc2uJW0HL": {
           "name": "Pico"

@@ -46,6 +46,12 @@ def main():
                        'duplicate_names': {n: c for n, c in names.items() if c > 1}}
         lines.append(f'| {key} | {len(docs)} | {len(names)} |')
     pages = [p for j in adventure['journal'] for p in j['pages']]
+    translation = json.loads((ROOT / 'compendium/dnd-phandelver-below.pbso-adventures.json').read_text(encoding='utf-8'))['entries'][adventure['_id']]
+    lines += ['', '## Traducción actual por ID', '',
+              f"- Carpetas: {len(translation.get('folders', {}))} entradas.",
+              f"- Diarios: {len(translation.get('journals', {}))} entradas.",
+              f"- Páginas: {sum(len(j.get('pages', {})) for j in translation.get('journals', {}).values())} entradas.",
+              '- Presencia estructural; no equivale a revisión editorial ni prueba de integración.']
     lines += ['', f'Páginas de diario: {len(pages)}.', '',
               '## Consecuencias para la revisión', '',
               '- La estabilidad de IDs principales no demuestra que los textos o esquemas sean idénticos.',

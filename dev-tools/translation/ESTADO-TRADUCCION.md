@@ -5,6 +5,10 @@ Actualizado: 24 de septiembre de 2026.
 **Traducción parcial; fase 1 de revisión completada.** No se ha corregido
 ni aprobado editorialmente el contenido de `compendium/` en esta fase.
 
+Fase 2 en curso: registro limitado al español y claves de diarios, páginas y
+carpetas migradas a IDs, conservando el texto existente. Once pruebas superadas;
+integración con Foundry y mapeos de otros tipos pendientes. Véase [mapeos](MAPEOS.md).
+
 - Diagnóstico reproducible: 53 tablas con entradas, tres packs vacíos y Adventure
   con carpetas y diarios parcialmente cubiertos. Véase [inventario](INVENTARIO.md).
 - 310 páginas incluidas frente a 686 del export histórico; no equivale a 310

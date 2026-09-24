@@ -34,6 +34,8 @@ def main():
         target_path = ROOT / 'compendium' / name
         source = load(source_path)['entries']
         target = load(target_path)['entries']
+        if pack['documentName'] == 'Adventure' and load(target_path).get('mapping', {}).get('folders', {}).get('converter') == 'phandelverFoldersById':
+            raise SystemExit('Adventure now uses IDs. Historical name-key coverage is not comparable; use inventory_current.py. The historical INVENTARIO.md is preserved.')
         original = dict(strings(source))
         translated = dict(strings(target))
         shared = original.keys() & translated.keys()

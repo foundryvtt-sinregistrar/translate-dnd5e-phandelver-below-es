@@ -53,6 +53,7 @@
     ]
   },
   "esmodules": [
+    "scripts/converters.js",
     "scripts/babele-register.js"
   ],
   "authors": [

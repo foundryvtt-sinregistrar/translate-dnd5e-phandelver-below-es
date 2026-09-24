@@ -29,6 +29,13 @@ Se conservan documentos completos, IDs originales y SHA-256 por pack.
 | macros | 10 | 10 |
 | folders | 71 | 15 |
 
+## Traducción actual por ID
+
+- Carpetas: 71 entradas.
+- Diarios: 61 entradas.
+- Páginas: 310 entradas.
+- Presencia estructural; no equivale a revisión editorial ni prueba de integración.
+
 Páginas de diario: 686.
 
 ## Consecuencias para la revisión

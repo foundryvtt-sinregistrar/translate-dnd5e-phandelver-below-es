@@ -15,6 +15,9 @@ Avance de fase 2: registro limitado a `es` y variantes, mediante `babele.init`
 y `setup`, cuando ya existen los ajustes de idioma. Pruebas para `en`, `fr`,
 `es` y `es-ES` superadas. La validación del piloto sigue pendiente.
 
+Diarios, páginas y carpetas existentes migrados a IDs; convertidores restringidos
+a texto y pruebas con originales reales completados. Véase [mapeos](translation/MAPEOS.md).
+
 ## Punto de partida comprobado
 
 - [Inventario reproducible](translation/INVENTARIO.md): 406 documentos principales
@@ -42,7 +45,7 @@ y `setup`, cuando ya existen los ajustes de idioma. Pruebas para `en`, `fr`,
 |---|---|---|---|
 | 0. Referencias y diagnóstico | Extraer ambos PDF, conservar texto nativo, OCR, bloques, huellas y páginas dudosas; inventariar traducción existente | Manifiestos completos y sin errores; informe inicial reproducible | Preparado; extracción automática, no transcripción revisada |
 | 1. Fuentes actuales | Exportar los cinco packs originales con traducción desactivada, inventariar Adventure y registrar versiones y SHA-256 | Originales sin marcas de traducción; recuentos y claves contrastados con la API de Foundry | Completada; línea base 2026-09-24T19-12-21-788Z |
-| 2. Mapeos | Revisar esquemas y convertidores Babele para documentos y copias anidadas | Cada campo visible del piloto se aplica sin alterar mecánicas | Pendiente |
+| 2. Mapeos | Revisar esquemas y convertidores Babele para documentos y copias anidadas | Cada campo visible del piloto se aplica sin alterar mecánicas | En curso: idioma e identidad de diarios/carpetas implementados; integración y demás tipos pendientes |
 | 3. Glosario | Alinear EN/ES por título y contexto; decidir nombres, lugares y términos | Decisiones con pasaje EN, pasaje ES, ubicación Foundry y estado | Pendiente; criterios preparados |
 | 4. Piloto | Revisar una página, actor con objetos/actividades/efectos, objeto, tabla y escena con nota y token | Apertura directa e importación correctas; enlaces, tablas y tiradas funcionales | Pendiente |
 | 5. Revisión por lotes | Corregir contenido existente y completar huecos; registrar evidencia por campo/página | Cada lote pasa de pendiente a revisado y después a probado | Pendiente |

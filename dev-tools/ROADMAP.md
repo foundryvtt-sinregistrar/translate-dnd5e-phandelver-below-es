@@ -8,12 +8,12 @@ Aquí se parte de una **traducción parcial existente**, no de un borrador integ
 
 **Fase 1 completada:** originales exportados y validados desde Foundry 14.368 /
 dnd5e 6.0.3. Véase [fuentes actuales](translation/FUENTES-ACTUALES.md).
-Siguiente paso: fase 2, mapeos y resolución de claves por ID; no se ha iniciado
-todavía la corrección editorial de los lotes.
+El [informe de revisión](translation/INFORME-REVISION.md) recoge las correcciones,
+pruebas y pendientes. La revisión editorial integral sigue abierta.
 
 Avance de fase 2: registro limitado a `es` y variantes, mediante `babele.init`
 y `setup`, cuando ya existen los ajustes de idioma. Pruebas para `en`, `fr`,
-`es` y `es-ES` superadas. La validación del piloto sigue pendiente.
+`es` y `es-ES` superadas. Diario piloto importado y abierto correctamente.
 
 Diarios, páginas y carpetas existentes migrados a IDs; convertidores restringidos
 a texto y pruebas con originales reales completados. Véase [mapeos](translation/MAPEOS.md).
@@ -45,12 +45,12 @@ a texto y pruebas con originales reales completados. Véase [mapeos](translation
 |---|---|---|---|
 | 0. Referencias y diagnóstico | Extraer ambos PDF, conservar texto nativo, OCR, bloques, huellas y páginas dudosas; inventariar traducción existente | Manifiestos completos y sin errores; informe inicial reproducible | Preparado; extracción automática, no transcripción revisada |
 | 1. Fuentes actuales | Exportar los cinco packs originales con traducción desactivada, inventariar Adventure y registrar versiones y SHA-256 | Originales sin marcas de traducción; recuentos y claves contrastados con la API de Foundry | Completada; línea base 2026-09-24T19-12-21-788Z |
-| 2. Mapeos | Revisar esquemas y convertidores Babele para documentos y copias anidadas | Cada campo visible del piloto se aplica sin alterar mecánicas | En curso: idioma e identidad de diarios/carpetas implementados; integración y demás tipos pendientes |
-| 3. Glosario | Alinear EN/ES por título y contexto; decidir nombres, lugares y términos | Decisiones con pasaje EN, pasaje ES, ubicación Foundry y estado | Pendiente; criterios preparados |
-| 4. Piloto | Revisar una página, actor con objetos/actividades/efectos, objeto, tabla y escena con nota y token | Apertura directa e importación correctas; enlaces, tablas y tiradas funcionales | Pendiente |
+| 2. Mapeos | Revisar esquemas y convertidores Babele para documentos y copias anidadas | Cada campo visible del piloto se aplica sin alterar mecánicas | Integración del payload existente superada; tipos sin payload pendientes |
+| 3. Glosario | Alinear EN/ES por título y contexto; decidir nombres, lugares y términos | Decisiones con pasaje EN, pasaje ES, ubicación Foundry y estado | Primera concordancia documentada; divergencia Wave Echo Cave pendiente |
+| 4. Piloto | Revisar una página, actor con objetos/actividades/efectos, objeto, tabla y escena con nota y token | Apertura directa e importación correctas; enlaces, tablas y tiradas funcionales | Diario importado y presentación verificados; otros tipos pendientes |
 | 5. Revisión por lotes | Corregir contenido existente y completar huecos; registrar evidencia por campo/página | Cada lote pasa de pendiente a revisado y después a probado | Pendiente |
-| 6. Auditoría integral | Cobertura, inglés residual, HTML, UUID, embeds, números, fórmulas y consistencia entre copias | Incidencias cerradas o excepciones justificadas; importación completa en mundo limpio | Pendiente |
-| 7. Publicación | Ajustar compatibilidad solo con pruebas; revisar README, changelog, ZIP y workflow | Instalación del ZIP e importación verificadas; fuentes privadas fuera del paquete | Pendiente |
+| 6. Auditoría integral | Cobertura, inglés residual, HTML, UUID, embeds, números, fórmulas y consistencia entre copias | Incidencias cerradas o excepciones justificadas; importación completa en mundo limpio | Auditoría automática y comparación estructural ejecutadas; cierre editorial e importación pendientes |
+| 7. Publicación | Ajustar compatibilidad solo con pruebas; revisar README, changelog, ZIP y workflow | Instalación del ZIP e importación verificadas; fuentes privadas fuera del paquete | ZIP y workflow corregidos y contenido comprobado; instalación y publicación pendientes |
 
 ## Orden de revisión
 
@@ -103,4 +103,5 @@ La lista por página Foundry debe enlazar las dos referencias de forma independi
 Consultar [estado](translation/ESTADO-TRADUCCION.md),
 [procedimiento](translation/README.md), [glosario](translation/GLOSARIO.md) y
 [validación](translation/VALIDACION.md). La exportación se ha ejecutado en Foundry;
-todavía no se han probado traducciones, importación completa ni publicación.
+se han probado aplicación de traducciones, diario piloto e interfaz. Quedan
+importación completa, instalación del ZIP y publicación.

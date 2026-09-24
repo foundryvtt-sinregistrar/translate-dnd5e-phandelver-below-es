@@ -23,6 +23,13 @@ También puedes descargar el ZIP de la [última versión](https://github.com/fou
 
 La traducción está en desarrollo. Las **53 tablas de trasfondo** del compendio de opciones para jugadores están traducidas al español. El compendio de aventuras contiene una primera tanda de diarios traducidos; los demás compendios siguen pendientes.
 
+La revisión del 24 de septiembre de 2026 comprobó la aplicación de los textos
+existentes en Foundry 14.368 / dnd5e 6.0.3, con Babele 2.9.1 y aventura 3.1.0.
+Hay 309 páginas con texto traducido de las 521 que contienen texto original,
+además de la interfaz propia de la aventura. La revisión editorial completa y
+la importación integral siguen pendientes. Consulta el
+[informe de revisión](dev-tools/translation/INFORME-REVISION.md) en el repositorio.
+
 ## Desarrollo
 
 Las traducciones se almacenan en `compendium/`, usando el identificador original de cada documento dentro de `entries`.

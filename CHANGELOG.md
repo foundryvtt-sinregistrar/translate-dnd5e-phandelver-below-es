@@ -6,15 +6,18 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-- —
+- Spanish adventure presentation, cover caption and all 31 PBSO interface strings.
+- Reproducible coverage, runtime and protected-field audits with review reports.
 
 ### Changed
 
-- —
+- Adventure journal, page and folder translations use original document IDs.
+- Release ZIP and manifest are built from the same Git ref and checked for private files.
 
 ### Fixed
 
-- —
+- Babele registration waits for language settings and applies only to Spanish locales.
+- Converter loading is guaranteed by an explicit import from the entry module.
 
 ---
 

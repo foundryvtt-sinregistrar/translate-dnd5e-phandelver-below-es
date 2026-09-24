@@ -2,12 +2,15 @@
 
 Actualizado: 24 de septiembre de 2026.
 
-**Traducción parcial; fase 1 de revisión completada.** No se ha corregido
-ni aprobado editorialmente el contenido de `compendium/` en esta fase.
+**Traducción parcial; integración del contenido existente validada.**
+Se corrigieron registro, identidad y carga de convertidores; se tradujeron
+presentación, pie de portada y las 31 cadenas de interfaz propias del módulo.
+El resto de la prosa no tiene todavía aprobación editorial integral.
 
 Fase 2 en curso: registro limitado al español y claves de diarios, páginas y
 carpetas migradas a IDs, conservando el texto existente. Once pruebas superadas;
-integración con Foundry y mapeos de otros tipos pendientes. Véase [mapeos](MAPEOS.md).
+406 documentos procesados en Foundry sin errores. Mapeos de otros tipos
+pendientes. Véase [mapeos](MAPEOS.md).
 
 - Diagnóstico reproducible: 53 tablas con entradas, tres packs vacíos y Adventure
   con carpetas y diarios parcialmente cubiertos. Véase [inventario](INVENTARIO.md).
@@ -20,8 +23,13 @@ integración con Foundry y mapeos de otros tipos pendientes. Véase [mapeos](MAP
   capa nativa, bloques y OCR. Véase [guía de extracción](../export/README.md).
 - Roadmap, procedimiento, criterios de glosario y controles de validación creados.
 
-Quedan pendientes mapeos, glosario contrastado, piloto,
-revisión por capítulos y packs, auditorías completas, prueba de importación y
-publicación. Se creó la macro «Phandelver — Exportar originales 14.368» y se
+Hay 309 textos traducidos de 521 páginas con texto: faltan 212, además de
+títulos y pies de ilustraciones. Véase [cobertura por diario](COBERTURA-ACTUAL.md).
+
+Quedan pendientes los demás tipos del piloto, revisión por capítulos y packs,
+cierre numérico y terminológico, importación completa e instalación del ZIP.
+El [informe de revisión](INFORME-REVISION.md) distingue resultados y pendientes.
+Se creó la macro «Phandelver — Exportar originales 14.368» y se
 desactivó temporalmente la traducción para exportar; después se restauró.
-Babele permaneció activo por dependencias. No se importó la aventura.
+Babele permaneció activo por dependencias. Se creó un diario piloto en
+«Phandelver - Revision»; no se importó la aventura completa.

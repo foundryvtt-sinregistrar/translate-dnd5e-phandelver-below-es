@@ -31,14 +31,33 @@ Si faltan los originales locales, esa prueba se omite explícitamente.
 
 ## Pendiente para cerrar la fase
 
-- Recargar el módulo en Foundry y comprobar registro efectivo y aplicación de
-  estos convertidores con Babele 2.9.1, apertura del diario y carpetas importadas.
+- Integración de diarios y carpetas comprobada con Babele 2.9.1; diario piloto
+  importado y abierto. Importación completa de carpetas todavía pendiente.
 - Completar la matriz de campos y pruebas para actores, objetos, actividades,
   avances, efectos, tablas, escenas, tokens y ActorDelta; estos convertidores no
   pretenden cubrir colecciones para las que aún no existe traducción.
 - Ejecutar el piloto de la fase 4 y comprobar las copias importadas.
 
 No se ha elevado `compatibility.verified` por superar pruebas unitarias.
-La fase 2 permanece en curso hasta completar los controles de integración.
+La fase 2 permanece en curso para los tipos todavía sin payload propio.
 `INVENTARIO.md` conserva el diagnóstico anterior a esta migración; su comparación
 por nombres no debe regenerarse sobre claves por ID. Usar `inventory_current.py`.
+
+## Matriz de alcance actual
+
+| Colección / campo | Aplicación | Resultado |
+|---|---|---|
+| Adventure: name, description, caption | Mapeo estándar Babele | Comprobado en runtime y presentación visible |
+| Adventure: folders.name | Convertidor propio por ID | 71 nombres comprobados |
+| Adventure: journal.name, pages.name/text/image.caption | Convertidor propio por ID | Aplicación y conservación estructural comprobadas; diario piloto importado |
+| RollTable: name, description, results.description | Mapeo estándar; resultados por rango | 53 tablas comprobadas contra payload |
+| Actor: nombre, biografía, token, objetos, actividades y efectos | Sin payload propio | Cobertura pendiente; otros módulos pueden aportar traducciones de respaldo |
+| Item: nombre, descripción, actividades, avances y efectos | Sin payload propio | Cobertura pendiente |
+| Scene: nombre, notas, tokens y ActorDelta | Sin payload propio | Cobertura pendiente |
+| Macro: nombre y descripción | Sin payload propio | Cobertura pendiente; no traducir comandos |
+| Interfaz PBSO | `lang/es.json` | 31 claves, parámetros y etiquetas conservados |
+
+`audit_runtime.py` compara las salidas Babele guardadas contra las fuentes.
+Permite solo rutas de texto expresamente enumeradas y metadatos Babele; en
+esta ejecución encontró cero cambios fuera de ellas. Se incluyen traducciones
+de respaldo de otros módulos activos: no atribuirlas al payload de Phandelver.

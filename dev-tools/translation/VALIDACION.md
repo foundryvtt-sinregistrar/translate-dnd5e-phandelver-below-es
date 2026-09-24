@@ -55,3 +55,16 @@ El informe detallado local está en `../export/_data/runtime-validation.json`.
 La primera ejecución detectó convertidores sin registrar. El módulo de entrada
 ahora importa explícitamente `converters.js`; tras recargar, la prueba pasó.
 Las once pruebas Node del exportador, registro y conversores también pasan.
+
+La ejecución posterior a las correcciones de presentación e interfaz volvió
+a validar 406 documentos sin errores. `audit_runtime.py` comparó la salida
+Babele sin normalizaciones del constructor de Foundry: 4901 campos de texto
+cambiados y cero diferencias fuera de las rutas permitidas y metadatos Babele.
+El informe registra los módulos activos porque parte del resultado procede de
+sus traducciones de respaldo, no del payload de este proyecto.
+
+Las 31 cadenas de interfaz conservan claves, parámetros y etiquetas HTML del
+original instalado. Las opciones de importación se observaron en español.
+El ZIP se comprobó con lista permitida de miembros y JSON válido; una prueba
+aislada confirmó que construir una referencia anterior usa su versión y su
+manifiesto, excluye datos privados y rechaza un tag incoherente con la versión.

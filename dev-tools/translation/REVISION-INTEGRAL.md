@@ -33,3 +33,18 @@ verificación de su integración en Babele cuando se añadan los mapeos y textos
 
 La revisión integral sigue abierta. La preparación de borradores y la cobertura
 de nombres no equivalen a una revisión completa de descripciones ni de Adventure.
+
+## Lote de nombres
+
+Se han revisado los 165 nombres de objetos y los 148 del bestiario. Los nombres
+propios se conservan salvo sobrenombres traducibles. Se mantienen las decisiones
+ya presentes en Adventure: Redbrand, espectro cinéreo, trampa de intelecto y
+amasijo de carne. Para las criaturas nuevas se contrasta también el apéndice del
+PDF español, sin tratarlo como una traducción oficial acreditada.
+
+`apply_reviewed_names.py` aplica exclusivamente estos diccionarios a nombres y
+nombres de prototipo coincidentes del original. Incluye sus copias en Adventure,
+sin inferir que los rasgos incrustados con nombres similares tengan el mismo
+significado. Se han añadido 900 campos y sus hashes a `reviewed-fields.json`.
+Las descripciones de estas entradas siguen pendientes; el recuento de entradas
+ya no debe interpretarse como cobertura editorial completa.

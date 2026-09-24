@@ -8,6 +8,14 @@
     "journals": {
       "path": "journal",
       "converter": "phandelverJournalsById"
+    },
+    "items": {
+      "path": "items",
+      "converter": "phandelverItems"
+    },
+    "actors": {
+      "path": "actors",
+      "converter": "phandelverActors"
     }
   },
   "entries": {
@@ -1573,6 +1581,1082 @@
         },
         "pbsoActorIndex00": {
           "name": "Índice de actores"
+        }
+      },
+      "items": {
+        "pbsoCaskOfSalted": {
+          "name": "Tonel de carne de cerdo en salazón"
+        },
+        "pbsoKegOfStrongA": {
+          "name": "Barrilete de cerveza fuerte"
+        },
+        "pbsoAgate0000000": {
+          "name": "Ágata"
+        },
+        "pbsoBarrelOfOil0": {
+          "name": "Barril de aceite"
+        },
+        "pbsoJadeStatuett": {
+          "name": "Estatuilla de jade"
+        },
+        "U9f6G1u107DbFIAr": {
+          "name": "Frasco de aceite"
+        },
+        "pbsoThelsPendant": {
+          "name": "Colgante de madera tallada"
+        },
+        "pbsoDragonBile00": {
+          "name": "Bilis de dragón"
+        },
+        "pbsoJeweledGoldB": {
+          "name": "Brazalete de oro enjoyado"
+        },
+        "pbsoJeweledSilve": {
+          "name": "Peine de plata enjoyado"
+        },
+        "pbsoMercury00000": {
+          "name": "Mercurio"
+        },
+        "pbsoPowderedNigh": {
+          "name": "Belladona en polvo"
+        },
+        "pbsoScarletCloak": {
+          "name": "Capa escarlata"
+        },
+        "pbsoStaffOfDefen": {
+          "name": "Bastón de defensa"
+        },
+        "pbsoUrmonsJourna": {
+          "name": "Diario de Urmon"
+        },
+        "pbsoBeaverPelts0": {
+          "name": "Piel de castor"
+        },
+        "pbsoCarnelian000": {
+          "name": "Cornalina"
+        },
+        "pbsoGarnet000000": {
+          "name": "Granate"
+        },
+        "pbsoGoldenEarrin": {
+          "name": "Pendiente de oro"
+        },
+        "pbsoMalachite000": {
+          "name": "Malaquita"
+        },
+        "pbsoIarnosPerido": {
+          "name": "Peridoto"
+        },
+        "rrwax1qmOI21dyhl": {
+          "name": "Poción de escalada"
+        },
+        "XPXcxG51oz9o3Kxq": {
+          "name": "Poción de invisibilidad"
+        },
+        "pbsoFireballScro": {
+          "name": "Pergamino de bola de fuego"
+        },
+        "pbsoHoldPersonSc": {
+          "name": "Pergamino de inmovilizar persona"
+        },
+        "pbsoSemiprecious": {
+          "name": "Piedras semipreciosas"
+        },
+        "EwL5Te2JYM7BDl7U": {
+          "name": "Espada corta"
+        },
+        "pbsoTalon0000000": {
+          "name": "Garra"
+        },
+        "YLsbATjmQ4tRIbiQ": {
+          "name": "Ropa de viajero"
+        },
+        "ge9mF0LFYBsQAFHY": {
+          "name": "Ballesta ligera de buena factura"
+        },
+        "uI6pZfHM4kE54PIt": {
+          "name": "Espada corta de buena factura"
+        },
+        "pbsoCensercragma": {
+          "name": "Incensario"
+        },
+        "pbsoChalicecragm": {
+          "name": "Cáliz"
+        },
+        "pbsoEmboldeningB": {
+          "name": "Brandy envalentonador"
+        },
+        "pbsoFineEmeraldP": {
+          "name": "Collar de oro con colgante de esmeralda"
+        },
+        "pbsoGoldenElfSta": {
+          "name": "Estatuilla de elfo de oro"
+        },
+        "pbsoLightFeather": {
+          "name": "Bastón ligero grabado con plumas"
+        },
+        "pbsoFavricsAmeth": {
+          "name": "Amatistas brillantes"
+        },
+        "cW11nQfPdEVIk678": {
+          "name": "Ágata"
+        },
+        "IcyuUi6D65nMQUXJ": {
+          "name": "Cota de malla ensangrentada"
+        },
+        "pbsoBrassDragonS": {
+          "name": "Escamas de dragón de oropel"
+        },
+        "pbsoGobletMoonst": {
+          "name": "Copa engastada con piedras lunares"
+        },
+        "e03khppdzSdud2qN": {
+          "name": "Ballesta pesada"
+        },
+        "pbsoHew000000000": {
+          "name": "Hendedora"
+        },
+        "53QBagoPYQWbWsLf": {
+          "name": "Anillo de protección"
+        },
+        "9kskVuk6Nn1ECinO": {
+          "name": "Espada corta"
+        },
+        "pbsoSildarsSword": {
+          "name": "Espada larga de Sildar"
+        },
+        "pbsoScrollOfDark": {
+          "name": "Pergamino de conjuro de oscuridad"
+        },
+        "pbsoLightningBol": {
+          "name": "Pergamino de conjuro de relámpago"
+        },
+        "pbsoMistyStepSpe": {
+          "name": "Pergamino de conjuro de paso brumoso"
+        },
+        "pbsoRevivifyspel": {
+          "name": "Pergamino de conjuro de revivir"
+        },
+        "pbsoSilencespell": {
+          "name": "Pergamino de conjuro de silencio"
+        },
+        "pbsoVialOfPerfum": {
+          "name": "Vial de perfume"
+        },
+        "J45ebuzqkXb5Oqmv": {
+          "name": "Guardia del Dragón"
+        },
+        "pbsoLightbringer": {
+          "name": "Portadora de Luz"
+        },
+        "pbsoSpiderStaff0": {
+          "name": "Bastón de la Araña"
+        },
+        "pbsoStatuesEmera": {
+          "name": "Ojos de esmeralda de la estatua"
+        },
+        "kRtDJjJLRtGFUO1d": {
+          "name": "Ágata"
+        },
+        "pbsoDwarvenAleMu": {
+          "name": "Jarra de cerveza enana"
+        },
+        "pbsoWizardsJewel": {
+          "name": "Anillo enjoyado"
+        },
+        "QFjouXzGC5IPkXNP": {
+          "name": "Malaquita"
+        },
+        "pbsoSmallGemston": {
+          "name": "Piedra preciosa pequeña"
+        },
+        "1taRIMF9w7jpnonN": {
+          "name": "Varita de proyectiles mágicos"
+        },
+        "pbsoWoodenPipe00": {
+          "name": "Pipa de madera"
+        },
+        "pbsoCeleritybrac": {
+          "name": "Brazales de celeridad"
+        },
+        "SK2HATQ4abKUlV8i": {
+          "name": "Coraza de bronce"
+        },
+        "10ZP2Bu3vnCuYMIB": {
+          "name": "Espada larga decorada"
+        },
+        "pbsoEnergizedSha": {
+          "name": "Fragmento energizado"
+        },
+        "IoJIJdOLKSpminMe": {
+          "name": "Lingote de hierro"
+        },
+        "LEC1wkaAUnWzDPDD": {
+          "name": "Jabalina del relámpago"
+        },
+        "s9ZNjlUlDN5fztnW": {
+          "name": "Luz del día luminosa"
+        },
+        "l2T46xCqUbJvKE7A": {
+          "name": "Pico de guerra luminoso"
+        },
+        "dGnkwePemh7ovuDv": {
+          "name": "Anillo de escudo mental"
+        },
+        "ZYEqOSY9BLZs2GPx": {
+          "name": "Brazales de arquería de plata"
+        },
+        "pkpkvyW31ZIx4pvC": {
+          "name": "Mineral de hierro sin refinar"
+        },
+        "pbsoZ18amethyst0": {
+          "name": "Trozo de cuarzo azul"
+        },
+        "7i4s9msZWpAw4Ynv": {
+          "name": "Daga de veneno"
+        },
+        "pbsoTapestrydeur": {
+          "name": "Tapiz duergar"
+        },
+        "HLEhnzLbpRbYdAHo": {
+          "name": "Gema elemental de esmeralda"
+        },
+        "thkvJ5QBRORIwkkV": {
+          "name": "Gema de brillo"
+        },
+        "pbsoJade00000000": {
+          "name": "Jade"
+        },
+        "pbsoZ18quartz000": {
+          "name": "Amatista grande"
+        },
+        "pbsoPeridot00000": {
+          "name": "Peridoto grande"
+        },
+        "pbsoPsionicFortP": {
+          "name": "Poción de fortaleza psiónica"
+        },
+        "pbsoBrocadevelve": {
+          "name": "Brocado de terciopelo"
+        },
+        "TZggpdbOYqOCG7mY": {
+          "name": "Jarra de alquimia"
+        },
+        "pbsoAmethyst0000": {
+          "name": "Amatistas"
+        },
+        "SqTtbBCfiEsmZ36N": {
+          "name": "Cuenta de fuerza"
+        },
+        "pbsoBlessingOfDu": {
+          "name": "Bendición de Dumathoin"
+        },
+        "pbsoP17gem000000": {
+          "name": "Piedra preciosa polvorienta"
+        },
+        "OjkIqlW2UpgFcjZa": {
+          "name": "Armadura funeraria"
+        },
+        "1Lxk6kmoRhG8qQ0u": {
+          "name": "Hacha a dos manos inamovible"
+        },
+        "WVdSEHlCN9onfOk2": {
+          "name": "Jaula plegable grande"
+        },
+        "pbsoMarthungrims": {
+          "name": "Diario de Marthungrim"
+        },
+        "pbsoObeliskFragm": {
+          "name": "Fragmento de obelisco"
+        },
+        "9v0TPDXNa9S7aNB4": {
+          "name": "Periáptero de salud"
+        },
+        "pbsoRibcageGem00": {
+          "name": "Gema de la caja torácica"
+        },
+        "pbsoTheGraniteLe": {
+          "name": "El registro de granito"
+        },
+        "RMi9efrW9ouHVLI2": {
+          "name": "Libro"
+        },
+        "jhjo20QoiD5exf09": {
+          "name": "Útiles de calígrafo"
+        },
+        "fC0lFK8P4RuhpfaU": {
+          "name": "Herramientas de cartógrafo"
+        },
+        "EuFE7ysIBTCpRIMu": {
+          "name": "Esmeralda"
+        },
+        "cruo7AyPDNquXirJ": {
+          "name": "Ojos de visión minuciosa"
+        },
+        "pbsoP11gemstone0": {
+          "name": "Piedra preciosa"
+        },
+        "pbsoT8statuette0": {
+          "name": "Estatuilla de oro"
+        },
+        "7vqs5AqI4VCmuszx": {
+          "name": "Morral práctico de Heward"
+        },
+        "paqlMjggWkBIAeCe": {
+          "name": "Símbolo sagrado de Dumathoin"
+        },
+        "l794iywHk8Wc6Uvi": {
+          "name": "Libro ilustrado sobre los lazos"
+        },
+        "pbsoJacinth00000": {
+          "name": "Jacintos"
+        },
+        "0E565kQUBmndJ1a2": {
+          "name": "Daga enjoyada"
+        },
+        "7FLs8qIGdOFnz9oL": {
+          "name": "Linterna de revelación"
+        },
+        "pbsoMindguardCro": {
+          "name": "Corona de protección mental"
+        },
+        "9stfX2i2I1YPo8vx": {
+          "name": "Torre de lodo resbaladizo"
+        },
+        "psoZaItkOScMVaHL": {
+          "name": "Frasco de aceite"
+        },
+        "pbsoInvulerabili": {
+          "name": "Poción de invulnerabilidad"
+        },
+        "oY8KbpGmB5H2Deoy": {
+          "name": "Cuerda de seda (50 pies)"
+        },
+        "pbsoLizardmedall": {
+          "name": "Medallón de plata"
+        },
+        "pbsoSmallGem0000": {
+          "name": "Gemas pequeñas"
+        },
+        "53uQGToM86zaSWf9": {
+          "name": "Pergamino de conjuro: libertad de movimiento"
+        },
+        "woWZ1sO5IUVGzo58": {
+          "name": "Herramientas de ladrón"
+        },
+        "18fbyArtidKzON01": {
+          "name": "Varita de detección mágica"
+        },
+        "pbsoAmberinkwell": {
+          "name": "Tintero de ámbar"
+        },
+        "bHCShCmmkYsjOqjN": {
+          "name": "Cristal mental cuidadoso"
+        },
+        "UpZLeIx96uo1QmpZ": {
+          "name": "Cristal mental distante"
+        },
+        "YaEGBvr05Df5dFiX": {
+          "name": "Cristal mental potenciado"
+        },
+        "q6WfZBXQZThu4MPV": {
+          "name": "Cristal mental prolongado"
+        },
+        "pbsoGnawbleFeede": {
+          "name": "Gnawble"
+        },
+        "pbsoHeightenedMi": {
+          "name": "Cristal mental intensificado"
+        },
+        "pbsoIronquillsJo": {
+          "name": "Diario y exlibris de Ironquill"
+        },
+        "pbsoMindcrystalp": {
+          "name": "Cristal mental"
+        },
+        "pbsoCrystaldagge": {
+          "name": "Dagas ornamentales de cristal"
+        },
+        "U6cAGx2IYsMvDopz": {
+          "name": "Cristal mental acelerado"
+        },
+        "pbsoStatueMucus0": {
+          "name": "Mucosidad de la estatua"
+        },
+        "pbsoAntiquemaps0": {
+          "name": "Mapas antiguos"
+        },
+        "pbsoBeholderstat": {
+          "name": "Estatuilla de contemplador"
+        },
+        "pbsoCrystalpitch": {
+          "name": "Jarra de cristal"
+        },
+        "M2DVjWcdPt2k8kMj": {
+          "name": "Cristal mental prolongado"
+        },
+        "pbsoGoldFeather0": {
+          "name": "Pluma de oro"
+        },
+        "YfBwELTgPFHmQdHh": {
+          "name": "Herramientas de joyero"
+        },
+        "m6D8huOpY18o6LlJ": {
+          "name": "Ungüento de Keoghtom"
+        },
+        "9uDSQNxwAIUO0WXe": {
+          "name": "Cristal mental acelerado"
+        },
+        "pbsoRarePerfume0": {
+          "name": "Perfume raro"
+        },
+        "pbsoL7rubies0000": {
+          "name": "Ojo de rubí"
+        },
+        "pbsoSilverTiara0": {
+          "name": "Tiara de plata"
+        },
+        "pbsoSubtleMindCr": {
+          "name": "Cristal mental sutil"
+        },
+        "pbsoSolipsisticM": {
+          "name": "Bendición de la mente solipsista"
+        },
+        "pbsoCapeOfEnlarg": {
+          "name": "Capa de agrandamiento"
+        },
+        "pbsoDiamond00000": {
+          "name": "Diamante(s)"
+        },
+        "qhdGVfT5j6u46mtk": {
+          "name": "Matador de azotamentes"
+        },
+        "pbsoB8treasure00": {
+          "name": "Tapón de tonel de oro"
+        },
+        "pbsoMetalTongue0": {
+          "name": "Lengua de metal"
+        },
+        "pbsoMindblasting": {
+          "name": "Gorro de explosión mental"
+        },
+        "JFiSlgcm3uSSBM5t": {
+          "name": "Poción de curación suprema"
+        },
+        "pbsoB9treasure00": {
+          "name": "Flautas de marfil de Shalfi"
+        },
+        "pbsoOpal00000000": {
+          "name": "Ópalo de la maleza"
+        },
+        "a47tkfgDfNCv5uxY": {
+          "name": "Pergamino de conjuro: cono de frío"
+        },
+        "50N8zf58FR4JWR05": {
+          "name": "Amuleto de protección contra detección y localización"
+        },
+        "pbsoBasiliskFigu": {
+          "name": "Figurita de basilisco"
+        },
+        "pbsoBoxOfSilverF": {
+          "name": "Caja de tenedores de plata"
+        },
+        "pbsoEmerald00000": {
+          "name": "Esmeralda"
+        },
+        "pbsoGoldWeddingR": {
+          "name": "Alianza de oro"
+        },
+        "pbsoPlatinumMusi": {
+          "name": "Caja de música de platino"
+        },
+        "pbsoSnowGlobe000": {
+          "name": "Bola de nieve"
+        },
+        "azIuFvXlnoxWyyYU": {
+          "name": "Pergamino de conjuro: comprender idiomas"
+        },
+        "rItVb7CZVorFpI0s": {
+          "name": "Pergamino de conjuro: lenguas"
+        },
+        "pbsoWellmadeSpec": {
+          "name": "Gafas de buena factura"
+        },
+        "pbsoSilverGreatS": {
+          "name": "Mandoble de plata"
+        },
+        "pbsoTruthsoftheI": {
+          "name": "Verdades de la mente introspectiva"
+        }
+      },
+      "actors": {
+        "QtJairF0h18BRhEM": {
+          "name": "Osgo",
+          "tokenName": "Osgo"
+        },
+        "ZW39DE2zI3TXVYC9": {
+          "name": "Serpiente venenosa gigante",
+          "tokenName": "Serpiente venenosa gigante"
+        },
+        "TjWQOgI3A4UAl7lC": {
+          "name": "Goblin",
+          "tokenName": "Goblin"
+        },
+        "pbsoGoblinBoss00": {
+          "name": "Jefe goblin",
+          "tokenName": "Jefe goblin"
+        },
+        "yawTeS8u2FCfzzZH": {
+          "name": "Lobo",
+          "tokenName": "Lobo"
+        },
+        "n4TEv7inVUkyZviN": {
+          "name": "Bandido",
+          "tokenName": "Bandido"
+        },
+        "SqZRuJ8lt2KGJBbq": {
+          "name": "Plebeyo",
+          "tokenName": "Plebeyo"
+        },
+        "pbsoDroop0000000": {
+          "name": "Droop",
+          "tokenName": "Goblin"
+        },
+        "pbsoIarnoAlbrek0": {
+          "name": "Iarno «Bastón de Cristal» Albrek"
+        },
+        "pbsoNothic000000": {
+          "name": "Nótico",
+          "tokenName": "Nótico"
+        },
+        "pbsoRedbrandRuff": {
+          "name": "Rufián Redbrand"
+        },
+        "nU8GN8La8DCt8SDb": {
+          "name": "Esqueleto",
+          "tokenName": "Esqueleto"
+        },
+        "pbsoAshZombie000": {
+          "name": "Zombi de ceniza",
+          "tokenName": "Zombi de ceniza"
+        },
+        "pbsoBanshee00000": {
+          "name": "Banshee",
+          "tokenName": "Banshee"
+        },
+        "pbsoBrughorAxebi": {
+          "name": "Brughor Muerdehachas",
+          "tokenName": "Brughor Muerdehachas"
+        },
+        "qkLNA1lKMMJpxuWg": {
+          "name": "Sectario",
+          "tokenName": "Sectario"
+        },
+        "EYiQZ3rFL25fEJY5": {
+          "name": "Lobo terrible",
+          "tokenName": "Lobo terrible"
+        },
+        "mWbrPhcKOz6oLXMV": {
+          "name": "Doppelganger",
+          "tokenName": "Doppelganger"
+        },
+        "OBujQLLPSmlJiZnL": {
+          "name": "Gul",
+          "tokenName": "Gul"
+        },
+        "v99wOosUJjUgcUNF": {
+          "name": "Araña gigante",
+          "tokenName": "Araña gigante"
+        },
+        "pbsoGrell0000000": {
+          "name": "Grell",
+          "tokenName": "Grell"
+        },
+        "tFJX45zj3QDc3Zli": {
+          "name": "Grick",
+          "tokenName": "Grick"
+        },
+        "pbsoGundrenRocks": {
+          "name": "Gundren Rockseeker",
+          "tokenName": "Gundren Rockseeker"
+        },
+        "pbsoHamunKost000": {
+          "name": "Hamun Kost",
+          "tokenName": "Hamun Kost"
+        },
+        "6qnT52lZtZblgGw8": {
+          "name": "Hobgoblin",
+          "tokenName": "Hobgoblin"
+        },
+        "pbsoKingGrol0000": {
+          "name": "Rey Grol",
+          "tokenName": "Rey Grol"
+        },
+        "pbsoNeedleBlight": {
+          "name": "Aguja marchita",
+          "tokenName": "Aguja marchita"
+        },
+        "eIGowKTkEBC9gUzx": {
+          "name": "Ogro",
+          "tokenName": "Ogro"
+        },
+        "zY3W5MG7FjssENf6": {
+          "name": "Oso lechuza",
+          "tokenName": "Oso lechuza"
+        },
+        "pbsoReidoth00000": {
+          "name": "Reidoth",
+          "tokenName": "Reidoth"
+        },
+        "gKRtiMNAjZiCVfwz": {
+          "name": "Estirge",
+          "tokenName": "Estirge"
+        },
+        "pbsoTwigBlight00": {
+          "name": "Ramita marchita",
+          "tokenName": "Ramita marchita"
+        },
+        "NAISFPoNNgUCsEyW": {
+          "name": "Zombi",
+          "tokenName": "Zombi"
+        },
+        "pbsoFlameskull00": {
+          "name": "Calavera llameante",
+          "tokenName": "Calavera llameante"
+        },
+        "NpvwE1feOHyEqAbP": {
+          "name": "Serpiente constrictora gigante",
+          "tokenName": "Serpiente constrictora gigante"
+        },
+        "p9Xnr820UAZBOIVN": {
+          "name": "Pulpo gigante",
+          "tokenName": "Pulpo gigante"
+        },
+        "pbsoMormeskTheWr": {
+          "name": "Mormesk la aparición"
+        },
+        "pbsoNezznarTheSp": {
+          "name": "Nezznar la Araña",
+          "tokenName": "Nezznar la Araña"
+        },
+        "xBhG7Dos3tkg9jWz": {
+          "name": "Gelatina ocre",
+          "tokenName": "Gelatina ocre"
+        },
+        "RenLfmDT2XlbCF4x": {
+          "name": "Ogro zombi",
+          "tokenName": "Ogro zombi"
+        },
+        "pbsoSpectator000": {
+          "name": "Espectador",
+          "tokenName": "Espectador"
+        },
+        "7EmUVycEASn7SFL0": {
+          "name": "Hongo violeta",
+          "tokenName": "Hongo violeta"
+        },
+        "Bupo3E9X5Ptx6XeT": {
+          "name": "Caballo de tiro",
+          "tokenName": "Caballo de tiro"
+        },
+        "pbsoFeralAshenwi": {
+          "name": "Espectro cinéreo feral",
+          "tokenName": "Espectro cinéreo feral"
+        },
+        "pbsoFiendishAuge": {
+          "name": "Barrena infernal",
+          "tokenName": "Barrena infernal"
+        },
+        "y8sRU8Ks2lcrGsaf": {
+          "name": "Cabra",
+          "tokenName": "Cabra"
+        },
+        "pbsoGoblinPsiBra": {
+          "name": "Camorrista goblin psiónico",
+          "tokenName": "Camorrista goblin psiónico"
+        },
+        "pbsoGoblinPsiCom": {
+          "name": "Comandante goblin psiónico",
+          "tokenName": "Comandante goblin psiónico"
+        },
+        "CHEUjiYrVM9X0vIT": {
+          "name": "Gwyn Oresong",
+          "tokenName": "Gwyn Oresong"
+        },
+        "pbsoHjoldakHollo": {
+          "name": "Hjoldak Hollowhelm",
+          "tokenName": "Hjoldak Hollowhelm"
+        },
+        "jcZblJ6lqtW0ePxe": {
+          "name": "Otyugh",
+          "tokenName": "Otyugh"
+        },
+        "pbsoOtyughMutate": {
+          "name": "Otyugh mutado",
+          "tokenName": "Otyugh mutado"
+        },
+        "pbsoPsionicAshen": {
+          "name": "Espectro cinéreo psiónico",
+          "tokenName": "Espectro cinéreo psiónico"
+        },
+        "pbsoRuxithidTheC": {
+          "name": "Ruxithid el Elegido",
+          "tokenName": "Ruxithid el Elegido"
+        },
+        "z85EsGS2GVWj46qE": {
+          "name": "Guardián escudo",
+          "tokenName": "Guardián escudo"
+        },
+        "2MZNHeOZweXAYbv1": {
+          "name": "Xorn",
+          "tokenName": "Xorn"
+        },
+        "eORmAXuV5v3nWsQL": {
+          "name": "Armadura animada",
+          "tokenName": "Armadura animada"
+        },
+        "hqj2yXtgwt64v3Lj": {
+          "name": "Basilisco",
+          "tokenName": "Basilisco"
+        },
+        "KtM6IV9I5l1MWUDk": {
+          "name": "Diablo de las cadenas",
+          "tokenName": "Diablo de las cadenas"
+        },
+        "P6qC8jB3pnEH0tIE": {
+          "name": "Chuul",
+          "tokenName": "Chuul"
+        },
+        "YOqhbf8WsX0jH9Fu": {
+          "name": "Gólem de arcilla",
+          "tokenName": "Gólem de arcilla"
+        },
+        "1vaBSMUfOy6JPJ14": {
+          "name": "Drow",
+          "tokenName": "Drow"
+        },
+        "pbsoDrowEliteWar": {
+          "name": "Guerrero drow de élite",
+          "tokenName": "Guerrero drow de élite"
+        },
+        "BUCfQ7ihaXX75Vai": {
+          "name": "Mefit de polvo",
+          "tokenName": "Mefit de polvo"
+        },
+        "pbsoDwarfSkeleto": {
+          "name": "Esqueleto enano",
+          "tokenName": "Esqueleto enano"
+        },
+        "sApYLZj9PTZ40wJr": {
+          "name": "Elemental de tierra",
+          "tokenName": "Elemental de tierra"
+        },
+        "pbsoEncephalonCl": {
+          "name": "Cúmulo de encéfalos",
+          "tokenName": "Cúmulo de encéfalos"
+        },
+        "pbsoGemmule00000": {
+          "name": "Gémula encefálica"
+        },
+        "pbsoGalebDuhr000": {
+          "name": "Galeb duhr",
+          "tokenName": "Galeb duhr"
+        },
+        "qoFEjfrANBdrCP6m": {
+          "name": "Fantasma",
+          "tokenName": "Fantasma"
+        },
+        "pbsoGrickAlpha00": {
+          "name": "Grick alfa",
+          "tokenName": "Grick alfa"
+        },
+        "GpeQYtlo8oGvGlkM": {
+          "name": "Grimlock",
+          "tokenName": "Grimlock"
+        },
+        "pbsoHelmedHorror": {
+          "name": "Horror acorazado",
+          "tokenName": "Horror acorazado"
+        },
+        "pbsoHonna0000000": {
+          "name": "Honna"
+        },
+        "pbsoHumanmutate0": {
+          "name": "Humanoide mutado",
+          "tokenName": "Humanoide mutado"
+        },
+        "K4vsSlHqbBAHUDHY": {
+          "name": "Hidra",
+          "tokenName": "Hidra"
+        },
+        "t8WYD7ak07X7xpx8": {
+          "name": "Momia",
+          "tokenName": "Momia"
+        },
+        "pbsoOntharyxHenl": {
+          "name": "Ontharyx Henlifel"
+        },
+        "pbsoPsychicGrayO": {
+          "name": "Cieno gris psíquico",
+          "tokenName": "Cieno gris psíquico"
+        },
+        "pbsoQunbraxel000": {
+          "name": "Qunbraxel",
+          "tokenName": "Qunbraxel"
+        },
+        "pbsoRevenant0000": {
+          "name": "Renacido",
+          "tokenName": "Renacido"
+        },
+        "pbsoRivibiddel00": {
+          "name": "Rivibiddel",
+          "tokenName": "Rivibiddel"
+        },
+        "qZyLwdx7lj5d1wfD": {
+          "name": "Lazo",
+          "tokenName": "Lazo"
+        },
+        "gGeLeV411iQ5Yijs": {
+          "name": "Broza movediza",
+          "tokenName": "Broza movediza"
+        },
+        "PuPo4H4Dcxigf0fY": {
+          "name": "Espectro",
+          "tokenName": "Espectro"
+        },
+        "pbsoWaterWeird00": {
+          "name": "Extraño de agua",
+          "tokenName": "Extraño de agua"
+        },
+        "rbyp54px2D0ql4QK": {
+          "name": "Tumulario",
+          "tokenName": "Tumulario"
+        },
+        "ET4PEVEiNJLU4f7c": {
+          "name": "Aparición",
+          "tokenName": "Aparición"
+        },
+        "pbsoYochlol00000": {
+          "name": "Yochlol",
+          "tokenName": "Yochlol"
+        },
+        "pbsoAberrantZeal": {
+          "name": "Fanático aberrante",
+          "tokenName": "Fanático aberrante"
+        },
+        "pbsoBarlgura0000": {
+          "name": "Barlgura",
+          "tokenName": "Barlgura"
+        },
+        "x47ZnpHfYl0ptDM9": {
+          "name": "Behir",
+          "tokenName": "Behir"
+        },
+        "pbsoBlueSlaad000": {
+          "name": "Slaad azul",
+          "tokenName": "Slaad azul"
+        },
+        "pbsoCloakerMutat": {
+          "name": "Manto mutado",
+          "tokenName": "Manto mutado"
+        },
+        "tYfQIxCJT0WaaKmc": {
+          "name": "Fanático del culto",
+          "tokenName": "Fanático del culto"
+        },
+        "pbsoFleshMeld000": {
+          "name": "Amasijo de carne",
+          "tokenName": "Amasijo de carne"
+        },
+        "pbsoFomorian0000": {
+          "name": "Fomoré",
+          "tokenName": "Fomoré"
+        },
+        "8pX2JhWUpTNNRBVx": {
+          "name": "Barbotador",
+          "tokenName": "Barbotador"
+        },
+        "pbsoGraySlaad000": {
+          "name": "Slaad gris",
+          "tokenName": "Slaad gris"
+        },
+        "pbsoGreenSlaad00": {
+          "name": "Slaad verde",
+          "tokenName": "Slaad verde"
+        },
+        "pbsoGrellPsychic": {
+          "name": "Grell psíquico",
+          "tokenName": "Grell psíquico"
+        },
+        "ZQTCZfTV9ZoTjNCU": {
+          "name": "Homúnculo",
+          "tokenName": "Homúnculo"
+        },
+        "pbsoHookHorror00": {
+          "name": "Horror ganchudo",
+          "tokenName": "Horror ganchudo"
+        },
+        "pbsoElderinfecte": {
+          "name": "Cerebro anciano infectado",
+          "tokenName": "Cerebro anciano infectado"
+        },
+        "kz1t6xeXVwODpYb2": {
+          "name": "Habitante infectado"
+        },
+        "pbsoIntellectDev": {
+          "name": "Devorador de intelectos",
+          "tokenName": "Devorador de intelectos"
+        },
+        "pbsoMindFlayer00": {
+          "name": "Azotamentes",
+          "tokenName": "Azotamentes"
+        },
+        "pbsoNothicmindfl": {
+          "name": "Nótico azotamentes",
+          "tokenName": "Nótico"
+        },
+        "pbsoMindFlayerPr": {
+          "name": "Azotamentes profeta",
+          "tokenName": "Azotamentes profeta"
+        },
+        "pbsoOculorb00000": {
+          "name": "Oculorbo",
+          "tokenName": "Oculorbo"
+        },
+        "pbsoOshundoTheAl": {
+          "name": "Oshundo el alhoon",
+          "tokenName": "Oshundo el alhoon"
+        },
+        "pbsoQuaggoth0000": {
+          "name": "Quaggoth",
+          "tokenName": "Quaggoth"
+        },
+        "pbsoQuaggothThon": {
+          "name": "Quaggoth thonot",
+          "tokenName": "Quaggoth"
+        },
+        "pbsoRedSlaad0000": {
+          "name": "Slaad rojo",
+          "tokenName": "Slaad rojo"
+        },
+        "pbsoIlvaash00000": {
+          "name": "Refracción de Ilvaash",
+          "tokenName": "Refracción de Ilvaash"
+        },
+        "TaK6nQMGqZ0y8gt7": {
+          "name": "Chillón",
+          "tokenName": "Chillón"
+        },
+        "pbsoSlaadTadpole": {
+          "name": "Renacuajo slaad",
+          "tokenName": "Renacuajo slaad"
+        },
+        "pbsoTroglodyte00": {
+          "name": "Troglodita",
+          "tokenName": "Troglodita"
+        },
+        "shhHtE7b92PefCWB": {
+          "name": "Aboleth",
+          "tokenName": "Aboleth"
+        },
+        "pbsoArcanaloth00": {
+          "name": "Arcanaloth",
+          "tokenName": "Arcanaloth"
+        },
+        "pbsoBeholder0000": {
+          "name": "Contemplador",
+          "tokenName": "Contemplador"
+        },
+        "pbsoBrainBreaker": {
+          "name": "Rompecerebros",
+          "tokenName": "Rompecerebros"
+        },
+        "pbsoChishinix000": {
+          "name": "Chishinix",
+          "tokenName": "Chishinix"
+        },
+        "pbsoSeveredHead0": {
+          "name": "Cabeza cercenada de Chishinix",
+          "tokenName": "Cabeza cercenada de Chishinix"
+        },
+        "pbsoFlumph000000": {
+          "name": "Flumph",
+          "tokenName": "Flumph"
+        },
+        "pbsoGithyankiKni": {
+          "name": "Caballero githyanki",
+          "tokenName": "Caballero githyanki"
+        },
+        "pbsoGithyankiWar": {
+          "name": "Guerrero githyanki",
+          "tokenName": "Guerrero githyanki"
+        },
+        "pbsoHashutu00000": {
+          "name": "Hashutu",
+          "tokenName": "Hashutu"
+        },
+        "pbsoIntellectSna": {
+          "name": "Trampa de intelecto",
+          "tokenName": "Trampa de intelecto"
+        },
+        "oDspGxRQFBhE74L2": {
+          "name": "Acechador invisible",
+          "tokenName": "Acechador invisible"
+        },
+        "pbsoKraken000000": {
+          "name": "Kraken",
+          "tokenName": "Kraken"
+        },
+        "mQnsXanewsPiV7QE": {
+          "name": "Mago",
+          "tokenName": "Mago"
+        },
+        "pbsoMezzoloth000": {
+          "name": "Mezzoloth",
+          "tokenName": "Mezzoloth"
+        },
+        "pbsoClairvoyantm": {
+          "name": "Azotamentes clarividente"
+        },
+        "pbsoNycaloth0000": {
+          "name": "Nycaloth",
+          "tokenName": "Nycaloth"
+        },
+        "llSG0Hi4eGlRlQ4o": {
+          "name": "Araña de fase",
+          "tokenName": "Araña de fase"
+        },
+        "PtotS52HpHX596cZ": {
+          "name": "Gusano púrpura",
+          "tokenName": "Gusano púrpura"
+        },
+        "pbsoRemorhaz0000": {
+          "name": "Remorhaz",
+          "tokenName": "Remorhaz"
+        },
+        "pbsoShalfiLewin0": {
+          "name": "Shalfi Lewin",
+          "tokenName": "Shalfi Lewin"
+        },
+        "BAT6ld8qJZetpycL": {
+          "name": "Naga espiritual",
+          "tokenName": "Naga espiritual"
+        },
+        "pbsoUmberHulk000": {
+          "name": "Mole sombría",
+          "tokenName": "Mole sombría"
+        },
+        "pbsoVoalsh000000": {
+          "name": "Voalsh",
+          "tokenName": "Voalsh"
+        },
+        "namJz755U1EhvEJa": {
+          "name": "Elemental de agua",
+          "tokenName": "Elemental de agua"
+        },
+        "K15Yl8JmB5iPircc": {
+          "name": "Druida",
+          "tokenName": "Druida"
         }
       }
     }

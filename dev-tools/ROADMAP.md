@@ -6,6 +6,11 @@ Se sigue el orden de Tomb of Annihilation: fuentes e inventario, mapeos,
 glosario, piloto, lotes editoriales, auditoría e importación completa y publicación.
 Aquí se parte de una **traducción parcial existente**, no de un borrador integral.
 
+Continuación: [opciones de personaje](translation/LOTE-OPCIONES.md) traducidas
+en las 39 entradas, con 32 descripciones y 25 nombres personalizados de avances.
+Charlatán importado como piloto. Los siguientes packs pendientes son objetos
+y bestiario; siguen abiertos los lotes editoriales de Adventure.
+
 **Fase 1 completada:** originales exportados y validados desde Foundry 14.368 /
 dnd5e 6.0.3. Véase [fuentes actuales](translation/FUENTES-ACTUALES.md).
 El [informe de revisión](translation/INFORME-REVISION.md) recoge las correcciones,
@@ -48,7 +53,7 @@ a texto y pruebas con originales reales completados. Véase [mapeos](translation
 | 2. Mapeos | Revisar esquemas y convertidores Babele para documentos y copias anidadas | Cada campo visible del piloto se aplica sin alterar mecánicas | Integración del payload existente superada; tipos sin payload pendientes |
 | 3. Glosario | Alinear EN/ES por título y contexto; decidir nombres, lugares y términos | Decisiones con pasaje EN, pasaje ES, ubicación Foundry y estado | Primera concordancia documentada; divergencia Wave Echo Cave pendiente |
 | 4. Piloto | Revisar una página, actor con objetos/actividades/efectos, objeto, tabla y escena con nota y token | Apertura directa e importación correctas; enlaces, tablas y tiradas funcionales | Diario importado y presentación verificados; otros tipos pendientes |
-| 5. Revisión por lotes | Corregir contenido existente y completar huecos; registrar evidencia por campo/página | Cada lote pasa de pendiente a revisado y después a probado | Pendiente |
+| 5. Revisión por lotes | Corregir contenido existente y completar huecos; registrar evidencia por campo/página | Cada lote pasa de pendiente a revisado y después a probado | Opciones traducidas y piloto importado; objetos, bestiario y Adventure pendientes |
 | 6. Auditoría integral | Cobertura, inglés residual, HTML, UUID, embeds, números, fórmulas y consistencia entre copias | Incidencias cerradas o excepciones justificadas; importación completa en mundo limpio | Auditoría automática y comparación estructural ejecutadas; cierre editorial e importación pendientes |
 | 7. Publicación | Ajustar compatibilidad solo con pruebas; revisar README, changelog, ZIP y workflow | Instalación del ZIP e importación verificadas; fuentes privadas fuera del paquete | ZIP y workflow corregidos y contenido comprobado; instalación y publicación pendientes |
 

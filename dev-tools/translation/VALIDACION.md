@@ -68,3 +68,21 @@ original instalado. Las opciones de importación se observaron en español.
 El ZIP se comprobó con lista permitida de miembros y JSON válido; una prueba
 aislada confirmó que construir una referencia anterior usa su versión y su
 manifiesto, excluye datos privados y rechaza un tag incoherente con la versión.
+
+## Lote de opciones de personaje
+
+Las 39 entradas, 32 descripciones y 25 nombres de avances pasan los controles
+de aplicación en runtime. La comparación posterior registra 4995 cambios de
+texto en el entorno completo y cero cambios fuera de las rutas permitidas y
+metadatos Babele. Trece pruebas Node superadas, incluidas las dos nuevas sobre
+avances por ID y listas antiguas.
+
+Charlatán se creó en la carpeta de objetos «Phandelver - Revision». Se verificaron
+nombre, descripción y nombres de avances persistidos. La hoja muestra prosa,
+habilidades y rasgo en español. La comparación admite únicamente la conversión
+de `<hr />` a `<hr>` observada al importar. No se ha probado todavía añadir
+todos los trasfondos a personajes y completar sus concesiones.
+
+Los informes ahora distinguen `running`, `failed` y `passed`; el auditor rechaza
+ejecuciones incompletas o fallidas, incluido un fallo del piloto. Véase
+[el lote y sus incidencias de origen](LOTE-OPCIONES.md).

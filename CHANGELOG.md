@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 ### Added
 
 - Spanish adventure presentation, cover caption and all 31 PBSO interface strings.
+- Spanish names for all 39 player options, 32 descriptions and 25 advancement labels.
+- Imported background pilot and label-only advancement converter preserving keyed and legacy collections.
 - Reproducible coverage, runtime and protected-field audits with review reports.
 
 ### Changed

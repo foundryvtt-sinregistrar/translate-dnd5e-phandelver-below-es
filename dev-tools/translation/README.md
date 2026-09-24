@@ -8,10 +8,13 @@
 
    ```powershell
    python dev-tools/export/validate_source_export.py
-   python dev-tools/translation/inventory.py
    python dev-tools/export/validate_current_export.py
    python dev-tools/translation/inventory_current.py
    ```
+
+   `inventory.py` conserva el diagnóstico histórico por nombres; no ejecutarlo
+   sobre el payload ya migrado a IDs. Para cobertura actual y protección de
+   texto, ejecutar `python dev-tools/translation/audit_current.py`.
 
 4. Consultar [referencias PDF](../export/README.md). Buscar primero el pasaje EN y
    luego el ES por título y contexto. Registrar por separado página física y

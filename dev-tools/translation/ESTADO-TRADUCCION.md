@@ -12,7 +12,7 @@ carpetas migradas a IDs, conservando el texto existente. Once pruebas superadas;
 406 documentos procesados en Foundry sin errores. Mapeos de otros tipos
 pendientes. Véase [mapeos](MAPEOS.md).
 
-- Diagnóstico reproducible: 53 tablas con entradas, tres packs vacíos y Adventure
+- Diagnóstico histórico: 53 tablas con entradas, tres packs vacíos y Adventure
   con carpetas y diarios parcialmente cubiertos. Véase [inventario](INVENTARIO.md).
 - 310 páginas incluidas frente a 686 del export histórico; no equivale a 310
   páginas revisadas ni a 376 páginas necesariamente narrativas sin traducir.
@@ -29,6 +29,8 @@ títulos y pies de ilustraciones. Véase [cobertura por diario](COBERTURA-ACTUAL
 Quedan pendientes los demás tipos del piloto, revisión por capítulos y packs,
 cierre numérico y terminológico, importación completa e instalación del ZIP.
 El [informe de revisión](INFORME-REVISION.md) distingue resultados y pendientes.
+El [pack de opciones](LOTE-OPCIONES.md) tiene ahora 39 entradas traducidas,
+32 descripciones y 25 nombres de avances; quedan vacíos objetos y bestiario.
 Se creó la macro «Phandelver — Exportar originales 14.368» y se
 desactivó temporalmente la traducción para exportar; después se restauró.
 Babele permaneció activo por dependencias. Se creó un diario piloto en

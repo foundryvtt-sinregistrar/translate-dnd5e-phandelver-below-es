@@ -52,7 +52,8 @@ por nombres no debe regenerarse sobre claves por ID. Usar `inventory_current.py`
 | Adventure: journal.name, pages.name/text/image.caption | Convertidor propio por ID | Aplicación y conservación estructural comprobadas; diario piloto importado |
 | RollTable: name, description, results.description | Mapeo estándar; resultados por rango | 53 tablas comprobadas contra payload |
 | Actor: nombre, biografía, token, objetos, actividades y efectos | Sin payload propio | Cobertura pendiente; otros módulos pueden aportar traducciones de respaldo |
-| Item: nombre, descripción, actividades, avances y efectos | Sin payload propio | Cobertura pendiente |
+| Item del pack de objetos: nombre, descripción, actividades, avances y efectos | Sin payload propio | Cobertura pendiente |
+| Item del pack de opciones: nombre, descripción y nombres de avances | Texto estándar y `phandelverAdvancementNames` | 39 entradas; avances por ID, sin alterar concesiones; Charlatán importado |
 | Scene: nombre, notas, tokens y ActorDelta | Sin payload propio | Cobertura pendiente |
 | Macro: nombre y descripción | Sin payload propio | Cobertura pendiente; no traducir comandos |
 | Interfaz PBSO | `lang/es.json` | 31 claves, parámetros y etiquetas conservados |
@@ -61,3 +62,9 @@ por nombres no debe regenerarse sobre claves por ID. Usar `inventory_current.py`
 Permite solo rutas de texto expresamente enumeradas y metadatos Babele; en
 esta ejecución encontró cero cambios fuera de ellas. Se incluyen traducciones
 de respaldo de otros módulos activos: no atribuirlas al payload de Phandelver.
+
+El convertidor de avances conserva la colección por ID de dnd5e 6 y las listas
+antiguas, y solo escribe `name` o el `title` antiguo si existe en la fuente.
+Dos pruebas cubren ambos formatos, inmutabilidad y rechazo de cambios mecánicos
+inyectados en el payload. Las pruebas de estructura antigua no certifican una
+sesión completa con una versión anterior del sistema.

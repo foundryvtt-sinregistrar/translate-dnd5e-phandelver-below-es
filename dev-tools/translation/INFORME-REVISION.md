@@ -36,7 +36,7 @@ importación integral ni instalación de una versión publicada. No se eleva
 | Contenido propio del proyecto | Resultado |
 |---|---:|
 | Tablas de jugador | 53/53 entradas; 374 resultados |
-| Opciones de jugador | 0/39 entradas |
+| Opciones de jugador | 39/39 entradas; 32 descripciones y 25 nombres de avances |
 | Objetos | 0/165 entradas |
 | Bestiario | 0/148 entradas |
 | Carpetas de Adventure | 71/71 nombres |
@@ -53,14 +53,14 @@ confundir páginas de imagen con textos narrativos.
 
 ## Evidencia de validación
 
-1. Once pruebas Node superadas: pureza y recuentos de exportación, idioma y
+1. Trece pruebas Node superadas: pureza y recuentos de exportación, idioma y
    conservación de estructura al aplicar convertidores sobre originales reales.
 2. Runtime: 406 documentos procesados y validados con esquema estricto, cero
    errores. Comprueba los campos presentes en los payloads contra su resultado.
 3. Diario «Bienvenido a Phandalin» creado en «Phandelver - Revision», texto piloto
    contrastado y hoja abierta. Presentación y opciones de importación observadas
    en español. No se importó la aventura completa.
-4. Comparación de salida Babele: 4901 cambios de campos de texto y cero cambios
+4. Comparación de salida Babele: campos de texto traducidos y cero cambios
    fuera de las rutas de texto permitidas y metadatos Babele. Las cantidades
    incluyen traducciones de respaldo de otros módulos activos. Su lista queda
    registrada en el informe local; no son cobertura propia de Phandelver.
@@ -69,7 +69,7 @@ confundir páginas de imagen con textos narrativos.
    traducidas. De 106 avisos numéricos tras normalizar separadores, seis están
    contrastados y documentados; cien páginas con unidades siguen pendientes.
    Véase [revisión numérica](REVISION-NUMERICA.md).
-6. ZIP comprobado: 18 miembros, incluidos directorios. Sin PDF, OCR, originales,
+6. ZIP comprobado con lista permitida de miembros. Sin PDF, OCR, originales,
    herramientas ni configuración de GitHub. Se generan ZIP versionado, ZIP
    estable y `dist/module.json`; no se han publicado ni instalado.
    Una prueba aislada con dos commits confirmó la selección del manifiesto de
@@ -84,10 +84,10 @@ Los originales y PDF no se incorporan a Git ni a la distribución.
 
 | Prioridad | Pendiente | Criterio de cierre |
 |---|---|---|
-| Alta | Opciones, objetos y bestiario sin payload propio | Traducir por ID y validar actividades, avances, efectos y copias de Adventure |
+| Alta | Objetos y bestiario sin payload propio | Traducir por ID y validar actividades, avances, efectos y copias de Adventure |
 | Alta | 212 textos y títulos/pies de imagen ausentes | Completar por lotes con evidencia EN/ES y revisión contextual |
 | Alta | Revisión editorial de la prosa existente | Leer cada lote; resolver terminología, omisiones y conversiones numéricas |
-| Alta | Piloto de actor, objeto, tabla y escena | Apertura e importación, notas, tokens y ActorDelta comprobados |
+| Alta | Piloto de actor, tabla y escena; concesiones de trasfondos | Apertura e importación, notas, tokens, ActorDelta y aplicación a un personaje comprobados |
 | Alta | Importación completa en mundo limpio | Verificar referencias, tiradas, imágenes y copias sin sobrescribir una campaña |
 | Media | Glosario | Resolver divergencia «Cueva del Oleaje» / «Cueva del Eco de las Olas» y extender la concordancia |
 | Media | Instalación del ZIP | Probar paquete instalado; ajustar compatibilidad y preparar versión cuando proceda |
@@ -103,7 +103,7 @@ Desde la raíz del repositorio:
 
 ```powershell
 python dev-tools/export/validate_current_export.py
-node --test dev-tools/export/test-export.mjs dev-tools/translation/test-registration.mjs dev-tools/translation/test-adventure-text.mjs
+node --test dev-tools/export/test-export.mjs dev-tools/translation/test-registration.mjs dev-tools/translation/test-adventure-text.mjs dev-tools/translation/test-item-text.mjs
 python dev-tools/translation/audit_current.py
 python dev-tools/translation/audit_runtime.py
 python dev-tools/buildScripts/build_release.py --ref HEAD
@@ -114,3 +114,12 @@ revision», que importa `validate-runtime.mjs`. `pilot:true` crea el diario si
 no existe y valida su texto; si se modifica el piloto, una discrepancia debe
 investigarse, no sobrescribirse silenciosamente. Recargar Foundry tras cambios
 de traducción o scripts. La construcción normal exige un árbol Git limpio.
+
+## Continuación: opciones de personaje
+
+El [lote de opciones](LOTE-OPCIONES.md) completa nombres y descripciones del
+pack y nombres personalizados de avances. Charlatán se importó como objeto piloto
+y se contrastaron descripción y avances. Se documentan tres discrepancias del
+original: enlaces de Sabio a tablas del Forastero, ausencia de concesión de
+Viajero en el Forastero y once trasfondos en el pack frente a los doce anunciados.
+Estas incidencias funcionales permanecen abiertas y no se alteran desde la traducción.

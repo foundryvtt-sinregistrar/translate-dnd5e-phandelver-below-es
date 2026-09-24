@@ -1,4 +1,6 @@
 /** Register this Spanish translation after Babele and core settings exist. */
+import './converters.js';
+
 Hooks.once("babele.init", (babele) => {
   Hooks.once("setup", () => {
     const language = game.settings.get("core", "language");

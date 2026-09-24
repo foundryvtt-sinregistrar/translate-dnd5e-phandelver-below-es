@@ -13,7 +13,7 @@
   de originales y bloques, los TSV comprimidos y los SHA-256 de ambos PDF.
 - Los ocho JSON de compendios, idiomas y manifiesto son válidos; los dos scripts
   nuevos pasan el análisis de sintaxis y los enlaces locales de documentación
-  resuelven. `compendium/`, `lang/`, `scripts/` y `module.json` no han cambiado.
+  resuelven. Posteriormente se migraron claves y se corrigió el registro de Babele.
 - Las referencias y datos privados se mantienen bajo `_data`, excluido de Git.
 
 ## Controles pendientes antes de cerrar la revisión
@@ -39,5 +39,19 @@ el validador. Esto no certifica todavía los mapeos ni la traducción.
 - ZIP instalado y revisado; fuentes, PDF, OCR y herramientas fuera de la distribución.
 
 Registrar cada prueba con fecha, versiones, documento, resultado e incidencia.
-Todavía no se ha ejecutado el piloto ni la validación de runtime de Tomb adaptada
-a este módulo; no se heredan sus resultados.
+## Integración ejecutada el 24 de septiembre de 2026
+
+`validate-runtime.mjs` procesó los 406 documentos con Babele 2.9.1, Foundry
+14.368 y dnd5e 6.0.3: cero errores de aplicación y validación estricta del
+esquema. Comprueba los nombres, carpetas, páginas y resultados de tablas
+presentes en el payload; los packs sin traducción también pasan el esquema,
+pero esto no los convierte en contenido traducido.
+
+El piloto creó el diario «Bienvenido a Phandalin» en «Phandelver - Revision»
+y comprobó que el texto importado coincide con el payload. Se abrió su hoja
+y se observaron los títulos españoles. No se importó la aventura completa.
+El informe detallado local está en `../export/_data/runtime-validation.json`.
+
+La primera ejecución detectó convertidores sin registrar. El módulo de entrada
+ahora importa explícitamente `converters.js`; tras recargar, la prueba pasó.
+Las once pruebas Node del exportador, registro y conversores también pasan.

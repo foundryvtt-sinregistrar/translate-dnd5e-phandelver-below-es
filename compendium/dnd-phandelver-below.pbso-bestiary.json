@@ -87,7 +87,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una oscuridad mágica se extiende desde un punto que elijas dentro del alcance y llena una esfera de 15 pies de radio mientras dure el conjuro. La oscuridad se propaga por las esquinas. Una criatura con visión en la oscuridad no puede ver a través de ella y la luz no mágica no puede iluminarla.</p><p>Si el punto elegido está en un objeto que sostienes o que nadie viste ni transporta, la oscuridad emana del objeto y se mueve con él. Cubrir por completo la fuente de oscuridad con un objeto opaco, como un cuenco o un yelmo, bloquea la oscuridad.</p><p>Si cualquier parte del área de este conjuro se solapa con un área de luz creada por un conjuro de nivel 2 o inferior, el conjuro que creó la luz queda disipado.</p>"
         },
         "Bt4VZGR4QXCRj9F3": {
           "name": "Fuego feérico",
@@ -267,7 +268,8 @@
           "description": "<section class=\"secret\" id=\"secret-JsaOX7SKoV6KB45b\"><p>Si muere, la naga vuelve a la vida en 1d6 días y recupera todos sus<strong> puntos de golpe</strong>. Solo un conjuro de @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{deseo} puede impedir que funcione este rasgo.</p></section><p>Si muere, la naga vuelve a la vida en 1d6 días y recupera todos sus<strong> puntos de golpe</strong>.</p>"
         },
         "Fla0ZsaY2HvXWqbR": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<section class=\"secret\">\n<p>La naga es una lanzadora de conjuros de nivel 10. Su aptitud mágica es Inteligencia (CD de salvación de conjuros 14, +6 a impactar con ataques de conjuro) y solo necesita componentes verbales para lanzar sus conjuros. Tiene preparados los siguientes conjuros de mago:</p>\n<p><strong>• Trucos (a voluntad)</strong>: mano de mago, ilusión menor, rayo de escarcha</p>\n<p><strong>• Nivel 1 (4 espacios)</strong>: hechizar persona, detectar magia, dormir</p>\n<p><strong>• Nivel 2 (3 espacios)</strong>: detectar pensamientos, inmovilizar persona</p>\n<p><strong>• Nivel 3 (3 espacios)</strong>: relámpago, respirar bajo el agua</p>\n<p><strong>• Nivel 4 (3 espacios)</strong>: marchitar, puerta dimensional</p>\n<p><strong>• Nivel 5 (2 espacios)</strong>: dominar persona</p>\n</section>\n<p>La naga es una lanzadora de conjuros. Su aptitud mágica es Inteligencia y solo necesita componentes verbales para lanzar sus conjuros.</p>"
         },
         "Utk1OQRwYkMkFRD3": {
           "name": "Mano de mago",
@@ -281,7 +283,8 @@
           "description": "<p>Un gélido haz de luz blancoazulada se dirige hacia una criatura dentro del alcance. Realiza un ataque de conjuro a distancia contra el objetivo. Si impactas, recibe 1d8 de daño de frío y su velocidad se reduce en 10 pies hasta el comienzo de tu siguiente turno.</p><p>El daño del conjuro aumenta en 1d8 cuando alcanzas el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).</p>"
         },
         "eS7XnnApoxRxYXPs": {
-          "name": "Hechizar persona"
+          "name": "Hechizar persona",
+          "description": "<p>Intentas hechizar a un humanoide que puedas ver dentro del alcance. Debe realizar una tirada de salvación de Sabiduría, con ventaja si tú o tus compañeros estáis luchando contra él. Si falla, queda hechizado por ti hasta que termine el conjuro o hasta que tú o tus compañeros le hagáis algo dañino. La criatura hechizada te considera un conocido amistoso. Cuando termina el conjuro, sabe que la has hechizado.</p>\n        <p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, puedes elegir una criatura adicional como objetivo por cada nivel del espacio por encima de 1. Las criaturas deben estar a 30 pies o menos unas de otras cuando las elijas.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Detectar magia",
@@ -306,10 +309,12 @@
           "description": "<p>Este conjuro permite respirar bajo el agua a hasta diez criaturas voluntarias que puedas ver dentro del alcance hasta que termine el conjuro. Las criaturas afectadas también conservan su forma habitual de respirar.</p>"
         },
         "pybg5MNc3lkerH4Y": {
-          "name": "Marchitar"
+          "name": "Marchitar",
+          "description": "<p>Una energía nigromántica baña a una criatura que elijas y puedas ver dentro del alcance, drenando su humedad y vitalidad. El objetivo debe realizar una tirada de salvación de Constitución. Recibe 8d8 de daño necrótico si falla o la mitad si la supera. Este conjuro no afecta a muertos vivientes ni a constructos.</p><p>Si eliges como objetivo a una criatura de tipo planta o una planta mágica, realiza la salvación con desventaja y el conjuro le inflige el daño máximo.</p><p>Si eliges una planta no mágica que no sea una criatura, como un árbol o un arbusto, no realiza salvación: simplemente se marchita y muere.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 4.</p>"
         },
         "A4RsPuSvB9wFtz1j": {
-          "name": "Puerta dimensional"
+          "name": "Puerta dimensional",
+          "description": "<p>Te teletransportas desde tu ubicación actual a cualquier otro punto dentro del alcance. Llegas exactamente al lugar deseado. Puede ser un sitio que veas, que puedas visualizar o que puedas describir indicando distancia y dirección, como «200 pies justo hacia abajo» o «hacia arriba y al noroeste, en un ángulo de 45 grados, 300 pies».</p><p>Puedes llevar objetos siempre que su peso no supere lo que puedas transportar. También puedes llevar a una criatura voluntaria de tu tamaño o menor cuyo equipo no exceda su capacidad de carga. La criatura debe estar a 5 pies o menos de ti cuando lances el conjuro.</p><p>Si fueras a llegar a un lugar ocupado por un objeto o una criatura, tú y cualquier criatura que viaje contigo recibís 4d6 de daño de fuerza cada uno y el conjuro no os teletransporta.</p>"
         },
         "91Sw6vOIaO7U8DvM": {
           "name": "Dominar persona"
@@ -408,7 +413,8 @@
           "description": "<p>Un resplandor similar a una llama desciende sobre una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Destreza o recibir 1d8 de daño radiante. La cobertura no le proporciona ningún beneficio en esta tirada de salvación.</p><p>El daño del conjuro aumenta en 1d8 cuando alcanzas el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto.</li>\n<li>Haces que unas llamas parpadeen, se intensifiquen, se atenúen o cambien de color durante 1 minuto.</li>\n<li>Provocas temblores inofensivos en el suelo durante 1 minuto.</li>\n<li>Creas un sonido que se origina en un punto que elijas dentro del alcance.</li>\n<li>Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de un portazo.</li>\n<li>Alteras el aspecto de tus ojos durante 1 minuto.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos de 1 minuto a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "8dzaICjGy6mTUaUr": {
           "name": "Bendición",
@@ -530,7 +536,8 @@
           "description": "<section class=\"secret\">\n<p>Ataque con arma cuerpo a cuerpo: +2 a impactar (+4 a impactar con garrote), alcance 5 pies, un objetivo. Impacto: <strong>3 (1d6) <em>de daño contundente</em></strong>, o <strong>6 (1d8 + 2) <em>de daño contundente</em></strong> con garrote o si se empuña a dos manos.</p></section>\n<p>El druida ataca con su Bastón.</p>"
         },
         "SbSvZKkJASyk8jKo": {
-          "name": "Saber druídico"
+          "name": "Saber druídico",
+          "description": "<p>Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:</p>\n<ul>\n<li>Creas un diminuto efecto sensorial inofensivo que predice el tiempo que hará donde te encuentras durante las siguientes 24 horas. Puede manifestarse como un orbe dorado para un cielo despejado, una nube para lluvia, copos que caen para nieve, etcétera. Este efecto dura 1 asalto.</li>\n<li>Haces que una flor florezca, una vaina de semillas se abra o una yema de hoja brote al instante.</li>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como hojas que caen, una ráfaga de viento, el sonido de un animal pequeño o un leve olor a mofeta. El efecto debe caber en un cubo de 5 pies de lado.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n</ul>"
         },
         "eCPQuQkIabFKTl9u": {
           "name": "Producir llama",
@@ -549,7 +556,8 @@
           "description": "<p>Mientras dure el conjuro, obtienes la capacidad de comprender a las bestias y comunicarte verbalmente con ellas. El conocimiento y la percepción de muchas bestias están limitados por su inteligencia, pero al menos pueden informarte sobre lugares y monstruos cercanos, incluido lo que perciban o hayan percibido durante el último día. A discreción del DM, podrías persuadir a una bestia para que te haga un pequeño favor.</p>"
         },
         "WTbOQBsarsL1LuXJ": {
-          "name": "Onda atronadora"
+          "name": "Onda atronadora",
+          "description": "<p>Una oleada de fuerza atronadora surge de ti. Cada criatura en un cubo de 15 pies de lado que parta de ti debe realizar una tirada de salvación de Constitución. Si falla, recibe 2d8 de daño de trueno y es empujada 10 pies en dirección contraria a ti. Si supera la tirada, recibe la mitad del daño y no es empujada.</p><p>Además, los objetos que no estén sujetos y se encuentren completamente dentro del área de efecto son empujados automáticamente 10 pies en dirección contraria a ti, y el conjuro emite un estruendo audible a 300 pies de distancia.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 1.</p>"
         },
         "X8w9EzYLGc4vQ1H2": {
           "name": "Mensajero animal"
@@ -586,7 +594,8 @@
           "description": "<p>La hidra puede aguantar la respiración durante 1 hora.</p>"
         },
         "fsAeJDaI0a6sBeFk": {
-          "name": "Múltiples cabezas"
+          "name": "Múltiples cabezas",
+          "description": "<section class=\"secret\">\n<p>La hidra tiene cinco cabezas. Mientras tenga más de una, tiene<strong> ventaja </strong>en las tiradas de salvación <strong>contra quedar cegada, hechizada, ensordecida, asustada, aturdida o inconsciente</strong><strong>. </strong></p>\n<p>Siempre que la hidra reciba 25 puntos de daño o más en un solo turno, una de sus cabezas muere. Si mueren todas, la hidra muere.</p>\n<p>Al final de su turno, le crecen dos cabezas por cada una que haya muerto desde su último turno, salvo que haya recibido <em>daño de fuego</em> desde entonces. La hidra recupera <strong>10 puntos de golpe</strong> por cada cabeza que regenere de esta forma.</p>\n</section>\n<p>La hidra tiene cinco cabezas. Mientras tenga más de una, tiene<strong> ventaja </strong>en las tiradas de salvación <strong>contra quedar cegada, hechizada, ensordecida, asustada, aturdida o inconsciente</strong>.</p>"
         },
         "bE965DuMt1ReAulm": {
           "name": "Cabezas reactivas",
@@ -614,7 +623,8 @@
       "languages": "Telepatía 120 pies",
       "items": {
         "9SWi4zPVGsMD5l2Y": {
-          "name": "Cadena"
+          "name": "Cadena",
+          "description": "<section class=\"secret\" id=\"secret-AwHIETIMXmCRZ6U7\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+8 a impactar</strong>, alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>11 (2d6 + 4) </strong><em><strong>de daño cortante</strong></em>.</p><p>El objetivo queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=str dc=14]]) si el diablo no tiene agarrada ya a una criatura. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado} y recibe <strong>7 (2d6) </strong><em><strong>de daño perforante</strong></em> al comienzo de cada uno de sus turnos.</p></section><p>El diablo de las cadenas ataca con su Cadena. El objetivo queda &amp;Reference[grappled]{agarrado} si el diablo no tiene agarrada ya a una criatura. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado}.</p>"
         },
         "c8fbl1Kc5O3GNTus": {
           "name": "Máscara inquietante",
@@ -639,7 +649,8 @@
           "description": "<p>El diablo realiza dos ataques con sus [[/item Chain]]{cadenas}.</p>"
         },
         "B9KJpn20n0tG4xit": {
-          "name": "Animar cadenas"
+          "name": "Animar cadenas",
+          "description": "<section class=\"secret\">\n<p>Hasta cuatro cadenas que el diablo pueda ver a 60 pies o menos de sí mismo desarrollan mágicamente púas afiladas y cobran vida bajo su control, siempre que nadie las vista ni transporte.</p>\n<p>Cada cadena animada es un objeto con CA 20, 20 puntos de golpe, resistencia al <em>daño perforante</em> e inmunidad al daño psíquico y de trueno. Cuando el diablo usa Ataque múltiple en su turno, puede usar cada cadena animada para realizar un ataque de cadena adicional. Cada una puede agarrar a una criatura por su cuenta, pero no puede atacar mientras la tenga agarrada. Vuelve a su estado inerte si se reduce a 0 puntos de golpe o si el diablo queda incapacitado o muere.</p>\n</section>\n<p>Hasta cuatro cadenas que el diablo pueda ver a 60 pies o menos de sí mismo desarrollan mágicamente púas afiladas y cobran vida bajo su control, siempre que nadie las vista ni transporte.</p>"
         }
       },
       "biography": "<p>Este siniestro infernal viste cadenas como un sudario. Con su mirada aterradora hace huir a las criaturas menores y anima tanto las cadenas que cubren su cuerpo como las inertes que lo rodean. De ellas brotan ganchos, hojas y púas para destripar a sus enemigos.</p><p>Los diablos de las cadenas actúan como sádicos carceleros y torturadores en los reinos infernales, deleitándose en el dolor y viviendo para infligirlo a otros. Se les encomienda atormentar a las almas mortales atrapadas en los Nueve Infiernos, descargando su furia sádica sobre los horrendos lémures en los que se manifiestan dichas almas.</p>"
@@ -714,7 +725,8 @@
                 }
               }
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-LrtNppOiP1xiVkPN\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>7 (2d4 + 2) </strong><em><strong>de daño cortante</strong></em>.</p><p>Si el objetivo es una criatura que no sea un elfo ni un muerto viviente, debe superar una tirada de salvación de <strong>Constitución CD 10</strong> o quedar paralizado durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p></section><p>El gul ataca con sus Garras. Si el objetivo es una criatura que no sea un elfo ni un muerto viviente, debe realizar una tirada de salvación de <strong>Constitución</strong>. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p>"
         }
       }
     },
@@ -737,7 +749,8 @@
               "name": "Envenenado",
               "description": "<p>El objetivo está &amp;Reference[poisoned apply=false]. Hasta que termine el envenenamiento, está &amp;Reference[paralyzed apply=false]{paralizado}. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-JBwK8nWecxt7JSHf\"><p>Una criatura &amp;Reference[grappled]{agarrada} por el chuul debe superar una tirada de salvación de <strong>Constitución CD 13</strong> o quedar &amp;Reference[poisoned]{envenenada} durante 1 minuto.</p><p>Hasta que termine este veneno, el objetivo está &amp;Reference[paralyzed]{paralizado}. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p></section><p>Una criatura &amp;Reference[grappled]{agarrada} por el chuul debe realizar una tirada de salvación de <strong>Constitución</strong>. El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p>"
         },
         "uMZgFW5l9JQmFBp8": {
           "name": "Anfibio",
@@ -912,7 +925,8 @@
       "languages": "Entiende los idiomas de su creador, pero no puede hablar",
       "items": {
         "vEEJei0CNaNbfQ2w": {
-          "name": "Golpe"
+          "name": "Golpe",
+          "description": "<section class=\"secret\" id=\"secret-xDDEumvTKwvdzOVk\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+8 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>16 (2d10 + 5) </strong><em><strong>de daño contundente</strong></em>.</p><p>Si el objetivo es una criatura, debe superar una tirada de salvación de <strong>Constitución CD 15</strong> o sus puntos de golpe máximos se reducen en una cantidad igual al daño recibido. Muere si este ataque reduce sus puntos de golpe máximos a 0. La reducción dura hasta que se elimine mediante restablecimiento mayor u otra magia.</p></section><p>El gólem de arcilla ataca con su Golpe. Si el objetivo es una criatura, debe realizar una tirada de salvación de <strong>Constitución</strong>.</p>"
         },
         "GOADsI5dGE3ah0Vi": {
           "name": "Acelerar",
@@ -934,7 +948,8 @@
               "name": "Frenesí",
               "description": "<p>El gólem se vuelve berserk. En cada uno de sus turnos mientras esté en ese estado, ataca a la criatura más cercana que pueda ver. Si ninguna está lo bastante cerca como para moverse hasta ella y atacarla, ataca un objeto, preferiblemente uno más pequeño que él. Una vez que se vuelve berserk, continúa así hasta que es destruido o recupera todos sus<strong> puntos de golpe</strong>.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-hd4wN5vVGgHF1zjz\"><p>Siempre que el gólem comience su turno con <strong>60 puntos de golpe</strong> o menos, tira [[/r d6]]. Con un 6, se vuelve berserk. En cada uno de sus turnos mientras esté en ese estado, ataca a la criatura más cercana que pueda ver.</p><p>Si ninguna está lo bastante cerca como para moverse hasta ella y atacarla, ataca un objeto, preferiblemente uno más pequeño que él. Una vez que se vuelve berserk, continúa así hasta que es destruido o recupera todos sus<strong> puntos de golpe</strong>.</p></section><p>El gólem se vuelve berserk. En cada uno de sus turnos mientras esté en ese estado, ataca a la criatura más cercana que pueda ver. Si ninguna está lo bastante cerca como para moverse hasta ella y atacarla, ataca un objeto, preferiblemente uno más pequeño que él.</p>"
         },
         "og0rfDmwPObM3ulb": {
           "name": "Forma inmutable",
@@ -968,7 +983,8 @@
           "name": "Vínculo telepático",
           "description": "<p>Mientras el homúnculo esté en el mismo plano de existencia que su amo, puede transmitirle mágicamente lo que percibe, y ambos pueden comunicarse telepáticamente.</p>"
         }
-      }
+      },
+      "biography": "<p>Al dar forma a una mezcla de arcilla, ceniza, raíz de mandrágora y sangre, se puede canalizar una magia ritual poco común para crear un compañero fiel del tamaño de una ardilla.</p><p>Un homúnculo es un constructo que actúa como una extensión de su creador. Ambos comparten pensamientos, sentidos y lenguaje mediante un vínculo místico. Un amo solo puede tener un homúnculo a la vez (los intentos de crear otro siempre fracasan), y cuando el amo muere, el homúnculo también muere.</p><p><strong>Mente compartida.</strong> Un homúnculo sabe todo lo que sabe su creador, incluidos los idiomas que este puede hablar y leer. Del mismo modo, su amo conoce todo lo que percibe el constructo, incluso a grandes distancias, siempre que ambos estén en el mismo plano. Como espía, explorador, emisario o mensajero, es un sirviente inestimable para un lanzador de conjuros dedicado a experimentos secretos o aventuras.</p>"
     },
     "ZW39DE2zI3TXVYC9": {
       "name": "Serpiente venenosa gigante",
@@ -999,14 +1015,16 @@
               "name": "Envenenado",
               "description": "<p>El objetivo queda &amp;Reference[poisoned] durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-37bW7bMgxO8o3sVW\"><p>Ataque con arma cuerpo a cuerpo: +4 a impactar, alcance 5 pies, un objetivo. Impacto: <strong>5 (1d4 + 3) </strong><em><strong>de daño perforante</strong></em>.</p><p>El objetivo debe superar una tirada de salvación de <strong>Constitución CD 10</strong> o recibir <strong>5 (2d4) </strong><em><strong>de daño de veneno</strong></em> y quedar &amp;Reference[poisoned apply=false] durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p></section><p>El quasit ataca con su Garra. El objetivo debe realizar una tirada de salvación de <strong>Constitución</strong>. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p>"
         },
         "Qt2pknvSq5CVWvjr": {
           "name": "Invisibilidad",
           "description": "<section class=\"secret\">\n<p>El quasit se vuelve invisible mágicamente hasta que ataque, utilice Asustar o pierda la concentración (como si se concentrara en un conjuro). Cualquier equipo que vista o lleve consigo también se vuelve invisible.</p></section>\n<p>El quasit se vuelve invisible mágicamente. Cualquier equipo que vista o lleve consigo también se vuelve invisible.</p>"
         },
         "j0FvCAk6xDeICOCz": {
-          "name": "Cambiaformas"
+          "name": "Cambiaformas",
+          "description": "<section class=\"secret\" id=\"secret-lGJabzTjcKOmpl92\"><p>El quasit puede usar su acción para <strong>@UUID[Compendium.dnd5e.spells.Item.04nMsTWkIFvkbXlY]{transformarse}</strong> en una bestia que se parezca a un murciélago (velocidad <strong>10 pies</strong>, vuelo <strong>40 pies</strong>), un ciempiés (<strong>40 pies</strong>, trepar <strong>40 pies</strong>) o un sapo (<strong>40 pies</strong>, nadar <strong>40 pies</strong>), o para recuperar su verdadera forma. Sus estadísticas son las mismas en cada forma, salvo los cambios de velocidad indicados.</p><p>El equipo que vista o lleve consigo no se transforma. Si muere, recupera su verdadera forma.</p></section><p>El quasit puede usar su acción para <strong>transformarse</strong> en una bestia o para recuperar su verdadera forma.</p>"
         },
         "2oi0ZcixJUy36bxb": {
           "name": "Polimorfar",
@@ -1026,7 +1044,8 @@
               "name": "Asustado",
               "description": "<p>La criatura está &amp;Reference[Frightened] durante 1 minuto. El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos, con desventaja si el quasit está en su línea de visión, y poner fin al efecto sobre sí mismo si tiene éxito.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-X6V3GMjWqE1xIxxu\"><p>Una criatura que el quasit elija a 20 pies o menos de sí mismo debe superar una tirada de salvación de <strong>Sabiduría CD 10</strong> o quedar &amp;Reference[frightened apply=false] durante 1 minuto.</p><p>El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos, con desventaja si tiene al quasit en su línea de visión, y poner fin al efecto sobre sí mismo si la supera.</p></section><p>Una criatura que el quasit elija a 20 pies o menos de sí mismo debe realizar una tirada de salvación de <strong>Sabiduría</strong>. El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos, con desventaja si tiene al quasit en su línea de visión, y poner fin al efecto sobre sí mismo si la supera.</p>"
         }
       },
       "biography": "<p>Los quasits infestan los Planos Inferiores. Débiles físicamente, se ocultan en las sombras para tramar fechorías y maldades. Los demonios más poderosos los utilizan como espías y mensajeros cuando no los devoran o despedazan para entretenerse.</p><p>Un quasit puede adoptar formas animales, pero en su verdadera forma parece un humanoide verde de 2 pies de altura con una cola provista de púas y cuernos. Tiene garras en los dedos de manos y pies, capaces de inocular un veneno irritante. Prefiere estar &amp;Reference[invisible] cuando ataca.</p>"
@@ -1116,7 +1135,8 @@
           "description": "<p>La broza movediza realiza dos ataques de golpe. Si ambos impactan a un objetivo Mediano o menor, este queda &amp;Reference[grappled]{agarrado} [[/check ability=str dc=14]], y la broza movediza usa [[/item Engulf]] contra él.</p>"
         },
         "N42BQALoCmeYphD1": {
-          "name": "Engullir"
+          "name": "Engullir",
+          "description": "<section class=\"secret\" id=\"secret-Lual2oE6uCwgNPOo\"><p>La broza movediza engulle a una criatura Mediana o menor que tenga &amp;Reference[grappled]{agarrada}. El objetivo engullido está cegado, apresado y no puede respirar, y debe superar una tirada de salvación de <strong>Constitución CD 14</strong> al comienzo de cada turno de la broza o recibir <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>.</p><p>Si la broza se mueve, el objetivo engullido se mueve con ella. Solo puede tener engullida a una criatura a la vez.</p></section><p>La broza movediza engulle a una criatura Mediana o menor que tenga agarrada. El objetivo engullido está &amp;Reference[blinded]{cegado}, &amp;Reference[restrained]{apresado} y no puede respirar, y debe realizar una tirada de salvación de <strong>Constitución</strong> al comienzo de cada turno de la broza. Si esta se mueve, el objetivo engullido se mueve con ella.</p>"
         },
         "lOIA9YKQU8xSx7Lj": {
           "name": "Golpe",
@@ -1169,10 +1189,12 @@
               "name": "Envenenado",
               "description": "<p>El objetivo está envenenado &amp;Reference[poisoned] hasta que se cure la enfermedad. Cada 24 horas transcurridas, debe repetir la tirada de salvación; si falla, sus puntos de golpe máximos se reducen en [[/damage 1d10 average]]. La enfermedad se cura si supera la tirada. El objetivo muere si la enfermedad reduce sus puntos de golpe máximos a 0. Esta reducción dura hasta que se cure la enfermedad.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-R8YTxkfxPo4kHKFg\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>12 (2d8 + 3) </strong><em><strong>de daño perforante</strong></em>.</p><p>Si el objetivo es una criatura, debe superar una tirada de salvación de <strong>Constitución CD 15</strong> contra enfermedad o quedar &amp;Reference[poisoned] hasta que esta se cure. Cada 24 horas transcurridas, debe repetir la salvación; si falla, sus puntos de golpe máximos se reducen en [[/damage 1d10 average]]. La enfermedad se cura si supera la tirada. El objetivo muere si la enfermedad reduce sus puntos de golpe máximos a 0. Esta reducción dura hasta que se cure la enfermedad.</p></section><p>El otyugh ataca con su Mordisco. Si el objetivo es una criatura, debe realizar una tirada de salvación de <strong>Constitución</strong>. Cada 24 horas transcurridas, debe repetir la tirada de salvación.</p>"
         },
         "BPYsBEkmZMcGYZDh": {
-          "name": "Tentáculo"
+          "name": "Tentáculo",
+          "description": "<section class=\"secret\" id=\"secret-geECtE9aMFFARrdZ\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+6 a impactar,</strong> alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>7 (1d8 + 3) </strong><em><strong>de daño contundente</strong></em> más <strong>4 (1d8) </strong><em><strong>de daño perforante</strong></em>.</p><p>Si el objetivo es Mediano o menor, queda &amp;Reference[grappled] (CD 13 para escapar) y apresado hasta que termine el agarre. El otyugh tiene dos tentáculos, cada uno de los cuales puede agarrar a un objetivo.</p></section><p>El otyugh ataca con su Tentáculo. Si el objetivo es Mediano o menor, queda &amp;Reference[grappled] y apresado hasta que termine el agarre. El otyugh tiene dos tentáculos, cada uno de los cuales puede agarrar a un objetivo.</p>"
         },
         "9d1ZhvT1vIJsNnN1": {
           "name": "Golpe de tentáculo",
@@ -1230,7 +1252,8 @@
           "description": "<p>La araña ignora las restricciones de movimiento causadas por las telarañas.</p>"
         },
         "2HPk5TdUTeEhD2eG": {
-          "name": "Mordisco"
+          "name": "Mordisco",
+          "description": "<section class=\"secret\" id=\"secret-c0NTWKAf26UhSXuQ\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>7 (1d10 + 2) </strong><em><strong>de daño perforante</strong></em>.</p><p>El objetivo debe realizar una tirada de salvación de <strong>Constitución CD 11</strong>; recibe <strong>18 (4d8) </strong><em><strong>de daño de veneno</strong></em> si falla o la mitad si la supera. Si el <em>daño de veneno</em> lo reduce a 0 puntos de golpe, queda estable pero &amp;Reference[poisoned]{envenenado} durante 1 hora, incluso después de recuperar puntos de golpe, y está &amp;Reference[paralyzed]{paralizado} mientras esté envenenado de esta forma.</p></section><p>La araña de fase ataca con su Mordisco. El objetivo debe realizar una tirada de salvación de <strong>Constitución</strong>.</p>"
         }
       },
       "biography": "<p>La araña de fase posee la capacidad mágica de entrar y salir del Plano Etéreo. Parece surgir de la nada y desaparece rápidamente tras atacar. Su movimiento por el Plano Etéreo antes de regresar al Material da la impresión de que puede teletransportarse.</p>"
@@ -1263,7 +1286,8 @@
           "description": "<p>Una mano espectral flotante aparece en un punto que elijas dentro del alcance. La mano permanece mientras dure el conjuro o hasta que la disipes como acción. Desaparece si en algún momento está a más de 30 pies de ti o si vuelves a lanzar este conjuro.</p><p>Puedes usar tu acción para controlar la mano. Puedes emplearla para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto o verter el contenido de un vial. Puedes mover la mano hasta 30 pies cada vez que la uses.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>"
         },
         "udsLtG0BugXHR2JQ": {
-          "name": "Prestidigitación"
+          "name": "Prestidigitación",
+          "description": "<p>Este conjuro es un truco mágico menor que los lanzadores de conjuros novatos usan para practicar. Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ráfaga de viento, unas notas musicales tenues o un olor extraño.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n<li>Limpias o ensucias al instante un objeto de hasta 1 pie cúbico.</li>\n<li>Enfrías, calientas o das sabor a hasta 1 pie cúbico de materia no viva durante 1 hora.</li>\n<li>Haces aparecer un color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.</li>\n<li>Creas una baratija no mágica o una imagen ilusoria que quepa en tu mano y dure hasta el final de tu siguiente turno.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos no instantáneos a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "ghXTfe7sgCbgf1Q8": {
           "name": "Detectar magia",
@@ -1347,7 +1371,8 @@
           "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>7 (1d6 + 4) <em>de daño contundente</em></strong>.</p></section>\n<p>El doppelganger ataca con su Golpe.</p>"
         },
         "YIoB9xCKEcrrPRt9": {
-          "name": "Leer pensamientos"
+          "name": "Leer pensamientos",
+          "description": "<section class=\"secret\">\n<p>El doppelganger lee mágicamente los pensamientos superficiales de una criatura a 60 pies o menos de sí mismo. El efecto puede atravesar barreras, pero lo bloquean 3 pies de madera o tierra, 2 pies de piedra, 2 pulgadas de metal o una fina lámina de plomo.</p>\n<p>Mientras el objetivo esté dentro del alcance, el doppelganger puede seguir leyendo sus pensamientos siempre que no pierda la concentración (como si se concentrara en un conjuro). Mientras lee la mente del objetivo, tiene ventaja en las pruebas de Sabiduría (Perspicacia) y Carisma (Engaño, Intimidación y Persuasión) contra él.</p>\n</section>\n<p>El doppelganger lee mágicamente los pensamientos superficiales de una criatura a 60 pies o menos de sí mismo.</p>"
         },
         "cG4WdhcrTZt6rxUi": {
           "name": "Cambiaformas",
@@ -1547,7 +1572,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Abres un portal a la oscuridad entre las estrellas, una región infestada de horrores desconocidos. Aparece una esfera de negrura y frío intenso de 20 pies de radio, centrada en un punto dentro del alcance, que permanece mientras dure el conjuro. Este vacío está lleno de una cacofonía de susurros suaves y ruidos de succión audibles a 30 pies de distancia. Ninguna luz, mágica o de otro tipo, puede iluminar el área, y las criaturas completamente dentro de ella están cegadas.</p><p>El vacío deforma el tejido del espacio y el área es terreno difícil. Cualquier criatura que comience su turno en ella recibe 2d6 de daño de frío. Cualquier criatura que termine su turno en el área debe superar una tirada de salvación de Destreza o recibir 2d6 de daño de ácido cuando unos tentáculos lechosos y de otro mundo la rozan.</p><p><strong>Nota de Foundry:</strong> El daño de frío está implementado en la fórmula «Otro».</p>"
         },
         "vIDaeDLF0k10InCd": {
           "name": "Detectar pensamientos",
@@ -1581,7 +1607,8 @@
           "description": "<p>Hasta que termine el conjuro, una criatura voluntaria que toques es inmune al daño psíquico, a cualquier efecto que perciba sus emociones o lea sus pensamientos, a los conjuros de adivinación y al estado hechizado. El conjuro incluso frustra conjuros de deseo y otros conjuros o efectos de poder similar empleados para afectar a la mente del objetivo u obtener información sobre él.</p>"
         },
         "PGJw3mdgKwyyFMld": {
-          "name": "Cadena de relámpagos"
+          "name": "Cadena de relámpagos",
+          "description": "<p>Creas un relámpago que se arquea hacia un objetivo que elijas y puedas ver dentro del alcance. Desde él saltan tres relámpagos hacia un máximo de otros tres objetivos, cada uno a 30 pies o menos del primero. Un objetivo puede ser una criatura o un objeto y solo puede recibir uno de los relámpagos.</p><p>Cada objetivo debe realizar una tirada de salvación de Destreza. Recibe 10d8 de daño de relámpago si falla o la mitad si la supera.</p><p><strong>A niveles superiores. </strong>Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, un relámpago adicional salta desde el primer objetivo hacia otro por cada nivel del espacio por encima de 6.</p>"
         },
         "5fSNnndkcHoQnPaa": {
           "name": "Detectar pensamientos"
@@ -1604,7 +1631,8 @@
           "description": "<p>Los ataques con arma de {creature} son mágicos.</p>"
         },
         "sq7RzU6BjoQf7wpM": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<section class=\"secret\" id=\"secret-wESM0fS4GvaZzhC7\"><p>El arcanaloth es un lanzador de conjuros de nivel 16. Su aptitud mágica es Inteligencia (CD de salvación de conjuros 17, +9 a impactar con ataques de conjuro). Tiene preparados los siguientes conjuros de mago:</p><p>Trucos (a voluntad): saeta de fuego, mano de mago, ilusión menor, prestidigitación</p><p>Nivel 1 (4 espacios): detectar magia, identificar, escudo, disco flotante de Tenser</p><p>Nivel 2 (3 espacios): detectar pensamientos, imagen múltiple, fuerza fantasmal, sugestión</p><p>Nivel 3 (3 espacios): contrahechizo, miedo, bola de fuego</p><p>Nivel 4 (3 espacios): destierro, puerta dimensional</p><p>Nivel 5 (2 espacios): contactar con otro plano, inmovilizar monstruo</p><p>Nivel 6 (1 espacio): cadena de relámpagos</p><p>Nivel 7 (1 espacio): dedo de la muerte</p><p>Nivel 8 (1 espacio): mente en blanco</p></section><p>El arcanaloth es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "ReirpMVGE28gxGkN": {
           "name": "Teletransportarse",
@@ -1622,7 +1650,8 @@
           "name": "Ilusión menor"
         },
         "ZcuD0kz4pSkepnR7": {
-          "name": "Prestidigitación"
+          "name": "Prestidigitación",
+          "description": "<p>Este conjuro es un truco mágico menor que los lanzadores de conjuros novatos usan para practicar. Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ráfaga de viento, unas notas musicales tenues o un olor extraño.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n<li>Limpias o ensucias al instante un objeto de hasta 1 pie cúbico.</li>\n<li>Enfrías, calientas o das sabor a hasta 1 pie cúbico de materia no viva durante 1 hora.</li>\n<li>Haces aparecer un color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.</li>\n<li>Creas una baratija no mágica o una imagen ilusoria que quepa en tu mano y dure hasta el final de tu siguiente turno.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos no instantáneos a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "Dgu9VXGPC0PkV9dT": {
           "name": "Detectar magia",
@@ -1642,7 +1671,8 @@
           "description": "<p>Una barrera invisible de fuerza mágica aparece y te protege. Hasta el comienzo de tu siguiente turno, obtienes un bonificador de +5 a la CA, también contra el ataque que activa el efecto, y no recibes daño de proyectil mágico.</p>"
         },
         "FSMdjyxAveKVLsJm": {
-          "name": "Disco flotante de Tenser"
+          "name": "Disco flotante de Tenser",
+          "description": "<p>Este conjuro crea un plano de fuerza circular y horizontal de 3 pies de diámetro y 1 pulgada de grosor, que flota a 3 pies del suelo en un espacio desocupado que elijas y puedas ver dentro del alcance. El disco permanece mientras dure el conjuro y puede soportar hasta 500 libras. Si se coloca más peso sobre él, el conjuro termina y todo lo que haya encima cae al suelo.</p><p>El disco permanece inmóvil mientras estés a 20 pies o menos de él. Si te alejas más de 20 pies, te sigue para mantenerse a 20 pies o menos de ti. Puede desplazarse por terreno irregular, subir y bajar escaleras y pendientes y similares, pero no puede superar un desnivel de 10 pies o más. Por ejemplo, no puede cruzar una sima de 10 pies de profundidad ni salir de ella si se creó en el fondo.</p><p>Si te alejas más de 100 pies del disco (normalmente porque no puede rodear un obstáculo para seguirte), el conjuro termina.</p>"
         },
         "DgohUoQnOwzmbJGc": {
           "name": "Imagen múltiple"
@@ -1669,10 +1699,12 @@
           "name": "Destierro"
         },
         "vzISjZ5iGzRRx0cs": {
-          "name": "Puerta dimensional"
+          "name": "Puerta dimensional",
+          "description": "<p>Te teletransportas desde tu ubicación actual a cualquier otro punto dentro del alcance. Llegas exactamente al lugar deseado. Puede ser un sitio que veas, que puedas visualizar o que puedas describir indicando distancia y dirección, como «200 pies justo hacia abajo» o «hacia arriba y al noroeste, en un ángulo de 45 grados, 300 pies».</p><p>Puedes llevar objetos siempre que su peso no supere lo que puedas transportar. También puedes llevar a una criatura voluntaria de tu tamaño o menor cuyo equipo no exceda su capacidad de carga. La criatura debe estar a 5 pies o menos de ti cuando lances el conjuro.</p><p>Si fueras a llegar a un lugar ocupado por un objeto o una criatura, tú y cualquier criatura que viaje contigo recibís 4d6 de daño de fuerza cada uno y el conjuro no os teletransporta.</p>"
         },
         "F3YNmVOzAnfcpsoV": {
-          "name": "Contactar con otro plano"
+          "name": "Contactar con otro plano",
+          "description": "<p>Contactas mentalmente con un semidiós, el espíritu de un sabio muerto hace mucho tiempo u otra entidad misteriosa de otro plano. Contactar con esta inteligencia extraplanar puede forzar o incluso quebrar tu mente. Cuando lanzas este conjuro, realiza una tirada de salvación de Inteligencia CD 15. Si fallas, recibes 6d6 de daño psíquico y enloqueces hasta que termines un descanso largo. Mientras estés en ese estado, no puedes realizar acciones, entender lo que dicen otras criaturas ni leer, y solo hablas de forma incoherente. Un conjuro de restablecimiento mayor lanzado sobre ti pone fin a este efecto.</p><p>Si superas la salvación, puedes hacer a la entidad hasta cinco preguntas antes de que termine el conjuro. El DM responde a cada una con una palabra, como «sí», «no», «quizá», «nunca», «irrelevante» o «incierto» (si la entidad desconoce la respuesta). Si una respuesta de una palabra resultara engañosa, el DM puede ofrecer una frase breve en su lugar.</p>"
         },
         "c45YELG5faOSzXDz": {
           "name": "Inmovilizar monstruo",
@@ -1700,7 +1732,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una oscuridad mágica se extiende desde un punto que elijas dentro del alcance y llena una esfera de 15 pies de radio mientras dure el conjuro. La oscuridad se propaga por las esquinas. Una criatura con visión en la oscuridad no puede ver a través de ella y la luz no mágica no puede iluminarla.</p><p>Si el punto elegido está en un objeto que sostienes o que nadie viste ni transporta, la oscuridad emana del objeto y se mueve con él. Cubrir por completo la fuente de oscuridad con un objeto opaco, como un cuenco o un yelmo, bloquea la oscuridad.</p><p>Si cualquier parte del área de este conjuro se solapa con un área de luz creada por un conjuro de nivel 2 o inferior, el conjuro que creó la luz queda disipado.</p>"
         },
         "BhytgLbRG50QcnXc": {
           "name": "Calentar metal",
@@ -1708,7 +1741,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Elige un objeto metálico manufacturado que puedas ver dentro del alcance, como un arma metálica o una armadura metálica media o pesada. Haces que se ponga al rojo vivo. Cualquier criatura en contacto físico con él recibe 2d8 de daño de fuego cuando lanzas el conjuro. Hasta que termine, puedes usar una acción adicional en cada uno de tus turnos posteriores para volver a infligir este daño.</p><p>Si una criatura sostiene o viste el objeto y recibe su daño, debe superar una tirada de salvación de Constitución o soltarlo, si puede. Si no lo suelta, tiene desventaja en las tiradas de ataque y pruebas de característica hasta el comienzo de tu siguiente turno.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 2.</p>"
         },
         "S9XdR5S1mor2zECf": {
           "name": "Invisibilidad",
@@ -1732,7 +1766,8 @@
           },
           "description": "<p>Creas tres dardos luminosos de fuerza mágica. Cada dardo impacta en una criatura que elijas y puedas ver dentro del alcance. Un dardo inflige 1d4 + 1 de daño de fuerza a su objetivo. Todos impactan simultáneamente y puedes dirigirlos contra una sola criatura o contra varias.</p><p><strong>A niveles superiores. </strong>Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, crea un dardo adicional por cada nivel del espacio por encima de 1.</p>"
         }
-      }
+      },
+      "biography": "<p>Los arcanaloths son seres astutos con cabeza de chacal y cuerpo humanoide, pero pueden usar magia para adoptar cualquier forma humanoide. Lo hacen para ganarse la confianza de las criaturas con las que negocian, sustituyendo los gruñidos de chacal por sonrisas cautivadoras.</p><p>Sea cual sea su forma, un arcanaloth luce bien arreglado y viste túnicas elegantes. Son lanzadores de conjuros muy inteligentes, ávidos de conocimiento y poder, que dirigen unidades de yugoloths menores y mantienen los contratos, registros y cuentas de los suyos.</p><p>Hablan y escriben todos los idiomas, lo que los convierte en diplomáticos y negociadores astutos. Bien remunerado, un arcanaloth puede negociar tratados o alianzas con sutileza y habilidad; del mismo modo, uno que cambie de bando puede convertir fácilmente las conversaciones de paz mejor preparadas en una guerra abierta. A cambio de su tiempo y talento exige información, además de poderosos objetos mágicos que pueda intercambiar por aún más información.</p>"
     },
     "pbsoAshZombie000": {
       "name": "Zombi de ceniza",
@@ -2013,7 +2048,8 @@
               "name": "Infectado",
               "description": "<p>El objetivo está infectado con fago del caos.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. Impacto: 12 (2d6 + 5) de daño cortante. Si el objetivo es un humanoide, debe superar una tirada de salvación de Constitución CD 15 o contraer una enfermedad llamada fagocitosis del caos. Mientras esté infectado, no puede recuperar puntos de golpe y sus puntos de golpe máximos se reducen en [[/damage 3d6 average]] cada 24 horas. Si la enfermedad los reduce a 0, se transforma instantáneamente en un @UUID[Actor.pbsoRedSlaad0000]{slaad rojo} o, si puede lanzar conjuros de nivel 3 o superior, en un @UUID[Actor.pbsoGreenSlaad00]{slaad verde}. Solo un conjuro de @UUID[Compendium.dnd5e.spells.Item.3okM6Gn63zzEULkz]{deseo} puede revertir la transformación.</p></section><p>El slaad azul ataca con sus garras.</p>"
         }
       }
     },
@@ -2089,7 +2125,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura u objeto que elijas y puedas ver dentro del alcance se eleva verticalmente hasta 20 pies y queda suspendido mientras dure el conjuro. Este puede hacer levitar a un objetivo que pese hasta 500 libras. Una criatura no voluntaria que supere una tirada de salvación de Constitución no resulta afectada.</p><p>El objetivo solo puede moverse empujándose o tirando de un objeto o superficie fija que tenga al alcance (como una pared o un techo), lo que le permite desplazarse como si trepara. En tu turno, puedes cambiar su altura hasta 20 pies en cualquier dirección. Si tú eres el objetivo, puedes subir o bajar como parte de tu movimiento. De lo contrario, puedes usar tu acción para mover al objetivo, que debe permanecer dentro del alcance del conjuro.</p><p>Cuando termina el conjuro, el objetivo desciende flotando suavemente hasta el suelo si todavía está en el aire.</p>"
         }
       },
       "biography": "<p>Los rompecerebros parecen cerebros gigantes con patas robustas y llevan armaduras de acero hechas de eslabones entrelazados con las runas de Ilvaash: nudos de tentáculos, cerebros y líneas dentadas que recuerdan a mandíbulas.</p>"
@@ -2141,7 +2178,8 @@
           "description": "<p>El azotamentes realiza dos ataques de Tentáculo.</p>"
         },
         "RQ1kZFWK7kIOysKc": {
-          "name": "Desatar el vacío"
+          "name": "Desatar el vacío",
+          "description": "<p>El azotamentes abre una grieta hacia el Reino Lejano, centrada en un punto que pueda ver a 60 pies o menos de sí mismo, y un tentáculo azota a las criaturas cercanas. Cada criatura que no sea un azotamentes a 30 pies o menos de la grieta debe realizar una tirada de salvación de Inteligencia CD 17, tras lo cual el tentáculo desaparece y la grieta se cierra. Si falla, recibe 18 (4d8) de daño de frío de la grieta más 18 (4d8) de daño psíquico del tentáculo y queda aturdida durante 1 minuto. Si supera la tirada, solo recibe la mitad del daño. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si la supera.</p>"
         },
         "xsF6v748joUvtDvw": {
           "name": "Distorsionar la realidad",
@@ -2167,7 +2205,8 @@
           "description": "<section class=\"secret\" id=\"secret-GXCJtfYlMBKXWzUe\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 5 pies, una criatura. <em>Impacto:</em> 21 (3d10 + 5) de daño psíquico. Si el objetivo es Mediano o menor, queda agarrado (para escapar: [[/check ability=str dc=17]]) y debe superar una tirada de salvación de Inteligencia CD 17 o quedar incapacitado hasta que termine el agarre.</p></section><p>El azotamentes ataca con sus tentáculos. Si el objetivo es Mediano o menor, queda &amp;Reference[grappled]{agarrado} y debe superar una tirada de salvación de Inteligencia o quedar &amp;Reference[stunned]{aturdido} hasta que termine este agarre.</p>"
         },
         "N3GUtYqgcCwtHN4p": {
-          "name": "Lanzamiento de conjuros (psiónico)"
+          "name": "Lanzamiento de conjuros (psiónico)",
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>El azotamentes lanza uno de los siguientes conjuros sin componentes y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 17):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>3/día cada uno: @UUID[Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL]{clarividencia} (como acción), @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{disipar magia}</p><p>1/día: @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo)</p></section><p>El azotamentes es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "kqpDJvxPDwoHNh4J": {
           "name": "Detectar magia",
@@ -2200,7 +2239,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (que hayas visitado o visto antes) o en una ubicación evidente que no conozcas (como detrás de una puerta, al doblar una esquina o en una arboleda). El sensor permanece en su sitio mientras dure el conjuro y no puede ser atacado ni se puede interactuar con él de otra forma.</p><p>Cuando lanzas el conjuro, eliges ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción, puedes alternar entre ver y oír.</p><p>Una criatura que pueda ver el sensor (por ejemplo, gracias a ver invisibilidad o visión verdadera) ve un orbe luminoso e intangible del tamaño aproximado de tu puño.</p>"
         },
         "N3YCd1eq0eqs7ybF": {
           "name": "Mano de mago",
@@ -2220,7 +2260,8 @@
           },
           "description": "<p>Elige una criatura, objeto o efecto mágico dentro del alcance. Termina cualquier conjuro de nivel 3 o inferior sobre el objetivo. Por cada conjuro de nivel 4 o superior que lo afecte, realiza una prueba de característica usando tu aptitud mágica. La CD es igual a 10 + el nivel del conjuro. Si superas la prueba, el conjuro termina.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 4 o superior, terminas automáticamente los efectos de un conjuro sobre el objetivo si su nivel es igual o inferior al del espacio de conjuro que hayas usado.</p>"
         }
-      }
+      },
+      "biography": "<p>En su afán por reconstruir su imperio perdido, algunos azotamentes han recurrido a su plano natal, el Reino Lejano, en busca de respuestas. Un azotamentes clarividente ha escudriñado las profundidades sin estrellas de ese reino y ha recibido poderes extraordinarios como recompensa.</p><p>En lugar de obedecer a un cerebro anciano, escucha los susurros y caprichos de las voces del Reino Lejano. Además de alimentarse de cerebros, puede invocar tentáculos que desgarran el tejido de la realidad y distorsionan las mentes de sus enemigos.</p><hr /><h2>Azotamentes</h2><p>Los azotamentes, también conocidos como ilícidos, se alimentan de los cerebros de humanoides por todo el multiverso. Se distinguen por su piel de tonos púrpuras y sus cabezas similares a las de un pulpo, de las que se extienden tentáculos retorcidos.</p>"
     },
     "pbsoClairvoyantm": {
       "name": "Azotamentes clarividente",
@@ -2253,10 +2294,12 @@
             "VOYpWsVX9rDUxFxR": {
               "name": "Desplazamiento entre planos (solo sobre sí mismo)"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>El azotamentes lanza uno de los siguientes conjuros sin componentes y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 17):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>3/día cada uno: @UUID[Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL]{clarividencia} (como acción), @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{disipar magia}</p><p>1/día: @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo)</p></section><p>El azotamentes es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "RQ1kZFWK7kIOysKc": {
-          "name": "Desatar el vacío"
+          "name": "Desatar el vacío",
+          "description": "<p>El azotamentes abre una grieta hacia el Reino Lejano, centrada en un punto que pueda ver a 60 pies o menos de sí mismo, y un tentáculo azota a las criaturas cercanas. Cada criatura que no sea un azotamentes a 30 pies o menos de la grieta debe realizar una <strong>tirada de salvación de Inteligencia</strong>, tras lo cual el tentáculo desaparece y la grieta se cierra. Si falla, recibe 18 (4d8) de daño de frío de la grieta más 18 (4d8) de daño psíquico del tentáculo y queda &amp;Reference[stunned]{aturdida} durante 1 minuto. Si supera la tirada, solo recibe la mitad del daño. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si la supera.</p>"
         },
         "xsF6v748joUvtDvw": {
           "name": "Distorsionar la realidad",
@@ -2305,7 +2348,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (que hayas visitado o visto antes) o en una ubicación evidente que no conozcas (como detrás de una puerta, al doblar una esquina o en una arboleda). El sensor permanece en su sitio mientras dure el conjuro y no puede ser atacado ni se puede interactuar con él de otra forma.</p><p>Cuando lanzas el conjuro, eliges ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción, puedes alternar entre ver y oír.</p><p>Una criatura que pueda ver el sensor (por ejemplo, gracias a ver invisibilidad o visión verdadera) ve un orbe luminoso e intangible del tamaño aproximado de tu puño.</p>"
         },
         "WWDfbYbvueu7lyvh": {
           "name": "Disipar magia",
@@ -2325,7 +2369,8 @@
           }
         }
       },
-      "tokenName": "Azotamentes clarividente"
+      "tokenName": "Azotamentes clarividente",
+      "biography": "<p>En su afán por reconstruir su imperio perdido, algunos azotamentes han recurrido a su plano natal, el Reino Lejano, en busca de respuestas. Un azotamentes clarividente ha escudriñado las profundidades sin estrellas de ese reino y ha recibido poderes extraordinarios como recompensa.</p><p>En lugar de obedecer a un cerebro anciano, escucha los susurros y caprichos de las voces del Reino Lejano. Además de alimentarse de cerebros, puede invocar tentáculos que desgarran el tejido de la realidad y distorsionan las mentes de sus enemigos.</p><hr /><h2>Azotamentes</h2><p>Los azotamentes, también conocidos como ilícidos, se alimentan de los cerebros de humanoides por todo el multiverso. Se distinguen por su piel de tonos púrpuras y sus cabezas similares a las de un pulpo, de las que se extienden tentáculos retorcidos.</p>"
     },
     "pbsoCloakerMutat": {
       "name": "Manto mutado",
@@ -2480,7 +2525,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una oscuridad mágica se extiende desde un punto que elijas dentro del alcance y llena una esfera de 15 pies de radio mientras dure el conjuro. La oscuridad se propaga por las esquinas. Una criatura con visión en la oscuridad no puede ver a través de ella y la luz no mágica no puede iluminarla.</p><p>Si el punto elegido está en un objeto que sostienes o que nadie viste ni transporta, la oscuridad emana del objeto y se mueve con él. Cubrir por completo la fuente de oscuridad con un objeto opaco, como un cuenco o un yelmo, bloquea la oscuridad.</p><p>Si cualquier parte del área de este conjuro se solapa con un área de luz creada por un conjuro de nivel 2 o inferior, el conjuro que creó la luz queda disipado.</p>"
         },
         "0ScQ0un9l0MPD9no": {
           "name": "Fuego feérico",
@@ -2497,7 +2543,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura u objeto que elijas y puedas ver dentro del alcance se eleva verticalmente hasta 20 pies y queda suspendido mientras dure el conjuro. Este puede hacer levitar a un objetivo que pese hasta 500 libras. Una criatura no voluntaria que supere una tirada de salvación de Constitución no resulta afectada.</p><p>El objetivo solo puede moverse empujándose o tirando de un objeto o superficie fija que tenga al alcance (como una pared o un techo), lo que le permite desplazarse como si trepara. En tu turno, puedes cambiar su altura hasta 20 pies en cualquier dirección. Si tú eres el objetivo, puedes subir o bajar como parte de tu movimiento. De lo contrario, puedes usar tu acción para mover al objetivo, que debe permanecer dentro del alcance del conjuro.</p><p>Cuando termina el conjuro, el objetivo desciende flotando suavemente hasta el suelo si todavía está en el aire.</p>"
         }
       }
     },
@@ -2585,7 +2632,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura u objeto que elijas y puedas ver dentro del alcance se eleva verticalmente hasta 20 pies y queda suspendido mientras dure el conjuro. Este puede hacer levitar a un objetivo que pese hasta 500 libras. Una criatura no voluntaria que supere una tirada de salvación de Constitución no resulta afectada.</p><p>El objetivo solo puede moverse empujándose o tirando de un objeto o superficie fija que tenga al alcance (como una pared o un techo), lo que le permite desplazarse como si trepara. En tu turno, puedes cambiar su altura hasta 20 pies en cualquier dirección. Si tú eres el objetivo, puedes subir o bajar como parte de tu movimiento. De lo contrario, puedes usar tu acción para mover al objetivo, que debe permanecer dentro del alcance del conjuro.</p><p>Cuando termina el conjuro, el objetivo desciende flotando suavemente hasta el suelo si todavía está en el aire.</p>"
         }
       },
       "biography": "<p>El Reino Lejano ha corrompido al cerebro anciano que alimenta a los azotamentes de Illithinoch.</p>"
@@ -2632,7 +2680,8 @@
           },
           "description": "<p>Inmediatamente después de recibir el impacto de un ataque, el cúmulo se mueve hasta su velocidad hacia el atacante. Este movimiento no provoca ataques de oportunidad. Si termina este movimiento a 5 pies o menos del atacante, realiza un ataque de [[/item Slam]] contra él.</p>"
         }
-      }
+      },
+      "biography": "<p>Un cúmulo de encéfalos no obedece a ningún cerebro anciano ni a sus progenitores azotamentes. Esta grotesca criatura deambula por cavernas oscuras y olvidadas, expulsando una progenie deformada para multiplicarse. Por ello, muchos azotamentes consideran a los cúmulos de encéfalos virus insidiosos. Sin control, uno solo puede convertirse rápidamente en una amenaza voraz capaz de invadir toda una colonia azotamentes.</p><h2>Encéfalos</h2><p>Cuando una colonia ilícida pone sus huevos peligrosamente cerca de una grieta del Reino Lejano, existe la posibilidad de que un saco de huevos mute y se convierta en un cúmulo de encéfalos: una masa voraz, viscosa y psiónica con forma de cerebro que engendra horrores llamados @UUID[Actor.pbsoGemmule00000]{gémulas encefálicas}.</p>"
     },
     "pbsoFeralAshenwi": {
       "name": "Espectro cinéreo feral",
@@ -2891,7 +2940,8 @@
           "description": "<p>La gémula elige como objetivo a una criatura a 5 pies o menos de sí misma y la obliga a realizar una tirada de salvación de Destreza CD 14. Si falla, la gémula entra en su espacio y se adhiere a ella. Mientras permanezca adherida, el objetivo recibe 7 (3d4) de daño perforante al comienzo de cada uno de sus turnos y la gémula no puede volver a usar Drenar hasta que se desprenda. Puede desprenderse gastando 5 pies de movimiento. Como acción, el objetivo o una criatura a 5 pies o menos de él puede desprender la gémula superando una prueba de [[/check ability=strength dc=15]].</p>"
         }
       },
-      "tokenName": "Gémula"
+      "tokenName": "Gémula",
+      "biography": "<p>Debido a la influencia del Reino Lejano, los huevos de un @UUID[Actor.pbsoEncephalonCl]{cúmulo de encéfalos} ya no eclosionan en renacuajos ilícidos. En su lugar, cuando uno madura, sale expulsado de la masa como una gémula encefálica.</p><p>Al nacer, una gémula parece un trozo de materia carnosa blanda, deforme, con forma piramidal y patas delgadas. Si nada se lo impide, se convierte en un cúmulo de encéfalos en cuestión de días y comienza a producir sus propias gémulas.</p><h2>Encéfalos</h2><p>Cuando una colonia ilícida pone sus huevos peligrosamente cerca de una grieta del Reino Lejano, existe la posibilidad de que un saco de huevos mute y se convierta en un cúmulo de encéfalos: una masa voraz, viscosa y psiónica con forma de cerebro que engendra horrores llamados gémulas encefálicas.</p>"
     },
     "pbsoGithyankiKni": {
       "name": "Caballero githyanki",
@@ -2909,7 +2959,8 @@
             "esjQjt77oQZhwjOK": {
               "name": "Indetectable (solo sobre sí mismo)"
             }
-          }
+          },
+          "description": "<p>La aptitud mágica innata del githyanki es Inteligencia (CD de salvación de conjuros 13, +5 a impactar con ataques de conjuro). Puede lanzar de forma innata los siguientes conjuros sin componentes:</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>3/día cada uno: @UUID[Compendium.dnd5e.spells.Item.ZrTc23tToJ0JpH2h]{salto}, @UUID[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL]{paso brumoso}, @UUID[Compendium.dnd5e.spells.Item.aU62xVUBYkAQWIHv]{indetectabilidad} (solo sobre sí mismo), @UUID[Compendium.dnd5e.spells.Item.gopnZvS0c2jD5FP8]{lenguas}</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos}, @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{telequinesis}</p>"
         },
         "FIobccRx0qa7oUyC": {
           "name": "Ataque múltiple",
@@ -3247,7 +3298,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Intentas hechizar a un humanoide que puedas ver dentro del alcance. Debe realizar una tirada de salvación de Sabiduría, con ventaja si tú o tus compañeros estáis luchando contra él. Si falla, queda &amp;Reference[charmed] por ti hasta que termine el conjuro o hasta que tú o tus compañeros le hagáis algo dañino. La criatura hechizada te considera un conocido amistoso. Cuando termina el conjuro, sabe que la has hechizado.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, puedes elegir una criatura adicional como objetivo por cada nivel del espacio por encima de 1. Las criaturas deben estar a 30 pies o menos unas de otras cuando las elijas.</p>"
         },
         "MWALCphO1m8cb0df": {
           "name": "Telequinesis",
@@ -3263,7 +3315,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Susurras una melodía discordante que solo puede oír una criatura que elijas dentro del alcance y que le provoca un dolor terrible. El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, recibe 3d6 de daño psíquico y debe usar inmediatamente su reacción, si la tiene disponible, para alejarse de ti tanto como permita su velocidad. No se mueve hacia un terreno evidentemente peligroso, como un fuego o una sima. Si supera la tirada, recibe la mitad del daño y no tiene que alejarse. Una criatura ensordecida supera automáticamente la salvación.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d6 por cada nivel del espacio por encima de 1.</p>"
         }
       }
     },
@@ -3307,7 +3360,8 @@
             "fMqr4e1T9rJpI3L7": {
               "name": "Desplazamiento entre planos (solo sobre sí mismo)"
             }
-          }
+          },
+          "description": "<p>La aptitud mágica innata del slaad es Carisma (CD de salvación de conjuros 14). Puede lanzar de forma innata los siguientes conjuros sin componentes materiales:</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibilidad} (solo sobre sí mismo), @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago}, @UUID[Compendium.dnd5e.spells.Item.nslx2nT3p4lNkmdp]{imagen mayor}</p><p>2/día cada uno: @UUID[Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0]{miedo}, @UUID[Compendium.dnd5e.spells.Item.yfbK8gZqESlaoY5t]{volar}, @UUID[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0]{bola de fuego}, @UUID[Compendium.dnd5e.spells.Item.gopnZvS0c2jD5FP8]{lenguas}</p><p>1/día: @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo)</p>"
         },
         "RwILZYbflPolBQju": {
           "name": "Armas mágicas",
@@ -3561,14 +3615,16 @@
           "description": "<p>El grell psíquico realiza un ataque de [[/item Tentacle]] y uno de [[/item Beak]].</p>"
         },
         "d9FqsNW4sMaN68nj": {
-          "name": "Lanzamiento de conjuros (psiónico)"
+          "name": "Lanzamiento de conjuros (psiónico)",
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>El grell psíquico lanza uno de los siguientes conjuros sin componentes y usando Carisma como aptitud mágica (CD de salvación de conjuros 12):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{armadura de mago}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{confusión}, @UUID[Compendium.dnd5e.spells.Item.XXUDGFELgoskdOD0]{miedo}</p></section><p>El grell psíquico es un lanzador de conjuros. Su aptitud mágica es Carisma.</p>"
         },
         "cY9EfMKaqudsKgJv": {
           "name": "Pico",
           "description": "<section class=\"secret\" id=\"secret-bnaTES8C4wBAtws6\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 5 pies, un objetivo. Impacto: 10 (3d4 + 3) de daño perforante.</p></section><p>El grell ataca con su pico.</p>"
         },
         "FDu9P95QLGHIj6Km": {
-          "name": "Tentáculo"
+          "name": "Tentáculo",
+          "description": "<section class=\"secret\" id=\"secret-Af37Kysh7J1N25UY\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 10 pies, un objetivo. Impacto: 8 (1d10 + 3) de daño perforante, y el objetivo debe superar una tirada de salvación de Constitución CD 11 o quedar &amp;Reference[poisoned]{envenenado} durante 1 minuto. Mientras esté envenenado, también está &amp;Reference[paralyzed]{paralizado}. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera. El objetivo también queda &amp;Reference[grappled] (CD 16 para escapar). Mientras lo tenga agarrado, el grell no puede realizar ataques de Tentáculo contra otros objetivos. Cuando el grell se mueve, cualquier objetivo Mediano o menor que tenga agarrado se mueve con él.</p></section><p>El grell realiza un ataque de tentáculo. El objetivo también queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=strength dc=16]]).</p>"
         },
         "xIsEHSot0qcUNFOn": {
           "name": "Detectar pensamientos",
@@ -3606,7 +3662,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro ataca y retuerce las mentes de las criaturas, generando delirios y provocando acciones descontroladas. Cada criatura en una esfera de 10 pies de radio centrada en un punto que elijas dentro del alcance debe superar una tirada de salvación de Sabiduría cuando lanzas este conjuro o quedar afectada por él.</p>\n<p>Un objetivo afectado no puede realizar reacciones y debe tirar en la tabla de @UUID[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj]{Confusión} al comienzo de cada uno de sus turnos para determinar su comportamiento durante ese turno.</p>\n<p><em><strong>A niveles superiores.</strong></em> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el radio de la esfera aumenta en 5 pies por cada nivel del espacio por encima de 4.</p>"
         },
         "YXF3Pfvp3k8ZRE5f": {
           "name": "Miedo",
@@ -3682,7 +3739,8 @@
           "description": "<section class=\"secret\"><p>Ataque con arma cuerpo a cuerpo o a distancia: +5 a impactar, alcance 5 pies o alcance 20/60 pies, un objetivo. Impacto: <strong>4 (1d4 + 2) <em>de daño perforante</em></strong>.</p><p></p></section><p>El mago ataca con su Daga.</p>"
         },
         "hYpimAtz3E9Humk5": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<section class=\"secret\" id=\"secret-Awm0SL4OQCskjI0W\"><p>El mago es un lanzador de conjuros de nivel 9. Su aptitud mágica es Inteligencia (CD de salvación de conjuros 14, +6 a impactar con ataques de conjuro). Tiene preparados los siguientes conjuros de mago:</p><p>Trucos (a voluntad): [[/item Fire Bolt]], [[/item Light]], [[/item Mage Hand]], [[/item Prestidigitation]]</p><p>Nivel 1 (4 espacios): [[/item Detect Magic]], [[/item Mage Armor]], [[/item Magic Missile]], [[/item Shield]]</p><p>Nivel 2 (3 espacios): [[/item Misty Step]], [[/item Suggestion]]</p><p>Nivel 3 (3 espacios): [[/item Counterspell]], [[/item Fireball]], [[/item Fly]]</p><p>Nivel 4 (3 espacios): [[/item Greater Invisibility]], [[/item Ice Storm]]</p><p>Nivel 5 (1 espacio): [[/item Cone of Cold]]</p></section><p>El mago es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "hSctG5FBHFD60hrE": {
           "name": "Descarga de fuego",
@@ -3697,7 +3755,8 @@
           "description": "<p>Una mano espectral flotante aparece en un punto que elijas dentro del alcance. La mano permanece mientras dure el conjuro o hasta que la disipes como acción. Desaparece si en algún momento está a más de 30 pies de ti o si vuelves a lanzar este conjuro.</p><p>Puedes usar tu acción para controlar la mano. Puedes emplearla para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto o verter el contenido de un vial. Puedes mover la mano hasta 30 pies cada vez que la uses.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>"
         },
         "YiPHz39L4UNRcAER": {
-          "name": "Prestidigitación"
+          "name": "Prestidigitación",
+          "description": "<p>Este conjuro es un truco mágico menor que los lanzadores de conjuros novatos usan para practicar. Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ráfaga de viento, unas notas musicales tenues o un olor extraño.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n<li>Limpias o ensucias al instante un objeto de hasta 1 pie cúbico.</li>\n<li>Enfrías, calientas o das sabor a hasta 1 pie cúbico de materia no viva durante 1 hora.</li>\n<li>Haces aparecer un color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.</li>\n<li>Creas una baratija no mágica o una imagen ilusoria que quepa en tu mano y dure hasta el final de tu siguiente turno.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos no instantáneos a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "3o1Plu12ONirWWnd": {
           "name": "Armadura de mago",
@@ -3786,7 +3845,8 @@
             "g1mRVUb6Tm3bZr6b": {
               "name": "Desplazamiento entre planos (solo sobre sí mismo)"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>El azotamentes lanza uno de los siguientes conjuros sin componentes y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 17):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>3/día cada uno: @UUID[Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL]{clarividencia} (como acción), @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{disipar magia}</p><p>1/día: @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo)</p></section><p>El azotamentes es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "RQ1kZFWK7kIOysKc": {
           "name": "Desatar el vacío",
@@ -3795,7 +3855,8 @@
               "name": "Aturdido",
               "description": "<p>El objetivo tiene el estado &amp;Reference[stunned] durante 1 minuto.</p>"
             }
-          }
+          },
+          "description": "<p>El azotamentes abre una grieta hacia el Reino Lejano, centrada en un punto que pueda ver a 60 pies o menos de sí mismo, y un tentáculo azota a las criaturas cercanas. Cada criatura que no sea un azotamentes a 30 pies o menos de la grieta debe realizar una tirada de salvación de Inteligencia CD 17, tras lo cual el tentáculo desaparece y la grieta se cierra. Si falla, recibe 18 (4d8) de daño de frío de la grieta más 18 (4d8) de daño psíquico del tentáculo y queda aturdida durante 1 minuto. Si supera la tirada, solo recibe la mitad del daño. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si la supera.</p>"
         },
         "xsF6v748joUvtDvw": {
           "name": "Distorsionar la realidad",
@@ -3848,7 +3909,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (que hayas visitado o visto antes) o en una ubicación evidente que no conozcas (como detrás de una puerta, al doblar una esquina o en una arboleda). El sensor permanece en su sitio mientras dure el conjuro y no puede ser atacado ni se puede interactuar con él de otra forma.</p><p>Cuando lanzas el conjuro, eliges ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción, puedes alternar entre ver y oír.</p><p>Una criatura que pueda ver el sensor (por ejemplo, gracias a ver invisibilidad o visión verdadera) ve un orbe luminoso e intangible del tamaño aproximado de tu puño.</p>"
         },
         "UiPFlttz4a9wFZv0": {
           "name": "Disipar magia",
@@ -3867,7 +3929,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>En su afán por reconstruir su imperio perdido, algunos azotamentes han recurrido a su plano natal, el Reino Lejano, en busca de respuestas. Un azotamentes clarividente ha escudriñado las profundidades sin estrellas de ese reino y ha recibido poderes extraordinarios como recompensa.</p><p>En lugar de obedecer a un cerebro anciano, escucha los susurros y caprichos de las voces del Reino Lejano. Además de alimentarse de cerebros, puede invocar tentáculos que desgarran el tejido de la realidad y distorsionan las mentes de sus enemigos.</p><hr /><h2>Azotamentes</h2><p>Los azotamentes, también conocidos como ilícidos, se alimentan de los cerebros de humanoides por todo el multiverso. Se distinguen por su piel de tonos púrpuras y sus cabezas similares a las de un pulpo, de las que se extienden tentáculos retorcidos.</p>"
     },
     "pbsoHelmedHorror": {
       "name": "Horror acorazado",
@@ -3940,13 +4003,15 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Intentas reprimir las emociones intensas de un grupo de personas. Cada humanoide en una esfera de 20 pies de radio centrada en un punto que elijas dentro del alcance debe realizar una tirada de salvación de Carisma; una criatura puede elegir fallarla. Si falla, elige uno de los dos efectos siguientes. Puedes suprimir cualquier efecto que haga que un objetivo esté hechizado o asustado. Cuando termina este conjuro, el efecto suprimido se reanuda, siempre que su duración no haya expirado entretanto.</p><p>Como alternativa, puedes hacer que un objetivo se vuelva indiferente hacia criaturas que elijas contra las que sea hostil. La indiferencia termina si el objetivo es atacado o dañado por un conjuro, o si presencia cómo dañan a uno de sus amigos. Cuando termina el conjuro, vuelve a ser hostil, salvo que el DM decida lo contrario.</p>"
         },
         "GspAo1mlXDwHijC6": {
           "name": "Fragmento necrótico",
           "description": "<section class=\"secret\" id=\"secret-KxmKccbILhIG3OIx\"><p>Ataque con arma cuerpo a cuerpo o a distancia: +7 a impactar, alcance 5 pies o alcance 60 pies, un objetivo. Impacto: 7 (1d6 + 4) de daño necrótico. Si el objetivo es una criatura, tiene desventaja en la siguiente tirada de ataque que realice antes del final de su siguiente turno.</p></section><p>El espectro cinéreo realiza un ataque con una esquirla necrótica.</p>"
         }
-      }
+      },
+      "biography": "<p>Cuando un espectro cinéreo surge cerca de una veta de cristal imbuida de poder aberrante, o permanece en un área de magia siniestra, puede desarrollar capacidades psiónicas. Un espectro cinéreo psiónico es mucho más consciente que los demás, aunque la consciencia resultante es una creación nueva, distinta de quien fue en vida.</p><p>Algunos dedican su existencia a reconstruir su vida anterior, mientras que otros intentan despertar a otros espectros cinéreos a este nuevo poder psiónico.</p><h2>Espectros cinéreos</h2><p>Cuando un humanoide consumido por la crueldad y la ira muere en un área corrompida por el Reino Lejano, a veces se alza como un espectro cinéreo. La piel de estos horrores no muertos está reseca y sus ojos suelen brillar con un poder de otro mundo.</p>"
     },
     "pbsoHonna0000000": {
       "name": "Honna",
@@ -4088,7 +4153,8 @@
           "description": "<p>Una mano espectral flotante aparece en un punto que elijas dentro del alcance. La mano permanece mientras dure el conjuro o hasta que la disipes como acción. Desaparece si en algún momento está a más de 30 pies de ti o si vuelves a lanzar este conjuro.</p><p>Puedes usar tu acción para controlar la mano. Puedes emplearla para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto o verter el contenido de un vial. Puedes mover la mano hasta 30 pies cada vez que la uses.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>"
         },
         "4W5ZNfMhX7vkPTqT": {
-          "name": "Hechizar persona"
+          "name": "Hechizar persona",
+          "description": "<p>Intentas hechizar a un humanoide que puedas ver dentro del alcance. Debe realizar una tirada de salvación de Sabiduría, con ventaja si tú o tus compañeros estáis luchando contra él. Si falla, queda hechizado por ti hasta que termine el conjuro o hasta que tú o tus compañeros le hagáis algo dañino. La criatura hechizada te considera un conocido amistoso. Cuando termina el conjuro, sabe que la has hechizado.</p>\n        <p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, puedes elegir una criatura adicional como objetivo por cada nivel del espacio por encima de 1. Las criaturas deben estar a 30 pies o menos unas de otras cuando las elijas.</p>"
         },
         "YZzFm5LBvPqq5AtE": {
           "name": "Inmovilizar persona",
@@ -4161,7 +4227,8 @@
             "fh9EuAQ0FL67LOUE": {
               "name": "Desplazamiento entre planos (solo sobre sí mismo)"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>La refracción lanza uno de los siguientes conjuros sin componentes y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 19):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}</p><p>3/día cada uno: @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{disipar magia}, @UUID[Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4]{modificar recuerdo}</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.hYCrN82dMJFuJODB]{debilidad mental}, @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí misma)</p></section><p>La refracción es una lanzadora de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "6529a4iY1fYcaPki": {
           "name": "Movimiento incorpóreo",
@@ -4251,7 +4318,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Atacas la mente de una criatura que puedas ver dentro del alcance, intentando destruir su intelecto y personalidad. El objetivo recibe 4d6 de daño psíquico y debe realizar una tirada de salvación de Inteligencia.</p><p>Si falla, sus puntuaciones de Inteligencia y Carisma pasan a ser 1. No puede lanzar conjuros, activar objetos mágicos, comprender el lenguaje ni comunicarse de forma inteligible. Sin embargo, puede identificar a sus amigos, seguirlos e incluso protegerlos.</p><p>Al final de cada periodo de 30 días, la criatura puede repetir su tirada de salvación contra este conjuro. Si la supera, el conjuro termina.</p><p>Los conjuros restablecimiento mayor, sanar o deseo también pueden ponerle fin.</p>"
         },
         "Z3iFKQ4EN1qTjhmw": {
           "name": "Desplazamiento entre planos",
@@ -4291,7 +4359,8 @@
           },
           "description": "<p>El devorador de intelectos elige como objetivo a una criatura que pueda ver a 10 pies o menos de sí mismo y que tenga cerebro. El objetivo debe superar una tirada de salvación de Inteligencia CD 12 contra esta magia o recibir 11 (2d10) de daño psíquico. Si falla, tira además [[/r 3d6]]: si el total iguala o supera su puntuación de Inteligencia, esta se reduce a 0. El objetivo queda &amp;Reference[stunned]{aturdido} hasta que recupere al menos un punto de Inteligencia.</p>"
         }
-      }
+      },
+      "biography": "<p>Un devorador de intelectos parece un cerebro andante protegido por una cubierta costrosa y sostenido por patas bestiales con garras. Esta repugnante aberración se alimenta de la inteligencia de criaturas conscientes y se apodera del cuerpo de sus víctimas para servir a sus amos azotamentes.</p><p><strong>Creaciones ilícidas.</strong> Los azotamentes crían devoradores de intelectos como cazadores errantes de la Infraoscuridad. Para crearlos, extraen el cerebro de un esclavo y lo someten a un ritual horrible. A medida que le brotan patas, el cerebro se convierte en un depredador inteligente tan retorcido y malvado como sus amos.</p><p><strong>Titiriteros mortales.</strong> Un devorador de intelectos consume la mente y los recuerdos de una criatura y convierte su cuerpo en una marioneta bajo su control. Suele usar al huésped para atraer a otros a los dominios de los azotamentes, donde serán esclavizados o devorados.</p>"
     },
     "pbsoIntellectSna": {
       "name": "Trampa de intelecto",
@@ -4403,7 +4472,8 @@
           "description": "<p>{creature} realiza un ataque de tentáculo o usa Arrojar.</p>"
         },
         "Xoc7H679JW6Zw98B": {
-          "name": "Nube de tinta"
+          "name": "Nube de tinta",
+          "description": "<section class=\"secret\" id=\"secret-E1mVnI7dlj7gP7OY\"><p>Mientras está bajo el agua, el kraken expulsa una nube de tinta en un radio de 60 pies. La nube se propaga por las esquinas y el área está &amp;Reference[heavily-obscured]{muy oscura} para las criaturas que no sean el kraken. Cada criatura que no sea el kraken y termine su turno allí debe realizar una tirada de salvación de Constitución CD 23; recibe 16 (3d10) de daño de veneno si falla o la mitad si la supera. Una corriente fuerte dispersa la nube; de lo contrario, desaparece al final del siguiente turno del kraken.</p></section><p>Mientras está bajo el agua, el kraken expulsa una nube de tinta en un radio de 60 pies. Cualquier criatura que no sea el kraken y termine su turno dentro de ese radio debe realizar una <strong>tirada de salvación de Constitución</strong>.</p>"
         },
         "eLzuXXNFyfyH7Uyq": {
           "name": "Tentáculo",
@@ -4456,7 +4526,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una oscuridad mágica se extiende desde un punto que elijas dentro del alcance y llena una esfera de 15 pies de radio mientras dure el conjuro. La oscuridad se propaga por las esquinas. Una criatura con visión en la oscuridad no puede ver a través de ella y la luz no mágica no puede iluminarla.</p><p>Si el punto elegido está en un objeto que sostienes o que nadie viste ni transporta, la oscuridad emana del objeto y se mueve con él. Cubrir por completo la fuente de oscuridad con un objeto opaco, como un cuenco o un yelmo, bloquea la oscuridad.</p><p>Si cualquier parte del área de este conjuro se solapa con un área de luz creada por un conjuro de nivel 2 o inferior, el conjuro que creó la luz queda disipado.</p>"
         },
         "NYGeFxVbTZrJTZYM": {
           "name": "Disipar magia",
@@ -4538,7 +4609,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura u objeto que elijas y puedas ver dentro del alcance se eleva verticalmente hasta 20 pies y queda suspendido mientras dure el conjuro. Este puede hacer levitar a un objetivo que pese hasta 500 libras. Una criatura no voluntaria que supere una tirada de salvación de Constitución no resulta afectada.</p><p>El objetivo solo puede moverse empujándose o tirando de un objeto o superficie fija que tenga al alcance (como una pared o un techo), lo que le permite desplazarse como si trepara. En tu turno, puedes cambiar su altura hasta 20 pies en cualquier dirección. Si tú eres el objetivo, puedes subir o bajar como parte de tu movimiento. De lo contrario, puedes usar tu acción para mover al objetivo, que debe permanecer dentro del alcance del conjuro.</p><p>Cuando termina el conjuro, el objetivo desciende flotando suavemente hasta el suelo si todavía está en el aire.</p>"
         },
         "TQp2UacJggvW2N5a": {
           "name": "Dominar monstruo",
@@ -4596,7 +4668,8 @@
             "i9hY64KaLGF6Lic7": {
               "name": "Agarrado"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-GXCJtfYlMBKXWzUe\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, una criatura. <em>Impacto:</em> 16 (2d10 + 5) de daño psíquico. Si el objetivo es Mediano o menor, queda &amp;Reference[grappled]{agarrado} (CD 16 para escapar) y debe superar una tirada de salvación de Inteligencia CD 16 o quedar &amp;Reference[stunned]{aturdido} hasta que termine el agarre.</p></section><p>El azotamentes ataca con sus tentáculos. Si el objetivo es Mediano o menor, queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=str dc=16]]) y debe superar una tirada de salvación de Inteligencia o quedar &amp;Reference[stunned]{aturdido} hasta que termine este agarre.</p>"
         },
         "EIbCEvPMbBTAO3O6": {
           "name": "Lanzamiento de conjuros (psiónico)",
@@ -4604,7 +4677,8 @@
             "iO3StdJtn3tnGCY4": {
               "name": "Desplazamiento entre planos (solo sobre sí mismo)"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-Ha7i1m2hEPOuVRPT\"><p>El azotamentes lanza uno de los siguientes conjuros sin componentes y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 16):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitar}</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{dominar monstruo}, @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo), @UUID[Compendium.dnd5e.spells.Item.XzkJpE6XpZfKjODD]{visión veraz}</p></section><p>El azotamentes profeta es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "fnC10gdYJWHVb35a": {
           "name": "Detectar pensamientos",
@@ -4620,7 +4694,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura u objeto que elijas y puedas ver dentro del alcance se eleva verticalmente hasta 20 pies y queda suspendido mientras dure el conjuro. Este puede hacer levitar a un objetivo que pese hasta 500 libras. Una criatura no voluntaria que supere una tirada de salvación de Constitución no resulta afectada.</p><p>El objetivo solo puede moverse empujándose o tirando de un objeto o superficie fija que tenga al alcance (como una pared o un techo), lo que le permite desplazarse como si trepara. En tu turno, puedes cambiar su altura hasta 20 pies en cualquier dirección. Si tú eres el objetivo, puedes subir o bajar como parte de tu movimiento. De lo contrario, puedes usar tu acción para mover al objetivo, que debe permanecer dentro del alcance del conjuro.</p><p>Cuando termina el conjuro, el objetivo desciende flotando suavemente hasta el suelo si todavía está en el aire.</p>"
         },
         "HuDZ0es2sXIs3QKf": {
           "name": "Dominar monstruo",
@@ -4721,7 +4796,8 @@
       "creatureSubtype": "Elfo",
       "items": {
         "XJPzEyx8VowAykDO": {
-          "name": "Lanzamiento de conjuros"
+          "name": "Lanzamiento de conjuros",
+          "description": "<p>Nezznar lanza uno de los siguientes conjuros usando Inteligencia como aptitud mágica (CD de salvación de conjuros 13, salvo que se indique otra):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.CAxSzHWizrafT033]{luces danzantes}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago}, trepar cual arácnido (con el bastón de la araña), telaraña (con el bastón de la araña; CD de salvación 15)</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq]{oscuridad}, @UUID[Compendium.dnd5e.spells.Item.nqBDWkVOfcGZt4YU]{fuego feérico}, @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibilidad}, @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{armadura de mago}, @UUID[Compendium.dnd5e.spells.Item.41JIhpDyM9Anm7cs]{proyectil mágico}, @UUID[Compendium.dnd5e.spells.Item.zMAWdyc8UVb37BK4]{sugestión}</p>"
         },
         "zr3Gs9CdFnGDIiDR": {
           "name": "Sensibilidad a la luz solar",
@@ -4778,7 +4854,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una oscuridad mágica se extiende desde un punto que elijas dentro del alcance y llena una esfera de 15 pies de radio mientras dure el conjuro. La oscuridad se propaga por las esquinas. Una criatura con visión en la oscuridad no puede ver a través de ella y la luz no mágica no puede iluminarla.</p><p>Si el punto elegido está en un objeto que sostienes o que nadie viste ni transporta, la oscuridad emana del objeto y se mueve con él. Cubrir por completo la fuente de oscuridad con un objeto opaco, como un cuenco o un yelmo, bloquea la oscuridad.</p><p>Si cualquier parte del área de este conjuro se solapa con un área de luz creada por un conjuro de nivel 2 o inferior, el conjuro que creó la luz queda disipado.</p>"
         },
         "rQ9B7UibpLNOyMA2": {
           "name": "Fuego feérico",
@@ -4941,7 +5018,8 @@
             "Nqv2oM3q0Ay0QWOU": {
               "name": "Daño escalable"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 12 (2d6 + 5) de daño cortante. Si el objetivo es una criatura, debe superar una tirada de salvación de Constitución CD 16 o recibir 5 (2d4) de daño cortante al comienzo de cada uno de sus turnos debido a una herida infernal. Cada vez que el nycaloth impacta al objetivo herido con este ataque, el daño de la herida aumenta en 5 (2d4). Cualquier criatura puede usar una acción para cerrar la herida superando una prueba de [[/check skill=med dc=13]]. La herida también se cierra si el objetivo recibe curación mágica.</p><p><strong>Nota de Foundry</strong></p><p>La actividad <strong>Daño escalable</strong> acepta un valor de escala que puede establecerse en el número de veces que el nycaloth haya impactado a esa criatura y ajustará el daño correctamente.</p></section><p>El nycaloth ataca con su garra.</p>"
         },
         "474nrWBAHH2zGac2": {
           "name": "Teletransportarse",
@@ -4957,7 +5035,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una oscuridad mágica se extiende desde un punto que elijas dentro del alcance y llena una esfera de 15 pies de radio mientras dure el conjuro. La oscuridad se propaga por las esquinas. Una criatura con visión en la oscuridad no puede ver a través de ella y la luz no mágica no puede iluminarla.</p><p>Si el punto elegido está en un objeto que sostienes o que nadie viste ni transporta, la oscuridad emana del objeto y se mueve con él. Cubrir por completo la fuente de oscuridad con un objeto opaco, como un cuenco o un yelmo, bloquea la oscuridad.</p><p>Si cualquier parte del área de este conjuro se solapa con un área de luz creada por un conjuro de nivel 2 o inferior, el conjuro que creó la luz queda disipado.</p>"
         },
         "eowf0fHHAMQdolxB": {
           "name": "Detectar magia",
@@ -5056,7 +5135,8 @@
           },
           "description": "<p>Cuando el oculorbo recibe daño de una criatura que pueda ver a 60 pies o menos de él, la obliga a realizar una tirada de salvación de Sabiduría CD 16. La criatura recibe 10 (3d6) de daño psíquico si falla, o la mitad si tiene éxito.</p>"
         }
-      }
+      },
+      "biography": "<p>Muchos oculorbos nacen de los sueños de los @UUID[Actor.pbsoBeholder0000]{contempladores}. El extraño poder del Reino Lejano puede impregnar sus sueños y dar lugar al nacimiento de un oculorbo.</p><p>Los oculorbos parecen conglomerados viscosos de ojos de muchas formas y tamaños. Incluso los contempladores que los engendran los temen. Un oculorbo es una maraña de emociones negativas: la furia, la melancolía y la obsesión de su creador, dotadas de una forma corpórea grotesca. Como un contemplador, puede disparar haces de energía desde sus ojos, pero estos carecen de la naturaleza mágica más sofisticada de los pedúnculos oculares de aquel. En su lugar, libera poderosas oleadas de energía cargadas de emociones negativas, doblegando a sus enemigos con desesperación e ira.</p>"
     },
     "pbsoOntharyxHenl": {
       "name": "Ontharyx Henlifel",
@@ -5101,7 +5181,8 @@
       "languages": "Telepatía (120 pies)",
       "items": {
         "8Wja69NRlVo6ul5B": {
-          "name": "Cristal mental potenciado"
+          "name": "Cristal mental potenciado",
+          "description": "<p>Objeto maravilloso, rareza variable</p><p>Estas gemas contienen una porción cristalizada de magia de lanzamiento de conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento sea de 1 acción mientras sostienes un cristal mental, puedes modificarlo de una forma específica cuyo efecto se describe a continuación. Solo puedes usar un cristal mental para modificar el conjuro y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal mental se convierte en una gema no mágica que vale 50 po.</p><table><thead><tr><th><p>Tipo de cristal</p></th><th><p>Rareza</p></th><th><p>Efecto</p></th></tr></thead><tbody><tr><td><p>Potenciado</p></td><td><p>Poco común</p></td><td><p>Cuando tiras el daño del conjuro, puedes repetir hasta tres dados de daño. Debes usar los nuevos resultados.</p></td></tr></tbody></table>"
         },
         "Cj6qPhu5tuev75AB": {
           "name": "Resistencia mágica",
@@ -5197,7 +5278,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro es un truco mágico menor que los lanzadores de conjuros novatos usan para practicar. Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ráfaga de viento, unas notas musicales tenues o un olor extraño.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n<li>Limpias o ensucias al instante un objeto de hasta 1 pie cúbico.</li>\n<li>Enfrías, calientas o das sabor a hasta 1 pie cúbico de materia no viva durante 1 hora.</li>\n<li>Haces aparecer un color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.</li>\n<li>Creas una baratija no mágica o una imagen ilusoria que quepa en tu mano y dure hasta el final de tu siguiente turno.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos no instantáneos a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "0WOZwaFVVuCvHmqU": {
           "name": "Dominar monstruo",
@@ -5217,7 +5299,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una barrera inmóvil y ligeramente resplandeciente aparece en un radio de 10 pies a tu alrededor y permanece mientras dure el conjuro.</p><p>Ningún conjuro de nivel 5 o inferior lanzado desde fuera de la barrera puede afectar a las criaturas u objetos de su interior, aunque se lance usando un espacio de conjuro de nivel superior. Puede seleccionarlos como objetivos, pero no tiene efecto sobre ellos. Asimismo, el área dentro de la barrera queda excluida de las áreas afectadas por dichos conjuros.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 7 o superior, la barrera bloquea conjuros de un nivel más por cada nivel del espacio por encima de 6.</p>"
         },
         "iNkWmMCoZVBHMazF": {
           "name": "Invisibilidad",
@@ -5254,7 +5337,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Un muro de fuerza invisible aparece en un punto que elijas dentro del alcance. Puedes orientarlo como quieras: como barrera horizontal, vertical o inclinada. Puede flotar libremente o apoyarse en una superficie sólida. Puedes darle forma de cúpula hemisférica o esfera de hasta 10 pies de radio, o de superficie plana formada por diez paneles de 10 pies por 10 pies. Cada panel debe ser contiguo a otro. En cualquier forma, el muro tiene 1/4 de pulgada de grosor y permanece mientras dure el conjuro. Si al aparecer atraviesa el espacio de una criatura, esta es empujada a un lado del muro, a tu elección.</p><p>Nada puede atravesar físicamente el muro. Es inmune a todo daño y no puede disiparse con disipar magia. Sin embargo, un conjuro de desintegrar lo destruye al instante. El muro también se extiende al Plano Etéreo e impide atravesarlo mediante viajes etéreos.</p>"
         }
       },
       "biography": "<p>Oshundo vivió en Illithinoch durante el apogeo del imperio de los azotamentes, hace muchos siglos, pero fue expulsado por practicar magia arcana. Resulta evidente que aquel rechazo aún le duele: se refiere a los dirigentes de Illithinoch, muertos hace mucho tiempo, como «necios ignorantes» que están «cerrados a la flexibilidad y el poder de la magia arcana».</p>"
@@ -5269,7 +5353,8 @@
           "description": "<p>[[lookup @name]] realiza dos ataques de [[/item Bite]] o [[/item Tentacle]]. Puede sustituir uno de ellos por [[/item Chitin Slam]].</p>"
         },
         "1DsYXRDXLpsjcIUN": {
-          "name": "Tentáculo"
+          "name": "Tentáculo",
+          "description": "<section class=\"secret\" id=\"secret-VTUO0pko1DWJeOYA\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 10 pies, un objetivo. <em>Impacto:</em> 13 (2d8 + 4) de daño contundente y, si el objetivo es una criatura Mediana o menor, queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=str dc=15]]) y &amp;Reference[restrained]{apresado} hasta que termine este agarre. La criatura mutada tiene dos tentáculos, cada uno capaz de agarrar a un objetivo.</p></section><p>El otyugh mutado golpea con un tentáculo. Si el objetivo es una criatura Mediana o menor, también queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=str dc=15]]) y &amp;Reference[restrained]{apresado} hasta que termine este agarre. La criatura mutada tiene dos tentáculos, cada uno capaz de agarrar a un objetivo.</p>"
         },
         "rAY0dLT2fJ8rS0VP": {
           "name": "Golpe de quitina",
@@ -5303,7 +5388,8 @@
               "name": "Envenenado",
               "description": "<p>El objetivo está envenenado &amp;Reference[poisoned] hasta que se cure la enfermedad. Cada 24 horas transcurridas, debe repetir la tirada de salvación; si falla, sus puntos de golpe máximos se reducen en [[/damage 1d10 average]]. La enfermedad se cura si supera la tirada. El objetivo muere si la enfermedad reduce sus puntos de golpe máximos a 0. Esta reducción dura hasta que se cure la enfermedad.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-R8YTxkfxPo4kHKFg\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>12 (2d8 + 3) </strong><em><strong>de daño perforante</strong></em>.</p><p>Si el objetivo es una criatura, debe superar una tirada de salvación de <strong>Constitución CD 15</strong> contra enfermedad o quedar &amp;Reference[poisoned] hasta que esta se cure. Cada 24 horas transcurridas, debe repetir la salvación; si falla, sus puntos de golpe máximos se reducen en [[/damage 1d10 average]]. La enfermedad se cura si supera la tirada. El objetivo muere si la enfermedad reduce sus puntos de golpe máximos a 0. Esta reducción dura hasta que se cure la enfermedad.</p></section><p>El otyugh ataca con su Mordisco. Si el objetivo es una criatura, debe realizar una tirada de salvación de <strong>Constitución</strong>. Cada 24 horas transcurridas, debe repetir la tirada de salvación.</p>"
         }
       }
     },
@@ -5336,7 +5422,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Intentas reprimir las emociones intensas de un grupo de personas. Cada humanoide en una esfera de 20 pies de radio centrada en un punto que elijas dentro del alcance debe realizar una tirada de salvación de Carisma; una criatura puede elegir fallarla. Si falla, elige uno de los dos efectos siguientes. Puedes suprimir cualquier efecto que haga que un objetivo esté hechizado o asustado. Cuando termina este conjuro, el efecto suprimido se reanuda, siempre que su duración no haya expirado entretanto.</p><p>Como alternativa, puedes hacer que un objetivo se vuelva indiferente hacia criaturas que elijas contra las que sea hostil. La indiferencia termina si el objetivo es atacado o dañado por un conjuro, o si presencia cómo dañan a uno de sus amigos. Cuando termina el conjuro, vuelve a ser hostil, salvo que el DM decida lo contrario.</p>"
         },
         "WklY0ROsXuvf8f3d": {
           "name": "Fragmento necrótico",
@@ -5352,7 +5439,8 @@
           },
           "description": "<p>El espectro cinéreo rodea la cabeza de una criatura que pueda ver a 60 pies o menos de sí mismo con una corona de cristales espectrales e irregulares. El objetivo debe superar una tirada de salvación de Sabiduría CD 14 o quedar &amp;Reference[charmed] durante 1 minuto. Mientras esté hechizado de esta forma, sus pensamientos son lentos: no puede realizar reacciones, su velocidad se reduce a la mitad y recibe 9 (2d8) de daño psíquico al comienzo de cada uno de sus turnos. El objetivo puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí mismo si la supera.</p>"
         }
-      }
+      },
+      "biography": "<p>Cuando un espectro cinéreo surge cerca de una veta de cristal imbuida de poder aberrante, o permanece en un área de magia siniestra, puede desarrollar capacidades psiónicas. Un espectro cinéreo psiónico es mucho más consciente que los demás, aunque la consciencia resultante es una creación nueva, distinta de quien fue en vida.</p><p>Algunos dedican su existencia a reconstruir su vida anterior, mientras que otros intentan despertar a otros espectros cinéreos a este nuevo poder psiónico.</p><h2>Espectros cinéreos</h2><p>Cuando un humanoide consumido por la crueldad y la ira muere en un área corrompida por el Reino Lejano, a veces se alza como un espectro cinéreo. La piel de estos horrores no muertos está reseca y sus ojos suelen brillar con un poder de otro mundo.</p>"
     },
     "pbsoPsychicGrayO": {
       "name": "Cieno gris psíquico",
@@ -5444,7 +5532,8 @@
           "description": "<section class=\"secret\" id=\"secret-6ip9qz1cAHIhDdij\"><p><strong>Consejo de Foundry:</strong> Activa el efecto activo Furia del herido para añadir automáticamente los 2d6 de daño.</p></section><p>Mientras tenga 10 puntos de golpe o menos, el quaggoth tiene <strong>ventaja</strong> en las tiradas de ataque. Además, inflige 7 (2d6) de daño adicional a cualquier objetivo al que impacte con un ataque cuerpo a cuerpo.</p>"
         },
         "dhrzwm9LB5rRIMgc": {
-          "name": "Lanzamiento innato de conjuros (psiónico)"
+          "name": "Lanzamiento innato de conjuros (psiónico)",
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>La aptitud mágica innata del quaggoth es Sabiduría (CD de salvación de conjuros 11). Puede lanzar de forma innata los siguientes conjuros sin componentes:</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.pub0OWVEB71XQx1n]{caída de pluma}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.uUWb1wZgtMou0TVP]{curar heridas}, @UUID[Compendium.dnd5e.spells.Item.WahI41a3goVUg0x1]{agrandar/reducir}, @UUID[Compendium.dnd5e.spells.Item.2yHXEcrRbadZDr5M]{calentar metal}, @UUID[Compendium.dnd5e.spells.Item.X4c8xCkmF8U9HUMz]{imagen múltiple}</p></section><p>El quaggoth thonot es un lanzador de conjuros. Su aptitud mágica es Sabiduría.</p>"
         },
         "2hAfz9up8GiTiz10": {
           "name": "Caída de pluma",
@@ -5487,7 +5576,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Elige un objeto metálico manufacturado que puedas ver dentro del alcance, como un arma metálica o una armadura metálica media o pesada. Haces que se ponga al rojo vivo. Cualquier criatura en contacto físico con él recibe 2d8 de daño de fuego cuando lanzas el conjuro. Hasta que termine, puedes usar una acción adicional en cada uno de tus turnos posteriores para volver a infligir este daño.</p><p>Si una criatura sostiene o viste el objeto y recibe su daño, debe superar una tirada de salvación de Constitución o soltarlo, si puede. Si no lo suelta, tiene desventaja en las tiradas de ataque y pruebas de característica hasta el comienzo de tu siguiente turno.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 2.</p>"
         },
         "qmRZnLg3XW7Tn0ps": {
           "name": "Imagen múltiple",
@@ -5576,7 +5666,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Una criatura u objeto que elijas y puedas ver dentro del alcance se eleva verticalmente hasta 20 pies y queda suspendido mientras dure el conjuro. Este puede hacer levitar a un objetivo que pese hasta 500 libras. Una criatura no voluntaria que supere una tirada de salvación de Constitución no resulta afectada.</p><p>El objetivo solo puede moverse empujándose o tirando de un objeto o superficie fija que tenga al alcance (como una pared o un techo), lo que le permite desplazarse como si trepara. En tu turno, puedes cambiar su altura hasta 20 pies en cualquier dirección. Si tú eres el objetivo, puedes subir o bajar como parte de tu movimiento. De lo contrario, puedes usar tu acción para mover al objetivo, que debe permanecer dentro del alcance del conjuro.</p><p>Cuando termina el conjuro, el objetivo desciende flotando suavemente hasta el suelo si todavía está en el aire.</p>"
         },
         "hmY33DGdJMRCXd3T": {
           "name": "Armadura de mago",
@@ -5606,7 +5697,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro es un truco mágico menor que los lanzadores de conjuros novatos usan para practicar. Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como una lluvia de chispas, una ráfaga de viento, unas notas musicales tenues o un olor extraño.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n<li>Limpias o ensucias al instante un objeto de hasta 1 pie cúbico.</li>\n<li>Enfrías, calientas o das sabor a hasta 1 pie cúbico de materia no viva durante 1 hora.</li>\n<li>Haces aparecer un color, una pequeña marca o un símbolo en un objeto o superficie durante 1 hora.</li>\n<li>Creas una baratija no mágica o una imagen ilusoria que quepa en tu mano y dure hasta el final de tu siguiente turno.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos no instantáneos a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "94JeuhTsYVIgkFzN": {
           "name": "Confusión",
@@ -5614,7 +5706,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Este conjuro ataca y retuerce las mentes de las criaturas, generando delirios y provocando acciones descontroladas. Cada criatura en una esfera de 10 pies de radio centrada en un punto que elijas dentro del alcance debe superar una tirada de salvación de Sabiduría cuando lanzas este conjuro o quedar afectada por él.</p>\n<p>Un objetivo afectado no puede realizar reacciones y debe tirar en la tabla de @UUID[Compendium.dnd5e.tables.RollTable.LHEts1oDaDwcehuj]{Confusión} al comienzo de cada uno de sus turnos para determinar su comportamiento durante ese turno.</p>\n<p><em><strong>A niveles superiores.</strong></em> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, el radio de la esfera aumenta en 5 pies por cada nivel del espacio por encima de 4.</p>"
         },
         "yOlYsODqd836tT6q": {
           "name": "Recado",
@@ -5667,7 +5760,8 @@
           "description": "<section class=\"secret\" id=\"secret-udutKQTWNnEN5qsf\"><p><em>Ataque con arma cuerpo a cuerpo: +6 a impactar, alcance 5 pies, un objetivo. Impacto: 8 (2d4 + 3) de daño perforante.</em></p></section><p>El slaad ataca con su Mordisco.</p>"
         },
         "CW3sG2GLyZZHi3K4": {
-          "name": "Garra"
+          "name": "Garra",
+          "description": "<section class=\"secret\" id=\"secret-fpPEQONB02JagIQF\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies, un objetivo. Impacto: 7 (1d8 + 3) de daño perforante. Si el objetivo es un humanoide, debe superar una tirada de salvación de Constitución CD 14 o quedar infectado con una enfermedad: un minúsculo huevo de slaad.</p><p>Un huésped humanoide solo puede gestar un huevo de slaad a la vez. Durante tres meses, el huevo se desplaza hasta la cavidad torácica, se desarrolla y forma un renacuajo slaad. En las 24 horas previas al nacimiento, el huésped empieza a sentirse mal, su velocidad se reduce a la mitad y tiene desventaja en las tiradas de ataque, pruebas de característica y tiradas de salvación. Al nacer, el renacuajo se abre paso a mordiscos a través de los órganos vitales y sale del pecho del huésped en 1 asalto, matándolo.</p><p>Si se cura la enfermedad antes de que emerja el renacuajo, el slaad nonato se desintegra.</p></section><p>El slaad ataca con sus garras.</p>"
         },
         "mH6tqdBB7GDISM9m": {
           "name": "Ataque múltiple",
@@ -5714,7 +5808,8 @@
           "description": "<section class=\"secret\" id=\"secret-FZjx9TJqttG8PRrv\"><p>El druida es un lanzador de conjuros de nivel 4. Su aptitud mágica es Sabiduría (CD de salvación de conjuros 12, +4 a impactar con ataques de conjuro).</p><p>Tiene preparados los siguientes conjuros de druida:</p><p><strong>Trucos </strong>(a voluntad): [[/item Druidcraft]], [[/item Produce Flame]], [[/item Shillelagh]]</p><p><strong>Nivel 1</strong> (4 espacios): [[/item Entangle]], [[/item Longstrider]], [[/item Speak with Animals]], [[/item Thunderwave]]</p><p><strong>Nivel 2</strong> (3 espacios): [[/item Animal Messenger]], [[/item Barkskin]]</p></section><p>El druida es un lanzador de conjuros. Su aptitud mágica es Sabiduría.</p>"
         },
         "VhJwO26Og6e4E1tg": {
-          "name": "Saber druídico"
+          "name": "Saber druídico",
+          "description": "<p>Susurrando a los espíritus de la naturaleza, creas uno de los siguientes efectos dentro del alcance:</p>\n<ul>\n<li>Creas un diminuto efecto sensorial inofensivo que predice el tiempo que hará donde te encuentras durante las siguientes 24 horas. Puede manifestarse como un orbe dorado para un cielo despejado, una nube para lluvia, copos que caen para nieve, etcétera. Este efecto dura 1 asalto.</li>\n<li>Haces que una flor florezca, una vaina de semillas se abra o una yema de hoja brote al instante.</li>\n<li>Creas un efecto sensorial instantáneo e inofensivo, como hojas que caen, una ráfaga de viento, el sonido de un animal pequeño o un leve olor a mofeta. El efecto debe caber en un cubo de 5 pies de lado.</li>\n<li>Enciendes o apagas al instante una vela, una antorcha o una pequeña hoguera.</li>\n</ul>"
         },
         "14EDOs18eAx9yF6L": {
           "name": "Producir llama",
@@ -5737,7 +5832,8 @@
           "description": "<p>Mientras dure el conjuro, obtienes la capacidad de comprender a las bestias y comunicarte verbalmente con ellas. El conocimiento y la percepción de muchas bestias están limitados por su inteligencia, pero al menos pueden informarte sobre lugares y monstruos cercanos, incluido lo que perciban o hayan percibido durante el último día. A discreción del DM, podrías persuadir a una bestia para que te haga un pequeño favor.</p>"
         },
         "FSK4UUVSkJLvOX3j": {
-          "name": "Onda atronadora"
+          "name": "Onda atronadora",
+          "description": "<p>Una oleada de fuerza atronadora surge de ti. Cada criatura en un cubo de 15 pies de lado que parta de ti debe realizar una tirada de salvación de Constitución. Si falla, recibe 2d8 de daño de trueno y es empujada 10 pies en dirección contraria a ti. Si supera la tirada, recibe la mitad del daño y no es empujada.</p><p>Además, los objetos que no estén sujetos y se encuentren completamente dentro del área de efecto son empujados automáticamente 10 pies en dirección contraria a ti, y el conjuro emite un estruendo audible a 300 pies de distancia.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 1.</p>"
         },
         "ISlelRyBNlqPs2ah": {
           "name": "Mensajero animal"
@@ -5978,7 +6074,8 @@
           "name": "Drenar",
           "description": "<p>La gémula elige como objetivo a una criatura a 5 pies o menos de sí misma y la obliga a realizar una tirada de salvación de Destreza CD 14. Si falla, la gémula entra en su espacio y se adhiere a ella. Mientras permanezca adherida, el objetivo recibe 7 (3d4) de daño perforante al comienzo de cada uno de sus turnos y la gémula no puede volver a usar Drenar hasta que se desprenda. Puede desprenderse gastando 5 pies de movimiento. Como acción, el objetivo o una criatura a 5 pies o menos de él puede desprender la gémula superando una prueba de [[/check ability=strength dc=15]].</p>"
         }
-      }
+      },
+      "biography": "<p>Debido a la influencia del Reino Lejano, los huevos de un @UUID[Actor.pbsoEncephalonCl]{cúmulo de encéfalos} ya no eclosionan en renacuajos ilícidos. En su lugar, cuando uno madura, sale expulsado de la masa como una gémula encefálica.</p><p>Al nacer, una gémula parece un trozo de materia carnosa blanda, deforme, con forma piramidal y patas delgadas. Si nada se lo impide, se convierte en un cúmulo de encéfalos en cuestión de días y comienza a producir sus propias gémulas.</p><h2>Encéfalos</h2><p>Cuando una colonia ilícida pone sus huevos peligrosamente cerca de una grieta del Reino Lejano, existe la posibilidad de que un saco de huevos mute y se convierta en un cúmulo de encéfalos: una masa voraz, viscosa y psiónica con forma de cerebro que engendra horrores llamados gémulas encefálicas.</p>"
     },
     "pbsoShalfiLewin0": {
       "name": "Shalfi Lewin",
@@ -6046,7 +6143,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Abres un portal a la oscuridad entre las estrellas, una región infestada de horrores desconocidos. Aparece una esfera de negrura y frío intenso de 20 pies de radio, centrada en un punto dentro del alcance, que permanece mientras dure el conjuro. Este vacío está lleno de una cacofonía de susurros suaves y ruidos de succión audibles a 30 pies de distancia. Ninguna luz, mágica o de otro tipo, puede iluminar el área, y las criaturas completamente dentro de ella están cegadas.</p><p>El vacío deforma el tejido del espacio y el área es terreno difícil. Cualquier criatura que comience su turno en ella recibe 2d6 de daño de frío. Cualquier criatura que termine su turno en el área debe superar una tirada de salvación de Destreza o recibir 2d6 de daño de ácido cuando unos tentáculos lechosos y de otro mundo la rozan.</p><p><strong>Nota de Foundry:</strong> El daño de frío está implementado en la fórmula «Otro».</p>"
         }
       },
       "alignment": "Normalmente caótico malvado",
@@ -6145,7 +6243,8 @@
           "name": "Garras",
           "description": "<section id=\"secret-IuwXxuPftX1QjXfz\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +3 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 3 (1d4 + 1) de daño perforante.</p></section><p>La ramita marchita ataca con sus garras.</p>"
         }
-      }
+      },
+      "biography": "<p>Una ramita marchita es una planta despierta que parece un arbusto leñoso capaz de arrancar sus raíces del suelo. Sus ramas se retuercen entre sí para formar un cuerpo de aspecto humanoide con cabeza y extremidades.</p><hr /><p>Las ramitas marchitas pueden arraigar en el suelo, algo que hacen cuando escasean las presas vivas. Mientras están arraigadas, parecen arbustos leñosos. Cuando una arranca sus raíces para moverse, sus ramas se retuercen entre sí para formar un cuerpo de aspecto humanoide con cabeza y extremidades.</p><p>Buscan campamentos y abrevaderos y arraigan allí para emboscar a las víctimas que acudan a beber o descansar. Agrupadas, se confunden con la vegetación natural o con montones de escombros o leña.</p><p>Debido a su sequedad, son especialmente vulnerables al fuego.</p>"
     },
     "pbsoUmberHulk000": {
       "name": "Mole sombría",
@@ -6197,7 +6296,8 @@
           "description": "<p>El azotamentes realiza dos ataques de Tentáculo.</p>"
         },
         "0k4yrPEaRl4ZCZmD": {
-          "name": "Lanzamiento de conjuros (psiónico)"
+          "name": "Lanzamiento de conjuros (psiónico)",
+          "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>El azotamentes lanza uno de los siguientes conjuros sin componentes y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 17):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible)</p><p>3/día cada uno: @UUID[Compendium.dnd5e.spells.Item.cg50KpBkBdPK6vPL]{clarividencia} (como acción), @UUID[Compendium.dnd5e.spells.Item.15Fa6q1nH27XfbR8]{disipar magia}</p><p>1/día: @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo)</p></section><p>El azotamentes es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
         },
         "xsF6v748joUvtDvw": {
           "name": "Distorsionar la realidad",
@@ -6250,7 +6350,8 @@
             "dnd5espellchange": {
               "name": "Cambios de conjuros"
             }
-          }
+          },
+          "description": "<p>Creas un sensor invisible dentro del alcance en un lugar que te resulte familiar (que hayas visitado o visto antes) o en una ubicación evidente que no conozcas (como detrás de una puerta, al doblar una esquina o en una arboleda). El sensor permanece en su sitio mientras dure el conjuro y no puede ser atacado ni se puede interactuar con él de otra forma.</p><p>Cuando lanzas el conjuro, eliges ver u oír. Puedes usar el sentido elegido a través del sensor como si estuvieras en su espacio. Como acción, puedes alternar entre ver y oír.</p><p>Una criatura que pueda ver el sensor (por ejemplo, gracias a ver invisibilidad o visión verdadera) ve un orbe luminoso e intangible del tamaño aproximado de tu puño.</p>"
         },
         "LmCnoivYCyxOhNu5": {
           "name": "Disipar magia",
@@ -6270,9 +6371,11 @@
           }
         },
         "3tqVFCy6TbrGBXTK": {
-          "name": "Desatar el vacío"
+          "name": "Desatar el vacío",
+          "description": "<p>El azotamentes abre una grieta hacia el Reino Lejano, centrada en un punto que pueda ver a 60 pies o menos de sí mismo, y un tentáculo azota a las criaturas cercanas. Cada criatura que no sea un azotamentes a 30 pies o menos de la grieta debe realizar una <strong>tirada de salvación de Inteligencia</strong>, tras lo cual el tentáculo desaparece y la grieta se cierra. Si falla, recibe 18 (4d8) de daño de frío de la grieta más 18 (4d8) de daño psíquico del tentáculo y queda &amp;Reference[stunned]{aturdida} durante 1 minuto. Si supera la tirada, solo recibe la mitad del daño. Una criatura aturdida puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si la supera.</p>"
         }
-      }
+      },
+      "biography": "<p>En su afán por reconstruir su imperio perdido, algunos azotamentes han recurrido a su plano natal, el Reino Lejano, en busca de respuestas. Un azotamentes clarividente ha escudriñado las profundidades sin estrellas de ese reino y ha recibido poderes extraordinarios como recompensa.</p><p>En lugar de obedecer a un cerebro anciano, escucha los susurros y caprichos de las voces del Reino Lejano. Además de alimentarse de cerebros, puede invocar tentáculos que desgarran el tejido de la realidad y distorsionan las mentes de sus enemigos.</p><hr /><h2>Azotamentes</h2><p>Los azotamentes, también conocidos como ilícidos, se alimentan de los cerebros de humanoides por todo el multiverso. Se distinguen por su piel de tonos púrpuras y sus cabezas similares a las de un pulpo, de las que se extienden tentáculos retorcidos.</p>"
     },
     "pbsoWaterWeird00": {
       "name": "Extraño de agua",
@@ -6290,7 +6393,8 @@
         },
         "t9sY6EXCDrZ1Gsu2": {
           "name": "Constreñir",
-          "unidentifiedName": "Arma no identificada"
+          "unidentifiedName": "Arma no identificada",
+          "description": "<section class=\"secret\" id=\"secret-3TuogRqiHnJaEJGH\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 10 pies, una criatura. Impacto: 13 (3d6 + 3) de daño contundente. Si el objetivo es Mediano o menor, queda &amp;Reference[grappled]{agarrado} (CD 13 para escapar) y es arrastrado 5 pies hacia el extraño de agua. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado}, el extraño de agua intenta ahogarlo y no puede constreñir a otro objetivo.</p></section><p>El extraño constriñe a su objetivo. Si este es Mediano o menor, queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=strength dc=13]]) y es arrastrado 5 pies hacia el extraño de agua. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado}, el extraño de agua intenta ahogarlo y no puede constreñir a otro objetivo.</p>"
         }
       }
     },
@@ -6301,7 +6405,8 @@
       "creatureSubtype": "(demonio, cambiaformas)",
       "items": {
         "lUKRhYg7Dx48JPrB": {
-          "name": "Cambiaformas"
+          "name": "Cambiaformas",
+          "description": "<section class=\"secret\" id=\"secret-0XEwd4MNhLDV605Q\"><p>La yochlol puede usar su acción para transformarse en una forma que se parezca a una @UUID[Actor.1vaBSMUfOy6JPJ14]{drow} o una @UUID[Actor.v99wOosUJjUgcUNF]{araña gigante}, o para recuperar su verdadera forma. Sus estadísticas son las mismas en cada forma. El equipo que vista o lleve consigo no se transforma. Si muere, recupera su verdadera forma.</p><p><strong>Consejo de Foundry:</strong> Puedes arrastrar y soltar el enlace de contenido de la drow o la araña gigante sobre la hoja de personaje de una ficha para transformarla en esa criatura.</p></section><p>La yochlol puede usar su acción para <strong>transformarse</strong> en una drow o una araña gigante, o para recuperar su verdadera forma.</p>"
         },
         "1ImrMJVu1MjNqPXd": {
           "name": "Resistencia mágica",
@@ -6363,7 +6468,8 @@
             }
           }
         }
-      }
+      },
+      "biography": "<p>Las yochlols son las doncellas de Lolth: extensiones de la voluntad de la Reina Araña dedicadas a actuar como sus espías, capataces y agentes del mal. Atienden a su diosa en los Pozos de la Telaraña Demoníaca, aunque a veces Lolth las envía al Plano Material para custodiar sus templos y ayudar a sus sacerdotisas más devotas. Las yochlols no se forman fuera del reino de la Telaraña Demoníaca de Lolth y no sirven a ningún señor demoníaco salvo a su reina.</p><p>Fuera del Abismo, una yochlol puede adoptar la apariencia de una drow o una araña monstruosa para ocultar su forma demoníaca. En su verdadera forma, parece una columna de limo amarillo con un único ojo malévolo. Tanto en su forma de drow como en la verdadera, su toque porta el mismo veneno que el mordisco de su forma de araña.</p>"
     },
     "pbsoYoungAmethys": {
       "name": "Dragón amatista joven",
@@ -6466,7 +6572,8 @@
           "description": "<section class=\"secret\" id=\"secret-jVmo1KTBhojWGB66\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>22 (4d8 + 4) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El lazo ataca con su Mordisco.</p>"
         },
         "bTiw89tDx64zTqDk": {
-          "name": "Zarcillo"
+          "name": "Zarcillo",
+          "description": "<section class=\"secret\" id=\"secret-1HsUHsqj8eoYWlcV\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+7 a impactar</strong>, alcance <strong>50 pies,</strong> un objetivo. Impacto: el objetivo queda &amp;Reference[Grappled]{agarrado} (para escapar: [[/check ability=str dc=15]]). Hasta que termine el agarre, está &amp;Reference[Restrained]{apresado}, tiene <strong>desventaja en las pruebas y tiradas de salvación de Fuerza</strong> y el lazo no puede usar el mismo zarcillo contra otro objetivo.</p></section><p>El lazo ataca con su Zarcillo. El objetivo queda &amp;Reference[Grappled]{agarrado}. Hasta que termine el agarre, está &amp;Reference[Restrained]{apresado} y tiene <strong>desventaja en las pruebas y tiradas de salvación de Fuerza</strong>.</p>"
         },
         "iGuyFLbKazqPCcXY": {
           "name": "Atraer",
@@ -6572,7 +6679,8 @@
           "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>6 (1d8 + 2) <em>de daño cortante</em></strong>, o <strong>7 (1d10 + 2) <em>de daño cortante</em></strong> si se usa a dos manos.</p>\n</section>\n<p>El tumulario ataca con su Espada larga.</p>"
         },
         "NX8cqG6aZMns8wvY": {
-          "name": "Drenar vida"
+          "name": "Drenar vida",
+          "description": "<section class=\"secret\" id=\"secret-1H0VrJHls647tumV\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+4 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>5 (1d6 + 2) </strong><em><strong>de daño necrótico</strong></em>.</p><p>El objetivo debe superar una tirada de salvación de <strong>Constitución CD 13</strong> o sus puntos de golpe máximos se reducen en una cantidad igual al daño recibido. Esta reducción dura hasta que termine un descanso largo. El objetivo muere si este efecto reduce sus puntos de golpe máximos a 0.</p><p>Un humanoide muerto por este ataque se alza 24 horas después como un zombi bajo el control del tumulario, salvo que sea devuelto a la vida o se destruya su cuerpo. El tumulario no puede controlar más de doce zombis a la vez.</p></section><p>El tumulario ataca con su Drenar vida. El objetivo debe realizar una tirada de salvación de <strong>Constitución</strong>.</p>"
         }
       }
     },
@@ -6598,7 +6706,8 @@
           "name": "Golpe",
           "description": "<section class=\"secret\" id=\"secret-Hm88q7geZUMUIaYj\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+8 a impactar</strong>, alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>14 (2d8 + 5) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El elemental de tierra ataca con su Golpe.</p>"
         }
-      }
+      },
+      "biography": "<p>Un elemental de tierra avanza pesadamente como una colina andante, con brazos de piedra irregular semejantes a garrotes que se balancean a sus costados. Su cabeza y su cuerpo están formados por tierra y piedra, a veces incrustadas con trozos de metal, gemas y minerales brillantes.</p><hr /><p>Un elemental de tierra avanza pesadamente como una colina andante, con brazos de piedra irregular semejantes a garrotes que se balancean a sus costados. Su cabeza y su cuerpo están formados por tierra y piedra, a veces incrustadas con trozos de metal, gemas y minerales brillantes.</p><p>Los elementales de tierra se deslizan a través de la roca y el suelo como si fueran líquidos. Las criaturas terrestres tienen mucho que temer de ellos, ya que pueden localizar con precisión a cualquier enemigo que se encuentre sobre suelo firme en sus inmediaciones.</p>"
     },
     "shhHtE7b92PefCWB": {
       "name": "Aboleth",
@@ -6689,7 +6798,8 @@
               "name": "Maldito",
               "description": "<p>El objetivo queda maldito con la podredumbre de momia. No puede recuperar puntos de golpe y sus puntos de golpe máximos disminuyen en [[/damage 3d6 average]] por cada 24 horas transcurridas. Si la maldición reduce sus puntos de golpe máximos a 0, el objetivo muere y su cuerpo se convierte en polvo.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-uJoT0vBtiiZ3YX2q\"><p><em>Ataque con arma cuerpo a cuerpo: </em><strong>+5 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>10 (2d6 + 3) </strong><em><strong>de daño contundente</strong></em> más <strong>10 (3d6) </strong><em><strong>de daño necrótico</strong></em>.</p><p>Si el objetivo es una criatura, debe superar una tirada de salvación de <strong>Constitución CD 12</strong> o quedar maldito con la podredumbre de momia. No puede recuperar puntos de golpe y sus puntos de golpe máximos disminuyen en 10 (3d6) por cada 24 horas transcurridas. Si la maldición los reduce a 0, el objetivo muere y su cuerpo se convierte en polvo. La maldición dura hasta que se elimine mediante @UUID[Compendium.dnd5e.spells.Item.XZhdgVK3cLoxNCQl]{levantar maldición} u otra magia.</p></section><p>La momia ataca con su Puño putrefacto. Si el objetivo es una criatura, debe realizar una tirada de salvación de <strong>Constitución</strong>.</p>"
         },
         "8Jju4CVZaIDab6Ju": {
           "name": "Mirada aterradora",
@@ -6702,7 +6812,8 @@
               "name": "Aterrorizado",
               "description": "<p>El objetivo queda &amp;Reference[frightened]{asustado} hasta el final del siguiente turno de la momia.</p><p>Si falla la tirada de salvación por 5 o más, también queda &amp;Reference[paralyzed]{paralizado} durante el mismo tiempo. Un objetivo que supere la tirada de salvación es inmune a la Mirada aterradora de todas las momias (pero no de los señores de las momias) durante las siguientes 24 horas.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\" id=\"secret-brWqnTRJmIubygpP\"><p>La momia elige como objetivo a una criatura que pueda ver a 60 pies o menos de sí misma. Si el objetivo puede ver a la momia, debe superar una tirada de salvación de <strong>Sabiduría CD 11</strong> contra esta magia o quedar &amp;Reference[frightened]{asustado} hasta el final del siguiente turno de la momia.</p><p>Si falla la tirada de salvación por 5 o más, también queda &amp;Reference[paralyzed]{paralizado} durante el mismo tiempo. Un objetivo que supere la tirada es inmune a la Mirada aterradora de todas las momias (pero no de los señores de las momias) durante las siguientes 24 horas.</p></section><p>La momia elige como objetivo a una criatura que pueda ver a 60 pies o menos de sí misma. Si el objetivo puede verla, debe realizar una tirada de salvación de <strong>Sabiduría</strong> contra esta magia.</p>"
         }
       }
     },
@@ -6766,7 +6877,8 @@
           "description": "<p>Un resplandor similar a una llama desciende sobre una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Destreza o recibir 1d8 de daño radiante. La cobertura no le proporciona ningún beneficio en esta tirada de salvación.</p><p>El daño del conjuro aumenta en 1d8 cuando alcanzas el nivel 5 (2d8), el nivel 11 (3d8) y el nivel 17 (4d8).</p>"
         },
         "MUO1uYN7JR1hm4dR": {
-          "name": "Taumaturgia"
+          "name": "Taumaturgia",
+          "description": "<p>Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto.</li>\n<li>Haces que unas llamas parpadeen, se intensifiquen, se atenúen o cambien de color durante 1 minuto.</li>\n<li>Provocas temblores inofensivos en el suelo durante 1 minuto.</li>\n<li>Creas un sonido que se origina en un punto que elijas dentro del alcance.</li>\n<li>Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de un portazo.</li>\n<li>Alteras el aspecto de tus ojos durante 1 minuto.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos de 1 minuto a la vez y puedes disipar uno de ellos como acción.</p>"
         },
         "arzCrMRgcNiQuh43": {
           "name": "Orden imperiosa"
@@ -6784,7 +6896,8 @@
           "description": "<p>Elige a un humanoide que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o quedar paralizado mientras dure el conjuro. Al final de cada uno de sus turnos, puede realizar otra tirada de salvación de Sabiduría. Si la supera, el conjuro termina sobre él.</p><p><strong>A niveles superiores. </strong>Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, puedes elegir a un humanoide adicional por cada nivel del espacio por encima de 2. Los humanoides deben estar a 30 pies o menos unos de otros cuando los elijas.</p>"
         },
         "JbxsYXxSOTZbf9I0": {
-          "name": "Arma espiritual"
+          "name": "Arma espiritual",
+          "description": "<p>Creas un arma espectral flotante dentro del alcance que permanece mientras dure el conjuro o hasta que vuelvas a lanzarlo. Cuando lo lanzas, puedes realizar un ataque de conjuro cuerpo a cuerpo contra una criatura a 5 pies o menos del arma. Si impactas, el objetivo recibe daño de fuerza igual a 1d8 + tu modificador de aptitud mágica.</p><p>Como acción adicional en tu turno, puedes mover el arma hasta 20 pies y repetir el ataque contra una criatura a 5 pies o menos de ella.</p><p>El arma puede adoptar la forma que elijas. Los clérigos de deidades asociadas a un arma concreta (como san Cuthbert con su maza o Thor con su martillo) hacen que el efecto de este conjuro se parezca a esa arma.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño aumenta en 1d8 por cada dos niveles del espacio por encima de 2.</p>"
         }
       },
       "biography": "<p>Los fanáticos suelen formar parte de la cúpula de un culto y usan su carisma y sus dogmas para influir en las personas de voluntad débil y aprovecharse de ellas. A la mayoría les interesa ante todo el poder personal.</p>"
@@ -6814,7 +6927,8 @@
               "name": "Envenenado y paralizado",
               "description": "<p>Si el daño de veneno reduce al objetivo a 0 puntos de golpe, queda estable pero &amp;Reference[poisoned apply=false] durante 1 hora, incluso después de recuperar puntos de golpe, y está &amp;Reference[paralyzed apply=false] mientras permanezca envenenado de esta forma.</p>"
             }
-          }
+          },
+          "description": "<section class=\"secret\">\n<p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+5 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>7 (1d8 + 3) <em>de daño perforante</em></strong>.</p>\n<p>El objetivo debe realizar una tirada de salvación de <strong>Constitución CD 11</strong>; recibe <strong>9 (2d8) <em>de daño de veneno</em></strong> si falla o la mitad si la supera. Si el <em>daño de veneno</em> reduce al objetivo a 0 puntos de golpe, queda estable pero envenenado durante 1 hora, incluso después de recuperar puntos de golpe, y está paralizado mientras esté envenenado de esta forma.</p>\n</section>\n<p>La araña gigante ataca con su Mordisco. El objetivo debe realizar una tirada de salvación de <strong>Constitución</strong>.</p>"
         },
         "g7e60AxXarlQ9xQC": {
           "name": "Telaraña",
@@ -6844,7 +6958,8 @@
           "description": "<section class=\"secret\" id=\"secret-MeksLhDRT3xY7CAa\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+10 a impactar</strong>, alcance <strong>10 pies,</strong> un objetivo. Impacto: <strong>22 (3d10 + 6) </strong><em><strong>de daño perforante</strong></em>.</p></section><p>El behir ataca con su Mordisco.</p>"
         },
         "GCUh42hMUnKtxx8j": {
-          "name": "Constreñir"
+          "name": "Constreñir",
+          "description": "<section class=\"secret\" id=\"secret-ECh3fRmdaFojcHWg\"><p>Ataque con arma cuerpo a cuerpo: +10 a impactar, alcance 5 pies, <strong>una criatura Grande o menor</strong>. Impacto: <strong>17 (2d10 + 6) </strong><em><strong>de daño contundente</strong></em> más <strong>17 (2d10 + 6) </strong><em><strong>de daño cortante</strong></em>.</p><p>El objetivo queda agarrado (CD 16 para escapar) si el behir no está constriñendo ya a una criatura, y permanece apresado hasta que termine este agarre.</p></section><p>El behir ataca con su Constricción. El objetivo queda &amp;Reference[grappled]{agarrado} si el behir no está constriñendo ya a una criatura, y permanece &amp;Reference[restrained]{apresado} hasta que termine este agarre.</p>"
         },
         "gjce4R2feN2UH0YE": {
           "name": "Aliento de relámpago",
@@ -6892,7 +7007,8 @@
       "habitat": "Montaña",
       "items": {
         "fmILoB0arLdodNGB": {
-          "name": "Carga"
+          "name": "Carga",
+          "description": "<section class=\"secret\" id=\"secret-fgRJCuKpfPNpkZvH\"><p>Si la cabra se mueve al menos 20 pies en línea recta hacia un objetivo y después le impacta con un ataque de embestida en el mismo turno, este recibe <strong>2 (1d4) </strong><em><strong>de daño contundente</strong></em> adicional.</p><p>Si el objetivo es una criatura, debe superar una tirada de salvación de <strong>Fuerza CD 10</strong> o quedar &amp;Reference[prone].</p></section><p>Si la cabra se mueve al menos 20 pies en línea recta hacia un objetivo y después le impacta con un ataque de embestida en el mismo turno, este recibe <em>daño contundente</em> adicional. Si el objetivo es una criatura, debe realizar una tirada de salvación de <strong>Fuerza</strong> o quedar derribado.</p>"
         },
         "gyY5rw0x4itzMKoj": {
           "name": "Pies firmes",

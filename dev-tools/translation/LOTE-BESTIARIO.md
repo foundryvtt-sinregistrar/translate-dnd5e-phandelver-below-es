@@ -95,3 +95,14 @@ Los errores tipográficos puramente editoriales, como la llave suelta tras
 «troglodita» en 0680, sí se eliminan. Las variantes de datos y reglas no se
 homogeneizan por compartir nombre. Pasa `check_reviewed.py`; la ejecución de
 Foundry documentada en el lote de etiquetas corresponde todavía a 0001–0600.
+
+## Quinto lote de prosa: textos 0721–0800
+
+Otros 80 originales revisados: conjuros, agarres, enfermedades y biografías de
+criaturas. Se mantienen los comandos de lanzamiento por nombre original y se
+traducen sus etiquetas visibles cuando son enlaces UUID. Los cristales mentales
+de objetos integrados en actores conservan sus restricciones de uso y su valor.
+
+Cobertura propia: 3.053/3.227 campos del bestiario y 6.178/6.718 de Adventure.
+El índice de actores contiene 43 cuerpos de página compuestos con biografías
+revisadas. Cero errores en la comprobación de evidencias y estructura técnica.

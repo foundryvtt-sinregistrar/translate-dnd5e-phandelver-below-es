@@ -149,570 +149,1686 @@
       "name": "Vínculo",
       "description": "",
       "results": {
-        "1-1": { "name": "", "description": "Intento saldar una antigua deuda que tengo con un benefactor generoso." },
-        "2-2": { "name": "", "description": "Mis ganancias mal habidas sirven para mantener a mi familia." },
-        "3-3": { "name": "", "description": "Me arrebataron algo importante y pretendo recuperarlo robándolo." },
-        "4-4": { "name": "", "description": "Me convertiré en el ladrón más grande que jamás haya existido." },
-        "5-5": { "name": "", "description": "Soy culpable de un crimen terrible. Espero poder redimirme por ello." },
-        "6-6": { "name": "", "description": "Alguien a quien amaba murió por culpa de un error que cometí. Eso no volverá a suceder." }
+        "1-1": {
+          "name": "",
+          "description": "Intento saldar una antigua deuda que tengo con un benefactor generoso."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Mis ganancias mal habidas sirven para mantener a mi familia."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Me arrebataron algo importante y pretendo recuperarlo robándolo."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Me convertiré en el ladrón más grande que jamás haya existido."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Soy culpable de un crimen terrible. Espero poder redimirme por ello."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Alguien a quien amaba murió por culpa de un error que cometí. Eso no volverá a suceder."
+        }
       }
     },
     "pbsoCrimflaw0000": {
       "name": "Defecto",
       "description": "",
       "results": {
-        "1-1": { "name": "", "description": "Cuando veo algo valioso, no puedo pensar en otra cosa que no sea cómo robarlo." },
-        "2-2": { "name": "", "description": "Cuando debo elegir entre el dinero y mis amigos, normalmente elijo el dinero." },
-        "3-3": { "name": "", "description": "Si hay un plan, lo olvidaré. Si no lo olvido, lo ignoraré." },
-        "4-4": { "name": "", "description": "Tengo un gesto delator que revela cuándo miento." },
-        "5-5": { "name": "", "description": "Doy media vuelta y huyo cuando las cosas se ponen feas." },
-        "6-6": { "name": "", "description": "Una persona inocente está en prisión por un crimen que cometí yo. No me importa." }
+        "1-1": {
+          "name": "",
+          "description": "Cuando veo algo valioso, no puedo pensar en otra cosa que no sea cómo robarlo."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Cuando debo elegir entre el dinero y mis amigos, normalmente elijo el dinero."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Si hay un plan, lo olvidaré. Si no lo olvido, lo ignoraré."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Tengo un gesto delator que revela cuándo miento."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Doy media vuelta y huyo cuando las cosas se ponen feas."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Una persona inocente está en prisión por un crimen que cometí yo. No me importa."
+        }
       }
     },
     "pbsoCrimideal000": {
       "name": "Ideal",
       "description": "",
       "results": {
-        "1-1": { "name": "", "description": "Honor. No robo a otros del oficio. (Legal)" },
-        "2-2": { "name": "", "description": "Libertad. Las cadenas están hechas para romperse, al igual que quienes las forjan. (Caótico)" },
-        "3-3": { "name": "", "description": "Caridad. Robo a los ricos para ayudar a quienes lo necesitan. (Bueno)" },
-        "4-4": { "name": "", "description": "Avaricia. Haré lo que sea necesario para hacerme rico. (Maligno)" },
-        "5-5": { "name": "", "description": "Personas. Soy leal a mis amigos, no a ningún ideal; por mí, todos los demás pueden irse de paseo por la Estigia. (Neutral)" },
-        "6-6": { "name": "", "description": "Redención. En todos hay una chispa de bondad. (Bueno)" }
+        "1-1": {
+          "name": "",
+          "description": "Honor. No robo a otros del oficio. (Legal)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Libertad. Las cadenas están hechas para romperse, al igual que quienes las forjan. (Caótico)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Caridad. Robo a los ricos para ayudar a quienes lo necesitan. (Bueno)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Avaricia. Haré lo que sea necesario para hacerme rico. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Personas. Soy leal a mis amigos, no a ningún ideal; por mí, todos los demás pueden irse de paseo por la Estigia. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Redención. En todos hay una chispa de bondad. (Bueno)"
+        }
       }
     },
     "pbsoCriminalSpec": {
       "name": "Especialidad criminal",
       "description": "<p>Hay muchos tipos de criminales y, dentro de un gremio de ladrones o una organización criminal similar, cada miembro posee una especialidad concreta. Incluso quienes actúan al margen de tales organizaciones muestran una marcada preferencia por determinados delitos. Elige el papel que desempeñabas durante tu vida criminal o tira en la tabla siguiente.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Chantajista" },
-        "2-2": { "name": "", "description": "Ladrón de viviendas" },
-        "3-3": { "name": "", "description": "Matón" },
-        "4-4": { "name": "", "description": "Perista" },
-        "5-5": { "name": "", "description": "Salteador de caminos" },
-        "6-6": { "name": "", "description": "Asesino a sueldo" },
-        "7-7": { "name": "", "description": "Carterista" },
-        "8-8": { "name": "", "description": "Contrabandista" }
+        "1-1": {
+          "name": "",
+          "description": "Chantajista"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Ladrón de viviendas"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Matón"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Perista"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Salteador de caminos"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Asesino a sueldo"
+        },
+        "7-7": {
+          "name": "",
+          "description": "Carterista"
+        },
+        "8-8": {
+          "name": "",
+          "description": "Contrabandista"
+        }
       }
     },
     "pbsoCrimtrait000": {
       "name": "Rasgo de personalidad",
       "description": "",
       "results": {
-        "1-1": { "name": "", "description": "Siempre tengo un plan para cuando las cosas salen mal." },
-        "2-2": { "name": "", "description": "Siempre mantengo la calma, sea cual sea la situación. Nunca levanto la voz ni dejo que me dominen las emociones." },
-        "3-3": { "name": "", "description": "Lo primero que hago al llegar a un lugar nuevo es fijarme en dónde está todo lo valioso o dónde podría ocultarse." },
-        "4-4": { "name": "", "description": "Prefiero hacer un nuevo amigo que un nuevo enemigo." },
-        "5-5": { "name": "", "description": "Me cuesta muchísimo confiar en los demás. Quienes parecen más honrados suelen ser quienes más tienen que ocultar." },
-        "6-6": { "name": "", "description": "No presto atención a los riesgos de una situación. Nunca me digas qué probabilidades tengo." },
-        "7-7": { "name": "", "description": "La mejor forma de conseguir que haga algo es decirme que no puedo hacerlo." },
-        "8-8": { "name": "", "description": "Estallo ante el menor insulto." }
+        "1-1": {
+          "name": "",
+          "description": "Siempre tengo un plan para cuando las cosas salen mal."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Siempre mantengo la calma, sea cual sea la situación. Nunca levanto la voz ni dejo que me dominen las emociones."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Lo primero que hago al llegar a un lugar nuevo es fijarme en dónde está todo lo valioso o dónde podría ocultarse."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Prefiero hacer un nuevo amigo que un nuevo enemigo."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Me cuesta muchísimo confiar en los demás. Quienes parecen más honrados suelen ser quienes más tienen que ocultar."
+        },
+        "6-6": {
+          "name": "",
+          "description": "No presto atención a los riesgos de una situación. Nunca me digas qué probabilidades tengo."
+        },
+        "7-7": {
+          "name": "",
+          "description": "La mejor forma de conseguir que haga algo es decirme que no puedo hacerlo."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Estallo ante el menor insulto."
+        }
       }
     },
     "pbsoDefiningEven": {
       "name": "Acontecimiento decisivo",
       "description": "<p>Como procedes de entre la gente común, encajas entre ellos con facilidad. Puedes encontrar un lugar donde esconderte, descansar o recuperarte entre otros plebeyos, salvo que hayas demostrado ser un peligro para ellos. Te protegerán de la ley o de cualquiera que te busque, aunque no arriesgarán la vida por ti.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Me enfrenté a los agentes de un tirano." },
-        "2-2": { "name": "", "description": "Salvé a varias personas durante un desastre natural." },
-        "3-3": { "name": "", "description": "Me enfrenté en solitario a un monstruo terrible." },
-        "4-4": { "name": "", "description": "Robé a un mercader corrupto para ayudar a los pobres." },
-        "5-5": { "name": "", "description": "Lideré una milicia para rechazar a un ejército invasor." },
-        "6-6": { "name": "", "description": "Entré en el castillo de un tirano y robé armas para equipar al pueblo." },
-        "7-7": { "name": "", "description": "Enseñé al campesinado a usar herramientas de labranza como armas contra los soldados de un tirano." },
-        "8-8": { "name": "", "description": "Un señor revocó un decreto impopular después de que yo encabezara un acto simbólico de protesta." },
-        "9-9": { "name": "", "description": "Un celestial, un feérico o una criatura similar me concedió una bendición o reveló mi origen secreto." },
-        "10-10": { "name": "", "description": "Tras ser reclutado por el ejército de un señor, ascendí hasta una posición de liderazgo y fui condecorado por mi heroísmo." }
+        "1-1": {
+          "name": "",
+          "description": "Me enfrenté a los agentes de un tirano."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Salvé a varias personas durante un desastre natural."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Me enfrenté en solitario a un monstruo terrible."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Robé a un mercader corrupto para ayudar a los pobres."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Lideré una milicia para rechazar a un ejército invasor."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Entré en el castillo de un tirano y robé armas para equipar al pueblo."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Enseñé al campesinado a usar herramientas de labranza como armas contra los soldados de un tirano."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Un señor revocó un decreto impopular después de que yo encabezara un acto simbólico de protesta."
+        },
+        "9-9": {
+          "name": "",
+          "description": "Un celestial, un feérico o una criatura similar me concedió una bendición o reveló mi origen secreto."
+        },
+        "10-10": {
+          "name": "",
+          "description": "Tras ser reclutado por el ejército de un señor, ascendí hasta una posición de liderazgo y fui condecorado por mi heroísmo."
+        }
       }
     },
     "pbsoFolkbond0000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Tengo una familia, pero no sé dónde está. Espero volver a verla algún día." },
-        "2-2": { "name": "", "description": "Trabajé la tierra, amo la tierra y protegeré la tierra." },
-        "3-3": { "name": "", "description": "Una vez, un noble arrogante me propinó una paliza terrible, y me vengaré de cualquier abusón con el que me cruce." },
-        "4-4": { "name": "", "description": "Mis herramientas simbolizan mi vida anterior y las llevo conmigo para no olvidar nunca mis raíces." },
-        "5-5": { "name": "", "description": "Protejo a quienes no pueden protegerse por sí mismos." },
-        "6-6": { "name": "", "description": "Ojalá mi amor de la infancia hubiera venido conmigo en busca de mi destino." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Tengo una familia, pero no sé dónde está. Espero volver a verla algún día."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Trabajé la tierra, amo la tierra y protegeré la tierra."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Una vez, un noble arrogante me propinó una paliza terrible, y me vengaré de cualquier abusón con el que me cruce."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Mis herramientas simbolizan mi vida anterior y las llevo conmigo para no olvidar nunca mis raíces."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Protejo a quienes no pueden protegerse por sí mismos."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Ojalá mi amor de la infancia hubiera venido conmigo en busca de mi destino."
+        }
       }
     },
     "pbsoFolkflaw0000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "El tirano que gobierna mi tierra no se detendrá ante nada con tal de verme muerto." },
-        "2-2": { "name": "", "description": "Estoy convencido de la importancia de mi destino y no veo ni mis defectos ni el riesgo de fracasar." },
-        "3-3": { "name": "", "description": "Quienes me conocieron de joven saben mi vergonzoso secreto, así que nunca podré volver a casa." },
-        "4-4": { "name": "", "description": "Siento debilidad por los vicios de la ciudad, especialmente por la bebida fuerte." },
-        "5-5": { "name": "", "description": "En secreto, creo que todo iría mejor si yo fuera un tirano que gobernara estas tierras." },
-        "6-6": { "name": "", "description": "Me cuesta confiar en mis aliados." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "El tirano que gobierna mi tierra no se detendrá ante nada con tal de verme muerto."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Estoy convencido de la importancia de mi destino y no veo ni mis defectos ni el riesgo de fracasar."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Quienes me conocieron de joven saben mi vergonzoso secreto, así que nunca podré volver a casa."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Siento debilidad por los vicios de la ciudad, especialmente por la bebida fuerte."
+        },
+        "5-5": {
+          "name": "",
+          "description": "En secreto, creo que todo iría mejor si yo fuera un tirano que gobernara estas tierras."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Me cuesta confiar en mis aliados."
+        }
       }
     },
     "pbsoFolkideal000": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Respeto. Las personas merecen ser tratadas con dignidad y respeto. (Bueno)" },
-        "2-2": { "name": "", "description": "Justicia. Nadie debería recibir un trato de favor ante la ley y nadie está por encima de ella. (Legal)" },
-        "3-3": { "name": "", "description": "Libertad. No se debe permitir que los tiranos opriman al pueblo. (Caótico)" },
-        "4-4": { "name": "", "description": "Poder. Si me hago fuerte, podré tomar lo que quiera, lo que merezco. (Maligno)" },
-        "5-5": { "name": "", "description": "Sinceridad. No sirve de nada fingir ser algo que no soy. (Neutral)" },
-        "6-6": { "name": "", "description": "Destino. Nada ni nadie puede apartarme de mi elevada vocación. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Respeto. Las personas merecen ser tratadas con dignidad y respeto. (Bueno)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Justicia. Nadie debería recibir un trato de favor ante la ley y nadie está por encima de ella. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Libertad. No se debe permitir que los tiranos opriman al pueblo. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Poder. Si me hago fuerte, podré tomar lo que quiera, lo que merezco. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Sinceridad. No sirve de nada fingir ser algo que no soy. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Destino. Nada ni nadie puede apartarme de mi elevada vocación. (Cualquiera)"
+        }
       }
     },
     "pbsoFolktrait000": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Juzgo a las personas por sus actos, no por sus palabras." },
-        "2-2": { "name": "", "description": "Si alguien está en apuros, siempre estoy dispuesto a ayudar." },
-        "3-3": { "name": "", "description": "Cuando me propongo algo, lo llevo hasta el final sin importar qué se interponga en mi camino." },
-        "4-4": { "name": "", "description": "Tengo un marcado sentido del juego limpio y siempre intento encontrar la solución más equitativa a las disputas." },
-        "5-5": { "name": "", "description": "Confío en mis propias capacidades y hago cuanto puedo para infundir confianza a los demás." },
-        "6-6": { "name": "", "description": "Pensar es cosa de otros. Yo prefiero actuar." },
-        "7-7": { "name": "", "description": "Uso mal las palabras largas para intentar parecer más inteligente." },
-        "8-8": { "name": "", "description": "Me aburro con facilidad. ¿Cuándo voy a poder cumplir mi destino?" }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Juzgo a las personas por sus actos, no por sus palabras."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Si alguien está en apuros, siempre estoy dispuesto a ayudar."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Cuando me propongo algo, lo llevo hasta el final sin importar qué se interponga en mi camino."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Tengo un marcado sentido del juego limpio y siempre intento encontrar la solución más equitativa a las disputas."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Confío en mis propias capacidades y hago cuanto puedo para infundir confianza a los demás."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Pensar es cosa de otros. Yo prefiero actuar."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Uso mal las palabras largas para intentar parecer más inteligente."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Me aburro con facilidad. ¿Cuándo voy a poder cumplir mi destino?"
+        }
       }
     },
     "pbsoEntbond00000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Mi instrumento es mi posesión más preciada y me recuerda a alguien a quien amo." },
-        "2-2": { "name": "", "description": "Alguien robó mi preciado instrumento y algún día lo recuperaré." },
-        "3-3": { "name": "", "description": "Quiero alcanzar la fama, cueste lo que cueste." },
-        "4-4": { "name": "", "description": "Idolatro a un héroe de los relatos antiguos y comparo mis hazañas con las suyas." },
-        "5-5": { "name": "", "description": "Haré lo que sea para demostrar que soy superior a mi odiado rival." },
-        "6-6": { "name": "", "description": "Haría cualquier cosa por los demás integrantes de mi antigua compañía." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Mi instrumento es mi posesión más preciada y me recuerda a alguien a quien amo."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Alguien robó mi preciado instrumento y algún día lo recuperaré."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Quiero alcanzar la fama, cueste lo que cueste."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Idolatro a un héroe de los relatos antiguos y comparo mis hazañas con las suyas."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Haré lo que sea para demostrar que soy superior a mi odiado rival."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Haría cualquier cosa por los demás integrantes de mi antigua compañía."
+        }
       }
     },
     "pbsoEntflaw00000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "Haré cualquier cosa para obtener fama y reconocimiento." },
-        "2-2": { "name": "", "description": "Pierdo la cabeza por una cara bonita." },
-        "3-3": { "name": "", "description": "Un escándalo me impide volver a casa. Ese tipo de problemas parece perseguirme." },
-        "4-4": { "name": "", "description": "Una vez satiricé a un noble que aún quiere mi cabeza. Fue un error que probablemente repetiré." },
-        "5-5": { "name": "", "description": "Me cuesta ocultar lo que siento de verdad. Mi lengua afilada me mete en problemas." },
-        "6-6": { "name": "", "description": "A pesar de mis esfuerzos, mis amigos no pueden confiar en mí." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Haré cualquier cosa para obtener fama y reconocimiento."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Pierdo la cabeza por una cara bonita."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Un escándalo me impide volver a casa. Ese tipo de problemas parece perseguirme."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Una vez satiricé a un noble que aún quiere mi cabeza. Fue un error que probablemente repetiré."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Me cuesta ocultar lo que siento de verdad. Mi lengua afilada me mete en problemas."
+        },
+        "6-6": {
+          "name": "",
+          "description": "A pesar de mis esfuerzos, mis amigos no pueden confiar en mí."
+        }
       }
     },
     "pbsoEntideal0000": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Belleza. Cuando actúo, hago del mundo un lugar mejor. (Bueno)" },
-        "2-2": { "name": "", "description": "Tradición. Los relatos, leyendas y canciones del pasado nunca deben olvidarse, pues nos enseñan quiénes somos. (Legal)" },
-        "3-3": { "name": "", "description": "Creatividad. El mundo necesita ideas nuevas y acciones audaces. (Caótico)" },
-        "4-4": { "name": "", "description": "Avaricia. Solo me interesan el dinero y la fama. (Maligno)" },
-        "5-5": { "name": "", "description": "Personas. Me gusta ver sonreír al público cuando actúo. Eso es lo único que importa. (Neutral)" },
-        "6-6": { "name": "", "description": "Honestidad. El arte debe reflejar el alma; debe surgir de nuestro interior y revelar quiénes somos en realidad. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Belleza. Cuando actúo, hago del mundo un lugar mejor. (Bueno)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Tradición. Los relatos, leyendas y canciones del pasado nunca deben olvidarse, pues nos enseñan quiénes somos. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Creatividad. El mundo necesita ideas nuevas y acciones audaces. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Avaricia. Solo me interesan el dinero y la fama. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Personas. Me gusta ver sonreír al público cuando actúo. Eso es lo único que importa. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Honestidad. El arte debe reflejar el alma; debe surgir de nuestro interior y revelar quiénes somos en realidad. (Cualquiera)"
+        }
       }
     },
     "pbsoEntroutines0": {
       "name": "Números de artista",
       "description": "<p>Un buen artista es versátil y anima cada actuación con distintos números. Elige entre uno y tres números o tira en la tabla siguiente para definir tu especialidad como artista.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Actor" },
-        "2-2": { "name": "", "description": "Bailarín" },
-        "3-3": { "name": "", "description": "Tragafuegos" },
-        "4-4": { "name": "", "description": "Bufón" },
-        "5-5": { "name": "", "description": "Malabarista" },
-        "6-6": { "name": "", "description": "Instrumentista" },
-        "7-7": { "name": "", "description": "Poeta" },
-        "8-8": { "name": "", "description": "Cantante" },
-        "9-9": { "name": "", "description": "Narrador" },
-        "10-10": { "name": "", "description": "Acróbata" }
+        "1-1": {
+          "name": "",
+          "description": "Actor"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Bailarín"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Tragafuegos"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Bufón"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Malabarista"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Instrumentista"
+        },
+        "7-7": {
+          "name": "",
+          "description": "Poeta"
+        },
+        "8-8": {
+          "name": "",
+          "description": "Cantante"
+        },
+        "9-9": {
+          "name": "",
+          "description": "Narrador"
+        },
+        "10-10": {
+          "name": "",
+          "description": "Acróbata"
+        }
       }
     },
     "pbsoEnttrat00000": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Conozco un relato apropiado para casi cualquier situación." },
-        "2-2": { "name": "", "description": "Siempre que llego a un lugar nuevo, recopilo rumores locales y difundo cotilleos." },
-        "3-3": { "name": "", "description": "Soy un romántico empedernido que siempre busca a esa persona especial." },
-        "4-4": { "name": "", "description": "Nadie permanece enfadado conmigo ni a mi alrededor durante mucho tiempo, pues puedo aliviar cualquier tensión." },
-        "5-5": { "name": "", "description": "Me encanta un buen insulto, incluso cuando va dirigido contra mí." },
-        "6-6": { "name": "", "description": "Me amargo cuando no soy el centro de atención." },
-        "7-7": { "name": "", "description": "No me conformo con nada que no sea la perfección." },
-        "8-8": { "name": "", "description": "Cambio de humor o de opinión tan deprisa como cambio de tonalidad en una canción." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Conozco un relato apropiado para casi cualquier situación."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Siempre que llego a un lugar nuevo, recopilo rumores locales y difundo cotilleos."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Soy un romántico empedernido que siempre busca a esa persona especial."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Nadie permanece enfadado conmigo ni a mi alrededor durante mucho tiempo, pues puedo aliviar cualquier tensión."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Me encanta un buen insulto, incluso cuando va dirigido contra mí."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Me amargo cuando no soy el centro de atención."
+        },
+        "7-7": {
+          "name": "",
+          "description": "No me conformo con nada que no sea la perfección."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Cambio de humor o de opinión tan deprisa como cambio de tonalidad en una canción."
+        }
       }
     },
     "pbsoFavoriteSche": {
       "name": "Estafas favoritas",
       "description": "<p>Todo charlatán tiene un engaño que prefiere por encima de los demás. Elige tu estafa favorita o tira en la tabla siguiente.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Hago trampas en los juegos de azar." },
-        "2-2": { "name": "", "description": "Recorto monedas o falsifico documentos." },
-        "3-3": { "name": "", "description": "Me introduzco en la vida de los demás para aprovecharme de sus debilidades y apoderarme de sus fortunas." },
-        "4-4": { "name": "", "description": "Cambio de identidad como quien cambia de ropa." },
-        "5-5": { "name": "", "description": "Realizo timos de prestidigitación en las esquinas." },
-        "6-6": { "name": "", "description": "Convenzo a la gente de que una baratija sin valor merece el dinero que tanto les ha costado ganar." }
+        "1-1": {
+          "name": "",
+          "description": "Hago trampas en los juegos de azar."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Recorto monedas o falsifico documentos."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Me introduzco en la vida de los demás para aprovecharme de sus debilidades y apoderarme de sus fortunas."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Cambio de identidad como quien cambia de ropa."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Realizo timos de prestidigitación en las esquinas."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Convenzo a la gente de que una baratija sin valor merece el dinero que tanto les ha costado ganar."
+        }
       }
     },
     "pbsoGuildBusines": {
       "name": "Oficio del gremio",
       "description": "<p>Los gremios suelen encontrarse en ciudades lo bastante grandes como para albergar a varios artesanos del mismo oficio. Sin embargo, tu gremio podría ser una red informal de artesanos que trabajan en distintas aldeas de un reino mayor. Decide con tu DM la naturaleza del gremio. Puedes elegir su oficio en la tabla Oficio del gremio o determinarlo al azar.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Alquimistas y boticarios" },
-        "2-2": { "name": "", "description": "Armeros, cerrajeros y herreros de precisión" },
-        "3-3": { "name": "", "description": "Cerveceros, destiladores y vinateros" },
-        "4-4": { "name": "", "description": "Calígrafos, escribas y copistas" },
-        "5-5": { "name": "", "description": "Carpinteros, techadores y yeseros" },
-        "6-6": { "name": "", "description": "Cartógrafos, agrimensores y trazadores de mapas" },
-        "7-7": { "name": "", "description": "Zapateros y remendones" },
-        "8-8": { "name": "", "description": "Cocineros y panaderos" },
-        "9-9": { "name": "", "description": "Sopladores de vidrio y vidrieros" },
-        "10-10": { "name": "", "description": "Joyeros y talladores de gemas" },
-        "11-11": { "name": "", "description": "Marroquineros, desolladores y curtidores" },
-        "12-12": { "name": "", "description": "Albañiles y canteros" },
-        "13-13": { "name": "", "description": "Pintores, iluminadores y rotulistas" },
-        "14-14": { "name": "", "description": "Alfareros y fabricantes de azulejos" },
-        "15-15": { "name": "", "description": "Constructores navales y veleros" },
-        "16-16": { "name": "", "description": "Herreros y forjadores" },
-        "17-17": { "name": "", "description": "Caldereros, estañeros y fundidores" },
-        "18-18": { "name": "", "description": "Carreteros y constructores de ruedas" },
-        "19-19": { "name": "", "description": "Tejedores y tintoreros" },
-        "20-20": { "name": "", "description": "Tallistas, toneleros y arqueros" }
+        "1-1": {
+          "name": "",
+          "description": "Alquimistas y boticarios"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Armeros, cerrajeros y herreros de precisión"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Cerveceros, destiladores y vinateros"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Calígrafos, escribas y copistas"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Carpinteros, techadores y yeseros"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Cartógrafos, agrimensores y trazadores de mapas"
+        },
+        "7-7": {
+          "name": "",
+          "description": "Zapateros y remendones"
+        },
+        "8-8": {
+          "name": "",
+          "description": "Cocineros y panaderos"
+        },
+        "9-9": {
+          "name": "",
+          "description": "Sopladores de vidrio y vidrieros"
+        },
+        "10-10": {
+          "name": "",
+          "description": "Joyeros y talladores de gemas"
+        },
+        "11-11": {
+          "name": "",
+          "description": "Marroquineros, desolladores y curtidores"
+        },
+        "12-12": {
+          "name": "",
+          "description": "Albañiles y canteros"
+        },
+        "13-13": {
+          "name": "",
+          "description": "Pintores, iluminadores y rotulistas"
+        },
+        "14-14": {
+          "name": "",
+          "description": "Alfareros y fabricantes de azulejos"
+        },
+        "15-15": {
+          "name": "",
+          "description": "Constructores navales y veleros"
+        },
+        "16-16": {
+          "name": "",
+          "description": "Herreros y forjadores"
+        },
+        "17-17": {
+          "name": "",
+          "description": "Caldereros, estañeros y fundidores"
+        },
+        "18-18": {
+          "name": "",
+          "description": "Carreteros y constructores de ruedas"
+        },
+        "19-19": {
+          "name": "",
+          "description": "Tejedores y tintoreros"
+        },
+        "20-20": {
+          "name": "",
+          "description": "Tallistas, toneleros y arqueros"
+        }
       }
     },
     "pbsoGuildbond000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "El taller donde aprendí mi oficio es el lugar más importante del mundo para mí." },
-        "2-2": { "name": "", "description": "Creé una gran obra para alguien y después descubrí que no era digno de recibirla. Aún busco a alguien que lo sea." },
-        "3-3": { "name": "", "description": "Tengo una enorme deuda con mi gremio por haberme convertido en la persona que soy hoy." },
-        "4-4": { "name": "", "description": "Busco riquezas para ganarme el amor de alguien." },
-        "5-5": { "name": "", "description": "Algún día regresaré a mi gremio y demostraré que soy el mejor artesano de todos." },
-        "6-6": { "name": "", "description": "Me vengaré de las fuerzas malignas que destruyeron mi negocio y arruinaron mi medio de vida." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "El taller donde aprendí mi oficio es el lugar más importante del mundo para mí."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Creé una gran obra para alguien y después descubrí que no era digno de recibirla. Aún busco a alguien que lo sea."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Tengo una enorme deuda con mi gremio por haberme convertido en la persona que soy hoy."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Busco riquezas para ganarme el amor de alguien."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Algún día regresaré a mi gremio y demostraré que soy el mejor artesano de todos."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Me vengaré de las fuerzas malignas que destruyeron mi negocio y arruinaron mi medio de vida."
+        }
       }
     },
     "pbsoGuildflaw000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "Haré cualquier cosa para hacerme con algo raro o de valor incalculable." },
-        "2-2": { "name": "", "description": "Enseguida supongo que alguien intenta estafarme." },
-        "3-3": { "name": "", "description": "Nadie debe descubrir jamás que una vez robé dinero de las arcas del gremio." },
-        "4-4": { "name": "", "description": "Nunca estoy satisfecho con lo que tengo: siempre quiero más." },
-        "5-5": { "name": "", "description": "Mataría por conseguir un título nobiliario." },
-        "6-6": { "name": "", "description": "Siento unos celos terribles de cualquiera cuya obra pueda eclipsar la mía. Allá donde voy estoy rodeado de rivales." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Haré cualquier cosa para hacerme con algo raro o de valor incalculable."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Enseguida supongo que alguien intenta estafarme."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Nadie debe descubrir jamás que una vez robé dinero de las arcas del gremio."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Nunca estoy satisfecho con lo que tengo: siempre quiero más."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Mataría por conseguir un título nobiliario."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Siento unos celos terribles de cualquiera cuya obra pueda eclipsar la mía. Allá donde voy estoy rodeado de rivales."
+        }
       }
     },
     "pbsoGuildideal00": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Comunidad. Es deber de todos reforzar los lazos y la seguridad de las comunidades. (Legal)" },
-        "2-2": { "name": "", "description": "Generosidad. Recibí mis talentos para emplearlos en beneficio del mundo. (Bueno)" },
-        "3-3": { "name": "", "description": "Libertad. Todo el mundo debería ser libre de ganarse la vida como prefiera. (Caótico)" },
-        "4-4": { "name": "", "description": "Avaricia. Solo me interesa el dinero. (Maligno)" },
-        "5-5": { "name": "", "description": "Personas. Mi compromiso es con las personas que me importan, no con unos ideales. (Neutral)" },
-        "6-6": { "name": "", "description": "Aspiración. Trabajo duro para ser el mejor en mi oficio. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Comunidad. Es deber de todos reforzar los lazos y la seguridad de las comunidades. (Legal)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Generosidad. Recibí mis talentos para emplearlos en beneficio del mundo. (Bueno)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Libertad. Todo el mundo debería ser libre de ganarse la vida como prefiera. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Avaricia. Solo me interesa el dinero. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Personas. Mi compromiso es con las personas que me importan, no con unos ideales. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Aspiración. Trabajo duro para ser el mejor en mi oficio. (Cualquiera)"
+        }
       }
     },
     "pbsoGuildtrait00": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Creo que, si merece la pena hacer algo, merece la pena hacerlo bien. No puedo evitarlo: soy perfeccionista." },
-        "2-2": { "name": "", "description": "Soy un esnob que menosprecia a quienes no saben apreciar el buen arte." },
-        "3-3": { "name": "", "description": "Siempre quiero saber cómo funcionan las cosas y qué motiva a las personas." },
-        "4-4": { "name": "", "description": "Estoy lleno de aforismos ingeniosos y tengo un refrán para cada ocasión." },
-        "5-5": { "name": "", "description": "Soy grosero con quienes no comparten mi dedicación al trabajo duro y al juego limpio." },
-        "6-6": { "name": "", "description": "Me gusta hablar largo y tendido sobre mi profesión." },
-        "7-7": { "name": "", "description": "No me desprendo fácilmente de mi dinero y regateo sin descanso para conseguir el mejor trato posible." },
-        "8-8": { "name": "", "description": "Mi trabajo es muy conocido y quiero asegurarme de que todo el mundo lo aprecie. Siempre me sorprende que alguien no haya oído hablar de mí." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Creo que, si merece la pena hacer algo, merece la pena hacerlo bien. No puedo evitarlo: soy perfeccionista."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Soy un esnob que menosprecia a quienes no saben apreciar el buen arte."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Siempre quiero saber cómo funcionan las cosas y qué motiva a las personas."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Estoy lleno de aforismos ingeniosos y tengo un refrán para cada ocasión."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Soy grosero con quienes no comparten mi dedicación al trabajo duro y al juego limpio."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Me gusta hablar largo y tendido sobre mi profesión."
+        },
+        "7-7": {
+          "name": "",
+          "description": "No me desprendo fácilmente de mi dinero y regateo sin descanso para conseguir el mejor trato posible."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Mi trabajo es muy conocido y quiero asegurarme de que todo el mundo lo aprecie. Siempre me sorprende que alguien no haya oído hablar de mí."
+        }
       }
     },
     "pbsoHermitbond00": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Nada es más importante que los demás miembros de mi eremitorio, orden o asociación." },
-        "2-2": { "name": "", "description": "Me recluí para ocultarme de quienes quizá aún me persiguen. Algún día tendré que enfrentarme a ellos." },
-        "3-3": { "name": "", "description": "Aún busco la iluminación que perseguía durante mi retiro, pero sigue eludiéndome." },
-        "4-4": { "name": "", "description": "Me recluí porque amaba a alguien a quien no podía tener." },
-        "5-5": { "name": "", "description": "Si mi descubrimiento saliera a la luz, podría causar la ruina del mundo." },
-        "6-6": { "name": "", "description": "Mi aislamiento me permitió comprender un gran mal que solo yo puedo destruir." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Nada es más importante que los demás miembros de mi eremitorio, orden o asociación."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Me recluí para ocultarme de quienes quizá aún me persiguen. Algún día tendré que enfrentarme a ellos."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Aún busco la iluminación que perseguía durante mi retiro, pero sigue eludiéndome."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Me recluí porque amaba a alguien a quien no podía tener."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Si mi descubrimiento saliera a la luz, podría causar la ruina del mundo."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Mi aislamiento me permitió comprender un gran mal que solo yo puedo destruir."
+        }
       }
     },
     "pbsoHermitflaw00": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "Ahora que he regresado al mundo, disfruto demasiado de sus placeres." },
-        "2-2": { "name": "", "description": "Albergo pensamientos sanguinarios que ni el aislamiento ni la meditación lograron aplacar." },
-        "3-3": { "name": "", "description": "Soy dogmático en mis ideas y mi filosofía." },
-        "4-4": { "name": "", "description": "Dejo que mi necesidad de ganar las discusiones se anteponga a la amistad y la armonía." },
-        "5-5": { "name": "", "description": "Arriesgaría demasiado por descubrir un conocimiento perdido." },
-        "6-6": { "name": "", "description": "Me gusta guardar secretos y no los comparto con nadie." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Ahora que he regresado al mundo, disfruto demasiado de sus placeres."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Albergo pensamientos sanguinarios que ni el aislamiento ni la meditación lograron aplacar."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Soy dogmático en mis ideas y mi filosofía."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Dejo que mi necesidad de ganar las discusiones se anteponga a la amistad y la armonía."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Arriesgaría demasiado por descubrir un conocimiento perdido."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Me gusta guardar secretos y no los comparto con nadie."
+        }
       }
     },
     "pbsoHermitideal0": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Bien común. Mis dones deben compartirse con todo el mundo, no utilizarse en mi propio beneficio. (Bueno)" },
-        "2-2": { "name": "", "description": "Lógica. Las emociones no deben nublar nuestro sentido de lo correcto y verdadero ni nuestro pensamiento lógico. (Legal)" },
-        "3-3": { "name": "", "description": "Librepensamiento. La investigación y la curiosidad son los pilares del progreso. (Caótico)" },
-        "4-4": { "name": "", "description": "Poder. La soledad y la contemplación son caminos hacia el poder místico o mágico. (Maligno)" },
-        "5-5": { "name": "", "description": "Vive y deja vivir. Entrometerse en los asuntos de los demás solo causa problemas. (Neutral)" },
-        "6-6": { "name": "", "description": "Autoconocimiento. Si te conoces a ti mismo, no queda nada más por conocer. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Bien común. Mis dones deben compartirse con todo el mundo, no utilizarse en mi propio beneficio. (Bueno)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Lógica. Las emociones no deben nublar nuestro sentido de lo correcto y verdadero ni nuestro pensamiento lógico. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Librepensamiento. La investigación y la curiosidad son los pilares del progreso. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Poder. La soledad y la contemplación son caminos hacia el poder místico o mágico. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Vive y deja vivir. Entrometerse en los asuntos de los demás solo causa problemas. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Autoconocimiento. Si te conoces a ti mismo, no queda nada más por conocer. (Cualquiera)"
+        }
       }
     },
     "pbsoHermittrait0": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "He vivido aislado durante tanto tiempo que apenas hablo; prefiero los gestos y algún que otro gruñido." },
-        "2-2": { "name": "", "description": "Mantengo una serenidad absoluta, incluso ante el desastre." },
-        "3-3": { "name": "", "description": "El líder de mi comunidad tenía algo sabio que decir sobre cualquier tema, y estoy deseando compartir esa sabiduría." },
-        "4-4": { "name": "", "description": "Siento una enorme empatía por todos los que sufren." },
-        "5-5": { "name": "", "description": "Ignoro por completo la etiqueta y las expectativas sociales." },
-        "6-6": { "name": "", "description": "Relaciono todo lo que me sucede con un grandioso plan cósmico." },
-        "7-7": { "name": "", "description": "A menudo me pierdo en mis propios pensamientos y reflexiones y dejo de percibir lo que me rodea." },
-        "8-8": { "name": "", "description": "Trabajo en una gran teoría filosófica y me encanta compartir mis ideas." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "He vivido aislado durante tanto tiempo que apenas hablo; prefiero los gestos y algún que otro gruñido."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Mantengo una serenidad absoluta, incluso ante el desastre."
+        },
+        "3-3": {
+          "name": "",
+          "description": "El líder de mi comunidad tenía algo sabio que decir sobre cualquier tema, y estoy deseando compartir esa sabiduría."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Siento una enorme empatía por todos los que sufren."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Ignoro por completo la etiqueta y las expectativas sociales."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Relaciono todo lo que me sucede con un grandioso plan cósmico."
+        },
+        "7-7": {
+          "name": "",
+          "description": "A menudo me pierdo en mis propios pensamientos y reflexiones y dejo de percibir lo que me rodea."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Trabajo en una gran teoría filosófica y me encanta compartir mis ideas."
+        }
       }
     },
     "pbsoLifeOfSeclus": {
       "name": "Vida de reclusión",
       "description": "<p>¿Por qué te aislaste y qué cambió para que pudieras poner fin a tu soledad? Puedes decidir con tu DM la naturaleza exacta de tu retiro, o elegir o tirar en la tabla siguiente para determinar el motivo.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Buscaba la iluminación espiritual." },
-        "2-2": { "name": "", "description": "Participaba en una vida comunitaria conforme a los preceptos de una orden religiosa." },
-        "3-3": { "name": "", "description": "Fui exiliado por un crimen que no cometí." },
-        "4-4": { "name": "", "description": "Me retiré de la sociedad tras un acontecimiento que cambió mi vida." },
-        "5-5": { "name": "", "description": "Necesitaba un lugar tranquilo donde trabajar en mi arte, literatura, música o manifiesto." },
-        "6-6": { "name": "", "description": "Necesitaba entrar en comunión con la naturaleza, lejos de la civilización." },
-        "7-7": { "name": "", "description": "Era el guardián de una ruina o reliquia antigua." },
-        "8-8": { "name": "", "description": "Era un peregrino en busca de una persona, lugar o reliquia de importancia espiritual." }
+        "1-1": {
+          "name": "",
+          "description": "Buscaba la iluminación espiritual."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Participaba en una vida comunitaria conforme a los preceptos de una orden religiosa."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Fui exiliado por un crimen que no cometí."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Me retiré de la sociedad tras un acontecimiento que cambió mi vida."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Necesitaba un lugar tranquilo donde trabajar en mi arte, literatura, música o manifiesto."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Necesitaba entrar en comunión con la naturaleza, lejos de la civilización."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Era el guardián de una ruina o reliquia antigua."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Era un peregrino en busca de una persona, lugar o reliquia de importancia espiritual."
+        }
       }
     },
     "pbsoNoblebond000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Afrontaré cualquier desafío para ganarme la aprobación de mi familia." },
-        "2-2": { "name": "", "description": "La alianza de mi casa con otra familia noble debe mantenerse a cualquier precio." },
-        "3-3": { "name": "", "description": "Nada es más importante que los demás miembros de mi familia." },
-        "4-4": { "name": "", "description": "Estoy enamorado del heredero de una familia a la que la mía desprecia." },
-        "5-5": { "name": "", "description": "Mi lealtad a mi soberano es inquebrantable." },
-        "6-6": { "name": "", "description": "La gente común debe verme como un héroe del pueblo." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Afrontaré cualquier desafío para ganarme la aprobación de mi familia."
+        },
+        "2-2": {
+          "name": "",
+          "description": "La alianza de mi casa con otra familia noble debe mantenerse a cualquier precio."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Nada es más importante que los demás miembros de mi familia."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Estoy enamorado del heredero de una familia a la que la mía desprecia."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Mi lealtad a mi soberano es inquebrantable."
+        },
+        "6-6": {
+          "name": "",
+          "description": "La gente común debe verme como un héroe del pueblo."
+        }
       }
     },
     "pbsoNobleflaw000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "En secreto, creo que todo el mundo está por debajo de mí." },
-        "2-2": { "name": "", "description": "Oculto un secreto verdaderamente escandaloso que podría arruinar a mi familia para siempre." },
-        "3-3": { "name": "", "description": "Con demasiada frecuencia percibo insultos y amenazas veladas en cada palabra que me dirigen, y me enfado enseguida." },
-        "4-4": { "name": "", "description": "Siento un deseo insaciable de placeres decadentes." },
-        "5-5": { "name": "", "description": "En realidad, el mundo sí gira a mi alrededor." },
-        "6-6": { "name": "", "description": "A menudo avergüenzo a mi familia con mis palabras y acciones." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "En secreto, creo que todo el mundo está por debajo de mí."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Oculto un secreto verdaderamente escandaloso que podría arruinar a mi familia para siempre."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Con demasiada frecuencia percibo insultos y amenazas veladas en cada palabra que me dirigen, y me enfado enseguida."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Siento un deseo insaciable de placeres decadentes."
+        },
+        "5-5": {
+          "name": "",
+          "description": "En realidad, el mundo sí gira a mi alrededor."
+        },
+        "6-6": {
+          "name": "",
+          "description": "A menudo avergüenzo a mi familia con mis palabras y acciones."
+        }
       }
     },
     "pbsoNobleideal00": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Respeto. Mi posición exige que me respeten, pero todas las personas, sin importar su condición, merecen ser tratadas con dignidad. (Bueno)" },
-        "2-2": { "name": "", "description": "Responsabilidad. Es mi deber respetar la autoridad de quienes están por encima de mí, igual que quienes están por debajo deben respetar la mía. (Legal)" },
-        "3-3": { "name": "", "description": "Independencia. Debo demostrar que puedo valerme por mí mismo sin que mi familia me proteja. (Caótico)" },
-        "4-4": { "name": "", "description": "Poder. Si consigo más poder, nadie me dirá qué debo hacer. (Maligno)" },
-        "5-5": { "name": "", "description": "Familia. La sangre tira más que el agua. (Cualquiera)" },
-        "6-6": { "name": "", "description": "Obligación nobiliaria. Es mi deber proteger y cuidar a quienes están por debajo de mí. (Bueno)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Respeto. Mi posición exige que me respeten, pero todas las personas, sin importar su condición, merecen ser tratadas con dignidad. (Bueno)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Responsabilidad. Es mi deber respetar la autoridad de quienes están por encima de mí, igual que quienes están por debajo deben respetar la mía. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Independencia. Debo demostrar que puedo valerme por mí mismo sin que mi familia me proteja. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Poder. Si consigo más poder, nadie me dirá qué debo hacer. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Familia. La sangre tira más que el agua. (Cualquiera)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Obligación nobiliaria. Es mi deber proteger y cuidar a quienes están por debajo de mí. (Bueno)"
+        }
       }
     },
     "pbsoNobletrait00": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Mis elocuentes halagos hacen que todos aquellos con los que hablo se sientan las personas más maravillosas e importantes del mundo." },
-        "2-2": { "name": "", "description": "La gente común me aprecia por mi bondad y generosidad." },
-        "3-3": { "name": "", "description": "Al ver mi porte regio, nadie podría dudar que estoy por encima de la plebe." },
-        "4-4": { "name": "", "description": "Me esfuerzo mucho por ofrecer siempre mi mejor aspecto y seguir las últimas modas." },
-        "5-5": { "name": "", "description": "No me gusta ensuciarme las manos y jamás permitiría que me vieran en un alojamiento inadecuado." },
-        "6-6": { "name": "", "description": "A pesar de mi noble cuna, no me considero superior a los demás. Todos tenemos la misma sangre." },
-        "7-7": { "name": "", "description": "Quien pierde mi favor, lo pierde para siempre." },
-        "8-8": { "name": "", "description": "Si me haces daño, te aplastaré, arruinaré tu nombre y sembraré tus campos de sal." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Mis elocuentes halagos hacen que todos aquellos con los que hablo se sientan las personas más maravillosas e importantes del mundo."
+        },
+        "2-2": {
+          "name": "",
+          "description": "La gente común me aprecia por mi bondad y generosidad."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Al ver mi porte regio, nadie podría dudar que estoy por encima de la plebe."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Me esfuerzo mucho por ofrecer siempre mi mejor aspecto y seguir las últimas modas."
+        },
+        "5-5": {
+          "name": "",
+          "description": "No me gusta ensuciarme las manos y jamás permitiría que me vieran en un alojamiento inadecuado."
+        },
+        "6-6": {
+          "name": "",
+          "description": "A pesar de mi noble cuna, no me considero superior a los demás. Todos tenemos la misma sangre."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Quien pierde mi favor, lo pierde para siempre."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Si me haces daño, te aplastaré, arruinaré tu nombre y sembraré tus campos de sal."
+        }
       }
     },
     "pbsoOrigin000000": {
       "name": "Origen",
       "description": "<p>Has estado en lugares extraños y has visto cosas que los demás ni siquiera pueden imaginar. Piensa en algunas de las tierras lejanas que has visitado y en cómo te afectaron. Puedes tirar en la tabla siguiente para determinar tu ocupación durante el tiempo que pasaste en las tierras salvajes o elegir la que mejor encaje con tu personaje.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Forestal" },
-        "2-2": { "name": "", "description": "Trampero" },
-        "3-3": { "name": "", "description": "Colono" },
-        "4-4": { "name": "", "description": "Guía" },
-        "5-5": { "name": "", "description": "Exiliado o marginado" },
-        "6-6": { "name": "", "description": "Cazarrecompensas" },
-        "7-7": { "name": "", "description": "Peregrino" },
-        "8-8": { "name": "", "description": "Nómada tribal" },
-        "9-9": { "name": "", "description": "Cazador-recolector" },
-        "10-10": { "name": "", "description": "Saqueador tribal" }
+        "1-1": {
+          "name": "",
+          "description": "Forestal"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Trampero"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Colono"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Guía"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Exiliado o marginado"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Cazarrecompensas"
+        },
+        "7-7": {
+          "name": "",
+          "description": "Peregrino"
+        },
+        "8-8": {
+          "name": "",
+          "description": "Nómada tribal"
+        },
+        "9-9": {
+          "name": "",
+          "description": "Cazador-recolector"
+        },
+        "10-10": {
+          "name": "",
+          "description": "Saqueador tribal"
+        }
       }
     },
     "pbsoOutlanderbon": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Mi familia, clan o tribu es lo más importante de mi vida, incluso cuando está lejos de mí." },
-        "2-2": { "name": "", "description": "Cualquier daño contra la naturaleza virgen de mi hogar es un daño contra mí." },
-        "3-3": { "name": "", "description": "Desataré una ira terrible sobre los malhechores que destruyeron mi tierra natal." },
-        "4-4": { "name": "", "description": "Soy el último de mi tribu y depende de mí que sus nombres pasen a la leyenda." },
-        "5-5": { "name": "", "description": "Sufro visiones terribles de un desastre venidero y haré cualquier cosa para impedirlo." },
-        "6-6": { "name": "", "description": "Es mi deber tener descendencia para asegurar la continuidad de mi tribu." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Mi familia, clan o tribu es lo más importante de mi vida, incluso cuando está lejos de mí."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Cualquier daño contra la naturaleza virgen de mi hogar es un daño contra mí."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Desataré una ira terrible sobre los malhechores que destruyeron mi tierra natal."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Soy el último de mi tribu y depende de mí que sus nombres pasen a la leyenda."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Sufro visiones terribles de un desastre venidero y haré cualquier cosa para impedirlo."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Es mi deber tener descendencia para asegurar la continuidad de mi tribu."
+        }
       }
     },
     "pbsoOutlanderfla": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "Me gustan demasiado la cerveza, el vino y otros embriagantes." },
-        "2-2": { "name": "", "description": "No hay lugar para la cautela en una vida vivida al máximo." },
-        "3-3": { "name": "", "description": "Recuerdo todos los insultos que he recibido y guardo un resentimiento silencioso contra cualquiera que me haya ofendido." },
-        "4-4": { "name": "", "description": "Me cuesta confiar en miembros de otras especies, tribus y sociedades." },
-        "5-5": { "name": "", "description": "La violencia es mi respuesta a casi cualquier desafío." },
-        "6-6": { "name": "", "description": "No esperes que salve a quienes no pueden salvarse por sí mismos. La naturaleza dicta que los fuertes prosperen y los débiles perezcan." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Me gustan demasiado la cerveza, el vino y otros embriagantes."
+        },
+        "2-2": {
+          "name": "",
+          "description": "No hay lugar para la cautela en una vida vivida al máximo."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Recuerdo todos los insultos que he recibido y guardo un resentimiento silencioso contra cualquiera que me haya ofendido."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Me cuesta confiar en miembros de otras especies, tribus y sociedades."
+        },
+        "5-5": {
+          "name": "",
+          "description": "La violencia es mi respuesta a casi cualquier desafío."
+        },
+        "6-6": {
+          "name": "",
+          "description": "No esperes que salve a quienes no pueden salvarse por sí mismos. La naturaleza dicta que los fuertes prosperen y los débiles perezcan."
+        }
       }
     },
     "pbsoOutlanderide": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Cambio. La vida es como las estaciones, cambia sin cesar y nosotros debemos cambiar con ella. (Caótico)" },
-        "2-2": { "name": "", "description": "Bien común. Es responsabilidad de cada persona procurar la mayor felicidad para toda la tribu. (Bueno)" },
-        "3-3": { "name": "", "description": "Honor. Si me deshonro, deshonro a todo mi clan. (Legal)" },
-        "4-4": { "name": "", "description": "Poder. Los más fuertes están destinados a gobernar. (Maligno)" },
-        "5-5": { "name": "", "description": "Naturaleza. El mundo natural es más importante que todas las creaciones de la civilización. (Neutral)" },
-        "6-6": { "name": "", "description": "Gloria. Debo ganar gloria en batalla, para mí y para mi clan. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Cambio. La vida es como las estaciones, cambia sin cesar y nosotros debemos cambiar con ella. (Caótico)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Bien común. Es responsabilidad de cada persona procurar la mayor felicidad para toda la tribu. (Bueno)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Honor. Si me deshonro, deshonro a todo mi clan. (Legal)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Poder. Los más fuertes están destinados a gobernar. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Naturaleza. El mundo natural es más importante que todas las creaciones de la civilización. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Gloria. Debo ganar gloria en batalla, para mí y para mi clan. (Cualquiera)"
+        }
       }
     },
     "pbsoOutlandertra": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Me impulsa el ansia de viajar que me alejó de mi hogar." },
-        "2-2": { "name": "", "description": "Cuido de mis amigos como si fueran una camada de cachorros recién nacidos." },
-        "3-3": { "name": "", "description": "Una vez recorrí cuarenta kilómetros sin detenerme para advertir a mi clan de que se acercaba una horda de orcos. Volvería a hacerlo si fuera necesario." },
-        "4-4": { "name": "", "description": "Tengo una lección para cada situación, extraída de la observación de la naturaleza." },
-        "5-5": { "name": "", "description": "No doy importancia a la gente rica o bien educada. Ni el dinero ni los modales te salvarán de un oso lechuza hambriento." },
-        "6-6": { "name": "", "description": "Siempre estoy recogiendo cosas, jugueteando con ellas distraídamente y, a veces, rompiéndolas por accidente." },
-        "7-7": { "name": "", "description": "Me siento mucho más cómodo entre animales que entre personas." },
-        "8-8": { "name": "", "description": "De hecho, me criaron los lobos." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Me impulsa el ansia de viajar que me alejó de mi hogar."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Cuido de mis amigos como si fueran una camada de cachorros recién nacidos."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Una vez recorrí cuarenta kilómetros sin detenerme para advertir a mi clan de que se acercaba una horda de orcos. Volvería a hacerlo si fuera necesario."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Tengo una lección para cada situación, extraída de la observación de la naturaleza."
+        },
+        "5-5": {
+          "name": "",
+          "description": "No doy importancia a la gente rica o bien educada. Ni el dinero ni los modales te salvarán de un oso lechuza hambriento."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Siempre estoy recogiendo cosas, jugueteando con ellas distraídamente y, a veces, rompiéndolas por accidente."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Me siento mucho más cómodo entre animales que entre personas."
+        },
+        "8-8": {
+          "name": "",
+          "description": "De hecho, me criaron los lobos."
+        }
       }
     },
     "pbsoSagebond0000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Es mi deber proteger a mis estudiantes." },
-        "2-2": { "name": "", "description": "Poseo un texto antiguo que contiene secretos terribles y no debe caer en malas manos." },
-        "3-3": { "name": "", "description": "Trabajo para conservar una biblioteca, universidad, scriptorium o monasterio." },
-        "4-4": { "name": "", "description": "La obra de mi vida es una serie de tomos dedicados a un campo concreto del saber." },
-        "5-5": { "name": "", "description": "Llevo toda la vida buscando la respuesta a una pregunta determinada." },
-        "6-6": { "name": "", "description": "Vendí mi alma a cambio de conocimiento. Espero realizar grandes hazañas y recuperarla." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Es mi deber proteger a mis estudiantes."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Poseo un texto antiguo que contiene secretos terribles y no debe caer en malas manos."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Trabajo para conservar una biblioteca, universidad, scriptorium o monasterio."
+        },
+        "4-4": {
+          "name": "",
+          "description": "La obra de mi vida es una serie de tomos dedicados a un campo concreto del saber."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Llevo toda la vida buscando la respuesta a una pregunta determinada."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Vendí mi alma a cambio de conocimiento. Espero realizar grandes hazañas y recuperarla."
+        }
       }
     },
     "pbsoSageflaw0000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "La promesa de obtener información me distrae con facilidad." },
-        "2-2": { "name": "", "description": "La mayoría grita y huye cuando ve un demonio. Yo me detengo y tomo notas sobre su anatomía." },
-        "3-3": { "name": "", "description": "Desvelar un misterio antiguo vale el precio de una civilización." },
-        "4-4": { "name": "", "description": "Paso por alto las soluciones evidentes en favor de otras complicadas." },
-        "5-5": { "name": "", "description": "Hablo sin pensar de verdad en mis palabras e insulto invariablemente a los demás." },
-        "6-6": { "name": "", "description": "No puedo guardar un secreto ni aunque mi vida, o la de otra persona, dependa de ello." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "La promesa de obtener información me distrae con facilidad."
+        },
+        "2-2": {
+          "name": "",
+          "description": "La mayoría grita y huye cuando ve un demonio. Yo me detengo y tomo notas sobre su anatomía."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Desvelar un misterio antiguo vale el precio de una civilización."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Paso por alto las soluciones evidentes en favor de otras complicadas."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Hablo sin pensar de verdad en mis palabras e insulto invariablemente a los demás."
+        },
+        "6-6": {
+          "name": "",
+          "description": "No puedo guardar un secreto ni aunque mi vida, o la de otra persona, dependa de ello."
+        }
       }
     },
     "pbsoSageideal000": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Conocimiento. El camino hacia el poder y la superación personal pasa por el conocimiento. (Neutral)" },
-        "2-2": { "name": "", "description": "Belleza. Lo bello nos señala más allá de sí mismo, hacia lo verdadero. (Bueno)" },
-        "3-3": { "name": "", "description": "Lógica. Las emociones no deben nublar nuestro pensamiento lógico. (Legal)" },
-        "4-4": { "name": "", "description": "Sin límites. Nada debe encadenar las posibilidades infinitas inherentes a toda existencia. (Caótico)" },
-        "5-5": { "name": "", "description": "Poder. El conocimiento es el camino hacia el poder y la dominación. (Maligno)" },
-        "6-6": { "name": "", "description": "Superación personal. El objetivo de una vida de estudio es mejorar como persona. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Conocimiento. El camino hacia el poder y la superación personal pasa por el conocimiento. (Neutral)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Belleza. Lo bello nos señala más allá de sí mismo, hacia lo verdadero. (Bueno)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Lógica. Las emociones no deben nublar nuestro pensamiento lógico. (Legal)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Sin límites. Nada debe encadenar las posibilidades infinitas inherentes a toda existencia. (Caótico)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Poder. El conocimiento es el camino hacia el poder y la dominación. (Maligno)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Superación personal. El objetivo de una vida de estudio es mejorar como persona. (Cualquiera)"
+        }
       }
     },
     "pbsoSagetrait000": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Uso palabras polisilábicas que dan la impresión de una gran erudición." },
-        "2-2": { "name": "", "description": "He leído todos los libros de las bibliotecas más importantes del mundo, o eso me gusta presumir." },
-        "3-3": { "name": "", "description": "Estoy acostumbrado a ayudar a quienes no son tan inteligentes como yo y les explico cualquier cosa con paciencia." },
-        "4-4": { "name": "", "description": "No hay nada que me guste más que un buen misterio." },
-        "5-5": { "name": "", "description": "Estoy dispuesto a escuchar todas las posturas de una discusión antes de formarme mi propio juicio." },
-        "6-6": { "name": "", "description": "Hablo... despacio... cuando me dirijo... a idiotas..., que son... casi todos... comparados conmigo." },
-        "7-7": { "name": "", "description": "Soy terriblemente, terriblemente torpe en situaciones sociales." },
-        "8-8": { "name": "", "description": "Estoy convencido de que la gente siempre intenta robar mis secretos." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Uso palabras polisilábicas que dan la impresión de una gran erudición."
+        },
+        "2-2": {
+          "name": "",
+          "description": "He leído todos los libros de las bibliotecas más importantes del mundo, o eso me gusta presumir."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Estoy acostumbrado a ayudar a quienes no son tan inteligentes como yo y les explico cualquier cosa con paciencia."
+        },
+        "4-4": {
+          "name": "",
+          "description": "No hay nada que me guste más que un buen misterio."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Estoy dispuesto a escuchar todas las posturas de una discusión antes de formarme mi propio juicio."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Hablo... despacio... cuando me dirijo... a idiotas..., que son... casi todos... comparados conmigo."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Soy terriblemente, terriblemente torpe en situaciones sociales."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Estoy convencido de que la gente siempre intenta robar mis secretos."
+        }
       }
     },
     "pbsoSpecialty000": {
       "name": "Especialidad",
-      "description": "<p>Para determinar la naturaleza de tu formación académica, tira 1d8 o elige una de las opciones de la tabla siguiente.</p>",
+      "description": "<p>Para determinar la naturaleza de tu formación académica, tira un d8 o elige una de las opciones de la tabla siguiente.</p>",
       "results": {
-        "1-1": { "name": "", "description": "Alquimista" },
-        "2-2": { "name": "", "description": "Astrónomo" },
-        "3-3": { "name": "", "description": "Académico desacreditado" },
-        "4-4": { "name": "", "description": "Bibliotecario" },
-        "5-5": { "name": "", "description": "Profesor" },
-        "6-6": { "name": "", "description": "Investigador" },
-        "7-7": { "name": "", "description": "Aprendiz de mago" },
-        "8-8": { "name": "", "description": "Escriba" }
+        "1-1": {
+          "name": "",
+          "description": "Alquimista"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Astrónomo"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Académico desacreditado"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Bibliotecario"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Profesor"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Investigador"
+        },
+        "7-7": {
+          "name": "",
+          "description": "Aprendiz de mago"
+        },
+        "8-8": {
+          "name": "",
+          "description": "Escriba"
+        }
       }
     },
     "pbsoSailbond0000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Mi lealtad es primero para mi capitán y después para todo lo demás." },
-        "2-2": { "name": "", "description": "El barco es lo más importante; los tripulantes y capitanes van y vienen." },
-        "3-3": { "name": "", "description": "Siempre recordaré mi primer barco." },
-        "4-4": { "name": "", "description": "En una ciudad portuaria tengo un amante cuyos ojos casi consiguieron apartarme del mar." },
-        "5-5": { "name": "", "description": "Me estafaron la parte de las ganancias que me correspondía y quiero recibir lo que se me debe." },
-        "6-6": { "name": "", "description": "Unos piratas despiadados asesinaron a mi capitán y a mis compañeros, saquearon nuestro barco y me dejaron morir. Me vengaré." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Mi lealtad es primero para mi capitán y después para todo lo demás."
+        },
+        "2-2": {
+          "name": "",
+          "description": "El barco es lo más importante; los tripulantes y capitanes van y vienen."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Siempre recordaré mi primer barco."
+        },
+        "4-4": {
+          "name": "",
+          "description": "En una ciudad portuaria tengo un amante cuyos ojos casi consiguieron apartarme del mar."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Me estafaron la parte de las ganancias que me correspondía y quiero recibir lo que se me debe."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Unos piratas despiadados asesinaron a mi capitán y a mis compañeros, saquearon nuestro barco y me dejaron morir. Me vengaré."
+        }
       }
     },
     "pbsoSailflaw0000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "Obedezco las órdenes, aunque crea que son equivocadas." },
-        "2-2": { "name": "", "description": "Diré cualquier cosa para evitar tener que trabajar de más." },
-        "3-3": { "name": "", "description": "Cuando alguien pone en duda mi valor, nunca retrocedo, sin importar lo peligrosa que sea la situación." },
-        "4-4": { "name": "", "description": "Cuando empiezo a beber, me cuesta parar." },
-        "5-5": { "name": "", "description": "No puedo evitar embolsarme las monedas sueltas y otras baratijas que encuentro." },
-        "6-6": { "name": "", "description": "Probablemente mi orgullo acabará destruyéndome." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Obedezco las órdenes, aunque crea que son equivocadas."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Diré cualquier cosa para evitar tener que trabajar de más."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Cuando alguien pone en duda mi valor, nunca retrocedo, sin importar lo peligrosa que sea la situación."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Cuando empiezo a beber, me cuesta parar."
+        },
+        "5-5": {
+          "name": "",
+          "description": "No puedo evitar embolsarme las monedas sueltas y otras baratijas que encuentro."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Probablemente mi orgullo acabará destruyéndome."
+        }
       }
     },
     "pbsoSailideal000": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Respeto. Lo que mantiene unido a un barco es el respeto mutuo entre el capitán y la tripulación. (Bueno)" },
-        "2-2": { "name": "", "description": "Justicia. Todos hacemos el trabajo, así que todos compartimos la recompensa. (Legal)" },
-        "3-3": { "name": "", "description": "Libertad. El mar es libertad: libertad para ir a cualquier lugar y hacer cualquier cosa. (Caótico)" },
-        "4-4": { "name": "", "description": "Dominio. Soy un depredador y los demás barcos del mar son mis presas. (Maligno)" },
-        "5-5": { "name": "", "description": "Personas. Mi compromiso es con mis compañeros de tripulación, no con unos ideales. (Neutral)" },
-        "6-6": { "name": "", "description": "Aspiración. Algún día tendré mi propio barco y trazaré mi propio destino. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Respeto. Lo que mantiene unido a un barco es el respeto mutuo entre el capitán y la tripulación. (Bueno)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Justicia. Todos hacemos el trabajo, así que todos compartimos la recompensa. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Libertad. El mar es libertad: libertad para ir a cualquier lugar y hacer cualquier cosa. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Dominio. Soy un depredador y los demás barcos del mar son mis presas. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Personas. Mi compromiso es con mis compañeros de tripulación, no con unos ideales. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Aspiración. Algún día tendré mi propio barco y trazaré mi propio destino. (Cualquiera)"
+        }
       }
     },
     "pbsoSailtrait000": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Mis amigos saben que pueden contar conmigo pase lo que pase." },
-        "2-2": { "name": "", "description": "Trabajo duro para poder divertirme a lo grande cuando termina la faena." },
-        "3-3": { "name": "", "description": "Disfruto navegando hasta puertos nuevos y haciendo nuevos amigos ante una jarra de cerveza." },
-        "4-4": { "name": "", "description": "Adorno la verdad para contar una buena historia." },
-        "5-5": { "name": "", "description": "Para mí, una pelea de taberna es una buena forma de conocer una ciudad nueva." },
-        "6-6": { "name": "", "description": "Nunca rechazo una apuesta amistosa." },
-        "7-7": { "name": "", "description": "Mi vocabulario es tan sucio como el nido de un otyugh." },
-        "8-8": { "name": "", "description": "Me gusta el trabajo bien hecho, sobre todo si puedo convencer a otra persona para que lo haga." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Mis amigos saben que pueden contar conmigo pase lo que pase."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Trabajo duro para poder divertirme a lo grande cuando termina la faena."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Disfruto navegando hasta puertos nuevos y haciendo nuevos amigos ante una jarra de cerveza."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Adorno la verdad para contar una buena historia."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Para mí, una pelea de taberna es una buena forma de conocer una ciudad nueva."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Nunca rechazo una apuesta amistosa."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Mi vocabulario es tan sucio como el nido de un otyugh."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Me gusta el trabajo bien hecho, sobre todo si puedo convencer a otra persona para que lo haga."
+        }
       }
     },
     "pbsoSoldbond0000": {
-      "name": "Vínculo", "description": "", "results": {
-        "1-1": { "name": "", "description": "Todavía daría la vida por quienes sirvieron a mi lado." },
-        "2-2": { "name": "", "description": "Alguien me salvó la vida en el campo de batalla. Desde entonces, jamás dejo atrás a un amigo." },
-        "3-3": { "name": "", "description": "Mi honor es mi vida." },
-        "4-4": { "name": "", "description": "Nunca olvidaré la aplastante derrota que sufrió mi compañía ni a los enemigos que nos la infligieron." },
-        "5-5": { "name": "", "description": "Quienes luchan a mi lado son aquellos por quienes merece la pena morir." },
-        "6-6": { "name": "", "description": "Lucho por quienes no pueden luchar por sí mismos." }
+      "name": "Vínculo",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Todavía daría la vida por quienes sirvieron a mi lado."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Alguien me salvó la vida en el campo de batalla. Desde entonces, jamás dejo atrás a un amigo."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Mi honor es mi vida."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Nunca olvidaré la aplastante derrota que sufrió mi compañía ni a los enemigos que nos la infligieron."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Quienes luchan a mi lado son aquellos por quienes merece la pena morir."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Lucho por quienes no pueden luchar por sí mismos."
+        }
       }
     },
     "pbsoSoldflaw0000": {
-      "name": "Defecto", "description": "", "results": {
-        "1-1": { "name": "", "description": "El monstruoso enemigo al que nos enfrentamos en batalla aún me hace temblar de miedo." },
-        "2-2": { "name": "", "description": "Siento poco respeto por quienes no han demostrado ser guerreros." },
-        "3-3": { "name": "", "description": "Cometí un error terrible en batalla que costó muchas vidas y haría cualquier cosa para mantenerlo en secreto." },
-        "4-4": { "name": "", "description": "Mi odio hacia mis enemigos es ciego e irracional." },
-        "5-5": { "name": "", "description": "Obedezco la ley, aunque provoque sufrimiento." },
-        "6-6": { "name": "", "description": "Preferiría comerme mi armadura antes que admitir que me equivoco." }
+      "name": "Defecto",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "El monstruoso enemigo al que nos enfrentamos en batalla aún me hace temblar de miedo."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Siento poco respeto por quienes no han demostrado ser guerreros."
+        },
+        "3-3": {
+          "name": "",
+          "description": "Cometí un error terrible en batalla que costó muchas vidas y haría cualquier cosa para mantenerlo en secreto."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Mi odio hacia mis enemigos es ciego e irracional."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Obedezco la ley, aunque provoque sufrimiento."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Preferiría comerme mi armadura antes que admitir que me equivoco."
+        }
       }
     },
     "pbsoSoldideal000": {
-      "name": "Ideal", "description": "", "results": {
-        "1-1": { "name": "", "description": "Bien común. Nuestro destino es dar la vida en defensa de los demás. (Bueno)" },
-        "2-2": { "name": "", "description": "Responsabilidad. Hago lo que debo y obedezco a la autoridad justa. (Legal)" },
-        "3-3": { "name": "", "description": "Independencia. Cuando las personas obedecen órdenes ciegamente, abrazan una forma de tiranía. (Caótico)" },
-        "4-4": { "name": "", "description": "Poder. Tanto en la vida como en la guerra, vence la fuerza superior. (Maligno)" },
-        "5-5": { "name": "", "description": "Vive y deja vivir. No merece la pena matar ni ir a la guerra por unos ideales. (Neutral)" },
-        "6-6": { "name": "", "description": "Nación. Mi ciudad, mi nación o mi pueblo son lo único que importa. (Cualquiera)" }
+      "name": "Ideal",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Bien común. Nuestro destino es dar la vida en defensa de los demás. (Bueno)"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Responsabilidad. Hago lo que debo y obedezco a la autoridad justa. (Legal)"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Independencia. Cuando las personas obedecen órdenes ciegamente, abrazan una forma de tiranía. (Caótico)"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Poder. Tanto en la vida como en la guerra, vence la fuerza superior. (Maligno)"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Vive y deja vivir. No merece la pena matar ni ir a la guerra por unos ideales. (Neutral)"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Nación. Mi ciudad, mi nación o mi pueblo son lo único que importa. (Cualquiera)"
+        }
       }
     },
     "pbsoSoldtrait000": {
-      "name": "Rasgo de personalidad", "description": "", "results": {
-        "1-1": { "name": "", "description": "Siempre soy educado y respetuoso." },
-        "2-2": { "name": "", "description": "Me atormentan los recuerdos de la guerra. No puedo apartar de mi mente las imágenes de violencia." },
-        "3-3": { "name": "", "description": "He perdido demasiados amigos y me cuesta hacer otros nuevos." },
-        "4-4": { "name": "", "description": "Mi experiencia militar me ha dejado multitud de relatos inspiradores y aleccionadores para casi cualquier situación de combate." },
-        "5-5": { "name": "", "description": "Puedo sostenerle la mirada a un mastín infernal sin pestañear." },
-        "6-6": { "name": "", "description": "Disfruto siendo fuerte y me gusta romper cosas." },
-        "7-7": { "name": "", "description": "Tengo un sentido del humor vulgar." },
-        "8-8": { "name": "", "description": "Afronto los problemas de frente. Una solución sencilla y directa es el mejor camino hacia el éxito." }
+      "name": "Rasgo de personalidad",
+      "description": "",
+      "results": {
+        "1-1": {
+          "name": "",
+          "description": "Siempre soy educado y respetuoso."
+        },
+        "2-2": {
+          "name": "",
+          "description": "Me atormentan los recuerdos de la guerra. No puedo apartar de mi mente las imágenes de violencia."
+        },
+        "3-3": {
+          "name": "",
+          "description": "He perdido demasiados amigos y me cuesta hacer otros nuevos."
+        },
+        "4-4": {
+          "name": "",
+          "description": "Mi experiencia militar me ha dejado multitud de relatos inspiradores y aleccionadores para casi cualquier situación de combate."
+        },
+        "5-5": {
+          "name": "",
+          "description": "Puedo sostenerle la mirada a un mastín infernal sin pestañear."
+        },
+        "6-6": {
+          "name": "",
+          "description": "Disfruto siendo fuerte y me gusta romper cosas."
+        },
+        "7-7": {
+          "name": "",
+          "description": "Tengo un sentido del humor vulgar."
+        },
+        "8-8": {
+          "name": "",
+          "description": "Afronto los problemas de frente. Una solución sencilla y directa es el mejor camino hacia el éxito."
+        }
       }
     },
     "pbsoSpecialtySol": {
       "name": "Especialidad",
-      "description": "<p>Durante tu etapa como soldado desempeñaste un papel concreto en tu unidad o ejército. Tira 1d8 o elige una de las opciones de la tabla siguiente para determinarlo:</p>",
+      "description": "<p>Durante tu etapa como soldado desempeñaste un papel concreto en tu unidad o ejército. Tira un d8 o elige una de las opciones de la tabla siguiente para determinarlo:</p>",
       "results": {
-        "1-1": { "name": "", "description": "Oficial" },
-        "2-2": { "name": "", "description": "Explorador" },
-        "3-3": { "name": "", "description": "Infantería" },
-        "4-4": { "name": "", "description": "Caballería" },
-        "5-5": { "name": "", "description": "Sanador" },
-        "6-6": { "name": "", "description": "Intendente" },
-        "7-7": { "name": "", "description": "Abanderado" },
-        "8-8": { "name": "", "description": "Personal de apoyo (cocinero, herrero o similar)" }
+        "1-1": {
+          "name": "",
+          "description": "Oficial"
+        },
+        "2-2": {
+          "name": "",
+          "description": "Explorador"
+        },
+        "3-3": {
+          "name": "",
+          "description": "Infantería"
+        },
+        "4-4": {
+          "name": "",
+          "description": "Caballería"
+        },
+        "5-5": {
+          "name": "",
+          "description": "Sanador"
+        },
+        "6-6": {
+          "name": "",
+          "description": "Intendente"
+        },
+        "7-7": {
+          "name": "",
+          "description": "Abanderado"
+        },
+        "8-8": {
+          "name": "",
+          "description": "Personal de apoyo (cocinero, herrero o similar)"
+        }
       }
     }
   }

@@ -1,7 +1,271 @@
 {
   "label": "Opciones de personaje",
   "mapping": {
-    "description": "system.description.value"
+    "description": "system.description.value",
+    "advancement": {
+      "path": "system.advancement",
+      "converter": "phandelverAdvancementNames"
+    },
+    "requirements": "system.requirements",
+    "descriptionChat": "system.description.chat",
+    "unidentifiedName": "system.unidentified.name",
+    "unidentifiedDescription": "system.unidentified.description",
+    "activities": {
+      "path": "system.activities",
+      "converter": "phandelverActivities"
+    },
+    "effects": {
+      "path": "effects",
+      "converter": "phandelverEffects"
+    }
   },
-  "entries": {}
+  "entries": {
+    "5mIeX824uMklU3xq": {
+      "name": "Estuche para pergaminos y monedas",
+      "description": "<p>Un estuche para pergaminos repleto de notas de tus estudios u oraciones, y 5 po.</p><p>Este estuche cilíndrico de cuero puede contener hasta diez hojas de papel enrolladas o cinco hojas de pergamino enrolladas.</p>"
+    },
+    "64N1NWh9kC1dI7zN": {
+      "name": "Refugio de los fieles",
+      "description": "<p>Como acólito, te ganas el respeto de quienes comparten tu fe y puedes oficiar las ceremonias religiosas de tu deidad. Tú y tus compañeros de aventuras podéis recibir curación y cuidados gratuitos en un templo, santuario u otro lugar establecido de vuestra fe, aunque debéis aportar los componentes materiales necesarios para los conjuros. Quienes comparten tu religión te mantendrán a ti, y solo a ti, con un nivel de vida modesto.</p>\n<p>También puedes tener vínculos con un templo concreto dedicado a la deidad o al panteón que hayas elegido, y disponer allí de una residencia. Podría ser el templo en el que servías, si mantienes una buena relación con él, o uno en el que hayas encontrado un nuevo hogar. Mientras estés cerca de tu templo, puedes solicitar ayuda a sus sacerdotes, siempre que lo que pidas no los ponga en peligro y sigas gozando del favor del templo.</p>",
+      "requirements": "Acólito"
+    },
+    "hqrqNyOqfY7i2vut": {
+      "name": "Ropa común oscura con capucha",
+      "description": "<p>Un conjunto de ropa común oscura que incluye una capucha.</p>"
+    },
+    "nfIRTECQIG81CvM4": {
+      "name": "Cabilla",
+      "description": "<p>Un robusto trozo de madera con un extremo abultado forma una porra sencilla pero eficaz. Estas armas se utilizan para aporrear a los enemigos, magullar la carne y romper huesos.</p>"
+    },
+    "pbsoAdmirersFavo": {
+      "name": "Recuerdo de un admirador",
+      "description": "<p>Un obsequio de un admirador: una carta de amor, un mechón de pelo o una baratija.</p>"
+    },
+    "pbsoBg10gppouch0": {
+      "name": "Bolsa pequeña de monedas"
+    },
+    "pbsoBg15gppouch0": {
+      "name": "Bolsa de monedas"
+    },
+    "pbsoBg25gppurse0": {
+      "name": "Monedero"
+    },
+    "pbsoBgfriendlett": {
+      "name": "Carta sin respuesta",
+      "description": "<p>Una carta de un colega fallecido que plantea una pregunta a la que aún no has podido responder.</p>"
+    },
+    "pbsoBgguildintro": {
+      "name": "Carta de presentación",
+      "description": "<p>Una carta de presentación de tu gremio.</p>"
+    },
+    "pbsoBgpedigree00": {
+      "name": "Pergamino genealógico"
+    },
+    "pbsoByPopularDem": {
+      "name": "A petición popular",
+      "description": "<p>Siempre puedes encontrar un lugar donde actuar, normalmente una posada o taberna, aunque también podría ser un circo, un teatro o incluso la corte de un noble. Allí recibes alojamiento y comida gratuitos de un nivel de vida modesto o cómodo, según la calidad del establecimiento, siempre que actúes cada noche. Además, tus actuaciones te convierten en una figura conocida en la zona. Cuando unos desconocidos te reconocen en una localidad donde has actuado, suelen sentir simpatía por ti.</p>"
+    },
+    "pbsoCriminalCont": {
+      "name": "Contacto criminal",
+      "description": "<p>Tienes un contacto fiable y de confianza que te sirve de enlace con una red de criminales. Sabes cómo enviarle mensajes y recibir los suyos, incluso a grandes distancias; en concreto, conoces a los mensajeros locales, jefes de caravanas corruptos y marineros de mala reputación que pueden entregar mensajes por ti.</p>"
+    },
+    "pbsoDiscovery000": {
+      "name": "Descubrimiento",
+      "description": "<p>El tranquilo aislamiento de tu prolongado retiro te permitió realizar un descubrimiento único y poderoso. La naturaleza exacta de esta revelación depende de las circunstancias de tu reclusión. Podría ser una gran verdad sobre el cosmos, las deidades, los poderosos seres de los planos exteriores o las fuerzas de la naturaleza. Podría tratarse de un lugar que nadie más haya visto. Quizá hayas descubierto un hecho olvidado desde hace mucho tiempo o desenterrado una reliquia del pasado capaz de reescribir la historia. Tal vez sea información que perjudicaría a quienes te condenaron al exilio y, por tanto, el motivo de tu regreso a la sociedad.</p><p>Colabora con tu DM para determinar los detalles de tu descubrimiento y sus repercusiones en la campaña.</p>"
+    },
+    "pbsoEnemyTrophy0": {
+      "name": "Trofeo de un enemigo",
+      "description": "<p>Un trofeo tomado de un enemigo caído: una daga, una hoja rota o un fragmento de estandarte.</p>"
+    },
+    "pbsoFalseIdentit": {
+      "name": "Identidad falsa",
+      "description": "<p>Has creado una segunda identidad que incluye documentación, conocidos y disfraces que te permiten adoptar esa personalidad. Además, puedes falsificar documentos, incluidos escritos oficiales y cartas personales, siempre que hayas visto una muestra del tipo de documento o de la caligrafía que intentas copiar.</p>"
+    },
+    "pbsoGuildMembers": {
+      "name": "Miembro de un gremio",
+      "description": "<p>Como miembro reconocido y respetado de un gremio, puedes contar con ciertas ventajas. Tus compañeros de gremio te proporcionarán alojamiento y comida si lo necesitas, y pagarán tu funeral si llega el caso. En algunas ciudades y pueblos, la sede gremial ofrece un lugar de encuentro para otros miembros de tu profesión, donde puedes conocer a posibles mecenas, aliados o asalariados.</p><p>Los gremios suelen ejercer un enorme poder político. Si te acusan de un delito, tu gremio te apoyará si hay buenos argumentos a favor de tu inocencia o si el delito resulta justificable. También puedes acceder a figuras políticas poderosas a través del gremio si gozas de su favor. Estos contactos podrían exigir donaciones de dinero u objetos mágicos a las arcas gremiales.</p><p>Debes pagar al gremio una cuota mensual de 5 po. Si dejas de pagar, tendrás que abonar las cuotas atrasadas para seguir gozando de su favor.</p>"
+    },
+    "pbsoInsigniaOfRa": {
+      "name": "Insignia de rango"
+    },
+    "pbsoMilitaryRank": {
+      "name": "Rango militar",
+      "description": "<p>Posees un rango militar adquirido durante tu carrera como soldado. Los soldados leales a tu antigua organización militar siguen reconociendo tu autoridad e influencia y te muestran deferencia si tienen un rango inferior. Puedes invocar tu rango para influir en otros soldados y requisar equipo sencillo o caballos para usarlos temporalmente. También sueles poder acceder a campamentos y fortalezas militares aliados donde se reconozca tu rango.</p>"
+    },
+    "pbsoPocketChange": {
+      "name": "Dinero suelto"
+    },
+    "pbsoPositionOfPr": {
+      "name": "Posición de privilegio",
+      "description": "<p>Gracias a tu noble cuna, la gente tiende a pensar lo mejor de ti. Eres bienvenido en la alta sociedad y se da por hecho que tienes derecho a estar donde te encuentres. La gente común se esfuerza por complacerte y evitar tu desagrado, y las demás personas de noble cuna te tratan como a un miembro de su mismo círculo social. Si lo necesitas, puedes conseguir una audiencia con un noble local.</p>"
+    },
+    "pbsoQuill0000000": {
+      "name": "Pluma de escribir"
+    },
+    "pbsoResearcher00": {
+      "name": "Investigador",
+      "description": "<p>Cuando intentas aprender o recordar un dato que desconoces, a menudo sabes dónde y de quién puedes obtenerlo. Normalmente, la información procede de una biblioteca, un scriptorium, una universidad o un sabio u otra persona o criatura erudita. Tu DM puede determinar que el conocimiento que buscas está oculto en un lugar casi inaccesible o que, sencillamente, no es posible encontrarlo. Desentrañar los secretos más profundos del multiverso puede requerir una aventura o incluso una campaña entera.</p>"
+    },
+    "pbsoRusticHospit": {
+      "name": "Hospitalidad rústica",
+      "description": "<p>Como procedes de la gente común, encajas fácilmente entre ella. Puedes encontrar un lugar donde esconderte, descansar o recuperarte entre otros plebeyos, salvo que hayas demostrado ser un peligro para ellos. Te protegerán de la ley o de cualquiera que te busque, aunque no arriesgarán la vida por ti.</p>"
+    },
+    "pbsoShipsPassage": {
+      "name": "Pasaje en barco",
+      "description": "<p>Cuando lo necesites, puedes conseguir pasaje gratuito en un velero para ti y tus compañeros de aventuras. Podría ser el barco en el que serviste u otro con el que mantengas buenas relaciones, quizá capitaneado por un antiguo compañero de tripulación. Como estás pidiendo un favor, no puedes garantizar que el horario o la ruta se ajusten a todas tus necesidades. Tu Dungeon Master determinará cuánto tardáis en llegar a vuestro destino. A cambio del pasaje gratuito, se espera que tú y tus compañeros ayudéis a la tripulación durante la travesía.</p>"
+    },
+    "pbsoToolsOfTheCo": {
+      "name": "Instrumentos para estafar",
+      "description": "<p>Instrumentos para estafar de tu elección: diez botellas con tapón llenas de líquido de colores, un juego de dados cargados, una baraja de cartas marcadas o un anillo de sello de un duque imaginario.</p>"
+    },
+    "pbsoWanderer0000": {
+      "name": "Viajero",
+      "description": "<p>Tienes una memoria excelente para los mapas y la geografía, y siempre puedes recordar la disposición general del terreno, los asentamientos y otros elementos de tu entorno. Además, cada día puedes encontrar comida y agua fresca para ti y hasta cinco personas más, siempre que la tierra ofrezca bayas, caza menor, agua y recursos similares.</p>"
+    },
+    "vpenjFjUyEBLLlUc": {
+      "name": "Amuleto de la suerte",
+      "description": "<p>Un amuleto de la suerte, como una pata de conejo o una pequeña piedra con un agujero en el centro; también puedes tirar para obtener una baratija aleatoria en la tabla Baratijas del capítulo 5 del Manual del Jugador.</p>"
+    },
+    "pbsoCharlatan000": {
+      "name": "Charlatán",
+      "description": "<p>Siempre has tenido don de gentes. Sabes qué mueve a los demás, puedes descubrir sus deseos más profundos tras unos minutos de conversación y, con unas pocas preguntas dirigidas, leerlos como si fueran libros infantiles. Es un talento útil que estás más que dispuesto a aprovechar en tu beneficio.</p><p>Sabes lo que quiere la gente y se lo proporcionas; o, más bien, prometes hacerlo. El sentido común debería alejar a cualquiera de las cosas que parecen demasiado buenas para ser ciertas, pero parece escasear cuando tú estás cerca. Esa botella de líquido rosado curará sin duda esa erupción tan poco estética; este ungüento, que no es más que un poco de grasa con una pizca de polvo de plata, puede devolver la juventud y el vigor; y en la ciudad hay un puente que, casualmente, está en venta. Estas maravillas parecen inverosímiles, pero tú consigues que suenen auténticas.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[skill=deception], &amp;Reference[skill=slt]</p><p><strong>Competencias con herramientas:</strong> Útiles de disfraz, útiles de falsificación</p><p><strong>Equipo:</strong> Un conjunto de ropa de calidad, útiles de disfraz, instrumentos para estafar de tu elección (diez botellas con tapón llenas de líquido de colores, un juego de dados cargados, una baraja de cartas marcadas o un anillo de sello de un duque imaginario) y una bolsa con 15 po.</p><p><strong>Rasgo: </strong>@UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoFalseIdentit]</p><hr /><p><strong>Estafas favoritas</strong></p><p>Todo charlatán tiene una estratagema que prefiere a las demás. Elige una estafa favorita o tira en la tabla siguiente.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoFavoriteSche]</p><hr /><h3>Características recomendadas</h3><p>Los charlatanes son personajes pintorescos que esconden su verdadera personalidad tras las máscaras que construyen. Reflejan lo que la gente quiere ver, aquello en lo que quiere creer y su forma de entender el mundo. Sin embargo, a veces su verdadero yo se ve atormentado por una conciencia intranquila, un viejo enemigo o una profunda desconfianza hacia los demás.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCharltrait00] @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCharlideal00] @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCharlbond000] @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCharlflaw000]</p><p></p>",
+      "advancement": {
+        "Y9nmlw52jGeqRmUC": {
+          "name": "Equipo"
+        },
+        "3BCOUeLRiJCH0X46": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoCriminal0000": {
+      "name": "Criminal",
+      "description": "<p>Eres un criminal experimentado con un largo historial de infracciones de la ley. Has pasado mucho tiempo entre otros delincuentes y aún conservas contactos en los bajos fondos. Conoces mucho mejor que la mayoría el mundo de asesinatos, robos y violencia que impregna las entrañas de la civilización, y has sobrevivido hasta ahora desafiando las normas y leyes de la sociedad.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[deception], &amp;Reference[stealth]</p><p><strong>Competencias con herramientas:</strong> Un tipo de juego, herramientas de ladrón</p><p><strong>Equipo:</strong> Una palanqueta, un conjunto de ropa común oscura con capucha y una bolsa de cinturón con 15 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoCriminalCont]</p><hr /><p><strong>Especialidad criminal</strong></p><p>Hay muchas clases de criminales y, dentro de un gremio de ladrones u otra organización delictiva similar, sus miembros tienen especialidades concretas. Incluso quienes actúan al margen de estas organizaciones prefieren claramente ciertos delitos a otros. Elige el papel que desempeñabas en tu vida criminal o tira en la tabla siguiente.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCriminalSpec]</p><hr /><h3>Características recomendadas</h3><p>Los criminales pueden parecer villanos a primera vista, y muchos lo son hasta la médula. Pero algunos poseen numerosos rasgos entrañables, aunque no basten para redimirlos. Puede que haya honor entre ladrones, pero los criminales rara vez muestran respeto por la ley o la autoridad.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCrimtrait000]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCrimideal000]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCrimbond0000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoCrimflaw0000]{Defecto}</p>",
+      "advancement": {
+        "SwmDK4IG2tZMoaM9": {
+          "name": "Equipo"
+        },
+        "E6wtk3CrWKNWMP6a": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoEntertainer0": {
+      "name": "Artista",
+      "description": "<p>Te creces ante el público. Sabes cautivarlo, entretenerlo e incluso inspirarlo. Tus versos pueden conmover a quienes te escuchan y despertar tristeza o alegría, risa o ira. Tu música levanta sus ánimos o expresa su dolor. Tus pasos de baile fascinan y tu humor llega al alma. Sean cuales sean tus técnicas, el arte es tu vida.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[acrobatics], &amp;Reference[performance]</p><p><strong>Competencias con herramientas:</strong> Útiles de disfraz, un tipo de instrumento musical</p><p><strong>Equipo:</strong> Un instrumento musical de tu elección, un recuerdo de un admirador (una carta de amor, un mechón de pelo o una baratija), un disfraz y una bolsa con 15 po</p><p><strong>Rasgo: </strong>@UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoByPopularDem]</p><hr /><p><strong>Números artísticos</strong></p><p>Un buen artista es versátil y anima cada actuación con una variedad de números. Elige entre uno y tres números o tira en la tabla siguiente para definir tus especialidades como artista.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoEntroutines0]{Números artísticos}</p><hr /><h3>Características recomendadas</h3><p>Los artistas de éxito deben ser capaces de captar y mantener la atención del público, por lo que suelen tener personalidades extravagantes o enérgicas. Tienden al romanticismo y a menudo se aferran a ideales elevados sobre la práctica del arte y la apreciación de la belleza.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoEnttrat00000]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoEntideal0000]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoEntbond00000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoEntflaw00000]{Defecto}</p>",
+      "advancement": {
+        "QJvZJRXhmMgx4tHs": {
+          "name": "Equipo"
+        },
+        "J189tpwbX07He2QI": {
+          "name": "Un instrumento musical"
+        },
+        "9MRpbbTjfjbcTGTZ": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoFolkHero0000": {
+      "name": "Héroe del pueblo",
+      "description": "<p>Procedes de un estrato social humilde, pero estás destinado a mucho más. Los habitantes de tu pueblo natal ya te consideran su campeón, y tu destino te llama a enfrentarte a los tiranos y monstruos que amenazan a la gente común en todas partes.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[skill=ani], &amp;Reference[survival]</p><p><strong>Competencias con herramientas:</strong> Un tipo de herramientas de artesano, vehículos terrestres</p><p><strong>Equipo:</strong> Un juego de herramientas de artesano de tu elección, una pala, una olla de hierro, un conjunto de ropa común y una bolsa con 10 po.</p><p><strong>Rasgo: </strong>@UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoRusticHospit]</p><hr /><p><strong>Acontecimiento decisivo</strong></p><p>Antes ejercías un oficio sencillo entre el campesinado: quizá agricultor, minero, sirviente, pastor, leñador o sepulturero. Pero ocurrió algo que te llevó por otro camino y te señaló para grandes hazañas. Elige o determina al azar un acontecimiento decisivo que te convirtió en un héroe del pueblo.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoDefiningEven]</p><hr /><h3>Características recomendadas</h3><p>Un héroe del pueblo es una persona del común, para bien o para mal. La mayoría considera sus orígenes humildes una virtud, no una carencia, y sigue concediendo gran importancia a su comunidad de origen.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoFolktrait000]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoFolkideal000]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoFolkbond0000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoFolkflaw0000]{Defecto}</p>",
+      "advancement": {
+        "YEQzHOD6VoyGy3Qo": {
+          "name": "Equipo"
+        },
+        "lTJA5982bKtiVvUG": {
+          "name": "Un juego de herramientas de artesano"
+        },
+        "IGvcezO3kwEvATZt": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoGuildArtisan": {
+      "name": "Artesano gremial",
+      "description": "<p>Eres miembro de un gremio de artesanos, experto en un oficio y estrechamente vinculado a otros artesanos. Ocupas una posición consolidada en el mundo mercantil, y tu talento y riqueza te han liberado de las limitaciones del orden social feudal. Aprendiste tu oficio como aprendiz de un maestro artesano, bajo el patrocinio del gremio, hasta convertirte en maestro por derecho propio.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[insight], &amp;Reference[persuasion]</p><p><strong>Competencias con herramientas:</strong> Un tipo de herramientas de artesano</p><p><strong>Idiomas:</strong> Uno de tu elección</p><p><strong>Equipo:</strong> Un juego de herramientas de artesano de tu elección, una carta de presentación de tu gremio, un conjunto de ropa de viajero y una bolsa con 15 po</p><p><strong>Rasgo: </strong>@UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoGuildMembers]</p><hr /><p><strong>Actividad del gremio</strong></p><p>Los gremios suelen encontrarse en ciudades lo bastante grandes como para sostener a varios artesanos del mismo oficio. Sin embargo, el tuyo podría ser una red informal de artesanos que trabajan en distintas aldeas de un reino más extenso. Colabora con tu DM para determinar la naturaleza de tu gremio. Puedes elegir su actividad en la tabla Actividad del gremio o determinarla al azar.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoGuildBusines]{Actividad del gremio}</p><hr /><h3>Características recomendadas</h3><p>Los artesanos gremiales son personas de lo más corrientes, hasta que dejan sus herramientas y emprenden una vida de aventuras. Comprenden el valor del trabajo duro y la importancia de la comunidad, pero son vulnerables a la avaricia y la codicia.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoGuildtrait00]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoGuildideal00]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoGuildbond000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoGuildflaw000]{Defecto}</p>",
+      "advancement": {
+        "9fCR997N6PbOjBB0": {
+          "name": "Un juego de herramientas de artesano"
+        },
+        "B5kPh2DP4ThrRGov": {
+          "name": "Equipo"
+        },
+        "WZtC10pYWfReFGgM": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoHermit000000": {
+      "name": "Ermitaño",
+      "description": "<p>Viviste apartado del mundo durante una etapa formativa de tu vida, ya fuera en una comunidad aislada, como un monasterio, o completamente solo. Lejos del bullicio de la sociedad, encontraste tranquilidad, soledad y quizá algunas de las respuestas que buscabas.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[medicine], &amp;Reference[religion]</p><p><strong>Competencias con herramientas:</strong> Útiles de herborista</p><p><strong>Idiomas:</strong> Uno de tu elección</p><p><strong>Equipo:</strong> Un estuche para pergaminos repleto de notas de tus estudios u oraciones, una manta de invierno, un conjunto de ropa común, útiles de herborista y 5 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoDiscovery000]</p><hr /><p><strong>Vida de aislamiento</strong></p><p>¿Por qué te aislaste y qué cambió para que pudieras poner fin a tu soledad? Puedes colaborar con tu DM para determinar las circunstancias exactas de tu retiro, o elegir o tirar en la tabla siguiente para averiguar su motivo.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoLifeOfSeclus]</p><hr /><h3>Características recomendadas</h3><p>Algunos ermitaños se adaptan bien a la vida apartada, mientras que otros la soportan con dificultad y anhelan compañía. Tanto si abrazan la soledad como si desean escapar de ella, la vida solitaria moldea sus actitudes e ideales.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoHermittrait0]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoHermitideal0]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoHermitbond00]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoHermitflaw00]{Defecto}</p>",
+      "advancement": {
+        "3f3JeN8lDQnk7QNy": {
+          "name": "Equipo"
+        },
+        "XZHU8weupU2VkwPu": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoNoble0000000": {
+      "name": "Noble",
+      "description": "<p>Comprendes la riqueza, el poder y el privilegio. Posees un título nobiliario, y tu familia tiene tierras, recauda impuestos y ejerce una importante influencia política. Podrías ser un aristócrata mimado que desconoce el trabajo y las incomodidades, un antiguo comerciante recién ascendido a la nobleza o un sinvergüenza desheredado con un desmesurado sentido de sus propios derechos. También podrías ser un terrateniente honrado y trabajador, profundamente preocupado por quienes viven y trabajan en tus tierras y muy consciente de tu responsabilidad hacia ellos.</p><p>Colabora con tu DM para elegir un título apropiado y determinar cuánta autoridad conlleva. Un título nobiliario no existe de forma aislada: está vinculado a toda una familia y, sea cual sea el tuyo, lo transmitirás a tus hijos. Además de determinar tu título, deberías describir junto al DM a tu familia y su influencia sobre ti.</p><p>¿Tu familia es antigua y está consolidada, o tu título se concedió hace poco? ¿Cuánta influencia ejerce y sobre qué territorio? ¿Qué reputación tiene entre los demás aristócratas de la región? ¿Cómo la ve la gente común?</p><p>¿Qué posición ocupas en la familia? ¿Eres el heredero de quien la encabeza? ¿Ya has heredado el título? ¿Cómo te sientes ante esa responsabilidad? ¿O estás tan lejos en la línea sucesoria que a nadie le importa lo que hagas, siempre que no avergüences a la familia? ¿Qué opina quien encabeza tu familia de tu carrera como aventurero? ¿Gozas del favor de los tuyos o te han dado la espalda?</p><p>¿Tiene tu familia un escudo de armas? ¿Alguna insignia que puedas llevar en un anillo de sello? ¿Unos colores que vistas siempre? ¿Un animal que consideréis símbolo de vuestro linaje o incluso miembro espiritual de la familia?</p><p>Estos detalles ayudan a integrar a tu familia y tu título en el mundo de la campaña.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[history], &amp;Reference[persuasion]</p><p><strong>Competencias con herramientas:</strong> Un tipo de juego</p><p><strong>Idiomas:</strong> Uno de tu elección</p><p><strong>Equipo:</strong> Un conjunto de ropa de calidad, un anillo de sello, un pergamino genealógico y un monedero con 25 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoPositionOfPr]{Posición de privilegio}</p><hr /><h3>Características recomendadas</h3><p>Los nobles nacen y se crían con un estilo de vida muy distinto del que conoce la mayoría, y su personalidad refleja esa educación. Un título nobiliario conlleva numerosos vínculos: responsabilidades hacia la familia, otros nobles, incluido el soberano, las personas a su cargo o incluso el propio título. Sin embargo, esas responsabilidades suelen ser un buen medio para debilitar a un noble.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoNobletrait00]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoNobleideal00]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoNoblebond000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoNobleflaw000]{Defecto}</p>",
+      "advancement": {
+        "nGIDg47x9LDzy1Yr": {
+          "name": "Equipo"
+        },
+        "yVtlm2OePcJmzlFc": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoOutlander000": {
+      "name": "Forastero",
+      "description": "<p>Creciste en tierras salvajes, lejos de las comodidades de las poblaciones y la tecnología. Has presenciado la migración de manadas más grandes que bosques, sobrevivido a condiciones meteorológicas más extremas de lo que cualquier habitante de ciudad podría imaginar y disfrutado de la soledad de ser la única criatura pensante en kilómetros a la redonda. Llevas la naturaleza salvaje en la sangre, tanto si eras nómada, explorador, ermitaño, cazador y recolector o incluso saqueador. Aunque no conozcas los detalles concretos del terreno, sabes desenvolverte en la naturaleza.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[athletics], &amp;Reference[survival]</p><p><strong>Competencias con herramientas:</strong> Un tipo de instrumento musical</p><p><strong>Idiomas:</strong> Uno de tu elección</p><p><strong>Equipo:</strong> Un bastón, una trampa de caza, un trofeo de un animal al que mataste, un conjunto de ropa de viajero y una bolsa con 10 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoWanderer0000]{Viajero}</p><hr /><p><strong>Origen</strong></p><p>Has visitado lugares extraños y visto cosas que otros ni siquiera pueden concebir. Piensa en algunas de las tierras lejanas que has recorrido y en cómo te marcaron. Puedes tirar en la tabla siguiente para determinar tu ocupación durante tu estancia en las tierras salvajes o elegir la que mejor encaje con tu personaje.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOrigin000000]{Origen}</p><hr /><h3>Características recomendadas</h3><p>A menudo considerados rudos y toscos, los forasteros sienten poco respeto por las formalidades de la vida urbana. Para la mayoría, sus vínculos más importantes son la tribu, el clan, la familia y el mundo natural del que forman parte.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlandertra]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlanderide]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlanderbon]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlanderfla]{Defecto}</p>",
+      "advancement": {
+        "PH7EuNmZNx19W72d": {
+          "name": "Equipo"
+        }
+      }
+    },
+    "pbsoSage00000000": {
+      "name": "Sabio",
+      "description": "<p>Pasaste años estudiando los saberes del multiverso. Escudriñaste manuscritos, estudiaste pergaminos y escuchaste a los mayores expertos en los asuntos que te interesan. Tus esfuerzos te han convertido en un maestro de tus campos de estudio.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[arcana], &amp;Reference[history]</p><p><strong>Idiomas:</strong> Dos de tu elección</p><p><strong>Equipo:</strong> Una botella de tinta negra, una pluma de escribir, un cuchillo pequeño, una carta de un colega fallecido que plantea una pregunta a la que aún no has podido responder, un conjunto de ropa común y una bolsa con 10 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoResearcher00]{Investigador}</p><hr /><p><strong>Especialidad</strong></p><p>Para determinar la naturaleza de tu formación académica, tira un d8 o elige una opción de la tabla siguiente.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSpecialty000]{Especialidad}</p><hr /><h3>Características recomendadas</h3><p>Los sabios se definen por sus amplios estudios, y sus características reflejan esa vida de aprendizaje. Dedicados a la erudición, valoran enormemente el conocimiento: a veces por sí mismo y otras como medio para alcanzar otros ideales.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSagetrait000]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlanderide]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlanderbon]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoOutlanderfla]{Defecto}</p>",
+      "advancement": {
+        "h3dS9EOnxZsfMhVt": {
+          "name": "Equipo"
+        },
+        "ZKkYUUQoRJ4T090R": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoSailor000000": {
+      "name": "Marinero",
+      "description": "<p>Navegaste durante años en un barco de alta mar. En ese tiempo te enfrentaste a terribles tormentas, monstruos de las profundidades y quienes querían hundir tu nave en abismos sin fondo. Tu primer amor es la lejana línea del horizonte, pero ha llegado el momento de probar algo nuevo.</p><p>Habla con tu Dungeon Master sobre el barco en el que navegabas. ¿Era un mercante, un buque de guerra, una nave de exploración o un barco pirata? ¿Cuánta fama o mala reputación tiene? ¿Ha viajado mucho? ¿Sigue navegando o ha desaparecido y se lo da por perdido con toda su tripulación?</p><p>¿Qué función desempeñabas a bordo: contramaestre, capitán, navegante, cocinero u otra? ¿Quiénes eran el capitán y el primer oficial? ¿Dejaste el barco en buenos términos con tus compañeros o huyendo?</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[athletics], &amp;Reference[perception]</p><p><strong>Competencias con herramientas:</strong> Herramientas de navegante, vehículos acuáticos</p><p><strong>Equipo:</strong> Una cabilla (garrote), 50 pies de cuerda de seda, un amuleto de la suerte, como una pata de conejo o una pequeña piedra con un agujero en el centro (también puedes tirar para obtener una baratija aleatoria en la tabla Baratijas del capítulo 5 del Manual del Jugador), un conjunto de ropa común y una bolsa con 10 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoShipsPassage]{Pasaje en barco}</p><hr /><h3>Características recomendadas</h3><p>Los marineros pueden ser gente ruda, pero las responsabilidades de la vida a bordo suelen hacerlos también fiables. La vida en un barco moldea su visión del mundo y da forma a sus vínculos más importantes.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSailtrait000]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSailideal000]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSailbond0000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSailflaw0000]{Defecto}</p>",
+      "advancement": {
+        "fYy4km9InFaKsslp": {
+          "name": "Equipo"
+        },
+        "8bf2uelWaLu06W3b": {
+          "name": "Rasgo"
+        }
+      }
+    },
+    "pbsoSoldier00000": {
+      "name": "Soldado",
+      "description": "<p>La guerra ha sido tu vida desde que alcanzas a recordar. Te entrenaste en tu juventud, estudiaste el uso de armas y armaduras y aprendiste técnicas básicas de supervivencia, entre ellas cómo mantenerte con vida en el campo de batalla. Quizá formaras parte de un ejército nacional permanente o una compañía de mercenarios, o fueras miembro de una milicia local que destacó durante una guerra reciente.</p><p>Cuando elijas este trasfondo, colabora con tu DM para determinar a qué organización militar pertenecías, qué rango alcanzaste y qué experiencias viviste durante tu carrera militar. ¿Era un ejército permanente, una guardia urbana o una milicia de aldea? También podría haber sido el ejército privado de un noble o comerciante, o una compañía de mercenarios.</p><hr /><p><strong>Competencias en habilidades:</strong> &amp;Reference[athletics], &amp;Reference[intimidation]</p><p><strong>Competencias con herramientas:</strong> Un tipo de juego, vehículos terrestres</p><p><strong>Equipo:</strong> Una insignia de rango, un trofeo tomado de un enemigo caído (una daga, una hoja rota o un fragmento de estandarte), un juego de dados de hueso o una baraja de cartas, un conjunto de ropa común y una bolsa con 10 po</p><p><strong>Rasgo:</strong> @UUID[Compendium.dnd-phandelver-below.pbso-player-options.Item.pbsoMilitaryRank]{Rango militar}</p><hr /><p><strong>Especialidad</strong></p><p>Durante tu etapa como soldado desempeñabas una función concreta en tu unidad o ejército. Tira un d8 o elige una opción de la tabla siguiente para determinarla.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSpecialtySol]{Especialidad}</p><hr /><h3>Características recomendadas</h3><p>Los horrores de la guerra, unidos a la rígida disciplina del servicio militar, dejan su huella en todos los soldados: moldean sus ideales, crean vínculos fuertes y a menudo dejan cicatrices que los hacen vulnerables al miedo, la vergüenza y el odio.</p><p>@UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSoldtrait000]{Rasgo de personalidad} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSoldideal000]{Ideal} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSoldbond0000]{Vínculo} @UUID[Compendium.dnd-phandelver-below.pbso-player-tables.RollTable.pbsoSoldflaw0000]{Defecto}</p>",
+      "advancement": {
+        "f8TLswiZZwh7ygeT": {
+          "name": "Equipo"
+        },
+        "hyLjk3qjtB5yxkKp": {
+          "name": "Un juego"
+        },
+        "JTtdukkGd4wP9206": {
+          "name": "Rasgo"
+        }
+      }
+    }
+  }
 }

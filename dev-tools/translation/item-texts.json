@@ -1,0 +1,130 @@
+{
+  "0E565kQUBmndJ1a2": {
+    "description": "<p>Una hoja corta de metal unida a una pequeña empuñadura con guarda. La daga resulta eficaz como arma secundaria para guerreros curtidos o como hoja oculta para asesinos y ladrones.</p>"
+  },
+  "10ZP2Bu3vnCuYMIB": {
+    "description": "<p>@UUID[Compendium.dnd5e.items.Item.10ZP2Bu3vnCuYMIB]{Espada larga} decorada con filigranas relucientes.</p>"
+  },
+  "18fbyArtidKzON01": {
+    "description": "<p>Esta varita tiene 3 cargas. Mientras la sostienes, puedes gastar 1 carga como acción para lanzar el conjuro @Compendium[dnd5e.spells.ghXTfe7sgCbgf1Q8]{detectar magia} desde ella. La varita recupera 1d3 cargas gastadas cada día al amanecer.</p>",
+    "unidentifiedName": "Varita no identificada"
+  },
+  "1Lxk6kmoRhG8qQ0u": {
+    "description": "<p>Esta hacha a dos manos no es mágica, pero su mango es una @UUID[Compendium.dnd5e.items.Item.eQNXan0zp279jDtk]{vara inamovible}. El botón que controla la vara está al alcance de cualquiera que empuñe el hacha como arma.</p><p>Puedes usar una acción para pulsar el botón y hacer que el hacha quede mágicamente fija en su posición. Hasta que tú u otra criatura uséis una acción para volver a pulsar el botón, el hacha no se mueve, aunque desafíe la gravedad. Puede soportar hasta 8.000 libras de peso. Un peso mayor la desactiva y hace que caiga. Una criatura puede usar una acción para realizar una prueba de [[/check ability=str dc=30]]; si tiene éxito, desplaza el hacha fija hasta 10 pies.</p>"
+  },
+  "1taRIMF9w7jpnonN": {
+    "description": "<p>Esta varita tiene 7 cargas. Mientras la sostienes, puedes usar una acción para gastar 1 o más cargas y lanzar el conjuro @Compendium[dnd5e.spells.41JIhpDyM9Anm7cs]{proyectil mágico} desde ella. Con 1 carga lanzas la versión de nivel 1 del conjuro. Puedes aumentar el nivel del espacio de conjuro en uno por cada carga adicional que gastes.</p>\n<p>La varita recupera 1d6 + 1 cargas gastadas cada día al amanecer. Si gastas su última carga, tira un d20. Si obtienes un 1, la varita se deshace en cenizas y queda destruida.</p>"
+  },
+  "4lux04xCxe8XetEQ": {
+    "description": "<section class=\"secret\" id=\"secret-HkgaY7gUdgF78zNG\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +9 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 13 (2d6 + 6) de daño cortante más 10 (3d6) de daño psíquico. Este es un ataque con arma mágica. Si logra un impacto crítico contra un objetivo en un cuerpo astral (como con el conjuro @UUID[Compendium.dnd5e.spells.Item.TIoadMIsUKD4edXi]{proyección astral}), el githyanki puede cortar el cordón plateado que une al objetivo con su cuerpo material en lugar de infligir daño.</p></section><p>El caballero ataca con su mandoble de plata.</p>"
+  },
+  "50N8zf58FR4JWR05": {
+    "description": "<div><div><p><em>Objeto maravilloso (requiere sintonización)</em></p></div><div><p>Mientras llevas puesto este amuleto, permaneces oculto ante la magia de adivinación. No puedes ser objetivo de esa magia ni ser percibido a través de sensores mágicos de escudriñamiento.</p></div></div>",
+    "unidentifiedName": "Amuleto no identificado"
+  },
+  "53QBagoPYQWbWsLf": {
+    "description": "<p><em>(Requiere sintonización)</em></p><p>Obtienes un bonificador de +1 a la CA y a las tiradas de salvación mientras llevas este anillo. Su portador también recibe un bonificador de +4 a las tiradas de salvación o pruebas realizadas para evitar soltar cualquier objeto que sostenga en esa mano o que lo desarmen de él.</p>",
+    "effects": {
+      "q1wbe9ru251bfnhg": {
+        "name": "Anillo de protección"
+      }
+    }
+  },
+  "53uQGToM86zaSWf9": {
+    "description": "<p>Un pergamino de conjuro contiene las palabras de un único conjuro, escritas en una clave mística. Si el conjuro figura en la lista de conjuros de tu clase, puedes leer el pergamino y lanzarlo sin aportar componentes materiales. De lo contrario, el pergamino resulta ininteligible. Lanzar el conjuro leyendo el pergamino requiere su tiempo de lanzamiento habitual. Una vez lanzado, las palabras se desvanecen y el pergamino se deshace en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.</p>\n      <hr /><h3>Libertad de movimiento (nivel 4)</h3>\n      \n      <hr /><p>Tocas a una criatura voluntaria. Mientras dura el conjuro, el movimiento del objetivo no se ve afectado por el terreno difícil, y los conjuros y otros efectos mágicos no pueden reducir su velocidad ni imponerle los estados paralizado o apresado.</p><p>El objetivo también puede gastar 5 pies de movimiento para escapar automáticamente de ataduras no mágicas, como unos grilletes o una criatura que lo tenga agarrado. Por último, estar bajo el agua no impone penalizadores al movimiento ni a los ataques del objetivo.</p><hr />\n      <h3>Detalles del pergamino</h3><hr />\n<p>Si el conjuro figura en la lista de conjuros de tu clase pero es de un nivel superior al que puedes lanzar normalmente, debes superar una prueba de característica CD 14 usando tu aptitud mágica para lanzarlo con éxito. Si fallas, el conjuro desaparece del pergamino sin ningún otro efecto.</p>\n<p>El nivel del conjuro del pergamino determina su CD de salvación y su bonificador de ataque, así como la rareza del pergamino.</p>\n<p><strong>CD de salvación</strong>: 15<br /><strong>Bonificador de ataque</strong>: +7.</p>\n<p>Un conjuro de mago escrito en un pergamino puede copiarse igual que los conjuros de los libros de conjuros. Para copiarlo, quien lo copie debe superar una prueba de Inteligencia (Conocimiento Arcano) CD 14. Si tiene éxito, copia el conjuro correctamente. Tanto si tiene éxito como si falla, el pergamino queda destruido.</p>"
+  },
+  "7FLs8qIGdOFnz9oL": {
+    "description": "<p><em>Objeto maravilloso</em></p>\n<p>Encendida, esta linterna sorda arde durante 6 horas con 1 pinta de aceite y emite luz brillante en un radio de 30 pies y luz tenue otros 30 pies más allá. Las criaturas y los objetos invisibles se vuelven visibles mientras estén en la luz brillante de la linterna. Puedes usar una acción para bajar la cubierta, reduciendo la iluminación a luz tenue en un radio de 5 pies.</p>"
+  },
+  "7i4s9msZWpAw4Ynv": {
+    "description": "<p>Obtienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con esta arma mágica.</p>\n<p>Puedes usar una acción para cubrir la hoja de un espeso veneno negro. El veneno permanece durante 1 minuto o hasta que un ataque con esta arma impacte a una criatura. Esa criatura debe superar una tirada de salvación de Constitución CD 15 o recibir 2d10 de daño de veneno y quedar envenenada durante 1 minuto. La daga no puede volver a usarse de esta forma hasta el siguiente amanecer.</p>"
+  },
+  "7vqs5AqI4VCmuszx": {
+    "description": "<p><em>Objeto maravilloso</em></p>\n<p>Esta mochila tiene un compartimento central y dos bolsillos laterales, cada uno de ellos un espacio extradimensional. Cada bolsillo lateral puede contener hasta 20 libras de material, sin superar un volumen de 2 pies cúbicos. El gran compartimento central puede contener hasta 8 pies cúbicos u 80 libras de material. La mochila siempre pesa 5 libras, independientemente de su contenido.</p>\n<p>Introducir un objeto en el morral sigue las reglas habituales de interacción con objetos. Sacar un objeto del morral requiere una acción. Cuando introduces la mano para buscar un objeto concreto, este siempre se encuentra mágicamente en la parte superior.</p>\n<p>El morral tiene algunas limitaciones. Si se sobrecarga o si un objeto afilado lo perfora o desgarra, se rompe y queda destruido. Si se destruye, su contenido se pierde para siempre, aunque los artefactos siempre acaban reapareciendo en algún lugar. Si se vuelve del revés, su contenido se derrama sin sufrir daños, y hay que devolver el morral a su posición normal antes de usarlo de nuevo. Una criatura que necesite respirar puede sobrevivir en su interior hasta 10 minutos; después comienza a asfixiarse.</p>\n<p>Introducir el morral en un espacio extradimensional creado por una bolsa de contención, un agujero portátil u otro objeto similar destruye ambos objetos al instante y abre un portal al Plano Astral. El portal aparece donde se introdujo un objeto en el otro. Cualquier criatura situada a 10 pies o menos del portal es absorbida y depositada en un lugar aleatorio del Plano Astral. Después, el portal se cierra. Solo permite viajar en un sentido y no puede volver a abrirse.</p>",
+    "unidentifiedName": "Mochila sencilla",
+    "unidentifiedDescription": "<p><span style=\"font-family:Signika, sans-serif\">Esta mochila tiene un compartimento central y dos bolsillos laterales.</span></p>"
+  },
+  "9stfX2i2I1YPo8vx": {
+    "description": "<p><em>Objeto maravilloso, muy raro</em></p><p>Puedes usar una acción para colocar en el suelo esta esfera de granito de 1 pulgada de diámetro y pronunciar su palabra de mando, que significa «petrificación» en terrano. La esfera crece rápidamente hasta convertirse en una torre robusta que permanece hasta que uses una acción para tocarla y repetir la palabra de mando. Entonces vuelve a encogerse hasta convertirse en una esfera de granito de 1 pulgada de diámetro. La torre debe estar vacía para poder encogerse. Su superficie está erizada de protuberancias de barro que sobresalen y se retraen constantemente, como si respirase a través de una gruesa capa de lodo.</p><p>Cada criatura situada en el área donde aparece la torre debe realizar una tirada de salvación de Destreza CD 15; recibe 10d10 de daño contundente si falla, o la mitad si tiene éxito. En ambos casos, la criatura es empujada a un espacio desocupado fuera de la torre, pero junto a ella. Los objetos de esa área que nadie lleve puestos ni transporte reciben ese daño y son empujados automáticamente.</p><p>Cada vez que se expande, la torre de lodo resbaladizo se fusiona con cualquier piedra natural que toque, inclinándose y encajándose torpemente para entrar en contacto con tanta piedra natural como sea posible.</p><p>La torre mide 20 pies de lado y 30 pies de altura, tiene aspilleras en todos sus lados y está coronada por un parapeto almenado. Su interior se divide en dos plantas conectadas por una escalera de mano situada junto a una pared. La escalera termina en una trampilla que da acceso al tejado. Al activarse, la torre tiene una pequeña puerta en el lado que mira hacia ti. La puerta solo se abre cuando das la orden, que puedes pronunciar como acción adicional. Es inmune al conjuro de apertura y a la magia similar, como la de una campana de apertura.</p><p>Aunque parece de piedra, la torre está hecha de adamantina, y su magia impide que las criaturas la vuelquen. El tejado, la puerta y cada pared tienen 100 puntos de golpe, inmunidad al daño de armas no mágicas, salvo las armas de asedio, y resistencia a todos los demás daños. Mientras está fusionada con piedra natural, la torre es inmune a todo daño. Solo un conjuro de deseo puede repararla (este uso cuenta como reproducir un conjuro de nivel 8 o inferior). Cada lanzamiento de deseo hace que el tejado, la puerta o una pared recupere 50 puntos de golpe.</p>",
+    "unidentifiedName": "Baratija no identificada",
+    "unidentifiedDescription": "<p>Una esfera de granito de 1 pulgada de diámetro.</p>",
+    "activities": {
+      "dnd5eactivity000": {
+        "activation": {
+          "condition": "Palabra de mando."
+        }
+      }
+    }
+  },
+  "9uDSQNxwAIUO0WXe": {
+    "description": "<p><em>Objeto maravilloso, raro</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Cambias el tiempo de lanzamiento del conjuro a 1 acción adicional para este lanzamiento.</p>",
+    "activities": {
+      "dnd5eactivity000": {
+        "activation": {
+          "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+        }
+      }
+    }
+  },
+  "9v0TPDXNa9S7aNB4": {
+    "description": "<p><em>Objeto maravilloso</em></p>\n<p>Eres inmune a contraer cualquier enfermedad mientras lleves este colgante. Si ya padeces una enfermedad, sus efectos quedan suprimidos mientras lo lleves.</p>",
+    "unidentifiedName": "Colgante no identificado",
+    "effects": {
+      "TVtmX2uxGh2iP7Fn": {
+        "name": "Periapto de salud"
+      }
+    }
+  },
+  "EwL5Te2JYM7BDl7U": {
+    "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance.</p>"
+  },
+  "HLEhnzLbpRbYdAHo": {
+    "description": "<p><em>Objeto maravilloso</em></p>\n<p>Esta esmeralda contiene una mota de energía elemental. Cuando usas una acción para romper la gema, se invoca un @Compendium[dnd5e.monsters.namJz755U1EhvEJa]{elemental de agua} como si hubieras lanzado el conjuro @Compendium[dnd5e.spells.1LkZvINag7KqBmDR]{conjurar elemental}, y la gema pierde su magia.</p>"
+  },
+  "IcyuUi6D65nMQUXJ": {
+    "description": "<p>La cota de malla está formada por anillas metálicas entrelazadas e incluye una capa de tela acolchada que se lleva debajo para evitar rozaduras y amortiguar los golpes. La armadura incluye guanteletes.</p>"
+  },
+  "IoJIJdOLKSpminMe": {
+    "description": "<p>El hierro, uno de los materiales más usados en metalurgia, se aprecia por su relativa abundancia y facilidad de obtención. En la superficie puede encontrarse en meteoritos caídos y xenolitos, aunque es mucho más habitual extraerlo de minas subterráneas. Sin embargo, hay que cuidarlo para evitar que el óxido lo deteriore.</p>"
+  },
+  "J45ebuzqkXb5Oqmv": {
+    "description": "<section class=\"secret\" id=\"secret-Q26D5eHK5Wr390yw\"><p><span style=\"font-family:Roboto, Helvetica, sans-serif\">Obtienes un bonificador de +1 a la CA mientras llevas esta armadura.</span></p><p><span style=\"font-family:Roboto, Helvetica, sans-serif\">Esta coraza incorpora un motivo de dragón de oro en su diseño. Creada para Tergon, un héroe humano del antiguo Neverwinter, concede a su portador ventaja en las tiradas de salvación contra las armas de aliento de los dragones.</span></p></section><p>Esta armadura consta de una pieza de metal ajustada al torso que se lleva con cuero flexible. Aunque deja los brazos y las piernas relativamente desprotegidos, protege bien los órganos vitales sin entorpecer demasiado al portador.</p>",
+    "effects": {
+      "OgubIc0XF1U3cduP": {
+        "name": "Mejora de armadura de Guardia del Dragón",
+        "description": "<p>Obtienes un bonificador de +1 a la CA mientras llevas esta armadura.</p>"
+      }
+    }
+  },
+  "JFiSlgcm3uSSBM5t": {
+    "description": "<p><em>El líquido rojo de la poción brilla al agitarlo.</em></p>\n<p>Recuperas 10d4+20 puntos de golpe al beber esta poción.</p>"
+  },
+  "LEC1wkaAUnWzDPDD": {
+    "description": "<p><em>Jabalina del relámpago con punta de oro.</em></p><p>Esta jabalina es un arma mágica. Cuando la arrojas y pronuncias su palabra de mando, se transforma en un relámpago que forma una línea de 5 pies de ancho desde ti hasta un objetivo a 120 pies o menos. Cada criatura situada en la línea, salvo tú y el objetivo, debe realizar una tirada de salvación de Destreza CD 13; recibe 4d6 de daño de relámpago si falla, o la mitad si tiene éxito. Al alcanzar al objetivo, el relámpago vuelve a convertirse en jabalina. Haz un ataque con arma a distancia contra el objetivo. Si impactas, el objetivo recibe el daño de la jabalina más 4d6 de daño de relámpago.</p><p>Esta propiedad de la jabalina no puede volver a usarse hasta el siguiente amanecer. Entretanto, puede seguir utilizándose como arma mágica.</p>",
+    "descriptionChat": "<p>Cada criatura situada en la línea, salvo tú y el objetivo, debe realizar una tirada de salvación de Destreza CD 13; recibe 4d6 de daño de relámpago si falla, o la mitad si tiene éxito. Al alcanzar al objetivo, el relámpago vuelve a convertirse en jabalina. </p><p>Haz un ataque con arma a distancia contra el objetivo. Si impactas, el objetivo recibe el daño de la jabalina más 4d6 de daño de relámpago.</p>",
+    "unidentifiedName": "Jabalina no identificada",
+    "unidentifiedDescription": "<p>Esta lanza ligera y flexible está diseñada para arrojarla, pero resulta lo bastante versátil como para usarla también en combate cuerpo a cuerpo.</p>",
+    "activities": {
+      "dnd5eactivity000": {
+        "activation": {
+          "condition": "Palabra de mando."
+        }
+      },
+      "dnd5eactivity100": {
+        "activation": {
+          "condition": "Palabra de mando."
+        }
+      }
+    }
+  },
+  "M2DVjWcdPt2k8kMj": {
+    "description": "<p><em>Objeto maravilloso, poco común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p>",
+    "activities": {
+      "dnd5eactivity000": {
+        "activation": {
+          "condition": "Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental"
+        }
+      }
+    }
+  }
+}

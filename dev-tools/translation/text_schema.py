@@ -17,7 +17,7 @@ def technical(text):
     return sorted(re.sub(r'\s+#\s+[^\]]+(?=\]\]$)', '', x) for x in TECH.findall(text))
 def numbers(text):
     text = re.sub(r'<[^>]+>', ' ', TECH.sub(' ', text))
-    text = re.sub(r'\b\d{1,3}(?:[,.]\d{3})+\b', lambda m:re.sub('[,.]', '', m[0]), text)
+    text = re.sub(r'\b\d{1,3}(?:[,.]\d{3})+(?!\d)', lambda m:re.sub('[,.]', '', m[0]), text)
     return sorted(re.findall(r'\d+', text))
 def canonical_uuid(s):
     return re.sub(r'^Compendium\.[^.]+\.[^.]+\.', 'Compendium.*.', s)

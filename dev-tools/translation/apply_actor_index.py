@@ -15,18 +15,30 @@ HEADINGS={
     'Trouble in Phandalin':'Problemas en Phandalin','Welcome to Phandalin':'Bienvenido a Phandalin',
 }
 
+def biography_key(value):
+    # HTML void-element spelling is the sole extra equivalence permitted here.
+    return normalize(re.sub(r'<hr\s*/?>', '<hr>', value))
+
 def compose(raw,memory,names):
     match=re.search(r'<section class="bio">(.*?)</section>',raw,re.S)
+    if not match:
+        # Remorhaz has a portrait followed by an unwrapped, complete biography.
+        match=re.fullmatch(r'<figure\b[^>]*><img\b[^>]*></figure>(<p>.*)',raw,re.S)
     if not match:return None,'missing-bio-section'
-    candidates={adapt(match[1],value) for value in memory.get(normalize(match[1]),set())}-{None}
+    if match[1] in ('','<p></p>'):
+        candidates={match[1]}
+    else:
+        candidates={adapt(match[1],value) for value in memory.get(biography_key(match[1]),set())}-{None}
     if len(candidates)!=1:return None,'biography-not-reviewed-exactly'
     bio=candidates.pop()
     def outer(value):
         result=[]
         for part in re.split(r'(<[^>]+>|@UUID\[[^]]+\](?:\{[^}]+\})?)',value):
             if part.startswith(('<','@UUID[')):
-                # Index references are UUID-only. Labels would need separate review.
-                if part.startswith('@UUID[') and '{' in part:return None
+                if part.startswith('@UUID[') and '{' in part:
+                    key=part.split('{',1)[1][:-1]
+                    if key not in names:return None
+                    part=part.split('{',1)[0]+'{'+names[key]+'}'
                 result.append(part);continue
             clean=part.strip()
             if not clean:result.append(part);continue
@@ -55,7 +67,7 @@ def main():
                 if es is None or not proof:continue
                 if proof['sourceSha256']!=sha256(en.encode()).hexdigest() or proof['translationSha256']!=sha256(es.encode()).hexdigest():
                     raise ValueError('Stale biography evidence: '+address)
-                memory[normalize(en)].add(es)
+                memory[biography_key(en)].add(es)
     s=load(SOURCE/'dnd-phandelver-below.pbso-adventures.en.json');doc=s['documents'][0]
     target=ROOT/f'compendium/{s["collection"]}.json';payload=load(target);patch=payload['entries'][doc['_id']]
     names={**labels(),**HEADINGS};pending=[];count=0

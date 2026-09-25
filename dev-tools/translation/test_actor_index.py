@@ -1,5 +1,5 @@
 import unittest
-from apply_actor_index import compose
+from apply_actor_index import compose, biography_key
 from text_schema import normalize
 
 class ActorIndexTests(unittest.TestCase):
@@ -22,6 +22,23 @@ class ActorIndexTests(unittest.TestCase):
         memory={normalize('<p>Scout</p>'):{'<p>Explorador</p>'}}
         self.assertIsNone(compose(source,memory,{})[0])
         memory[normalize('<p>Scout</p>')].add('<p>Exploradora</p>')
-        self.assertIsNone(compose(source,memory,{})[0])
+        self.assertIsNone(compose('<section class="bio"><p>Scout</p></section>',memory,{})[0])
+
+    def test_void_element_spelling_and_reviewed_label(self):
+        source='<h2>@UUID[Actor.one]{Scout}</h2><section class="bio"><p>Scout.</p><hr><p>Loyal.</p></section>'
+        memory={biography_key('<p>Scout.</p><hr /><p>Loyal.</p>'):{'<p>Explorador.</p><hr /><p>Leal.</p>'}}
+        result,reason=compose(source,memory,{'Scout':'Explorador'})
+        self.assertIsNone(reason)
+        self.assertIn('@UUID[Actor.one]{Explorador}',result)
+        self.assertIn('<p>Leal.</p>',result)
+        self.assertIsNone(compose(source.replace('<hr>','<hr class="important">'),memory,{'Scout':'Explorador'})[0])
+
+    def test_empty_and_unwrapped_biographies(self):
+        source='<section class="bio"></section><h2>References</h2>'
+        self.assertEqual(compose(source,{}, {'References':'Referencias'})[0],source.replace('References','Referencias'))
+        source='<figure><img src="portrait.webp"></figure><p>Scout.</p>'
+        memory={biography_key('<p>Scout.</p>'):{'<p>Explorador.</p>'}}
+        self.assertEqual(compose(source,memory,{})[0],source.replace('Scout.','Explorador.'))
+        self.assertIsNone(compose(source+'<p>Unreviewed.</p>',memory,{})[0])
 
 if __name__=='__main__':unittest.main()

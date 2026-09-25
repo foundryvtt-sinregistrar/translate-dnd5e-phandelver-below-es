@@ -6,7 +6,7 @@ Traducción al español para Foundry VTT del módulo oficial **Phandelver & Belo
 
 - Foundry VTT 13 o 14
 - Sistema dnd5e 5.3.1 o superior
-- Babele 2.7.5 o superior
+- Babele 2.9.1 o superior, con registro de convertidores compatible
 - Módulo oficial `dnd-phandelver-below` 3.1.0 o superior
 
 ## Instalación
@@ -21,7 +21,14 @@ También puedes descargar el ZIP de la [última versión](https://github.com/fou
 
 ## Estado
 
-La traducción está en desarrollo. Las **53 tablas de trasfondo** del compendio de opciones para jugadores están traducidas al español. El compendio de aventuras contiene una primera tanda de diarios traducidos; los demás compendios siguen pendientes.
+Revisión editorial completada: **165 objetos, 148 criaturas, 39 opciones de personaje, 53 tablas y Adventure**, incluidas sus **521 páginas con texto**. Se cubren los 10.855 campos de texto previstos en los originales actuales.
+
+La revisión del 25 de septiembre de 2026 comprobó la traducción y la importación
+completa en Foundry 14.368 / dnd5e 6.0.3, con la instalación local de Babele 2.9.1
+y aventura 3.1.0. Las auditorías no detectan cambios en mecánicas ni pérdidas
+de texto. Hay nueve referencias sin destino ya presentes en la aventura original.
+La prueba no acredita otras compilaciones de Babele ni una release publicada. Consulta el
+[informe de revisión](dev-tools/translation/INFORME-REVISION.md) en el repositorio.
 
 ## Desarrollo
 

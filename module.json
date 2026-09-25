@@ -5,7 +5,7 @@
   "version": "1.14.0",
   "compatibility": {
     "minimum": "13",
-    "verified": "14.363"
+    "verified": "14.368"
   },
   "languages": [
     {
@@ -27,7 +27,7 @@
         "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
         "compatibility": {
           "minimum": "5.3.1",
-          "verified": "5.3.3"
+          "verified": "6.0.3"
         }
       }
     ],
@@ -37,8 +37,8 @@
         "type": "module",
         "manifest": "https://gitlab.com/riccisi/foundryvtt-babele/raw/master/module/module.json",
         "compatibility": {
-          "minimum": "2.7.5",
-          "verified": "2.7.5"
+          "minimum": "2.9.1",
+          "verified": "2.9.1"
         }
       },
       {

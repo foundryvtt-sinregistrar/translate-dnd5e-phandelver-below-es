@@ -48,3 +48,12 @@ se mantienen sin cambios las condiciones de las recompensas y los encuentros.
 Los nombres Hendedora, Venomfang, ramitas marchitas y luceros del alba coinciden
 con los diccionarios del proyecto. Se corrigen también puertas sin cerrar con
 llave, tablones y el parapeto de la antigua guarnición. Total: 93/309 páginas.
+
+## Capítulo 4: 0094–0117
+
+Contrastadas las 24 páginas del capítulo y de la Cueva del Oleaje. Se restablecen
+unidades originales, la participación del 10 por ciento en la mina y las
+dimensiones de cavernas y pasadizos. Se corrige el tesoro de Nezznar: las
+15 monedas son de platino (`ppt`), no de plata (`pp`). Se precisa el motivo solar
+de Portadora de Luz y el electro martillado de la jarra, y se identifica como
+baldosa la ayuda visual del camino oculto. Total: 117/309 páginas.

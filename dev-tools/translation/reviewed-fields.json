@@ -57964,5 +57964,149 @@
     "sourceSha256": "8ce93f001a9642aa6c4d4e8f9c9ce8a65b2c535022736b83cb3eab1e7a13bf02",
     "translationSha256": "cfa3e540dbb0705d34ab77268653e9dc577f6ca0f44e704d2abe7e76606287cf",
     "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoChapter40000.pages.ze34VCdBfeeG4dJL.text",
+    "sourceSha256": "f7b5d1eb2b317b0381b0efd96ceb9e1b88958a4bc53a80107574a54a8eddfc08",
+    "translationSha256": "5aa415fc11954a1f011d631a180a95a35a8ba6a4b933888ed96d85ca6c4709b0",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoChapter40000.pages.7g2ZWQD6JkswodUi.text",
+    "sourceSha256": "824f4fb78189ecb799347170f83ba3f1f166dcdcc0880e3e5029d6b1d0cd2b84",
+    "translationSha256": "41cb9715d745fc04f1014e1f02c8e440a7145d5f146093ea930fd63667376b56",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoChapter40000.pages.UIjeMQdXILD0f1JD.text",
+    "sourceSha256": "11dcdd573a54b4f25ae25205b55ec0ac47880f0f58cd2beef435aee9f1304c76",
+    "translationSha256": "78310440c219de0f558c9801034c82cc8bab0ffd7d220a117df54909adf68357",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.m2AnHrxvpM0pUPpF.text",
+    "sourceSha256": "2a7ed782264dee867c37a77c1e68d3f116f830a686e9f37ecb83b85fa170352e",
+    "translationSha256": "1d64004a79afad18bd95ee6dd42157a5b5b63bf93ce92461a87da2627453529e",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.QZ6zoeAqr27Uhf3Y.text",
+    "sourceSha256": "34d09717ca68f57a8827fc4b0e964d40ad9567a08a2c3adc332c443f65d31a98",
+    "translationSha256": "752ac829388b7e6d7315cd0ea04ec196b8748c8604c965475a0c63e1db68dd53",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.vkS4WjbQwjTFKBoh.text",
+    "sourceSha256": "776384f09a9a9157f8c138c6a84c07a1836788952a3d3ec901b648d1b3b92d81",
+    "translationSha256": "38b917f5af4e08f59bbdc754b4481a5047c74aa3cbbdd567cb3433b65ea659c9",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.FK8GA83azlTNG5yV.text",
+    "sourceSha256": "270d23c20a97fdb037312d5b560fa4b6a520c72d495fd2495ed119e707be93c5",
+    "translationSha256": "b325509afdd10e2c00eefb8d176a449ab8788f71d68f35a481d7354ed5037bfe",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.PS7ZZ8FNPDqIKK1B.text",
+    "sourceSha256": "d627cef752abcf5ae7b9bb373c160ec4906fb07c7e17c10c7bcd6055a131fffd",
+    "translationSha256": "73b239c34849dd5358d476cbbb49eae61bda9c5cc5d792072431cbe8049758f8",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.MJKuV8qjk3VKCcKx.text",
+    "sourceSha256": "722efa95478afc4eb28c8cc311eb85a5e8e74b067d48c944147d542ac41c2406",
+    "translationSha256": "571bd34539f5ecdfafc7c65cb9b3c13b83611a4868b63b33d96a38ff6640b62a",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.MTHgYj51AVbqnvYj.text",
+    "sourceSha256": "e6b0c7ff7455ee3f0be05027af989623b08c44548198c2be79aac256ac38d0ec",
+    "translationSha256": "1ce47115b8cfdf95174101659951555684efa72ac78f4ee7b26427b23dd18297",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.7myuHVoSyc4Ak90h.text",
+    "sourceSha256": "4a603e0a7ca7e45c452ffe42ec5942d06e874d4b8c5ef5a863b7113c286757d6",
+    "translationSha256": "8ed812f9a4a27fa2172b256da1ccf18e680f2d9da6eea22ade568041d90a005b",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.jb8k7zK2zc91RDLL.text",
+    "sourceSha256": "73e4b2d9e10538ba9502bc6c1f9926328cea7c35227f2fb247d5479b35f38c66",
+    "translationSha256": "9c437d66919c772db5a2c3e56f2e26010cf49ed5f0e4d92553d583404d7c6b06",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.yeW0LY6VQg8oYfJm.text",
+    "sourceSha256": "9dfec77aab07feb0ccbfc28ba6bd680fec2dc83601531dcec5e54a25d94b219b",
+    "translationSha256": "0062e7a4021c23955a33231bf06856e3e25baa3054075c2f46875a5c51511231",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.tSgLovz8boD8RgYp.text",
+    "sourceSha256": "b77455b8afe7a94e0210c29ae217cd1f3e9d2dbdb4aeffa2de8571e6ea91964e",
+    "translationSha256": "494726abecd47be6d4560ce19422991c34e2ac6760683a67c40cbf91c52daa89",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.5GzOm0UpeMILTBbN.text",
+    "sourceSha256": "be0f6446bda607febb5ccfd1225077b47520e7886b30986079f0090bdb123abb",
+    "translationSha256": "51b1a187c4e41484f7f09612db4ca047c93a724c6dcb33a14e9a4348c6b59dbe",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.6ZYcuLN7DNu1MkO0.text",
+    "sourceSha256": "2daff4836c3c5adf6380a27cb6751d518627989f90920801e90cf6cec05780cc",
+    "translationSha256": "e983d60a5f4908f2f9acf0e4661a7963ea4373d98742869e77b9d8013def4ec8",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.s0GHlZ8kja9Z1Z2y.text",
+    "sourceSha256": "aa1e086491dd7e9c09ceed3d1ca0753c3c6bcd7c1400a81349e576ddf3eb7929",
+    "translationSha256": "3378e50fc9751aaf56428c12241e0d8417d18264dc1564dbcde649305cf58d54",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.3O9PWNjTxkdHk8bd.text",
+    "sourceSha256": "c6b6233ea6ad396d7c27823960ce41c32edd76887cc7a12c05349063d4519fe5",
+    "translationSha256": "43524e96e0b19a4699bf53e5a2d0d5a77588821796dc197efd14f9a2c6cb4359",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.TENYExq2D5saTuet.text",
+    "sourceSha256": "2f251e701417b0c4aae41966752acb03c6f4b2461440c8293fb0144e7a8b20f1",
+    "translationSha256": "33f16fc3ae43157964b50fe9458b663d1b830e9c378b27778d90bf3e57867acb",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.8Bj7MPxoFccBLXIL.text",
+    "sourceSha256": "a2d017743db1539020a0010d46fd0e62b9c45ffa0fa5920a6fddad17683ffe40",
+    "translationSha256": "84a6fcb3e5b419e366ebe9519232af3b9bd0ee32ea0bce6e2c4fcb14b52f73bc",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.0MLdOosm5ja0pXkZ.text",
+    "sourceSha256": "8cf8dbba32e5564e704a289b2c83eda231ecdc530725c283b8b6d8ffcced2a00",
+    "translationSha256": "1215df0230c87de6f3356742af389022a65ab6e7a786b1466f5fcb01e773990f",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.ySART705xdEPMl8X.text",
+    "sourceSha256": "cd33144a050d54c749292b1863b3456c0eec249cdb6ab935004d581709f08f46",
+    "translationSha256": "1de0cdc91584c7b3df6dc68baab5a363f24114ccc9fe51229f9a7581acf44f86",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.tX49OpF3CSRmAAtB.text",
+    "sourceSha256": "74bcb1567b94a90bd7555e4d762d6a49a2e3e9e0e26888a8b6a7093a2daedf3d",
+    "translationSha256": "b2a392f12e11ad20e2561fa39c4c7b66ad1535862dca9832a5bbe639ff0b2cee",
+    "review": "legacy-editorial"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoWaveEchoCave.pages.MHO7M3O6bU8vCna1.text",
+    "sourceSha256": "a11364932f122a5aa657b11cfbcd0c87186e25e02d00e241a81fd3f0a73f16f7",
+    "translationSha256": "35d73daef42d2607a7f6e2a6523a00eaa9a0c7582d03a478924952e9809bc54f",
+    "review": "legacy-editorial"
   }
 ]

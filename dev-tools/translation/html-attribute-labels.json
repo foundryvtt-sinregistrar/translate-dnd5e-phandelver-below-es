@@ -9,5 +9,8 @@
   ["span", "aria-label", "Electrum", "Electro"],
   ["span", "aria-label", "Silver", "Plata"],
   ["span", "aria-label", "Copper", "Cobre"],
-  ["img", "alt", "The award distribution window", "Ventana de distribución de recompensas"]
+  ["img", "alt", "The award distribution window", "Ventana de distribución de recompensas"],
+  ["img", "alt", "Navigating the Journals with Links", "Navegación por los diarios mediante enlaces"],
+  ["img", "alt", "A demo of images being embedded.", "Ejemplo de imágenes incrustadas."],
+  ["img", "alt", "The buttons to press to create a Party Actor.", "Botones para crear un actor de grupo."]
 ]

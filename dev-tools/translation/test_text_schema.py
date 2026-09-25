@@ -2,6 +2,9 @@ import unittest
 from text_schema import numbers,adapt
 
 class NumberTests(unittest.TestCase):
+    def test_literal_brackets_are_not_an_executable_roll(self):
+        self.assertIsNotNone(adapt('Use ([[ and ]]) with [/award 1gp].', 'Usa ([[ y ]]) con [/award 1gp].'))
+
     def test_localized_roll_comment_without_spaces_preserves_formula(self):
         self.assertIsNotNone(adapt('[[/r 1d6#Salvageable shards]]','[[/r 1d6#Fragmentos aprovechables]]'))
         self.assertIsNone(adapt('[[/r 1d6#Salvageable shards]]','[[/r 1d8#Fragmentos aprovechables]]'))

@@ -5,6 +5,8 @@ import re
 from pathlib import Path
 import sys
 from html.parser import HTMLParser
+from text_schema import technical
+from check_reviewed import HUMAN_ATTRIBUTES
 
 ROOT = Path(__file__).resolve().parents[2]
 DATA = ROOT / 'dev-tools/export/_data'
@@ -13,15 +15,15 @@ from validate_current_export import BASE, validate
 
 TOKEN = re.compile(r'@[A-Za-z]+\[[^\]]+\]|\[\[[\s\S]*?\]\]|&(?:amp;)?[Rr]eference\[[^\]]+\]')
 def tokens(text):
-    return Counter(re.sub(r'\s*#.*(?=\]\]$)', '', t) for t in TOKEN.findall(text))
+    return Counter(technical(text))
 def plain(text):
     return re.sub(r'<[^>]+>', ' ', TOKEN.sub(' ',text))
 def numbers(text, language):
     value = plain(text)
     # Normalize thousands separators without confusing decimal measures.
-    separator = ',' if language == 'en' else r'[ \u00a0\u202f]'
-    value = re.sub(r'(?<!\d)(\d{1,3})(?:'+separator+r'\d{3})+(?!\d)',
-                   lambda m: re.sub(r'[, \u00a0\u202f]', '', m[0]), value)
+    separator = ',' if language == 'en' else r'[. \u00a0\u202f]'
+    value = re.sub(r'(?<![\d.,])([1-9]\d{0,2})(?:'+separator+r'\d{3})+(?!\d)',
+                   lambda m: re.sub(r'[., \u00a0\u202f]', '', m[0]), value)
     if language == 'es':
         value = re.sub(r'(?<=\d),(?=\d)', '.', value)
     return Counter(re.findall(r'\d+(?:\.\d+)?', value))
@@ -35,7 +37,7 @@ class ProtectedHTML(HTMLParser):
     def handle_starttag(self, tag, attrs):
         for key, value in attrs:
             if key in {'href', 'src', 'id'} or key.startswith('data-'):
-                self.attributes[(tag, key, value)] += 1
+                self.attributes[(tag, key, HUMAN_ATTRIBUTES.get((tag,key,value),value))] += 1
 
 def protected_html(text):
     return Counter({repr(k):v for k,v in ProtectedHTML(text).attributes.items()})

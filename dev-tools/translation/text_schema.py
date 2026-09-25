@@ -15,7 +15,7 @@ UUID = re.compile(r'Compendium\.[^.\s\]]+\.[^.\s\]]+\.[^\]\s]+')
 TECH = re.compile(r'@[A-Za-z][A-Za-z0-9]*\[[^\]]+\]|\[\[[\s\S]*?\]\]|&(?:amp;)?[Rr]eference\[[^\]]+\]')
 def repair_known_markup(text):
     # Original Adventure purple-worm Bite has a closing brace instead of ].
-    return text.replace('&amp;Reference[total-cover}{total cover}', '&amp;Reference[total-cover]{total cover}')
+    return text.replace('&amp;Reference[total-cover}{total cover}', '&amp;Reference[total-cover]{total cover}').replace('([[ and ]])', '([[ y ]])')
 
 def technical(text):
     text = repair_known_markup(text)

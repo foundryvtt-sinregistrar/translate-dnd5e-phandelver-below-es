@@ -102,12 +102,12 @@
       }
     },
     "9v0TPDXNa9S7aNB4": {
-      "name": "Periáptero de salud",
+      "name": "Periapto de salud",
       "description": "<p><em>Objeto maravilloso</em></p>\n<p>Eres inmune a contraer cualquier enfermedad mientras lleves este colgante. Si ya padeces una enfermedad, sus efectos quedan suprimidos mientras lo lleves.</p>",
       "unidentifiedName": "Colgante no identificado",
       "effects": {
         "TVtmX2uxGh2iP7Fn": {
-          "name": "Periáptero de salud"
+          "name": "Periapto de salud"
         }
       }
     },
@@ -535,7 +535,7 @@
     },
     "pbsoJeweledGoldB": {
       "name": "Brazalete de oro enjoyado",
-      "description": "<p>Un brazalete de oro enjoyado encontrado entre los huesos de un sarcófago en la Guarida de los Redbrands de Phandalin.</p>"
+      "description": "<p>Un brazalete de oro enjoyado encontrado entre los huesos de un sarcófago en la Guarida de los Redbrand de Phandalin.</p>"
     },
     "pbsoJeweledSilve": {
       "name": "Peine de plata enjoyado",
@@ -766,7 +766,7 @@
     },
     "pbsoThelsPendant": {
       "name": "Colgante de madera tallada",
-      "description": "<p>Un colgante de madera tallada con forma de cabeza de unicornio, encontrado en un esqueleto en el fondo de la grieta de la Guarida de los Redbrands.</p>"
+      "description": "<p>Un colgante de madera tallada con forma de cabeza de unicornio, encontrado en un esqueleto en el fondo de la grieta de la Guarida de los Redbrand.</p>"
     },
     "pbsoTruthsoftheI": {
       "name": "Verdades de la mente introspectiva",
@@ -774,7 +774,7 @@
     },
     "pbsoUrmonsJourna": {
       "name": "Diario de Urmon",
-      "description": "<p>El diario de un aventurero llamado Urmon, encontrado en la Guarida de los Redbrands y escrito en enano. Contiene la siguiente información:</p><blockquote><p>Hace más de quinientos años, varios clanes de enanos y gnomos sellaron un acuerdo conocido como el Pacto de Phandelver, por el que compartirían una rica mina situada en una maravillosa caverna llamada Cueva del Oleaje. Además de su riqueza mineral, la mina albergaba un gran poder mágico. Lanzadores de conjuros humanos se aliaron con los enanos y los gnomos para canalizar y concentrar esa energía en una gran forja llamada Forja de Conjuros, donde podían fabricarse objetos mágicos. Fueron tiempos prósperos, también para la cercana localidad de Phandalin. Pero llegó el desastre cuando unos bandidos arrasaron el Norte y destruyeron cuanto encontraban a su paso.</p><p>Una poderosa fuerza de bandidos, reforzada por malvados magos mercenarios, atacó la Cueva del Oleaje para apoderarse de sus riquezas y tesoros mágicos. Los magos humanos lucharon junto a sus aliados enanos y gnomos para defender la Forja de Conjuros, y la batalla de magia que siguió destruyó gran parte de la caverna. Pocos sobrevivieron a los derrumbes y temblores, y la ubicación de la Cueva del Oleaje se perdió.</p></blockquote>"
+      "description": "<p>El diario de un aventurero llamado Urmon, encontrado en la Guarida de los Redbrand y escrito en enano. Contiene la siguiente información:</p><blockquote><p>Hace más de quinientos años, varios clanes de enanos y gnomos sellaron un acuerdo conocido como el Pacto de Phandelver, por el que compartirían una rica mina situada en una maravillosa caverna llamada Cueva del Oleaje. Además de su riqueza mineral, la mina albergaba un gran poder mágico. Lanzadores de conjuros humanos se aliaron con los enanos y los gnomos para canalizar y concentrar esa energía en una gran forja llamada Forja de Conjuros, donde podían fabricarse objetos mágicos. Fueron tiempos prósperos, también para la cercana localidad de Phandalin. Pero llegó el desastre cuando unos bandidos arrasaron el Norte y destruyeron cuanto encontraban a su paso.</p><p>Una poderosa fuerza de bandidos, reforzada por malvados magos mercenarios, atacó la Cueva del Oleaje para apoderarse de sus riquezas y tesoros mágicos. Los magos humanos lucharon junto a sus aliados enanos y gnomos para defender la Forja de Conjuros, y la batalla de magia que siguió destruyó gran parte de la caverna. Pocos sobrevivieron a los derrumbes y temblores, y la ubicación de la Cueva del Oleaje se perdió.</p></blockquote>"
     },
     "pbsoVialOfPerfum": {
       "name": "Vial de perfume",

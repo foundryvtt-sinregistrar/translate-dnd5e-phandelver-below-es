@@ -1,49 +1,166 @@
 {
-  "pbsoBlessingOfDu": {"description":"<p>Tu vista se vuelve lo bastante aguda como para descubrir secretos ocultos. Obtienes &amp;Reference[darkvision]. Si ya tenías visión en la oscuridad, puedes ver en color en la oscuridad.</p><p>Además, puedes usar una acción para obtener &amp;Reference[truesight] durante 1 minuto. Una vez obtenida la visión verdadera de esta forma, no puedes volver a hacerlo hasta terminar un descanso largo.</p>"},
-  "pbsoBoxOfSilverF": {"description":"<p>Una caja que contiene un juego de varios tenedores de plata de seis púas.</p>"},
-  "pbsoBrassDragonS": {"description":"<p>Una extraña placa romboidal de color marrón dorado. Cada una tiene aproximadamente la mitad del tamaño de una mano humana, es ligera y tan resistente como el hierro.</p>"},
-  "pbsoCapeOfEnlarg": {"description":"<p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.I8k8EFYg3y4FHCgH]{B2.}</strong></p><p>Antiguas runas están bordadas con hilo de plata a lo largo del dobladillo de esta capa de color púrpura grisáceo.</p><p>La capa tiene 3 cargas. Como acción adicional mientras la llevas puesta, puedes gastar 1 carga para agrandarte y obtener los siguientes beneficios:</p><ul><li><p>Tu tamaño aumenta una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para aumentar una categoría, adquieres el mayor tamaño posible dentro del espacio disponible.</p></li><li><p>Tienes ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza.</p></li><li><p>Cuando impactas con una tirada de ataque usando un arma o un ataque sin armas, puedes sumar tu bonificador por competencia al daño del ataque.</p></li></ul><p>Estos beneficios duran 10 minutos o hasta que uses otra acción adicional para ponerles fin. La capa recupera 1d3 cargas gastadas cada día al amanecer.</p>","unidentifiedName":"Capa con dobladillo de plata","unidentifiedDescription":"<p>Antiguas runas están bordadas con hilo de plata a lo largo del dobladillo de esta capa de color púrpura grisáceo.</p>","effects":{"MUvMvWwZNTd7Mjbz":{"name":"Capa de agrandamiento","description":"<ul><li><p>Tu tamaño aumenta una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para aumentar una categoría, adquieres el mayor tamaño posible dentro del espacio disponible.</p></li><li><p>Tienes ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza.</p></li><li><p>Cuando impactas con una tirada de ataque usando un arma o un ataque sin armas, puedes sumar tu bonificador por competencia al daño del ataque.</p></li></ul>"}}},
-  "pbsoCaskOfSalted": {"description":"<p>Un tonel de carne de cerdo en salazón de las provisiones que se transportan a Phandalin.</p>"},
-  "pbsoCeleritybrac": {"description":"<p><em>Objeto maravilloso, raro (requiere sintonización)</em></p><p>Este par de ligeros brazales de bronce está forrado con suave terciopelo púrpura y grabado con motivos en espiral.</p><p>Mientras llevas estos brazales, todas tus velocidades aumentan en 10 pies y tienes <strong>ventaja</strong> en las tiradas de salvación para evitar o poner fin a los estados &amp;Reference[paralyzed] o &amp;Reference[restrained] que te afecten.</p>","unidentifiedName":"Brazales de bronce","unidentifiedDescription":"<p>Este par de ligeros brazales de bronce está forrado con suave terciopelo púrpura y grabado con motivos en espiral.</p>"},
-  "pbsoCensercragma": {"description":"<p>Un hermoso incensario encontrado en el santuario goblin del Castillo Cragmaw.</p>"},
-  "pbsoChalicecragm": {"description":"<p>Un cáliz de factura magistral encontrado en el santuario goblin del Castillo Cragmaw.</p>"},
-  "pbsoCollapsableC": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.y37U98syx1IS7rV4]{G3.}</strong></p><p>Puede plegarse hasta quedar plana con 1 minuto de trabajo. Pesa 50 libras. Aunque gran parte de la jaula es de hierro, sus barras de refuerzo y bisagras son de mithral, y tiene púas orientadas hacia dentro. La jaula no tiene cerradura; los clientes pagaban un suplemento por cerraduras fabricadas en otro lugar.</p>"},
-  "pbsoCrystaldagge": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.26QfiOYclNf5AUna]{L4.}</strong></p>"},
-  "pbsoCrystalpitch": {"description":"<p>Frágil.</p>"},
-  "pbsoDiamond00000": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoIlvaashsAnim.JournalEntryPage.GlgP94R4ncHIWPlD]{A3.}</strong></p>"},
-  "pbsoDwarvenAleMu": {"description":"<p>Una jarra de cerveza enana hecha de electro martillado.</p>"},
-  "pbsoEmboldeningB": {"description":"<section class=\"secret\" id=\"secret-8hB0iy2aWhb2fnzL\"><p>Un personaje que beba una copa de brandy obtiene 1 &amp;Reference[temporary-hit-points], pero si bebe dos copas o más en 1 hora, tiene el estado &amp;Reference[condition=poisoned]{envenenado} durante 1 hora.</p></section><p>Un pequeño tonel lleno de un excepcional brandy enano. Contiene el equivalente a veinte copas.</p>"},
-  "pbsoEnergizedSha": {"description":"<p><em>Las agujas de cristal iridiscente que cubren la caverna chisporrotean con energía mágica.</em></p><p>Puede usarse como canalizador mágico.</p>"},
-  "pbsoFavricsAmeth": {"description":"<p>Una amatista brillante.</p>"},
-  "pbsoFineEmeraldP": {"description":"<p>Un collar de oro con un hermoso colgante de esmeralda.</p>"},
-  "pbsoFireballScro": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0 inline]</p>"},
-  "pbsoGarnet000000": {"description":"<p>Un hermoso granate.</p>"},
-  "pbsoGnawbleFeede": {"description":"<p><strong>Consulta @UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.Amm4kRqrWbHTf56Y#gnawbles]{Gnawbles (características de las grietas del Reino Lejano)} para obtener más información.</strong></p><p>Esta esfera peluda tiene el tamaño de la palma de una mano y una boca con dientes afilados.</p>"},
-  "pbsoGobletMoonst": {"description":"<p>Una copa de plata engastada con piedras lunares, encontrada en la Torre Vieja de las Ruinas de Thundertree.</p>"},
-  "pbsoGoldenEarrin": {"description":"<p>Un sencillo pendiente de oro engastado con un diminuto rubí.</p>"},
-  "pbsoGoldenElfSta": {"description":"<section id=\"secret-WmW0xwczQtZl3QaN\" class=\"secret\"><p>Un conjuro de detectar magia revela que la estatuilla está imbuida de magia de adivinación. Una criatura que no sea malvada puede sostenerla, hacerle una pregunta y recibir una respuesta telepática, como si hubiera lanzado augurio. Una vez que una criatura haya formulado su pregunta y recibido respuesta, nunca podrá volver a activar la estatuilla.</p></section><p>Una estatuilla de oro de un elfo, envuelta en una tela carmesí.</p>","unidentifiedName":"Estatuilla de un elfo","unidentifiedDescription":"<p>Una estatuilla de oro de un elfo, envuelta en una tela carmesí.</p>"},
-  "pbsoHeightenedMi": {"description":"<p><em>Objeto maravilloso, raro</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Elige una criatura afectada por el conjuro. Esa criatura tiene <strong>desventaja</strong> en la primera tirada de salvación que realice contra él.</p>"},
-  "pbsoHew000000000": {"description":"<p><em>Ya sea mediante una bendición demoníaca, un don celestial, un experimento demente o una hábil labor artesanal, esta arma ha sido mejorada para que su portador derrame más sangre.</em></p><p>Obtienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica.</p><p>Unas runas en la cabeza del hacha deletrean «Hendedora» en enano, y su óxido resulta engañoso. Hendedora inflige el daño máximo cuando su portador ataca a una criatura de tipo Planta o a un objeto de madera. Su creador la usaba para protegerse en el bosque mientras cortaba leña.</p>"},
-  "pbsoHoldPersonSc": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4 inline]</p>"},
-  "pbsoInvulerabili": {"description":"<p>Durante 1 minuto después de beber esta poción, tienes &amp;Reference[damageresistance]{resistencia} a todo daño. Su líquido almibarado parece hierro licuado.</p>","unidentifiedName":"Poción almibarada","unidentifiedDescription":"<p><span style=\"font-family:Signika, sans-serif\">El líquido almibarado de la poción parece hierro licuado.</span></p>"},
-  "pbsoIronquillsJo": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh7tunnelsde.JournalEntryPage.doMvucAxNgnTscja]{J2.}</strong>@Embed[JournalEntry.pbsoCh7art000000.JournalEntryPage.epqj8hlUZJ3wuFKg]{ }</p><blockquote><p>El ornamentado exlibris lleva el nombre «Thorgran Ironquill, historiador». Solo se conservan las primeras páginas del diario. Recogen rumores sobre un aumento de la actividad de los azotamentes bajo las Montañas de la Espada. Su autor planea espiar una fortaleza de azotamentes llamada Illithinoch, situada a gran profundidad bajo tierra. Espera que esta información le permita advertir a los enclaves enanos cercanos, incluido el templo de Talhundereth.</p></blockquote><p>Aunque el ornamentado exlibris de plata ya es valioso por sí solo, los restos del diario pueden interesar mucho a ciertos eruditos.</p>"},
-  "pbsoJadeStatuett": {"description":"<p>Una estatuilla de jade de una rana con diminutas esferas de oro por ojos.</p>"},
-  "pbsoJeweledGoldB": {"description":"<p>Un brazalete de oro enjoyado encontrado entre los huesos de un sarcófago en la Guarida de los Redbrands de Phandalin.</p>"},
-  "pbsoJeweledSilve": {"description":"<p>Un peine de plata enjoyado entregado por la @UUID[JournalEntry.pbsoPhandalinVil.JournalEntryPage.2NFsevkbevf8r0ZP#sister-garaeles-bargain]{hermana Garaele} del Santuario de la Suerte para ofrecérselo a la banshee Agatha en @UUID[JournalEntry.pbsoConyberryAnd]{Conyberry}.</p>"},
-  "pbsoKegOfStrongA": {"description":"<p>Un barrilete de cerveza fuerte de los suministros que se transportan a Phandalin.</p>"},
-  "pbsoL7rubies0000": {"description":"<p>Un rubí tallado con forma de globo ocular.</p>"},
-  "pbsoLightFeather": {"description":"<p>Una gruesa vara de madera con una empuñadura firme constituye un arma muy práctica, además de un sólido bastón para caminar. Este bastón es sorprendentemente ligero y está grabado con plumas estilizadas.</p>"},
-  "pbsoLightbringer": {"description":"<section class=\"secret\" id=\"secret-vSzDTMGvNqi4xrqv\"><p>Esta arma, conocida como Portadora de Luz, fue creada para un clérigo de Lathander, dios del amanecer. La cabeza de la maza tiene forma de sol radiante y está hecha de latón macizo. La maza brilla como una antorcha cuando su portador se lo ordena. Mientras brilla, inflige 1d6 de daño adicional a las criaturas muertas vivientes.</p></section>"},
-  "pbsoLightningBol": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ inline]</p>"},
-  "pbsoLizardmedall": {"description":"<p>Un medallón de plata que muestra la cabeza de un lagarto con una pluma de escribir detrás.</p>"},
-  "pbsoMarthungrims": {"description":"<p>Encontrado junto a un esqueleto enano y un santuario de Dumathoin, contiene la siguiente información:</p><table class=\"fvtt\"><tbody><tr><td><p>Marthungrim era un paladín de Dumathoin que excavó esta morada hace más de 60 años. Dumathoin le encomendó devolver el descanso a unos espíritus cuando una cripta para los fieles del dios fue corrompida.</p></td></tr><tr><td><p>Marthungrim averiguó que la cripta se encuentra bajo un templo llamado Talhundereth, pero el templo estaba infestado de monstruos peligrosos. Una cerradura con un acertijo protege la cripta; los fieles de Dumathoin podrían resolverlo más fácilmente que otros. (El diario no incluye la solución).</p></td></tr><tr><td><p>Marthungrim planeaba destruir a los inquietos fantasmas que rondan la cripta para que pudieran descansar en paz.</p></td></tr><tr><td><p>Gravemente herido por una criatura que describió como «montones de tentáculos en agitación», Marthungrim regresó aquí. Su última entrada describe cómo empeoran sus heridas.</p></td></tr></tbody></table>"},
-  "pbsoMetalTongue0": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoOccludingMia.JournalEntryPage.GzuBwWdyY2ELY48g]{Miasma Oclusivo.}</strong></p><p>La lengua mide alrededor de 1 pie de largo y la mitad de ancho.</p>"},
-  "pbsoMindblasting": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.eJUjJD548m7pElFP]{B21.}</strong></p><p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p><em>Este suave gorro violeta tiene bordados que imitan los pliegues de un cerebro.</em></p><p>Como acción adicional mientras llevas el gorro, puedes proyectar energía psíquica en un cono de 60 pies. Cada criatura de esa área debe realizar una tirada de salvación de Inteligencia CD 15. Si falla, recibe 5d8 de daño psíquico y tiene el estado &amp;Reference[stunned] durante 1 minuto. Si tiene éxito, solo recibe la mitad del daño. Al final de cada uno de sus turnos, una criatura aturdida puede repetir la tirada de salvación y, si tiene éxito, poner fin a ese estado.</p><p>Una vez usada esta acción adicional, no puede volver a usarse hasta el siguiente amanecer.</p><p></p>","unidentifiedName":"Gorro violeta bordado","unidentifiedDescription":"<p>Este suave gorro violeta tiene bordados que imitan los pliegues de un cerebro.</p>"},
-  "pbsoMindcrystalp": {"description":"<p><em>Objeto maravilloso, rareza variable</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Cuidadoso (</strong><em><strong>poco común</strong></em><strong>).</strong> Elige hasta tres criaturas afectadas por el conjuro. Las criaturas elegidas superan automáticamente sus tiradas de salvación contra él.</p><p><strong>Distante (</strong><em><strong>poco común</strong></em><strong>).</strong> Si el conjuro tiene un alcance de 5 pies o más y no tiene un alcance de lanzador, su alcance aumenta en 100 pies. Si su alcance es de toque, pasa a ser de 30 pies.</p><p><strong>Potenciado (</strong><em><strong>poco común</strong></em><strong>).</strong> Cuando tiras el daño del conjuro, puedes repetir hasta tres dados de daño. Debes usar los nuevos resultados.</p><p><strong>Prolongado (</strong><em><strong>poco común</strong></em><strong>).</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p><p><strong>Intensificado (</strong><em><strong>raro</strong></em><strong>).</strong> Elige una criatura afectada por el conjuro. Esa criatura tiene desventaja en la primera tirada de salvación que realice contra él.</p><p><strong>Acelerado (</strong><em><strong>raro</strong></em><strong>).</strong> Cambias el tiempo de lanzamiento del conjuro a 1 acción adicional para este lanzamiento.</p><p><strong>Sutil (</strong><em><strong>común</strong></em><strong>)</strong>. Lanzas el conjuro sin componentes somáticos ni verbales en este lanzamiento.</p>"},
-  "pbsoMindguardCro": {"description":"<p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p>Mientras llevas esta corona de adamantina, tienes <strong>ventaja</strong> en las tiradas de salvación de Inteligencia, Sabiduría y Carisma, y resistencia al daño psíquico.</p>","unidentifiedName":"Corona de adamantina","unidentifiedDescription":"<p>Una corona de adamantina.</p>","effects":{"auShcrcu1Bn5AgYE":{"name":"Corona de protección mental"}}},
-  "pbsoMistyStepSpe": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 2</em></p><p>@Embed[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL inline]</p>"},
-  "pbsoObeliskFragm": {"description":"<p>Cada uno de estos fragmentos es mayor que los pedazos de Phandalin: pesa 50 libras y mide más de un pie de lado. Los fragmentos están endurecidos de forma sobrenatural y no pueden dañarse por ningún medio.</p>"},
-  "pbsoOpal00000000": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoMireOfDoubt0.JournalEntryPage.ZL2iVKS028oq5UTN]{M3.}</strong></p>"},
-  "pbsoP11gemstone0": {"description":"<p><strong>Se encuentra por toda la @UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.ehkrLPV6v2RkToDl]{Cripta de los Talhund}.</strong></p>"},
-  "pbsoP17gem000000": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.iY12gUH289TDQ9oA]{P17.}</strong></p>"}
+  "pbsoBlessingOfDu": {
+    "description": "<p>Tu vista se vuelve lo bastante aguda como para descubrir secretos ocultos. Obtienes &amp;Reference[darkvision]. Si ya tenías visión en la oscuridad, puedes ver en color en la oscuridad.</p><p>Además, puedes usar una acción para obtener &amp;Reference[truesight] durante 1 minuto. Una vez obtenida la visión verdadera de esta forma, no puedes volver a hacerlo hasta terminar un descanso largo.</p>"
+  },
+  "pbsoBoxOfSilverF": {
+    "description": "<p>Una caja que contiene un juego de varios tenedores de plata de seis púas.</p>"
+  },
+  "pbsoBrassDragonS": {
+    "description": "<p>Una extraña placa romboidal de color marrón dorado. Cada una tiene aproximadamente la mitad del tamaño de una mano humana, es ligera y tan resistente como el hierro.</p>"
+  },
+  "pbsoCapeOfEnlarg": {
+    "description": "<p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.I8k8EFYg3y4FHCgH]{B2.}</strong></p><p>Antiguas runas están bordadas con hilo de plata a lo largo del dobladillo de esta capa de color púrpura grisáceo.</p><p>La capa tiene 3 cargas. Como acción adicional mientras la llevas puesta, puedes gastar 1 carga para agrandarte y obtener los siguientes beneficios:</p><ul><li><p>Tu tamaño aumenta una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para aumentar una categoría, adquieres el mayor tamaño posible dentro del espacio disponible.</p></li><li><p>Tienes ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza.</p></li><li><p>Cuando impactas con una tirada de ataque usando un arma o un ataque sin armas, puedes sumar tu bonificador por competencia al daño del ataque.</p></li></ul><p>Estos beneficios duran 10 minutos o hasta que uses otra acción adicional para ponerles fin. La capa recupera 1d3 cargas gastadas cada día al amanecer.</p>",
+    "unidentifiedName": "Capa con dobladillo de plata",
+    "unidentifiedDescription": "<p>Antiguas runas están bordadas con hilo de plata a lo largo del dobladillo de esta capa de color púrpura grisáceo.</p>",
+    "effects": {
+      "MUvMvWwZNTd7Mjbz": {
+        "name": "Capa de agrandamiento",
+        "description": "<ul><li><p>Tu tamaño aumenta una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para aumentar una categoría, adquieres el mayor tamaño posible dentro del espacio disponible.</p></li><li><p>Tienes ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza.</p></li><li><p>Cuando impactas con una tirada de ataque usando un arma o un ataque sin armas, puedes sumar tu bonificador por competencia al daño del ataque.</p></li></ul>"
+      }
+    }
+  },
+  "pbsoCaskOfSalted": {
+    "description": "<p>Un tonel de carne de cerdo en salazón de las provisiones que se transportan a Phandalin.</p>"
+  },
+  "pbsoCeleritybrac": {
+    "description": "<p><em>Objeto maravilloso, raro (requiere sintonización)</em></p><p>Este par de ligeros brazales de bronce está forrado con suave terciopelo púrpura y grabado con motivos en espiral.</p><p>Mientras llevas estos brazales, todas tus velocidades aumentan en 10 pies y tienes <strong>ventaja</strong> en las tiradas de salvación para evitar o poner fin a los estados &amp;Reference[paralyzed] o &amp;Reference[restrained] que te afecten.</p>",
+    "unidentifiedName": "Brazales de bronce",
+    "unidentifiedDescription": "<p>Este par de ligeros brazales de bronce está forrado con suave terciopelo púrpura y grabado con motivos en espiral.</p>"
+  },
+  "pbsoCensercragma": {
+    "description": "<p>Un hermoso incensario encontrado en el santuario goblin del Castillo Cragmaw.</p>"
+  },
+  "pbsoChalicecragm": {
+    "description": "<p>Un cáliz de factura magistral encontrado en el santuario goblin del Castillo Cragmaw.</p>"
+  },
+  "pbsoCollapsableC": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.y37U98syx1IS7rV4]{G3.}</strong></p><p>Puede plegarse hasta quedar plana con 1 minuto de trabajo. Pesa 50 libras. Aunque gran parte de la jaula es de hierro, sus barras de refuerzo y bisagras son de mithral, y tiene púas orientadas hacia dentro. La jaula no tiene cerradura; los clientes pagaban un suplemento por cerraduras fabricadas en otro lugar.</p>"
+  },
+  "pbsoCrystaldagge": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.26QfiOYclNf5AUna]{L4.}</strong></p>"
+  },
+  "pbsoCrystalpitch": {
+    "description": "<p>Frágil.</p>"
+  },
+  "pbsoDiamond00000": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoIlvaashsAnim.JournalEntryPage.GlgP94R4ncHIWPlD]{A3.}</strong></p>"
+  },
+  "pbsoDwarvenAleMu": {
+    "description": "<p>Una jarra de cerveza enana hecha de electro martillado.</p>"
+  },
+  "pbsoEmboldeningB": {
+    "description": "<section class=\"secret\" id=\"secret-8hB0iy2aWhb2fnzL\"><p>Un personaje que beba una copa de brandy obtiene 1 &amp;Reference[temporary-hit-points], pero si bebe dos copas o más en 1 hora, tiene el estado &amp;Reference[condition=poisoned]{envenenado} durante 1 hora.</p></section><p>Un pequeño tonel lleno de un excepcional brandy enano. Contiene el equivalente a veinte copas.</p>"
+  },
+  "pbsoEnergizedSha": {
+    "description": "<p><em>Las agujas de cristal iridiscente que cubren la caverna chisporrotean con energía mágica.</em></p><p>Puede usarse como canalizador mágico.</p>"
+  },
+  "pbsoFavricsAmeth": {
+    "description": "<p>Una amatista brillante.</p>"
+  },
+  "pbsoFineEmeraldP": {
+    "description": "<p>Un collar de oro con un hermoso colgante de esmeralda.</p>"
+  },
+  "pbsoFireballScro": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.ztgcdrWPshKRpFd0 inline]</p>"
+  },
+  "pbsoGarnet000000": {
+    "description": "<p>Un hermoso granate.</p>"
+  },
+  "pbsoGnawbleFeede": {
+    "description": "<p><strong>Consulta @UUID[JournalEntry.pbsoCh7rifts0000.JournalEntryPage.Amm4kRqrWbHTf56Y#gnawbles]{Gnawbles (características de las grietas del Reino Lejano)} para obtener más información.</strong></p><p>Esta esfera peluda tiene el tamaño de la palma de una mano y una boca con dientes afilados.</p>"
+  },
+  "pbsoGobletMoonst": {
+    "description": "<p>Una copa de plata engastada con piedras lunares, encontrada en la Torre Vieja de las Ruinas de Thundertree.</p>"
+  },
+  "pbsoGoldenEarrin": {
+    "description": "<p>Un sencillo pendiente de oro engastado con un diminuto rubí.</p>"
+  },
+  "pbsoGoldenElfSta": {
+    "description": "<section id=\"secret-WmW0xwczQtZl3QaN\" class=\"secret\"><p>Un conjuro de detectar magia revela que la estatuilla está imbuida de magia de adivinación. Una criatura que no sea malvada puede sostenerla, hacerle una pregunta y recibir una respuesta telepática, como si hubiera lanzado augurio. Una vez que una criatura haya formulado su pregunta y recibido respuesta, nunca podrá volver a activar la estatuilla.</p></section><p>Una estatuilla de oro de un elfo, envuelta en una tela carmesí.</p>",
+    "unidentifiedName": "Estatuilla de un elfo",
+    "unidentifiedDescription": "<p>Una estatuilla de oro de un elfo, envuelta en una tela carmesí.</p>"
+  },
+  "pbsoHeightenedMi": {
+    "description": "<p><em>Objeto maravilloso, raro</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> Elige una criatura afectada por el conjuro. Esa criatura tiene <strong>desventaja</strong> en la primera tirada de salvación que realice contra él.</p>"
+  },
+  "pbsoHew000000000": {
+    "description": "<p><em>Ya sea mediante una bendición demoníaca, un don celestial, un experimento demente o una hábil labor artesanal, esta arma ha sido mejorada para que su portador derrame más sangre.</em></p><p>Obtienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica.</p><p>Unas runas en la cabeza del hacha deletrean «Hendedora» en enano, y su óxido resulta engañoso. Hendedora inflige el daño máximo cuando su portador ataca a una criatura de tipo Planta o a un objeto de madera. Su creador la usaba para protegerse en el bosque mientras cortaba leña.</p>"
+  },
+  "pbsoHoldPersonSc": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.3Lo9boi7P2ro6QV4 inline]</p>"
+  },
+  "pbsoInvulerabili": {
+    "description": "<p>Durante 1 minuto después de beber esta poción, tienes &amp;Reference[damageresistance]{resistencia} a todo daño. Su líquido almibarado parece hierro licuado.</p>",
+    "unidentifiedName": "Poción almibarada",
+    "unidentifiedDescription": "<p><span style=\"font-family:Signika, sans-serif\">El líquido almibarado de la poción parece hierro licuado.</span></p>"
+  },
+  "pbsoIronquillsJo": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh7tunnelsde.JournalEntryPage.doMvucAxNgnTscja]{J2.}</strong>@Embed[JournalEntry.pbsoCh7art000000.JournalEntryPage.epqj8hlUZJ3wuFKg]{ }</p><blockquote><p>El ornamentado exlibris lleva el nombre «Thorgran Ironquill, historiador». Solo se conservan las primeras páginas del diario. Recogen rumores sobre un aumento de la actividad de los azotamentes bajo las Montañas de la Espada. Su autor planea espiar una fortaleza de azotamentes llamada Illithinoch, situada a gran profundidad bajo tierra. Espera que esta información le permita advertir a los enclaves enanos cercanos, incluido el templo de Talhundereth.</p></blockquote><p>Aunque el ornamentado exlibris de plata ya es valioso por sí solo, los restos del diario pueden interesar mucho a ciertos eruditos.</p>"
+  },
+  "pbsoJadeStatuett": {
+    "description": "<p>Una estatuilla de jade de una rana con diminutas esferas de oro por ojos.</p>"
+  },
+  "pbsoJeweledGoldB": {
+    "description": "<p>Un brazalete de oro enjoyado encontrado entre los huesos de un sarcófago en la Guarida de los Redbrand de Phandalin.</p>"
+  },
+  "pbsoJeweledSilve": {
+    "description": "<p>Un peine de plata enjoyado entregado por la @UUID[JournalEntry.pbsoPhandalinVil.JournalEntryPage.2NFsevkbevf8r0ZP#sister-garaeles-bargain]{hermana Garaele} del Santuario de la Suerte para ofrecérselo a la banshee Agatha en @UUID[JournalEntry.pbsoConyberryAnd]{Conyberry}.</p>"
+  },
+  "pbsoKegOfStrongA": {
+    "description": "<p>Un barrilete de cerveza fuerte de los suministros que se transportan a Phandalin.</p>"
+  },
+  "pbsoL7rubies0000": {
+    "description": "<p>Un rubí tallado con forma de globo ocular.</p>"
+  },
+  "pbsoLightFeather": {
+    "description": "<p>Una gruesa vara de madera con una empuñadura firme constituye un arma muy práctica, además de un sólido bastón para caminar. Este bastón es sorprendentemente ligero y está grabado con plumas estilizadas.</p>"
+  },
+  "pbsoLightbringer": {
+    "description": "<section class=\"secret\" id=\"secret-vSzDTMGvNqi4xrqv\"><p>Esta arma, conocida como Portadora de Luz, fue creada para un clérigo de Lathander, dios del amanecer. La cabeza de la maza tiene forma de sol radiante y está hecha de latón macizo. La maza brilla como una antorcha cuando su portador se lo ordena. Mientras brilla, inflige 1d6 de daño adicional a las criaturas muertas vivientes.</p></section>"
+  },
+  "pbsoLightningBol": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.IyikgTEOTv701jgQ inline]</p>"
+  },
+  "pbsoLizardmedall": {
+    "description": "<p>Un medallón de plata que muestra la cabeza de un lagarto con una pluma de escribir detrás.</p>"
+  },
+  "pbsoMarthungrims": {
+    "description": "<p>Encontrado junto a un esqueleto enano y un santuario de Dumathoin, contiene la siguiente información:</p><table class=\"fvtt\"><tbody><tr><td><p>Marthungrim era un paladín de Dumathoin que excavó esta morada hace más de 60 años. Dumathoin le encomendó devolver el descanso a unos espíritus cuando una cripta para los fieles del dios fue corrompida.</p></td></tr><tr><td><p>Marthungrim averiguó que la cripta se encuentra bajo un templo llamado Talhundereth, pero el templo estaba infestado de monstruos peligrosos. Una cerradura con un acertijo protege la cripta; los fieles de Dumathoin podrían resolverlo más fácilmente que otros. (El diario no incluye la solución).</p></td></tr><tr><td><p>Marthungrim planeaba destruir a los inquietos fantasmas que rondan la cripta para que pudieran descansar en paz.</p></td></tr><tr><td><p>Gravemente herido por una criatura que describió como «montones de tentáculos en agitación», Marthungrim regresó aquí. Su última entrada describe cómo empeoran sus heridas.</p></td></tr></tbody></table>"
+  },
+  "pbsoMetalTongue0": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoOccludingMia.JournalEntryPage.GzuBwWdyY2ELY48g]{Miasma Oclusivo.}</strong></p><p>La lengua mide alrededor de 1 pie de largo y la mitad de ancho.</p>"
+  },
+  "pbsoMindblasting": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh8brinymaze.JournalEntryPage.eJUjJD548m7pElFP]{B21.}</strong></p><p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p><em>Este suave gorro violeta tiene bordados que imitan los pliegues de un cerebro.</em></p><p>Como acción adicional mientras llevas el gorro, puedes proyectar energía psíquica en un cono de 60 pies. Cada criatura de esa área debe realizar una tirada de salvación de Inteligencia CD 15. Si falla, recibe 5d8 de daño psíquico y tiene el estado &amp;Reference[stunned] durante 1 minuto. Si tiene éxito, solo recibe la mitad del daño. Al final de cada uno de sus turnos, una criatura aturdida puede repetir la tirada de salvación y, si tiene éxito, poner fin a ese estado.</p><p>Una vez usada esta acción adicional, no puede volver a usarse hasta el siguiente amanecer.</p><p></p>",
+    "unidentifiedName": "Gorro violeta bordado",
+    "unidentifiedDescription": "<p>Este suave gorro violeta tiene bordados que imitan los pliegues de un cerebro.</p>"
+  },
+  "pbsoMindcrystalp": {
+    "description": "<p><em>Objeto maravilloso, rareza variable</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Cuidadoso (</strong><em><strong>poco común</strong></em><strong>).</strong> Elige hasta tres criaturas afectadas por el conjuro. Las criaturas elegidas superan automáticamente sus tiradas de salvación contra él.</p><p><strong>Distante (</strong><em><strong>poco común</strong></em><strong>).</strong> Si el conjuro tiene un alcance de 5 pies o más y no tiene un alcance de lanzador, su alcance aumenta en 100 pies. Si su alcance es de toque, pasa a ser de 30 pies.</p><p><strong>Potenciado (</strong><em><strong>poco común</strong></em><strong>).</strong> Cuando tiras el daño del conjuro, puedes repetir hasta tres dados de daño. Debes usar los nuevos resultados.</p><p><strong>Prolongado (</strong><em><strong>poco común</strong></em><strong>).</strong> Si el conjuro dura 1 minuto o más, duplicas su duración, hasta un máximo de 24 horas.</p><p><strong>Intensificado (</strong><em><strong>raro</strong></em><strong>).</strong> Elige una criatura afectada por el conjuro. Esa criatura tiene desventaja en la primera tirada de salvación que realice contra él.</p><p><strong>Acelerado (</strong><em><strong>raro</strong></em><strong>).</strong> Cambias el tiempo de lanzamiento del conjuro a 1 acción adicional para este lanzamiento.</p><p><strong>Sutil (</strong><em><strong>común</strong></em><strong>)</strong>. Lanzas el conjuro sin componentes somáticos ni verbales en este lanzamiento.</p>"
+  },
+  "pbsoMindguardCro": {
+    "description": "<p><em>Objeto maravilloso, muy raro (requiere sintonización)</em></p><p>Mientras llevas esta corona de adamantina, tienes <strong>ventaja</strong> en las tiradas de salvación de Inteligencia, Sabiduría y Carisma, y resistencia al daño psíquico.</p>",
+    "unidentifiedName": "Corona de adamantina",
+    "unidentifiedDescription": "<p>Una corona de adamantina.</p>",
+    "effects": {
+      "auShcrcu1Bn5AgYE": {
+        "name": "Corona de protección mental"
+      }
+    }
+  },
+  "pbsoMistyStepSpe": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2</em></p><p>@Embed[Compendium.dnd5e.spells.Item.wqfAVANuQonNBgnL inline]</p>"
+  },
+  "pbsoObeliskFragm": {
+    "description": "<p>Cada uno de estos fragmentos es mayor que los pedazos de Phandalin: pesa 50 libras y mide más de un pie de lado. Los fragmentos están endurecidos de forma sobrenatural y no pueden dañarse por ningún medio.</p>"
+  },
+  "pbsoOpal00000000": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoMireOfDoubt0.JournalEntryPage.ZL2iVKS028oq5UTN]{M3.}</strong></p>"
+  },
+  "pbsoP11gemstone0": {
+    "description": "<p><strong>Se encuentra por toda la @UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.ehkrLPV6v2RkToDl]{Cripta de los Talhund}.</strong></p>"
+  },
+  "pbsoP17gem000000": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.iY12gUH289TDQ9oA]{P17.}</strong></p>"
+  }
 }

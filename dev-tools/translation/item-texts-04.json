@@ -1,38 +1,148 @@
 {
-  "pbsoPlatinumMusi": {"description":"<p>Reproduce música que los enanos no pueden oír.</p>"},
-  "pbsoPsionicFortP": {"description":"<p><em>Poción, poco común</em></p><p>Al beber esta poción, durante 1 hora tienes ventaja en las tiradas de salvación para evitar o poner fin a los estados hechizado o aturdido que te afecten.</p><p>En esta poción negra se arremolinan motas relucientes de color rosa y púrpura.</p>","unidentifiedName":"Poción negra","unidentifiedDescription":"<p>En esta poción negra se arremolinan motas relucientes de color rosa y púrpura.</p>"},
-  "pbsoRarePerfume0": {"description":"<p>Un frasco de perfume especialmente raro.</p>"},
-  "pbsoRevivifyspel": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6 inline]</p>"},
-  "pbsoRibcageGem00": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.OttQ9p536P2tpWIk]{P8}, @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.R9pBC836TtWultCR]{P10} y @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.9XygTO6hd7IGLkYN]{P11.}</strong></p>"},
-  "pbsoRingOfTheOra": {"effects":{"Ffwu6IMX9pBnFnDV":{"name":"Voz proyectada"}}},
-  "pbsoScarletCloak": {"description":"<p>Una capa escarlata sucia que llevan los rufianes Redbrand de Phandalin.</p>"},
-  "pbsoScrollOfDark": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq inline]</p>"},
-  "pbsoSemiprecious": {"description":"<p>Unas piedras semipreciosas.</p>"},
-  "pbsoSildarsSword": {"description":"<p>La espada larga, una hoja larga y recta diseñada para cortar a los enemigos, es un arma muy versátil que también puede empuñarse a dos manos para asestar golpes más contundentes. Su empuñadura lleva el emblema de Neverwinter.</p>"},
-  "pbsoSilencespell": {"description":"<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp inline]</p>"},
-  "pbsoSmallGemston": {"description":"<p>Una piedra preciosa pequeña.</p>"},
-  "pbsoSnowGlobe000": {"description":"<p>Una bola de nieve que contiene un mercado callejero en miniatura.</p>"},
-  "pbsoSolipsisticM": {"description":"<p>Accedes a las verdades esotéricas de un antiguo tomo al concentrarte profundamente en tus propios pensamientos. Puedes usar una acción para concentrar tu mente interior. Esta concentración dura 1 hora. Mientras tu mente interior esté concentrada, no puedes realizar &amp;Reference[reaction]{reacciones.} </p><p>Mientras dure el efecto, cuando realices una prueba de Inteligencia o Sabiduría, o una tirada de salvación de Inteligencia o Sabiduría, puedes tirar un d8 y sumar el resultado a la prueba o tirada de salvación. Recuperas la capacidad de concentrar tu mente interior al terminar un descanso largo.</p>","effects":{"z3xRV7hzlJobiDZu":{"name":"Bendición de la mente solipsista","description":"<p><span style=\"font-family:Signika, sans-serif\">Mientras dure el efecto, cuando realices una prueba de Inteligencia o Sabiduría, o una tirada de salvación de Inteligencia o Sabiduría, puedes tirar un d8 y sumar el resultado a la prueba o tirada de salvación.</span></p>"}}},
-  "pbsoSpiderStaff0": {"description":"<section id=\"secret-Qz4cjfTxw3uIy85w\" class=\"secret\"><p>La parte superior de este bastón negro de adamantina tiene forma de araña. El bastón pesa 6 libras. Debes estar sintonizado con él para obtener sus beneficios y lanzar sus conjuros.</p><p>Puede empuñarse como un bastón. Inflige 1d6 de daño de veneno adicional al impactar cuando se usa para realizar un ataque con arma.</p><p>El bastón tiene 10 cargas que alimentan los conjuros que contiene. Con él en la mano, puedes usar tu acción para lanzar uno de los siguientes conjuros desde el bastón si figura en la lista de conjuros de tu clase: trepar cual arácnido (1 carga) o telaraña (2 cargas, CD de salvación 15). No se requieren componentes.</p><p>El bastón recupera [[/r 1d6 + 4]] cargas gastadas cada día al anochecer. Si gastas su última carga, tira [[/gmroll d20]]. Si obtienes un 1, el bastón se deshace en polvo y queda destruido.</p></section><p>Nezznar ataca con el Bastón de la Araña.</p>"},
-  "pbsoStaffOfDefen": {"description":"<section class=\"secret\" id=\"secret-Gnb48Fg1PWHF63xD\"><p><em>Requiere sintonización.</em></p><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras. Mientras lo sostienes, obtienes un bonificador de +1 a tu Clase de Armadura.</p><p>Conjuros. El bastón tiene 10 cargas. Mientras lo sostienes, puedes gastar las cargas necesarias para lanzar uno de los siguientes conjuros desde él: [[/item Mage Armor]] (1 carga) o [[/item Shield]] (2 cargas).</p><p>El bastón recupera 1d6 + 4 cargas gastadas cada día al amanecer. Si gastas su última carga, tira un d20. Si obtienes un 1, el bastón se hace añicos y queda destruido.</p></section><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras.</p>","effects":{"Wd0iA1lfF9Qofcfj":{"name":"Bastón de defensa: bonificador a la CA","description":"<p>Mientras sostienes el bastón, obtienes un bonificador de +1 a tu Clase de Armadura.</p>"}}},
-  "pbsoStatueMucus0": {"description":"<p>La mucosidad es insípida pero nutritiva y, extrañamente, fortalece la mente. Cualquier personaje que ingiera el líquido obtiene &amp;Reference[rule=damagevulnerability]{resistencia} al daño psíquico durante 10 minutos. El líquido que gotea del cerebro pierde sus propiedades tras 1 hora.</p>","effects":{"jXxwmmM73nbJJZcR":{"name":"Fortaleza de la mucosidad","description":"<p>Cualquier personaje que ingiera el líquido obtiene resistencia al daño psíquico durante 10 minutos.</p>"}}},
-  "pbsoStatuesEmera": {"description":"<p>Un ojo de esmeralda de la estatua de Dumathoin de la Cueva del Oleaje.</p>"},
-  "pbsoSubtleMindCr": {"description":"<p><em>Objeto maravilloso, común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> <span style=\"font-family:Signika, sans-serif\">Lanzas el conjuro sin componentes somáticos ni verbales en este lanzamiento.</span></p>"},
-  "pbsoT8statuette0": {"description":"<p>Una estatuilla de oro de un guerrero enano.</p>"},
-  "pbsoTalon0000000": {"description":"<p><em>Ya sea mediante una bendición demoníaca, un don celestial, un experimento demente o una hábil labor artesanal, esta arma ha sido mejorada para que su portador derrame más sangre.</em></p><p>Esta espada larga descansa en una polvorienta vaina con adornos de plata. Lleva inscrito el nombre «Garra» y tiene una empuñadura con forma de ave rapaz con las alas extendidas.</p><p>Obtienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica.</p>"},
-  "pbsoTapestrydeur": {"description":"<p><em>Un tapiz duergar de rica factura, pero cubierto de polvo.</em></p>"},
-  "pbsoTheGraniteLe": {"description":"<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6talhunder.JournalEntryPage.IzrwA51W0euRYVZh]{T16.}</strong></p><p>Tiene páginas de metal y una cubierta hecha de finas placas de granito. Este libro es El registro de granito, un compendio de los secretos de Talhundereth.</p>"},
-  "pbsoThelsPendant": {"description":"<p>Un colgante de madera tallada con forma de cabeza de unicornio, encontrado en un esqueleto en el fondo de la grieta de la Guarida de los Redbrands.</p>"},
-  "pbsoTruthsoftheI": {"description":"<p>Un libro titulado <em>Verdades de la mente introspectiva</em>.</p>"},
-  "pbsoUrmonsJourna": {"description":"<p>El diario de un aventurero llamado Urmon, encontrado en la Guarida de los Redbrands y escrito en enano. Contiene la siguiente información:</p><blockquote><p>Hace más de quinientos años, varios clanes de enanos y gnomos sellaron un acuerdo conocido como el Pacto de Phandelver, por el que compartirían una rica mina situada en una maravillosa caverna llamada Cueva del Oleaje. Además de su riqueza mineral, la mina albergaba un gran poder mágico. Lanzadores de conjuros humanos se aliaron con los enanos y los gnomos para canalizar y concentrar esa energía en una gran forja llamada Forja de Conjuros, donde podían fabricarse objetos mágicos. Fueron tiempos prósperos, también para la cercana localidad de Phandalin. Pero llegó el desastre cuando unos bandidos arrasaron el Norte y destruyeron cuanto encontraban a su paso.</p><p>Una poderosa fuerza de bandidos, reforzada por malvados magos mercenarios, atacó la Cueva del Oleaje para apoderarse de sus riquezas y tesoros mágicos. Los magos humanos lucharon junto a sus aliados enanos y gnomos para defender la Forja de Conjuros, y la batalla de magia que siguió destruyó gran parte de la caverna. Pocos sobrevivieron a los derrumbes y temblores, y la ubicación de la Cueva del Oleaje se perdió.</p></blockquote>"},
-  "pbsoVialOfPerfum": {"description":"<p>Un producto aromático que suelen usar las personas adineradas.</p>"},
-  "pbsoWoodenPipe00": {"description":"<p>Una pipa de madera adornada con filigranas de platino.</p>"},
-  "pkpkvyW31ZIx4pvC": {"description":"<p>Treinta libras de este mineral sin refinar proporcionan materia prima suficiente para que un herrero diestro produzca @UUID[Item.IoJIJdOLKSpminMe]{siete lingotes de hierro} valorados en 25 po cada uno.</p>"},
-  "qhdGVfT5j6u46mtk": {"description":"<p><em>Arma (hacha a dos manos), rara (requiere sintonización)</em></p><p><em>La hoja de metal de esta hacha está adornada con grabados de azotamentes decapitados.</em></p><p>Obtienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con esta hacha a dos manos.</p><p>Una aberración alcanzada por ella recibe 1d12 de daño cortante adicional. Si la aberración está agarrando a alguna criatura, debe superar una tirada de salvación de Fuerza CD 15 o soltar a todas las criaturas que tenga agarradas.</p>","activities":{"dnd5eactivity000":{"activation":{"condition":"Al impactar a una aberración"}},"dnd5eactivity100":{"activation":{"condition":"Al impactar a una aberración"}}}},
-  "rItVb7CZVorFpI0s": {"description":"<p>Un pergamino de conjuro contiene las palabras de un único conjuro, escritas en una clave mística. Si el conjuro figura en la lista de conjuros de tu clase, puedes leer el pergamino y lanzarlo sin aportar componentes materiales. De lo contrario, el pergamino resulta ininteligible. Lanzar el conjuro leyendo el pergamino requiere su tiempo de lanzamiento habitual. Una vez lanzado, las palabras se desvanecen y el pergamino se deshace en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.</p>\n      <hr /><h3>Lenguas (nivel 3)</h3>\n      \n      <hr /><p>Este conjuro concede a la criatura que tocas la capacidad de comprender cualquier idioma hablado que oiga. Además, cuando el objetivo habla, cualquier criatura que conozca al menos un idioma y pueda oírlo comprende lo que dice.</p><hr />\n      <h3>Detalles del pergamino</h3><hr />\n<p>Si el conjuro figura en la lista de conjuros de tu clase pero es de un nivel superior al que puedes lanzar normalmente, debes superar una prueba de característica CD 13 usando tu aptitud mágica para lanzarlo con éxito. Si fallas, el conjuro desaparece del pergamino sin ningún otro efecto.</p>\n<p>El nivel del conjuro del pergamino determina su CD de salvación y su bonificador de ataque, así como la rareza del pergamino.</p>\n<p><strong>CD de salvación</strong>: 15<br /><strong>Bonificador de ataque</strong>: +7.</p>\n<p>Un conjuro de mago escrito en un pergamino puede copiarse igual que los conjuros de los libros de conjuros. Para copiarlo, quien lo copie debe superar una prueba de Inteligencia (Conocimiento Arcano) CD 13. Si tiene éxito, copia el conjuro correctamente. Tanto si tiene éxito como si falla, el pergamino queda destruido.</p>"},
-  "rrwax1qmOI21dyhl": {"description":"<p><em>La poción está separada en capas marrones, plateadas y grises que recuerdan a bandas de roca. Agitar el frasco no mezcla sus colores.</em></p>\n<p>Al beber esta poción, obtienes una velocidad trepando igual a tu velocidad caminando durante 1 hora. Durante ese tiempo, tienes ventaja en las pruebas de Fuerza (Atletismo) que realices para trepar. </p>"},
-  "s9ZNjlUlDN5fztnW": {"description":"<p>Una esfera de luz de 60 pies de radio se extiende desde un punto del pico de guerra que elijas. La esfera emite luz brillante y luz tenue otros 60 pies más allá.</p><p>Si eliges un punto de un objeto que sostengas o de uno que nadie lleve puesto ni transporte, la luz brilla desde el objeto y se mueve con él. Cubrir por completo el objeto afectado con otro objeto opaco, como un cuenco o un yelmo, bloquea la luz.</p><p>Si parte del área de este conjuro se solapa con un área de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que creó la oscuridad queda disipado.</p>"},
-  "thkvJ5QBRORIwkkV": {"description":"<p><em>Objeto maravilloso</em></p>\n<p>Este prisma tiene 50 cargas. Mientras lo sostienes, puedes usar una acción para pronunciar una de sus tres palabras de mando y producir uno de los siguientes efectos:</p>\n<ul>\n<li>La primera palabra de mando hace que la gema emita luz brillante en un radio de 30 pies y luz tenue otros 30 pies más allá. Este efecto no gasta cargas. Dura hasta que uses una acción adicional para repetir la palabra de mando o hasta que uses otra función de la gema.</li>\n<li>La segunda palabra de mando gasta 1 carga y hace que la gema dispare un brillante rayo de luz contra una criatura que puedas ver a 60 pies o menos de ti. La criatura debe superar una tirada de salvación de Constitución CD 15 o quedar cegada durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</li>\n<li>La tercera palabra de mando gasta 5 cargas y hace que la gema emita una luz cegadora en un cono de 30 pies que parte de ella. Cada criatura del cono debe realizar una tirada de salvación como si hubiera sido alcanzada por el rayo creado con la segunda palabra de mando.</li>\n</ul>\n<p>Cuando se agotan todas sus cargas, la gema se convierte en una joya no mágica valorada en 50 po.</p>","unidentifiedName":"Cristal translúcido","unidentifiedDescription":"<p>Un fragmento de cristal translúcido de color azul claro, surcado por vetas de luz índigo.</p>"},
-  "uI6pZfHM4kE54PIt": {"description":"<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance. Su pomo y su guarda están engastados con piedras semipreciosas.</p>"},
-  "woWZ1sO5IUVGzo58": {"description":"<p>Este juego de herramientas incluye una pequeña lima, un juego de ganzúas, un pequeño espejo montado en un mango de metal, unas tijeras de hojas estrechas y unos alicates. La competencia con estas herramientas te permite sumar tu bonificador por competencia a las pruebas de característica que realices para desactivar trampas o abrir cerraduras.</p>"}
+  "pbsoPlatinumMusi": {
+    "description": "<p>Reproduce música que los enanos no pueden oír.</p>"
+  },
+  "pbsoPsionicFortP": {
+    "description": "<p><em>Poción, poco común</em></p><p>Al beber esta poción, durante 1 hora tienes ventaja en las tiradas de salvación para evitar o poner fin a los estados hechizado o aturdido que te afecten.</p><p>En esta poción negra se arremolinan motas relucientes de color rosa y púrpura.</p>",
+    "unidentifiedName": "Poción negra",
+    "unidentifiedDescription": "<p>En esta poción negra se arremolinan motas relucientes de color rosa y púrpura.</p>"
+  },
+  "pbsoRarePerfume0": {
+    "description": "<p>Un frasco de perfume especialmente raro.</p>"
+  },
+  "pbsoRevivifyspel": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 3</em></p><p>@Embed[Compendium.dnd5e.spells.Item.LmRHHMtplpxr9fX6 inline]</p>"
+  },
+  "pbsoRibcageGem00": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.OttQ9p536P2tpWIk]{P8}, @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.R9pBC836TtWultCR]{P10} y @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.9XygTO6hd7IGLkYN]{P11.}</strong></p>"
+  },
+  "pbsoRingOfTheOra": {
+    "effects": {
+      "Ffwu6IMX9pBnFnDV": {
+        "name": "Voz proyectada"
+      }
+    }
+  },
+  "pbsoScarletCloak": {
+    "description": "<p>Una capa escarlata sucia que llevan los rufianes Redbrand de Phandalin.</p>"
+  },
+  "pbsoScrollOfDark": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.S7VbUetIfVT7B6Eq inline]</p>"
+  },
+  "pbsoSemiprecious": {
+    "description": "<p>Unas piedras semipreciosas.</p>"
+  },
+  "pbsoSildarsSword": {
+    "description": "<p>La espada larga, una hoja larga y recta diseñada para cortar a los enemigos, es un arma muy versátil que también puede empuñarse a dos manos para asestar golpes más contundentes. Su empuñadura lleva el emblema de Neverwinter.</p>"
+  },
+  "pbsoSilencespell": {
+    "description": "<p><em>&amp;Reference[Spell Scroll] de nivel 2, requiere concentración</em></p><p>@Embed[Compendium.dnd5e.spells.Item.5VhqFROQYjr1P9lp inline]</p>"
+  },
+  "pbsoSmallGemston": {
+    "description": "<p>Una piedra preciosa pequeña.</p>"
+  },
+  "pbsoSnowGlobe000": {
+    "description": "<p>Una bola de nieve que contiene un mercado callejero en miniatura.</p>"
+  },
+  "pbsoSolipsisticM": {
+    "description": "<p>Accedes a las verdades esotéricas de un antiguo tomo al concentrarte profundamente en tus propios pensamientos. Puedes usar una acción para concentrar tu mente interior. Esta concentración dura 1 hora. Mientras tu mente interior esté concentrada, no puedes realizar &amp;Reference[reaction]{reacciones.} </p><p>Mientras dure el efecto, cuando realices una prueba de Inteligencia o Sabiduría, o una tirada de salvación de Inteligencia o Sabiduría, puedes tirar un d8 y sumar el resultado a la prueba o tirada de salvación. Recuperas la capacidad de concentrar tu mente interior al terminar un descanso largo.</p>",
+    "effects": {
+      "z3xRV7hzlJobiDZu": {
+        "name": "Bendición de la mente solipsista",
+        "description": "<p><span style=\"font-family:Signika, sans-serif\">Mientras dure el efecto, cuando realices una prueba de Inteligencia o Sabiduría, o una tirada de salvación de Inteligencia o Sabiduría, puedes tirar un d8 y sumar el resultado a la prueba o tirada de salvación.</span></p>"
+      }
+    }
+  },
+  "pbsoSpiderStaff0": {
+    "description": "<section id=\"secret-Qz4cjfTxw3uIy85w\" class=\"secret\"><p>La parte superior de este bastón negro de adamantina tiene forma de araña. El bastón pesa 6 libras. Debes estar sintonizado con él para obtener sus beneficios y lanzar sus conjuros.</p><p>Puede empuñarse como un bastón. Inflige 1d6 de daño de veneno adicional al impactar cuando se usa para realizar un ataque con arma.</p><p>El bastón tiene 10 cargas que alimentan los conjuros que contiene. Con él en la mano, puedes usar tu acción para lanzar uno de los siguientes conjuros desde el bastón si figura en la lista de conjuros de tu clase: trepar cual arácnido (1 carga) o telaraña (2 cargas, CD de salvación 15). No se requieren componentes.</p><p>El bastón recupera [[/r 1d6 + 4]] cargas gastadas cada día al anochecer. Si gastas su última carga, tira [[/gmroll d20]]. Si obtienes un 1, el bastón se deshace en polvo y queda destruido.</p></section><p>Nezznar ataca con el Bastón de la Araña.</p>"
+  },
+  "pbsoStaffOfDefen": {
+    "description": "<section class=\"secret\" id=\"secret-Gnb48Fg1PWHF63xD\"><p><em>Requiere sintonización.</em></p><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras. Mientras lo sostienes, obtienes un bonificador de +1 a tu Clase de Armadura.</p><p>Conjuros. El bastón tiene 10 cargas. Mientras lo sostienes, puedes gastar las cargas necesarias para lanzar uno de los siguientes conjuros desde él: [[/item Mage Armor]] (1 carga) o [[/item Shield]] (2 cargas).</p><p>El bastón recupera 1d6 + 4 cargas gastadas cada día al amanecer. Si gastas su última carga, tira un d20. Si obtienes un 1, el bastón se hace añicos y queda destruido.</p></section><p>Este bastón delgado y hueco está hecho de cristal, pero es tan resistente como el roble. Pesa 3 libras.</p>",
+    "effects": {
+      "Wd0iA1lfF9Qofcfj": {
+        "name": "Bastón de defensa: bonificador a la CA",
+        "description": "<p>Mientras sostienes el bastón, obtienes un bonificador de +1 a tu Clase de Armadura.</p>"
+      }
+    }
+  },
+  "pbsoStatueMucus0": {
+    "description": "<p>La mucosidad es insípida pero nutritiva y, extrañamente, fortalece la mente. Cualquier personaje que ingiera el líquido obtiene &amp;Reference[rule=damagevulnerability]{resistencia} al daño psíquico durante 10 minutos. El líquido que gotea del cerebro pierde sus propiedades tras 1 hora.</p>",
+    "effects": {
+      "jXxwmmM73nbJJZcR": {
+        "name": "Fortaleza de la mucosidad",
+        "description": "<p>Cualquier personaje que ingiera el líquido obtiene resistencia al daño psíquico durante 10 minutos.</p>"
+      }
+    }
+  },
+  "pbsoStatuesEmera": {
+    "description": "<p>Un ojo de esmeralda de la estatua de Dumathoin de la Cueva del Oleaje.</p>"
+  },
+  "pbsoSubtleMindCr": {
+    "description": "<p><em>Objeto maravilloso, común</em></p><p>Estas piedras preciosas contienen una porción cristalizada de magia para lanzar conjuros. Existen distintos tipos de cristales mentales, cada uno con un efecto diferente de un solo uso.</p><p>Cuando lanzas un conjuro cuyo tiempo de lanzamiento es de 1 acción mientras sostienes un cristal mental, puedes modificar el conjuro de una manera concreta con el efecto descrito a continuación. Solo puedes usar un cristal mental para modificar el conjuro, y no puedes usar un cristal mental y una opción de Metamagia en el mismo conjuro. Una vez utilizado, el cristal se convierte en una gema no mágica valorada en 50 po.</p><p><strong>Efecto.</strong> <span style=\"font-family:Signika, sans-serif\">Lanzas el conjuro sin componentes somáticos ni verbales en este lanzamiento.</span></p>"
+  },
+  "pbsoT8statuette0": {
+    "description": "<p>Una estatuilla de oro de un guerrero enano.</p>"
+  },
+  "pbsoTalon0000000": {
+    "description": "<p><em>Ya sea mediante una bendición demoníaca, un don celestial, un experimento demente o una hábil labor artesanal, esta arma ha sido mejorada para que su portador derrame más sangre.</em></p><p>Esta espada larga descansa en una polvorienta vaina con adornos de plata. Lleva inscrito el nombre «Garra» y tiene una empuñadura con forma de ave rapaz con las alas extendidas.</p><p>Obtienes un bonificador a las tiradas de ataque y de daño realizadas con esta arma mágica.</p>"
+  },
+  "pbsoTapestrydeur": {
+    "description": "<p><em>Un tapiz duergar de rica factura, pero cubierto de polvo.</em></p>"
+  },
+  "pbsoTheGraniteLe": {
+    "description": "<p><strong>Se encuentra en @UUID[JournalEntry.pbsoCh6talhunder.JournalEntryPage.IzrwA51W0euRYVZh]{T16.}</strong></p><p>Tiene páginas de metal y una cubierta hecha de finas placas de granito. Este libro es El registro de granito, un compendio de los secretos de Talhundereth.</p>"
+  },
+  "pbsoThelsPendant": {
+    "description": "<p>Un colgante de madera tallada con forma de cabeza de unicornio, encontrado en un esqueleto en el fondo de la grieta de la Guarida de los Redbrand.</p>"
+  },
+  "pbsoTruthsoftheI": {
+    "description": "<p>Un libro titulado <em>Verdades de la mente introspectiva</em>.</p>"
+  },
+  "pbsoUrmonsJourna": {
+    "description": "<p>El diario de un aventurero llamado Urmon, encontrado en la Guarida de los Redbrand y escrito en enano. Contiene la siguiente información:</p><blockquote><p>Hace más de quinientos años, varios clanes de enanos y gnomos sellaron un acuerdo conocido como el Pacto de Phandelver, por el que compartirían una rica mina situada en una maravillosa caverna llamada Cueva del Oleaje. Además de su riqueza mineral, la mina albergaba un gran poder mágico. Lanzadores de conjuros humanos se aliaron con los enanos y los gnomos para canalizar y concentrar esa energía en una gran forja llamada Forja de Conjuros, donde podían fabricarse objetos mágicos. Fueron tiempos prósperos, también para la cercana localidad de Phandalin. Pero llegó el desastre cuando unos bandidos arrasaron el Norte y destruyeron cuanto encontraban a su paso.</p><p>Una poderosa fuerza de bandidos, reforzada por malvados magos mercenarios, atacó la Cueva del Oleaje para apoderarse de sus riquezas y tesoros mágicos. Los magos humanos lucharon junto a sus aliados enanos y gnomos para defender la Forja de Conjuros, y la batalla de magia que siguió destruyó gran parte de la caverna. Pocos sobrevivieron a los derrumbes y temblores, y la ubicación de la Cueva del Oleaje se perdió.</p></blockquote>"
+  },
+  "pbsoVialOfPerfum": {
+    "description": "<p>Un producto aromático que suelen usar las personas adineradas.</p>"
+  },
+  "pbsoWoodenPipe00": {
+    "description": "<p>Una pipa de madera adornada con filigranas de platino.</p>"
+  },
+  "pkpkvyW31ZIx4pvC": {
+    "description": "<p>Treinta libras de este mineral sin refinar proporcionan materia prima suficiente para que un herrero diestro produzca @UUID[Item.IoJIJdOLKSpminMe]{siete lingotes de hierro} valorados en 25 po cada uno.</p>"
+  },
+  "qhdGVfT5j6u46mtk": {
+    "description": "<p><em>Arma (hacha a dos manos), rara (requiere sintonización)</em></p><p><em>La hoja de metal de esta hacha está adornada con grabados de azotamentes decapitados.</em></p><p>Obtienes un bonificador de +1 a las tiradas de ataque y de daño realizadas con esta hacha a dos manos.</p><p>Una aberración alcanzada por ella recibe 1d12 de daño cortante adicional. Si la aberración está agarrando a alguna criatura, debe superar una tirada de salvación de Fuerza CD 15 o soltar a todas las criaturas que tenga agarradas.</p>",
+    "activities": {
+      "dnd5eactivity000": {
+        "activation": {
+          "condition": "Al impactar a una aberración"
+        }
+      },
+      "dnd5eactivity100": {
+        "activation": {
+          "condition": "Al impactar a una aberración"
+        }
+      }
+    }
+  },
+  "rItVb7CZVorFpI0s": {
+    "description": "<p>Un pergamino de conjuro contiene las palabras de un único conjuro, escritas en una clave mística. Si el conjuro figura en la lista de conjuros de tu clase, puedes leer el pergamino y lanzarlo sin aportar componentes materiales. De lo contrario, el pergamino resulta ininteligible. Lanzar el conjuro leyendo el pergamino requiere su tiempo de lanzamiento habitual. Una vez lanzado, las palabras se desvanecen y el pergamino se deshace en polvo. Si se interrumpe el lanzamiento, el pergamino no se pierde.</p>\n      <hr /><h3>Lenguas (nivel 3)</h3>\n      \n      <hr /><p>Este conjuro concede a la criatura que tocas la capacidad de comprender cualquier idioma hablado que oiga. Además, cuando el objetivo habla, cualquier criatura que conozca al menos un idioma y pueda oírlo comprende lo que dice.</p><hr />\n      <h3>Detalles del pergamino</h3><hr />\n<p>Si el conjuro figura en la lista de conjuros de tu clase pero es de un nivel superior al que puedes lanzar normalmente, debes superar una prueba de característica CD 13 usando tu aptitud mágica para lanzarlo con éxito. Si fallas, el conjuro desaparece del pergamino sin ningún otro efecto.</p>\n<p>El nivel del conjuro del pergamino determina su CD de salvación y su bonificador de ataque, así como la rareza del pergamino.</p>\n<p><strong>CD de salvación</strong>: 15<br /><strong>Bonificador de ataque</strong>: +7.</p>\n<p>Un conjuro de mago escrito en un pergamino puede copiarse igual que los conjuros de los libros de conjuros. Para copiarlo, quien lo copie debe superar una prueba de Inteligencia (Conocimiento Arcano) CD 13. Si tiene éxito, copia el conjuro correctamente. Tanto si tiene éxito como si falla, el pergamino queda destruido.</p>"
+  },
+  "rrwax1qmOI21dyhl": {
+    "description": "<p><em>La poción está separada en capas marrones, plateadas y grises que recuerdan a bandas de roca. Agitar el frasco no mezcla sus colores.</em></p>\n<p>Al beber esta poción, obtienes una velocidad trepando igual a tu velocidad caminando durante 1 hora. Durante ese tiempo, tienes ventaja en las pruebas de Fuerza (Atletismo) que realices para trepar. </p>"
+  },
+  "s9ZNjlUlDN5fztnW": {
+    "description": "<p>Una esfera de luz de 60 pies de radio se extiende desde un punto del pico de guerra que elijas. La esfera emite luz brillante y luz tenue otros 60 pies más allá.</p><p>Si eliges un punto de un objeto que sostengas o de uno que nadie lleve puesto ni transporte, la luz brilla desde el objeto y se mueve con él. Cubrir por completo el objeto afectado con otro objeto opaco, como un cuenco o un yelmo, bloquea la luz.</p><p>Si parte del área de este conjuro se solapa con un área de oscuridad creada por un conjuro de nivel 3 o inferior, el conjuro que creó la oscuridad queda disipado.</p>"
+  },
+  "thkvJ5QBRORIwkkV": {
+    "description": "<p><em>Objeto maravilloso</em></p>\n<p>Este prisma tiene 50 cargas. Mientras lo sostienes, puedes usar una acción para pronunciar una de sus tres palabras de mando y producir uno de los siguientes efectos:</p>\n<ul>\n<li>La primera palabra de mando hace que la gema emita luz brillante en un radio de 30 pies y luz tenue otros 30 pies más allá. Este efecto no gasta cargas. Dura hasta que uses una acción adicional para repetir la palabra de mando o hasta que uses otra función de la gema.</li>\n<li>La segunda palabra de mando gasta 1 carga y hace que la gema dispare un brillante rayo de luz contra una criatura que puedas ver a 60 pies o menos de ti. La criatura debe superar una tirada de salvación de Constitución CD 15 o quedar cegada durante 1 minuto. Puede repetir la tirada de salvación al final de cada uno de sus turnos y poner fin al efecto sobre sí misma si tiene éxito.</li>\n<li>La tercera palabra de mando gasta 5 cargas y hace que la gema emita una luz cegadora en un cono de 30 pies que parte de ella. Cada criatura del cono debe realizar una tirada de salvación como si hubiera sido alcanzada por el rayo creado con la segunda palabra de mando.</li>\n</ul>\n<p>Cuando se agotan todas sus cargas, la gema se convierte en una joya no mágica valorada en 50 po.</p>",
+    "unidentifiedName": "Cristal translúcido",
+    "unidentifiedDescription": "<p>Un fragmento de cristal translúcido de color azul claro, surcado por vetas de luz índigo.</p>"
+  },
+  "uI6pZfHM4kE54PIt": {
+    "description": "<p>Una hoja de tamaño mediano con una guarda firme y una empuñadura envuelta en cuero. Un arma versátil que compensa con su flexibilidad de uso lo que le falta en alcance. Su pomo y su guarda están engastados con piedras semipreciosas.</p>"
+  },
+  "woWZ1sO5IUVGzo58": {
+    "description": "<p>Este juego de herramientas incluye una pequeña lima, un juego de ganzúas, un pequeño espejo montado en un mango de metal, unas tijeras de hojas estrechas y unos alicates. La competencia con estas herramientas te permite sumar tu bonificador por competencia a las pruebas de característica que realices para desactivar trampas o abrir cerraduras.</p>"
+  }
 }

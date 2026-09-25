@@ -2,7 +2,7 @@
   "id": "translate-dnd5e-phandelver-below-es",
   "title": "D&D 5e Phandelver y Más Allá - Traducción al español (Babele)",
   "description": "Traducción al español del módulo oficial Phandelver & Below: The Shattered Obelisk mediante Babele.",
-  "version": "1.14.0",
+  "version": "1.14.1",
   "compatibility": {
     "minimum": "13",
     "verified": "14.368"

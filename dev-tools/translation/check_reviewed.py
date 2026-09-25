@@ -4,11 +4,14 @@ from hashlib import sha256
 from text_schema import ROOT, SOURCE, fields, get, load, technical, numbers
 from html.parser import HTMLParser
 
+HUMAN_ATTRIBUTES = {(tag, key, es): en for tag, key, en, es in
+                    load(ROOT/'dev-tools/translation/html-attribute-labels.json')}
+
 class Attributes(HTMLParser):
     def __init__(self,text):
         super().__init__();self.values=[];self.feed(text)
     def handle_starttag(self,tag,attrs):
-        if attrs:self.values.append((tag,sorted(attrs)))
+        if attrs:self.values.append((tag,sorted((key,HUMAN_ATTRIBUTES.get((tag,key,value),value)) for key,value in attrs)))
 
 def main():
     originals={};translations={};coverage=[]

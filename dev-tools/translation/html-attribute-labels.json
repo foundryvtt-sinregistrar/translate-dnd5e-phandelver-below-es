@@ -1,0 +1,13 @@
+[
+  ["span", "data-tooltip", "Platinum", "Platino"],
+  ["span", "data-tooltip", "Gold", "Oro"],
+  ["span", "data-tooltip", "Electrum", "Electro"],
+  ["span", "data-tooltip", "Silver", "Plata"],
+  ["span", "data-tooltip", "Copper", "Cobre"],
+  ["span", "aria-label", "Platinum", "Platino"],
+  ["span", "aria-label", "Gold", "Oro"],
+  ["span", "aria-label", "Electrum", "Electro"],
+  ["span", "aria-label", "Silver", "Plata"],
+  ["span", "aria-label", "Copper", "Cobre"],
+  ["img", "alt", "The award distribution window", "Ventana de distribución de recompensas"]
+]

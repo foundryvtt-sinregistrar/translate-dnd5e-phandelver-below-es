@@ -95,3 +95,16 @@ La sala de recepción de Illithinoch contiene un error técnico en la fuente:
 el enlace `Reference[rule=damagevulnerability]` acompaña una regla de resistencia.
 La traducción mantiene «resistencia», que es el efecto indicado por la prosa;
 la discrepancia del destino queda registrada para la auditoría de referencias.
+
+## Capítulo 8: 0295–0309
+
+Contrastadas las 15 páginas heredadas del capítulo final. El resto de sus páginas,
+incluido el desenlace, forma parte de los textos exclusivos revisados en los lotes
+de Adventure. Se precisan los nombres de criaturas y de Jitterjaws; se corrigen
+los tenedores de plata de seis púas, antes traducidos como diapasones, y las
+apariciones del lóbulo temporal, antes confundidas con espectros. Se restauran
+las medidas y se traducen los comentarios visibles de las tiradas.
+
+Total: **309/309 páginas heredadas contrastadas**. Este cierre editorial se
+complementa con la comprobación de coherencia global y las pruebas de ejecución;
+no equivale por sí solo a verificar la compatibilidad de una instalación limpia.

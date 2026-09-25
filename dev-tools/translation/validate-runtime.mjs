@@ -91,6 +91,15 @@ export async function validateRuntime({pilot = false} = {}) {
         }
         if (collection.endsWith('.pbso-player-options') && original._id === 'pbsoCharlatan000') itemPilot = result;
         if (source.documentType === 'Adventure') {
+          report.importPreflight = {};
+          for (const key of ['actors','items','journal','scenes','tables','macros','folders']) {
+            const collection = game[key];
+            report.importPreflight[key] = {
+              worldCount: collection.size,
+              adventureCount: original[key].length,
+              collisions: original[key].filter(d => collection.has(d._id)).map(d => d._id)
+            };
+          }
           for (const [id,scene] of Object.entries(patch.scenes ?? {})) verifyScene(result.scenes.find(s=>s._id===id),scene,`Adventure.scenes.${id}`);
           for (const [id,macro] of Object.entries(patch.macros ?? {})) require(result.macros.find(m=>m._id===id)?.name===macro.name,`Adventure.macros.${id}`);
           for (const [id,table] of Object.entries(patch.tables ?? {})) {

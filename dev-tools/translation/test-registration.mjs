@@ -10,7 +10,7 @@ for (const [language, expected] of [['en', []], ['fr', []], ['es', ['es']], ['es
     const registrations = [];
     let settingsReady = false;
     assert.ok(script.includes("import './converters.js'"));
-    vm.runInNewContext(script.replace(/^import[^;]+;\s*/m, ''), {
+    vm.runInNewContext(script.replace(/^import[^;]+;\s*/gm, ''), {
       Hooks: {once: (event, callback) => hooks.set(event, callback)},
       game: {settings: {get: () => {assert.ok(settingsReady); return language;}}}
     });

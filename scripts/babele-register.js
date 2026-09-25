@@ -1,5 +1,6 @@
 /** Register this Spanish translation after Babele and core settings exist. */
 import './converters.js';
+import './adventure-import.mjs';
 
 Hooks.once("babele.init", (babele) => {
   Hooks.once("setup", () => {

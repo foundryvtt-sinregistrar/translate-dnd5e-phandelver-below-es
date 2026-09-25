@@ -27,3 +27,12 @@ atributo. No se relaja la protección de rutas, clases ni otros atributos.
 Las 24 páginas pasan huellas, números, comandos y atributos HTML. Se registran
 como `legacy-editorial` en `reviewed-fields.json`. Quedan 285 páginas de este
 inventario para lectura comparada; no deben considerarse revisadas por tener texto.
+
+## Capítulo 2: 0025–0057
+
+Contrastadas las 33 páginas de Phandalin, sus PNJ, encargos y refugio Redbrand.
+Se distinguen puertas abiertas de puertas sin cerrar con llave, se restablecen
+distancias y pesos originales y se corrige la competencia necesaria en el uso de
+suministros de alquimista. «Brigands» se traduce como bandidos; la orden al nótico
+es emboscar a los perseguidores. Se conservan las recompensas, condiciones de
+rendición y pistas de cada encuentro. Total editorial: 57/309 páginas.

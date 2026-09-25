@@ -73,3 +73,25 @@ infernal, broza movediza y Mirada aterradora.
 
 Cobertura propia: 2.758/3.227 campos del bestiario y 4.528/6.718 de Adventure.
 Los controles de evidencia y conservación técnica vuelven a pasar sin errores.
+
+## Cuarto lote de prosa: textos 0601–0720
+
+Revisados 120 textos adicionales; la cobertura alcanza 2.937/3.227 campos del
+bestiario y 6.044/6.718 de Adventure. La composición del índice de actores añade
+34 páginas cuyo bloque de biografía coincide exactamente con una traducción
+revisada. Preserva imágenes y UUID, traduce los encabezados de referencias y
+rechaza biografías aproximadas, traducciones ambiguas o texto adicional no revisado.
+
+Incidencias conservadas de la fuente, sin modificar reglas:
+
+- 0603: la calavera llameante se regenera en una hora en la sección secreta,
+  pero el resumen público habla de 1d6 días.
+- 0617: el lanzamiento pertenece al espectro cinéreo, pero su resumen dice goblin.
+- 0642: rejuvenecimiento del renacido indica 24 horas y después 1d6 días.
+- 0668: el ataque del cúmulo usa Fuerza en la regla y Constitución en su resumen.
+- 0703: los tentáculos aplican incapacitado en la regla y aturdido en el resumen.
+
+Los errores tipográficos puramente editoriales, como la llave suelta tras
+«troglodita» en 0680, sí se eliminan. Las variantes de datos y reglas no se
+homogeneizan por compartir nombre. Pasa `check_reviewed.py`; la ejecución de
+Foundry documentada en el lote de etiquetas corresponde todavía a 0001–0600.

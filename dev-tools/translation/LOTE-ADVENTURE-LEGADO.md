@@ -71,3 +71,13 @@ la fuente: Greska (orca, capítulo 2) frente a Grista (enana, capítulo 5) como
 propietarias de la taberna; las referencias a la forja como Z7, que es la cocina,
 en varias descripciones del puesto. No se cambian destinos de enlaces sin
 verificarlos en la comprobación integral.
+
+## Capítulo 6: 0157–0239
+
+Contrastadas las 83 páginas de Talhundereth, Cripta de Talhund, Cruce del Cadalso
+y misiones de Phandalin. Se corrigen restos de inglés en etiquetas de enlaces,
+la rareza de la torre de lodo resbaladizo y los nombres de renacidos, apariciones,
+lazos, humanoides mutados y cúmulos de encéfalos. Se mantienen las condiciones
+para apaciguar espíritus, resolver mecanismos y obtener recompensas; se restauran
+las unidades del original. Se contrastan también las pistas, las rutas alternativas
+y las consecuencias de no conseguir los fragmentos. Total: 239/309 páginas.

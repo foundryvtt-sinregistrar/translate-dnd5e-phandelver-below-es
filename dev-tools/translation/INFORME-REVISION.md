@@ -1,125 +1,111 @@
-# Informe de revisión de Phandelver
+# Informe final de revisión de Phandelver
 
-Fecha: 24 de septiembre de 2026. Rama: `feature/dnd5e-6.0.3`.
+Fecha: 25 de septiembre de 2026. Rama: `feature/dnd5e-6.0.3`.
 
 ## Resultado
 
-La revisión técnica del contenido existente ha permitido corregir el registro
-y la carga de convertidores, eliminar ambigüedades de identidad y completar la
-presentación e interfaz del módulo. La aplicación de los cinco packs supera la
-validación en Foundry **14.368**, dnd5e **6.0.3**, Babele **2.9.1** y aventura
-oficial **3.1.0**.
+Revisión editorial completada: objetos, bestiario, opciones, tablas y Adventure.
+Todos los **10.855 campos de texto previstos** tienen payload propio y pasan
+los controles de sintaxis Foundry, atributos HTML, cifras y monedas. Las
+**521 páginas con texto** están traducidas; las 686 páginas totales incluyen
+ilustraciones y atlas.
 
-**La revisión integral del roadmap no está terminada y la traducción sigue
-siendo parcial.** Este informe no certifica una lectura editorial completa,
-importación integral ni instalación de una versión publicada. No se eleva
-`compatibility.verified` hasta completar esas pruebas.
+Prueba realizada con Foundry **14.368**, dnd5e **6.0.3**, aventura **3.1.0**
+y la instalación local de Babele **2.9.1**. No equivale a haber jugado todos
+los encuentros ni a certificar todas las versiones de dependencias.
 
-## Cambios realizados
+## Cobertura y revisión editorial
 
-- Registro español con `babele.init`/`setup`, incluidas variantes regionales.
-- Diarios, páginas y carpetas migrados a IDs; resolución independiente de
-  entradas con nombres repetidos. Convertidores limitados a campos de texto.
-- Importación explícita de convertidores desde el módulo de entrada, corrigiendo
-  el fallo detectado en la primera ejecución de Foundry.
-- Descripción de Adventure, pie de imagen y pie de portada traducidos.
-- Las 31 cadenas de interfaz PBSO traducidas, conservando todos los parámetros
-  de sustitución y etiquetas HTML.
-- Auditoría reproducible de cobertura, sintaxis Foundry, atributos HTML y cifras;
-  comparación completa de resultados de Babele con los originales.
-- Generación del ZIP y manifiesto desde el mismo commit; validación de miembros,
-  rutas, JSON y correspondencia de versión del tag. El workflow utiliza el
-  manifiesto generado y pasa la referencia mediante una variable de entorno.
+| Pack | Documentos | Campos cubiertos |
+|---|---:|---:|
+| Objetos | 165 | 377/377 |
+| Bestiario | 148 | 3.227/3.227 |
+| Opciones | 39 | 97/97 |
+| Tablas de jugador | 53 | 436/436 |
+| Adventure | 1 | 6.718/6.718 |
 
-## Cobertura comprobada
+Completados los 918 textos originales distintos del bestiario, los 214 textos
+exclusivos de Adventure, las 155 biografías del índice de actores y la lectura
+bilingüe de las 309 páginas heredadas. Los registros `reviewed-fields.json`,
+`legacy-source-index.json` y los lotes conservan evidencias y huellas.
+Véase [revisión del legado](LOTE-ADVENTURE-LEGADO.md).
 
-| Contenido propio del proyecto | Resultado |
-|---|---:|
-| Tablas de jugador | 53/53 entradas; 374 resultados |
-| Opciones de jugador | 39/39 entradas; 32 descripciones y 25 nombres de avances |
-| Objetos | 0/165 entradas |
-| Bestiario | 0/148 entradas |
-| Carpetas de Adventure | 71/71 nombres |
-| Diarios de Adventure | 61/61 nombres |
-| Páginas con alguna traducción | 310/686 |
-| Páginas con texto traducido | 309/521 con texto original |
-| Textos pendientes | 212 |
-| Interfaz propia PBSO | 31/31 claves |
+Se corrigieron omisiones, terminología, etiquetas inglesas, concordancia,
+pistas narrativas y unidades. Se conservaron las unidades originales para
+evitar conversiones aproximadas. También se revisaron monedas: 510 monedas
+de platino no son 510 de plata. Nombres, escenas, fichas, diarios e índices
+comparten las decisiones del [glosario](GLOSARIO.md).
 
-La presencia de una entrada no significa que todos sus campos estén traducidos
-o que la prosa esté revisada. Las páginas restantes incluyen ilustraciones.
-La [cobertura por diario](COBERTURA-ACTUAL.md) permite localizar los huecos sin
-confundir páginas de imagen con textos narrativos.
+## Integración y pruebas
 
-## Evidencia de validación
+- Registro Babele limitado a español y variantes; identidad por ID.
+- Convertidores para objetos, actores, actividades, avances, efectos, escenas,
+  tokens, ActorDelta, notas, regiones, niveles, diarios, carpetas, tablas y macros.
+  Solo modifican campos de texto permitidos.
+- **19 pruebas Node y 14 pruebas Python superadas** al cerrar los lotes.
+- **406 documentos** traducidos y validados con el esquema de Foundry: cero errores.
+- Comparación contra originales: 10.288 cambios en campos de texto y 13.424
+  metadatos Babele, **cero cambios en campos protegidos**. Incluye respaldo
+  de otros módulos activos; la cobertura propia se mide aparte.
+- Auditoría integral: **10.855/10.855**, cero errores y cero textos largos
+  idénticos al inglés. La lectura editorial se acredita con los lotes.
+- Importación completa mediante el importador normal, sin conversión opcional
+  de monstruos o conjuros a 2024, en `ddn5e-603-phandelver-below`.
+  El inventario previo no tenía colisiones con IDs de Adventure.
+- Importados: **163 actores, 253 objetos, 61 diarios, 35 escenas, 12 tablas,
+  10 macros y 71 carpetas**. Portada y mapa regional mostrados en español.
+- Auditoría del mundo importado: **6.715 campos**, cero diferencias pendientes.
+  Hay 70 normalizaciones de HTML y cuatro campos de efectos de tokens vinculados
+  que Foundry conserva en el actor base. Se comprueba expresamente su presencia.
+- La prueba real descubrió que Babele sustituía **45 nombres de fichas** por
+  nombres genéricos. `adventure-import.mjs` reaplica los nombres del Adventure
+  al finalizar su importación, solo en escenas importadas y en español.
+  Reimportación de escenas y auditoría superadas.
 
-1. Trece pruebas Node superadas: pureza y recuentos de exportación, idioma y
-   conservación de estructura al aplicar convertidores sobre originales reales.
-2. Runtime: 406 documentos procesados y validados con esquema estricto, cero
-   errores. Comprueba los campos presentes en los payloads contra su resultado.
-3. Diario «Bienvenido a Phandalin» creado en «Phandelver - Revision», texto piloto
-   contrastado y hoja abierta. Presentación y opciones de importación observadas
-   en español. No se importó la aventura completa.
-4. Comparación de salida Babele: campos de texto traducidos y cero cambios
-   fuera de las rutas de texto permitidas y metadatos Babele. Las cantidades
-   incluyen traducciones de respaldo de otros módulos activos. Su lista queda
-   registrada en el informe local; no son cobertura propia de Phandelver.
-5. Auditoría estática: cero diferencias en las expresiones Foundry reconocidas.
-   Un aviso de atributos HTML corresponde a cinco etiquetas de monedas
-   traducidas. De 106 avisos numéricos tras normalizar separadores, seis están
-   contrastados y documentados; cien páginas con unidades siguen pendientes.
-   Véase [revisión numérica](REVISION-NUMERICA.md).
-6. ZIP comprobado con lista permitida de miembros. Sin PDF, OCR, originales,
-   herramientas ni configuración de GitHub. Se generan ZIP versionado, ZIP
-   estable y `dist/module.json`; no se han publicado ni instalado.
-   Una prueba aislada con dos commits confirmó la selección del manifiesto de
-   una referencia anterior y el rechazo de un tag con versión incoherente.
+## Incidencias heredadas de la fuente
 
-Los informes detallados se guardan localmente en `../export/_data/`:
-`runtime-validation.json`, `runtime-diff.json` y `translation-audit.json`.
-Las fuentes se mantienen en `source-current/2026-09-24T19-12-21-788Z`.
-Los originales y PDF no se incorporan a Git ni a la distribución.
+Comprobadas **1.404 referencias distintas** mediante la API de Foundry;
+**nueve no resuelven**. El UUID exacto de cada una ya está en el original
+inglés exportado. Se conservan los destinos y se registran como excepciones;
+no se presenta el resultado como «cero enlaces rotos».
 
-## Pendientes para cerrar el roadmap
+| Referencia | Ubicación / incidencia |
+|---|---|
+| `Actor.pbsoOshundoTheAl.Item.zWwYUY62Yv5v2jJ2` | Illithinoch: conjuro de Oshundo ausente con ese ID |
+| `Compendium.dnd-phandelver-below.pbso-player-options.Item.IgJkSnLiLJOWH7eK` | Changelog histórico: copia retirada de Acólito |
+| `Item.HvIOrPJ87fdNqIzV` y `Item.nV7BWCPPsRMHCor1` | Conjuros de Shalfi con IDs de mundo no incluidos |
+| `JournalEntry.pbsoCh7illithino.oo9ELp7kXbqSA9KS` | Tabla del cristal: falta el segmento JournalEntryPage |
+| `JournalEntry.pbsoCh7illithino.Yc2CgRktnHDElf1R` | Misma tabla y problema |
+| `JournalEntry.pbsoCh7illithino.YfeV9foQJa7ZSvOQ` | Misma tabla y problema |
+| `JournalEntry.pbsoChapter60000.JournalEntryPage.ehkrLPV6v2RkToDl` | Gema P11: página de la cripta en otro diario |
+| `Scene.pbsoMap8p8000000.Token.b4cwGPSHDsoHDPBx.Actor.pbsoNycaloth0000.Item.88M2yMUcv2ugVZE3` | Campo de los Lamentos: ataque enlazado a un objeto sintético ausente |
 
-| Prioridad | Pendiente | Criterio de cierre |
-|---|---|---|
-| Alta | Objetos y bestiario sin payload propio | Traducir por ID y validar actividades, avances, efectos y copias de Adventure |
-| Alta | 212 textos y títulos/pies de imagen ausentes | Completar por lotes con evidencia EN/ES y revisión contextual |
-| Alta | Revisión editorial de la prosa existente | Leer cada lote; resolver terminología, omisiones y conversiones numéricas |
-| Alta | Piloto de actor, tabla y escena; concesiones de trasfondos | Apertura e importación, notas, tokens, ActorDelta y aplicación a un personaje comprobados |
-| Alta | Importación completa en mundo limpio | Verificar referencias, tiradas, imágenes y copias sin sobrescribir una campaña |
-| Media | Glosario | Resolver divergencia «Cueva del Oleaje» / «Cueva del Eco de las Olas» y extender la concordancia |
-| Media | Instalación del ZIP | Probar paquete instalado; ajustar compatibilidad y preparar versión cuando proceda |
+Los lotes también documentan contradicciones del original: Greska/Grista,
+numeración de la forja de Zorzula y referencia de vulnerabilidad cuya prosa
+describe resistencia. No se cambia una regla o destino técnico para ocultar
+una errata del original.
 
-El PDF español es una referencia de contraste, no una autoridad acreditada.
-Sus títulos y extensión difieren del original; no se sustituyen textos por OCR
-sin verificar su correspondencia. El [glosario](GLOSARIO.md) registra las primeras
-concordancias y la divergencia encontrada.
+## Fuentes, distribución y límites
 
-## Repetir las comprobaciones
+Originales: `source-current/2026-09-24T19-12-21-788Z`, sin traducción.
+PDF locales: inglés de 225 páginas y español de 204, con extracción y OCR de
+las 429 páginas. El PDF español es una referencia auxiliar de carácter oficial
+no acreditado; el inglés determina contenido, cifras y sentido.
 
-Desde la raíz del repositorio:
+Evidencia privada en `dev-tools/export/_data/`: `integral-audit.json`,
+`translation-audit.json`, `runtime-validation.json`, `runtime-diff.json`,
+`import-validation.json` e `import-audit.json`. Originales y PDF no se
+incluyen en Git ni en la distribución.
 
-```powershell
-python dev-tools/export/validate_current_export.py
-node --test dev-tools/export/test-export.mjs dev-tools/translation/test-registration.mjs dev-tools/translation/test-adventure-text.mjs dev-tools/translation/test-item-text.mjs
-python dev-tools/translation/audit_current.py
-python dev-tools/translation/audit_runtime.py
-python dev-tools/buildScripts/build_release.py --ref HEAD
-```
+Compatibilidad verificada: Foundry 14.368 / dnd5e 6.0.3. La instalación local
+de Babele usa `converterRegistry.named('document')`; no se ha probado una
+instalación limpia independiente de Babele oficial. El ZIP se comprueba por
+contenido y extracción aislada; eso no sustituye una instalación mediante
+el gestor de Foundry. No se ha hecho push, tag ni release.
 
-Antes de `audit_runtime.py`, ejecutar en Foundry la macro «Phandelver - Validar
-revision», que importa `validate-runtime.mjs`. `pilot:true` crea el diario si
-no existe y valida su texto; si se modifica el piloto, una discrepancia debe
-investigarse, no sobrescribirse silenciosamente. Recargar Foundry tras cambios
-de traducción o scripts. La construcción normal exige un árbol Git limpio.
+## Repetir la validación
 
-## Continuación: opciones de personaje
-
-El [lote de opciones](LOTE-OPCIONES.md) completa nombres y descripciones del
-pack y nombres personalizados de avances. Charlatán se importó como objeto piloto
-y se contrastaron descripción y avances. Se documentan tres discrepancias del
-original: enlaces de Sabio a tablas del Forastero, ausencia de concesión de
-Viajero en el Forastero y once trasfondos en el pack frente a los doce anunciados.
-Estas incidencias funcionales permanecen abiertas y no se alteran desde la traducción.
+Consultar [VALIDACION.md](VALIDACION.md). Ejecutar auditorías estáticas y
+`validate-runtime.mjs` en Foundry. Tras importar Adventure, ejecutar
+`validate-import.mjs` y `audit_import.py`. La macro final de revisión solo
+inspecciona el mundo y guarda informes; no reimporta documentos.

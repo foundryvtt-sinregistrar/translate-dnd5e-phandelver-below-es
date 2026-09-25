@@ -6,6 +6,10 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
+- Complete Spanish item and bestiary packs, including activities, effects and Adventure copies.
+- Full Adventure text coverage: 521 text pages, scene labels, tokens, notes, folders and actor index.
+- Field-level review evidence and integral audits for all 10,855 expected text fields.
+- Actual-world import validation, with original-source broken references documented separately.
 - Spanish adventure presentation, cover caption and all 31 PBSO interface strings.
 - Spanish names for all 39 player options, 32 descriptions and 25 advancement labels.
 - Imported background pilot and label-only advancement converter preserving keyed and legacy collections.
@@ -13,11 +17,15 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+- Verified Foundry compatibility updated to 14.368 and dnd5e to 6.0.3 after runtime and full import checks.
+- Terminology, narrative clues, original measurement units and currency denominations reviewed throughout.
 - Adventure journal, page and folder translations use original document IDs.
 - Release ZIP and manifest are built from the same Git ref and checked for private files.
 
 ### Fixed
 
+- Preserve Adventure-specific token names after Babele's import synchronization.
+- Reapply explicit item and actor translations after fallback, including unchanged proper names.
 - Babele registration waits for language settings and applies only to Spanish locales.
 - Converter loading is guaranteed by an explicit import from the entry module.
 

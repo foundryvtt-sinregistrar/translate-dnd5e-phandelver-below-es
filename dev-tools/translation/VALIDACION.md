@@ -1,88 +1,66 @@
-# Validación
+# Validación de la revisión
 
-## Comprobado en esta preparación
+Cierre: 25 de septiembre de 2026. Véase el [informe](INFORME-REVISION.md).
 
-- El validador existente acepta los IDs principales de los cinco packs históricos:
-  53 tablas, 39 opciones, 165 objetos, 148 actores y una aventura.
-- El inventario compara claves y rutas con la traducción y calcula SHA-256.
-- La extracción PDF registra cobertura, métodos, versiones y páginas dudosas.
-  `status: complete` y `errors: []` prueban finalización, no exactitud del OCR.
-- Resultado final: EN 225/225 y ES 204/204, todas con OCR, sin errores de
-  procesamiento. Hay 25 páginas inglesas y 19 españolas señaladas para revisión.
-  Se verificaron las 429 filas JSONL contra los textos por página, la presencia
-  de originales y bloques, los TSV comprimidos y los SHA-256 de ambos PDF.
-- Los ocho JSON de compendios, idiomas y manifiesto son válidos; los dos scripts
-  nuevos pasan el análisis de sintaxis y los enlaces locales de documentación
-  resuelven. Posteriormente se migraron claves y se corrigió el registro de Babele.
-- Las referencias y datos privados se mantienen bajo `_data`, excluido de Git.
+## Comprobaciones locales
 
-## Controles pendientes antes de cerrar la revisión
+Desde la raíz del proyecto, con Python 3 y Node disponibles:
 
-La fase 1 se cerró con la exportación `2026-09-24T19-12-21-788Z`: cinco hashes
-correctos, 406 documentos, IDs principales sin cambios, IDs anidados comprobados,
-61 diarios, 686 páginas y 71 carpetas internas. El exportador rechazó en ejecución
-la traducción activa antes de escribir fuentes. Cuatro pruebas Node cubren marcas
-anidadas, IDs por colección, referencias de efectos y referencias de diarios en escenas.
-La primera exportación con el error de recuento se conserva y es rechazada por
-el validador. Esto no certifica todavía los mapeos ni la traducción.
+```powershell
+python dev-tools/export/validate_current_export.py
+python -m unittest discover -s dev-tools/translation -p test_*.py
+node --test dev-tools/export/test-export.mjs dev-tools/translation/test-registration.mjs dev-tools/translation/test-item-text.mjs dev-tools/translation/test-adventure-text.mjs dev-tools/translation/test-document-text.mjs dev-tools/translation/test-adventure-import.mjs
+python dev-tools/translation/check_reviewed.py
+python dev-tools/translation/audit_integral.py
+python dev-tools/translation/audit_current.py
+python dev-tools/translation/audit_runtime.py
+python dev-tools/translation/audit_import.py
+```
 
-- Mantener la línea base de originales validada al actualizar versiones.
-- Cobertura de campos visibles, sin confundir hojas técnicas con texto traducible.
-- HTML, enlaces `@UUID`, `@Embed`, tiradas, parámetros y etiquetas intactos.
-- Números, unidades y reglas fieles al original; nombres y terminología consistentes.
-- Scripts, fórmulas, geometría, rutas de imágenes y mecánicas sin cambios accidentales.
-- Esquemas actuales de Foundry/dnd5e y convertidores Babele probados.
-- Compendio directo y copia importada; actores con objetos, actividades y efectos;
-  escenas con notas, tokens y ActorDelta; tablas, carpetas e interfaz.
-- Prueba en español e inglés; una variante regional de español cuando corresponda.
-- Importación completa en mundo limpio, sin sobrescribir el mundo existente.
-- ZIP instalado y revisado; fuentes, PDF, OCR y herramientas fuera de la distribución.
+Resultados: 19 pruebas Node, 14 Python; 10.855 campos cubiertos; cero errores
+de evidencia, números, monedas, HTML o sintaxis técnica. La auditoría de salida
+Babele acredita cero cambios fuera de campos de texto y metadatos permitidos.
 
-Registrar cada prueba con fecha, versiones, documento, resultado e incidencia.
-## Integración ejecutada el 24 de septiembre de 2026
+## Foundry
 
-`validate-runtime.mjs` procesó los 406 documentos con Babele 2.9.1, Foundry
-14.368 y dnd5e 6.0.3: cero errores de aplicación y validación estricta del
-esquema. Comprueba los nombres, carpetas, páginas y resultados de tablas
-presentes en el payload; los packs sin traducción también pasan el esquema,
-pero esto no los convierte en contenido traducido.
+Entorno probado: 14.368 / dnd5e 6.0.3 / PBSO 3.1.0 / Babele local 2.9.1.
+Con sesión GM, el validador puede ejecutarse desde una macro Script:
 
-El piloto creó el diario «Bienvenido a Phandalin» en «Phandelver - Revision»
-y comprobó que el texto importado coincide con el payload. Se abrió su hoja
-y se observaron los títulos españoles. No se importó la aventura completa.
-El informe detallado local está en `../export/_data/runtime-validation.json`.
+```javascript
+const {validateRuntime} = await import("/modules/translate-dnd5e-phandelver-below-es/dev-tools/translation/validate-runtime.mjs");
+await validateRuntime({pilot:false});
+```
 
-La primera ejecución detectó convertidores sin registrar. El módulo de entrada
-ahora importa explícitamente `converters.js`; tras recargar, la prueba pasó.
-Las once pruebas Node del exportador, registro y conversores también pasan.
+Valida los 406 documentos y guarda salida e informe en `export/_data/`.
+No sustituye una importación. La prueba integral se realizó en el mundo de
+desarrollo, con preflight de IDs sin colisiones, sin conversión opcional a 2024.
+No ejecutar una nueva importación sobre una campaña con cambios sin revisarlos.
 
-La ejecución posterior a las correcciones de presentación e interfaz volvió
-a validar 406 documentos sin errores. `audit_runtime.py` comparó la salida
-Babele sin normalizaciones del constructor de Foundry: 4901 campos de texto
-cambiados y cero diferencias fuera de las rutas permitidas y metadatos Babele.
-El informe registra los módulos activos porque parte del resultado procede de
-sus traducciones de respaldo, no del payload de este proyecto.
+Tras importar mediante la interfaz:
 
-Las 31 cadenas de interfaz conservan claves, parámetros y etiquetas HTML del
-original instalado. Las opciones de importación se observaron en español.
-El ZIP se comprobó con lista permitida de miembros y JSON válido; una prueba
-aislada confirmó que construir una referencia anterior usa su versión y su
-manifiesto, excluye datos privados y rechaza un tag incoherente con la versión.
+```javascript
+const {validateImport} = await import("/modules/translate-dnd5e-phandelver-below-es/dev-tools/translation/validate-import.mjs");
+await validateImport();
+```
 
-## Lote de opciones de personaje
+Después ejecutar `audit_import.py`. Compara los 6.715 campos de documentos
+del mundo con el resultado traducido esperado. Solo admite normalizaciones
+HTML precisas y efectos de tokens vinculados presentes en el actor base.
+Clasifica los UUID no resueltos contra el original; una referencia nueva sin
+destino hace fallar la auditoría.
 
-Las 39 entradas, 32 descripciones y 25 nombres de avances pasan los controles
-de aplicación en runtime. La comparación posterior registra 4995 cambios de
-texto en el entorno completo y cero cambios fuera de las rutas permitidas y
-metadatos Babele. Trece pruebas Node superadas, incluidas las dos nuevas sobre
-avances por ID y listas antiguas.
+Resultado: cero documentos ausentes, cero diferencias pendientes, 1.404
+referencias comprobadas y nueve no resueltas ya presentes en el original.
+Los detalles están en `import-audit.json`.
 
-Charlatán se creó en la carpeta de objetos «Phandelver - Revision». Se verificaron
-nombre, descripción y nombres de avances persistidos. La hoja muestra prosa,
-habilidades y rasgo en español. La comparación admite únicamente la conversión
-de `<hr />` a `<hr>` observada al importar. No se ha probado todavía añadir
-todos los trasfondos a personajes y completar sus concesiones.
+## Distribución
 
-Los informes ahora distinguen `running`, `failed` y `passed`; el auditor rechaza
-ejecuciones incompletas o fallidas, incluido un fallo del piloto. Véase
-[el lote y sus incidencias de origen](LOTE-OPCIONES.md).
+```powershell
+python dev-tools/buildScripts/build_release.py --ref HEAD
+```
+
+Requiere árbol limpio. Verifica miembros permitidos, rutas, JSON y manifiesto
+del mismo commit. Los originales, PDF, OCR y herramientas quedan excluidos.
+Extraer el ZIP en `dist/install-check/` permite comprobar recursos e imports
+relativos. No equivale a instalarlo mediante el gestor de Foundry ni a probar
+una compilación independiente de Babele.

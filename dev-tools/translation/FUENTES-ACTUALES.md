@@ -49,7 +49,8 @@ Páginas de diario: 686.
   incrustado en actores. Las cifras acumuladas del manifiesto incluyen este equipo.
 - El recuento ignora referencias escalares como `Scene.journal`; no son diarios anidados.
 - Las actividades y avances proceden de documentos serializados en el entorno actual.
-  La migración y aplicación de traducciones se comprobarán en el piloto, no se dan por probadas.
+  La migración, aplicación e importación se comprobaron en el cierre del 25 de septiembre;
+  véase [el informe final](INFORME-REVISION.md), incluida la limitación de Babele local.
 
 La exportación del primer intento (`2026-09-24T19-11-27-351Z`) se conserva como evidencia
 de un error de recuento de referencias de escena; no debe usarse como línea base.

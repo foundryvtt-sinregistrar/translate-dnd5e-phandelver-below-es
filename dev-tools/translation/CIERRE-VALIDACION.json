@@ -1,0 +1,80 @@
+{
+  "runtimeDate": "2026-09-25T02:29:45.883Z",
+  "importDate": "2026-09-25T02:43:09.096Z",
+  "coverage": [
+    {
+      "collection": "dnd-phandelver-below.pbso-adventures",
+      "total": 6718,
+      "present": 6718
+    },
+    {
+      "collection": "dnd-phandelver-below.pbso-bestiary",
+      "total": 3227,
+      "present": 3227
+    },
+    {
+      "collection": "dnd-phandelver-below.pbso-items",
+      "total": 377,
+      "present": 377
+    },
+    {
+      "collection": "dnd-phandelver-below.pbso-player-options",
+      "total": 97,
+      "present": 97
+    },
+    {
+      "collection": "dnd-phandelver-below.pbso-player-tables",
+      "total": 436,
+      "present": 436
+    }
+  ],
+  "integralErrors": 0,
+  "unchangedLongText": 0,
+  "runtimeSummary": {
+    "text_fields": 10288,
+    "babele_metadata": 13424
+  },
+  "protectedChanges": 0,
+  "importCounts": {
+    "actors": {
+      "expected": 163,
+      "imported": 163
+    },
+    "items": {
+      "expected": 253,
+      "imported": 253
+    },
+    "journal": {
+      "expected": 61,
+      "imported": 61
+    },
+    "scenes": {
+      "expected": 35,
+      "imported": 35
+    },
+    "tables": {
+      "expected": 12,
+      "imported": 12
+    },
+    "macros": {
+      "expected": 10,
+      "imported": 10
+    },
+    "folders": {
+      "expected": 71,
+      "imported": 71
+    }
+  },
+  "worldFieldsCompared": 6715,
+  "importErrors": 0,
+  "importNormalizations": 74,
+  "referencesChecked": 1404,
+  "inheritedUnresolvedReferences": 9,
+  "payloadSha256": {
+    "dnd-phandelver-below.pbso-adventures.json": "4bafec8a3c25bee86d6637e01cf1624a7def7475b207dacb0a8df0ee33830a14",
+    "dnd-phandelver-below.pbso-bestiary.json": "c403f025af675fea66d5a8d2c14f00fff44cbfcc19e043fa0c97750dc0eca252",
+    "dnd-phandelver-below.pbso-items.json": "b13ff2402292baef8d4e0226f38a0b54c7573c8b9528178c2d0db3ffb65a9a00",
+    "dnd-phandelver-below.pbso-player-options.json": "ee599771c430c8e87e331a307c8832dbbedf7a1773ab79d23e44f8ad6b0d62b8",
+    "dnd-phandelver-below.pbso-player-tables.json": "5da4d3cc85d111f9a18ccc97f0afb4f11aaa66cebca73884ef08812958bbb05a"
+  }
+}

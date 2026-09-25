@@ -1,37 +1,31 @@
 # Estado de la traducción
 
-Actualizado: 24 de septiembre de 2026.
+Actualizado: 25 de septiembre de 2026. Rama: `feature/dnd5e-6.0.3`.
 
-**Traducción parcial; integración del contenido existente validada.**
-Se corrigieron registro, identidad y carga de convertidores; se tradujeron
-presentación, pie de portada y las 31 cadenas de interfaz propias del módulo.
-El resto de la prosa no tiene todavía aprobación editorial integral.
+**Revisión editorial terminada para los cinco packs y Adventure.**
+Los 10.855/10.855 campos previstos tienen payload. Los controles de HTML,
+números, monedas, sintaxis Foundry y evidencias por hash pasan sin errores.
 
-Fase 2 en curso: registro limitado al español y claves de diarios, páginas y
-carpetas migradas a IDs, conservando el texto existente. Once pruebas superadas;
-406 documentos procesados en Foundry sin errores. Mapeos de otros tipos
-pendientes. Véase [mapeos](MAPEOS.md).
+| Contenido | Cobertura |
+|---|---:|
+| Objetos | 165/165 documentos; 377 campos |
+| Bestiario | 148/148 documentos; 3.227 campos |
+| Opciones de personaje | 39/39 documentos; 97 campos |
+| Tablas de jugador | 53/53 documentos; 436 campos |
+| Adventure | 1/1; 6.718 campos |
+| Diarios y páginas | 61 diarios; 686 páginas; 521/521 textos |
+| Interfaz propia PBSO | 31/31 claves |
 
-- Diagnóstico histórico: 53 tablas con entradas, tres packs vacíos y Adventure
-  con carpetas y diarios parcialmente cubiertos. Véase [inventario](INVENTARIO.md).
-- 310 páginas incluidas frente a 686 del export histórico; no equivale a 310
-  páginas revisadas ni a 376 páginas necesariamente narrativas sin traducir.
-- Originales actuales exportados y validados en Foundry 14.368 / dnd5e 6.0.3:
-  406 documentos principales, 686 páginas y SHA-256 correctos. IDs principales
-  sin altas ni bajas respecto al histórico. Véase [fuentes actuales](FUENTES-ACTUALES.md).
-- Dos PDF preparados como referencia local con manifiestos, texto por página,
-  capa nativa, bloques y OCR. Véase [guía de extracción](../export/README.md).
-- Roadmap, procedimiento, criterios de glosario y controles de validación creados.
+Se completaron los 918 originales distintos del bestiario, los 214 textos
+exclusivos de Adventure y la lectura bilingüe de las 309 páginas heredadas.
+Las copias solo reutilizan traducciones con original coincidente.
 
-Hay 309 textos traducidos de 521 páginas con texto: faltan 212, además de
-títulos y pies de ilustraciones. Véase [cobertura por diario](COBERTURA-ACTUAL.md).
+En Foundry 14.368 / dnd5e 6.0.3 se validaron 406 documentos y se importó toda
+la aventura en el mundo de pruebas `ddn5e-603-phandelver-below`, sin colisiones
+previas de IDs de Adventure. La comparación posterior comprueba 6.715 campos
+del mundo sin errores; otros tres pertenecen al importador. Las nueve referencias
+sin destino heredadas del original se documentan en el [informe](INFORME-REVISION.md).
 
-Quedan pendientes los demás tipos del piloto, revisión por capítulos y packs,
-cierre numérico y terminológico, importación completa e instalación del ZIP.
-El [informe de revisión](INFORME-REVISION.md) distingue resultados y pendientes.
-El [pack de opciones](LOTE-OPCIONES.md) tiene ahora 39 entradas traducidas,
-32 descripciones y 25 nombres de avances; quedan vacíos objetos y bestiario.
-Se creó la macro «Phandelver — Exportar originales 14.368» y se
-desactivó temporalmente la traducción para exportar; después se restauró.
-Babele permaneció activo por dependencias. Se creó un diario piloto en
-«Phandelver - Revision»; no se importó la aventura completa.
+La prueba usa la instalación local de Babele identificada como 2.9.1, con su
+registro moderno de convertidores. No acredita otras compilaciones con el mismo
+número de versión. No se ha publicado una release ni hecho push.

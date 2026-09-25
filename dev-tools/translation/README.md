@@ -1,5 +1,11 @@
 # Procedimiento de revisión
 
+La revisión actual está cerrada; consultar [informe](INFORME-REVISION.md) y
+[validación](VALIDACION.md). Para repetir la generación, aplicar los lotes y
+memorias exactas primero y `apply_editorial_polish.py` al final. La pasada
+final actualiza huellas sin borrar el tipo de revisión previamente registrado.
+No regenerar decisiones editoriales a partir de heurísticas de cobertura.
+
 1. Leer el [roadmap](../ROADMAP.md) y congelar una copia de la exportación histórica.
 2. La fase 1 ya dispone de [fuentes actuales](FUENTES-ACTUALES.md). Para renovarlas,
    usar el exportador de documentos completos con la traducción desactivada y

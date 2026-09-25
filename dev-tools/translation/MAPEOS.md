@@ -1,70 +1,42 @@
-# Revisión de mapeos: fase 2
+# Mapeos comprobados
 
-## Puntos implementados y comprobados
+Cierre: 25 de septiembre de 2026.
 
-1. Registro de idioma: `babele.init` y `setup`; solo español y sus variantes.
-   No consulta ajustes antes de que existan. Pruebas `en`, `fr`, `es`, `es-ES`.
-2. Identidad de Adventure: 61 diarios, 310 páginas traducidas y 71 carpetas
-   pasan a claves `_id`. La reconstrucción de las claves históricas usa el
-   algoritmo de nombres/IDs del exportador y verifica los textos ingleses de
-   todas las páginas contra los originales actuales antes de modificar nada.
-3. Convertidores de carpetas y diarios con campos permitidos explícitos:
-   nombres, texto y pies de imagen. No aceptan cambios de IDs, recursos gráficos,
-   scripts, orden, permisos, fórmulas ni campos mecánicos. No buscan traducciones
-   de diarios por nombre en otros packs. Mantienen las páginas todavía sin traducir.
+El registro se realiza en `babele.init` y `setup`, solo para español y sus
+variantes. Las claves son IDs originales; no se colapsan diarios, carpetas o
+páginas con nombres repetidos.
 
-La migración no revisa ni genera prosa. Las carpetas que compartían nombre
-conservan la misma traducción existente, ahora con identidad independiente.
-El script aborta ante páginas inglesas cambiadas o campos no contemplados;
-una segunda ejecución no vuelve a migrar las claves.
+| Contenido | Campos de texto |
+|---|---|
+| Adventure | Nombre, descripción y pie; colecciones anidadas |
+| Diarios y páginas | Nombre, contenido y pie de imagen |
+| Carpetas | Nombre por ID |
+| Objetos | Nombre, descripción, requisitos, texto no identificado, chat, actividades, avances y efectos |
+| Actores | Nombre, biografía, ficha, alineamiento, hábitat, tipo, sentidos, idiomas y objetos |
+| Escenas | Nombre, navegación, notas, dibujos, fichas, ActorDelta, niveles y regiones |
+| Tablas | Nombre, descripción, etiquetas y descripciones de resultados |
+| Macros | Nombre; comandos conservados |
+| Interfaz | 31 claves PBSO con parámetros intactos |
 
-```powershell
-python dev-tools/translation/migrate_adventure_ids.py
-python dev-tools/translation/inventory_current.py
-node --test dev-tools/export/test-export.mjs dev-tools/translation/test-registration.mjs dev-tools/translation/test-adventure-text.mjs
-```
+`document-fallback.mjs` conserva el respaldo de Babele y reaplica los valores
+explícitos por ID, incluidos nombres propios iguales al original inglés.
+Los avances admiten el esquema actual por ID y el anterior por lista.
 
-Resultado: 11 pruebas superadas, incluida aplicación sobre las fuentes privadas
-reales. La prueba restaura solo los campos de texto previstos y compara toda la
-estructura resultante con los originales para detectar modificaciones extra.
-Si faltan los originales locales, esa prueba se omite explícitamente.
+`adventure-import.mjs` usa el callback `postImport` de Foundry 14 para conservar
+los nombres propios de las fichas tras la sincronización de Babele. Solo actúa
+en español, sobre PBSO y las escenas incluidas en la importación; no recorre
+otras escenas del mundo ni cambia ajustes de Babele.
 
-## Pendiente para cerrar la fase
+Las pruebas comprueban identidad, orden, recursos gráficos, enlaces, fórmulas,
+comandos, permisos y mecánicas. La salida real de Babele sobre 406 documentos
+tiene cero cambios fuera de texto permitido y metadatos de traducción.
+Adventure importado: 6.715 campos del mundo comprobados sin diferencias
+pendientes; normalizaciones precisas documentadas en el informe.
 
-- Integración de diarios y carpetas comprobada con Babele 2.9.1; diario piloto
-  importado y abierto. Importación completa de carpetas todavía pendiente.
-- Completar la matriz de campos y pruebas para actores, objetos, actividades,
-  avances, efectos, tablas, escenas, tokens y ActorDelta; estos convertidores no
-  pretenden cubrir colecciones para las que aún no existe traducción.
-- Ejecutar el piloto de la fase 4 y comprobar las copias importadas.
+El diagnóstico histórico `INVENTARIO.md` se conserva. Para comprobar el
+payload actual usar `check_reviewed.py`, `audit_integral.py` y
+`audit_current.py`; para la importación, `audit_import.py`.
 
-No se ha elevado `compatibility.verified` por superar pruebas unitarias.
-La fase 2 permanece en curso para los tipos todavía sin payload propio.
-`INVENTARIO.md` conserva el diagnóstico anterior a esta migración; su comparación
-por nombres no debe regenerarse sobre claves por ID. Usar `inventory_current.py`.
-
-## Matriz de alcance actual
-
-| Colección / campo | Aplicación | Resultado |
-|---|---|---|
-| Adventure: name, description, caption | Mapeo estándar Babele | Comprobado en runtime y presentación visible |
-| Adventure: folders.name | Convertidor propio por ID | 71 nombres comprobados |
-| Adventure: journal.name, pages.name/text/image.caption | Convertidor propio por ID | Aplicación y conservación estructural comprobadas; diario piloto importado |
-| RollTable: name, description, results.description | Mapeo estándar; resultados por rango | 53 tablas comprobadas contra payload |
-| Actor: nombre, biografía, token, objetos, actividades y efectos | Sin payload propio | Cobertura pendiente; otros módulos pueden aportar traducciones de respaldo |
-| Item del pack de objetos: nombre, descripción, actividades, avances y efectos | Sin payload propio | Cobertura pendiente |
-| Item del pack de opciones: nombre, descripción y nombres de avances | Texto estándar y `phandelverAdvancementNames` | 39 entradas; avances por ID, sin alterar concesiones; Charlatán importado |
-| Scene: nombre, notas, tokens y ActorDelta | Sin payload propio | Cobertura pendiente |
-| Macro: nombre y descripción | Sin payload propio | Cobertura pendiente; no traducir comandos |
-| Interfaz PBSO | `lang/es.json` | 31 claves, parámetros y etiquetas conservados |
-
-`audit_runtime.py` compara las salidas Babele guardadas contra las fuentes.
-Permite solo rutas de texto expresamente enumeradas y metadatos Babele; en
-esta ejecución encontró cero cambios fuera de ellas. Se incluyen traducciones
-de respaldo de otros módulos activos: no atribuirlas al payload de Phandelver.
-
-El convertidor de avances conserva la colección por ID de dnd5e 6 y las listas
-antiguas, y solo escribe `name` o el `title` antiguo si existe en la fuente.
-Dos pruebas cubren ambos formatos, inmutabilidad y rechazo de cambios mecánicos
-inyectados en el payload. Las pruebas de estructura antigua no certifican una
-sesión completa con una versión anterior del sistema.
+La implementación se ha probado con la instalación local de Babele 2.9.1
+que expone `converterRegistry.named('document')`. No se deduce compatibilidad
+con otra compilación únicamente porque declare el mismo número de versión.

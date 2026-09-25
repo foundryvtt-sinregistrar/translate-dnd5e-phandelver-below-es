@@ -1,29 +1,26 @@
-# Revisión de avisos numéricos y HTML
+# Revisión numérica
 
-Fuente: `2026-09-24T19-12-21-788Z`. Revisión: 24 de septiembre de 2026.
-El auditor conserva las incidencias incluso cuando se justifican aquí.
-Estas decisiones no certifican el resto de la prosa de cada página.
+Cerrada el 25 de septiembre de 2026.
 
-La normalización de separadores de miles reduce 114 avisos iniciales a 106.
-No se normalizan automáticamente distancias o pesos: hacerlo podría ocultar
-una conversión incorrecta. Cien páginas contienen unidades inglesas; necesitan
-contraste contextual antes de cerrar su revisión numérica.
+Se revisaron las 309 páginas heredadas y se contrastaron cifras de los nuevos
+textos con los originales actuales. Las conversiones aproximadas a metros
+se sustituyeron por las distancias originales en pies y millas, conservando
+las cantidades. Se revisaron alturas, áreas, recorridos, CD, daño, tiempos,
+precios, tesoros y rarezas.
 
-| Página / ID | Diferencia revisada | Decisión |
-|---|---|---|
-| What's Next, capítulo 3 / `kDodSyEJUYOo5Xmr` | `10 percent` → `diez por ciento` | Equivalente; conservar |
-| Hobgoblin Quarters / `9I6vEKaSMk4uePzW` | `1 lb.` → `medio kilo` | Redondeo de peso; conservar por ahora y documentar criterio métrico del lote |
-| Blighted Farmhouse / `YDPtsSj1aArP6AIQ` | `round 3` → `tercer asalto` | Equivalente; conservar |
-| What's Next, capítulo 4 / `7g2ZWQD6JkswodUi` | `10 percent` → `diez por ciento` | Equivalente; conservar |
-| Crypt Hauntings / `4WGf0GMNYJlIPjmd` | `d6` → `1d6` | Equivalente; conservar |
-| Deepening Hall / `yxyyMpycWR6HIKnx` | Dos repeticiones de `T3` abreviadas en la prosa | El referente y el enlace T3 permanecen; conserva llegada tras 3 asaltos |
+Se normalizan separadores de miles para comparar, sin ocultar cambios de
+cantidad. Las monedas se contrastan por cantidad y denominación:
+EN gp/sp/pp/ep/cp corresponde a ES po/pp/ppt/pe/pc. Se corrigió, entre otros,
+el tesoro de 510 monedas de platino que figuraba como plata.
 
-El único aviso de atributos HTML corresponde a `jGmKQG6znZFpZGhu`
-(Cragmaw Hideout): cinco `data-tooltip` de monedas pasan de Platinum, Gold,
-Electrum, Silver y Copper a Platino, Oro, Electro, Plata y Cobre. Son etiquetas
-visibles traducibles; se mantienen los demás atributos y destinos.
+Las fórmulas, UUID, etiquetas técnicas y automatizaciones se comparan aparte.
+Los comentarios visibles de tiradas pueden traducirse; sus fórmulas no cambian.
+Solo se permiten traducciones HTML enumeradas expresamente (por ejemplo,
+etiquetas accesibles de monedas).
 
-No se han detectado diferencias en los destinos `@UUID`, instrucciones
-`@Embed`, expresiones de tirada ni referencias reconocidas por el auditor.
-Esto compara cadenas; no comprueba que todos los destinos se resuelvan en un
-mundo importado ni demuestra equivalencia semántica de todo el HTML.
+`audit_integral.py`: 10.855 campos, cero diferencias de números, monedas,
+sintaxis técnica o atributos HTML. `audit_current.py`: cero incidencias.
+Los avisos numéricos del diagnóstico inicial ya no son pendientes actuales.
+
+Las contradicciones del original permanecen identificadas en los lotes.
+Los PDF son auxiliares; la fuente actual de Foundry determina valores técnicos.

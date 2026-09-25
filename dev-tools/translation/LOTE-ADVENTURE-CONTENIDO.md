@@ -27,3 +27,25 @@ moneda (`1,250gp` frente a `1.250 po`). Dos pruebas verifican esa equivalencia y
 el rechazo de importes distintos, además de dados, alcances y decimales.
 
 Cero errores en `check_reviewed.py`. Validación integral de Foundry pendiente.
+
+## Cierre de cobertura: originales 0151–0214
+
+Adventure alcanza **6.718/6.718 campos**, incluidas las 521 páginas con texto
+original. Los 214 originales pendientes quedan resueltos: 213 mediante los
+lotes de prosa y 0174 mediante la composición verificada del índice de actores.
+Se completan ayudas, créditos, encuentros, capítulo 8 y cambios oficiales.
+El historial 0214 se compone a partir de 138 apartados revisados, conservando
+literalmente UUID y enlaces a incidencias.
+
+Se corrige el cierre mal formado de `Reference[total-cover]` del Mordisco del
+gusano púrpura. La excepción se limita a ese defecto exacto y las pruebas
+siguen rechazando cambios en daño o cobertura. También se preservan destinos
+UUID exactos cuando dos packs contienen el mismo ID: la adaptación entre packs
+rechaza destinos ambiguos en lugar de sustituir uno por otro.
+
+El acertijo de Valsyx se adapta al español manteniendo la secuencia de palabras
+que permite resolverlo. Se conserva el contenido de las notas oficiales de
+cambios como registro histórico, no como descripción del estado actual.
+
+La cobertura completa no cierra por sí sola la revisión integral: quedan la
+auditoría editorial del texto heredado y la validación de esta versión en Foundry.

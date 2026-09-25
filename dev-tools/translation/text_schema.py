@@ -13,9 +13,15 @@ DATA = ROOT / 'dev-tools/export/_data'
 SOURCE = DATA / 'source-current/2026-09-24T19-12-21-788Z'
 UUID = re.compile(r'Compendium\.[^.\s\]]+\.[^.\s\]]+\.[^\]\s]+')
 TECH = re.compile(r'@[A-Za-z][A-Za-z0-9]*\[[^\]]+\]|\[\[[\s\S]*?\]\]|&(?:amp;)?[Rr]eference\[[^\]]+\]')
+def repair_known_markup(text):
+    # Original Adventure purple-worm Bite has a closing brace instead of ].
+    return text.replace('&amp;Reference[total-cover}{total cover}', '&amp;Reference[total-cover]{total cover}')
+
 def technical(text):
+    text = repair_known_markup(text)
     return sorted(re.sub(r'\s+#\s+[^\]]+(?=\]\]$)', '', x) for x in TECH.findall(text))
 def numbers(text):
+    text = repair_known_markup(text)
     text = re.sub(r'<[^>]+>', ' ', TECH.sub(' ', text))
     text = re.sub(r'\b\d{1,3}(?:[,.]\d{3})+(?!\d)', lambda m:re.sub('[,.]', '', m[0]), text)
     return sorted(re.findall(r'\d+', text))
@@ -25,10 +31,13 @@ def normalize(s):
     s = UUID.sub(lambda m: canonical_uuid(m[0]), s)
     return re.sub(r'\s+', ' ', s.strip()).replace('’', "'")
 def adapt(source, translated):
-    destinations = {canonical_uuid(m[0]): m[0] for m in UUID.finditer(source)}
+    exact = {m[0] for m in UUID.finditer(source)}
+    destinations = defaultdict(set)
+    for uuid in exact:
+        destinations[canonical_uuid(uuid)].add(uuid)
     for m in UUID.finditer(translated):
-        if canonical_uuid(m[0]) not in destinations: return None
-    result = UUID.sub(lambda m: destinations[canonical_uuid(m[0])], translated)
+        if m[0] not in exact and len(destinations.get(canonical_uuid(m[0]), ())) != 1: return None
+    result = UUID.sub(lambda m: m[0] if m[0] in exact else next(iter(destinations[canonical_uuid(m[0])])), translated)
     if technical(source) != technical(result) or numbers(source) != numbers(result): return None
     return result
 def base_fields(doc, kind, prefix=()):

@@ -52,21 +52,21 @@ Fuente: `2026-09-24T19-12-21-788Z`. La presencia de texto no certifica revisión
 | Tunnels of the Deep (`pbsoCh7tunnelsde`) | 13 | 13 | 13 | 0 |
 | Art Handouts (`pbsoCh8arthandou`) | 16 | 0 | 0 | 0 |
 | Atlas (`pbsoCh8atlas0000`) | 18 | 0 | 0 | 0 |
-| Beyond a Lightless Star (`pbsoChapter80000`) | 7 | 7 | 3 | 4 |
-| Briny Maze (`pbsoCh8brinymaze`) | 25 | 25 | 12 | 13 |
-| The Endless Void (`pbsoCh8void00000`) | 2 | 2 | 0 | 2 |
-| Crystal Dome (`pbsoCrystalDome0`) | 1 | 1 | 0 | 1 |
-| Empty Bridge (`pbsoEmptyBridge0`) | 1 | 1 | 0 | 1 |
-| Ilvaash's Anima (`pbsoIlvaashsAnim`) | 5 | 5 | 0 | 5 |
-| Mire of Doubt (`pbsoMireOfDoubt0`) | 4 | 4 | 0 | 4 |
-| Occluding Miasma (`pbsoOccludingMia`) | 1 | 1 | 0 | 1 |
-| The Nematode (`pbsoTheNematode0`) | 5 | 5 | 0 | 5 |
-| Toppled Statue (`pbsoToppledStatu`) | 1 | 1 | 0 | 1 |
-| Wailing Battlefield (`pbsoWailingBattl`) | 3 | 3 | 0 | 3 |
-| Credits & License (`pbsoCredits00000`) | 4 | 4 | 0 | 4 |
-| Foundry and Adventure Advice (`pbsoFoundryAndAd`) | 5 | 5 | 0 | 5 |
-| Phandelver and Below Changelog (`pbsoChangelog000`) | 8 | 8 | 0 | 8 |
-| Actor Index (`pbsoActorIndex00`) | 155 | 155 | 0 | 155 |
+| Beyond a Lightless Star (`pbsoChapter80000`) | 7 | 7 | 7 | 0 |
+| Briny Maze (`pbsoCh8brinymaze`) | 25 | 25 | 25 | 0 |
+| The Endless Void (`pbsoCh8void00000`) | 2 | 2 | 2 | 0 |
+| Crystal Dome (`pbsoCrystalDome0`) | 1 | 1 | 1 | 0 |
+| Empty Bridge (`pbsoEmptyBridge0`) | 1 | 1 | 1 | 0 |
+| Ilvaash's Anima (`pbsoIlvaashsAnim`) | 5 | 5 | 5 | 0 |
+| Mire of Doubt (`pbsoMireOfDoubt0`) | 4 | 4 | 4 | 0 |
+| Occluding Miasma (`pbsoOccludingMia`) | 1 | 1 | 1 | 0 |
+| The Nematode (`pbsoTheNematode0`) | 5 | 5 | 5 | 0 |
+| Toppled Statue (`pbsoToppledStatu`) | 1 | 1 | 1 | 0 |
+| Wailing Battlefield (`pbsoWailingBattl`) | 3 | 3 | 3 | 0 |
+| Credits & License (`pbsoCredits00000`) | 4 | 4 | 4 | 0 |
+| Foundry and Adventure Advice (`pbsoFoundryAndAd`) | 5 | 5 | 5 | 0 |
+| Phandelver and Below Changelog (`pbsoChangelog000`) | 8 | 8 | 8 | 0 |
+| Actor Index (`pbsoActorIndex00`) | 155 | 155 | 155 | 0 |
 
 Los detalles por ID y las incidencias están en `../export/_data/translation-audit.json`.
 Los avisos numéricos no se corrigen automáticamente: pueden reflejar unidades o diferencias reales.

@@ -20,7 +20,10 @@ def configure():
         path=ROOT/f'compendium/dnd-phandelver-below.{name}.json';payload=load(path)
         if name in ['pbso-items','pbso-player-options']:payload['mapping'].update(item)
         elif name=='pbso-bestiary':payload['mapping'].update(actor)
-        else:payload['mapping'].update({'items':documents('items','Item',item),'actors':documents('actors','Actor',actor)})
+        else:payload['mapping'].update({'items':documents('items','Item',item),'actors':documents('actors','Actor',actor),
+            'scenes':{'path':'scenes','converter':'phandelverScenes'},
+            'tables':{'path':'tables','converter':'phandelverTables'},
+            'macros':{'path':'macros','converter':'phandelverMacros'}})
         save(path,payload)
 
 if __name__=='__main__':configure()

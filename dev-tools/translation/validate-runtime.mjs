@@ -42,6 +42,26 @@ function verifyActor(actor,patch,address) {
   }
 }
 
+function verifyScene(scene,patch,address) {
+  for (const [key,path] of Object.entries({name:'name',navigation:'navName'})) {
+    if (patch[key]!==undefined) require(scene?.[path]===patch[key],`${address}.${key}`);
+  }
+  for (const [group,field] of Object.entries({tokens:'name',levels:'name',notes:'text',drawings:'text',regions:'name'})) {
+    for (const [id,labels] of Object.entries(patch[group] ?? {})) {
+      const actual=scene[group]?.find(value=>value._id===id);
+      require(actual,`${address}.${group}.${id} missing`);
+      if (labels[field]!==undefined) require(actual[field]===labels[field],`${address}.${group}.${id}.${field}`);
+      if (group==='tokens' && labels.delta) verifyActor(actual.delta,labels.delta,`${address}.tokens.${id}.delta`);
+      if (group==='regions') for (const [bid,behavior] of Object.entries(labels.behaviors ?? {})) {
+        const found=actual.behaviors.find(value=>value._id===bid);
+        for (const [alias,path] of Object.entries({name:'name',text:'system.text',revealedDialog:'system.dialog.revealed',unrevealedDialog:'system.dialog.unrevealed'})) {
+          if (behavior[alias]!==undefined) require(path.split('.').reduce((v,k)=>v?.[k],found)===behavior[alias],`${address}.regions.${id}.${bid}.${alias}`);
+        }
+      }
+    }
+  }
+}
+
 export async function validateRuntime({pilot = false} = {}) {
   require(game.user.isGM && game.babele && game.modules.get(MODULE)?.active, 'GM, Babele and translation required');
   const report = {date:new Date().toISOString(), foundry:game.version, system:game.system.version,
@@ -71,6 +91,15 @@ export async function validateRuntime({pilot = false} = {}) {
         }
         if (collection.endsWith('.pbso-player-options') && original._id === 'pbsoCharlatan000') itemPilot = result;
         if (source.documentType === 'Adventure') {
+          for (const [id,scene] of Object.entries(patch.scenes ?? {})) verifyScene(result.scenes.find(s=>s._id===id),scene,`Adventure.scenes.${id}`);
+          for (const [id,macro] of Object.entries(patch.macros ?? {})) require(result.macros.find(m=>m._id===id)?.name===macro.name,`Adventure.macros.${id}`);
+          for (const [id,table] of Object.entries(patch.tables ?? {})) {
+            const actual=result.tables.find(t=>t._id===id);
+            for (const key of ['name','description']) if (table[key]!==undefined) require(actual?.[key]===table[key],`Adventure.tables.${id}.${key}`);
+            for (const [rid,row] of Object.entries(table.results ?? {})) for (const key of ['name','description']) {
+              if (row[key]!==undefined) require(actual.results.find(r=>r._id===rid)?.[key]===row[key],`Adventure.tables.${id}.results.${rid}.${key}`);
+            }
+          }
           for (const [id,item] of Object.entries(patch.items ?? {})) verifyItem(result.items.find(i=>i._id===id),item,`Adventure.items.${id}`);
           for (const [id,actor] of Object.entries(patch.actors ?? {})) verifyActor(result.actors.find(a=>a._id===id),actor,`Adventure.actors.${id}`);
           for (const field of ['description','caption']) {

@@ -79,6 +79,18 @@
           "converter": "phandelverEffects"
         }
       }
+    },
+    "scenes": {
+      "path": "scenes",
+      "converter": "phandelverScenes"
+    },
+    "tables": {
+      "path": "tables",
+      "converter": "phandelverTables"
+    },
+    "macros": {
+      "path": "macros",
+      "converter": "phandelverMacros"
     }
   },
   "entries": {
@@ -161,7 +173,33 @@
       },
       "journals": {
         "pbsoIntroArtHand": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "RDwDkiTY9FrLNQsf": {
+              "name": "Mañana idílica en Phandalin",
+              "caption": "Una mañana cualquiera en el idílico pueblo de Phandalin. Ilustración: Kent Davis"
+            },
+            "KxeEkVCfkglRmjdS": {
+              "name": "Goblins Cragmaw en combate",
+              "caption": "Los goblins Cragmaw hostigan Phandalin y sus alrededores. Ilustración: Brian Valeza"
+            },
+            "iYN3Uu0J7YxbHrkL": {
+              "name": "El misterioso obelisco",
+              "caption": "El misterioso obelisco netherino en el centro de esta historia"
+            },
+            "pfTKJtz5I0xCTXRI": {
+              "name": "Gundren Rockseeker",
+              "caption": "Gundren Rockseeker. Ilustración: Scott Murphy"
+            },
+            "rXJRMvFv6GB7q2XX": {
+              "name": "Aldeanos corrompidos",
+              "caption": "La corrupción azota Phandalin mientras los fanáticos de Ilvaash conspiran. Ilustración: Claudio Pozas"
+            },
+            "CA466QKcgH3DXP6W": {
+              "name": "Goblins psiónicos",
+              "caption": "Las fuerzas del Reino Lejano influyen en los goblins que buscan fragmentos del obelisco. Ilustración: Alexandre Honoré"
+            }
+          }
         },
         "pbsoWelcomeToPha": {
           "name": "Bienvenido a Phandalin",
@@ -201,10 +239,62 @@
           }
         },
         "pbsoCh1ArtHandou": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "MBogbj2CImVEJ7eM": {
+              "name": "Camino a Phandalin",
+              "caption": "El camino a Phandalin suele ser peligroso. Ilustración: Julio Reyna"
+            },
+            "BDmm7u9YNfM3qJ6O": {
+              "name": "Lobos Cragmaw",
+              "caption": "Los Cragmaw tienen lobos por todo su bastión. Ilustración: Brynn Metheney"
+            },
+            "ScpHnoM0XbPK8TuO": {
+              "name": "Sildar Hallwinter",
+              "caption": "Sildar Hallwinter. Ilustración: Nikki Dawes"
+            },
+            "16NkJzeTZpXEH2d5": {
+              "name": "Klarg el osgo",
+              "caption": "Klarg el osgo se considera un rey. Ilustración: Michele Giorgi"
+            },
+            "ejO5Wo71RD87roKl": {
+              "name": "Emboscada de goblins Cragmaw",
+              "caption": "A los goblins Cragmaw les encanta emboscar a viajeros desprevenidos en las tierras salvajes. Ilustración: Steve Prescott"
+            }
+          }
         },
         "pbsoCh1Atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "juPYbl8Usghk0zWp": {
+              "name": "Emboscada goblin (DM)",
+              "caption": "Emboscada goblin (DM)"
+            },
+            "jhAxRKkkwnl6VAA7": {
+              "name": "Guarida Cragmaw (DM)",
+              "caption": "Guarida Cragmaw (DM)"
+            },
+            "YeLimhsTmeYKrbcn": {
+              "name": "Guarida Cragmaw (jugadores)",
+              "caption": "Guarida Cragmaw (versión para jugadores)"
+            },
+            "XyDt8JV0bAbnxX2r": {
+              "name": "Emboscada goblin (jugadores)",
+              "caption": "Emboscada goblin (versión para jugadores)"
+            },
+            "UrjDSKcq2vSzOcPg": {
+              "name": "Mapa de la región (DM)",
+              "caption": "Región de la Costa de la Espada que rodea Phandalin"
+            },
+            "pMy7wXRfj67ChTG9": {
+              "name": "Mapa de la región (jugadores)",
+              "caption": "Región de la Costa de la Espada que rodea Phandalin"
+            },
+            "n1tn1KGtQ5itH2gS": {
+              "name": "Mapa de la región (sin etiquetas)",
+              "caption": "Región de la Costa de la Espada que rodea Phandalin"
+            }
+          }
         },
         "pbsoChapter1ADan": {
           "name": "Un viaje peligroso",
@@ -290,10 +380,85 @@
           }
         },
         "pbsoCh2ArtHandou": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "uUiqKfuCoySd1qNr": {
+              "name": "Bienvenida amistosa en Phandalin",
+              "caption": "Los habitantes de Phandalin reciben con entusiasmo a los visitantes amistosos. Ilustración: Kent Davis"
+            },
+            "v1MLn5AzxYaP9Rg7": {
+              "name": "Rufianes Redbrand",
+              "caption": "Un grupo de criminales con capas escarlatas lleva un tiempo causando problemas en Phandalin. Ilustración: Zoltan Boros"
+            },
+            "iMrTlxrODXeuefsb": {
+              "name": "Insignia de la Orden del Guantelete",
+              "caption": "Insignia de la Orden del Guantelete. Ilustración: Olga Drebas"
+            },
+            "1TBdyK1i9Nr20bfd": {
+              "name": "Linene Graywind",
+              "caption": "Linene Graywind. Ilustración: Robson Michel"
+            },
+            "PQssbeinsHtk8kzF": {
+              "name": "Insignia de los Arpistas",
+              "caption": "Insignia de los Arpistas. Ilustración: Olga Drebas"
+            },
+            "1J9tjaiwbk0rNe5c": {
+              "name": "Harbin Wester",
+              "caption": "Harbin Wester. Ilustración: Kent Davis"
+            },
+            "aDQgNZfrjgw0rvsi": {
+              "name": "Insignia de la Alianza de los Señores",
+              "caption": "Insignia de la Alianza de los Señores. Ilustración: Olga Drebas"
+            },
+            "KXZPcex0p4LQ1cM7": {
+              "name": "Las tierras salvajes de Phandalin",
+              "caption": "A los personajes les espera un largo viaje por las tierras salvajes de Phandalin. Ilustración: Ned Rogers"
+            },
+            "9N9b9F3DMIpSNLpc": {
+              "name": "Esqueletos en la cripta Tresendar",
+              "caption": "Las criptas de la mansión Tresendar, abandonadas hace mucho tiempo, albergan ahora sorpresas mortales. Ilustración: Zoltan Boros"
+            },
+            "ZgfBLOlvOlSNP3UL": {
+              "name": "Ssarnak el nótico",
+              "caption": "Ssarnak el nótico. Ilustración: Ilya Shipka"
+            },
+            "XAg8BIlStQHLLSKY": {
+              "name": "Goblins Cragmaw",
+              "caption": "Los goblins Cragmaw son una amenaza en toda la región de Phandalin. Ilustración: Simon Dominic"
+            },
+            "3IUNurKf9KHlZQY2": {
+              "name": "Iarno «Bastón de Cristal» Albrek",
+              "caption": "Iarno «Bastón de Cristal» Albrek. Ilustración: Alexandre Honoré"
+            },
+            "7HjA4btXP15Y48mV": {
+              "name": "Hermana Garaele"
+            },
+            "o9OGjXKlAD9tAfYv": {
+              "name": "Insignia de los Zhentarim",
+              "caption": "Insignia de los Zhentarim. Ilustración: Olga Drebas"
+            }
+          }
         },
         "pbsoCh2Atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "qMwMjRIb8Q1jbSOD": {
+              "name": "Pueblo de Phandalin (DM)",
+              "caption": "Pueblo de Phandalin"
+            },
+            "fQg3QQGCccq8wGHs": {
+              "name": "Pueblo de Phandalin (jugadores)",
+              "caption": "Pueblo de Phandalin"
+            },
+            "xDqKmluQ7etfrHuo": {
+              "name": "Guarida de los Redbrand (DM)",
+              "caption": "Guarida de los Redbrand (DM)"
+            },
+            "3gtJxcws6QEBLELV": {
+              "name": "Guarida de los Redbrand (jugadores)",
+              "caption": "Guarida de los Redbrand (jugadores)"
+            }
+          }
         },
         "pbsoChapter20000": {
           "name": "Problemas en Phandalin",
@@ -448,10 +613,74 @@
           }
         },
         "pbsoCh3ArtHandou": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "IAqUqO2R7ReiFY5E": {
+              "name": "La banshee Agatha",
+              "caption": "La banshee Agatha no tolera faltas de respeto ni amenazas en su hogar. Ilustración: Nikki Dawes"
+            },
+            "DVswpOTCzIYibSTK": {
+              "name": "La Senda de Triboar",
+              "caption": "La Senda de Triboar está llena de peligros, entre ellos osos lechuza hambrientos. Ilustración: Klaus Pillon"
+            },
+            "0QTbXuqjzn2C2CJr": {
+              "name": "Banquete en el Castillo Cragmaw",
+              "caption": "Los goblins del Castillo Cragmaw celebran a menudo banquetes ruidosos y caóticos. Ilustración: Wade Acuff"
+            },
+            "Qy4fMl80B1OtZqEA": {
+              "name": "Reidoth el druida",
+              "caption": "Reidoth el druida. Ilustración: Robson Michel"
+            },
+            "59UonVipRzDMsP5v": {
+              "name": "Insignia del Enclave Esmeralda",
+              "caption": "Insignia del Enclave Esmeralda. Olga Drebas"
+            },
+            "zvnc2CmZ10dNc1C3": {
+              "name": "Guarida de Venomfang",
+              "caption": "Un formidable dragón verde llamado Venomfang ha encontrado una nueva guarida. Ilustración: Hex Sharpe"
+            },
+            "4d407rS057Gi6SbF": {
+              "name": "Zombis de ceniza",
+              "caption": "Unos extraños zombis que expulsan nubes de ceniza amenazan la región de la Senda de Triboar. Ilustración: Vicki Pangestu"
+            }
+          }
         },
         "pbsoCh3Atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "PM5bvsbG0pXm1fuh": {
+              "name": "Castillo Cragmaw (DM)",
+              "caption": "Castillo Cragmaw. Ilustración: Mike Schley"
+            },
+            "xoYnK3rlBP3lh4Zl": {
+              "name": "Castillo Cragmaw (jugadores)",
+              "caption": "Castillo Cragmaw. Ilustración: Mike Schley"
+            },
+            "9TMzYiv7tNIs9VHy": {
+              "name": "Pozo del Viejo Búho (DM)",
+              "caption": "Pozo del Viejo Búho"
+            },
+            "esgPmFTSgPYXcmIi": {
+              "name": "Pozo del Viejo Búho (jugadores)",
+              "caption": "Pozo del Viejo Búho"
+            },
+            "nW2zCJ0jqpf0WWY5": {
+              "name": "Ruinas de Thundertree (DM)",
+              "caption": "Ruinas de Thundertree"
+            },
+            "jImT8abFOQyCabwV": {
+              "name": "Ruinas de Thundertree (jugadores)",
+              "caption": "Ruinas de Thundertree"
+            },
+            "G44pYysob4K1OCUm": {
+              "name": "Túmulo del Wyvern (DM)",
+              "caption": "Túmulo del Wyvern. Ilustración: Mike Schley"
+            },
+            "0jA3kU80C2DFy9eT": {
+              "name": "Túmulo del Wyvern (jugadores)",
+              "caption": "Túmulo del Wyvern. Ilustración: Mike Schley"
+            }
+          }
         },
         "pbsoChapter30000": {
           "name": "La Telaraña",
@@ -628,10 +857,45 @@
           }
         },
         "pbsoCh4ArtHandou": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "w2ox0iEfIIJPtli9": {
+              "name": "Los Rockseeker se acercan a la mina",
+              "caption": "Cuando los hermanos Rockseeker descubrieron la mina de la Cueva del Oleaje, no imaginaban que fuerzas tan malignas querrían apropiarse de sus riquezas. Ilustración: Scott Murphy"
+            },
+            "8SyEEyW3oAtA7mQI": {
+              "name": "Goblins psiónicos"
+            },
+            "3kkyuRwELwXZX4u1": {
+              "name": "Gelatina ocre",
+              "caption": "Las gelatinas ocres siempre son feroces, especialmente cuando están atrapadas en un callejón sin salida de la Cueva del Oleaje. Ilustración: Hex Sharpe"
+            },
+            "1cYGvmXIx8Uwh2gV": {
+              "name": "Mormesk la aparición",
+              "caption": "Mormesk la aparición. Ilustración: Nino Vecia"
+            },
+            "G9XMg5hrCO73BjEV": {
+              "name": "Espectador",
+              "caption": "Un espectador custodia los tesoros de la Forja de Conjuros. Ilustración: Lily Abdullina"
+            },
+            "TWD7Apyu04xdFEBi": {
+              "name": "Nezznar la Araña",
+              "caption": "El enfrentamiento con Nezznar la Araña es inevitable"
+            }
+          }
         },
         "pbsoCh4Atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "JKOHd3I5qzKFkNSK": {
+              "name": "Cueva del Oleaje (DM)",
+              "caption": "Cueva del Oleaje"
+            },
+            "AOG14JcZWxlXa0dd": {
+              "name": "Cueva del Oleaje (jugadores)",
+              "caption": "Cueva del Oleaje"
+            }
+          }
         },
         "pbsoChapter40000": {
           "name": "Cueva del Oleaje",
@@ -740,10 +1004,114 @@
           }
         },
         "pbsoArtHandouts0": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "NHD4twRyUEmYKE8R": {
+              "name": "Regreso a Phandalin",
+              "caption": "Cuando los héroes regresan a Phandalin, otro grupo de goblins está aterrorizando a sus habitantes. Ilustración: John Grello"
+            },
+            "tUXHEw4EMOweyStT": {
+              "name": "El apuro del alcalde",
+              "caption": "Aterrorizados e indignados, los habitantes exigen al alcalde Harbin Wester que tome medidas para detener los recientes crímenes. Ilustración: Domenico Cava"
+            },
+            "oTxVBoBZyoMQ05WD": {
+              "name": "Gwyn Oresong",
+              "caption": "Gwyn Oresong. Ilustración: CoupleOfKooks"
+            },
+            "Ln3xLbvw5GNdnmLf": {
+              "name": "Escena del crimen del pozo de Barthen",
+              "caption": "Los goblins destruyeron el pozo de Barthen al robar un fragmento del obelisco del torno. Ilustración: Hex Sharpe"
+            },
+            "bzcZKsk9JGONc5yJ": {
+              "name": "Escena del crimen del Gremio de Mineros",
+              "caption": "La destrucción de la piedra angular debilitó los cimientos del Gremio de Mineros. Ilustración: Hex Sharpe"
+            },
+            "Zh0BNQq8ekYKXr6r": {
+              "name": "Escena del crimen del Gigante Dormido",
+              "caption": "Los goblins destrozaron la barra del Gigante Dormido y robaron un fragmento del obelisco. Axel Defois"
+            },
+            "INJ7clXxlhDsnolP": {
+              "name": "Artesanos no muertos",
+              "caption": "En la Forja del Mirador, unos artesanos no muertos imitan las tareas que realizaban en vida. Son hostiles con cualquiera que los moleste. Ilustración: Domenico Cava"
+            },
+            "ZcNb6E3OZNYDhNgO": {
+              "name": "Hjoldak",
+              "caption": "Hjoldak. Ilustración: Brian Valeza"
+            },
+            "p1nDfJ2Hhh5XvlbZ": {
+              "name": "Grick cristalino",
+              "caption": "Los gricks de la caverna de cristal se parecen inquietantemente a su entorno. Crystal Sully"
+            },
+            "DqnCsLeKkItu6sWP": {
+              "name": "Ruxithid el Elegido",
+              "caption": "Ruxithid el Elegido. Ilustración: Brian Valeza"
+            },
+            "HrMlUbvDwp10SsNA": {
+              "name": "Sala de los rehenes",
+              "caption": "Sala de los rehenes. Ilustración: Devon Cady-Lee"
+            },
+            "loNXsG9OapLz8FrC": {
+              "name": "¿Qué viene después?",
+              "caption": "La siguiente etapa del viaje llevará a los personajes a las profundidades de las cavernas bajo Phandalin. Ilustración: Jason Engle"
+            },
+            "omkqjoR7BzNaw6vv": {
+              "name": "Escena del crimen del Santuario de la Suerte",
+              "caption": "Los goblins dañaron el Santuario de la Suerte al extraer el fragmento del obelisco de la cima del arco. Ilustración: Hex Sharpe"
+            }
+          }
         },
         "pbsoCh5atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "rh7nK1O3LsIKFAMT": {
+              "name": "Caverna del pozo (DM)",
+              "caption": "Caverna del pozo"
+            },
+            "u7xELCT6hW9uWTfM": {
+              "name": "Caverna del pozo (jugadores)",
+              "caption": "Caverna del pozo"
+            },
+            "ZcUs8Yob9gPBRuej": {
+              "name": "Campamento goblin (DM)",
+              "caption": "Campamento goblin"
+            },
+            "eRMKl35XK6R9lRpf": {
+              "name": "Callejones de Phandalin (DM)",
+              "caption": "Callejones de Phandalin"
+            },
+            "rcdM83jJv1cx9yYi": {
+              "name": "Callejones de Phandalin (jugadores)",
+              "caption": "Callejones de Phandalin"
+            },
+            "XtUBfKHrtkS3GSwj": {
+              "name": "Alijo del tejado (DM)",
+              "caption": "Alijo del tejado"
+            },
+            "oLUKXOYzuoSCohzg": {
+              "name": "Alijo del tejado (jugadores)",
+              "caption": "Alijo del tejado"
+            },
+            "1CNZNquBvPx2Zj6p": {
+              "name": "Descanso de Zorzula (DM)",
+              "caption": "Descanso de Zorzula"
+            },
+            "YsxQNjKwFxspLQ4Z": {
+              "name": "Descanso de Zorzula (jugadores)",
+              "caption": "Descanso de Zorzula"
+            },
+            "WSFRvVpIjqdc2Pnh": {
+              "name": "Santuario Índigo (DM)",
+              "caption": "Santuario Índigo"
+            },
+            "Mj28ZAPuQxJG4Uy1": {
+              "name": "Santuario Índigo (jugadores)",
+              "caption": "Santuario Índigo"
+            },
+            "RGKFbpWz5sCwOy3B": {
+              "name": "Campamento goblin (jugadores)",
+              "caption": "Campamento goblin"
+            }
+          }
         },
         "pbsoChapter50000": {
           "name": "Senderos peligrosos",
@@ -922,10 +1290,118 @@
           }
         },
         "pbsoCh6arthandou": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "oOcmv67blI8ocmbz": {
+              "name": "El Obelisco Fragmentado",
+              "caption": "Los secretos que aguardan a los héroes bajo tierra son aún más aterradores de lo que podrían imaginar. Ilustración: Kent Davis"
+            },
+            "fbw2MMGCPtGglt8O": {
+              "name": "Mapa de los goblins Sawplee",
+              "caption": "El mapa de los goblins Sawplee. Ilustración: Hex Sharpe"
+            },
+            "4AAiXmttMUdipUOG": {
+              "name": "La curiosidad de Pip",
+              "caption": "Un niño llamado Pip siguió a unos monstruos extraños hasta adentrarse en las colinas, y los personajes deben llevarlo sano y salvo a casa. Ilustración: Lily Abdullina"
+            },
+            "ntSsJ7ehieoGa5IQ": {
+              "name": "La vaca extraña",
+              "caption": "Daisy la vaca. Ilustración: Hex Sharpe"
+            },
+            "gxkCSlgtPmcXkuXC": {
+              "name": "Honna",
+              "caption": "Honna. Ilustración: Claudio Pozas"
+            },
+            "K0sk9yUnL6GI9b4f": {
+              "name": "Sala de lectura",
+              "caption": "Dos hermanos y sus compañeros se infiltraron en Talhundereth e intentan rescatar a su padre de un culto maligno. Ilustración: Domenico Cava"
+            },
+            "IXwbIrjTppIkyrkv": {
+              "name": "Estatua profanada",
+              "caption": "Malinia, una integrante del Culto del Obelisco, profana una estatua. Ilustración: Domenico Cava"
+            },
+            "8FCHemO036vXn3Bf": {
+              "name": "Salón de las procesiones",
+              "caption": "El salón de las procesiones que conduce a la Cripta de Talhund está flanqueado por estatuas sagradas de enanos. Ilustración: Chris Casciano"
+            },
+            "OT2hqLpxIxygk9jb": {
+              "name": "Cámara inundada",
+              "caption": "Las ruinas de la Cripta de Talhund sirven ahora de guarida a numerosos monstruos, entre ellos una hidra y un extraño de agua. Ilustración: Michele Giorgi"
+            },
+            "NCbV4h1LKToHW1Oe": {
+              "name": "Rivibiddel",
+              "caption": "Rivibiddel. Ilustración: CoupleOfKooks"
+            },
+            "07cqkmbJqMX7qaCO": {
+              "name": "Fragmento custodiado",
+              "caption": "Para encontrar el fragmento del obelisco oculto en la Cripta de Talhund hay que abrir un dispositivo complicado que da acceso a una sala secreta. Ilustración: Michele Giorgi"
+            },
+            "brCVU7WD0KyjUMyK": {
+              "name": "Fragmento del obelisco",
+              "caption": "Un mago escondió un fragmento del obelisco en una vagoneta de la Cripta de Talhund. Hex Sharpe"
+            },
+            "2pCvs5E7VM4DbCo5": {
+              "name": "Lazos al acecho",
+              "caption": "Los lazos acechan entre los túneles de la mina en ruinas. Ilustración: Warren Mahy"
+            },
+            "9HlBw1qvuWAJPLgt": {
+              "name": "Torre Mudslick",
+              "caption": "Torre Mudslick. Ilustración: Wade Acuff"
+            },
+            "9roFZaMRR5MvEO1E": {
+              "name": "Qunbraxel en su trono",
+              "caption": "Qunbraxel, líder de los grimlocks del Cruce del Cadalso, se sienta en un trono. Ilustración: Lily Abdullina"
+            },
+            "gbAQ3KwJT6QHxUai": {
+              "name": "Horrores de los túneles",
+              "caption": "Los personajes deben adentrarse en la Infraoscuridad para encontrar Illithinoch. En esos túneles los aguardan horrores de todo tipo. Ilustración: Conceptopolis"
+            }
+          }
         },
         "pbsoCh6atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "6U9OXB2deHkt3xKQ": {
+              "name": "Casa de Marthungrim (DM)",
+              "caption": "Casa de Marthungrim"
+            },
+            "iexIBXBDO6AqOhVs": {
+              "name": "Casa de Marthungrim (jugadores)",
+              "caption": "Casa de Marthungrim"
+            },
+            "x4wm3psQ8zCrmBvo": {
+              "name": "Mina Hardyhammer",
+              "caption": "Mina Hardyhammer"
+            },
+            "pMpwwb2h8AzQYPqQ": {
+              "name": "Talhundereth (DM)",
+              "caption": "Talhundereth"
+            },
+            "847syV7i6THz0pMK": {
+              "name": "Talhundereth (jugadores)",
+              "caption": "Talhundereth"
+            },
+            "3P7avnHeT0NoFmSo": {
+              "name": "Cripta de Talhund (DM)",
+              "caption": "Cripta de Talhund"
+            },
+            "cFgODRY2YL7rM92R": {
+              "name": "Cripta de Talhund (jugadores)",
+              "caption": "Cripta de Talhund"
+            },
+            "Iox0gWJXWMbZxi21": {
+              "name": "Cruce del Cadalso (DM)",
+              "caption": "Cruce del Cadalso"
+            },
+            "4fdNlBHHFWKPR0Rq": {
+              "name": "Cruce del Cadalso (jugadores)",
+              "caption": "Cruce del Cadalso"
+            },
+            "nrakRCrHl0OHOyKg": {
+              "name": "Mina Hardyhammer (jugadores)",
+              "caption": "Mina Hardyhammer"
+            }
+          }
         },
         "pbsoChapter60000": {
           "name": "El Obelisco Fragmentado",
@@ -1285,10 +1761,94 @@
           }
         },
         "pbsoAtlas0000000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "hjAfhSujfzgwmCmo": {
+              "name": "Fosas de alimentación (DM)",
+              "caption": "Fosas de alimentación"
+            },
+            "e0NJvtVeO4yOgfIm": {
+              "name": "Fosas de alimentación (jugadores)",
+              "caption": "Fosas de alimentación"
+            },
+            "o3uNIEmvWyzW9aGJ": {
+              "name": "Hondonada de la Progenie (DM)",
+              "caption": "Hondonada de la Progenie"
+            },
+            "V6YPIbvHxTj3NOGy": {
+              "name": "Hondonada de la Progenie (jugadores)",
+              "caption": "Hondonada de la Progenie"
+            },
+            "kjwhRdJXlJfJ4LmN": {
+              "name": "Laberinto de Ojos (DM)",
+              "caption": "Laberinto de Ojos"
+            },
+            "hnisJvLJSe8TgnZz": {
+              "name": "Laberinto de Ojos (jugadores)",
+              "caption": "Laberinto de Ojos"
+            },
+            "1ikCUsEkTsM4hVuY": {
+              "name": "Túneles de las profundidades (DM)",
+              "caption": "Túneles de las profundidades"
+            },
+            "1umea040Q1J829WF": {
+              "name": "Túneles de las profundidades (jugadores)",
+              "caption": "Túneles de las profundidades"
+            },
+            "KOzYezm9bY0EaSki": {
+              "name": "Illithinoch (DM)",
+              "caption": "Illithinoch"
+            },
+            "IsIRHdPX85OuM6ON": {
+              "name": "Illithinoch (jugadores)",
+              "caption": "Illithinoch"
+            }
+          }
         },
         "pbsoCh7art000000": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "X3YnRZWJnACGcOHz": {
+              "name": "Bastión de los azotamentes",
+              "caption": "El antiguo bastión azotamentes de Illithinoch se ha vuelto aún más aterrador con la aparición de un culto dedicado a una entidad maligna del Reino Lejano. Ilustración: Bruce Brenneise"
+            },
+            "9NHpZvDw9ht9p2xL": {
+              "name": "Habitantes infectados",
+              "caption": "La energía maligna de las actividades de los fanáticos de Ilvaash está corrompiendo Phandalin y a sus habitantes. Ilustración: Richard Luong"
+            },
+            "Rfa6htzc5XaKASrB": {
+              "name": "Puertas de Illithinoch",
+              "caption": "Las puertas de Illithinoch son viscosas y ominosas. Ilustración: Wade Acuff"
+            },
+            "B3EDV5hbyV6q63pi": {
+              "name": "Guardianes del planetario",
+              "caption": "Dos amenazadores slaads custodian el planetario de Illithinoch. Ilustración: Sarah Dahlinger"
+            },
+            "evtim7QPIXy8PUPm": {
+              "name": "Oshundo el alhoon",
+              "caption": "Oshundo el alhoon. Ilustración: Michele Giorgi"
+            },
+            "OqzumhlMmpAbZrkN": {
+              "name": "Cámara de experimentación",
+              "caption": "Los habitantes de Illithinoch participan en experimentos aterradores. Ilustración: Brian Valenzuela"
+            },
+            "DwXwImEnR4i8eVAw": {
+              "name": "Cerebro cubierto de limo",
+              "caption": "El Reino Lejano ha corrompido al cerebro anciano que nutre a los azotamentes de Illithinoch. Ilustración: Brian Valenzuela"
+            },
+            "epqj8hlUZJ3wuFKg": {
+              "name": "Diario del historiador",
+              "caption": "Diario de Thorgran Ironquill. Ilustración: Sarah Dahlinger"
+            },
+            "it15gDWRQz1HUPX5": {
+              "name": "Vundru, grell psíquico",
+              "caption": "Vundru, grell psíquico. Ilustración: Brian Valenzuela"
+            },
+            "khTcB01KkVIp1LM2": {
+              "name": "Criatura mutada de patrulla",
+              "caption": "La energía maligna del Reino Lejano ha transformado a este manto en algo espantoso. Ilustración: Alexandre Honoré"
+            }
+          }
         },
         "pbsoChapter70000": {
           "name": "Grietas en la realidad",
@@ -1531,10 +2091,150 @@
           }
         },
         "pbsoCh8arthandou": {
-          "name": "Material gráfico"
+          "name": "Material gráfico",
+          "pages": {
+            "If8OLyu8JJFJEAA5": {
+              "name": "La deidad menor",
+              "caption": "No conviene provocar a la deidad menor Ilvaash, sobre todo en su hogar del Reino Lejano. Ilustración: Richard Luong"
+            },
+            "fUEz2ulRYzaeabkw": {
+              "name": "Transformaciones progresivas",
+              "caption": "El ritual del Reino Lejano dirigido contra Phandalin está casi terminado, y sus habitantes y lugares ya han empezado a sufrir sus efectos. Ilustración: Lily Abdullina"
+            },
+            "WWoygBBEhTTrvvXE": {
+              "name": "Intrusos en el laberinto",
+              "caption": "El horror acecha en cada rincón del Laberinto Salino. Ilustración: Craig J Spearing"
+            },
+            "lge1WuzdRUmlI3eQ": {
+              "name": "Muro de la soberbia",
+              "caption": "Cinco magos intentaron extraer poder del reino de Ilvaash, a quien suponían débil. Se equivocaban. Ilustración: Craig J Spearing"
+            },
+            "S6rBtMaloz9gIzCx": {
+              "name": "Campamento githyanki",
+              "caption": "Unos githyanki se han refugiado en el Laberinto Salino e intentan averiguar cómo combatir sus males y escapar con vida. Ilustración: Brian Valenzuela"
+            },
+            "7dHxkL3DITHk0Ram": {
+              "name": "Shalfi",
+              "caption": "Shalfi. Ilustración: Nikki Dawes"
+            },
+            "rKd6uvrhRRGapsBK": {
+              "name": "Lowarnizel",
+              "caption": "Lowarnizel. Ilustración: Vicki Pangestu"
+            },
+            "Al7LJUgATGNZd9VB": {
+              "name": "Hacia la poza",
+              "caption": "Un agresivo gusano púrpura nada en la Poza Salina, una sima de varias millas de profundidad llena de líquido cerebral. Ilustración: Brian Valenzuela"
+            },
+            "vaplLHY0DDccRmms": {
+              "name": "Chishinix",
+              "caption": "Chishinix. Ilustración: Brian Valeza"
+            },
+            "talXab2YIN2dYkrQ": {
+              "name": "Hashutu",
+              "caption": "Hashutu. Ilustración: Tyler Walpole"
+            },
+            "fh8KrsuFrNv0rTGF": {
+              "name": "Voalsh",
+              "caption": "Voalsh. Ilustración: Tyler Walpole"
+            },
+            "AhXuavjr13RZNGqS": {
+              "name": "Ritual en curso",
+              "caption": "Los héroes deben impedir que los fanáticos azotamentes completen su ritual y transformen Phandalin en un reino de pesadilla. Ilustración: Tyler Walpole"
+            },
+            "aovZD91iJ1fpa3G1": {
+              "name": "Refracción de la deidad menor",
+              "caption": "Contemplar a la deidad menor Ilvaash liberar una mínima parte de su poder resulta aterrador. Ilustración: Wade Acuff"
+            },
+            "gUyGTcdVHOWkcir8": {
+              "name": "La paz y la armonía restauradas",
+              "caption": "Si los héroes consiguen detener a los fanáticos azotamentes, la paz y la armonía regresan al tranquilo pueblo de Phandalin. Ilustración: Domenico Cava"
+            },
+            "jGXx3COnk45Ah6b1": {
+              "name": "Phandalin corrompido",
+              "caption": "Hay otros obeliscos perdidos por el mundo que podrían descubrirse en futuras aventuras. Ilustración: Julie Dillon"
+            },
+            "bm8MdKWlLhVPscqG": {
+              "name": "Los tejedores",
+              "caption": "Los tejedores. Ilustración: John Stanko"
+            }
+          }
         },
         "pbsoCh8atlas0000": {
-          "name": "Atlas"
+          "name": "Atlas",
+          "pages": {
+            "XNYBnuFtdCmSkV2x": {
+              "name": "Laberinto Salino (DM)",
+              "caption": "Laberinto Salino"
+            },
+            "YyhooriKQ4Ulgajf": {
+              "name": "Laberinto Salino (jugadores)",
+              "caption": "Laberinto Salino"
+            },
+            "sVA4eQIgTCdE05Z5": {
+              "name": "Cúpula de Cristal",
+              "caption": "Cúpula de Cristal"
+            },
+            "Ml0DBGDV1t6Ypd5l": {
+              "name": "Puente Vacío (DM)",
+              "caption": "Puente Vacío"
+            },
+            "k3S4uyfdGksxTpT4": {
+              "name": "Pantano de la Duda (DM)",
+              "caption": "Pantano de la Duda"
+            },
+            "c6zQCgK4hgICpSJG": {
+              "name": "El Nematodo (DM)",
+              "caption": "El Nematodo"
+            },
+            "0UPdO2xdkTaQfaR5": {
+              "name": "El Nematodo (jugadores)",
+              "caption": "El Nematodo"
+            },
+            "1s3ZujwEU2YEZZdY": {
+              "name": "Miasma Ocultador (DM)",
+              "caption": "Miasma Ocultador"
+            },
+            "57Do09wT5wWyolEY": {
+              "name": "Estatua Derribada (DM)",
+              "caption": "Estatua Derribada"
+            },
+            "RN9bivYLfNTvoz6N": {
+              "name": "Campo de los Lamentos (DM)",
+              "caption": "Campo de los Lamentos"
+            },
+            "VNCZUm7S3bkJYvdy": {
+              "name": "Campo de los Lamentos (jugadores)",
+              "caption": "Campo de los Lamentos"
+            },
+            "wTjaGh75DNprrFuJ": {
+              "name": "Ánima de Ilvaash (jugadores)",
+              "caption": "Ánima de Ilvaash"
+            },
+            "yIZvzjtC4atsYTzI": {
+              "name": "Pantano de la Duda (jugadores)",
+              "caption": "Pantano de la Duda"
+            },
+            "NCNdxRPqw6Ml6d4M": {
+              "name": "Ánima de Ilvaash (DM)",
+              "caption": "Ánima de Ilvaash"
+            },
+            "U2X3uVzEa6ez2T6W": {
+              "name": "Cúpula de Cristal (jugadores)",
+              "caption": "Cúpula de Cristal"
+            },
+            "6xQoe5C0yX80h5SP": {
+              "name": "Puente Vacío (jugadores)",
+              "caption": "Puente Vacío"
+            },
+            "W3FglvouPDH7bEBE": {
+              "name": "Miasma Ocultador (jugadores)",
+              "caption": "Miasma Ocultador"
+            },
+            "259VlBUrTJ6v4hZY": {
+              "name": "Estatua Derribada (jugadores)",
+              "caption": "Estatua Derribada"
+            }
+          }
         },
         "pbsoChapter80000": {
           "name": "Más allá de un sol muerto",
@@ -1550,6 +2250,18 @@
             "l43vkp99mFNTfJUx": {
               "name": "Misiones y ubicaciones",
               "text": "<section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/commodities/biological/organ-brain-pink-purple.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoCh8brinymaze]{El Laberinto Salino}</h3><p>El dominio de @UUID[Actor.pbsoIlvaash00000]{Ilvaash} en el Reino Lejano es una confusa maraña de túneles y cámaras de aspecto inquietantemente orgánico. Quienes quedan atrapados en su interior quizá nunca comprendan que su forma general recuerda a un cerebro titánico. El Laberinto Salino contiene una acumulación de fluido cerebral alojada en el prosencéfalo del laberinto. Los personajes deben atravesarla a nado para llegar al @UUID[JournalEntry.pbsoCh8void00000]{Vacío Infinito}.</p></article></section><h2>El Vacío Infinito</h2><p>El corazón del dominio de Ilvaash es una inmensa extensión vacía en la que flotan nódulos titánicos como islas extrañas. Aparte de estas islas que giran lentamente, el @UUID[JournalEntry.pbsoCh8void00000]{Vacío Infinito} carece de terreno sólido y de una orientación constante. Consulta @UUID[JournalEntry.pbsoCh8void00000.JournalEntryPage.pnEdiCR4yFqmbens]{Viajar entre nódulos} para saber cómo pueden desplazarse los jugadores entre estos lugares.</p><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/commodities/gems/gem-faceted-round-black.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoCrystalDome0]{Cúpula de Cristal}</h3><p>Un nódulo de casi 60 metros de ancho flota en el vacío. De la parte superior sobresale, como una excrecencia grotesca, una cúpula de cristal ennegrecido de 18 metros de diámetro. Desde el lugar en el que aparecéis veis una larga pasarela del mismo cristal que se extiende desde una abertura de la cúpula.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/settlement/bridge-stone.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoEmptyBridge0]{Puente Vacío}</h3><p>Un río de agua oscura de 9 metros de ancho rodea este nódulo flotante como un anillo. Un puente de piedra plano conecta ambos lados de la isla y presenta una torre ruinosa en uno de sus extremos. Por la ventana del piso superior se ve una luz de fuego parpadeante.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/wilderness/tree-spruce.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoMireOfDoubt0]{Pantano de la Duda}</h3><p>Este nódulo flotante está cubierto de árboles con mantos de musgo que cuelgan de las ramas. Un muelle de piedra sobresale de un extremo junto a un sendero sinuoso. Una ligera niebla se aferra a los árboles y forma espirales y remolinos pese a la ausencia de viento.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/creatures/bug-worm-teeth-green.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoTheNematode0]{El Nematodo}</h3><p>Este nódulo tiene forma tubular y una enorme cueva en uno de sus extremos. Varios montones de musgo color óxido salpican su superficie viscosa.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/magic/air/fog-gas-smoke-swirling-green.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoOccludingMia]{Miasma Ocultador}</h3><p>Una nube turbulenta de color verde amarillento y forma aproximadamente esférica gira por el vacío.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/wilderness/statue-hound-horned.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoToppledStatu]{Estatua Derribada}</h3><p>Esta estatua metálica, antaño de 24 metros de altura, ha caído de su gran pedestal cúbico de metal. Representa a un azotamentes con túnica y una sonrisa humana apenas visible bajo los tentáculos faciales. Del pedestal llega un débil martilleo.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/settlement/building-rubble.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoWailingBattl]{Campo de los Lamentos}</h3><p>Los restos desmoronados de un antiguo campo de batalla cubren la parte superior y los laterales de este enorme nódulo. El humo se desliza por el campo y una pirámide derruida se alza sobre él. Un molino ennegrecido cuyas aspas giran lentamente mantiene apartado el humo. Un lamento constante emana del campo de batalla.</p></article></section><section class=\"fvtt advice\"><figure class=\"icon\"><img src=\"icons/environment/settlement/palast.webp\" class=\"round\"></figure><article><h3>@UUID[JournalEntry.pbsoIlvaashsAnim]{Ánima de Ilvaash}</h3><p>Unos tentáculos arqueados rodean un foso poco profundo de 12 metros de diámetro. La niebla se aferra a los imponentes tentáculos de piedra y se arremolina en el foso. Entre las brumas aparecen y desaparecen formas familiares. De pronto comprendéis que reproducen el pueblo de Phandalin en miniatura.</p></article></section>"
+            },
+            "OTUj1NoqPGrGe2yH": {
+              "name": "Refracción de Ilvaash"
+            },
+            "1JfeQIXdarlx6pcZ": {
+              "name": "Conclusión"
+            },
+            "NEeIlAWJ4ExgTrov": {
+              "name": "Epílogo"
+            },
+            "VQ6PlURuWdeNNmQ2": {
+              "name": "Obeliscos netherinos"
             }
           }
         },
@@ -1603,47 +2315,697 @@
             "7k8feoLXpOlFIsEw": {
               "name": "Excavación de Shalfi",
               "text": "<section class=\"fvtt-relative\"><section class=\"fvtt narrative\"><p>Un foso poco profundo en una esquina de la sala está rodeado por crestas negras semejantes a carne necrosada. Una figura excava enérgicamente en él con una pala oxidada. Sobre su cabeza cuelga del techo una enorme masa de dientes y carne.</p></section></section><p>El excavador es un discípulo de @UUID[Actor.pbsoIlvaash00000]{Ilvaash} llamado @UUID[Actor.pbsoShalfiLewin0]{Shalfi Lewin}. Shalfi es caótico malvado y usa el bloque de estadísticas de un @UUID[Actor.pbsoAberrantZeal]{fanático aberrante}, pero también tiene un bonificador de +7 a las pruebas de Carisma (Interpretación). Excava bajo un leal @UUID[Actor.pbsoFleshMeld000]{amasijo de carne} al que llama Mandíbulas. Ilvaash se lo regaló como recompensa por su devoción. Es leal a Shalfi, quien es inmune al aura de la criatura. @Embed[JournalEntry.pbsoCh8arthandou.JournalEntryPage.7dHxkL3DITHk0Ram caption=false classes=\"float-right size-three\"]</p><p>Shalfi excava un agujero en el suelo con su pala oxidada. Sospecha que hay una cámara debajo y quiere «cavar un agujero para encontrar y matar al dragón». Pese a las apariencias, su extraña certeza es del todo correcta. El dragón de amatista @UUID[Actor.pbsoYoungAmethys]{Lowarnizel} tiene ahora su guarida en la cámara inferior (@UUID[.DKbVROGF9iyg2cKx]{zona B17}). Por sí sola, la excavación de Shalfi sería inútil debido a la capacidad regenerativa del laberinto, pero, cada vez que arranca otro pequeño fragmento del suelo, Mandíbulas roe el agujero para ensancharlo un poco. Si trabaja uno o dos días más, Shalfi abrirá un agujero hasta la zona B17. Shalfi y Mandíbulas están igualados en combate contra Lowarnizel, por lo que probablemente vencerá el bando al que los personajes decidan ayudar.</p><p>Shalfi no se muestra hostil al principio, salvo que los personajes interfieran en su trabajo. En ese caso, ataca mientras grita: «¡Tú eres el dragón que no debería estar aquí! ¡A por ellos, Mandíbulas!».</p><p><em><strong>Hablar con Shalfi.</strong></em> Las conversaciones con Shalfi suelen ser unilaterales y difíciles de seguir. Mandíbulas se cierne protector sobre él, pero no ataca a menos que Shalfi esté en peligro.</p><p>Shalfi no recuerda su pasado, cuánto tiempo lleva aquí ni cuándo durmió por última vez. Responde a las preguntas sobre Mandíbulas con: «Mandíbulas es un amigo tan leal como cualquier revoltijo de carne que puedas conocer». Los únicos temas de los que habla durante más de unos instantes son el agujero que excava para «atrapar al dragón cuando no se lo espere» y la música que le gusta tocar con su flauta de Pan cuando le duelen los brazos de tanto cavar. Cada pocos días crea música nueva en el «lugar donde la música te espera incluso cuando ya no estás» (@UUID[.SrMWvG88kWwErcFd]{zona B6}).</p><p>Ninguna conversación con Shalfi dura más de unos minutos. Rechaza cualquier intento de ayudarlo a excavar o a tocar su música diciendo: «Tengo a Mandíbulas, así que no te necesito». Si los personajes siguen tratando con él después de que los haya rechazado varias veces, Shalfi se convence de que «trabajan para el dragón con el fin de detener la excavación» y ataca. Mandíbulas se une a él y ambos luchan hasta la muerte.</p><p><em><strong>Tesoro.</strong></em> La @UUID[Item.pbsoB9treasure00]{flauta de marfil} de Shalfi vale 3600 po.</p>"
+            },
+            "jhzWanztbIQGkNWP": {
+              "name": "Lóbulo temporal izquierdo"
+            },
+            "KVhFvHRWbmK2SNTl": {
+              "name": "Cámara oculta"
+            },
+            "D7i2EVkfSbDYaKi3": {
+              "name": "Guarida de encéfalos"
+            },
+            "BkV8SNYBDoEWFZSD": {
+              "name": "Alimentación pasada"
+            },
+            "ZdEWafgnxvQR4K2a": {
+              "name": "Posible guarida"
+            },
+            "FCCUBhZVTKk6lesF": {
+              "name": "Tensión mental"
+            },
+            "9dJtekZti5AORv9a": {
+              "name": "Trastero"
+            },
+            "DKbVROGF9iyg2cKx": {
+              "name": "Guarida del dragón"
+            },
+            "cbU05ylFZwTlm9Jt": {
+              "name": "Rincón de los coleccionistas"
+            },
+            "BSzNm2RG5qhCvQjd": {
+              "name": "Salones del saber"
+            },
+            "YXMVT3oD3sbFJgrn": {
+              "name": "La cicatriz"
+            },
+            "eJUjJD548m7pElFP": {
+              "name": "Alcoba de Ashripask"
+            },
+            "RPef2m1g7tCp1gIY": {
+              "name": "Poza Salina"
             }
           }
         },
         "pbsoCh8void00000": {
-          "name": "El Vacío Infinito"
+          "name": "El Vacío Infinito",
+          "pages": {
+            "pnEdiCR4yFqmbens": {
+              "name": "Viajar entre los nódulos"
+            },
+            "xar6cST3fc4vPmMy": {
+              "name": "El Vacío Infinito"
+            }
+          }
         },
         "pbsoCrystalDome0": {
-          "name": "Cúpula de Cristal"
+          "name": "Cúpula de Cristal",
+          "pages": {
+            "B6bYQEy8SLhKjhYq": {
+              "name": "Cúpula de Cristal"
+            }
+          }
         },
         "pbsoEmptyBridge0": {
-          "name": "Puente Vacío"
+          "name": "Puente Vacío",
+          "pages": {
+            "i2SxYm8bW3pKwcME": {
+              "name": "Puente Vacío"
+            }
+          }
         },
         "pbsoIlvaashsAnim": {
-          "name": "Ánima de Ilvaash"
+          "name": "Ánima de Ilvaash",
+          "pages": {
+            "KEjBWQszokPCiGar": {
+              "name": "Ánima de Ilvaash"
+            },
+            "pzC3Vsi8ZkLx3Luy": {
+              "name": "Entrada al Ánima"
+            },
+            "zvS5SCzUDPDmtQGN": {
+              "name": "Refectorio"
+            },
+            "GlgP94R4ncHIWPlD": {
+              "name": "Cámara de los discípulos"
+            },
+            "1vTHRD8eBsY9f92D": {
+              "name": "Mirador de la sima"
+            }
+          }
         },
         "pbsoMireOfDoubt0": {
-          "name": "Pantano de la Duda"
+          "name": "Pantano de la Duda",
+          "pages": {
+            "a0AEvm1Lt23NbqvF": {
+              "name": "Pantano de la Duda"
+            },
+            "SnxHlp0Vb1ifd5Cy": {
+              "name": "Muelle de piedra"
+            },
+            "n7dwPvhFwlVN6pPK": {
+              "name": "Claro de Valsyx"
+            },
+            "ZL2iVKS028oq5UTN": {
+              "name": "Hondonada de Charnyz"
+            }
+          }
         },
         "pbsoOccludingMia": {
-          "name": "Miasma Ocultador"
+          "name": "Miasma Ocultador",
+          "pages": {
+            "GzuBwWdyY2ELY48g": {
+              "name": "Miasma Ocultador"
+            }
+          }
         },
         "pbsoTheNematode0": {
-          "name": "El Nematodo"
+          "name": "El Nematodo",
+          "pages": {
+            "m68Zxciui05zZlkZ": {
+              "name": "El Nematodo"
+            },
+            "ygjAABFDfkkannKU": {
+              "name": "La boca"
+            },
+            "xEG5qvnW0qJ7QY7L": {
+              "name": "Garganta"
+            },
+            "oyYVXV1y5ewkvbuC": {
+              "name": "Membrana"
+            },
+            "RLExfRvMmPZXCgo5": {
+              "name": "Las entrañas"
+            }
+          }
         },
         "pbsoToppledStatu": {
-          "name": "Estatua Derribada"
+          "name": "Estatua Derribada",
+          "pages": {
+            "cBfBFGSAgsWu67Wd": {
+              "name": "Estatua Derribada"
+            }
+          }
         },
         "pbsoWailingBattl": {
-          "name": "Campo de los Lamentos"
+          "name": "Campo de los Lamentos",
+          "pages": {
+            "yaSk6ynywi60EObT": {
+              "name": "Campo de los Lamentos"
+            },
+            "z8reIBUReL7uL5iX": {
+              "name": "Pirámide prisión"
+            },
+            "D4XmfNMw2C1zBwO5": {
+              "name": "Molino de Nellik"
+            }
+          }
         },
         "pbsoCredits00000": {
-          "name": "Créditos y licencia"
+          "name": "Créditos y licencia",
+          "pages": {
+            "yNKNRoKvLbWsa6JS": {
+              "name": "Créditos de Wizards of the Coast"
+            },
+            "mkTcvz1jzq3GhtQT": {
+              "name": "Licencia"
+            },
+            "MmvvQQtok1AUtIUM": {
+              "name": "Créditos de la adaptación a Foundry"
+            },
+            "c1KtAl7XbpBlM3Fc": {
+              "name": "Aviso legal"
+            }
+          }
         },
         "pbsoFoundryAndAd": {
-          "name": "Consejos de Foundry y de la aventura"
+          "name": "Consejos de Foundry y de la aventura",
+          "pages": {
+            "9DyGOZWQVNsmBIUS": {
+              "name": "¿Por dónde empezar?"
+            },
+            "6ihxP6k6t7P1LZ6R": {
+              "name": "El grupo"
+            },
+            "16wWEQ3EWJNifkRx": {
+              "name": "Pruebas y salvaciones"
+            },
+            "4EkKc4Ms448lpUcK": {
+              "name": "Recompensas"
+            },
+            "xXLt0gZlxgTHv5xR": {
+              "name": "Uso de escenas"
+            }
+          }
         },
         "pbsoChangelog000": {
-          "name": "Registro de cambios de Phandelver y Más Allá"
+          "name": "Registro de cambios de Phandelver y Más Allá",
+          "pages": {
+            "FIlIfsQP2huDKNlV": {
+              "name": "1.0.0"
+            },
+            "ysrSBl1Y0SBW79IH": {
+              "name": "1.1.0"
+            },
+            "ZTYI2BMJ3OSOPagb": {
+              "name": "1.2.0"
+            },
+            "8oTzNHmEUYWUkLfn": {
+              "name": "1.2.1"
+            },
+            "gDXqrPoRhzgdIhLx": {
+              "name": "2.0.0"
+            },
+            "jM4uOEfJP4joYl5z": {
+              "name": "2.0.1"
+            },
+            "o2PnVjy8RNfNjt4p": {
+              "name": "3.0.0"
+            },
+            "z090zrBbP5kruGx8": {
+              "name": "3.1.0"
+            }
+          }
         },
         "pbsoActorIndex00": {
-          "name": "Índice de actores"
+          "name": "Índice de actores",
+          "pages": {
+            "qsSJ3AcVNLdeQpgM": {
+              "name": "Renacido"
+            },
+            "jxA1rXaDhUkaMN2q": {
+              "name": "Hidra"
+            },
+            "APnZkVeTngY0zuEi": {
+              "name": "Extraño de agua"
+            },
+            "gmeXhU3wiDVWWYyj": {
+              "name": "Gólem de arcilla"
+            },
+            "LCio5gNhlZAqPoq7": {
+              "name": "Rivibiddel"
+            },
+            "5BueK03PWk2pWoXf": {
+              "name": "Esqueleto enano"
+            },
+            "rb1ov3KYMletmFP4": {
+              "name": "Fantasma"
+            },
+            "c5V9xtGSgssvy3QF": {
+              "name": "Aparición"
+            },
+            "Vo59RtQIJjiAHAdE": {
+              "name": "Guardián escudo"
+            },
+            "GmM7ZmWddrqfAYEX": {
+              "name": "Momia"
+            },
+            "8YrsG8xWl2B30wvq": {
+              "name": "Espectro"
+            },
+            "OeIhKHtA5LQBoPnb": {
+              "name": "Espectro cinéreo feral"
+            },
+            "MjZZ8k8m03a8oHvF": {
+              "name": "Diablo de las cadenas"
+            },
+            "Dv9teG4LETIfXBOM": {
+              "name": "Grick alfa"
+            },
+            "NVDFjTEmOThFgIdk": {
+              "name": "Grick"
+            },
+            "I3XWwsfN0c6cddlV": {
+              "name": "Lazo"
+            },
+            "3U0I7aVJbGx7HFld": {
+              "name": "Qunbraxel"
+            },
+            "YDkwnLnBlULGFsre": {
+              "name": "Grimlock"
+            },
+            "r7ATSYVXA3372CQE": {
+              "name": "Xorn"
+            },
+            "YWzk02Gk4TlM5yok": {
+              "name": "Elemental de tierra"
+            },
+            "c8txWsRk23Q9IMY9": {
+              "name": "Chuul"
+            },
+            "5ZIdBZkdCg8s2l6s": {
+              "name": "Yochlol"
+            },
+            "rHLXRTjry4tD2O80": {
+              "name": "Basilisco"
+            },
+            "SqWZLmpft1vPKgxp": {
+              "name": "Galeb duhr"
+            },
+            "0asWAjKDwgCRQbW4": {
+              "name": "Honna"
+            },
+            "zBe8jrMYefY6f9iK": {
+              "name": "Horror acorazado"
+            },
+            "5N1IDuisW6acCKXA": {
+              "name": "Armadura animada"
+            },
+            "DfsbNBFpDAAGrthT": {
+              "name": "Mefit de polvo"
+            },
+            "gvHeHQvLIjifl7lf": {
+              "name": "Tumulario"
+            },
+            "p4D98NaDt7NUpVsi": {
+              "name": "Humanoide mutado"
+            },
+            "YKT0rcmutg50BFdv": {
+              "name": "Gémula encefálica"
+            },
+            "d2q8NIq4cCUQGCWf": {
+              "name": "Cúmulo de encéfalos"
+            },
+            "uE2MxVnNh8OwaM2A": {
+              "name": "Trampa de intelecto"
+            },
+            "2OkvQTlE12eM1HXL": {
+              "name": "Drow"
+            },
+            "9Xjc4YzMEE5KAuac": {
+              "name": "Nythalyn Henlifel"
+            },
+            "JPY9gbvJJ1x27huF": {
+              "name": "Yanthdel Henlifel"
+            },
+            "n8hWbyW75ew0F6Zd": {
+              "name": "Guerrero drow de élite"
+            },
+            "4TWqLZEKOo0pCjbD": {
+              "name": "Ontharyx Henlifel"
+            },
+            "0fahWTLvCtWVemSW": {
+              "name": "Azotamentes"
+            },
+            "Vc4JtlpILasc0XuO": {
+              "name": "Cerebro anciano infectado"
+            },
+            "KvpG0OGPXZDWQemC": {
+              "name": "Refracción de Ilvaash"
+            },
+            "KNiGs2sZEtS3a9fk": {
+              "name": "Hashutu"
+            },
+            "X6VsP6nFLeJwKTXK": {
+              "name": "Comandante goblin psiónico"
+            },
+            "YNTaszDeQZtnhfgb": {
+              "name": "Camorrista goblin psiónico"
+            },
+            "YYgiDddIYUndQq4l": {
+              "name": "Grell"
+            },
+            "QiOV3jONqjvY5aZN": {
+              "name": "Slaad rojo"
+            },
+            "mkclPfdfcqUhSnpi": {
+              "name": "Slaad azul"
+            },
+            "AU7wglaFv1IpWCgf": {
+              "name": "Renacuajo slaad"
+            },
+            "Qdkv30mhqimTD3dz": {
+              "name": "Oshundo el alhoon"
+            },
+            "uCZXXy7UWwTdE71G": {
+              "name": "Voalsh"
+            },
+            "W6NdXztBvWmodEpt": {
+              "name": "Nótico azotamentes"
+            },
+            "Jywl0f8DLFaRxXBp": {
+              "name": "Fanático aberrante"
+            },
+            "6XmYRo67EoxuUSv8": {
+              "name": "Fanático del culto"
+            },
+            "mvy5wuknj8ca7DP0": {
+              "name": "Chishinix"
+            },
+            "fTTlxQmOjmBjiIZw": {
+              "name": "Azotamentes profeta"
+            },
+            "L5tfPT9jiR8XDQg4": {
+              "name": "Homúnculo"
+            },
+            "e06Z02iTCwJth4mo": {
+              "name": "Nótico"
+            },
+            "k5dAB5CvYUQeWSdd": {
+              "name": "Slaad gris"
+            },
+            "oCRLewozvHr6LHCu": {
+              "name": "Oculorbo"
+            },
+            "lBKYBzEMEkIdPL9K": {
+              "name": "Gwyn Oresong"
+            },
+            "0i2q82UMpQizIttL": {
+              "name": "Plebeyo"
+            },
+            "NUeNhV21yJBx2afi": {
+              "name": "Behir"
+            },
+            "LeH7iIbs832S02Kx": {
+              "name": "Grell psíquico"
+            },
+            "nvJtx5EXec16Zk2l": {
+              "name": "Barbotador"
+            },
+            "1engPGYZn02NeCts": {
+              "name": "Amasijo de carne"
+            },
+            "Bt3Op5klyYwl6gVY": {
+              "name": "Manto mutado"
+            },
+            "KV2BNREL7pBIcZSF": {
+              "name": "Devorador de intelectos"
+            },
+            "fpiNODXZALj437cZ": {
+              "name": "Quaggoth"
+            },
+            "E6B2qyIoLxucKCfS": {
+              "name": "Fomoré"
+            },
+            "hg4TdEP0yvHsTo7r": {
+              "name": "Horror ganchudo"
+            },
+            "8Sqr0X8w5fquaDCv": {
+              "name": "Quaggoth thonot"
+            },
+            "XeCBhECCyE2DFix5": {
+              "name": "Troglodita"
+            },
+            "mR3tkZ0PEFK6AgW0": {
+              "name": "Barlgura"
+            },
+            "aYJumCcPAfR5jWgd": {
+              "name": "Chillón"
+            },
+            "nQXpg4Qk3KswSwp7": {
+              "name": "Espectro cinéreo psiónico"
+            },
+            "LOfH3wJu4HgQqtva": {
+              "name": "Araña de fase"
+            },
+            "4gnSLaPddjbQRM10": {
+              "name": "Calavera llameante"
+            },
+            "bAZnFZVqk6Ya5VCR": {
+              "name": "Varakkta"
+            },
+            "2He9qHOFzfIeRKbu": {
+              "name": "Shalfi Lewin"
+            },
+            "sx5j0lAWaDMcTimt": {
+              "name": "Kianka"
+            },
+            "zU0S8CVZJPABjAap": {
+              "name": "Vazzi"
+            },
+            "F5VL5kTKOkIjfWgV": {
+              "name": "Lowarnizel"
+            },
+            "vd6phRon3En2o26c": {
+              "name": "Espectador"
+            },
+            "0pKWofXqQ00biiiE": {
+              "name": "Flumph"
+            },
+            "EGSQFoYkbEob8XnZ": {
+              "name": "Contemplador"
+            },
+            "MCBerUANjnvcNTik": {
+              "name": "Gossa"
+            },
+            "7cV74iC4hdd6wWBL": {
+              "name": "Mezzoloth"
+            },
+            "0ClGLOQ8L8UNBKwd": {
+              "name": "Arcanaloth"
+            },
+            "42bm6vBGBXmDmAMW": {
+              "name": "Gusano púrpura"
+            },
+            "cdtkvRfJcvb5PkqP": {
+              "name": "Klarg"
+            },
+            "RV0lblD4aEzWnV0K": {
+              "name": "Gundren Rockseeker"
+            },
+            "xftus8jiQ4p2tyNQ": {
+              "name": "Carro"
+            },
+            "z22pIUHBLqBqxHZm": {
+              "name": "Rey Grol"
+            },
+            "PaCO3YJoFLTUBtrJ": {
+              "name": "Sildar Hallwinter"
+            },
+            "GQ5bQUPsQeUpiCR0": {
+              "name": "Iarno «Bastón de Cristal» Albrek"
+            },
+            "RwcEGyP0P6SLQeL2": {
+              "name": "Hermana Garaele"
+            },
+            "seQ1MOO7L6AW40wd": {
+              "name": "Harbin Wester"
+            },
+            "HQSqFDCL7vk7rBNI": {
+              "name": "Nezznar la Araña"
+            },
+            "vMUqh7viu3nmCbFD": {
+              "name": "Estirge"
+            },
+            "wEFwEBPxN2dTDXQs": {
+              "name": "Ogro"
+            },
+            "8pWDOtBdPVPhkw59": {
+              "name": "Goblin"
+            },
+            "yLMso1Z1vUe9OLBF": {
+              "name": "Jefe goblin"
+            },
+            "zrDeq1Gsio6TDhSO": {
+              "name": "Hobgoblin"
+            },
+            "U49YXJlmCW6RIwOZ": {
+              "name": "Lobo"
+            },
+            "YmRLpb39415ERKA7": {
+              "name": "Oso lechuza"
+            },
+            "yXgHxJWyDNHGyc1p": {
+              "name": "Gul"
+            },
+            "JPJPkQMYmOiqfXCq": {
+              "name": "Osgo"
+            },
+            "7AWT5jGqwXwMsnjI": {
+              "name": "Ruxithid el Elegido"
+            },
+            "XGFb0r5aBT8d5Ty4": {
+              "name": "Cabra"
+            },
+            "U4fh1lu8kpgStZah": {
+              "name": "Caballo de tiro"
+            },
+            "hhFY9Vu2x4mDjq2Q": {
+              "name": "Habitante infectado"
+            },
+            "nnEsUnNynEMoEQYA": {
+              "name": "Elemental de agua"
+            },
+            "fNXEheOa5XoVoxsg": {
+              "name": "Remorhaz"
+            },
+            "d1aeEIscQYOlLVuo": {
+              "name": "Rompecerebros"
+            },
+            "gj8u8FI6wRjZTkgX": {
+              "name": "Kraken"
+            },
+            "vdn2kxmYJVGDVdAa": {
+              "name": "Banshee"
+            },
+            "eKr0yawWhRbaSLOq": {
+              "name": "Lobo terrible"
+            },
+            "T0NfWXgQRF25WpOG": {
+              "name": "Doppelganger"
+            },
+            "kVciDgEIS2d4ZtGE": {
+              "name": "Serpiente venenosa gigante"
+            },
+            "A2qoJmEJ7ZmuqTjd": {
+              "name": "Aboleth"
+            },
+            "pwZMamhLXMIprHcz": {
+              "name": "Azotamentes clarividente"
+            },
+            "GCpYnpsIMbYcFU4F": {
+              "name": "Naga espiritual"
+            },
+            "vMEOZDQkOkWtiHb4": {
+              "name": "Acechador invisible"
+            },
+            "mj33IV03OHwZjEJV": {
+              "name": "Zombi"
+            },
+            "JXmf7d488Ya1ZXvn": {
+              "name": "Hamun Kost"
+            },
+            "34fILCBqVJAwl7k1": {
+              "name": "Broza movediza"
+            },
+            "DNJAGH2tJyx2axRt": {
+              "name": "Cieno gris psíquico"
+            },
+            "M8w10cBuWV0GJcqQ": {
+              "name": "Nundro Rockseeker"
+            },
+            "NLz5JtynJOKwl1Jm": {
+              "name": "Carp"
+            },
+            "nNbvFLntsgpcnZnd": {
+              "name": "Reidoth"
+            },
+            "CjTYKgWdSQPjjov8": {
+              "name": "Rufián Redbrand"
+            },
+            "K95R2zDSsA6IE0bS": {
+              "name": "Bandido"
+            },
+            "wrTIE8O5ANNz4NWi": {
+              "name": "Esqueleto"
+            },
+            "jY1Zwkw9f8uoM3Tg": {
+              "name": "Droop"
+            },
+            "RTbpNa3sSLO9UEEj": {
+              "name": "Zeond"
+            },
+            "dT2eehIXDMQV0R8T": {
+              "name": "Ramita marchita"
+            },
+            "fVopQjZroRtcKWev": {
+              "name": "Zombi de ceniza"
+            },
+            "2V3APzVRTEQn2H0g": {
+              "name": "Sectario"
+            },
+            "ng3t90IaTUks5Q2Z": {
+              "name": "Venomfang"
+            },
+            "dHwVm0jwZbA6Q3iE": {
+              "name": "Aguja marchita"
+            },
+            "MiACNEUfZHXvUm34": {
+              "name": "Araña gigante"
+            },
+            "CAns4w7UOrjtmnTK": {
+              "name": "Otyugh"
+            },
+            "9ZabwKtN5GrhEMO0": {
+              "name": "Mole sombría"
+            },
+            "q5o0TWlHdnhJXGZd": {
+              "name": "Nycaloth"
+            },
+            "MzWq6nUni9zy782j": {
+              "name": "Gelatina ocre"
+            },
+            "I0Aqp0umHAndAmca": {
+              "name": "Ogro zombi"
+            },
+            "O7GNkwRK0t04Rly4": {
+              "name": "Hongo violeta"
+            },
+            "VAjurOqGQJU9Ip3S": {
+              "name": "Serpiente constrictora gigante"
+            },
+            "Rhp2aqBQd0pRfn1O": {
+              "name": "Mormesk la aparición"
+            },
+            "kTznP3iv51mlPgXV": {
+              "name": "Pulpo gigante"
+            },
+            "Yxr8VxbsbS1oS4Y3": {
+              "name": "Brughor Muerdehachas"
+            },
+            "ZdYnGODVr0noDPzx": {
+              "name": "Bessie (tejón gigante)"
+            },
+            "aKxNZYEhUsqSpyyr": {
+              "name": "Hjoldak Hollowhelm"
+            },
+            "WzZMtwcSmAYXw1Ff": {
+              "name": "Otyugh mutado"
+            },
+            "f0rG59R9com31UXL": {
+              "name": "Barrena infernal"
+            }
+          }
         }
       },
       "items": {
@@ -10222,7 +11584,8 @@
                     "name": "Llave de hierro"
                   }
                 }
-              }
+              },
+              "name": "Nosk"
             },
             "ZY5xsAC2ehVi8VHZ": {
               "delta": {
@@ -10232,7 +11595,8 @@
                     "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
                   }
                 }
-              }
+              },
+              "name": "Rufianes Redbrand"
             },
             "THRChHA1Apn5Ukxr": {
               "delta": {
@@ -10242,7 +11606,8 @@
                     "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
                   }
                 }
-              }
+              },
+              "name": "Rufianes Redbrand"
             },
             "Tws2WRDZDCBxYQh9": {
               "delta": {
@@ -10252,7 +11617,8 @@
                     "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
                   }
                 }
-              }
+              },
+              "name": "Rufianes Redbrand"
             },
             "zO7DajxHnjZVfLzc": {
               "delta": {
@@ -10275,7 +11641,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "dYApn3DYEjnCWwPR": {
               "delta": {
@@ -10298,7 +11665,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "aUGhZkBmvVMqrt2X": {
               "delta": {
@@ -10308,7 +11676,8 @@
                     "description": "<ul><li>Una criatura inconsciente está @UUID[.TpkZgLfxCmSndmpb]{incapacitada}, no puede moverse ni hablar y no es consciente de lo que la rodea.</li><li>La criatura suelta lo que esté sosteniendo y cae derribada.</li><li>La criatura falla automáticamente las tiradas de salvación de Fuerza y Destreza.</li><li>Las tiradas de ataque contra la criatura tienen ventaja.</li><li>Cualquier ataque que impacte en la criatura es un impacto crítico si el atacante está a 5 pies o menos de ella.</li></ul>"
                   }
                 }
-              }
+              },
+              "name": "Goblin"
             },
             "kVwvCBypSfBKpDOn": {
               "delta": {
@@ -10318,7 +11687,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "nr5dZCVVM0bbgJfI": {
               "delta": {
@@ -10328,7 +11698,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "3y0FyCNzJuonaGhy": {
               "delta": {
@@ -10338,7 +11709,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "ZGefebXZodmlGSrB": {
               "delta": {
@@ -10348,7 +11720,8 @@
                     "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
                   }
                 }
-              }
+              },
+              "name": "Rufianes Redbrand"
             },
             "2dCoBPhgvMYZanCi": {
               "delta": {
@@ -10358,7 +11731,8 @@
                     "description": "<p>El peto y las hombreras de esta armadura están hechos de cuero endurecido al hervirlo en aceite. El resto de la armadura está fabricado con materiales más blandos y flexibles.</p>"
                   }
                 }
-              }
+              },
+              "name": "Rufianes Redbrand"
             },
             "2Ee4zaOge2tAgV6j": {
               "delta": {
@@ -10368,7 +11742,70 @@
                     "description": "<ul><li>Es imposible ver a una criatura invisible sin ayuda de magia o un sentido especial. A efectos de esconderse, la criatura está en una zona muy oscura. Su ubicación puede detectarse por cualquier ruido que haga o rastro que deje.</li><li>Las tiradas de ataque contra la criatura tienen desventaja y las tiradas de ataque de la criatura tienen ventaja.</li></ul>"
                   }
                 }
-              }
+              },
+              "name": "Zeond"
+            },
+            "ihktJ0AaBFXPtVNx": {
+              "name": "Mirna Dendrar"
+            },
+            "CB5wQjCQPNtkMzZL": {
+              "name": "Nars Dendrar"
+            },
+            "PxWpFFZ8yHK5Ia8I": {
+              "name": "Nilsa Dendrar"
+            },
+            "ooTTOeFUq0WoCdXJ": {
+              "name": "Bandido"
+            },
+            "GN5qUQS1vaxFJd4p": {
+              "name": "Bandido"
+            },
+            "6ytHB5RgY1Cj5B09": {
+              "name": "Bandido"
+            },
+            "4ueW2KE8f0jc7Dxz": {
+              "name": "Esqueleto"
+            },
+            "qjbVxPaxb4qKCYbK": {
+              "name": "Esqueleto"
+            },
+            "ult8nHUn1vYbcfXa": {
+              "name": "Esqueleto"
+            },
+            "TMApav4tanVqfjhp": {
+              "name": "Esqueleto"
+            },
+            "V6KpJXuoaMAZgJsQ": {
+              "name": "Esqueleto"
+            },
+            "87Mqtw3w6GynG2dc": {
+              "name": "Esqueleto"
+            },
+            "lhhM2iPUqyYqC2FK": {
+              "name": "Ssarnak"
+            },
+            "Eip1dpC3ulHhj2A3": {
+              "name": "Bandido"
+            },
+            "VS91n3eQ66Bpb2Fl": {
+              "name": "Bandido"
+            },
+            "vne5Zui4WHvsukrt": {
+              "name": "Bastón de Cristal"
+            }
+          },
+          "name": "Guarida de los Redbrand",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Guarida de los Redbrand"
+            }
+          },
+          "drawings": {
+            "FFx37ayVcZmt9ngt": {
+              "text": "TRAMPA"
+            },
+            "4K5P9uBauGMCOibZ": {
+              "text": "Preparado para derrumbarse si soporta más de 50 libras."
             }
           }
         },
@@ -10382,7 +11819,8 @@
                     "description": "<section id=\"secret-kLYc8zqnAOv6WQTb\" class=\"secret\"><p><em>Ataque con arma a distancia:</em> +3 a impactar, alcance 30/60 pies, un objetivo. <em>Impacto:</em> 8 (2d6 + 1) de daño perforante.</p></section><p>La aguja marchita ataca con sus agujas.</p>"
                   }
                 }
-              }
+              },
+              "name": "Aguja marchita"
             },
             "32RzmKkdjPWG1eb8": {
               "delta": {
@@ -10392,7 +11830,8 @@
                     "description": "<section id=\"secret-kLYc8zqnAOv6WQTb\" class=\"secret\"><p><em>Ataque con arma a distancia:</em> +3 a impactar, alcance 30/60 pies, un objetivo. <em>Impacto:</em> 8 (2d6 + 1) de daño perforante.</p></section><p>La aguja marchita ataca con sus agujas.</p>"
                   }
                 }
-              }
+              },
+              "name": "Aguja marchita"
             },
             "bBWalybcEiAnxKN9": {
               "delta": {
@@ -10402,7 +11841,8 @@
                     "description": "<section id=\"secret-kLYc8zqnAOv6WQTb\" class=\"secret\"><p><em>Ataque con arma a distancia:</em> +3 a impactar, alcance 30/60 pies, un objetivo. <em>Impacto:</em> 8 (2d6 + 1) de daño perforante.</p></section><p>La aguja marchita ataca con sus agujas.</p>"
                   }
                 }
-              }
+              },
+              "name": "Aguja marchita"
             },
             "CsWXAS7kC64unDby": {
               "delta": {
@@ -10412,7 +11852,8 @@
                     "description": "<section id=\"secret-kLYc8zqnAOv6WQTb\" class=\"secret\"><p><em>Ataque con arma a distancia:</em> +3 a impactar, alcance 30/60 pies, un objetivo. <em>Impacto:</em> 8 (2d6 + 1) de daño perforante.</p></section><p>La aguja marchita ataca con sus agujas.</p>"
                   }
                 }
-              }
+              },
+              "name": "Aguja marchita"
             },
             "CAZerJzK9Ye5f6W7": {
               "delta": {
@@ -10421,7 +11862,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Araña gigante"
             },
             "Zu52LZKHFDxlRuw8": {
               "delta": {
@@ -10430,7 +11872,172 @@
                     "name": "Muerto"
                   }
                 }
+              },
+              "name": "Araña gigante"
+            },
+            "2W9DnRPkenNLSrNZ": {
+              "name": "Ramita marchita"
+            },
+            "gwFjQBO3LLNwPzIl": {
+              "name": "Ramita marchita"
+            },
+            "daR3mckj0xG91m11": {
+              "name": "Ramita marchita"
+            },
+            "65NI2y9zHQtiLl8P": {
+              "name": "Ramita marchita"
+            },
+            "WBVdCxHECLcUTWRd": {
+              "name": "Zombi de ceniza"
+            },
+            "ZFKi5GitepldYuiJ": {
+              "name": "Zombi de ceniza"
+            },
+            "7w8VnwdWo5LtMBLX": {
+              "name": "Zombi de ceniza"
+            },
+            "PTc2hudQwChEWMOb": {
+              "name": "Zombi de ceniza"
+            },
+            "AXIokKDf88vG5zNS": {
+              "name": "Zombi de ceniza"
+            },
+            "LI0YLk93Jm9gwCQB": {
+              "name": "Zombi de ceniza"
+            },
+            "rBvyfbN6MFIDQccH": {
+              "name": "Reidoth"
+            },
+            "14kr6alU4VEq1y7J": {
+              "name": "Ramita marchita"
+            },
+            "ITTbMO2fUujpncKA": {
+              "name": "Ramita marchita"
+            },
+            "3bGaQdMxZt0wcvHY": {
+              "name": "Ramita marchita"
+            },
+            "aRvR3DX8K5zUtnZD": {
+              "name": "Ramita marchita"
+            },
+            "38WClcqD84NyZjZO": {
+              "name": "Ramita marchita"
+            },
+            "HQnCEaGe3XLDDxLh": {
+              "name": "Ramita marchita"
+            },
+            "nnezhASmEkqOyb9A": {
+              "name": "Ramita marchita"
+            },
+            "61DxwaoCXZr4sXTd": {
+              "name": "Ramita marchita"
+            },
+            "pIll2DAHuVyj2fRz": {
+              "name": "Ramita marchita"
+            },
+            "WeGWSyu2EIimRgCm": {
+              "name": "Ramita marchita"
+            },
+            "fBmXLxsRKW1CH1LY": {
+              "name": "Ramita marchita"
+            },
+            "ZbokVLqYQvisLoaA": {
+              "name": "Ramita marchita"
+            },
+            "IA6PYfgGVgWXg1Ta": {
+              "name": "Ramita marchita"
+            },
+            "ZwSnyjG54V8Fuwo8": {
+              "name": "Araña gigante"
+            },
+            "H1rdRvkjguwYC2yf": {
+              "name": "Araña gigante"
+            },
+            "RIaKZYRbLGtIKm70": {
+              "name": "Venomfang"
+            },
+            "uQDhwQ9sAJRzeFVQ": {
+              "name": "Zombi de ceniza"
+            },
+            "2odfPpQBEpZSjBlJ": {
+              "name": "Zombi de ceniza"
+            },
+            "TQOQYFABw8e1Sz1E": {
+              "name": "Zombi de ceniza"
+            },
+            "hXE1ZgMf82WVOeJh": {
+              "name": "Zombi de ceniza"
+            },
+            "4HLcdaPjVE4mI7Sh": {
+              "name": "Zombi de ceniza"
+            },
+            "Gkge8y3gBWCXv4xR": {
+              "name": "Zombi de ceniza"
+            },
+            "uCPN7PhWAPG2xYrw": {
+              "name": "Zombi de ceniza"
+            },
+            "X2GizfU9Lh45gx62": {
+              "name": "Zombi de ceniza"
+            },
+            "pi35fG6kxRTmW8eC": {
+              "name": "Ramita marchita"
+            },
+            "Jb4CwfgNJtcOck3Q": {
+              "name": "Ramita marchita"
+            },
+            "3gqz1Rq6vy5Euaxg": {
+              "name": "Ramita marchita"
+            },
+            "s5lO8w0AYdLy2NSi": {
+              "name": "Ramita marchita"
+            },
+            "bHgqEKYGVBv2JeZM": {
+              "name": "Sectario"
+            },
+            "uKylWtk80Fuc9l7u": {
+              "name": "Sectario"
+            },
+            "rXqVnB2Uq9uEQ9Qm": {
+              "name": "Favric"
+            },
+            "DLP8uuOpWS3AFTq3": {
+              "name": "Sectario"
+            },
+            "us0xBM4xrz9jsYVv": {
+              "name": "Sectario"
+            },
+            "uspnUedZuHc7IOlb": {
+              "name": "Sectario"
+            }
+          },
+          "name": "Ruinas de Thundertree",
+          "regions": {
+            "cz9D0olSRLNb0Na6": {
+              "name": "Árboles y maleza",
+              "behaviors": {
+                "rLGp7rWKUAeZIdux": {
+                  "name": "Terreno difícil"
+                }
               }
+            },
+            "4iyTzHP4ScrRq2j3": {
+              "name": "Telarañas",
+              "behaviors": {
+                "3ZDPV5qm15A5rdM5": {
+                  "name": "Terreno difícil"
+                }
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Ruinas de Thundertree"
+            }
+          },
+          "drawings": {
+            "j4N19xCh9Nkam12G": {
+              "text": "Telarañas"
             }
           }
         },
@@ -10444,7 +12051,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "VJRRiujEId3Itdvk": {
               "delta": {
@@ -10454,7 +12062,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "onzx1h0gt2XQQMpd": {
               "delta": {
@@ -10464,7 +12073,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "Ze7OXFQD4gOqdqW9": {
               "delta": {
@@ -10474,7 +12084,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "AH2jRShixHnsiYSn": {
               "delta": {
@@ -10484,7 +12095,20 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
+            },
+            "OhK1M5wrjysuG7vQ": {
+              "name": "Brughor Muerdehachas"
+            },
+            "NV3u1ezJMxewlrK8": {
+              "name": "Gog"
+            }
+          },
+          "name": "Túmulo del Wyvern",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Túmulo del Wyvern"
             }
           }
         },
@@ -10511,7 +12135,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "0gbsCAZaFOhsuNye": {
               "delta": {
@@ -10521,7 +12146,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "5cEJwdVVTNf5qoZe": {
               "delta": {
@@ -10531,7 +12157,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "baUMnAcBrjYzhw7k": {
               "delta": {
@@ -10541,7 +12168,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "xk431GgfQpIJ26fj": {
               "delta": {
@@ -10551,7 +12179,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "sHQzz7nsWZqdoU7j": {
               "delta": {
@@ -10561,7 +12190,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "5kg2J3t2VZST7oj2": {
               "delta": {
@@ -10571,7 +12201,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "IXgzX8lTpAxVufv4": {
               "delta": {
@@ -10614,7 +12245,8 @@
                     "name": "Bola de fuego"
                   }
                 }
-              }
+              },
+              "name": "Calavera llameante"
             },
             "gu1jI85RuQTXjnQJ": {
               "delta": {
@@ -10628,7 +12260,8 @@
                     "description": "<p>El espectador crea mágicamente comida y agua suficientes para sustentarse durante 24 horas.</p>"
                   }
                 }
-              }
+              },
+              "name": "Espectador"
             },
             "N1k1rD4C30lZDtiZ": {
               "delta": {
@@ -10638,7 +12271,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "4jXCXGq3tF2TPZNs": {
               "delta": {
@@ -10648,7 +12282,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "CF9E7ax9PTtOvBoy": {
               "delta": {
@@ -10658,7 +12293,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "LR40bDmLzOWDIL1J": {
               "delta": {
@@ -10668,7 +12304,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "BLvy9tpHCAQoWJDH": {
               "delta": {
@@ -10678,7 +12315,8 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
             },
             "T2aVHftjxNxaDL28": {
               "delta": {
@@ -10688,7 +12326,128 @@
                     "description": "<p>Un escudo está hecho de madera o metal y se lleva en una mano. Empuñarlo aumenta tu Clase de Armadura en 2. Solo puedes beneficiarte de un escudo a la vez.</p>"
                   }
                 }
-              }
+              },
+              "name": "Osgo"
+            },
+            "J4WTAxAUe8HV6rCa": {
+              "name": "Estirge"
+            },
+            "qKmNB4BdlqbGS03d": {
+              "name": "Estirge"
+            },
+            "MWi9IZ2dtM12yqdS": {
+              "name": "Estirge"
+            },
+            "vV7bFvMQIbw8ArV7": {
+              "name": "Estirge"
+            },
+            "kiuyZnIt4xhaHfvI": {
+              "name": "Estirge"
+            },
+            "DuZugmZJDBHxHbKc": {
+              "name": "Estirge"
+            },
+            "nRSyNZbKsGOAxCbA": {
+              "name": "Ogro zombi"
+            },
+            "o3LsHZq293cDEPyw": {
+              "name": "Ogro zombi"
+            },
+            "aYqvcpMAdxytg4Qz": {
+              "name": "Zombi"
+            },
+            "hmsAvCa2PqXb2TX6": {
+              "name": "Zombi"
+            },
+            "epKsb3DmErHylciK": {
+              "name": "Zombi"
+            },
+            "3uqF6xXxWKPmXnJE": {
+              "name": "Zombi"
+            },
+            "Bz1ZbeHibHPRPOHs": {
+              "name": "Zombi"
+            },
+            "SgDK2VFpYob5Waec": {
+              "name": "Zombi"
+            },
+            "299N3DIlMis9DTcz": {
+              "name": "Gul"
+            },
+            "XWAZ2mFj9CKK0vgh": {
+              "name": "Gul"
+            },
+            "TzY8nrJDC6m8WHVV": {
+              "name": "Gul"
+            },
+            "S8Yb4p53vXmEjutW": {
+              "name": "Hongo violeta"
+            },
+            "8egQKChxzkan6f4P": {
+              "name": "Hongo violeta"
+            },
+            "BTuZWCRyspR7Npvu": {
+              "name": "Gul"
+            },
+            "GEZPa7ExMGD3qUcn": {
+              "name": "Gul"
+            },
+            "LHo705dlpRgGRost": {
+              "name": "Gul"
+            },
+            "tldG0Zu1jSNBQG7N": {
+              "name": "Gul"
+            },
+            "P1zOEX2YclWT7CZn": {
+              "name": "Gul"
+            },
+            "Dy0JKHX3Vs26LBKh": {
+              "name": "Serpiente constrictora gigante"
+            },
+            "6qKK7civXO9ixUry": {
+              "name": "Zombi"
+            },
+            "FCI0Ch36nqf6X8U6": {
+              "name": "Zombi"
+            },
+            "3qupWaZ7mrXRAA39": {
+              "name": "Zombi"
+            },
+            "Ye8dSyvLv9oi147A": {
+              "name": "Zombi"
+            },
+            "bNNnHoSbXNxoQWqw": {
+              "name": "Zombi"
+            },
+            "tbBUALsK5kfy4mRK": {
+              "name": "Zombi"
+            },
+            "8Cw9gijiJKAvqI6h": {
+              "name": "Zombi"
+            },
+            "XvssVKTL1d0vURUi": {
+              "name": "Zombi"
+            },
+            "clGSRguxaZ09iwPF": {
+              "name": "Pulpo gigante"
+            },
+            "nH88aCnXe23UwSKL": {
+              "name": "Vhalak"
+            },
+            "LxLtzR88onCacV6q": {
+              "name": "Nezznar la Araña"
+            },
+            "APWp4e75LmoJnohd": {
+              "name": "Mormesk"
+            },
+            "2o73nbuqXlT7qhbV": {
+              "name": "Nundro Rockseeker"
+            }
+          },
+          "name": "Cueva del Oleaje",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Cueva del Oleaje"
             }
           }
         },
@@ -10710,7 +12469,8 @@
                     "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "4mFmUuJ9xjwLuBqC": {
               "delta": {
@@ -10728,7 +12488,35 @@
                     "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
+            },
+            "8IFrOxMYT2FnWcxE": {
+              "name": "Comandante goblin psiónico"
+            }
+          },
+          "name": "Alijo del tejado",
+          "navigation": "Alijo del tejado",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Alijo del tejado"
+            }
+          },
+          "drawings": {
+            "2pMuSC9LaGbEkD8Z": {
+              "text": "+20 pies"
+            },
+            "NrLOhWuuvoQqyMTZ": {
+              "text": "+10 pies"
+            },
+            "RCGQLNpf8izJYYjR": {
+              "text": "+10 pies"
+            },
+            "8c5K1iWcfB6HPegU": {
+              "text": "+10 pies"
+            },
+            "0BcgSCrzo8gj6Ync": {
+              "text": "+10 pies"
             }
           }
         },
@@ -10746,7 +12534,74 @@
                     "description": "<p>La barrena puede excavar a través de roca sólida a la mitad de su velocidad excavando y deja a su paso un túnel de 10 pies de diámetro.</p>"
                   }
                 }
-              }
+              },
+              "name": "Barrena infernal"
+            },
+            "K6dvmo5zmLfSC9Ho": {
+              "name": "Espectro cinéreo feral"
+            },
+            "LYY5SU4JKfMYYmDT": {
+              "name": "Espectro cinéreo feral"
+            },
+            "zag7JrAei2v2ideL": {
+              "name": "Espectro cinéreo feral"
+            },
+            "nPTOxEzWM1vcDCkd": {
+              "name": "Bessie"
+            },
+            "JzO629zNdBkWrMJP": {
+              "name": "Hjoldak"
+            },
+            "oPYFSRKC479qEwFA": {
+              "name": "Grick"
+            },
+            "8EDaxssRRdvp58FK": {
+              "name": "Grick"
+            },
+            "wOQ0gYBZmuuzKkYk": {
+              "name": "Grick"
+            },
+            "aUcyRzrxBEEh0Otx": {
+              "name": "Espectro cinéreo feral"
+            },
+            "shMRduSKTOg3ARpm": {
+              "name": "Espectro cinéreo feral"
+            },
+            "2RS1U1upVaQmpc7Y": {
+              "name": "Espectro cinéreo feral"
+            },
+            "owwQBwc8FaYuko4t": {
+              "name": "Otyugh mutado"
+            },
+            "b3nqHninlbM7YBdx": {
+              "name": "Espectro cinéreo psiónico"
+            },
+            "NGtJFoVd0XTWNUGF": {
+              "name": "Espectro cinéreo psiónico"
+            },
+            "rQEXB7lCSemNRto9": {
+              "name": "Espectro cinéreo psiónico"
+            },
+            "l8cuFzf3HcnkzSB4": {
+              "name": "Comandante goblin psiónico"
+            },
+            "WISFviBghSjl8YYA": {
+              "name": "Comandante goblin psiónico"
+            }
+          },
+          "name": "Descanso de Zorzula",
+          "navigation": "Descanso de Zorzula",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Descanso de Zorzula"
+            }
+          },
+          "drawings": {
+            "9FXdKPmOxcY9qHda": {
+              "text": "-10 pies"
+            },
+            "RpWaFI6HiaoQYXdp": {
+              "text": "+10 pies"
             }
           }
         },
@@ -10768,7 +12623,8 @@
                     "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "Lulx9FN6eC24ocp4": {
               "delta": {
@@ -10786,7 +12642,8 @@
                     "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "J7XqUpRGKphPU92y": {
               "delta": {
@@ -10804,7 +12661,8 @@
                     "description": "<p>El goblin realiza la acción de Destrabarse u Ocultarse.</p>"
                   }
                 }
-              }
+              },
+              "name": "Camorrista goblin psiónico"
             },
             "ZPNgka1RtSJ2KiHJ": {
               "delta": {
@@ -10822,7 +12680,8 @@
                     "description": "<section class=\"secret\" id=\"secret-o97E6HKdPo9eUyYy\"><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
                   }
                 }
-              }
+              },
+              "name": "Slaad rojo"
             },
             "58dIgNrzrNTv42Vp": {
               "delta": {
@@ -10836,7 +12695,8 @@
                     "description": "<section class=\"secret\" id=\"secret-o97E6HKdPo9eUyYy\"><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
                   }
                 }
-              }
+              },
+              "name": "Slaad azul"
             },
             "TDiUptckaotPElsW": {
               "delta": {
@@ -10850,7 +12710,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "hjqnFkraMVs86bft": {
               "delta": {
@@ -10864,7 +12725,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "I83g4Blv2bixPCg6": {
               "delta": {
@@ -10873,7 +12735,8 @@
                     "name": "Mordisco"
                   }
                 }
-              }
+              },
+              "name": "Homúnculo"
             },
             "RWpYNtpoMeuBmUxG": {
               "delta": {
@@ -10887,7 +12750,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "1L5BQ6I02lHx5n2a": {
               "delta": {
@@ -10901,7 +12765,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "BVLVOdsX3yIZmQEj": {
               "delta": {
@@ -10915,7 +12780,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "tlJmqzhaxkcAROAT": {
               "delta": {
@@ -10929,7 +12795,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "qEmjpDp3K4VZWeor": {
               "delta": {
@@ -10943,7 +12810,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "9WEUUwg757Sld5Xs": {
               "delta": {
@@ -10957,7 +12825,8 @@
                     "description": "<section class=\"secret\" id=\"secret-hxpGF84gDqLY2vis\"><p>El nótico elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe enfrentar su prueba de Carisma (Engaño) a la prueba de [[/check skill=insight]] del nótico. Si el nótico gana, descubre mágicamente un dato o secreto sobre el objetivo. El objetivo gana automáticamente si es inmune a quedar hechizado.</p></section><p>El objetivo debe tirar [[/check skill=deception]].</p>"
                   }
                 }
-              }
+              },
+              "name": "Nótico"
             },
             "XDQUMqJjCKXEIRGD": {
               "delta": {
@@ -10966,7 +12835,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Renacuajo slaad"
             },
             "MttzZ4ovczoUKm1G": {
               "delta": {
@@ -10975,7 +12845,63 @@
                     "name": "Muerto"
                   }
                 }
+              },
+              "name": "Renacuajo slaad"
+            },
+            "lJiTojzw6BwhtFbZ": {
+              "name": "Oshundo"
+            },
+            "32h9bYMfALjbCiCw": {
+              "name": "Larnon",
+              "delta": {
+                "name": "Larnon"
               }
+            },
+            "qUuHwPHmu3Y7BM43": {
+              "name": "Ahooshathan",
+              "delta": {
+                "name": "Ahooshathan"
+              }
+            },
+            "lnEaWwhpXv7YJ77p": {
+              "name": "Gulguush",
+              "delta": {
+                "name": "Gulguush"
+              }
+            },
+            "GaXGdcFsfbtjQ5tg": {
+              "name": "Duoro",
+              "delta": {
+                "name": "Duoro"
+              }
+            },
+            "GXZS4iDYtSBXEKfO": {
+              "name": "Shalghast",
+              "delta": {
+                "name": "Shalghast"
+              }
+            },
+            "S4UCn3wFBkrU6RRc": {
+              "name": "Ulthundul",
+              "delta": {
+                "name": "Ulthundul"
+              }
+            },
+            "8Teqxtl7ABFsNqBY": {
+              "name": "Comandante goblin psiónico"
+            },
+            "DtGQ9btbLzEkthRu": {
+              "name": "Cerebro anciano infectado"
+            },
+            "WyhfsQJV7XvceyGQ": {
+              "name": "Larnon"
+            }
+          },
+          "name": "Illithinoch",
+          "navigation": "Illithinoch",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Illithinoch"
             }
           }
         },
@@ -11011,8 +12937,27 @@
                     },
                     "description": "<p>Cuando el oculorbo recibe daño de una criatura que pueda ver a 60 pies o menos de él, la obliga a realizar una tirada de salvación de Sabiduría CD 16. La criatura recibe 10 (3d6) de daño psíquico si falla, o la mitad si tiene éxito.</p>"
                   }
+                },
+                "name": "Golcuus"
+              },
+              "name": "Golcuus"
+            }
+          },
+          "name": "Laberinto de Ojos",
+          "navigation": "Laberinto de Ojos",
+          "regions": {
+            "hzOTL5OWL9DueFbo": {
+              "name": "Baldosa giratoria",
+              "behaviors": {
+                "u5Ao62Q1l12RP935": {
+                  "name": "Rotar zona"
                 }
               }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Laberinto de Ojos"
             }
           }
         },
@@ -11034,7 +12979,65 @@
                     "description": "<section class=\"secret\" id=\"secret-o97E6HKdPo9eUyYy\"><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno si tiene al menos <strong>1 punto de golpe</strong>.</p></section><p>El slaad recupera <strong>10 puntos de golpe</strong> al comienzo de su turno.</p>"
                   }
                 }
+              },
+              "name": "Slaad rojo"
+            },
+            "45REX1k2Cpdj0wGT": {
+              "name": "Renacuajo slaad"
+            },
+            "W5dmwDiXdzLaYObm": {
+              "name": "Renacuajo slaad"
+            },
+            "bi0o4fmvQv9rPAY4": {
+              "name": "Renacuajo slaad"
+            },
+            "NwgXNZmcMcXJ45zF": {
+              "name": "Renacuajo slaad"
+            },
+            "tjrFG7XjadTwU0iJ": {
+              "name": "Renacuajo slaad"
+            },
+            "U5IJ4jm9PycCE2IV": {
+              "name": "Renacuajo slaad"
+            },
+            "Ssi2iFzGa3VBZ4RQ": {
+              "name": "Renacuajo slaad"
+            },
+            "UXvMzWhGtQFCn7l6": {
+              "name": "Renacuajo slaad"
+            },
+            "MF4xC9jH8Fjq2MhY": {
+              "name": "Renacuajo slaad"
+            },
+            "wQJRO5mUIuW0e9Lg": {
+              "name": "Renacuajo slaad"
+            },
+            "f22HAJXkDRzBUdys": {
+              "name": "Renacuajo slaad"
+            },
+            "zQHCCyArRPXZWpLR": {
+              "name": "Renacuajo slaad"
+            },
+            "V0iDvVSdJbPG3KTo": {
+              "name": "Chalaag",
+              "delta": {
+                "name": "Chalaag"
               }
+            }
+          },
+          "name": "Hondonada de la Progenie",
+          "navigation": "Hondonada de la Progenie",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Hondonada de la Progenie"
+            }
+          },
+          "drawings": {
+            "ARD9492XR6bEob0b": {
+              "text": "T"
+            },
+            "IVShx1vunEsoojsK": {
+              "text": "T"
             }
           }
         },
@@ -11050,7 +13053,8 @@
                     "name": "Tragar"
                   }
                 }
-              }
+              },
+              "name": "Behir"
             },
             "RHqf7OgTLxq7254x": {
               "delta": {
@@ -11068,7 +13072,8 @@
                     "name": "Salivazo cegador"
                   }
                 }
-              }
+              },
+              "name": "Barbotador"
             },
             "4wAXH8Jc3hwQajfC": {
               "delta": {
@@ -11086,7 +13091,8 @@
                     "name": "Salivazo cegador"
                   }
                 }
-              }
+              },
+              "name": "Barbotador"
             },
             "cX1d47sq8jBxjhx9": {
               "delta": {
@@ -11104,7 +13110,8 @@
                     "name": "Salivazo cegador"
                   }
                 }
-              }
+              },
+              "name": "Barbotador"
             },
             "d48fBtgrywPYbKFa": {
               "delta": {
@@ -11122,7 +13129,8 @@
                     "name": "Salivazo cegador"
                   }
                 }
-              }
+              },
+              "name": "Barbotador"
             },
             "iOtAEiSZwPTuOfEL": {
               "delta": {
@@ -11140,7 +13148,8 @@
                     "name": "Salivazo cegador"
                   }
                 }
-              }
+              },
+              "name": "Barbotador"
             },
             "iFrjwfTlA8mro3W4": {
               "delta": {
@@ -11158,7 +13167,8 @@
                     "name": "Salivazo cegador"
                   }
                 }
-              }
+              },
+              "name": "Barbotador"
             },
             "5eQx6qEZWt1MjCqL": {
               "delta": {
@@ -11193,7 +13203,8 @@
                     }
                   }
                 }
-              }
+              },
+              "name": "Amasijo de carne"
             },
             "7tEur8Skdw6Kl5gl": {
               "delta": {
@@ -11215,7 +13226,67 @@
                     "description": "<section class=\"secret\" id=\"secret-IubKpn4eVYyG6WA0\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 10 pies, un objetivo. Impacto: 13 (2d8 + 4) de daño cortante.</p></section><p>La criatura mutada ataca con su cola.</p>"
                   }
                 }
+              },
+              "name": "Manto mutado"
+            },
+            "EpDLa2MHfzcbZGC8": {
+              "name": "Grell"
+            },
+            "Ynku8YoEIeIl0k6j": {
+              "name": "Grell"
+            },
+            "qFilYc9tTxrR1II9": {
+              "name": "Grell"
+            },
+            "XGIJ2ILcIQR7nnmK": {
+              "name": "Grell"
+            },
+            "tnquK84QumIHEE1u": {
+              "name": "Oskar",
+              "delta": {
+                "name": "Oskar"
               }
+            },
+            "etuZnlHQV5dc1qTL": {
+              "name": "Cathlette",
+              "delta": {
+                "name": "Cathlette"
+              }
+            },
+            "BYLT6HtSise48g0M": {
+              "name": "Aida",
+              "delta": {
+                "name": "Aida"
+              }
+            },
+            "kQy9gWgvl0GvlqMK": {
+              "name": "Grell"
+            },
+            "pzMislnEiSZTX7rf": {
+              "name": "Grell"
+            },
+            "xN0J9J9GSQ4Ah4kI": {
+              "name": "Vundru",
+              "delta": {
+                "name": "Vundru"
+              }
+            }
+          },
+          "name": "Túneles de las profundidades",
+          "navigation": "Túneles de las profundidades",
+          "regions": {
+            "aFTUaBPOswlefXS5": {
+              "name": "Estalagmitas rotas",
+              "behaviors": {
+                "QwrmMcrU9hOWmpyR": {
+                  "name": "Terreno difícil"
+                }
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Túneles de las profundidades"
             }
           }
         },
@@ -11227,8 +13298,10 @@
                   "zVPRX9bEujQjNvNN": {
                     "name": "Confusión"
                   }
-                }
-              }
+                },
+                "name": "Valsyx"
+              },
+              "name": "Valsyx"
             },
             "BPfa2TZFoBZ8O2A5": {
               "delta": {
@@ -11236,8 +13309,17 @@
                   "T36bJ3B1d1T92OUW": {
                     "name": "Imagen mayor"
                   }
-                }
-              }
+                },
+                "name": "Charnyz"
+              },
+              "name": "Charnyz"
+            }
+          },
+          "name": "Pantano de la Duda",
+          "navigation": "Pantano de la Duda",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Pantano de la Duda"
             }
           }
         },
@@ -11251,7 +13333,8 @@
                     "description": "<section class=\"secret\" id=\"secret-9ED6sHKbUoxKjXkX\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>10 (2d6 + 3) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El acechador invisible ataca con su Golpe.</p>"
                   }
                 }
-              }
+              },
+              "name": "Acechador invisible"
             },
             "fmVU7QxkRt452eT1": {
               "delta": {
@@ -11261,7 +13344,8 @@
                     "description": "<section class=\"secret\" id=\"secret-9ED6sHKbUoxKjXkX\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+6 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>10 (2d6 + 3) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El acechador invisible ataca con su Golpe.</p>"
                   }
                 }
-              }
+              },
+              "name": "Acechador invisible"
             },
             "xJzkAyYz8UAZ3hxg": {
               "delta": {
@@ -11277,7 +13361,14 @@
                     "description": "<ul><li>Es imposible ver a una criatura invisible sin ayuda de magia o un sentido especial. A efectos de esconderse, la criatura está en una zona muy oscura. Su ubicación puede detectarse por cualquier ruido que haga o rastro que deje.</li><li>Las tiradas de ataque contra la criatura tienen desventaja y las tiradas de ataque de la criatura tienen ventaja.</li></ul>"
                   }
                 }
-              }
+              },
+              "name": "Acechador invisible"
+            }
+          },
+          "name": "Miasma Ocultador",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Miasma Ocultador"
             }
           }
         },
@@ -11299,7 +13390,8 @@
                     "description": "<section id=\"secret-YJm6AfYehoyv0BWi\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 14 (2d8 + 5) de daño cortante.</p></section><p>La mole sombría ataca con sus mandíbulas.</p>"
                   }
                 }
-              }
+              },
+              "name": "Mole sombría"
             },
             "DK00ee8c25SeQGiV": {
               "delta": {
@@ -11322,7 +13414,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Mole sombría"
             },
             "dUYVPMgN2gTHkvln": {
               "delta": {
@@ -11345,7 +13438,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Mole sombría"
             },
             "Cl7041PGBEWwU56m": {
               "delta": {
@@ -11368,7 +13462,8 @@
                     "name": "Muerto"
                   }
                 }
-              }
+              },
+              "name": "Mole sombría"
             },
             "4OYimqfIyGwk1Fhq": {
               "delta": {
@@ -11376,8 +13471,10 @@
                   "IhGnhpefvoCi9zvj": {
                     "name": "Cuerno de guerra"
                   }
-                }
-              }
+                },
+                "name": "Frevvik"
+              },
+              "name": "Frevvik"
             },
             "ylrM5S8lqxUqi6En": {
               "delta": {
@@ -11385,10 +13482,1377 @@
                   "3JGGZeT3nVxC16s7": {
                     "name": "Hacha a dos manos (Matador de azotamentes)"
                   }
+                },
+                "name": "Nellik"
+              },
+              "name": "Nellik"
+            },
+            "LTlTfqlp0njioIyc": {
+              "name": "Mezzoloth"
+            },
+            "NBQJqoAvcu0pX5S9": {
+              "name": "Mezzoloth"
+            },
+            "qNGR7fET8Zot4eCF": {
+              "name": "Mezzoloth"
+            }
+          },
+          "name": "Campo de los Lamentos",
+          "navigation": "Campo de los Lamentos",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Campo de los Lamentos"
+            }
+          }
+        },
+        "pbsoPhandalinReg": {
+          "name": "Mapa de la región de Phandalin",
+          "tokens": {
+            "tO8USidOVlvSQcMu": {
+              "name": "Grupo"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Mapa de la región de Phandalin"
+            }
+          }
+        },
+        "aDugOnX3N2hl100m": {
+          "name": "Emboscada goblin",
+          "navigation": "Senda de Triboar",
+          "tokens": {
+            "ecECQZIBOMjnH0MW": {
+              "name": "Caballo de tiro"
+            },
+            "O4mURUGvHHDDc2Pu": {
+              "name": "Caballo de tiro"
+            },
+            "rpy0TsbziguUNjO0": {
+              "name": "Goblin"
+            },
+            "mRn26XYbvpe0RD0U": {
+              "name": "Goblin"
+            },
+            "HWblg8r60CFM5UEy": {
+              "name": "Goblin"
+            },
+            "UHW2CQHawfIPPGL1": {
+              "name": "Goblin"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Emboscada goblin"
+            }
+          }
+        },
+        "pbsoPhandalinVil": {
+          "name": "Pueblo de Phandalin",
+          "tokens": {
+            "fe6MJbKlA34wDxW3": {
+              "name": "Grupo"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Pueblo de Phandalin"
+            }
+          },
+          "notes": {
+            "ADGM7fKOv2JiU2hc": {
+              "text": "Hacia la Senda de Triboar"
+            },
+            "h9hExbajaKYtFj5Z": {
+              "text": "Prado del pueblo"
+            },
+            "jzIe5ng3Es17IDaN": {
+              "text": "Casa de Linene"
+            },
+            "Lj3tFvtCSTDZxBaG": {
+              "text": "Senda de los mineros"
+            },
+            "AIKGXBqRtfh8I71A": {
+              "text": "Carpintero"
+            },
+            "FywCqbDlqgZwt0Y2": {
+              "text": "Casa de Halia"
+            },
+            "1Hi3NIfgcoIjTXjs": {
+              "text": "Casa de Harbin Wester"
+            },
+            "negwUIzcSTTXY4km": {
+              "text": "Casa de Barthen"
+            },
+            "UGRFZZWzyCMJ3SU0": {
+              "text": "Herrería"
+            },
+            "PCKL2ZUWdDHbLUXi": {
+              "text": "Casa de la hermana Garaele"
+            }
+          }
+        },
+        "pbsoCragmawCastl": {
+          "name": "Castillo Cragmaw",
+          "tokens": {
+            "c2WCe6rsB4YLUFbv": {
+              "name": "Grick"
+            },
+            "fLIs6Bsr3FcIJDu5": {
+              "name": "Grell"
+            },
+            "fCdUF7zKNmyXQSp4": {
+              "name": "Hobgoblin"
+            },
+            "Z2ip71Kh1JOb4LvJ": {
+              "name": "Hobgoblin"
+            },
+            "EDjDWNax70CUDsSr": {
+              "name": "Hobgoblin"
+            },
+            "awdK5GhV3EBttMe7": {
+              "name": "Hobgoblin"
+            },
+            "ILmFO7yEIMca0txl": {
+              "name": "Jefe goblin"
+            },
+            "XXeBgkNcXBiOx89b": {
+              "name": "Jefe goblin"
+            },
+            "eLd9t6jWP322TnsB": {
+              "name": "Jefe goblin"
+            },
+            "pRkaZpS5908IBiBo": {
+              "name": "Jefe goblin"
+            },
+            "Wcr7csdaK4WzW4bd": {
+              "name": "Goblin"
+            },
+            "FBBnX6WJbkqOuAMs": {
+              "name": "Goblin"
+            },
+            "3fdZpUuCbM4jluPJ": {
+              "name": "Goblin"
+            },
+            "Kn7xz5LgYZ6i4waK": {
+              "name": "Hobgoblin"
+            },
+            "qZbiBjkLhFOmcROI": {
+              "name": "Hobgoblin"
+            },
+            "39DBqtr1UocL2zA2": {
+              "name": "Hobgoblin"
+            },
+            "0wAXzsYQl1PQzDQ0": {
+              "name": "Hobgoblin"
+            },
+            "qpfIIfK5Vbk3NBgQ": {
+              "name": "Goblin"
+            },
+            "CtJ1HMjr7vuIxKMc": {
+              "name": "Goblin"
+            },
+            "kOMlJr2YoygTiQhJ": {
+              "name": "Goblin"
+            },
+            "F1yGF4v5e5UpgAwi": {
+              "name": "Goblin"
+            },
+            "I0S4kQiso68HHxCI": {
+              "name": "Goblin"
+            },
+            "8FMZlLLVtqbJtKn6": {
+              "name": "Goblin"
+            },
+            "0L6rbk9oXqMPkBVN": {
+              "name": "Yegg"
+            },
+            "iO0iyDSgG1HoIzjY": {
+              "name": "Goblin"
+            },
+            "9iAkdracbLFc7EPZ": {
+              "name": "Goblin"
+            },
+            "1jbcu2EvK56Pk8yu": {
+              "name": "Lhupo"
+            },
+            "1NlgYc5HVTH2WWi2": {
+              "name": "Gundren Rockseeker"
+            },
+            "G4l1nBiBgzPPmaBb": {
+              "name": "Rey Grol"
+            },
+            "XtPuyX92U21yasFz": {
+              "name": "Snarl"
+            },
+            "E8faBgnfZynCYmKs": {
+              "name": "Vyerith"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Castillo Cragmaw"
+            }
+          },
+          "drawings": {
+            "RWuQLwH5EqDrHlzg": {
+              "text": "TRAMPA"
+            }
+          }
+        },
+        "pbsoOldOwlWell00": {
+          "name": "Pozo del Viejo Búho",
+          "tokens": {
+            "hBmuKUL23Wk0NKzh": {
+              "name": "Hamun Kost"
+            },
+            "XNbVsVi9rdiAnOux": {
+              "name": "Zombi"
+            },
+            "TMOL7lBY0Gcdc3a8": {
+              "name": "Zombi"
+            },
+            "LRchsvf8L5zmYkx8": {
+              "name": "Zombi"
+            },
+            "ksZwZxC5HR9gg5TV": {
+              "name": "Zombi"
+            },
+            "IN9XVdWONDUUnagt": {
+              "name": "Zombi"
+            },
+            "vxacwwbDmlQy2ZjE": {
+              "name": "Zombi"
+            },
+            "6MoKVT0MM9jWhdn4": {
+              "name": "Zombi"
+            },
+            "pZ2azue1mqSHyn0a": {
+              "name": "Zombi"
+            },
+            "avheMr90Jj5kaQBw": {
+              "name": "Zombi"
+            },
+            "894uZ6bmnaRfPZ8P": {
+              "name": "Zombi"
+            },
+            "5v5AUBr7t2SFvWR6": {
+              "name": "Zombi"
+            },
+            "NkRIckwG0ec9nset": {
+              "name": "Zombi"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Pozo del Viejo Búho"
+            }
+          }
+        },
+        "pbsoMap5p2000000": {
+          "name": "Campamento goblin",
+          "navigation": "Campamento goblin",
+          "tokens": {
+            "0KYWIrbsrB920eXn": {
+              "name": "Camorrista goblin psiónico"
+            },
+            "zBJUdtuxXJEtAIR2": {
+              "name": "Camorrista goblin psiónico"
+            },
+            "Unqxi07dmJEe3ntc": {
+              "name": "Camorrista goblin psiónico"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Campamento goblin"
+            }
+          }
+        },
+        "pbsoMap5p6000000": {
+          "name": "Santuario Índigo",
+          "navigation": "Santuario Índigo",
+          "tokens": {
+            "UAWeZ9kcZEv220iB": {
+              "name": "Ruxithid el Elegido"
+            },
+            "cXOfWPIH1sgOrDj8": {
+              "name": "Estatua sonriente"
+            },
+            "UUsYeUX5bFibO70s": {
+              "name": "Camorrista goblin psiónico"
+            },
+            "IDnDKpQMHoLWoLRa": {
+              "name": "Camorrista goblin psiónico"
+            },
+            "n0RzZ2RTl9d8JCvd": {
+              "name": "Paulina"
+            },
+            "d1RRDWrAXvBfHxLu": {
+              "name": "Tumblewick"
+            },
+            "vrt9Eu3I39R91Jpv": {
+              "name": "Dareth"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Santuario Índigo"
+            }
+          },
+          "drawings": {
+            "TpxZdPeZGX8QTwaS": {
+              "text": "+15 pies"
+            }
+          }
+        },
+        "pbsoMap5p3000000": {
+          "name": "Callejones de Phandalin",
+          "navigation": "Callejones de Phandalin",
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Callejones de Phandalin"
+            }
+          }
+        },
+        "pbsoMap5p1000000": {
+          "name": "Caverna del pozo",
+          "navigation": "Caverna del pozo",
+          "tokens": {
+            "XIjJsC6Z2IE5RYuI": {
+              "name": "Otyugh"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Caverna del pozo"
+            }
+          }
+        },
+        "pbsoMap6p4000000": {
+          "name": "Cripta de Talhund",
+          "navigation": "Cripta de Talhund",
+          "tokens": {
+            "gNr9j8oMo9Sh3TGN": {
+              "name": "Guardián de la cripta"
+            },
+            "MI2aIJ196WZ9jcEe": {
+              "name": "Guardián de la cripta"
+            },
+            "OO0uj8woHxid4sIy": {
+              "name": "Guardián de la cripta"
+            },
+            "3Jq8rAWWRuP0pHe4": {
+              "name": "Guardián de la cripta"
+            },
+            "2LRP7itfOmgsumzy": {
+              "name": "Grandlejaw"
+            },
+            "CoHoT0Wkn0l1bITS": {
+              "name": "Kellikilli"
+            },
+            "UhpyWf3uToy3iJrY": {
+              "name": "Gólem de arcilla"
+            },
+            "w9V7wDzlty9DbXhA": {
+              "name": "Esqueleto enano"
+            },
+            "AzagVqtJ9SCUyGnD": {
+              "name": "Esqueleto enano"
+            },
+            "xkxfTrJgnJ5wSxxN": {
+              "name": "Esqueleto enano"
+            },
+            "FGbWlEGzNvPisUvP": {
+              "name": "Esqueleto enano"
+            },
+            "rp2fNLT8HQdGmRZi": {
+              "name": "Esqueleto enano"
+            },
+            "EgWDdzljey43OfEv": {
+              "name": "Esqueleto enano"
+            },
+            "kCqY0q974FMXV4bk": {
+              "name": "Esqueleto enano"
+            },
+            "CqzwUle71cu59sj6": {
+              "name": "Esqueleto enano"
+            },
+            "lyWLFZzpOEhnZtg4": {
+              "name": "Esqueleto enano"
+            },
+            "gylAZTAomfFlCEKV": {
+              "name": "Esqueleto enano"
+            },
+            "qD8ZYfguPpfRICvB": {
+              "name": "Esqueleto enano"
+            },
+            "C4KfbTOW6ccwvBCe": {
+              "name": "Esqueleto enano"
+            },
+            "GzGWUNu1j1cuRaJL": {
+              "name": "Esqueleto enano"
+            },
+            "b2P5zkGcbdi7Mb1v": {
+              "name": "Esqueleto enano"
+            },
+            "5yQpRTjYItaWbmoJ": {
+              "name": "Esqueleto enano"
+            },
+            "vbf4nwiHdlEHzwie": {
+              "name": "Brelta"
+            },
+            "U815UE8poVoFcbzB": {
+              "name": "Nelja"
+            },
+            "mEskWI1SItMu7rXT": {
+              "name": "Murnig"
+            },
+            "neIXKCmIbMuIggBB": {
+              "name": "Aparición"
+            },
+            "ib9Q4uqvXdzXMko2": {
+              "name": "Aparición"
+            },
+            "DKfrAxVj7htUXdX4": {
+              "name": "Aparición"
+            },
+            "YHbXFmx4ZSoV3Tvu": {
+              "name": "Guardián de la cripta"
+            },
+            "6VXipSy0iGqvwoSw": {
+              "name": "Guardián de la cripta"
+            },
+            "PNwY6M7VYBdqtuCn": {
+              "name": "Guardián de la cripta"
+            },
+            "DW9uZV3CXBuFeb2q": {
+              "name": "Guardián de la cripta"
+            },
+            "W8owY1vEwmWLr1jZ": {
+              "name": "Guardián de la cripta"
+            },
+            "Y8Y61mRAYA20hIIR": {
+              "name": "Guardián de la cripta"
+            },
+            "oaeL9LTtjkkkPqOR": {
+              "name": "Guardián escudo"
+            },
+            "d81QSGusqb1hIHvX": {
+              "name": "Momia"
+            },
+            "3Syg6aaI4TIPM62w": {
+              "name": "Espectro"
+            },
+            "9tYWcmQsMnewbyEj": {
+              "name": "Espectro"
+            },
+            "WNTBkVrFAlCRJOsv": {
+              "name": "Espectro"
+            },
+            "gkjCYxTmvHRvaJJI": {
+              "name": "Espectro"
+            },
+            "vYlQfAq2ftLW2wJ7": {
+              "name": "Espectro"
+            },
+            "XMxBXx64i3MhWzc3": {
+              "name": "Espectro"
+            },
+            "HNB2ON6QgbuKLadv": {
+              "name": "Espectro"
+            },
+            "CvS7ziB5wx657TUS": {
+              "name": "Rivibiddel"
+            }
+          },
+          "regions": {
+            "531mwUKj7hCbspnY": {
+              "name": "Escombros de la estatua norte",
+              "behaviors": {
+                "BVM53yRrPefM5EOa": {
+                  "name": "Terreno difícil"
+                }
+              }
+            },
+            "JQVqQXN6Vz8skIbA": {
+              "name": "Escombros de la estatua sur",
+              "behaviors": {
+                "ZzX5TnJmAwlbhez7": {
+                  "name": "Terreno difícil"
                 }
               }
             }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Cripta de Talhund"
+            }
           }
+        },
+        "pbsoMap6p5000000": {
+          "name": "Cruce del Cadalso",
+          "navigation": "Cruce del Cadalso",
+          "tokens": {
+            "ZtYQ5Oxa9uztqarQ": {
+              "name": "Espectro cinéreo feral"
+            },
+            "j7QcVM2Vzb32oyze": {
+              "name": "Espectro cinéreo feral"
+            },
+            "2UGfYW9O9aVmTuNj": {
+              "name": "Espectro cinéreo feral"
+            },
+            "kyKyfA0oxs4oWxsq": {
+              "name": "Espectro cinéreo feral"
+            },
+            "d8p4ud5jm4SCdNm0": {
+              "name": "Vakketar",
+              "delta": {
+                "name": "Vakketar"
+              }
+            },
+            "80KtOf9tPWuDio37": {
+              "name": "Chuul"
+            },
+            "DExTPCw6nTOkqRaY": {
+              "name": "Chuul"
+            },
+            "b7GRUvWLRL0JK1I2": {
+              "name": "Chuul"
+            },
+            "UN0Y5WsKPl2kM0AC": {
+              "name": "Chuul"
+            },
+            "6J3426hktpIrgWTz": {
+              "name": "Zuluthl",
+              "delta": {
+                "name": "Zuluthl"
+              }
+            },
+            "Jzbn5hiLHwgB5iqI": {
+              "name": "Grimlock"
+            },
+            "5wzrYdlCvBMG9mgU": {
+              "name": "Grimlock"
+            },
+            "E032WWopbopbnwu9": {
+              "name": "Grimlock"
+            },
+            "HGGjs6zvvnXw295y": {
+              "name": "Grimlock"
+            },
+            "QcPOKte5nfq8hUyW": {
+              "name": "Grimlock"
+            },
+            "ohU2lXhcsw8QlyAk": {
+              "name": "Basilisco"
+            },
+            "NeCZFxR0Sz6kTgno": {
+              "name": "Basilisco"
+            },
+            "5TWaohYw0GJsXZkA": {
+              "name": "Qunbraxel"
+            },
+            "kxr23SO0Q0KOVmTr": {
+              "name": "Grimlock"
+            },
+            "sKZu2oyhTs1c2e2X": {
+              "name": "Grimlock"
+            },
+            "z0foix0WygkxPoYe": {
+              "name": "Grimlock"
+            },
+            "i3If0Rka9IZ14ZVn": {
+              "name": "Grimlock"
+            },
+            "uj2J3yQx0QpQbrRk": {
+              "name": "Grimlock"
+            },
+            "7A400YZmyccrmaEb": {
+              "name": "Grimlock"
+            },
+            "L6P6WisGvpyXgXLk": {
+              "name": "Grick"
+            },
+            "GJhSawn46cgPfvUe": {
+              "name": "Grick"
+            },
+            "qH8Zl8n0wEAQ4mOL": {
+              "name": "Grick"
+            },
+            "uj7F1EtQwh5zccjA": {
+              "name": "Grick"
+            },
+            "hlVEXrZY0u2e9gOt": {
+              "name": "Grick"
+            },
+            "NaDPYfxyNbgrHNHA": {
+              "name": "Grick"
+            },
+            "p5VD7EnhMaIZ6etV": {
+              "name": "Lazo"
+            },
+            "QSEuVlt0u1cGLb2H": {
+              "name": "Lazo"
+            },
+            "bGnkxXKAfN942xdU": {
+              "name": "Zoklork",
+              "delta": {
+                "name": "Zoklork"
+              }
+            },
+            "1TVfmdlCcWkhSsKS": {
+              "name": "Elemental de tierra"
+            },
+            "Y0KQaIO5vkULxF9F": {
+              "name": "Elemental de tierra"
+            },
+            "pzL9AOZXo13uNKEz": {
+              "name": "Grick alfa"
+            }
+          },
+          "regions": {
+            "uSp8Fju5I34IR1dd": {
+              "name": "Agua poco profunda",
+              "behaviors": {
+                "tUpPNaQ3IVkSfjNF": {
+                  "name": "Terreno difícil"
+                }
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Cruce del Cadalso"
+            }
+          },
+          "drawings": {
+            "TR7nYgkIPfhaIzaF": {
+              "text": "X"
+            },
+            "OC2uC7puvgHgGaLM": {
+              "text": "X"
+            },
+            "AXlVjF56tKKfYTU6": {
+              "text": "X"
+            },
+            "DuIeoKJasB3XVBKw": {
+              "text": "X"
+            }
+          }
+        },
+        "pbsoMap6p2000000": {
+          "name": "Mina Hardyhammer",
+          "navigation": "Mina Hardyhammer",
+          "tokens": {
+            "vlHkpQSD8tcD25Bt": {
+              "name": "Broza movediza"
+            },
+            "jnjXq41VtAYNcwvd": {
+              "name": "Elise",
+              "delta": {
+                "name": "Elise"
+              }
+            },
+            "2CcX6Rsr5DRlRtl3": {
+              "name": "Wallin",
+              "delta": {
+                "name": "Wallin"
+              }
+            },
+            "tuxaZswFrZ6F6xBS": {
+              "name": "Karthim",
+              "delta": {
+                "name": "Karthim"
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Mina Hardyhammer"
+            }
+          }
+        },
+        "pbsoMap6p1000000": {
+          "name": "Casa de Marthungrim",
+          "navigation": "Casa de Marthungrim",
+          "tokens": {
+            "LHqgJKp9kI9w2Y7n": {
+              "name": "Gémula"
+            },
+            "0cKwafg2rcY7mGO3": {
+              "name": "Gémula"
+            },
+            "ttvnWPkhsqS60Rky": {
+              "name": "Gémula"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Casa de Marthungrim"
+            }
+          }
+        },
+        "pbsoMap6p3000000": {
+          "name": "Talhundereth",
+          "navigation": "Talhundereth",
+          "tokens": {
+            "frT6cfGbznmf8WK3": {
+              "name": "Fremine",
+              "delta": {
+                "name": "Fremine"
+              }
+            },
+            "ponDDWV4uQoIVySh": {
+              "name": "Frowode",
+              "delta": {
+                "name": "Frowode"
+              }
+            },
+            "zSEK4zgm3YezARJe": {
+              "name": "Cameren",
+              "delta": {
+                "name": "Cameren"
+              }
+            },
+            "HiHV1QtiL5fs7nMp": {
+              "name": "Honna"
+            },
+            "hVYFPVJnYLxut2fj": {
+              "name": "Tumulario"
+            },
+            "1F0kw9pw6lf5kK2Y": {
+              "name": "Horror acorazado"
+            },
+            "ioo8Uef1QN70WFHY": {
+              "name": "Armadura animada"
+            },
+            "ZXLqAwLsEuYSrofY": {
+              "name": "Armadura animada"
+            },
+            "oOl3Q2io3juOXKXa": {
+              "name": "Falfark",
+              "delta": {
+                "name": "Falfark"
+              }
+            },
+            "pQgap4qQgvRcdEyv": {
+              "name": "Gémula"
+            },
+            "hFjbKa7TCnCgDhJc": {
+              "name": "Trampa de intelecto"
+            },
+            "c0Rp4ZwVG5vUlv3N": {
+              "name": "Erdan",
+              "delta": {
+                "name": "Erdan"
+              }
+            },
+            "L2o3Wse35VRmGFW8": {
+              "name": "Thiala"
+            },
+            "70JxnNrlB2fWlXqg": {
+              "name": "Vellios",
+              "delta": {
+                "name": "Vellios"
+              }
+            },
+            "VmPTl1V9mcK9tYMc": {
+              "name": "Elemental de tierra"
+            },
+            "EbaJwbT4SshAZI0h": {
+              "name": "Elemental de tierra"
+            },
+            "9nER27hu4MGN1fgv": {
+              "name": "Malinia",
+              "delta": {
+                "name": "Malinia"
+              }
+            },
+            "uSTOiPyC3mwG6qDf": {
+              "name": "Gémula"
+            },
+            "qIgysvWDMXFsphGx": {
+              "name": "Gémula"
+            },
+            "k3bpDlUu2mQxhjK8": {
+              "name": "Gémula"
+            },
+            "FvyP8pexSlMGSvP4": {
+              "name": "Gémula"
+            },
+            "KqarU1fO0C39cxGv": {
+              "name": "Ontharyx"
+            },
+            "IUV3qdgoiLIGqZuW": {
+              "name": "Humanoide mutado"
+            },
+            "2GZfyi1b4CM9OD1R": {
+              "name": "Humanoide mutado"
+            },
+            "3RzSBLkgPHcUNdUa": {
+              "name": "Humanoide mutado"
+            },
+            "2F4mLsLUYgs5Ze6R": {
+              "name": "Cúmulo de encéfalos"
+            },
+            "f7soC8YavuL72CZ8": {
+              "name": "Nythalyn"
+            },
+            "JMkyUZtdRjtSzGex": {
+              "name": "Yanthdel"
+            },
+            "WXUBrl03scmpSoPx": {
+              "name": "Mefit de polvo"
+            },
+            "x65OLiJqeIPgIq1S": {
+              "name": "Mefit de polvo"
+            },
+            "yyMtaAvDcsJfiiVz": {
+              "name": "Mefit de polvo"
+            },
+            "78uB2Hujr1ehMLRU": {
+              "name": "Mefit de polvo"
+            },
+            "qVG0cNaronbe7i7n": {
+              "name": "Mefit de polvo"
+            },
+            "9Y141wNsQon10Fj2": {
+              "name": "Mefit de polvo"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Talhundereth"
+            }
+          }
+        },
+        "pbsoMap7p3000000": {
+          "name": "Fosas de alimentación",
+          "navigation": "Fosas de alimentación",
+          "tokens": {
+            "VeXyncOkxgo4FaFN": {
+              "name": "Grell"
+            },
+            "L8DKMAnzBe9BKmdt": {
+              "name": "Grell"
+            },
+            "xvJUEqOkvhdI5Pxj": {
+              "name": "Grell"
+            },
+            "5kEHsTKb4TfblRt0": {
+              "name": "Grell"
+            },
+            "lfAQYbDiSaZAvZ84": {
+              "name": "Cuidador Naruv",
+              "delta": {
+                "name": "Cuidador Naruv"
+              }
+            },
+            "kNE1fkeDOPLeB86r": {
+              "name": "Bashudu",
+              "delta": {
+                "name": "Bashudu"
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Fosas de alimentación"
+            }
+          },
+          "drawings": {
+            "4ECpjmaLxiuimfij": {
+              "text": "+12 pies"
+            }
+          }
+        },
+        "pbsoMap8p1000000": {
+          "name": "Laberinto Salino",
+          "navigation": "Laberinto Salino",
+          "tokens": {
+            "NcBtmONei43jrMOP": {
+              "name": "Vazzi"
+            },
+            "zrDg6kCG6df9kXwv": {
+              "name": "Kianka"
+            },
+            "6gEoNKz7nTfX4NXV": {
+              "name": "Varakkta"
+            },
+            "ugRXSG0ijnYohICY": {
+              "name": "Shalfi Lewin"
+            },
+            "BIDgYbzQtXHWuU75": {
+              "name": "Jitterjaws",
+              "delta": {
+                "name": "Jitterjaws"
+              }
+            },
+            "HiKSjcBjsRnafw8c": {
+              "name": "Cúmulo de encéfalos"
+            },
+            "EGPzTnO6U7g1R2ha": {
+              "name": "Araña de fase"
+            },
+            "LfjHHU6oYtH28oOH": {
+              "name": "Araña de fase"
+            },
+            "wva0fh5su1mrUX3x": {
+              "name": "Calavera llameante"
+            },
+            "Ayxkov35dIGtRkuQ": {
+              "name": "Calavera llameante"
+            },
+            "A3YWcHgSkkdhzY5G": {
+              "name": "Calavera llameante"
+            },
+            "eflp8RNGJvuXvoNv": {
+              "name": "Calavera llameante"
+            },
+            "89SrIIFl9OtkHDpc": {
+              "name": "Calavera llameante"
+            },
+            "attlFzSTgcT9i91W": {
+              "name": "Trampa de intelecto"
+            },
+            "VNwOyWOpXI1Wgc9F": {
+              "name": "Jomlus",
+              "delta": {
+                "name": "Jomlus"
+              }
+            },
+            "7clKuVQjuBFCjMSP": {
+              "name": "Flumph"
+            },
+            "Tbba4Z10MHkQxdM9": {
+              "name": "Flumph"
+            },
+            "Lu4BWfoBcwLe6Ko9": {
+              "name": "Borbish el Sabio",
+              "delta": {
+                "name": "Borbish el Sabio"
+              }
+            },
+            "u1QH7knZUJI9hzzl": {
+              "name": "Flumph"
+            },
+            "ud0XJ1K9p5tE5tiC": {
+              "name": "Flumph"
+            },
+            "3bGcfI9LEWEYNfAF": {
+              "name": "Flumph"
+            },
+            "RJdojx6pkOP7329q": {
+              "name": "Flumph"
+            },
+            "R3BStkgcMgBMAHr9": {
+              "name": "Mublinesh",
+              "delta": {
+                "name": "Mublinesh"
+              }
+            },
+            "b9jMkigmBGYuokGE": {
+              "name": "Lowarnizel"
+            },
+            "rpFu5yEp9k7I5fTA": {
+              "name": "Gossa"
+            },
+            "OSgQLTleM9qoOgio": {
+              "name": "Ashripask",
+              "delta": {
+                "name": "Ashripask"
+              }
+            },
+            "cCzVfJaFBeqVOka7": {
+              "name": "Gusano púrpura"
+            },
+            "G52ktK4eV8thFcTe": {
+              "name": "Gémula"
+            },
+            "zLUqqU9G7Yu1n4Nq": {
+              "name": "Gémula"
+            },
+            "WsFM8IPPesi0PsSh": {
+              "name": "Gémula"
+            },
+            "mrXw3r8qkNkOYrx6": {
+              "name": "Gémula"
+            },
+            "7yXQP9RhclPWMWGk": {
+              "name": "Espectro cinéreo psiónico"
+            },
+            "RvTQGvPXOTC66FTp": {
+              "name": "Espectro cinéreo psiónico"
+            },
+            "DoJPGPvfFxtJl2Ok": {
+              "name": "Nouashu",
+              "delta": {
+                "name": "Nouashu"
+              }
+            },
+            "a3jxk7N3G6IhZrCL": {
+              "name": "Groushim",
+              "delta": {
+                "name": "Groushim"
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Laberinto Salino"
+            }
+          }
+        },
+        "pbsoMap8p2000000": {
+          "name": "Cúpula de Cristal",
+          "navigation": "Cúpula de Cristal",
+          "tokens": {
+            "HOSPBHmXFmP66gXb": {
+              "name": "Guardián escudo"
+            },
+            "Vvoi4F9JbrHq7X2h": {
+              "name": "Guardián escudo"
+            },
+            "2A3AZfPfAVGR1Qul": {
+              "name": "Guardián escudo"
+            },
+            "x4OT1EWQHJWLKyWt": {
+              "name": "Guardián escudo"
+            },
+            "RTtDmsjRlAQR7oVp": {
+              "name": "Guardián escudo"
+            },
+            "BfZyTcwrvq0oF6Dr": {
+              "name": "Thawnia Browne"
+            },
+            "g2tVrDeTBrsbgQVc": {
+              "name": "Shansa Browne"
+            },
+            "gPbsXaWi3me4vRVg": {
+              "name": "Wramble"
+            },
+            "ulUOSuleiKqnOOyX": {
+              "name": "Unmiel"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Cúpula de Cristal"
+            }
+          }
+        },
+        "pbsoMap8p3000000": {
+          "name": "Puente Vacío",
+          "navigation": "Puente Vacío",
+          "tokens": {
+            "2Jly6wizq2uK9kna": {
+              "name": "Aboleth"
+            },
+            "gkNaKvbjBaJGn4Ur": {
+              "name": "Elemental de agua"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Puente Vacío"
+            }
+          }
+        },
+        "pbsoMap8p9000000": {
+          "name": "Ánima de Ilvaash",
+          "navigation": "Ánima de Ilvaash",
+          "tokens": {
+            "xWoe8eIUoGuTcd3c": {
+              "name": "Voalsh"
+            },
+            "Q1jSPAdueXXLKk14": {
+              "name": "Chishinix"
+            },
+            "4pf8LxnD5e9NjvKR": {
+              "name": "Chishinix"
+            },
+            "pEwTmjKlLBuV02qD": {
+              "name": "Hashutu"
+            },
+            "pMOYkFjVMzsiAMh6": {
+              "name": "Hashutu"
+            },
+            "IxQfzjYeMuklvBwQ": {
+              "name": "Azotamentes profeta"
+            },
+            "c2NoQGuFIxMRtOnC": {
+              "name": "Azotamentes profeta"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Ánima de Ilvaash"
+            }
+          }
+        },
+        "pbsoMap8p5000000": {
+          "name": "El Nematodo",
+          "navigation": "El Nematodo",
+          "tokens": {
+            "uRFo2lwLg4wyBxfh": {
+              "name": "Trampa de intelecto"
+            },
+            "nJeRPkFyqXJmD8rr": {
+              "name": "Trampa de intelecto"
+            },
+            "m0OJwHRC1p1k8wgw": {
+              "name": "Membrana del Nematodo"
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "El Nematodo"
+            }
+          }
+        },
+        "pbsoMap8p7000000": {
+          "name": "Estatua Derribada",
+          "navigation": "Estatua Derribada",
+          "tokens": {
+            "mxKOrtBIl4Y0zR9d": {
+              "name": "Hovnar Tartesh",
+              "delta": {
+                "name": "Hovnar Tartesh"
+              }
+            },
+            "QOUrtQW5MGRNpTKZ": {
+              "name": "Menvin Tartesh",
+              "delta": {
+                "name": "Menvin Tartesh"
+              }
+            },
+            "nzkNeowUwdZXCbBV": {
+              "name": "Nalpina Goldstone",
+              "delta": {
+                "name": "Nalpina Goldstone"
+              }
+            },
+            "FQCOceJAQHQJ4S1w": {
+              "name": "Mildra Merkel",
+              "delta": {
+                "name": "Mildra Merkel"
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Estatua Derribada"
+            }
+          }
+        },
+        "pbsoCragmawHideo": {
+          "name": "Guarida Cragmaw",
+          "tokens": {
+            "IWxL8LmmGi4qOQhV": {
+              "name": "Goblin"
+            },
+            "8Tf6MyZuUMOx0pS4": {
+              "name": "Goblin"
+            },
+            "nEQ0HToQjRZfpCFh": {
+              "name": "Jefe goblin"
+            },
+            "PJwePGbtdIbTB1Zk": {
+              "name": "Ripper"
+            },
+            "XvmmCwK6v8ywvBzF": {
+              "name": "Lobo"
+            },
+            "zU4eJA5dqp8glRs2": {
+              "name": "Lobo"
+            },
+            "o4MG01GnJpLQln5l": {
+              "name": "Lobo"
+            },
+            "6uF7WrlzEmFFr7Gn": {
+              "name": "Goblin"
+            },
+            "nR9Im8HHUfhzYFYY": {
+              "name": "Serpiente venenosa gigante"
+            },
+            "k80bEM5Pk4zXvbhs": {
+              "name": "Goblin"
+            },
+            "UwaXVEPS0xpyWddz": {
+              "name": "Goblin"
+            },
+            "AzglyHaVxCQ0jbl3": {
+              "name": "Goblin"
+            },
+            "bDTaSiyN1PZEIdkj": {
+              "name": "Goblin"
+            },
+            "GksPiyOP0FmKbpwF": {
+              "name": "Goblin"
+            },
+            "ZaOYEYmXBGhxA7tY": {
+              "name": "Errk"
+            },
+            "obOFG3XjyA7veRJx": {
+              "name": "Yeemik"
+            },
+            "RzE4T0CVVaxOUsVh": {
+              "name": "Sildar Hallwinter"
+            },
+            "L7tHqd4CHS4HGblb": {
+              "name": "Goblin"
+            },
+            "S7TjgpLsh4XWRxEH": {
+              "name": "Goblin"
+            },
+            "288YKESrrmEzUFpd": {
+              "name": "Goblin"
+            },
+            "fZxnA0Jcb5PjOXmM": {
+              "name": "Lobo"
+            },
+            "DILyQg95rlQuEaa3": {
+              "name": "Lobo"
+            },
+            "AkivOt8zOScHbeD3": {
+              "name": "Klarg"
+            },
+            "2qJGa2E7K8Xotrd7": {
+              "name": "Goblin de la guardia de honor"
+            },
+            "MICZk4i9jxTMNz2J": {
+              "name": "Goblin de la guardia de honor"
+            }
+          },
+          "regions": {
+            "Efv1ryeVYOFpiMcP": {
+              "name": "Escombros",
+              "behaviors": {
+                "fb419gzWZXe2Pyup": {
+                  "name": "Terreno difícil"
+                }
+              }
+            },
+            "ItxRqSjLroPhtAOX": {
+              "name": "Matorrales",
+              "behaviors": {
+                "Q77ckCm3C1bswMLw": {
+                  "name": "Terreno difícil"
+                }
+              }
+            },
+            "poxZUIavP3EJc6Ed": {
+              "name": "Pendientes",
+              "behaviors": {
+                "sU2ztqNWmo1jUzjD": {
+                  "name": "Terreno difícil"
+                }
+              }
+            }
+          },
+          "levels": {
+            "defaultLevel0000": {
+              "name": "Guarida Cragmaw"
+            }
+          },
+          "notes": {
+            "AKlYEYWMlgchCCXR": {
+              "text": "Puesto de guardia goblin"
+            },
+            "TzUW7gmMjthklhum": {
+              "text": "Perrera"
+            },
+            "nk7WEp5BETVHoQtP": {
+              "text": "Pasadizo empinado"
+            },
+            "jkpz9i12WX5Mh6B0": {
+              "text": "Paso elevado"
+            },
+            "AQHSrbp56RBu36zh": {
+              "text": "Guarida goblin"
+            },
+            "IF4QfceaYbTKTcv9": {
+              "text": "Cueva de las dos pozas"
+            },
+            "yQMpooK6yLuYvmxQ": {
+              "text": "Cueva de Klarg"
+            },
+            "qaacmORpLeCt9afu": {
+              "text": "Entrada de la cueva"
+            }
+          }
+        }
+      },
+      "tables": {
+        "pbsoTriboarTrail": {
+          "name": "Encuentros aleatorios diurnos en la Senda de Triboar"
+        },
+        "pbsoNightTriboar": {
+          "name": "Encuentros aleatorios nocturnos en la Senda de Triboar"
+        },
+        "pbsoWanderingMon": {
+          "name": "Monstruos errantes"
+        },
+        "pbsoGoblinMischi": {
+          "name": "Fechorías goblin"
+        },
+        "pbsoCh6crypthaun": {
+          "name": "Apariciones en la cripta"
+        },
+        "pbsoCrystalImage": {
+          "name": "Imágenes de cristal"
+        },
+        "pbsoTunnelEncoun": {
+          "name": "Encuentros en los túneles"
+        },
+        "pbsoVoidnodules0": {
+          "name": "Nódulos del Vacío Infinito"
+        },
+        "pbsoStage1Transf": {
+          "name": "Efectos de transformación de la fase 1"
+        },
+        "pbsoStage2Transf": {
+          "name": "Efectos de transformación de la fase 2"
+        },
+        "pbsoStage3Transf": {
+          "name": "Efectos de transformación de la fase 3"
+        },
+        "pbsoStage4Transf": {
+          "name": "Efectos de transformación de la fase 4"
+        }
+      },
+      "macros": {
+        "pbsoBrazierOfGre": {
+          "name": "Brasero de llama verde"
+        },
+        "pbsoDoppelganger": {
+          "name": "Cambiar disfraz del doppelganger"
+        },
+        "pbsoToggleFlames": {
+          "name": "Activar o desactivar la iluminación de la calavera llameante"
+        },
+        "wD06EPjKMIr65ik9": {
+          "name": "Rotar el santuario oculto"
+        },
+        "8kMkMi53MikZCoo7": {
+          "name": "Alarma del chillón"
+        },
+        "By5CzpFEaW92To48": {
+          "name": "Girar el ojo rodante"
+        },
+        "pbsoNematodeMout": {
+          "name": "Abrir o cerrar la boca del Nematodo"
+        },
+        "pbsoNematodeTunn": {
+          "name": "Alternar el túnel del Nematodo"
+        },
+        "pbsoHideBlur0000": {
+          "name": "Mostrar u ocultar el desenfoque"
+        },
+        "pbsoConfigureTok": {
+          "name": "Configurar la visión de las fichas"
         }
       }
     }

@@ -46,7 +46,7 @@ test('all existing translations apply to real original IDs without other field c
       if (text.caption !== undefined) {assert.equal(page.image.caption,text.caption); page.image=originalPage.image;}
     }
   }
-  assert.equal(pages,310);
+  assert.equal(pages,source.journal.reduce((count,journal)=>count+journal.pages.length,0));
   assert.equal(folders.length,71);
   assert.equal(journals.length,61);
   assert.deepEqual(folders,source.folders);

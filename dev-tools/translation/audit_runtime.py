@@ -33,6 +33,9 @@ def differences(original, translated, path=''):
 def is_text(path, original, translated):
     if not isinstance(original, str) or not isinstance(translated, str):
         return False
+    delta = re.fullmatch(r'/scenes/\d+/tokens/\d+/delta(/.*)', path)
+    if delta:
+        return is_text(delta[1], original, translated)
     patterns = [
         r'/(name|description|caption)',
         r'/system/description/value',
@@ -43,6 +46,10 @@ def is_text(path, original, translated):
         r'/results/\d+/(name|description)',
         r'/(actors/\d+/)?items/\d+/(name|system/description/value)',
         r'/actors/\d+/(name|prototypeToken/name|system/details/biography/value)',
+        r'/macros/\d+/name',
+        r'/tables/\d+/(name|description|results/\d+/(name|description))',
+        r'/scenes/\d+/(name|navName|tokens/\d+/name|levels/\d+/name|notes/\d+/text|drawings/\d+/text)',
+        r'/scenes/\d+/regions/\d+/(name|behaviors/\d+/(name|system/text|system/dialog/(revealed|unrevealed)))',
     ]
     item_prefix = r'/(?:actors/\d+/)?(?:items/\d+/)?'
     patterns += [

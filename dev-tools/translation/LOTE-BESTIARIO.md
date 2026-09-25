@@ -61,3 +61,15 @@ La cobertura llega a 2.615/3.227 campos del bestiario y 4.360/6.718 de Adventure
 `check_reviewed.py` confirma cero errores de evidencia y conservación técnica.
 La validación dentro de Foundry de esta nueva prosa está pendiente; la sesión
 citada anteriormente corresponde al lote de nombres y campos breves.
+
+## Tercer lote de prosa: textos 0501–0600
+
+Revisados otros 100 originales, incluidos conjuros, lanzamiento innato,
+extracción de cerebros y efectos de estados. Se distinguen las variantes del
+original: no se añaden requisitos de incapacitación o aturdimiento a un ataque
+que no los tenga en su fuente. Las referencias relativas permanecen intactas.
+Se ajustan menciones a la nomenclatura existente: Cueva del Oleaje, barrena
+infernal, broza movediza y Mirada aterradora.
+
+Cobertura propia: 2.758/3.227 campos del bestiario y 4.528/6.718 de Adventure.
+Los controles de evidencia y conservación técnica vuelven a pasar sin errores.

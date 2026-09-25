@@ -36,3 +36,15 @@ distancias y pesos originales y se corrige la competencia necesaria en el uso de
 suministros de alquimista. «Brigands» se traduce como bandidos; la orden al nótico
 es emboscar a los perseguidores. Se conservan las recompensas, condiciones de
 rendición y pistas de cada encuentro. Total editorial: 57/309 páginas.
+
+## Capítulo 3: 0058–0093
+
+Contrastadas las 36 páginas de las rutas, Agatha, Castillo Cragmaw, Pozo del Viejo
+Búho, Thundertree y Túmulo del Wyvern. Se corrige el espesor del relleno de los
+muros, que se había interpretado como número de capas, y el mapa hacia la Cueva
+del Oleaje, que se había confundido con un traslado a esa localización.
+Se restauran pies, pulgadas, yardas, millas y libras según cada pasaje original;
+se mantienen sin cambios las condiciones de las recompensas y los encuentros.
+Los nombres Hendedora, Venomfang, ramitas marchitas y luceros del alba coinciden
+con los diccionarios del proyecto. Se corrigen también puertas sin cerrar con
+llave, tablones y el parapeto de la antigua guarnición. Total: 93/309 páginas.

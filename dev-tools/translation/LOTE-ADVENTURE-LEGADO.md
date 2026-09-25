@@ -57,3 +57,17 @@ dimensiones de cavernas y pasadizos. Se corrige el tesoro de Nezznar: las
 15 monedas son de platino (`ppt`), no de plata (`pp`). Se precisa el motivo solar
 de Portadora de Luz y el electro martillado de la jarra, y se identifica como
 baldosa la ayuda visual del camino oculto. Total: 117/309 páginas.
+
+## Capítulo 5: 0118–0156
+
+Contrastadas las 39 páginas de las investigaciones y del Descanso de Zorzula.
+Se unifica Bolsa de Mineros, se recupera el perfil de plebeyo de Ander y se
+corrige la descripción de la jarra de cerámica negra, que no está hecha de ónice.
+Se restauran unidades y se distingue entre abandonar a los cautivos sin alimento
+y afirmar que ya han muerto. Total: 156/309 páginas.
+
+Dos discrepancias proceden del original y se conservan como incidencias de
+la fuente: Greska (orca, capítulo 2) frente a Grista (enana, capítulo 5) como
+propietarias de la taberna; las referencias a la forja como Z7, que es la cocina,
+en varias descripciones del puesto. No se cambian destinos de enlaces sin
+verificarlos en la comprobación integral.

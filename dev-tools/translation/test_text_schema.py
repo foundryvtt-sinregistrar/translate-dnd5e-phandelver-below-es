@@ -2,6 +2,10 @@ import unittest
 from text_schema import numbers,adapt
 
 class NumberTests(unittest.TestCase):
+    def test_localized_roll_comment_without_spaces_preserves_formula(self):
+        self.assertIsNotNone(adapt('[[/r 1d6#Salvageable shards]]','[[/r 1d6#Fragmentos aprovechables]]'))
+        self.assertIsNone(adapt('[[/r 1d6#Salvageable shards]]','[[/r 1d8#Fragmentos aprovechables]]'))
+
     def test_same_document_id_in_two_packs_retains_exact_destinations(self):
         source='@UUID[Compendium.one.pack.Actor.same]{One} @UUID[Compendium.two.pack.Actor.same]{Two}'
         translated=source.replace('{One}','{Uno}').replace('{Two}','{Dos}')

@@ -19,7 +19,7 @@ def repair_known_markup(text):
 
 def technical(text):
     text = repair_known_markup(text)
-    return sorted(re.sub(r'\s+#\s+[^\]]+(?=\]\]$)', '', x) for x in TECH.findall(text))
+    return sorted(re.sub(r'\s*#\s*[^\]]+(?=\]\]$)', '', x) for x in TECH.findall(text))
 def numbers(text):
     text = repair_known_markup(text)
     text = re.sub(r'<[^>]+>', ' ', TECH.sub(' ', text))

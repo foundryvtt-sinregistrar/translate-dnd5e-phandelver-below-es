@@ -118,3 +118,20 @@ El índice de actores alcanza 53 cuerpos de página compuestos con biografías
 revisadas; otros 102 requieren revisión. Los 850 originales revisados pasan los
 controles de números, comandos, enlaces y atributos HTML, sin errores de evidencia.
 Estos lotes posteriores al texto 0600 siguen pendientes de validación en Foundry.
+
+## Cierre de cobertura: textos 0851–0918
+
+Revisados los 918 originales únicos, incluidas las biografías extensas y sus
+variantes. Cobertura propia del bestiario: **3.227/3.227 campos**, sin campos
+pendientes y sin errores de evidencia, números o estructura técnica.
+
+Adventure alcanza 6.428/6.718 campos; su índice incorpora 94 cuerpos de página
+compuestos con biografías verificadas. Quedan 61 variantes de ese índice y otros
+contenidos exclusivos de Adventure. La cobertura no sustituye su revisión integral.
+
+Las variantes de slaads, mutados, zombis y drows se componen comprobando la igualdad
+exacta de los bloques ingleses compartidos y traduciendo sus introducciones y
+enlaces específicos. Se conserva en 0865 la diferencia del original entre la regla
+de Mirada confusa y su resumen, que añade una repetición al final del turno.
+En 0898 solo se repara la negrita cortada a mitad de una frase, sin alterar reglas.
+La prueba completa de este cierre en Foundry queda pendiente.

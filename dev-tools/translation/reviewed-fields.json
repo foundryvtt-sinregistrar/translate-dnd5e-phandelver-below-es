@@ -54178,5 +54178,1493 @@
     "sourceSha256": "b98113cc4345f315ebaf8a5c3c000130eb1a73908c8e355a2c8cbd9f0092e7e5",
     "translationSha256": "6c9a96dd5b34999b82c19d9ce596784e846e44a7c59b4f39deea101da9486b32",
     "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.tFJX45zj3QDc3Zli.biography",
+    "sourceSha256": "faef07a23ef0ff4f8c7908cf46b10edf99c5deed610a1e1ced3b3f1d4f7be0c4",
+    "translationSha256": "7e3a562a0ac4fd33f260c799048c842586ed722b49901776665cc9940b0b3106",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.hqj2yXtgwt64v3Lj.items.bKBPawscKpixPeO0.description",
+    "sourceSha256": "a3386746d11c4ce4e6d82a5eb35cb0abd1173b1c3ea957b164f0f6958a59e85b",
+    "translationSha256": "eb873a03a5d2b727e0bebddc816fd1028a7ca2d34dfc86efbafa41ce09b304e1",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGalebDuhr000.biography",
+    "sourceSha256": "2e658ec2d22071aadeacac216527b2cd78f3e205671eb52ab19c6312971db975",
+    "translationSha256": "0408c3e43487e13bc54a3ed707e2620e5d9647fe6d12bb5831693e289795d243",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.qoFEjfrANBdrCP6m.biography",
+    "sourceSha256": "8d5494f08043f954a7dac678f27cc9bf70c961dddade7d188c8c297fa2d75c73",
+    "translationSha256": "5dd4bb0c610455194fc271e30a61892b422c7d7ee0998930797a7588424aeb02",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.K4vsSlHqbBAHUDHY.biography",
+    "sourceSha256": "a94b2a53781ec04e7771772548d0ce628ea1cbc61389ccc1a59af36ac04ea190",
+    "translationSha256": "0213faa8d187c3fe5644fe64534e4e1831f7b9b9359aaa5fc73d69da145a16a1",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.PuPo4H4Dcxigf0fY.biography",
+    "sourceSha256": "dd99be135f1c72f7e9cb71f6eb48b28e6aa6a7d81cb227cdc51f235bf25244e3",
+    "translationSha256": "d075daff8be2e7652562efd6d60ed66d743f0d0de5a7e429a6c712a070c8e45e",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoYochlol00000.items.y6fiweFyBUBvlKYm.description",
+    "sourceSha256": "1114b50ffe69199b8e386e24e3a64f81bf94806cf0587ed43a30c2dce1aa1c76",
+    "translationSha256": "0de26d1045516bda20c7102cb2f5287583aee65b458b2af928a0445551dbdc81",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoYochlol00000.items.WPIMRFDIKMnv1P1P.description",
+    "sourceSha256": "b561e119997544ede75dcfb1d887f2b188b94993fcbc5a3827d449715beb1ab2",
+    "translationSha256": "db8d12b25225147d040137ab3ee94f838a55cfbedc09d4f09974d58126d09aa9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGraySlaad000.items.fNpE8bgkslUk67a7.description",
+    "sourceSha256": "b486eea9afdee0636b39e776016779b40507cbe28358d0eba911ddda1f0053f7",
+    "translationSha256": "9aa07551df553a2d1e548b2e8c96078b149dda037d3472b4ffb54a33c670172c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoHookHorror00.biography",
+    "sourceSha256": "2d2d4277c18b8fbcb18feb2acab380aa56c668429cc635f9e0e50ac77a3f06a7",
+    "translationSha256": "424ffbc608667e30298c2c9b5329319aabe3e8fc2c70136ac317861a5f33ef32",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.BAT6ld8qJZetpycL.items.91Sw6vOIaO7U8DvM.description",
+    "sourceSha256": "1114b50ffe69199b8e386e24e3a64f81bf94806cf0587ed43a30c2dce1aa1c76",
+    "translationSha256": "0de26d1045516bda20c7102cb2f5287583aee65b458b2af928a0445551dbdc81",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.scenes.pbsoMap8p4000000.tokens.BPfa2TZFoBZ8O2A5.delta.items.T36bJ3B1d1T92OUW.description",
+    "sourceSha256": "b486eea9afdee0636b39e776016779b40507cbe28358d0eba911ddda1f0053f7",
+    "translationSha256": "9aa07551df553a2d1e548b2e8c96078b149dda037d3472b4ffb54a33c670172c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.BAT6ld8qJZetpycL.items.91Sw6vOIaO7U8DvM.description",
+    "sourceSha256": "1114b50ffe69199b8e386e24e3a64f81bf94806cf0587ed43a30c2dce1aa1c76",
+    "translationSha256": "0de26d1045516bda20c7102cb2f5287583aee65b458b2af928a0445551dbdc81",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.K4vsSlHqbBAHUDHY.biography",
+    "sourceSha256": "a94b2a53781ec04e7771772548d0ce628ea1cbc61389ccc1a59af36ac04ea190",
+    "translationSha256": "0213faa8d187c3fe5644fe64534e4e1831f7b9b9359aaa5fc73d69da145a16a1",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.PuPo4H4Dcxigf0fY.biography",
+    "sourceSha256": "dd99be135f1c72f7e9cb71f6eb48b28e6aa6a7d81cb227cdc51f235bf25244e3",
+    "translationSha256": "d075daff8be2e7652562efd6d60ed66d743f0d0de5a7e429a6c712a070c8e45e",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.hqj2yXtgwt64v3Lj.items.bKBPawscKpixPeO0.description",
+    "sourceSha256": "a3386746d11c4ce4e6d82a5eb35cb0abd1173b1c3ea957b164f0f6958a59e85b",
+    "translationSha256": "eb873a03a5d2b727e0bebddc816fd1028a7ca2d34dfc86efbafa41ce09b304e1",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGalebDuhr000.biography",
+    "sourceSha256": "2e658ec2d22071aadeacac216527b2cd78f3e205671eb52ab19c6312971db975",
+    "translationSha256": "0408c3e43487e13bc54a3ed707e2620e5d9647fe6d12bb5831693e289795d243",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGraySlaad000.items.fNpE8bgkslUk67a7.description",
+    "sourceSha256": "b486eea9afdee0636b39e776016779b40507cbe28358d0eba911ddda1f0053f7",
+    "translationSha256": "9aa07551df553a2d1e548b2e8c96078b149dda037d3472b4ffb54a33c670172c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoHookHorror00.biography",
+    "sourceSha256": "2d2d4277c18b8fbcb18feb2acab380aa56c668429cc635f9e0e50ac77a3f06a7",
+    "translationSha256": "424ffbc608667e30298c2c9b5329319aabe3e8fc2c70136ac317861a5f33ef32",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoYochlol00000.items.WPIMRFDIKMnv1P1P.description",
+    "sourceSha256": "b561e119997544ede75dcfb1d887f2b188b94993fcbc5a3827d449715beb1ab2",
+    "translationSha256": "db8d12b25225147d040137ab3ee94f838a55cfbedc09d4f09974d58126d09aa9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.qoFEjfrANBdrCP6m.biography",
+    "sourceSha256": "8d5494f08043f954a7dac678f27cc9bf70c961dddade7d188c8c297fa2d75c73",
+    "translationSha256": "5dd4bb0c610455194fc271e30a61892b422c7d7ee0998930797a7588424aeb02",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.tFJX45zj3QDc3Zli.biography",
+    "sourceSha256": "faef07a23ef0ff4f8c7908cf46b10edf99c5deed610a1e1ced3b3f1d4f7be0c4",
+    "translationSha256": "7e3a562a0ac4fd33f260c799048c842586ed722b49901776665cc9940b0b3106",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.8YrsG8xWl2B30wvq.text",
+    "sourceSha256": "6dc075d98dbdf5cb1109f83e4454a517b39581566dfe40d6fc76c280c54753ef",
+    "translationSha256": "f26ef232db41b4065b97356327a79a64796d31547e657612976b2c09a3b6e889",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.SqWZLmpft1vPKgxp.text",
+    "sourceSha256": "07387519529cd36f3b5ea3ab51229f12e27013110495d1ecb49ef52c25b1859c",
+    "translationSha256": "871ff4580275e11712360dcd3ea888d9553763bab8ed55e8d45e40ec030a7bb9",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.hg4TdEP0yvHsTo7r.text",
+    "sourceSha256": "628553e3a0d74d8c4195f8cdfe127257ed5c29e6f3ec185dc95886ec905614fe",
+    "translationSha256": "6117d3b28dea0c6188416f702c11c54a8f5fa243259bcfdb92cfae52096b0bba",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.OBujQLLPSmlJiZnL.biography",
+    "sourceSha256": "c77f1648b5b5ed7448e0ff12c9669eca7ab048fdec9cdacb88a89646031bec03",
+    "translationSha256": "a0d570aac292b48983db079f806fe3a294bcb5c27b124958c7b0c437ed406b47",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGoblinPsiCom.items.MWALCphO1m8cb0df.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.z85EsGS2GVWj46qE.biography",
+    "sourceSha256": "fc700267cb0f13bf16d442595c45348c687828541d1f1e55f4040963b7b51dca",
+    "translationSha256": "7bef619914fec3cec480925474a0d917cf709a594bd6e1ddae0afc5959dc75c5",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.2MZNHeOZweXAYbv1.biography",
+    "sourceSha256": "b4303980320d1c597a4806a45804e1df83136a120a4003ea24301531f4531e89",
+    "translationSha256": "5ec5547deb046dd25320abc1200a6746b7f5983044838589b3739f8e7b2fc2cc",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoQunbraxel000.items.Xn8HlYGc2yJthp0H.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.qZyLwdx7lj5d1wfD.biography",
+    "sourceSha256": "52519da7b2be11f7f941703bc2669c5082796150ac65ded24a43c3771ad622f1",
+    "translationSha256": "4dcfa144689c8645b5449c0bc3efd4a78d49c0e5aef2240a20994060bc08d265",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.8pX2JhWUpTNNRBVx.biography",
+    "sourceSha256": "43001963f8d18171d3cab53374c92de3d3057b5d978df2d9d9ab3acf17f62f4f",
+    "translationSha256": "a388808781917713a44d485bf9cc2099adba6964182aab7c0ff423048663e443",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoTroglodyte00.biography",
+    "sourceSha256": "41746fe84eacf51e444c93fbe4d8fea44891bb1f87a97d580be0002694ef9167",
+    "translationSha256": "41e7f13123ff3392033288b71eebaeb8656071a44605dfb1d94d2018247c9c8d",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGithyankiKni.items.TjTQs19kXYQsU7nI.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.PtotS52HpHX596cZ.biography",
+    "sourceSha256": "ff257359f8ba507f27de9f691f306939bf45b8d38dc9c00af08c9ea63334688b",
+    "translationSha256": "5df3d741c96cf0c710425cfbe293f4f42e79be0887b29f740a1ac3637406c280",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.BAT6ld8qJZetpycL.biography",
+    "sourceSha256": "91285522031d133d2caa6bf042428e74d128b385e50805c59613b948b28926fb",
+    "translationSha256": "ade0394609da9d5d88a11cbcf7ce2658b3daf6bfe23da22f80e69d4d7226b8fb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoUmberHulk000.items.rlt5x28lpHt1aJ2N.description",
+    "sourceSha256": "bbdb84c0d7551d3ce7984e21e7bf5786502ecc343acac5b352b3c22a543433d4",
+    "translationSha256": "c42e68a18e743ae80547e56a24c543cf15631cef51b78dd8305e4e955e25dabc",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoVarakkta0000.items.ZxV1GXuNF2obA0Vz.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.2MZNHeOZweXAYbv1.biography",
+    "sourceSha256": "b4303980320d1c597a4806a45804e1df83136a120a4003ea24301531f4531e89",
+    "translationSha256": "5ec5547deb046dd25320abc1200a6746b7f5983044838589b3739f8e7b2fc2cc",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.8pX2JhWUpTNNRBVx.biography",
+    "sourceSha256": "43001963f8d18171d3cab53374c92de3d3057b5d978df2d9d9ab3acf17f62f4f",
+    "translationSha256": "a388808781917713a44d485bf9cc2099adba6964182aab7c0ff423048663e443",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.BAT6ld8qJZetpycL.biography",
+    "sourceSha256": "91285522031d133d2caa6bf042428e74d128b385e50805c59613b948b28926fb",
+    "translationSha256": "ade0394609da9d5d88a11cbcf7ce2658b3daf6bfe23da22f80e69d4d7226b8fb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.OBujQLLPSmlJiZnL.biography",
+    "sourceSha256": "c77f1648b5b5ed7448e0ff12c9669eca7ab048fdec9cdacb88a89646031bec03",
+    "translationSha256": "a0d570aac292b48983db079f806fe3a294bcb5c27b124958c7b0c437ed406b47",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.PtotS52HpHX596cZ.biography",
+    "sourceSha256": "ff257359f8ba507f27de9f691f306939bf45b8d38dc9c00af08c9ea63334688b",
+    "translationSha256": "5df3d741c96cf0c710425cfbe293f4f42e79be0887b29f740a1ac3637406c280",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGithyankiKni.items.TjTQs19kXYQsU7nI.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGoblinPsiCom.items.MWALCphO1m8cb0df.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoQunbraxel000.items.Xn8HlYGc2yJthp0H.description",
+    "sourceSha256": "e2ee3f4df689f1c7f9d1c66182c1b69b6247bcbab62e63236d4da54e6327063e",
+    "translationSha256": "3a80237abc24d17f043d70ce73ba3826e956c71ed8275dae4519b7f380dd3bf0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoTroglodyte00.biography",
+    "sourceSha256": "41746fe84eacf51e444c93fbe4d8fea44891bb1f87a97d580be0002694ef9167",
+    "translationSha256": "41e7f13123ff3392033288b71eebaeb8656071a44605dfb1d94d2018247c9c8d",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoUmberHulk000.items.rlt5x28lpHt1aJ2N.description",
+    "sourceSha256": "bbdb84c0d7551d3ce7984e21e7bf5786502ecc343acac5b352b3c22a543433d4",
+    "translationSha256": "c42e68a18e743ae80547e56a24c543cf15631cef51b78dd8305e4e955e25dabc",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.qZyLwdx7lj5d1wfD.biography",
+    "sourceSha256": "52519da7b2be11f7f941703bc2669c5082796150ac65ded24a43c3771ad622f1",
+    "translationSha256": "4dcfa144689c8645b5449c0bc3efd4a78d49c0e5aef2240a20994060bc08d265",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.z85EsGS2GVWj46qE.biography",
+    "sourceSha256": "fc700267cb0f13bf16d442595c45348c687828541d1f1e55f4040963b7b51dca",
+    "translationSha256": "7bef619914fec3cec480925474a0d917cf709a594bd6e1ddae0afc5959dc75c5",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.Vo59RtQIJjiAHAdE.text",
+    "sourceSha256": "175f9cc0ecc619523df51bbbb3a8a2df207eb8650b7fb141bea7fe5254ba972d",
+    "translationSha256": "20f4df0396235d811b881ff8ee000fb9fd6d3c9deecf446a6a96357c63ca7cf3",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.I3XWwsfN0c6cddlV.text",
+    "sourceSha256": "9d1e30a7c2df9d9e758de40c5df66a3161dd0928192fb6696b78b7f88686d3b3",
+    "translationSha256": "477b9f2a836a64ebb54efcdcea15c151a190a501f8d7edb18ddb607cb460aba5",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.r7ATSYVXA3372CQE.text",
+    "sourceSha256": "fca2fb6f0794f9043cdae853947136f2cd92d99405b58526887251ac9f175c36",
+    "translationSha256": "8587d74aa4ea45013e0ac84c7cfa24def39332b869f51504d39b537313bec144",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.nvJtx5EXec16Zk2l.text",
+    "sourceSha256": "8c98511da0d65493a20175fef0fd80824949ce8d6386f9f93f65a4e60fd003b4",
+    "translationSha256": "21553ae93c1123c19c651008b33b2f203f099f2a937eefd4bc3a6965ebd47d6b",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.XeCBhECCyE2DFix5.text",
+    "sourceSha256": "5577571aa3ff9e3b7dfacb101d2e8dbd704f996851ff48f986e452597466f688",
+    "translationSha256": "9a35df61f4ffd9daaf36505e11e73b1d199bb570d8d561b240dc55f3b2cb100f",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.42bm6vBGBXmDmAMW.text",
+    "sourceSha256": "fad1a2c1e1adc6242062a5cc08055ca1b43c83fd2822a48b920aff3be67832ac",
+    "translationSha256": "62bd5220e9c30e010b076e925617f7b0b11b5b3ac33d555f0be263835f8db36c",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.QtJairF0h18BRhEM.biography",
+    "sourceSha256": "eca74caf95c4c7033599aac149ee554dbe3c9a3683acbc33332a2613a65fee1f",
+    "translationSha256": "79c3c99766f4d6c4aad88de2e61b565f50ae15a99f63f65f2f78c7539e3aaecb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoKlarg0000000.biography",
+    "sourceSha256": "eca74caf95c4c7033599aac149ee554dbe3c9a3683acbc33332a2613a65fee1f",
+    "translationSha256": "79c3c99766f4d6c4aad88de2e61b565f50ae15a99f63f65f2f78c7539e3aaecb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoNothic000000.biography",
+    "sourceSha256": "9d818df899b60cd6f0f76d23202e414efcf013f1d0ae465acde1a5d9a1224d1f",
+    "translationSha256": "2ca5e3ad2a605151e2aeb73b86e1fd8f05633dc94ff9af904d5cc33cc1f3d79f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBanshee00000.biography",
+    "sourceSha256": "6468739c4315473d21c165dfd6370ef46ddb64c9be32bd56ff7846263e740180",
+    "translationSha256": "88fd866641bbdff3e26ede7c0d6ce44ffbe14c5653c002ddbc5a058686b51780",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGrell0000000.biography",
+    "sourceSha256": "47762a51315e0fd0566c790eaf8a287123f0108b5cf3cf2011265e94a858c8e6",
+    "translationSha256": "ba8affa16fedc7aeadc04b2f8f69055fef8bdf1e8072e32e814f902598c5fddd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoKingGrol0000.biography",
+    "sourceSha256": "eca74caf95c4c7033599aac149ee554dbe3c9a3683acbc33332a2613a65fee1f",
+    "translationSha256": "79c3c99766f4d6c4aad88de2e61b565f50ae15a99f63f65f2f78c7539e3aaecb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoSpectator000.biography",
+    "sourceSha256": "dcf9b08a95b7d5d16e4ca94df816bd2b1e37ad78b5190b18d48aa2e8f40ceff3",
+    "translationSha256": "589b6181c68cf2404c76182aaa662b85007350153ac8c52c0dc78697c3de1a18",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.jcZblJ6lqtW0ePxe.biography",
+    "sourceSha256": "1e98cad7c37374d9bd3f002671fed158ec332aa387a045726224bdcf75c37fd8",
+    "translationSha256": "e6f81b38c9d89ddb768779b09f9092f01e294a42f4d74f29ec75de99d4dc92d0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoOtyughMutate.biography",
+    "sourceSha256": "26a0ca93140835a13caa3dc21b09669616df5de4edd514e5528d7a0d48dbf7a8",
+    "translationSha256": "15f998f6de9815356812f20aa295f6d5322511191f69b1c609f4715fc5586f7a",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoHonna0000000.biography",
+    "sourceSha256": "409c56f5c42c660b46dab5cc67a9d5b9285f802e2d4f566c2df7c9a45ca085ca",
+    "translationSha256": "bb6e9cc6f2b5cbf58d8a8a466967192b30dac469ce008e5a81f686e1b62ddb0e",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBarlgura0000.items.ns6bntDIo4qcrmW3.description",
+    "sourceSha256": "7846a68440e4531fc8e6dc73ca0ad5b51721f37cb0e2391514339699efe15502",
+    "translationSha256": "638190d80241592859aea1f9d0c81e5b2fe9956501cd79dbd657d66fabcb630a",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoNothicmindfl.biography",
+    "sourceSha256": "9d818df899b60cd6f0f76d23202e414efcf013f1d0ae465acde1a5d9a1224d1f",
+    "translationSha256": "2ca5e3ad2a605151e2aeb73b86e1fd8f05633dc94ff9af904d5cc33cc1f3d79f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoArcanaloth00.items.K8qgNZsNV7wobSc6.description",
+    "sourceSha256": "7846a68440e4531fc8e6dc73ca0ad5b51721f37cb0e2391514339699efe15502",
+    "translationSha256": "638190d80241592859aea1f9d0c81e5b2fe9956501cd79dbd657d66fabcb630a",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoFlumph000000.biography",
+    "sourceSha256": "92a7f347e45a8344c18d685f1263475cab086d3937d4fa98d63fe35985d2f04d",
+    "translationSha256": "09e337b10ef389ea3381e1622515446ac6d0fd0f978d5f99d1f77d516a4c9a1f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.QtJairF0h18BRhEM.biography",
+    "sourceSha256": "eca74caf95c4c7033599aac149ee554dbe3c9a3683acbc33332a2613a65fee1f",
+    "translationSha256": "79c3c99766f4d6c4aad88de2e61b565f50ae15a99f63f65f2f78c7539e3aaecb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.jcZblJ6lqtW0ePxe.biography",
+    "sourceSha256": "1e98cad7c37374d9bd3f002671fed158ec332aa387a045726224bdcf75c37fd8",
+    "translationSha256": "e6f81b38c9d89ddb768779b09f9092f01e294a42f4d74f29ec75de99d4dc92d0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoArcanaloth00.items.K8qgNZsNV7wobSc6.description",
+    "sourceSha256": "7846a68440e4531fc8e6dc73ca0ad5b51721f37cb0e2391514339699efe15502",
+    "translationSha256": "638190d80241592859aea1f9d0c81e5b2fe9956501cd79dbd657d66fabcb630a",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoBanshee00000.biography",
+    "sourceSha256": "6468739c4315473d21c165dfd6370ef46ddb64c9be32bd56ff7846263e740180",
+    "translationSha256": "88fd866641bbdff3e26ede7c0d6ce44ffbe14c5653c002ddbc5a058686b51780",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoBarlgura0000.items.ns6bntDIo4qcrmW3.description",
+    "sourceSha256": "7846a68440e4531fc8e6dc73ca0ad5b51721f37cb0e2391514339699efe15502",
+    "translationSha256": "638190d80241592859aea1f9d0c81e5b2fe9956501cd79dbd657d66fabcb630a",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoFlumph000000.biography",
+    "sourceSha256": "92a7f347e45a8344c18d685f1263475cab086d3937d4fa98d63fe35985d2f04d",
+    "translationSha256": "09e337b10ef389ea3381e1622515446ac6d0fd0f978d5f99d1f77d516a4c9a1f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGrell0000000.biography",
+    "sourceSha256": "47762a51315e0fd0566c790eaf8a287123f0108b5cf3cf2011265e94a858c8e6",
+    "translationSha256": "ba8affa16fedc7aeadc04b2f8f69055fef8bdf1e8072e32e814f902598c5fddd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoHonna0000000.biography",
+    "sourceSha256": "409c56f5c42c660b46dab5cc67a9d5b9285f802e2d4f566c2df7c9a45ca085ca",
+    "translationSha256": "bb6e9cc6f2b5cbf58d8a8a466967192b30dac469ce008e5a81f686e1b62ddb0e",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoKingGrol0000.biography",
+    "sourceSha256": "eca74caf95c4c7033599aac149ee554dbe3c9a3683acbc33332a2613a65fee1f",
+    "translationSha256": "79c3c99766f4d6c4aad88de2e61b565f50ae15a99f63f65f2f78c7539e3aaecb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoNothic000000.biography",
+    "sourceSha256": "9d818df899b60cd6f0f76d23202e414efcf013f1d0ae465acde1a5d9a1224d1f",
+    "translationSha256": "2ca5e3ad2a605151e2aeb73b86e1fd8f05633dc94ff9af904d5cc33cc1f3d79f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoNothicmindfl.biography",
+    "sourceSha256": "9d818df899b60cd6f0f76d23202e414efcf013f1d0ae465acde1a5d9a1224d1f",
+    "translationSha256": "2ca5e3ad2a605151e2aeb73b86e1fd8f05633dc94ff9af904d5cc33cc1f3d79f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoOtyughMutate.biography",
+    "sourceSha256": "26a0ca93140835a13caa3dc21b09669616df5de4edd514e5528d7a0d48dbf7a8",
+    "translationSha256": "15f998f6de9815356812f20aa295f6d5322511191f69b1c609f4715fc5586f7a",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoSpectator000.biography",
+    "sourceSha256": "dcf9b08a95b7d5d16e4ca94df816bd2b1e37ad78b5190b18d48aa2e8f40ceff3",
+    "translationSha256": "589b6181c68cf2404c76182aaa662b85007350153ac8c52c0dc78697c3de1a18",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.YYgiDddIYUndQq4l.text",
+    "sourceSha256": "30db3941dcb30fb82ef05e3c1fe9f67334042d3fef47b0e1699b6729da074650",
+    "translationSha256": "1d62969267fde12ec0ac7a19917c6996964accb52ea6c3b616717c22b86fa596",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.0pKWofXqQ00biiiE.text",
+    "sourceSha256": "54e75a3e88085fd09eb4f025e77b003d8d84830635b7030beac4e7e95c6942a0",
+    "translationSha256": "2e27ad6eb7c2176cc66a58935be6112edf96408df14d7f91fba0b05c5a012cb5",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.CAns4w7UOrjtmnTK.text",
+    "sourceSha256": "ad8574ee9fcdb7c1c2bfd271cfb3161e6539259da5da0f50501f3ceb9f150154",
+    "translationSha256": "e73e4bb381f950358a203e3e305d1585be40695fccabb7a5dffbe5c5b625ffa4",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.WzZMtwcSmAYXw1Ff.text",
+    "sourceSha256": "2da604b2ad224a7f61312ee8d44b5b2672ae0ea884a0ceadcce0db65326addc8",
+    "translationSha256": "b7da737f5b41119c7a07131ecab2b4fd82c000ed5f89cdf3baf85e76a5871dae",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.mWbrPhcKOz6oLXMV.biography",
+    "sourceSha256": "10c99897cececf12561e69c2e76755dc8880bf92b1848ce47f015485ce7d381f",
+    "translationSha256": "a560a734a006e591c6aba91625a2234d6e40d52e23a136e5d1ebbd1e5afff589",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.hqj2yXtgwt64v3Lj.biography",
+    "sourceSha256": "e9865fbc811401eabd7d0248e6d3965720a250ab5b6fb68c6c7273d2a5503f06",
+    "translationSha256": "08acd2fa2f762a58c5e9d3551b590d234b1881af0207d55b9f573eb8b5107116",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.P6qC8jB3pnEH0tIE.biography",
+    "sourceSha256": "bf872f2b0cf090b286af76c3b482361c8c66d1828d867ccff49278f4c3732da3",
+    "translationSha256": "cd6584571248b5d02231a830a2aebfb37dc2a49b5c2656619197d6d93f9e2119",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoHumanmutate0.biography",
+    "sourceSha256": "4d9ad170ef9a5f83231c31250345e7cc05fd6107fbd3ad4d8ccdf5d4a1916160",
+    "translationSha256": "7422d97d2cbb36d209933865a5ed3eaa68526b4adb4b5174dfe1d73048abd027",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoOntharyxHenl.biography",
+    "sourceSha256": "e0fad58d8af10693e5e013ff59165175624386d181c0da8343dadc57387d98de",
+    "translationSha256": "d3f148a2c9005b3aec8b93d2a6acea8d7ef1007785c7b3d07f8dd71938f4e621",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoQunbraxel000.items.ilodCKIKYlMeOmie.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoYochlol00000.items.yYXP8BjcHXqr3PPO.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoYochlol00000.items.BVzdHFfldNXPSI17.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoAberrantZeal.items.vIDaeDLF0k10InCd.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.x47ZnpHfYl0ptDM9.biography",
+    "sourceSha256": "86f1e279f82a72e11932ce4950dfe85b6259b4ebdcf36960931d2e753e74e73a",
+    "translationSha256": "4f810a164337d99a8b5f614b64949173dcbb1aa88e64e13d8a182dd3d4d32eac",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBlueSlaad000.biography",
+    "sourceSha256": "b578ae4671b748c39e6f95ceedf47826ea185e2234801817b430a75c85cfde80",
+    "translationSha256": "bc0caaba078da2ab8f765cf8e33e0c6c2f3e8846f929e8f79a26c04de9ccf73f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGraySlaad000.items.TEiuZiNPGK33dZQt.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGreenSlaad00.items.KpLjR6cPf7mcwASi.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGrellPsychic.items.xIsEHSot0qcUNFOn.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoElderinfecte.items.49MPThWygo8lG6iU.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoMindFlayer00.items.sRF2jtqjUIZvQWVm.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoMindFlayerPr.items.fnC10gdYJWHVb35a.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoOshundoTheAl.items.U9pc0B02Ot0ecCSt.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIlvaash00000.items.sqeZliUXsXMeuJz7.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIlvaash00000.items.sjnylhFt9fpqn05K.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoSlaadTadpole.biography",
+    "sourceSha256": "cbb23bffb9f99aafe9114ca829092961064fb79489049e0c6619c56555da487d",
+    "translationSha256": "7930515b667a0a5bff0909093de15e99b42616c7133a65375efbe72adf01c981",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoArcanaloth00.items.5fSNnndkcHoQnPaa.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBrainBreaker.items.CXIpKe4Tj8lGeoGF.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBrainBreaker.items.fMnzuvAY4n2k1vdK.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoChishinix000.items.5VUXeL8XYKvKFjjd.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoHashutu00000.items.teI8TT7HsRPeBGHJ.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoKraken000000.biography",
+    "sourceSha256": "97976df7b07be6f5070b372be5c8d85eaa0548bf04d62dc8a3882630d09f8a26",
+    "translationSha256": "9e87ffb683ec00da75c76692c6373460d94f1b04aa6e10d8865ad192d9066b2c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoClairvoyantm.items.yWZUjXN2A4arm0yl.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoShalfiLewin0.items.ZaJ5FsKKN1hyF93L.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.BAT6ld8qJZetpycL.items.ppWAAEul0QHtm4er.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoVoalsh000000.items.TL63mG3cW5oCHJVN.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.BAT6ld8qJZetpycL.items.ppWAAEul0QHtm4er.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.P6qC8jB3pnEH0tIE.biography",
+    "sourceSha256": "bf872f2b0cf090b286af76c3b482361c8c66d1828d867ccff49278f4c3732da3",
+    "translationSha256": "cd6584571248b5d02231a830a2aebfb37dc2a49b5c2656619197d6d93f9e2119",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.hqj2yXtgwt64v3Lj.biography",
+    "sourceSha256": "e9865fbc811401eabd7d0248e6d3965720a250ab5b6fb68c6c7273d2a5503f06",
+    "translationSha256": "08acd2fa2f762a58c5e9d3551b590d234b1881af0207d55b9f573eb8b5107116",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.mWbrPhcKOz6oLXMV.biography",
+    "sourceSha256": "10c99897cececf12561e69c2e76755dc8880bf92b1848ce47f015485ce7d381f",
+    "translationSha256": "a560a734a006e591c6aba91625a2234d6e40d52e23a136e5d1ebbd1e5afff589",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoAberrantZeal.items.vIDaeDLF0k10InCd.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoArcanaloth00.items.5fSNnndkcHoQnPaa.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoBlueSlaad000.biography",
+    "sourceSha256": "b578ae4671b748c39e6f95ceedf47826ea185e2234801817b430a75c85cfde80",
+    "translationSha256": "bc0caaba078da2ab8f765cf8e33e0c6c2f3e8846f929e8f79a26c04de9ccf73f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoBrainBreaker.items.fMnzuvAY4n2k1vdK.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoChishinix000.items.5VUXeL8XYKvKFjjd.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoClairvoyantm.items.yWZUjXN2A4arm0yl.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoElderinfecte.items.49MPThWygo8lG6iU.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGraySlaad000.items.TEiuZiNPGK33dZQt.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGreenSlaad00.items.KpLjR6cPf7mcwASi.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGrellPsychic.items.xIsEHSot0qcUNFOn.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoHashutu00000.items.teI8TT7HsRPeBGHJ.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoHumanmutate0.biography",
+    "sourceSha256": "4d9ad170ef9a5f83231c31250345e7cc05fd6107fbd3ad4d8ccdf5d4a1916160",
+    "translationSha256": "7422d97d2cbb36d209933865a5ed3eaa68526b4adb4b5174dfe1d73048abd027",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoIlvaash00000.items.sjnylhFt9fpqn05K.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoKraken000000.biography",
+    "sourceSha256": "97976df7b07be6f5070b372be5c8d85eaa0548bf04d62dc8a3882630d09f8a26",
+    "translationSha256": "9e87ffb683ec00da75c76692c6373460d94f1b04aa6e10d8865ad192d9066b2c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoMindFlayer00.items.sRF2jtqjUIZvQWVm.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoMindFlayerPr.items.fnC10gdYJWHVb35a.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoOntharyxHenl.biography",
+    "sourceSha256": "e0fad58d8af10693e5e013ff59165175624386d181c0da8343dadc57387d98de",
+    "translationSha256": "d3f148a2c9005b3aec8b93d2a6acea8d7ef1007785c7b3d07f8dd71938f4e621",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoOshundoTheAl.items.U9pc0B02Ot0ecCSt.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoQunbraxel000.items.ilodCKIKYlMeOmie.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoShalfiLewin0.items.ZaJ5FsKKN1hyF93L.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoSlaadTadpole.biography",
+    "sourceSha256": "cbb23bffb9f99aafe9114ca829092961064fb79489049e0c6619c56555da487d",
+    "translationSha256": "7930515b667a0a5bff0909093de15e99b42616c7133a65375efbe72adf01c981",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoVoalsh000000.items.TL63mG3cW5oCHJVN.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoYochlol00000.items.BVzdHFfldNXPSI17.description",
+    "sourceSha256": "2b48e14aa0310e00f77ff28aa9ca2c1cf009271017e92cd8d96b7a766394c857",
+    "translationSha256": "63c13ea1591e17c9143bdc198c199b044deb1a6a88080b5d626641dca8bb6d89",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.x47ZnpHfYl0ptDM9.biography",
+    "sourceSha256": "86f1e279f82a72e11932ce4950dfe85b6259b4ebdcf36960931d2e753e74e73a",
+    "translationSha256": "4f810a164337d99a8b5f614b64949173dcbb1aa88e64e13d8a182dd3d4d32eac",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.c8txWsRk23Q9IMY9.text",
+    "sourceSha256": "9f0654630026cf4a773f2e1a3a051d2cb420aeef58b4383df3ec95531efbfb74",
+    "translationSha256": "a24b8ae3784efbfe577b74bd487615207dd94a31d09778cbef221f11a547c173",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.p4D98NaDt7NUpVsi.text",
+    "sourceSha256": "3bc48a993dfd44a432c61828a2b55c95e94138c6ba87bafd680ab8afceaca35e",
+    "translationSha256": "91ad79c0768fc7fb2377bac368c12dca1101fa511a31d1894f844734641ed5cd",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.4TWqLZEKOo0pCjbD.text",
+    "sourceSha256": "109152a010b99c71be7fc7384d3359b547a0b64fc519365d34260790d9ba1d50",
+    "translationSha256": "f33ad5e6812307c5c024f17923115c39f84166d210e06f792ea7fd89524efda8",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.mkclPfdfcqUhSnpi.text",
+    "sourceSha256": "bb4a8cf602b043c4301fb76bb9e0ad18aa6b1c2e746ce377771c6bfb744d0085",
+    "translationSha256": "fe708e1b14cd44e29d29689de95c75fa99a27116540e30fa6157bfd192fc4b3d",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.AU7wglaFv1IpWCgf.text",
+    "sourceSha256": "ec2bfcca2c18ac61f10fe19901d3568d8ced60a6ad61a6105ad980ea2fec682d",
+    "translationSha256": "949436b69ef5d22e52462b8f1cfbe83df662b57187aa5efe25a7161bf8441d00",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.NUeNhV21yJBx2afi.text",
+    "sourceSha256": "d4339017e2c3ffd59c7a16a789243ab3e70e9c962aeb13b883f99da2a95a5ccb",
+    "translationSha256": "e12abe50f42a8e249b6013789e408eb3dd43ea63fe118e222da6e8cd7a33d194",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoFlameskull00.biography",
+    "sourceSha256": "79cb8608efbf38028f053d0bcef7cb9516f985a5c7b6229279e7f1a1ad641892",
+    "translationSha256": "adc2f142f10166332137a3280b82a9c1f5e55c685418ef28f249480ad75d2cb2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoMormeskTheWr.biography",
+    "sourceSha256": "c1d9781ed142dd63f063129d42775f38342586adc8db4d5a337c4c9136f682c2",
+    "translationSha256": "35c28fffd78c9c0b3137d8f52f023dd39ac9ac4230f16d1d2e830be701807ffd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.xBhG7Dos3tkg9jWz.biography",
+    "sourceSha256": "67dd86ff8f71cab48833544add18f57f614124f938e38356c95c1c1a259a3560",
+    "translationSha256": "f4bccf8f53a5ef5d269d2dc7121d64cd1541b32046a31e2bdae537371e208c61",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoHonna0000000.items.KmzlUGMXUhY2HubE.description",
+    "sourceSha256": "bf03ee5d85a6122f47017f38686dc5d98d8df27ca973c7f4abbb4d3fac516447",
+    "translationSha256": "0253b1fcee09084d07dca13354532333d8ed271b50c71a09c839d49e6d68bf86",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.rbyp54px2D0ql4QK.biography",
+    "sourceSha256": "2e9385cb15907706180fc51dc80632bff84aadbb11dd1563ea88ab9e55d02bd8",
+    "translationSha256": "766eb9b1dd3f6b5a28dc811f6c3ca730c4c8598552b6fdaaedf2ecf0d85b29f1",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.ET4PEVEiNJLU4f7c.biography",
+    "sourceSha256": "c1d9781ed142dd63f063129d42775f38342586adc8db4d5a337c4c9136f682c2",
+    "translationSha256": "35c28fffd78c9c0b3137d8f52f023dd39ac9ac4230f16d1d2e830be701807ffd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGraySlaad000.biography",
+    "sourceSha256": "860bb1e003996c658c58711306956d56b03e0b554065f28a7d24c78b398a275e",
+    "translationSha256": "cdec9d1b4bf1c7f500c5dbb7be76a84f384d1f8d12badfca0f27efad565b72f0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGreenSlaad00.biography",
+    "sourceSha256": "cea50c038f3e58e1f8c2490b59cb326b163e4b6e9b8e48c79b661477892d0e9e",
+    "translationSha256": "9771b20b8f5897cb7d6a4033bb9c84e28761ac1fb5a9aa8b651ac23dee4206b6",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoOshundoTheAl.items.1dpTA0yW7TuYxmAb.description",
+    "sourceSha256": "4c078db9cc686da7db33d0549e2157990b6430f349bdea4232b9c5bd09cc251c",
+    "translationSha256": "633231cb748906123278a6ddfb2a4dac88ec7f6038317b604e7c54e7a3c1bcf9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoQuaggoth0000.biography",
+    "sourceSha256": "1b5a15dd9e0cd06079b9d61abc04a4d0f49f6ea1afa2a6d57634ee15bbd22a04",
+    "translationSha256": "8a1fff4ab55d85bf6c6cbdeb6ea7f8f1c3ea236913f4d774fe45081fdf840a22",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoQuaggothThon.biography",
+    "sourceSha256": "1b5a15dd9e0cd06079b9d61abc04a4d0f49f6ea1afa2a6d57634ee15bbd22a04",
+    "translationSha256": "8a1fff4ab55d85bf6c6cbdeb6ea7f8f1c3ea236913f4d774fe45081fdf840a22",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoRedSlaad0000.biography",
+    "sourceSha256": "0b007906792e72d27088999b008e8e8bfed96e14dca77395c67c1ea806dc6e8f",
+    "translationSha256": "9861c199bde802c8cf62bde2491dfaac655791a393ff93c5eb771b776f293c0f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIlvaash00000.items.Nj5wiBlLYcQeGcNM.description",
+    "sourceSha256": "4c078db9cc686da7db33d0549e2157990b6430f349bdea4232b9c5bd09cc251c",
+    "translationSha256": "633231cb748906123278a6ddfb2a4dac88ec7f6038317b604e7c54e7a3c1bcf9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoIlvaash00000.items.xAg8Ycx6Hspwl4fl.description",
+    "sourceSha256": "4c078db9cc686da7db33d0549e2157990b6430f349bdea4232b9c5bd09cc251c",
+    "translationSha256": "633231cb748906123278a6ddfb2a4dac88ec7f6038317b604e7c54e7a3c1bcf9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.ET4PEVEiNJLU4f7c.biography",
+    "sourceSha256": "c1d9781ed142dd63f063129d42775f38342586adc8db4d5a337c4c9136f682c2",
+    "translationSha256": "35c28fffd78c9c0b3137d8f52f023dd39ac9ac4230f16d1d2e830be701807ffd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoFlameskull00.biography",
+    "sourceSha256": "79cb8608efbf38028f053d0bcef7cb9516f985a5c7b6229279e7f1a1ad641892",
+    "translationSha256": "adc2f142f10166332137a3280b82a9c1f5e55c685418ef28f249480ad75d2cb2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGraySlaad000.biography",
+    "sourceSha256": "860bb1e003996c658c58711306956d56b03e0b554065f28a7d24c78b398a275e",
+    "translationSha256": "cdec9d1b4bf1c7f500c5dbb7be76a84f384d1f8d12badfca0f27efad565b72f0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGreenSlaad00.biography",
+    "sourceSha256": "cea50c038f3e58e1f8c2490b59cb326b163e4b6e9b8e48c79b661477892d0e9e",
+    "translationSha256": "9771b20b8f5897cb7d6a4033bb9c84e28761ac1fb5a9aa8b651ac23dee4206b6",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoHonna0000000.items.KmzlUGMXUhY2HubE.description",
+    "sourceSha256": "bf03ee5d85a6122f47017f38686dc5d98d8df27ca973c7f4abbb4d3fac516447",
+    "translationSha256": "0253b1fcee09084d07dca13354532333d8ed271b50c71a09c839d49e6d68bf86",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoIlvaash00000.items.xAg8Ycx6Hspwl4fl.description",
+    "sourceSha256": "4c078db9cc686da7db33d0549e2157990b6430f349bdea4232b9c5bd09cc251c",
+    "translationSha256": "633231cb748906123278a6ddfb2a4dac88ec7f6038317b604e7c54e7a3c1bcf9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoMormeskTheWr.biography",
+    "sourceSha256": "c1d9781ed142dd63f063129d42775f38342586adc8db4d5a337c4c9136f682c2",
+    "translationSha256": "35c28fffd78c9c0b3137d8f52f023dd39ac9ac4230f16d1d2e830be701807ffd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoOshundoTheAl.items.1dpTA0yW7TuYxmAb.description",
+    "sourceSha256": "4c078db9cc686da7db33d0549e2157990b6430f349bdea4232b9c5bd09cc251c",
+    "translationSha256": "633231cb748906123278a6ddfb2a4dac88ec7f6038317b604e7c54e7a3c1bcf9",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoQuaggoth0000.biography",
+    "sourceSha256": "1b5a15dd9e0cd06079b9d61abc04a4d0f49f6ea1afa2a6d57634ee15bbd22a04",
+    "translationSha256": "8a1fff4ab55d85bf6c6cbdeb6ea7f8f1c3ea236913f4d774fe45081fdf840a22",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoQuaggothThon.biography",
+    "sourceSha256": "1b5a15dd9e0cd06079b9d61abc04a4d0f49f6ea1afa2a6d57634ee15bbd22a04",
+    "translationSha256": "8a1fff4ab55d85bf6c6cbdeb6ea7f8f1c3ea236913f4d774fe45081fdf840a22",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoRedSlaad0000.biography",
+    "sourceSha256": "0b007906792e72d27088999b008e8e8bfed96e14dca77395c67c1ea806dc6e8f",
+    "translationSha256": "9861c199bde802c8cf62bde2491dfaac655791a393ff93c5eb771b776f293c0f",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.rbyp54px2D0ql4QK.biography",
+    "sourceSha256": "2e9385cb15907706180fc51dc80632bff84aadbb11dd1563ea88ab9e55d02bd8",
+    "translationSha256": "766eb9b1dd3f6b5a28dc811f6c3ca730c4c8598552b6fdaaedf2ecf0d85b29f1",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.xBhG7Dos3tkg9jWz.biography",
+    "sourceSha256": "67dd86ff8f71cab48833544add18f57f614124f938e38356c95c1c1a259a3560",
+    "translationSha256": "f4bccf8f53a5ef5d269d2dc7121d64cd1541b32046a31e2bdae537371e208c61",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.c5V9xtGSgssvy3QF.text",
+    "sourceSha256": "8a572a0f834430fecaeb39e53610e5c9be8b4c51e3b102be4bb2cb4706117f47",
+    "translationSha256": "3426c33079856ac5d032896c88573ce7f7043de31b53f15ba12409fe6405e833",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.QiOV3jONqjvY5aZN.text",
+    "sourceSha256": "85e08cf5d8673f1da506b35484d78b02563613a0946477efdc63da8931d96c5c",
+    "translationSha256": "56a6b9cb99dfca982ee0476e1d041448e13879393ab0522912ea612e42f6bdb9",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.k5dAB5CvYUQeWSdd.text",
+    "sourceSha256": "f1392e82ac2e6fdfa73dcce4153db7178c44c8279151fe6151ceb8b66ac736d0",
+    "translationSha256": "8ecc0e708630f5db405ae68dcda1ed1536e3ba80e6be539c1f0d7fecde2184e8",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.fpiNODXZALj437cZ.text",
+    "sourceSha256": "60b88e71905dfe7b30230784b0f9946b26954ea10a0494d45d89bf8885da7b26",
+    "translationSha256": "b1dfc2995eb469a416260382f70cc9773c11ca5213e30bc895fe313bceda5b91",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.8Sqr0X8w5fquaDCv.text",
+    "sourceSha256": "b7281a04a88912ad020322be071d94f5cbc1c014bcb3c74dcb80d4857f6a6188",
+    "translationSha256": "9f3befbbe0821dd6d481188c2848f20d271731511d3c46c98309bff4dbab2e66",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.Rhp2aqBQd0pRfn1O.text",
+    "sourceSha256": "2cad14fdd685d34fa5ab889faf8582115be181466088223355403b7b68227060",
+    "translationSha256": "0e90aed8d029c48d526e5c3d9ce051ad4107bbf4c3d80280759f5981114cfb24",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.TjWQOgI3A4UAl7lC.biography",
+    "sourceSha256": "a35c43d69059f26aee71c4065bc03291fc6c99978dd2a08ac3b11d9c7a67bea1",
+    "translationSha256": "0dc211ec4ace68daf7e84cf4efc2cf1f8ecd04d1b2ff773d42c4b4cfb71413df",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGoblinBoss00.biography",
+    "sourceSha256": "a35c43d69059f26aee71c4065bc03291fc6c99978dd2a08ac3b11d9c7a67bea1",
+    "translationSha256": "0dc211ec4ace68daf7e84cf4efc2cf1f8ecd04d1b2ff773d42c4b4cfb71413df",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoDroop0000000.biography",
+    "sourceSha256": "a35c43d69059f26aee71c4065bc03291fc6c99978dd2a08ac3b11d9c7a67bea1",
+    "translationSha256": "0dc211ec4ace68daf7e84cf4efc2cf1f8ecd04d1b2ff773d42c4b4cfb71413df",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.NAISFPoNNgUCsEyW.biography",
+    "sourceSha256": "a62225b623ae13690242669a8a28a5a0bb08b69be42d9b401a41d2b895bb4cc7",
+    "translationSha256": "cac2a53b9722a8bc19a5c957fa34f3e31c51c885df9232087ea92fd1cac0f067",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.RenLfmDT2XlbCF4x.biography",
+    "sourceSha256": "00ecbf1e57ae3998177e561e55476b17eeaf54f050fe3c73c1d1b4cd842dbfaf",
+    "translationSha256": "cf99f31e757074b77cf2b6b42d23ccf56c7f16f6b1df88065cc90991fe14cffd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.YOqhbf8WsX0jH9Fu.biography",
+    "sourceSha256": "f5b482acfcbfb7fbe1a068d4c72d26efaf371fb4d71d880599d84fc91e1fa3f1",
+    "translationSha256": "6f802c11a043f4489f66076660c1943f828ec5a80af04934b521636f1283b1fe",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.GpeQYtlo8oGvGlkM.biography",
+    "sourceSha256": "15aa3699ea6f522c3df825f06f2ef0d44a15df3688aafed408d47638bf914f8b",
+    "translationSha256": "0340fbfa2998bbc3e1e5ded0e1886576cf78f4110780924ecaa9c007283c8840",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.gGeLeV411iQ5Yijs.biography",
+    "sourceSha256": "b7a9415fa626d7b520152e67d0896df8cf404cc61d36dd0a2e868374fe39d5a5",
+    "translationSha256": "44a7a6c8fdfd547d0078353fb6387dfc45577e572abf3ca7062e102f22b9022b",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoFomorian0000.biography",
+    "sourceSha256": "f035c157f325d6057dabc8a087b71c1054228ff1938ef3a9e657264939196584",
+    "translationSha256": "bd5418d1d83b5f78bb8603590f735ec46fef5f796dda995b0a3dbbdf939f2255",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoMindFlayer00.biography",
+    "sourceSha256": "a5bfa20138235cad7f5d08e9d53ab2db9fe4d965bac44438fb785e96b84678c1",
+    "translationSha256": "46278e19a267160dbcfb5dda877c2cf0d7f7eedc0d76e445e7388645923c90ee",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBeholder0000.biography",
+    "sourceSha256": "5862edcf6bc57484baa15b78be24407b07f779c833b29d7284b94779018c46e6",
+    "translationSha256": "c794aebf5607b3f5ca1e131346e905c6ac66d599e46c098c2ff6b8f38ef6da7c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.GpeQYtlo8oGvGlkM.biography",
+    "sourceSha256": "15aa3699ea6f522c3df825f06f2ef0d44a15df3688aafed408d47638bf914f8b",
+    "translationSha256": "0340fbfa2998bbc3e1e5ded0e1886576cf78f4110780924ecaa9c007283c8840",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.NAISFPoNNgUCsEyW.biography",
+    "sourceSha256": "a62225b623ae13690242669a8a28a5a0bb08b69be42d9b401a41d2b895bb4cc7",
+    "translationSha256": "cac2a53b9722a8bc19a5c957fa34f3e31c51c885df9232087ea92fd1cac0f067",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.RenLfmDT2XlbCF4x.biography",
+    "sourceSha256": "00ecbf1e57ae3998177e561e55476b17eeaf54f050fe3c73c1d1b4cd842dbfaf",
+    "translationSha256": "cf99f31e757074b77cf2b6b42d23ccf56c7f16f6b1df88065cc90991fe14cffd",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.TjWQOgI3A4UAl7lC.biography",
+    "sourceSha256": "a35c43d69059f26aee71c4065bc03291fc6c99978dd2a08ac3b11d9c7a67bea1",
+    "translationSha256": "0dc211ec4ace68daf7e84cf4efc2cf1f8ecd04d1b2ff773d42c4b4cfb71413df",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.YOqhbf8WsX0jH9Fu.biography",
+    "sourceSha256": "f5b482acfcbfb7fbe1a068d4c72d26efaf371fb4d71d880599d84fc91e1fa3f1",
+    "translationSha256": "6f802c11a043f4489f66076660c1943f828ec5a80af04934b521636f1283b1fe",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.gGeLeV411iQ5Yijs.biography",
+    "sourceSha256": "b7a9415fa626d7b520152e67d0896df8cf404cc61d36dd0a2e868374fe39d5a5",
+    "translationSha256": "44a7a6c8fdfd547d0078353fb6387dfc45577e572abf3ca7062e102f22b9022b",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoBeholder0000.biography",
+    "sourceSha256": "5862edcf6bc57484baa15b78be24407b07f779c833b29d7284b94779018c46e6",
+    "translationSha256": "c794aebf5607b3f5ca1e131346e905c6ac66d599e46c098c2ff6b8f38ef6da7c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoDroop0000000.biography",
+    "sourceSha256": "a35c43d69059f26aee71c4065bc03291fc6c99978dd2a08ac3b11d9c7a67bea1",
+    "translationSha256": "0dc211ec4ace68daf7e84cf4efc2cf1f8ecd04d1b2ff773d42c4b4cfb71413df",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoFomorian0000.biography",
+    "sourceSha256": "f035c157f325d6057dabc8a087b71c1054228ff1938ef3a9e657264939196584",
+    "translationSha256": "bd5418d1d83b5f78bb8603590f735ec46fef5f796dda995b0a3dbbdf939f2255",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGoblinBoss00.biography",
+    "sourceSha256": "a35c43d69059f26aee71c4065bc03291fc6c99978dd2a08ac3b11d9c7a67bea1",
+    "translationSha256": "0dc211ec4ace68daf7e84cf4efc2cf1f8ecd04d1b2ff773d42c4b4cfb71413df",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoMindFlayer00.biography",
+    "sourceSha256": "a5bfa20138235cad7f5d08e9d53ab2db9fe4d965bac44438fb785e96b84678c1",
+    "translationSha256": "46278e19a267160dbcfb5dda877c2cf0d7f7eedc0d76e445e7388645923c90ee",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.gmeXhU3wiDVWWYyj.text",
+    "sourceSha256": "404dd84f7b263bb0e850a33080e8e4c1118c9b89821d6f5a2ac1cd9f296f89dd",
+    "translationSha256": "1dec97da032b2b90f9dd1b3d58d1cfc60c56fd37036bdcb4195ddcee64250c0c",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.YDkwnLnBlULGFsre.text",
+    "sourceSha256": "2afe9148d4c9c86a4cc0f9a60192f87522479a7b3052b726736ea6d771a8794b",
+    "translationSha256": "72adbd66b1f769cb451306b5b36e25a65a03f9dcb27abbd376c799683d1afb5e",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.0fahWTLvCtWVemSW.text",
+    "sourceSha256": "bcc44d3886dcf9a33e433101863000987541d2bba861c243cf2936aa8ec1d038",
+    "translationSha256": "d16284d44f8c8ced6e66e84d0da0b58389150de217dc3b22a72d3b1250f00a7a",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.E6B2qyIoLxucKCfS.text",
+    "sourceSha256": "e271a4aaefc655de8dd7a3a2df9449bda114757b2684437d6abbf47071d594eb",
+    "translationSha256": "919f4ab1ffc755a8bbb716fc56f866b4639eb84cbbb85d99e3a1bccc70b98d3b",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.EGSQFoYkbEob8XnZ.text",
+    "sourceSha256": "f4f515542d66532d70b525ee32727cec4a24a91ab8b3937f4e0122f4e09c5a3c",
+    "translationSha256": "381844022f1df0247abaa279fb4534d0eea8994151cdc1959893b02d78103d6f",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.8pWDOtBdPVPhkw59.text",
+    "sourceSha256": "2f2b7adb0962fd6e6e80929f7cdef23e342280a7fc41068102be97437707a60d",
+    "translationSha256": "0f379a9b78e6f05502a0eca6763d7a05b3b53adbc4836182bf01335c20bafd8d",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.yLMso1Z1vUe9OLBF.text",
+    "sourceSha256": "096e9d92102430bb3bc3c8c34ee15d3f2918fb5c7f5943661b2c6238067d4b5c",
+    "translationSha256": "f07a98209a81c08134493d7a6724584f5c0525e7ca4ebf06c2da4a0c04e66703",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.jY1Zwkw9f8uoM3Tg.text",
+    "sourceSha256": "5e7d2181c2e0498eb0f48fdca4b620852bce7d932f6cd8f03ca9c6dbb3ee2860",
+    "translationSha256": "75ddbe5cb0e649a706f76d3127ec50efa606b4df68d13c7773f6c48123b4741d",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.nU8GN8La8DCt8SDb.biography",
+    "sourceSha256": "ff1cb5e4519b64f3949798823a80ae19e2f0670e750396eac8b7a84c92d36ca8",
+    "translationSha256": "83cba6cf84df1db6b3a7b0db554fb13aa5c18765e0892610c1da0947d66d34dc",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoBrughorAxebi.biography",
+    "sourceSha256": "b1bdc744cad0086eabb11d2d81e4f5ef60c17654013e4d92006c6a0fb2b6710b",
+    "translationSha256": "13bf9d58a96dbbe9f1f93258d6b8457313154146fd5f1b664936953f538c1c2c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.6qnT52lZtZblgGw8.biography",
+    "sourceSha256": "a5f1841bc7978f4c683b142c0faa51f981e2c8ed0b1105d076e31f36e59a3b67",
+    "translationSha256": "950f65a343083d0674d9d45274981f884d0936ff559dd2d5a3b30b0dc059f2a0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.eIGowKTkEBC9gUzx.biography",
+    "sourceSha256": "db06a0b6571f34c8c17455d703f9c4eea739088b9c03fc06a7dd6cfce800acf5",
+    "translationSha256": "3167a04f1ba7dbdfbcbab75c619b8ec395ef6344dcad9ee0e0d91333b0b8e189",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.zY3W5MG7FjssENf6.biography",
+    "sourceSha256": "8a446f4d5bde6100ab996c9dcf87a93c0f2a33b16693a3416bed782962ce8bc2",
+    "translationSha256": "fcf0dea7cf3cf287c0e7b41a358fac3859be9cdbe29f1839cb65388d91992c2c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.1vaBSMUfOy6JPJ14.biography",
+    "sourceSha256": "15cfa9fd0a6c0cf97478e03dd50bcc8838c0432c563182aec707b358951c489a",
+    "translationSha256": "2c2f28711c8ee72bb7e106a1b311fbb674ba76378751622ca74175ae5e57a003",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoDrowEliteWar.biography",
+    "sourceSha256": "4a9e4525687838804a0a74427ba03a3137a2065711f4a546fb6968599a9d7cc2",
+    "translationSha256": "c6d4a8497e5ff0d6ec2d3c8477e3f652a36a6c8bee3fe813f2ed81d4d9540a70",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.t8WYD7ak07X7xpx8.biography",
+    "sourceSha256": "7307d19b85e1b07309b6209d03554038e8e95cf559b25fd8943f6112dce8bac3",
+    "translationSha256": "3679142fcd6eaee535a2723092b80b9faf9c2cfd65437c53189a20f7887d41cb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGithyankiKni.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoGithyankiWar.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoKianka000000.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoVarakkta0000.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pbsoVazzi0000000.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.x719wBho0qZvrbAV.biography",
+    "sourceSha256": "4a9e4525687838804a0a74427ba03a3137a2065711f4a546fb6968599a9d7cc2",
+    "translationSha256": "c6d4a8497e5ff0d6ec2d3c8477e3f652a36a6c8bee3fe813f2ed81d4d9540a70",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.actors.pQjF6emUcfloErNr.biography",
+    "sourceSha256": "4a9e4525687838804a0a74427ba03a3137a2065711f4a546fb6968599a9d7cc2",
+    "translationSha256": "c6d4a8497e5ff0d6ec2d3c8477e3f652a36a6c8bee3fe813f2ed81d4d9540a70",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.1vaBSMUfOy6JPJ14.biography",
+    "sourceSha256": "15cfa9fd0a6c0cf97478e03dd50bcc8838c0432c563182aec707b358951c489a",
+    "translationSha256": "2c2f28711c8ee72bb7e106a1b311fbb674ba76378751622ca74175ae5e57a003",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.6qnT52lZtZblgGw8.biography",
+    "sourceSha256": "a5f1841bc7978f4c683b142c0faa51f981e2c8ed0b1105d076e31f36e59a3b67",
+    "translationSha256": "950f65a343083d0674d9d45274981f884d0936ff559dd2d5a3b30b0dc059f2a0",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.eIGowKTkEBC9gUzx.biography",
+    "sourceSha256": "db06a0b6571f34c8c17455d703f9c4eea739088b9c03fc06a7dd6cfce800acf5",
+    "translationSha256": "3167a04f1ba7dbdfbcbab75c619b8ec395ef6344dcad9ee0e0d91333b0b8e189",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.nU8GN8La8DCt8SDb.biography",
+    "sourceSha256": "ff1cb5e4519b64f3949798823a80ae19e2f0670e750396eac8b7a84c92d36ca8",
+    "translationSha256": "83cba6cf84df1db6b3a7b0db554fb13aa5c18765e0892610c1da0947d66d34dc",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoBrughorAxebi.biography",
+    "sourceSha256": "b1bdc744cad0086eabb11d2d81e4f5ef60c17654013e4d92006c6a0fb2b6710b",
+    "translationSha256": "13bf9d58a96dbbe9f1f93258d6b8457313154146fd5f1b664936953f538c1c2c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoDrowEliteWar.biography",
+    "sourceSha256": "4a9e4525687838804a0a74427ba03a3137a2065711f4a546fb6968599a9d7cc2",
+    "translationSha256": "c6d4a8497e5ff0d6ec2d3c8477e3f652a36a6c8bee3fe813f2ed81d4d9540a70",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGithyankiKni.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.pbsoGithyankiWar.biography",
+    "sourceSha256": "b0e377670f993f64158d65950f3d5d4756087a523a015c86835995ba07e12468",
+    "translationSha256": "080e87a1fdfa0069206f6f146dee9ec4d17efc1e698ab02cabaf694865b338b2",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.t8WYD7ak07X7xpx8.biography",
+    "sourceSha256": "7307d19b85e1b07309b6209d03554038e8e95cf559b25fd8943f6112dce8bac3",
+    "translationSha256": "3679142fcd6eaee535a2723092b80b9faf9c2cfd65437c53189a20f7887d41cb",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-bestiary.zY3W5MG7FjssENf6.biography",
+    "sourceSha256": "8a446f4d5bde6100ab996c9dcf87a93c0f2a33b16693a3416bed782962ce8bc2",
+    "translationSha256": "fcf0dea7cf3cf287c0e7b41a358fac3859be9cdbe29f1839cb65388d91992c2c",
+    "review": "bestiary-prose"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.2OkvQTlE12eM1HXL.text",
+    "sourceSha256": "20e867ede85c59587234e9fa698e7c2e180e6874f9a4d24539af26ec644829d3",
+    "translationSha256": "22819b2540ad323faa8eef41c0d822e11d5e6edf2b80cf7028e9b8a68ea479b0",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.9Xjc4YzMEE5KAuac.text",
+    "sourceSha256": "3fbfc45acb31d45bfd9015370a93af404c2ac191be93dd3a61271a98235679a6",
+    "translationSha256": "5551b48709e364c1d72807a42059c9556b29e3c5515e922c7eca14e629370107",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.JPY9gbvJJ1x27huF.text",
+    "sourceSha256": "6d26ee8222f2d2cd043982c529a6054245590a32c72ed99fed6fca74384fcf38",
+    "translationSha256": "dde7bb72a0a48be847a22e3393be4af5161fcca8371094a28ed2c5ca4a9925c3",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.n8hWbyW75ew0F6Zd.text",
+    "sourceSha256": "142054bf1c6c5fa600bcf906c3b85440f7fa7ecd7a8df9e4381669f19150714e",
+    "translationSha256": "bc1d7ca6e84cd689f862d55764c13676cf0549c8ca096c98ff5d355db381a37e",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.bAZnFZVqk6Ya5VCR.text",
+    "sourceSha256": "5b2ff5e3b282520a8beb043ba15d752ca26fbb2d8e7f3ceaf9a70bcbf9deefac",
+    "translationSha256": "d4798c5e6272e38b1c1bd0d780f47e5628115736e50da6e7a9112975787c11f9",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.sx5j0lAWaDMcTimt.text",
+    "sourceSha256": "c2b292b1b0ac15164de2d2a2bd281cac1d4b0ec920498fd6ccdcbda520601b95",
+    "translationSha256": "64508eee0a8e1458c2695b303982baf3eee903b399c222f3d4336f4b967af998",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.zU0S8CVZJPABjAap.text",
+    "sourceSha256": "43c08d918f8d12137cf2d239a186d38ec2f84ca901b01e96277882d63abe2c4f",
+    "translationSha256": "4b4592fc190df9660dd6873094ef472527c3d66093e04cf773af8c0b325d4ace",
+    "review": "actor-index-exact-biography"
+  },
+  {
+    "field": "dnd-phandelver-below.pbso-adventures.p9BGA2AmnAZJCwow.journals.pbsoActorIndex00.pages.wrTIE8O5ANNz4NWi.text",
+    "sourceSha256": "f1617ad625acb0e955f3f122d803181b7e1d27d32c162396c6c0b4404c6d9387",
+    "translationSha256": "cb687497406098eb4d4e99a66aaa5e44342107ecc8bf6542c786e553363623eb",
+    "review": "actor-index-exact-biography"
   }
 ]

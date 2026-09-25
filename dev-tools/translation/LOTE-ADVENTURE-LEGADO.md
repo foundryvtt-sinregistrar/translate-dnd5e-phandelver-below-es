@@ -81,3 +81,17 @@ lazos, humanoides mutados y cúmulos de encéfalos. Se mantienen las condiciones
 para apaciguar espíritus, resolver mecanismos y obtener recompensas; se restauran
 las unidades del original. Se contrastan también las pistas, las rutas alternativas
 y las consecuencias de no conseguir los fragmentos. Total: 239/309 páginas.
+
+## Capítulo 7: 0240–0294
+
+Contrastadas las 55 páginas de Illithinoch, sus tres grietas y los túneles.
+Se traducen los restos de inglés, se recupera la pista «más allá de una estrella
+sin luz», se identifica a los gnawbles por el nombre de su objeto y se restauran
+las distancias de viaje y de encuentro. Se contrastan las condiciones de acceso,
+reaparición, rescate y rendición, así como los efectos de los fluidos y cristales.
+Total: 294/309 páginas.
+
+La sala de recepción de Illithinoch contiene un error técnico en la fuente:
+el enlace `Reference[rule=damagevulnerability]` acompaña una regla de resistencia.
+La traducción mantiene «resistencia», que es el efecto indicado por la prosa;
+la discrepancia del destino queda registrada para la auditoría de referencias.

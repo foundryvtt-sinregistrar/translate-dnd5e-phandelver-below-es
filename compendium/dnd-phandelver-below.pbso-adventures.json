@@ -2541,19 +2541,22 @@
           "name": "Índice de actores",
           "pages": {
             "qsSJ3AcVNLdeQpgM": {
-              "name": "Renacido"
+              "name": "Renacido",
+              "text": "<h2>@UUID[Actor.pbsoRevenant0000]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/revenant.webp\"></figure><section class=\"bio\"><p>Un renacido surge del alma de un mortal que sufrió un destino cruel e inmerecido. Se abre camino de vuelta al mundo para vengarse de quien le hizo daño. Recupera su cuerpo mortal y a simple vista parece un zombi. Sin embargo, en lugar de tener ojos sin vida, los suyos arden con determinación y se iluminan en presencia de su adversario. Si su cuerpo original fue destruido o no está disponible, su espíritu entra en otro cadáver humanoide. Sea cual sea el cuerpo que use, su adversario siempre reconoce lo que es en realidad.</p><p><strong>Sed de venganza.</strong> Un renacido solo dispone de un año para vengarse. Cuando su adversario muere, o si no logra matarlo antes de que se agote el plazo, se convierte en polvo y su alma pasa al más allá. Si su enemigo es demasiado poderoso para derrotarlo por sí solo, busca aliados dignos que lo ayuden a cumplir su misión.</p><p><strong>Justicia divina.</strong> Ninguna magia puede ocultar a una criatura perseguida por un renacido, que siempre conoce la dirección y la distancia que lo separan del objetivo de su venganza. Si busca vengarse de varios adversarios, los persigue uno a uno, empezando por quien le asestó el golpe mortal. Si destruyen su cuerpo, su alma sale en busca de otro cadáver con el que reanudar la caza.</p><p><strong>Naturaleza de muerto viviente.</strong> Un renacido no necesita aire, comida, bebida ni dormir.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Cripta de Talhund:</strong> @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.TIRuuyTKUmoZKfti]</p><p><strong>Cripta de Talhund:</strong> @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.KS4Sad8cs4j3QU8q]</p>"
             },
             "jxA1rXaDhUkaMN2q": {
               "name": "Hidra"
             },
             "APnZkVeTngY0zuEi": {
-              "name": "Extraño de agua"
+              "name": "Extraño de agua",
+              "text": "<h2>@UUID[Actor.pbsoWaterWeird00]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/water-weird.webp\"></figure><section class=\"bio\"><p>Un extraño de agua es un guardián elemental vinculado a un lugar concreto lleno de agua, como una poza o una fuente. Invisible mientras está sumergido, su forma serpentina solo se revela cuando emerge para atacar, usando sus anillos para aplastar a cualquier criatura salvo a quien lo invocó y a quienes este declare fuera de su alcance. Cuando muere, se convierte en un charco de agua inerte.</p><p><strong>Extraños buenos y malvados.</strong> Como la mayoría de los elementales, un extraño de agua carece de noción del bien y del mal. Sin embargo, si está vinculado a una fuente de agua sagrada o profanada, comienza a adoptar la naturaleza del lugar y se vuelve neutral bueno o neutral malvado.</p><p>Uno neutral bueno intenta ahuyentar a los intrusos en vez de matarlos, mientras que uno neutral malvado mata por placer y puede volverse contra quien lo invocó. Pierde su alineamiento malvado si sus aguas se limpian mediante un conjuro de @UUID[Compendium.dnd5e.spells.Item.Kn7K5PtYUJAKZTTp]{purificar comida y bebida}.</p><p><strong>Naturaleza elemental.</strong> Un extraño de agua no necesita aire, comida, bebida ni dormir.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Cripta de Talhund:</strong> @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.js7KkoDGDj01ISOi]</p>"
             },
             "gmeXhU3wiDVWWYyj": {
               "name": "Gólem de arcilla"
             },
             "LCio5gNhlZAqPoq7": {
-              "name": "Rivibiddel"
+              "name": "Rivibiddel",
+              "text": "<h2>@UUID[Actor.pbsoRivibiddel00]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/rivibiddel.webp\"></figure><section class=\"bio\"><p>Los gnomos de las profundidades, o svirfneblin, viven muy por debajo de la superficie del mundo, en laberintos de túneles y cavernas esculpidas. Sobreviven gracias a su sigilo, ingenio y tenacidad. Su piel gris les permite confundirse con la piedra que los rodea. También son sorprendentemente pesados y fuertes para su tamaño: un adulto medio pesa entre 100 y 120 libras y mide 3 pies de altura.</p><p>Un enclave svirfneblin típico alberga varios cientos de gnomos de las profundidades y está muy fortificado. Varios túneles secretos comunican el asentamiento con el exterior y sirven de rutas de evacuación cuando lo atacan.</p><p><strong>Roles de género establecidos.</strong> Los varones svirfneblin son calvos, mientras que las mujeres tienen el pelo gris y lacio. Tradicionalmente, las mujeres gobiernan los enclaves y los varones recorren sus alrededores en busca de enemigos y yacimientos de gemas preciosas.</p><p><strong>Recolectores de gemas.</strong> Los svirfneblin aprecian las gemas de calidad, sobre todo los rubíes, que extraen de minas de las profundidades de la Infraoscuridad. Su búsqueda suele llevarlos a enfrentarse a contempladores, drows, kuo-toas, duergars y azotamentes. De todos sus enemigos naturales, a quienes más temen y desprecian es a los drows asesinos que adoran a los demonios.</p><p><strong>Amigos de la tierra.</strong> Es habitual encontrar a los gnomos de las profundidades acompañados por criaturas del Plano Elemental de la Tierra. Algunos svirfneblin pueden convocarlas. Las criaturas de tierra protegen sus asentamientos, en especial los xorns, atraídos con la promesa de gemas para alimentarse.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Cripta de Talhund:</strong> @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.g1VInh6HECCS8IAF]</p><p><strong>Cripta de Talhund:</strong> @UUID[JournalEntry.pbsoCh6crypttalh.JournalEntryPage.nIPhEUIY282mb74l]</p><p><strong>Túneles de las profundidades:</strong> @UUID[JournalEntry.pbsoCh7tunnelsde.JournalEntryPage.doMvucAxNgnTscja]</p><p><strong>Grietas en la realidad:</strong> @UUID[JournalEntry.pbsoChapter70000.JournalEntryPage.4TWXhCn5419f5x0r]</p><p><strong>Más allá de un sol muerto:</strong> @UUID[JournalEntry.pbsoChapter80000.JournalEntryPage.tob7ZcaOZWhU0Zd2]</p>"
             },
             "5BueK03PWk2pWoXf": {
               "name": "Esqueleto enano"
@@ -2582,7 +2585,8 @@
               "text": "<h2>@UUID[Actor.KtM6IV9I5l1MWUDk]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/chain-devil.webp\"></figure><section class=\"bio\"><p>Este siniestro infernal viste cadenas como un sudario. Con su mirada aterradora hace huir a las criaturas menores y anima tanto las cadenas que cubren su cuerpo como las inertes que lo rodean. De ellas brotan ganchos, hojas y púas para destripar a sus enemigos.</p><p>Los diablos de las cadenas actúan como sádicos carceleros y torturadores en los reinos infernales, deleitándose en el dolor y viviendo para infligirlo a otros. Se les encomienda atormentar a las almas mortales atrapadas en los Nueve Infiernos, descargando su furia sádica sobre los horrendos lémures en los que se manifiestan dichas almas.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Cruce del Cadalso:</strong> @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.xXHsGkGDLo7YqHpD]</p>"
             },
             "Dv9teG4LETIfXBOM": {
-              "name": "Grick alfa"
+              "name": "Grick alfa",
+              "text": "<h2>@UUID[Actor.pbsoGrickAlpha00]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/grick.webp\"></figure><section class=\"bio\"><p>El grick, de aspecto vermiforme, aguarda oculto, camuflado entre las rocas de las cuevas y cavernas que habita. Solo cuando se acerca una presa se incorpora y despliega sus cuatro tentáculos espinosos para mostrar su pico hambriento y voraz.</p><p><strong>Depredadores pasivos.</strong> Los gricks rara vez cazan de forma activa. Arrastran sus cuerpos gomosos hasta lugares por los que pasan criaturas con frecuencia y acechan ocultos entre rocas y escombros. Se introducen en madrigueras, agujeros y grietas, trepan hasta salientes o se enroscan alrededor de estalactitas para dejarse caer sobre presas desprevenidas. Un grick devora prácticamente cualquier cosa que se mueva, salvo otros gricks. Ataca a la presa más cercana y agarra con sus tentáculos a una criatura caída para arrastrarla y comérsela a solas.</p><p><strong>Emboscadores errantes.</strong> Los gricks permanecen en una zona hasta que escasea el alimento, a menudo porque las criaturas inteligentes advierten su presencia y buscan rutas que eviten sus guaridas. Cuando escasean las presas en la Infraoscuridad, los gricks se aventuran a la superficie para cazar en tierras salvajes, ocultándose entre árboles o en salientes de acantilados. Una manada suele estar dirigida por un único alfa de gran tamaño y bien alimentado, alrededor del cual se congregan los demás.</p><p><strong>Despojos de la matanza.</strong> Con el tiempo, las guaridas de los gricks acumulan las pertenencias desechadas de sus presas inteligentes, y los guías expertos saben reconocer estas señales reveladoras. Los exploradores de la Infraoscuridad a veces cierran los accesos a una guarida para matar de hambre a sus habitantes y después apoderarse de las riquezas de sus víctimas.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Cruce del Cadalso:</strong> @UUID[JournalEntry.pbsoCh6gibbetcro.JournalEntryPage.vYaMsdtQv2flUG2C]</p>"
             },
             "NVDFjTEmOThFgIdk": {
               "name": "Grick"
@@ -2620,7 +2624,8 @@
               "name": "Honna"
             },
             "zBe8jrMYefY6f9iK": {
-              "name": "Horror acorazado"
+              "name": "Horror acorazado",
+              "text": "<h2>@UUID[Actor.pbsoHelmedHorror]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/helmed-horror.webp\"></figure><section class=\"bio\"><p>Este constructo posee inteligencia, capacidad para razonar y adaptar sus tácticas y una devoción inquebrantable hacia su creador que perdura incluso después de la muerte de este. Semejante a una armadura de placas vacía y animada, un horror acorazado sirve sin ambición ni emociones.</p><p><strong>Propósito mágico.</strong> Aunque crear un horror acorazado requiere más recursos mágicos que una @UUID[Actor.eORmAXuV5v3nWsQL]{armadura animada} menor, necesita menos instrucciones y mantenimiento para cumplir sus tareas. Sigue sus órdenes con absoluta lealtad y es lo bastante inteligente como para distinguir entre su intención y su redacción exacta. A diferencia de muchos constructos, procura cumplir la primera en vez de seguir servilmente la segunda.</p><p><strong>Astucia táctica.</strong> Un horror acorazado lucha con la astucia de un guerrero experto, alzándose en el aire y atacando primero a los personajes más débiles y a los lanzadores de conjuros. Sin embargo, carece de la perspicacia necesaria para modificar su entorno, fortificarlo o tomar otras medidas activas que mejoren su posición defensiva.</p><p><strong>Naturaleza artificial.</strong> Un horror acorazado no necesita aire, comida, bebida ni dormir.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Talhundereth:</strong> @UUID[JournalEntry.pbsoCh6talhunder.JournalEntryPage.F0y9s62vCltanh8o]</p>"
             },
             "5N1IDuisW6acCKXA": {
               "name": "Armadura animada"
@@ -2677,10 +2682,12 @@
               "name": "Hashutu"
             },
             "X6VsP6nFLeJwKTXK": {
-              "name": "Comandante goblin psiónico"
+              "name": "Comandante goblin psiónico",
+              "text": "<h2>@UUID[Actor.pbsoGoblinPsiCom]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/goblin-psi-sword.webp\"></figure><section class=\"bio\"><p>Los comandantes goblin psiónicos son de los pocos goblins psiónicos que consiguen controlar por completo su poder interior. Al despertar todo el potencial de sus capacidades, empuñan hojas de pura energía psíquica. Pueden levantar barreras de fuerza mental y derribar enemigos con una sola descarga que les desgarra la mente.</p><h2>Goblins psiónicos</h2><p>El origen de un goblin psiónico puede variar. Algunos nacen alterados por la energía que se filtra del Reino Lejano. Otros se transforman mediante su poder psiónico o pactan con otras aberraciones que los ayudan a transformarse a cambio de servir como tropas de choque. Sea cual sea el caso, el resultado es el mismo: un goblin con un poder psíquico antinatural y apenas contenido.</p><p>A menudo les cuesta controlar la turbulenta energía psíquica de sus mentes y cuerpos. Quienes aprenden a utilizarla de forma segura son fuerzas formidables en combate. Suelen complementar sus habilidades marciales con telequinesis, y sus escuadras sigilosas pueden comunicarse por telepatía, lo que las convierte en excelentes infiltradoras y emboscadoras.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Illithinoch:</strong> @UUID[JournalEntry.pbsoCh7illithino.JournalEntryPage.QwnHYC5uYSDXOejS]</p><p><strong>Senderos peligrosos:</strong> @UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.txt9zybqx8bd4yOw]</p><p><strong>Senderos peligrosos:</strong> @UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.fE30XYPDI02HyUPn]</p><p><strong>Encuentros de los fragmentos robados:</strong> @UUID[JournalEntry.pbsoStolenShards.JournalEntryPage.MlI6kpy3oKLDKy6m]</p><p><strong>Descanso de Zorzula:</strong> @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.uAw6Xpg6snXyCP02]</p><p><strong>Descanso de Zorzula:</strong> @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.6S3kUuUa4KsZttfx]</p>"
             },
             "YNTaszDeQZtnhfgb": {
-              "name": "Camorrista goblin psiónico"
+              "name": "Camorrista goblin psiónico",
+              "text": "<h2>@UUID[Actor.pbsoGoblinPsiBra]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/goblin-psi-brawler.webp\"></figure><section class=\"bio\"><p>Los camorristas goblin psiónicos usan sus talentos para aumentar su poderío físico. Sus golpes crepitan con energía psíquica y, cuando se enfurecen, pueden liberar un empuje telequinético lo bastante fuerte como para derribar a sus enemigos.</p><h2>Goblins psiónicos</h2><p>El origen de un goblin psiónico puede variar. Algunos nacen alterados por la energía que se filtra del Reino Lejano. Otros se transforman mediante su poder psiónico o pactan con otras aberraciones que los ayudan a transformarse a cambio de servir como tropas de choque. Sea cual sea el caso, el resultado es el mismo: un goblin con un poder psíquico antinatural y apenas contenido.</p><p>A menudo les cuesta controlar la turbulenta energía psíquica de sus mentes y cuerpos. Quienes aprenden a utilizarla de forma segura son fuerzas formidables en combate. Suelen complementar sus habilidades marciales con telequinesis, y sus escuadras sigilosas pueden comunicarse por telepatía, lo que las convierte en excelentes infiltradoras y emboscadoras.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Illithinoch:</strong> @UUID[JournalEntry.pbsoCh7illithino.JournalEntryPage.QwnHYC5uYSDXOejS]</p><p><strong>Senderos peligrosos:</strong> @UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.txt9zybqx8bd4yOw]</p><p><strong>Senderos peligrosos:</strong> @UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.fE30XYPDI02HyUPn]</p><p><strong>Grietas en la realidad:</strong> @UUID[JournalEntry.pbsoChapter70000.JournalEntryPage.xiK3f5BhsS3I8PZu]</p><p><strong>Santuario Índigo:</strong> @UUID[JournalEntry.pbsoIndigoSanctu.JournalEntryPage.2Il2XA8eXvcvgMBK]</p><p><strong>Guarida de los Redbrand:</strong> @UUID[JournalEntry.pbsoRedbrandsHid.JournalEntryPage.PIM1Ww4im5TvO5R7]</p><p><strong>Encuentros de los fragmentos robados:</strong> @UUID[JournalEntry.pbsoStolenShards.JournalEntryPage.ED201sKiJ6uB9XM2]</p><p><strong>Encuentros de los fragmentos robados:</strong> @UUID[JournalEntry.pbsoStolenShards.JournalEntryPage.MlI6kpy3oKLDKy6m]</p><p><strong>Descanso de Zorzula:</strong> @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.6S3kUuUa4KsZttfx]</p><p><strong>Descanso de Zorzula:</strong> @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.YAvUm3wSEL0e9Ahp]</p>"
             },
             "YYgiDddIYUndQq4l": {
               "name": "Grell"
@@ -2890,7 +2897,8 @@
               "name": "Osgo"
             },
             "7AWT5jGqwXwMsnjI": {
-              "name": "Ruxithid el Elegido"
+              "name": "Ruxithid el Elegido",
+              "text": "<h2>@UUID[Actor.pbsoRuxithidTheC]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/ruxithid-the-chosen.webp\"></figure><section class=\"bio\"><p>Hace siglos, los azotamentes conquistaron un puesto minero duergar abandonado llamado Descanso de Zorzula. Los goblins que había allí quedaron expuestos a los extraños poderes de los ilícidos, lo que hizo que algunos desarrollaran poderes psiónicos inusuales. Los azotamentes acabaron marchándose, pero los goblins permanecieron aislados del resto del mundo hasta que, recientemente, los fanáticos azotamentes recurrieron a ellos. Algunos de sus descendientes poseen poderes psiónicos, como demuestran los @UUID[Actor.pbsoGoblinPsiCom]{comandantes goblin psiónicos} y los @UUID[Actor.pbsoGoblinPsiBra]{camorristas goblin psiónicos} de sus filas. En conjunto, se llaman a sí mismos Sawplees: una simplificación de la palabra «goblin» en el dialecto del habla de las profundidades de los ilícidos.</p><p>En las últimas semanas, el líder de los goblins Sawplee encontró una gema misteriosa. Sin que Ruxithid el Elegido lo sepa, un nuevo grupo de fanáticos azotamentes que obtiene poder del Reino Lejano la dejó allí para que la encontrara. La gema le permite comunicarse telepáticamente con los azotamentes, a quienes cree dioses.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Senderos peligrosos:</strong> @UUID[JournalEntry.pbsoChapter50000.JournalEntryPage.txt9zybqx8bd4yOw]</p><p><strong>El Obelisco Fragmentado:</strong> @UUID[JournalEntry.pbsoChapter60000.JournalEntryPage.trZm87g3Ogci4Aew]</p><p><strong>Santuario Índigo:</strong> @UUID[JournalEntry.pbsoIndigoSanctu.JournalEntryPage.kOMpOyy4aLKh9yhX]</p><p><strong>Santuario Índigo:</strong> @UUID[JournalEntry.pbsoIndigoSanctu.JournalEntryPage.FGZ7PvaJb1oNxZ4i]</p><p><strong>Túmulo del Wyvern:</strong> @UUID[JournalEntry.pbsoWyvernTor000.JournalEntryPage.QTwTwD5nJuHDiiRz]</p><p><strong>Descanso de Zorzula:</strong> @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.vU8dDpPmNlmhFBDo]</p><p><strong>Descanso de Zorzula:</strong> @UUID[JournalEntry.pbsoZorzulasRest.JournalEntryPage.hQc21nL7sikb3Dp1]</p>"
             },
             "XGFb0r5aBT8d5Ty4": {
               "name": "Cabra"
@@ -2938,7 +2946,8 @@
               "name": "Naga espiritual"
             },
             "vMEOZDQkOkWtiHb4": {
-              "name": "Acechador invisible"
+              "name": "Acechador invisible",
+              "text": "<h2>@UUID[Actor.oDspGxRQFBhE74L2]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/invisible-stalker.webp\"></figure><section class=\"bio\"><p>Un acechador invisible es un elemental de aire convocado desde su plano de origen y transformado mediante magia poderosa. Su único propósito es perseguir criaturas y recuperar objetos para quien lo convocó. Cuando es derrotado o expira la magia que lo ata, desaparece en una ráfaga de viento.</p><p><strong>Cazador dirigido.</strong> Cuando se crea un acechador invisible, permanece junto a su convocador hasta recibir una tarea. Si el encargo no consiste en perseguir y matar a una criatura concreta o recuperar un objeto, la magia que lo creó termina y el elemental queda libre. En caso contrario, cumple la tarea y vuelve para recibir nuevas órdenes, obligado a servir hasta que expire la magia que lo ata. Si su convocador muere entretanto, desaparece tras completar su tarea.</p><p>Incluso en el mejor de los casos, un acechador invisible es un sirviente reacio y resentido con cualquier encargo. Una misión que requiera mucho tiempo puede impulsarlo a tergiversar la intención de una orden si no se ha formulado con cuidado.</p><p><strong>Amenaza oculta.</strong> Los acechadores invisibles están compuestos de aire y son &amp;Reference[invisible]{invisibles} por naturaleza. Una criatura puede oír o sentir a uno que pase cerca, pero el elemental sigue siendo invisible incluso cuando ataca. Un conjuro que permita ver lo invisible solo revela su contorno difuso.</p><p><strong>Naturaleza elemental.</strong> Un acechador invisible no necesita aire, comida, bebida ni dormir.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Miasma Ocultador:</strong> @UUID[JournalEntry.pbsoOccludingMia.JournalEntryPage.GzuBwWdyY2ELY48g]</p>"
             },
             "mj33IV03OHwZjEJV": {
               "name": "Zombi"
@@ -3006,7 +3015,8 @@
               "name": "Otyugh"
             },
             "9ZabwKtN5GrhEMO0": {
-              "name": "Mole sombría"
+              "name": "Mole sombría",
+              "text": "<h2>@UUID[Actor.pbsoUmberHulk000]</h2><figure class=\"flex-left size-two\"><img src=\"modules/dnd-phandelver-below/assets/portraits/umber-hulk.webp\"></figure><section class=\"bio\"><p>Un horror abominable de las profundidades de la tierra, la mole sombría excava hasta complejos de cuevas, mazmorras o asentamientos de la Infraoscuridad en busca de alimento. Quienes tienen la suerte de sobrevivir a su ataque suelen recordar muy poco de lo ocurrido debido a su mirada, que altera la mente.</p><p><strong>Excavadores astutos.</strong> Las moles sombrías pueden excavar a través de roca sólida y abrir túneles a su paso. La quitina de su cuerpo, dura como el acero, soporta los derrumbes de cuevas y túneles y las caídas de rocas que suelen provocar.</p><p>Tras excavar hasta la pared de una caverna o un pasadizo, la mole sombría espera a que pasen criaturas al otro lado, detectando cualquier movimiento cercano con sus antenas semejantes a pelos. Cuando irrumpe en una lluvia de tierra y piedras, su presa desprevenida se vuelve hacia la amenaza y queda fascinada por sus ojos desconcertantes, obligada a permanecer indefensa mientras se cierran sus mandíbulas.</p><p><strong>Perturbador de la mente.</strong> Muchos supervivientes recuerdan poco del ataque de una mole sombría, pues su mirada confusa trastorna sus recuerdos. Quienes han luchado contra estas criaturas y las han matado reconocen las señales. Para los demás habitantes de la Infraoscuridad, las historias macabras de exploradores desaparecidos y destrucción indiscriminada hablan de un enemigo desconocido. En estos relatos aterradores, las moles sombrías adquieren una condición sobrenatural, y muchos transmiten la misma advertencia: cuando se ve a una mole sombría, ya es demasiado tarde para escapar.</p></section><h2 class=\"float-clear\">Referencias</h2><p><strong>Campo de los Lamentos:</strong> @UUID[JournalEntry.pbsoWailingBattl.JournalEntryPage.z8reIBUReL7uL5iX]</p>"
             },
             "q5o0TWlHdnhJXGZd": {
               "name": "Nycaloth",
@@ -4577,7 +4587,8 @@
                   "name": "Asustado",
                   "description": "<p>El objetivo queda &amp;Reference[condition=frightened]{asustado} durante 1 minuto. Si falla la salvación por 5 o más, también envejece [[/r 1d4 * 10]] años.</p><p>Un objetivo asustado puede repetir la tirada de salvación al final de cada uno de sus turnos y dejar de estar asustado si la supera. Si supera la tirada de salvación o el efecto termina para él, es inmune al Rostro aterrador de {creature} durante las siguientes 24 horas.</p>"
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-1OBS0flNMT5xkqiK\"><p>Cada criatura que no sea un muerto viviente a 60 pies o menos de la banshee y que pueda verla debe superar una tirada de salvación de <strong>Sabiduría CD 13</strong> o quedar &amp;Reference[condition=frightened]{asustada} durante 1 minuto. Si falla por 5 o más, también envejece [[/r 1d4 * 10]] años.</p><p>Un objetivo asustado puede repetir la tirada de salvación al final de cada uno de sus turnos y dejar de estar asustado si la supera. Si supera la salvación o el efecto termina para él, es inmune al Rostro aterrador de {creature} durante las siguientes 24 horas. El envejecimiento puede revertirse con restablecimiento mayor, pero solo dentro de las 24 horas posteriores a que se produzca.</p></section><p>Cada criatura que no sea un muerto viviente a 60 pies o menos de la banshee y que pueda verla debe realizar una tirada de salvación de <strong>Sabiduría</strong>. Un objetivo puede repetir la salvación al final de cada uno de sus turnos y poner fin al estado sobre sí mismo si la supera.</p>"
             },
             "3dS3nEl1287ym1oV": {
               "name": "Detectar vida",
@@ -4794,7 +4805,8 @@
                   "name": "Envenenado",
                   "description": "<p>El objetivo está &amp;Reference[poisoned apply=false] durante 1 minuto. Mientras está envenenado, está &amp;Reference[Paralyzed apply=false] y puede repetir la tirada de salvación al final de cada uno de sus turnos para poner fin al efecto si tiene éxito.</p>"
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-QChEEBpUxZC6knsK\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +4 a impactar, alcance 10 pies, una criatura. Impacto: 7 (1d10 + 2) de daño perforante, y el objetivo debe superar una tirada de salvación de Constitución CD 11 o quedar &amp;Reference[condition=poisoned]{envenenado} durante 1 minuto. El objetivo envenenado está paralizado y puede repetir la tirada de salvación al final de cada uno de sus turnos; si la supera, el efecto termina.</p><p>El objetivo también queda agarrado (CD 15 para escapar). Si es Mediano o menor, también está &amp;Reference[condition=restrained]{apresado} hasta que termine el agarre. Mientras lo tenga agarrado, el grell tiene ventaja en las tiradas de ataque contra él y no puede usar este ataque contra otros objetivos. Cuando el grell se mueve, cualquier objetivo Mediano o menor que tenga agarrado se mueve con él.</p></section><p>El grell ataca con sus tentáculos. El objetivo debe superar una tirada de salvación de Constitución CD 11 o quedar &amp;Reference[condition=poisoned]{envenenado} durante 1 minuto. El objetivo envenenado está paralizado y puede repetir la tirada de salvación al final de cada uno de sus turnos; si la supera, el efecto termina.</p><p>El objetivo también queda agarrado (para escapar: [[/check ability=str dc=15]]). Si es Mediano o menor, también está &amp;Reference[condition=restrained]{apresado} hasta que termine el agarre. Mientras lo tenga agarrado, el grell tiene ventaja en las tiradas de ataque contra él y no puede usar este ataque contra otros objetivos. Cuando el grell se mueve, cualquier objetivo Mediano o menor que tenga agarrado se mueve con él.</p>"
             },
             "Ahr1TUItyOtOsm0W": {
               "name": "Pico",
@@ -4904,7 +4916,8 @@
               "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
             },
             "rOTkNg4rr7vt25sg": {
-              "name": "Sugestión"
+              "name": "Sugestión",
+              "description": "<p>Sugieres un curso de acción, limitado a una o dos frases, e influyes mágicamente en una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. Las criaturas que no pueden quedar hechizadas son inmunes. La sugerencia debe formularse de modo que la acción parezca razonable. Pedirle que se apuñale, se arroje sobre una lanza, se inmole o haga otra cosa evidentemente dañina termina el conjuro.</p><p>El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, sigue el curso de acción descrito lo mejor que puede. La actividad puede continuar durante toda la duración. Si puede completarse antes, el conjuro termina cuando el objetivo termina lo que se le pidió.</p><p>También puedes especificar condiciones que desencadenen una actividad concreta durante la duración. Por ejemplo, podrías sugerir a una caballera que entregue su caballo de guerra al primer mendigo que encuentre. Si la condición no se cumple antes de que expire el conjuro, la actividad no se realiza.</p><p>Si tú o cualquiera de tus compañeros dañáis al objetivo, el conjuro termina.</p>"
             },
             "WWKRZucrWFPnajIP": {
               "name": "Contrahechizo",
@@ -5101,7 +5114,8 @@
               "description": "<p>Una oleada de fuerza atronadora surge de ti. Cada criatura en un cubo de 15 pies de lado que parta de ti debe realizar una tirada de salvación de Constitución. Si falla, recibe 2d8 de daño de trueno y es empujada 10 pies en dirección contraria a ti. Si supera la tirada, recibe la mitad del daño y no es empujada.</p><p>Además, los objetos que no estén sujetos y se encuentren completamente dentro del área de efecto son empujados automáticamente 10 pies en dirección contraria a ti, y el conjuro emite un estruendo audible a 300 pies de distancia.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 1.</p>"
             },
             "ISlelRyBNlqPs2ah": {
-              "name": "Mensajero animal"
+              "name": "Mensajero animal",
+              "description": "<p>Mediante este conjuro, utilizas un animal para entregar un mensaje. Elige una bestia Diminuta que puedas ver dentro del alcance, como una ardilla, un arrendajo azul o un murciélago. Especifica un lugar que hayas visitado y un destinatario que responda a una descripción general, como «un hombre o una mujer con el uniforme de la guardia del pueblo» o «un enano pelirrojo con sombrero puntiagudo». También pronuncias un mensaje de hasta veinticinco palabras. La bestia viaja hacia el lugar indicado mientras dure el conjuro, recorriendo unas 50 millas cada 24 horas si vuela, o 25 millas si es otro animal.</p><p>Cuando llega, entrega el mensaje a la criatura descrita, reproduciendo el sonido de tu voz. Solo habla con una criatura que responda a la descripción. Si no llega a su destino antes de que termine el conjuro, el mensaje se pierde y la bestia regresa al lugar donde lo lanzaste.</p><p><strong>A niveles superiores.</strong> Si lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, su duración aumenta en 48 horas por cada nivel del espacio por encima de 2.</p>"
             },
             "bjuaxuz5diRi8CLQ": {
               "name": "Piel robliza",
@@ -5124,7 +5138,8 @@
               "name": "Drenaje de sangre",
               "description": "<section class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> <strong>+5 a impactar</strong>, alcance <strong>5 pies,</strong> una criatura. Impacto: <strong>5 (1d4 + 3) <em>de daño perforante</em></strong>.</p><p>La estirge se adhiere al objetivo. Mientras esté adherida, no ataca. En su lugar, al comienzo de cada uno de sus turnos, el objetivo pierde 5 (1d4 + 3) puntos de golpe por la pérdida de sangre. La estirge puede desprenderse gastando 5 pies de movimiento. Lo hace después de drenar 10 puntos de golpe de sangre del objetivo o cuando este muere.</p></section><p>La estirge ataca con su Drenar sangre. Una criatura, incluido el objetivo, puede usar su acción para desprenderla.</p>"
             }
-          }
+          },
+          "biography": "<p>Este horrible monstruo parece un cruce entre un murciélago grande y un mosquito desmesurado. Sus patas terminan en pinzas afiladas y su larga probóscide, similar a una aguja, corta el aire mientras busca alimentarse de la sangre de criaturas vivas.</p><hr /><p>Esta horrible criatura voladora parece un cruce entre un murciélago grande y un mosquito desmesurado. Sus patas terminan en pinzas afiladas y su larga probóscide, similar a una aguja, corta el aire mientras busca su próxima comida.</p><p>Las estirges se alimentan de la sangre de criaturas vivas, adhiriéndose a ellas y drenándolas lentamente. Aunque unas pocas suponen poco peligro, una bandada puede ser una amenaza formidable: vuelven a adherirse tan deprisa como sus debilitadas presas logran arrancarlas.</p><p><strong>Drenar sangre.</strong> Una estirge ataca posándose sobre su víctima, buscando un punto vulnerable e introduciendo la probóscide en su carne mientras se aferra con sus patas de pinza. Una vez saciada, se desprende y se aleja volando para digerir su alimento.</p>"
         },
         "pbsoTwigBlight00": {
           "name": "Ramita marchita",
@@ -5207,7 +5222,8 @@
               "description": "<p>Tu cuerpo se vuelve borroso, cambiante y oscilante para quienes puedan verte. Mientras dure el conjuro, cualquier criatura tiene desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si no depende de la vista, como ocurre con la visión ciega, o si puede ver a través de las ilusiones, como sucede con la visión verdadera.</p>"
             },
             "uPx0EefBvwCOJ5xC": {
-              "name": "Esfera de llamas"
+              "name": "Esfera de llamas",
+              "description": "<p>Una esfera de fuego de 5 pies de diámetro aparece en un espacio desocupado que elijas dentro del alcance y permanece mientras dure el conjuro. Cualquier criatura que termine su turno a 5 pies o menos de ella debe realizar una tirada de salvación de Destreza. Recibe 2d6 de daño de fuego si falla o la mitad si la supera.</p><p>Como acción adicional, puedes mover la esfera hasta 30 pies. Si la haces chocar contra una criatura, esta debe realizar la salvación contra su daño y la esfera deja de moverse durante este turno.</p><p>Cuando mueves la esfera, puedes hacer que supere barreras de hasta 5 pies de altura y salte sobre simas de hasta 10 pies de ancho. Prende los objetos inflamables que nadie vista ni transporte y emite luz brillante en un radio de 20 pies y luz tenue durante 20 pies adicionales.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño aumenta en 1d6 por cada nivel del espacio por encima de 2.</p>"
             },
             "cP0jJo0zwEd4gudl": {
               "name": "Bola de fuego",
@@ -5348,7 +5364,8 @@
               "description": "<section id=\"secret-RDMFsX0aZN9dnSxv\" class=\"secret\"><p><em>Ataque de conjuro a distancia:</em> +5 a impactar, alcance 5 pies o alcance 120 pies, una criatura. Impacto: 9 (2d8) de daño de veneno.</p></section><p>Nezznar ataca con una explosión venenosa.</p>"
             },
             "0aG4XwdBY69Ex1NK": {
-              "name": "Bastón de la Araña"
+              "name": "Bastón de la Araña",
+              "description": "<section class=\"secret\" id=\"secret-Qz4cjfTxw3uIy85w\"><p><em>Requiere sintonización por un bardo, hechicero, brujo o mago.</em></p><p>El extremo de este bastón negro de adamantina tiene forma de araña. Pesa 6 libras. Debes estar sintonizado con él para obtener sus beneficios y lanzar sus conjuros.</p><p>Puede empuñarse como un bastón. Inflige 1d6 de daño de veneno adicional al impactar cuando se utiliza para realizar un ataque con arma.</p><p>El bastón tiene 10 cargas que alimentan sus conjuros. Mientras lo sostengas, puedes usar tu acción para lanzar uno de los siguientes conjuros si está en la lista de conjuros de tu clase: @UUID[Compendium.dnd5e.spells.Item.KJRVzeMQXPj8Gtyx]{Trepar cual arácnido} (1 carga) o @UUID[Compendium.dnd5e.spells.Item.UJJu9c2UvCzVljiP]{Telaraña} (2 cargas, CD de salvación de conjuros 15). No se requieren componentes.</p><p>Recupera 1d6 + 4 cargas gastadas cada día al anochecer. Si gastas su última carga, tira [[/gmroll d20]]. Con un 1, se deshace en polvo y queda destruido.</p></section><p>Nezznar ataca con el Bastón de la araña.</p>"
             },
             "flDawBiokLtV3jjT": {
               "name": "Poción de curación",
@@ -5435,7 +5452,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Sugieres un curso de acción, limitado a una o dos frases, e influyes mágicamente en una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. Las criaturas que no pueden quedar hechizadas son inmunes. La sugerencia debe formularse de modo que la acción parezca razonable. Pedirle que se apuñale, se arroje sobre una lanza, se inmole o haga otra cosa evidentemente dañina termina el conjuro.</p><p>El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, sigue el curso de acción descrito lo mejor que puede. La actividad puede continuar durante toda la duración. Si puede completarse antes, el conjuro termina cuando el objetivo termina lo que se le pidió.</p><p>También puedes especificar condiciones que desencadenen una actividad concreta durante la duración. Por ejemplo, podrías sugerir a una caballera que entregue su caballo de guerra al primer mendigo que encuentre. Si la condición no se cumple antes de que expire el conjuro, la actividad no se realiza.</p><p>Si tú o cualquiera de tus compañeros dañáis al objetivo, el conjuro termina.</p>"
             },
             "v1jNXChFdJBKzBSp": {
               "name": "Trepar cual arácnido",
@@ -5452,7 +5470,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Conjuras una masa de telarañas gruesas y pegajosas en un punto que elijas dentro del alcance. Llenan un cubo de 20 pies de lado desde ese punto mientras dure el conjuro. Son terreno difícil y oscurecen ligeramente el área.</p>\n        <p>Si no están ancladas entre dos masas sólidas (como paredes o árboles) ni extendidas sobre un suelo, pared o techo, se derrumban sobre sí mismas y el conjuro termina al comienzo de tu siguiente turno. Las telarañas extendidas sobre una superficie plana tienen 5 pies de profundidad.</p>\n        <p>Cada criatura que comience su turno en las telarañas o entre en ellas durante su turno debe realizar una tirada de salvación de Destreza. Si falla, queda apresada mientras permanezca en ellas o hasta que se libere.</p>\n        <p>Una criatura apresada por las telarañas puede usar su acción para realizar una prueba de Fuerza contra tu CD de salvación de conjuros. Si la supera, deja de estar apresada.</p>\n        <p>Las telarañas son inflamables. Cualquier cubo de 5 pies de lado expuesto al fuego se consume en 1 asalto e inflige 2d4 de daño de fuego a cualquier criatura que comience su turno en el fuego.</p>"
             }
           },
           "biography": "<p>La Araña —un cerebro criminal drow llamado Nezznar— busca en la Cueva del Oleaje la Forja de Conjuros, una forja mágica que enanos y gnomos utilizaban antaño para fabricar poderosos objetos mágicos.</p><p>La Araña quiere la Cueva del Oleaje para sí y está tomando medidas para asegurarse de que nadie más sepa dónde está.</p>"
@@ -5696,7 +5715,8 @@
               },
               "description": "<section class=\"secret\" id=\"secret-sSfY2XF0EY9XNyHm\"><p>El goblin dirige una embestida de fuerza telequinética contra una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe superar una tirada de salvación de Fuerza CD 13 o quedar &amp;Reference[prone].</p></section><p>El goblin empuja con una fuerza telequinética.</p>"
             }
-          }
+          },
+          "biography": "<p>Los camorristas goblin psiónicos usan sus talentos para aumentar su poderío físico. Sus golpes crepitan con energía psíquica y, cuando se enfurecen, pueden liberar un empuje telequinético lo bastante fuerte como para derribar a sus enemigos.</p><h2>Goblins psiónicos</h2><p>El origen de un goblin psiónico puede variar. Algunos nacen alterados por la energía que se filtra del Reino Lejano. Otros se transforman mediante su poder psiónico o pactan con otras aberraciones que los ayudan a transformarse a cambio de servir como tropas de choque. Sea cual sea el caso, el resultado es el mismo: un goblin con un poder psíquico antinatural y apenas contenido.</p><p>A menudo les cuesta controlar la turbulenta energía psíquica de sus mentes y cuerpos. Quienes aprenden a utilizarla de forma segura son fuerzas formidables en combate. Suelen complementar sus habilidades marciales con telequinesis, y sus escuadras sigilosas pueden comunicarse por telepatía, lo que las convierte en excelentes infiltradoras y emboscadoras.</p>"
         },
         "pbsoGoblinPsiCom": {
           "name": "Comandante goblin psiónico",
@@ -5790,7 +5810,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Creas un sonido o la imagen de un objeto dentro del alcance que permanece mientras dure el conjuro. La ilusión también termina si la disipas como acción o vuelves a lanzar este conjuro.</p><p>Si creas un sonido, su volumen puede ir de un susurro a un grito. Puede ser tu voz, la de otra persona, el rugido de un león, tambores o cualquier otro sonido que elijas. Puede continuar sin interrupción durante toda la duración, o puedes producir sonidos separados en distintos momentos antes de que termine el conjuro.</p><p>Si creas la imagen de un objeto —como una silla, huellas de barro o un cofre pequeño—, no debe superar un cubo de 5 pies de lado. No puede producir sonido, luz, olor ni otro efecto sensorial. La interacción física revela que es una ilusión, pues las cosas pueden atravesarla.</p><p>Una criatura que use su acción para examinar el sonido o la imagen puede descubrir que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Para una criatura que la reconozca como tal, la ilusión se vuelve tenue.</p>"
             },
             "IGxym9XCG2l2hpTc": {
               "name": "Hechizar persona",
@@ -5822,7 +5843,8 @@
               },
               "description": "<p>Susurras una melodía discordante que solo puede oír una criatura que elijas dentro del alcance y que le provoca un dolor terrible. El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, recibe 3d6 de daño psíquico y debe usar inmediatamente su reacción, si la tiene disponible, para alejarse de ti tanto como permita su velocidad. No se mueve hacia un terreno evidentemente peligroso, como un fuego o una sima. Si supera la tirada, recibe la mitad del daño y no tiene que alejarse. Una criatura ensordecida supera automáticamente la salvación.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d6 por cada nivel del espacio por encima de 1.</p>"
             }
-          }
+          },
+          "biography": "<p>Los comandantes goblin psiónicos son de los pocos goblins psiónicos que consiguen controlar por completo su poder interior. Al despertar todo el potencial de sus capacidades, empuñan hojas de pura energía psíquica. Pueden levantar barreras de fuerza mental y derribar enemigos con una sola descarga que les desgarra la mente.</p><h2>Goblins psiónicos</h2><p>El origen de un goblin psiónico puede variar. Algunos nacen alterados por la energía que se filtra del Reino Lejano. Otros se transforman mediante su poder psiónico o pactan con otras aberraciones que los ayudan a transformarse a cambio de servir como tropas de choque. Sea cual sea el caso, el resultado es el mismo: un goblin con un poder psíquico antinatural y apenas contenido.</p><p>A menudo les cuesta controlar la turbulenta energía psíquica de sus mentes y cuerpos. Quienes aprenden a utilizarla de forma segura son fuerzas formidables en combate. Suelen complementar sus habilidades marciales con telequinesis, y sus escuadras sigilosas pueden comunicarse por telepatía, lo que las convierte en excelentes infiltradoras y emboscadoras.</p>"
         },
         "CHEUjiYrVM9X0vIT": {
           "name": "Gwyn Oresong",
@@ -6104,7 +6126,8 @@
           },
           "alignment": "Neutral malvado",
           "creatureSubtype": "Goblinoide",
-          "languages": "Telepatía (60 pies)"
+          "languages": "Telepatía (60 pies)",
+          "biography": "<p>Hace siglos, los azotamentes conquistaron un puesto minero duergar abandonado llamado Descanso de Zorzula. Los goblins que había allí quedaron expuestos a los extraños poderes de los ilícidos, lo que hizo que algunos desarrollaran poderes psiónicos inusuales. Los azotamentes acabaron marchándose, pero los goblins permanecieron aislados del resto del mundo hasta que, recientemente, los fanáticos azotamentes recurrieron a ellos. Algunos de sus descendientes poseen poderes psiónicos, como demuestran los @UUID[Actor.pbsoGoblinPsiCom]{comandantes goblin psiónicos} y los @UUID[Actor.pbsoGoblinPsiBra]{camorristas goblin psiónicos} de sus filas. En conjunto, se llaman a sí mismos Sawplees: una simplificación de la palabra «goblin» en el dialecto del habla de las profundidades de los ilícidos.</p><p>En las últimas semanas, el líder de los goblins Sawplee encontró una gema misteriosa. Sin que Ruxithid el Elegido lo sepa, un nuevo grupo de fanáticos azotamentes que obtiene poder del Reino Lejano la dejó allí para que la encontrara. La gema le permite comunicarse telepáticamente con los azotamentes, a quienes cree dioses.</p>"
         },
         "z85EsGS2GVWj46qE": {
           "name": "Guardián escudo",
@@ -6533,7 +6556,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Este conjuro sume a las criaturas en un sueño mágico. Tira 5d8; el total es la cantidad de puntos de golpe de criaturas a los que puede afectar. Las criaturas a 20 pies o menos de un punto que elijas dentro del alcance resultan afectadas en orden ascendente de sus puntos de golpe actuales, ignorando a las inconscientes.</p><p>Empezando por la que tenga menos puntos de golpe actuales, cada criatura afectada queda &amp;Reference[unconscious] hasta que termine el conjuro, reciba daño o alguien use una acción para despertarla sacudiéndola o abofeteándola. Resta sus puntos de golpe del total antes de pasar a la siguiente criatura con menos puntos de golpe. Los puntos de golpe de una criatura deben ser iguales o inferiores al total restante para que resulte afectada.</p><p>Los muertos vivientes y las criaturas inmunes a quedar hechizadas no resultan afectados.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, tira 2d8 adicionales por cada nivel del espacio por encima de 1.</p>"
             }
           },
           "biography": "<p>Compuestos de tierra y aire, los mefits de polvo se sienten atraídos por las catacumbas y sienten una fascinación morbosa por la muerte.</p>"
@@ -6726,10 +6750,12 @@
                     }
                   }
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-PS1xFPnqQ6wyNqRE\"><p>Cada criatura que no sea un muerto viviente a 60 pies o menos del fantasma y que pueda verlo debe superar una tirada de salvación de <strong>Sabiduría CD 13</strong> o quedar &amp;Reference[frightened]{asustada} durante 1 minuto. Si falla por 5 o más, también envejece [[/gmroll 1d4*10]] años.</p><p>Un objetivo asustado puede repetir la tirada de salvación al final de cada uno de sus turnos y dejar de estar asustado si la supera. Si supera la salvación o el efecto termina para él, es inmune al Rostro aterrador de este fantasma durante las siguientes 24 horas. El envejecimiento puede revertirse con @UUID[Compendium.dnd5e.spells.Item.WzvJ7G3cqvIubsLk]{restablecimiento mayor}, pero solo dentro de las 24 horas posteriores a que se produzca.</p></section><p>Cada criatura que no sea un muerto viviente a 60 pies o menos del fantasma y que pueda verlo debe realizar una tirada de salvación de <strong>Sabiduría</strong>. Un objetivo puede repetir la salvación al final de cada uno de sus turnos y poner fin al estado sobre sí mismo si la supera.</p>"
             },
             "UF0mfYsgI4ay6mzv": {
-              "name": "Posesión"
+              "name": "Posesión",
+              "description": "<section class=\"secret\" id=\"secret-5aN3iLUx4WHyTVAz\"><p>Un humanoide que el fantasma pueda ver a 5 pies o menos de sí mismo debe superar una tirada de salvación de <strong>Carisma CD 13</strong> o ser poseído. El fantasma desaparece y el objetivo queda incapacitado y pierde el control de su cuerpo. El fantasma lo controla, pero no priva al objetivo de su consciencia.</p><p>El fantasma no puede ser objetivo de ataques, conjuros u otros efectos, salvo los que expulsan muertos vivientes. Conserva su alineamiento, Inteligencia, Sabiduría, Carisma e inmunidad a quedar hechizado y asustado. Por lo demás, usa las estadísticas del objetivo poseído, pero no accede a sus conocimientos, rasgos de clase ni competencias. La posesión dura hasta que el cuerpo cae a 0 puntos de golpe, el fantasma la termina como acción adicional o es expulsado mediante un efecto como disipar el bien y el mal. Cuando termina, el fantasma reaparece en un espacio desocupado a 5 pies o menos del cuerpo. El objetivo es inmune a la Posesión de este fantasma durante 24 horas después de superar la salvación o de que termine la posesión.</p></section><p>Un humanoide que el fantasma pueda ver a 5 pies o menos de sí mismo debe realizar una tirada de salvación de <strong>Carisma</strong>.</p>"
             }
           }
         },
@@ -6758,7 +6784,8 @@
               "name": "Cola",
               "description": "<section class=\"secret\" id=\"secret-hq5qa4PU22QZM2qw\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 10 pies, un objetivo. <em>Impacto:</em> 11 (2d6 + 4) de daño contundente</p></section><p>El grick ataca con su cola.</p>"
             }
-          }
+          },
+          "biography": "<p>El grick, de aspecto vermiforme, aguarda oculto, camuflado entre las rocas de las cuevas y cavernas que habita. Solo cuando se acerca una presa se incorpora y despliega sus cuatro tentáculos espinosos para mostrar su pico hambriento y voraz.</p><p><strong>Depredadores pasivos.</strong> Los gricks rara vez cazan de forma activa. Arrastran sus cuerpos gomosos hasta lugares por los que pasan criaturas con frecuencia y acechan ocultos entre rocas y escombros. Se introducen en madrigueras, agujeros y grietas, trepan hasta salientes o se enroscan alrededor de estalactitas para dejarse caer sobre presas desprevenidas. Un grick devora prácticamente cualquier cosa que se mueva, salvo otros gricks. Ataca a la presa más cercana y agarra con sus tentáculos a una criatura caída para arrastrarla y comérsela a solas.</p><p><strong>Emboscadores errantes.</strong> Los gricks permanecen en una zona hasta que escasea el alimento, a menudo porque las criaturas inteligentes advierten su presencia y buscan rutas que eviten sus guaridas. Cuando escasean las presas en la Infraoscuridad, los gricks se aventuran a la superficie para cazar en tierras salvajes, ocultándose entre árboles o en salientes de acantilados. Una manada suele estar dirigida por un único alfa de gran tamaño y bien alimentado, alrededor del cual se congregan los demás.</p><p><strong>Despojos de la matanza.</strong> Con el tiempo, las guaridas de los gricks acumulan las pertenencias desechadas de sus presas inteligentes, y los guías expertos saben reconocer estas señales reveladoras. Los exploradores de la Infraoscuridad a veces cierran los accesos a una guarida para matar de hambre a sus habitantes y después apoderarse de las riquezas de sus víctimas.</p>"
         },
         "GpeQYtlo8oGvGlkM": {
           "name": "Grimlock",
@@ -6816,7 +6843,8 @@
               "name": "Espada larga",
               "description": "<section class=\"secret\" id=\"secret-K6BNlpx11PUKmX7a\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +6 a impactar, alcance 5 pies, un objetivo. Impacto: 8 (1d8 + 4) de daño cortante, o 9 (1d10 + 4) de daño cortante si se usa a dos manos.</p></section><p>La espada larga, una hoja recta y alargada diseñada para cortar a los enemigos, es un arma muy versátil que también puede empuñarse a dos manos para asestar golpes más contundentes.</p>"
             }
-          }
+          },
+          "biography": "<p>Este constructo posee inteligencia, capacidad para razonar y adaptar sus tácticas y una devoción inquebrantable hacia su creador que perdura incluso después de la muerte de este. Semejante a una armadura de placas vacía y animada, un horror acorazado sirve sin ambición ni emociones.</p><p><strong>Propósito mágico.</strong> Aunque crear un horror acorazado requiere más recursos mágicos que una @UUID[Actor.eORmAXuV5v3nWsQL]{armadura animada} menor, necesita menos instrucciones y mantenimiento para cumplir sus tareas. Sigue sus órdenes con absoluta lealtad y es lo bastante inteligente como para distinguir entre su intención y su redacción exacta. A diferencia de muchos constructos, procura cumplir la primera en vez de seguir servilmente la segunda.</p><p><strong>Astucia táctica.</strong> Un horror acorazado lucha con la astucia de un guerrero experto, alzándose en el aire y atacando primero a los personajes más débiles y a los lanzadores de conjuros. Sin embargo, carece de la perspicacia necesaria para modificar su entorno, fortificarlo o tomar otras medidas activas que mejoren su posición defensiva.</p><p><strong>Naturaleza artificial.</strong> Un horror acorazado no necesita aire, comida, bebida ni dormir.</p>"
         },
         "pbsoHonna0000000": {
           "name": "Honna",
@@ -7065,7 +7093,8 @@
                 "aGK454i15NvZ7oAT": {
                   "name": "Desplazamiento entre planos (solo sobre sí mismo)"
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-3DciHpRYPE4yuqbJ\"><p>Qunbraxel lanza uno de los siguientes conjuros sin componentes y usando Carisma como aptitud mágica (CD de salvación de conjuros 16):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.MRxldJd6C4bsBo3O]{levitar}, @UUID[Compendium.dnd5e.spells.Item.CKZTpZlxj7hjjo2H]{armadura de mago} (solo sobre sí mismo), @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago} (la mano es invisible), @UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{prestidigitación}</p><p>2/día cada uno: @UUID[Compendium.dnd5e.spells.Item.9hQXdMSmerkTsHDe]{confusión}, @UUID[Compendium.dnd5e.spells.Item.GtGjNjPBgUHxGYAD]{recado}, @UUID[Compendium.dnd5e.spells.Item.HQfd7jJyULIoGxrZ]{telequinesis}</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{dominar monstruo}, @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo)</p></section><p>El azotamentes es un lanzador de conjuros. Su aptitud mágica es Carisma.</p>"
             },
             "wzoiL7unxPuIcDG8": {
               "name": "Ataque múltiple",
@@ -7178,7 +7207,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Intentas embelesar a una criatura que puedas ver dentro del alcance. Debe superar una tirada de salvación de Sabiduría o quedar &amp;Reference[charmed] por ti mientras dure el conjuro. Si tú o criaturas amistosas hacia ti estáis luchando contra ella, tiene ventaja en la tirada de salvación.</p><p>Mientras esté hechizada, mantienes un vínculo telepático con ella siempre que ambos estéis en el mismo plano de existencia. Mientras estés consciente, puedes usar este vínculo para darle órdenes, que intentará obedecer lo mejor posible, sin necesidad de usar una acción. Puedes indicar una actuación sencilla y general, como «Ataca a esa criatura», «Corre hasta allí» o «Trae ese objeto». Si cumple la orden y no recibe nuevas instrucciones, se defiende y procura preservar su vida lo mejor que puede.</p><p>Puedes usar tu acción para asumir un control total y preciso del objetivo. Hasta el final de tu siguiente turno, la criatura solo realiza las acciones que elijas y no hace nada que no le permitas. Durante este tiempo también puedes hacer que use una reacción, pero para ello debes usar también tu propia reacción.</p><p>Cada vez que el objetivo recibe daño, realiza otra tirada de salvación de Sabiduría contra el conjuro. Si la supera, el conjuro termina.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro con un espacio de conjuro de nivel 9, la duración es concentración, hasta 8 horas.</p>"
             },
             "2lSR1Bi1yqBW0s18": {
               "name": "Desplazamiento entre planos",
@@ -7186,7 +7216,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             }
           },
           "biography": "<p>Qunbraxel es un arrogante brujo azotamentes. Siempre lo acompañan cuatro @UUID[Actor.GpeQYtlo8oGvGlkM]{grimlocks} leales. Se turnan en esta tarea con otros grimlocks cercanos, aunque Qunbraxel apenas se molesta en distinguir a un esbirro grimlock de otro.</p><p>Separado de cualquier cerebro anciano que considere digno, Qunbraxel espera unirse a los fanáticos de Ilvaash y recibir poder y conocimiento del Reino Lejano.</p>"
@@ -7252,7 +7283,8 @@
               },
               "description": "<section class=\"secret\" id=\"secret-4XV3mJEOPOAtM291\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. Impacto: 11 (2d6 + 4) de daño contundente. Si el objetivo es una criatura contra la que el renacido ha jurado vengarse, recibe 14 (4d6) de daño contundente adicional. En lugar de infligir daño, el renacido puede agarrar al objetivo (CD 14 para escapar), siempre que sea Grande o menor.</p><p><strong>Nota de Foundry:</strong> El daño adicional está en la fórmula «Otro».</p></section><p>El renacido golpea al objetivo con el puño o intenta agarrarlo (para escapar: [[/check ability=strength dc=14]]).</p>"
             }
-          }
+          },
+          "biography": "<p>Un renacido surge del alma de un mortal que sufrió un destino cruel e inmerecido. Se abre camino de vuelta al mundo para vengarse de quien le hizo daño. Recupera su cuerpo mortal y a simple vista parece un zombi. Sin embargo, en lugar de tener ojos sin vida, los suyos arden con determinación y se iluminan en presencia de su adversario. Si su cuerpo original fue destruido o no está disponible, su espíritu entra en otro cadáver humanoide. Sea cual sea el cuerpo que use, su adversario siempre reconoce lo que es en realidad.</p><p><strong>Sed de venganza.</strong> Un renacido solo dispone de un año para vengarse. Cuando su adversario muere, o si no logra matarlo antes de que se agote el plazo, se convierte en polvo y su alma pasa al más allá. Si su enemigo es demasiado poderoso para derrotarlo por sí solo, busca aliados dignos que lo ayuden a cumplir su misión.</p><p><strong>Justicia divina.</strong> Ninguna magia puede ocultar a una criatura perseguida por un renacido, que siempre conoce la dirección y la distancia que lo separan del objetivo de su venganza. Si busca vengarse de varios adversarios, los persigue uno a uno, empezando por quien le asestó el golpe mortal. Si destruyen su cuerpo, su alma sale en busca de otro cadáver con el que reanudar la caza.</p><p><strong>Naturaleza de muerto viviente.</strong> Un renacido no necesita aire, comida, bebida ni dormir.</p>"
         },
         "pbsoRivibiddel00": {
           "name": "Rivibiddel",
@@ -7330,9 +7362,11 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Cambias tu apariencia, incluida tu ropa, armadura, armas y demás pertenencias que lleves encima, hasta que termine el conjuro o uses tu acción para disiparlo. Puedes parecer 1 pie más alto o más bajo y adoptar un aspecto delgado, gordo o intermedio. No puedes cambiar tu tipo corporal: debes adoptar una forma con la misma disposición básica de extremidades. Por lo demás, tú decides el alcance de la ilusión.</p><p>Los cambios de este conjuro no resisten una inspección física. Por ejemplo, si añades un sombrero a tu atuendo, los objetos lo atraviesan y quien lo toque no siente nada, o siente tu cabeza y tu pelo. Si pareces más delgado de lo que eres, la mano de alguien que intente tocarte chocará contigo cuando aparentemente aún esté en el aire.</p><p>Para descubrir que estás disfrazado, una criatura puede usar su acción para inspeccionar tu aspecto y debe superar una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros.</p>"
             }
-          }
+          },
+          "biography": "<p>Los gnomos de las profundidades, o svirfneblin, viven muy por debajo de la superficie del mundo, en laberintos de túneles y cavernas esculpidas. Sobreviven gracias a su sigilo, ingenio y tenacidad. Su piel gris les permite confundirse con la piedra que los rodea. También son sorprendentemente pesados y fuertes para su tamaño: un adulto medio pesa entre 100 y 120 libras y mide 3 pies de altura.</p><p>Un enclave svirfneblin típico alberga varios cientos de gnomos de las profundidades y está muy fortificado. Varios túneles secretos comunican el asentamiento con el exterior y sirven de rutas de evacuación cuando lo atacan.</p><p><strong>Roles de género establecidos.</strong> Los varones svirfneblin son calvos, mientras que las mujeres tienen el pelo gris y lacio. Tradicionalmente, las mujeres gobiernan los enclaves y los varones recorren sus alrededores en busca de enemigos y yacimientos de gemas preciosas.</p><p><strong>Recolectores de gemas.</strong> Los svirfneblin aprecian las gemas de calidad, sobre todo los rubíes, que extraen de minas de las profundidades de la Infraoscuridad. Su búsqueda suele llevarlos a enfrentarse a contempladores, drows, kuo-toas, duergars y azotamentes. De todos sus enemigos naturales, a quienes más temen y desprecian es a los drows asesinos que adoran a los demonios.</p><p><strong>Amigos de la tierra.</strong> Es habitual encontrar a los gnomos de las profundidades acompañados por criaturas del Plano Elemental de la Tierra. Algunos svirfneblin pueden convocarlas. Las criaturas de tierra protegen sus asentamientos, en especial los xorns, atraídos con la promesa de gemas para alimentarse.</p>"
         },
         "qZyLwdx7lj5d1wfD": {
           "name": "Lazo",
@@ -7435,7 +7469,8 @@
               "unidentifiedName": "Arma no identificada",
               "description": "<section class=\"secret\" id=\"secret-3TuogRqiHnJaEJGH\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +5 a impactar, alcance 10 pies, una criatura. Impacto: 13 (3d6 + 3) de daño contundente. Si el objetivo es Mediano o menor, queda &amp;Reference[grappled]{agarrado} (CD 13 para escapar) y es arrastrado 5 pies hacia el extraño de agua. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado}, el extraño de agua intenta ahogarlo y no puede constreñir a otro objetivo.</p></section><p>El extraño constriñe a su objetivo. Si este es Mediano o menor, queda &amp;Reference[grappled]{agarrado} (para escapar: [[/check ability=strength dc=13]]) y es arrastrado 5 pies hacia el extraño de agua. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado}, el extraño de agua intenta ahogarlo y no puede constreñir a otro objetivo.</p>"
             }
-          }
+          },
+          "biography": "<p>Un extraño de agua es un guardián elemental vinculado a un lugar concreto lleno de agua, como una poza o una fuente. Invisible mientras está sumergido, su forma serpentina solo se revela cuando emerge para atacar, usando sus anillos para aplastar a cualquier criatura salvo a quien lo invocó y a quienes este declare fuera de su alcance. Cuando muere, se convierte en un charco de agua inerte.</p><p><strong>Extraños buenos y malvados.</strong> Como la mayoría de los elementales, un extraño de agua carece de noción del bien y del mal. Sin embargo, si está vinculado a una fuente de agua sagrada o profanada, comienza a adoptar la naturaleza del lugar y se vuelve neutral bueno o neutral malvado.</p><p>Uno neutral bueno intenta ahuyentar a los intrusos en vez de matarlos, mientras que uno neutral malvado mata por placer y puede volverse contra quien lo invocó. Pierde su alineamiento malvado si sus aguas se limpian mediante un conjuro de @UUID[Compendium.dnd5e.spells.Item.Kn7K5PtYUJAKZTTp]{purificar comida y bebida}.</p><p><strong>Naturaleza elemental.</strong> Un extraño de agua no necesita aire, comida, bebida ni dormir.</p>"
         },
         "rbyp54px2D0ql4QK": {
           "name": "Tumulario",
@@ -7534,7 +7569,8 @@
               "name": "Detectar pensamientos"
             },
             "x25SBCxXVU6YRzlg": {
-              "name": "Telaraña"
+              "name": "Telaraña",
+              "description": "<p>Conjuras una masa de telarañas gruesas y pegajosas en un punto que elijas dentro del alcance. Llenan un cubo de 20 pies de lado desde ese punto mientras dure el conjuro. Son terreno difícil y oscurecen ligeramente el área.</p>\n        <p>Si no están ancladas entre dos masas sólidas (como paredes o árboles) ni extendidas sobre un suelo, pared o techo, se derrumban sobre sí mismas y el conjuro termina al comienzo de tu siguiente turno. Las telarañas extendidas sobre una superficie plana tienen 5 pies de profundidad.</p>\n        <p>Cada criatura que comience su turno en las telarañas o entre en ellas durante su turno debe realizar una tirada de salvación de Destreza. Si falla, queda apresada mientras permanezca en ellas o hasta que se libere.</p>\n        <p>Una criatura apresada por las telarañas puede usar su acción para realizar una prueba de Fuerza contra tu CD de salvación de conjuros. Si la supera, deja de estar apresada.</p>\n        <p>Las telarañas son inflamables. Cualquier cubo de 5 pies de lado expuesto al fuego se consume en 1 asalto e inflige 2d4 de daño de fuego a cualquier criatura que comience su turno en el fuego.</p>"
             },
             "y6fiweFyBUBvlKYm": {
               "name": "Dominar persona"
@@ -7553,7 +7589,8 @@
                 "SdTFdP33gzBlJ0BP": {
                   "name": "Forma de niebla"
                 }
-              }
+              },
+              "description": "<section id=\"secret-VXM7fVMATtlfQyv6\" class=\"secret\"><p><strong>Consejo de Foundry:</strong> Activa el efecto activo Forma de niebla para añadir la velocidad de vuelo y las inmunidades al daño. La ventaja en las tiradas de salvación debe aplicarse manualmente.</p></section><p>La yochlol se transforma en niebla tóxica o recupera su verdadera forma. El equipo que vista o lleve consigo también se transforma. Si muere, recupera su verdadera forma.</p><p>En forma de niebla, está &amp;Reference[incapacitated]{incapacitada} y no puede hablar. Tiene una velocidad de vuelo de 30 pies, puede mantenerse suspendida y atravesar cualquier espacio que no sea hermético. Tiene ventaja en las tiradas de salvación de Fuerza, Destreza y Constitución y es inmune al daño no mágico.</p><p>En forma de niebla, puede entrar en el espacio de una criatura y detenerse allí. Cada vez que esa criatura comience su turno con la yochlol en su espacio, debe superar una tirada de salvación de Constitución CD 14 o quedar &amp;Reference[poisoned]{envenenada} hasta el comienzo de su siguiente turno. Mientras esté envenenada de esta forma, está incapacitada.</p>"
             },
             "BVzdHFfldNXPSI17": {
               "name": "Detectar pensamientos",
@@ -7569,7 +7606,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Conjuras una masa de telarañas gruesas y pegajosas en un punto que elijas dentro del alcance. Llenan un cubo de 20 pies de lado desde ese punto mientras dure el conjuro. Son terreno difícil y oscurecen ligeramente el área.</p>\n        <p>Si no están ancladas entre dos masas sólidas (como paredes o árboles) ni extendidas sobre un suelo, pared o techo, se derrumban sobre sí mismas y el conjuro termina al comienzo de tu siguiente turno. Las telarañas extendidas sobre una superficie plana tienen 5 pies de profundidad.</p>\n        <p>Cada criatura que comience su turno en las telarañas o entre en ellas durante su turno debe realizar una tirada de salvación de Destreza. Si falla, queda apresada mientras permanezca en ellas o hasta que se libere.</p>\n        <p>Una criatura apresada por las telarañas puede usar su acción para realizar una prueba de Fuerza contra tu CD de salvación de conjuros. Si la supera, deja de estar apresada.</p>\n        <p>Las telarañas son inflamables. Cualquier cubo de 5 pies de lado expuesto al fuego se consume en 1 asalto e inflige 2d4 de daño de fuego a cualquier criatura que comience su turno en el fuego.</p>"
             },
             "WPIMRFDIKMnv1P1P": {
               "name": "Dominar persona",
@@ -7632,7 +7670,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Creas portales de teletransporte conectados que permanecen abiertos mientras dure el conjuro. Elige dos puntos del suelo que puedas ver: uno a 10 pies o menos de ti y otro a 500 pies o menos. Sobre cada punto se abre un portal circular de 10 pies de diámetro. Si un portal fuera a abrirse en el espacio ocupado por una criatura, el conjuro falla y se pierde el lanzamiento.</p><p>Los portales son anillos luminosos bidimensionales llenos de niebla que flotan a unas pulgadas del suelo, perpendiculares a él, en los puntos elegidos. Cada anillo solo es visible desde un lado, a tu elección, que es el que funciona como portal.</p><p>Cualquier criatura u objeto que entre en un portal sale por el otro como si ambos fueran adyacentes; atravesarlo desde el lado que no funciona como portal no tiene efecto. La niebla de cada portal es opaca e impide ver a través de él. En tu turno, puedes girar los anillos como acción adicional para orientar el lado activo en otra dirección.</p>"
             },
             "4GGPu8fPunR7mvX4": {
               "name": "Hambre de Hadar",
@@ -7657,7 +7696,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Creas un sonido o la imagen de un objeto dentro del alcance que permanece mientras dure el conjuro. La ilusión también termina si la disipas como acción o vuelves a lanzar este conjuro.</p><p>Si creas un sonido, su volumen puede ir de un susurro a un grito. Puede ser tu voz, la de otra persona, el rugido de un león, tambores o cualquier otro sonido que elijas. Puede continuar sin interrupción durante toda la duración, o puedes producir sonidos separados en distintos momentos antes de que termine el conjuro.</p><p>Si creas la imagen de un objeto —como una silla, huellas de barro o un cofre pequeño—, no debe superar un cubo de 5 pies de lado. No puede producir sonido, luz, olor ni otro efecto sensorial. La interacción física revela que es una ilusión, pues las cosas pueden atravesarla.</p><p>Una criatura que use su acción para examinar el sonido o la imagen puede descubrir que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Para una criatura que la reconozca como tal, la ilusión se vuelve tenue.</p>"
             }
           },
           "alignment": "Normalmente caótico malvado",
@@ -7726,7 +7766,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Cambias tu apariencia, incluida tu ropa, armadura, armas y demás pertenencias que lleves encima, hasta que termine el conjuro o uses tu acción para disiparlo. Puedes parecer 1 pie más alto o más bajo y adoptar un aspecto delgado, gordo o intermedio. No puedes cambiar tu tipo corporal: debes adoptar una forma con la misma disposición básica de extremidades. Por lo demás, tú decides el alcance de la ilusión.</p><p>Los cambios de este conjuro no resisten una inspección física. Por ejemplo, si añades un sombrero a tu atuendo, los objetos lo atraviesan y quien lo toque no siente nada, o siente tu cabeza y tu pelo. Si pareces más delgado de lo que eres, la mano de alguien que intente tocarte chocará contigo cuando aparentemente aún esté en el aire.</p><p>Para descubrir que estás disfrazado, una criatura puede usar su acción para inspeccionar tu aspecto y debe superar una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros.</p>"
             },
             "XHkTvsByae0g7RLM": {
               "name": "Invisibilidad",
@@ -7772,7 +7813,8 @@
                 "VQUsp9jimVTNsF5H": {
                   "name": "Salvación contra regurgitación"
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-H8xZDT5DopanZ1FY\"><p>El behir realiza un ataque de mordisco contra un <strong>objetivo Mediano o menor que tenga &amp;Reference[grappled]{agarrado}</strong>. Si impacta, también se traga al objetivo y termina el agarre. Mientras esté tragado, el objetivo está &amp;Reference[blinded]{cegado} y &amp;Reference[restrained]{apresado}, tiene cobertura total contra ataques y otros efectos externos al behir y recibe <strong>21 (6d6) </strong><em><strong>de daño de ácido</strong></em> al comienzo de cada turno del behir. Un behir solo puede tener tragada a una criatura a la vez.</p><p>Si recibe 30 puntos de daño o más en un solo turno de la criatura tragada, debe superar una tirada de salvación de <strong>Constitución CD 14</strong> al final de ese turno o regurgitarla. La criatura cae derribada en un espacio a 10 pies o menos del behir. Si el behir muere, una criatura tragada deja de estar apresada por él y puede escapar del cadáver usando 15 pies de movimiento, saliendo derribada.</p></section><p>El behir ataca con su Tragar.</p>"
             }
           }
         },
@@ -7907,7 +7949,8 @@
               "description": "<p>Creas uno de los siguientes efectos mágicos dentro del alcance:</p>\n<ul>\n<li>Tu voz resuena hasta tres veces más fuerte de lo normal durante 1 minuto.</li>\n<li>Haces que unas llamas parpadeen, se intensifiquen, se atenúen o cambien de color durante 1 minuto.</li>\n<li>Provocas temblores inofensivos en el suelo durante 1 minuto.</li>\n<li>Creas un sonido que se origina en un punto que elijas dentro del alcance.</li>\n<li>Haces que una puerta o ventana sin cerrar con llave se abra de golpe o se cierre de un portazo.</li>\n<li>Alteras el aspecto de tus ojos durante 1 minuto.</li>\n</ul>\n<p>Si lanzas este conjuro varias veces, puedes mantener activos hasta tres de sus efectos de 1 minuto a la vez y puedes disipar uno de ellos como acción.</p>"
             },
             "arzCrMRgcNiQuh43": {
-              "name": "Orden imperiosa"
+              "name": "Orden imperiosa",
+              "description": "<p>Pronuncias una orden de una sola palabra dirigida a una criatura que puedas ver dentro del alcance. El objetivo debe superar una tirada de salvación de Sabiduría o seguir la orden en su siguiente turno. El conjuro no tiene efecto si el objetivo es un muerto viviente, si no entiende tu idioma o si la orden le resulta directamente perjudicial.</p><p>A continuación se describen algunas órdenes habituales y sus efectos. Puedes dar una orden distinta; en ese caso, el DM determina cómo se comporta el objetivo. Si no puede cumplirla, el conjuro termina.</p><p><strong>Acércate.</strong> El objetivo se mueve hacia ti por la ruta más corta y directa y termina su turno si llega a estar a 5 pies o menos de ti.</p><p><strong>Suelta.</strong> El objetivo suelta todo lo que sostiene y termina su turno.</p><p><strong>Huye.</strong> El objetivo dedica su turno a alejarse de ti por el medio más rápido disponible.</p><p><strong>Póstrate.</strong> El objetivo cae derribado y termina su turno.</p><p><strong>Detente.</strong> El objetivo no se mueve ni realiza acciones. Una criatura voladora permanece en el aire si puede hacerlo. Si debe moverse para mantenerse en vuelo, recorre la distancia mínima necesaria.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, puedes afectar a una criatura adicional por cada nivel del espacio por encima de 1. Las criaturas deben estar a 30 pies o menos unas de otras cuando las elijas como objetivos.</p>"
             },
             "ksaaTxIbKx2sJfia": {
               "name": "Infligir heridas",
@@ -7962,7 +8005,8 @@
                     "condition": "Mientras agarra a una criatura"
                   }
                 }
-              }
+              },
+              "description": "<p>El amasijo de carne elige como objetivo a una criatura Grande o menor que tenga agarrada a 5 pies o menos de sí mismo. El objetivo debe superar una tirada de salvación de Destreza CD 15 o ser tragado. El amasijo solo puede tener tragada a una criatura a la vez.</p><p>Una criatura tragada deja de estar &amp;Reference[grappled]{agarrada}. Mientras esté tragada, está &amp;Reference[blinded]{cegada} y &amp;Reference[restrained]{apresada}, tiene cobertura total contra ataques y otros efectos externos al amasijo y recibe 10 (3d6) de daño necrótico al comienzo de cada turno del amasijo. Si este daño la reduce a 0 puntos de golpe, muere y el amasijo consume su cuerpo.</p><p>Si el amasijo recibe 30 puntos de daño o más en un solo turno de la criatura tragada, debe superar una tirada de salvación de [[/save ability=constitution dc=15]] al final de ese turno o regurgitarla. La criatura cae &amp;Reference[prone]{derribada} en un espacio a 5 pies o menos del amasijo. Si este muere, la criatura tragada deja de estar apresada por él y puede escapar del cadáver usando 10 pies de movimiento, saliendo derribada.</p>"
             }
           },
           "biography": "<p>Un amasijo de carne es una enorme amalgama de dientes, sangre y partes del cuerpo que chapotea y tiembla con un hambre insaciable. Sus apéndices sinuosos y sanguinolentos, cada uno rematado en una boca que rechina los dientes, muerden a las presas antes de arrastrar a las desdichadas criaturas hacia su núcleo. Un hedor a muerte rodea al amasijo de carne.</p><p>Cuando devora a una criatura, su mente se fusiona con la consciencia del amasijo. Las mentes más resistentes pueden luchar contra esta asimilación, pero inevitablemente sucumben al coro discordante de pensamientos que incitan a matar y devorar.</p>"
@@ -8012,7 +8056,8 @@
                 "dnd5eactivity300": {
                   "name": "Tirada de d8"
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
             },
             "qlBBeTku9uoaEv8G": {
               "name": "Ataque múltiple",
@@ -8181,7 +8226,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             }
           }
         },
@@ -8428,7 +8474,8 @@
                     "condition": "Percibe una criatura incapacitada"
                   }
                 }
-              }
+              },
+              "description": "<section id=\"secret-aN9DwaAinkx64Soj\" class=\"secret\"><p>El cerebro anciano elige como objetivo a una criatura &amp;Reference[incapacitated]{incapacitada} que perciba con su rasgo @UUID[.Nqrkn6ZV0Z7RXSC6]{Sentir criaturas} y establece un vínculo psíquico con ella. Hasta que termine el vínculo, puede percibir todo lo que perciba el objetivo. Este advierte que algo está vinculado a su mente cuando deja de estar incapacitado, y el cerebro anciano puede terminar el vínculo en cualquier momento, sin acción. El objetivo puede usar una acción en su turno para intentar romperlo, lo que consigue si supera una prueba de [[/check ability=charisma dc=17]]. Si lo rompe de esta forma, recibe 10 (3d6) de daño psíquico. El vínculo también termina si el objetivo y el cerebro anciano están a más de 1 milla de distancia. El cerebro anciano puede establecer vínculos psíquicos con hasta diez criaturas a la vez.</p></section><p>El cerebro anciano infectado establece un vínculo psíquico.</p>"
             },
             "Nqrkn6ZV0Z7RXSC6": {
               "name": "Detectar criaturas",
@@ -8516,7 +8563,8 @@
               "description": "<p>El devorador de intelectos realiza un ataque de [[/item Claws]] y usa [[/item Devour Intellect]].</p>"
             },
             "8z0bYDwcsHCwynPp": {
-              "name": "Ladrón de cuerpos"
+              "name": "Ladrón de cuerpos",
+              "description": "<p>El devorador de intelectos inicia una prueba enfrentada de [[/check ability=intelligence]] con un humanoide incapacitado a 5 pies o menos de sí mismo que no esté protegido por @UUID[Compendium.dnd5e.spells.Item.xmDBqZhRVrtLP8h2]{protección contra el bien y el mal}. Si gana, consume mágicamente el cerebro del objetivo, se teletransporta al interior de su cráneo y toma el control de su cuerpo. Mientras esté dentro de una criatura, tiene cobertura total contra ataques y otros efectos que se originen fuera de su huésped. Conserva sus puntuaciones de Inteligencia, Sabiduría y Carisma, su comprensión del habla de las profundidades, su telepatía y sus rasgos. Por lo demás, adopta las estadísticas del objetivo. Sabe todo lo que sabía la criatura, incluidos conjuros e idiomas.</p><p>Si el cuerpo del huésped muere, debe abandonarlo. Un conjuro de protección contra el bien y el mal lanzado sobre el cuerpo lo expulsa. También es expulsado si el objetivo recupera su cerebro devorado mediante un deseo. Gastando 5 pies de movimiento, puede abandonar voluntariamente el cuerpo y teletransportarse al espacio desocupado más cercano a 5 pies o menos de él. Entonces el cuerpo muere, salvo que su cerebro se restaure en 1 asalto.</p>"
             },
             "84fFcrr9LS6M59jW": {
               "name": "Garras",
@@ -8608,7 +8656,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Intentas embelesar a una criatura que puedas ver dentro del alcance. Debe superar una tirada de salvación de Sabiduría o quedar &amp;Reference[charmed] por ti mientras dure el conjuro. Si tú o criaturas amistosas hacia ti estáis luchando contra ella, tiene ventaja en la tirada de salvación.</p><p>Mientras esté hechizada, mantienes un vínculo telepático con ella siempre que ambos estéis en el mismo plano de existencia. Mientras estés consciente, puedes usar este vínculo para darle órdenes, que intentará obedecer lo mejor posible, sin necesidad de usar una acción. Puedes indicar una actuación sencilla y general, como «Ataca a esa criatura», «Corre hasta allí» o «Trae ese objeto». Si cumple la orden y no recibe nuevas instrucciones, se defiende y procura preservar su vida lo mejor que puede.</p><p>Puedes usar tu acción para asumir un control total y preciso del objetivo. Hasta el final de tu siguiente turno, la criatura solo realiza las acciones que elijas y no hace nada que no le permitas. Durante este tiempo también puedes hacer que use una reacción, pero para ello debes usar también tu propia reacción.</p><p>Cada vez que el objetivo recibe daño, realiza otra tirada de salvación de Sabiduría contra el conjuro. Si la supera, el conjuro termina.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro con un espacio de conjuro de nivel 9, la duración es concentración, hasta 8 horas.</p>"
             },
             "7dgofBmRIYfOpIKR": {
               "name": "Desplazamiento entre planos",
@@ -8616,7 +8665,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             }
           }
         },
@@ -8721,7 +8771,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Intentas embelesar a una criatura que puedas ver dentro del alcance. Debe superar una tirada de salvación de Sabiduría o quedar &amp;Reference[charmed] por ti mientras dure el conjuro. Si tú o criaturas amistosas hacia ti estáis luchando contra ella, tiene ventaja en la tirada de salvación.</p><p>Mientras esté hechizada, mantienes un vínculo telepático con ella siempre que ambos estéis en el mismo plano de existencia. Mientras estés consciente, puedes usar este vínculo para darle órdenes, que intentará obedecer lo mejor posible, sin necesidad de usar una acción. Puedes indicar una actuación sencilla y general, como «Ataca a esa criatura», «Corre hasta allí» o «Trae ese objeto». Si cumple la orden y no recibe nuevas instrucciones, se defiende y procura preservar su vida lo mejor que puede.</p><p>Puedes usar tu acción para asumir un control total y preciso del objetivo. Hasta el final de tu siguiente turno, la criatura solo realiza las acciones que elijas y no hace nada que no le permitas. Durante este tiempo también puedes hacer que use una reacción, pero para ello debes usar también tu propia reacción.</p><p>Cada vez que el objetivo recibe daño, realiza otra tirada de salvación de Sabiduría contra el conjuro. Si la supera, el conjuro termina.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro con un espacio de conjuro de nivel 9, la duración es concentración, hasta 8 horas.</p>"
             },
             "l75X4gwww5RpCwKl": {
               "name": "Desplazamiento entre planos",
@@ -8729,7 +8780,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "Nv1ROtw41tgpr1PI": {
               "name": "Visión verdadera",
@@ -8835,7 +8887,8 @@
                 "uDJGJr6kBUBkXLP5": {
                   "name": "Desplazamiento entre planos (solo sobre sí mismo)"
                 }
-              }
+              },
+              "description": "<section class=\"secret\" id=\"secret-PxpvyeFgeasXYs6P\"><p>Oshundo lanza uno de los siguientes conjuros sin componentes materiales y usando Inteligencia como aptitud mágica (CD de salvación de conjuros 16):</p><p>A voluntad: @UUID[Compendium.dnd5e.spells.Item.CAxSzHWizrafT033]{luces danzantes}, @UUID[Compendium.dnd5e.spells.Item.ghXTfe7sgCbgf1Q8]{detectar magia}, @UUID[Compendium.dnd5e.spells.Item.ppWAAEul0QHtm4er]{detectar pensamientos}, @UUID[Compendium.dnd5e.spells.Item.A3q2gTNqG6fvNGrv]{disfrazarse}, @UUID[Compendium.dnd5e.spells.Item.Utk1OQRwYkMkFRD3]{mano de mago}, @UUID[Compendium.dnd5e.spells.Item.udsLtG0BugXHR2JQ]{prestidigitación}</p><p>1/día cada uno: @UUID[Compendium.dnd5e.spells.Item.eEpy1ONlXumKS1mp]{dominar monstruo}, @UUID[Compendium.dnd5e.spells.Item.WmQpxfjZwF3MGUby]{globo de invulnerabilidad}, @UUID[Compendium.dnd5e.spells.Item.1N8dDMMgZ1h1YJ3B]{invisibilidad}, @UUID[Compendium.dnd5e.spells.Item.r3243JU4AyQJyfX4]{modificar recuerdo}, @UUID[Compendium.dnd5e.spells.Item.J6Jpw5XzB5aTeqnz]{desplazamiento entre planos} (solo sobre sí mismo), @UUID[Compendium.dnd5e.spells.Item.o9ZCvuD2B1OTcubb]{muro de fuerza}</p></section><p>Oshundo es un lanzador de conjuros. Su aptitud mágica es Inteligencia.</p>"
             },
             "5H7Hy9NvkPUMCXTu": {
               "name": "Presa escalofriante",
@@ -8898,7 +8951,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Cambias tu apariencia, incluida tu ropa, armadura, armas y demás pertenencias que lleves encima, hasta que termine el conjuro o uses tu acción para disiparlo. Puedes parecer 1 pie más alto o más bajo y adoptar un aspecto delgado, gordo o intermedio. No puedes cambiar tu tipo corporal: debes adoptar una forma con la misma disposición básica de extremidades. Por lo demás, tú decides el alcance de la ilusión.</p><p>Los cambios de este conjuro no resisten una inspección física. Por ejemplo, si añades un sombrero a tu atuendo, los objetos lo atraviesan y quien lo toque no siente nada, o siente tu cabeza y tu pelo. Si pareces más delgado de lo que eres, la mano de alguien que intente tocarte chocará contigo cuando aparentemente aún esté en el aire.</p><p>Para descubrir que estás disfrazado, una criatura puede usar su acción para inspeccionar tu aspecto y debe superar una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros.</p>"
             },
             "6pJdVhH7DJ7lfuda": {
               "name": "Mano de mago",
@@ -8928,7 +8982,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Intentas embelesar a una criatura que puedas ver dentro del alcance. Debe superar una tirada de salvación de Sabiduría o quedar &amp;Reference[charmed] por ti mientras dure el conjuro. Si tú o criaturas amistosas hacia ti estáis luchando contra ella, tiene ventaja en la tirada de salvación.</p><p>Mientras esté hechizada, mantienes un vínculo telepático con ella siempre que ambos estéis en el mismo plano de existencia. Mientras estés consciente, puedes usar este vínculo para darle órdenes, que intentará obedecer lo mejor posible, sin necesidad de usar una acción. Puedes indicar una actuación sencilla y general, como «Ataca a esa criatura», «Corre hasta allí» o «Trae ese objeto». Si cumple la orden y no recibe nuevas instrucciones, se defiende y procura preservar su vida lo mejor que puede.</p><p>Puedes usar tu acción para asumir un control total y preciso del objetivo. Hasta el final de tu siguiente turno, la criatura solo realiza las acciones que elijas y no hace nada que no le permitas. Durante este tiempo también puedes hacer que use una reacción, pero para ello debes usar también tu propia reacción.</p><p>Cada vez que el objetivo recibe daño, realiza otra tirada de salvación de Sabiduría contra el conjuro. Si la supera, el conjuro termina.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro con un espacio de conjuro de nivel 9, la duración es concentración, hasta 8 horas.</p>"
             },
             "Pbt9T45oA0r8LU0M": {
               "name": "Globo de invulnerabilidad",
@@ -8966,7 +9021,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "xahQoyufJMnoxCD7": {
               "name": "Muro de fuerza",
@@ -9077,7 +9133,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Haces que una criatura o un objeto que puedas ver dentro del alcance aumente o reduzca su tamaño mientras dure el conjuro. Elige una criatura o un objeto que nadie lleve puesto ni transporte. Si el objetivo no está dispuesto, puede realizar una tirada de salvación de Constitución. Si la supera, el conjuro no tiene efecto.</p><p>Si el objetivo es una criatura, todo lo que lleve puesto y transporte cambia de tamaño con ella. Cualquier objeto que suelte recupera de inmediato su tamaño normal.</p><p><strong>Agrandar</strong>. El tamaño del objetivo se duplica en todas sus dimensiones y su peso se multiplica por ocho. Esto aumenta su tamaño en una categoría; por ejemplo, de Mediano a Grande. Si no hay espacio suficiente para duplicar su tamaño, la criatura o el objeto alcanza el máximo tamaño posible dentro del espacio disponible. Hasta que termine el conjuro, el objetivo también tiene ventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza. Sus armas también crecen para ajustarse a su nuevo tamaño. Mientras estén agrandadas, sus ataques con ellas infligen 1d4 de daño adicional.</p><p><strong>Reducir</strong>. El tamaño del objetivo se reduce a la mitad en todas sus dimensiones y su peso queda en una octava parte del normal. Esto reduce su tamaño en una categoría; por ejemplo, de Mediano a Pequeño. Hasta que termine el conjuro, el objetivo también tiene desventaja en las pruebas de Fuerza y las tiradas de salvación de Fuerza. Sus armas también encogen para ajustarse a su nuevo tamaño. Mientras estén reducidas, sus ataques con ellas infligen 1d4 menos de daño (esto no puede reducir el daño por debajo de 1).</p>"
             },
             "6VzhiPLwoDDYtUWp": {
               "name": "Calentar metal",
@@ -9094,7 +9151,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tres duplicados ilusorios de ti aparecen en tu espacio. Hasta que termine el conjuro, se mueven contigo e imitan tus acciones, cambiando de posición para que sea imposible seguir cuál es la imagen real. Puedes usar tu acción para disipar los duplicados.</p>\n<p>Cada vez que una criatura te elija como objetivo de un ataque mientras dure el conjuro, tira [[/r 1d20 # Mirror Image Check]] para determinar si el ataque se dirige en su lugar a uno de tus duplicados.</p>\n<p>Si tienes tres duplicados, debes obtener un 6 o más para cambiar el objetivo del ataque a uno de ellos. Con dos, debes obtener un 8 o más. Con uno, debes obtener un 11 o más.</p>\n<p>La CA de un duplicado es igual a 10 + tu modificador de Destreza. Si un ataque impacta en un duplicado, lo destruye. Solo puede ser destruido por un ataque que le impacte; ignora todos los demás daños y efectos. El conjuro termina cuando se destruyen los tres duplicados.</p>\n<p>Una criatura no resulta afectada por este conjuro si no puede ver, si depende de otros sentidos, como la visión ciega, o si puede reconocer las ilusiones como falsas, como con la visión verdadera.</p>"
             }
           }
         },
@@ -9269,10 +9327,12 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "6XrUhkI6zYqc4wzH": {
-              "name": "Desplazamiento entre planos (solo sobre sí mismo)"
+              "name": "Desplazamiento entre planos (solo sobre sí mismo)",
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             }
           },
           "biography": "<p>Ilvaash se formó a partir de los restos del dios azotamentes Ilsensine, el Dios Cerebro. Cuando Ilsensine abandonó el Reino Lejano para establecer un dominio divino en otro lugar, fragmentos del Dios Cerebro se desprendieron y adquirieron consciencia. Así nació Ilvaash, la Psique Disonante.</p><p>La refracción de Ilvaash solo posee una ínfima parte del poder de esta deidad menor, pero aun así es un enemigo formidable.</p>"
@@ -9351,7 +9411,8 @@
           "languages": "Telepatía 120 pies",
           "items": {
             "Wpa7li8EJJJ7W3kA": {
-              "name": "Esclavizar"
+              "name": "Esclavizar",
+              "description": "<section class=\"secret\" id=\"secret-LaMv716ljcxBL9Rf\"><p>El aboleth elige como objetivo a una criatura que pueda ver a 30 pies o menos de sí mismo. El objetivo debe superar una tirada de salvación de <strong>Sabiduría CD 14</strong> o quedar mágicamente &amp;Reference[charmed]{hechizado} por el aboleth hasta que este muera o se encuentre en un plano de existencia distinto al del objetivo.</p><p>El objetivo hechizado está bajo el control del aboleth y no puede realizar reacciones. Ambos pueden comunicarse telepáticamente a cualquier distancia. Siempre que el objetivo reciba daño, puede repetir la tirada de salvación y poner fin al efecto si la supera. Como máximo una vez cada 24 horas, también puede repetirla cuando esté al menos a 1 milla del aboleth.</p></section><p>El objetivo debe realizar una tirada de salvación de <strong>Sabiduría</strong>. Siempre que reciba daño, puede repetirla. Como máximo una vez cada 24 horas, también puede repetirla cuando esté al menos a 1 milla del aboleth.</p>"
             },
             "eK34LWjCZnoLqUbv": {
               "name": "Detectar",
@@ -9467,7 +9528,8 @@
               "description": "<p>Una mano espectral flotante aparece en un punto que elijas dentro del alcance. La mano permanece mientras dure el conjuro o hasta que la disipes como acción. Desaparece si en algún momento está a más de 30 pies de ti o si vuelves a lanzar este conjuro.</p><p>Puedes usar tu acción para controlar la mano. Puedes emplearla para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto o verter el contenido de un vial. Puedes mover la mano hasta 30 pies cada vez que la uses.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>"
             },
             "LFGAH30W3DNvSHEu": {
-              "name": "Ilusión menor"
+              "name": "Ilusión menor",
+              "description": "<p>Creas un sonido o la imagen de un objeto dentro del alcance que permanece mientras dure el conjuro. La ilusión también termina si la disipas como acción o vuelves a lanzar este conjuro.</p><p>Si creas un sonido, su volumen puede ir de un susurro a un grito. Puede ser tu voz, la de otra persona, el rugido de un león, tambores o cualquier otro sonido que elijas. Puede continuar sin interrupción durante toda la duración, o puedes producir sonidos separados en distintos momentos antes de que termine el conjuro.</p><p>Si creas la imagen de un objeto —como una silla, huellas de barro o un cofre pequeño—, no debe superar un cubo de 5 pies de lado. No puede producir sonido, luz, olor ni otro efecto sensorial. La interacción física revela que es una ilusión, pues las cosas pueden atravesarla.</p><p>Una criatura que use su acción para examinar el sonido o la imagen puede descubrir que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Para una criatura que la reconozca como tal, la ilusión se vuelve tenue.</p>"
             },
             "ZcuD0kz4pSkepnR7": {
               "name": "Prestidigitación",
@@ -9495,13 +9557,15 @@
               "description": "<p>Este conjuro crea un plano de fuerza circular y horizontal de 3 pies de diámetro y 1 pulgada de grosor, que flota a 3 pies del suelo en un espacio desocupado que elijas y puedas ver dentro del alcance. El disco permanece mientras dure el conjuro y puede soportar hasta 500 libras. Si se coloca más peso sobre él, el conjuro termina y todo lo que haya encima cae al suelo.</p><p>El disco permanece inmóvil mientras estés a 20 pies o menos de él. Si te alejas más de 20 pies, te sigue para mantenerse a 20 pies o menos de ti. Puede desplazarse por terreno irregular, subir y bajar escaleras y pendientes y similares, pero no puede superar un desnivel de 10 pies o más. Por ejemplo, no puede cruzar una sima de 10 pies de profundidad ni salir de ella si se creó en el fondo.</p><p>Si te alejas más de 100 pies del disco (normalmente porque no puede rodear un obstáculo para seguirte), el conjuro termina.</p>"
             },
             "DgohUoQnOwzmbJGc": {
-              "name": "Imagen múltiple"
+              "name": "Imagen múltiple",
+              "description": "<p>Tres duplicados ilusorios de ti aparecen en tu espacio. Hasta que termine el conjuro, se mueven contigo e imitan tus acciones, cambiando de posición para que sea imposible seguir cuál es la imagen real. Puedes usar tu acción para disipar los duplicados.</p>\n<p>Cada vez que una criatura te elija como objetivo de un ataque mientras dure el conjuro, tira [[/r 1d20 # Mirror Image Check]] para determinar si el ataque se dirige en su lugar a uno de tus duplicados.</p>\n<p>Si tienes tres duplicados, debes obtener un 6 o más para cambiar el objetivo del ataque a uno de ellos. Con dos, debes obtener un 8 o más. Con uno, debes obtener un 11 o más.</p>\n<p>La CA de un duplicado es igual a 10 + tu modificador de Destreza. Si un ataque impacta en un duplicado, lo destruye. Solo puede ser destruido por un ataque que le impacte; ignora todos los demás daños y efectos. El conjuro termina cuando se destruyen los tres duplicados.</p>\n<p>Una criatura no resulta afectada por este conjuro si no puede ver, si depende de otros sentidos, como la visión ciega, o si puede reconocer las ilusiones como falsas, como con la visión verdadera.</p>"
             },
             "K8qgNZsNV7wobSc6": {
               "name": "Fuerza fantasmal"
             },
             "08mJTHbz0uIfzquL": {
-              "name": "Sugestión"
+              "name": "Sugestión",
+              "description": "<p>Sugieres un curso de acción, limitado a una o dos frases, e influyes mágicamente en una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. Las criaturas que no pueden quedar hechizadas son inmunes. La sugerencia debe formularse de modo que la acción parezca razonable. Pedirle que se apuñale, se arroje sobre una lanza, se inmole o haga otra cosa evidentemente dañina termina el conjuro.</p><p>El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, sigue el curso de acción descrito lo mejor que puede. La actividad puede continuar durante toda la duración. Si puede completarse antes, el conjuro termina cuando el objetivo termina lo que se le pidió.</p><p>También puedes especificar condiciones que desencadenen una actividad concreta durante la duración. Por ejemplo, podrías sugerir a una caballera que entregue su caballo de guerra al primer mendigo que encuentre. Si la condición no se cumple antes de que expire el conjuro, la actividad no se realiza.</p><p>Si tú o cualquiera de tus compañeros dañáis al objetivo, el conjuro termina.</p>"
             },
             "XdCbxbYvTDWzDl3j": {
               "name": "Contrahechizo",
@@ -9516,7 +9580,8 @@
               "description": "<p>Una estela brillante sale de tu dedo extendido hacia un punto que elijas dentro del alcance y se convierte, con un rugido sordo, en una explosión de llamas. Cada criatura en una esfera de 20 pies de radio centrada en ese punto debe realizar una tirada de salvación de Destreza. El objetivo recibe 8d6 de daño de fuego si falla o la mitad si la supera.</p><p>El fuego se propaga por las esquinas y prende los objetos inflamables del área que nadie lleve puestos ni transporte.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 4 o superior, el daño aumenta en 1d6 por cada nivel del espacio por encima de 3.</p>"
             },
             "GdfZsaHqCsJ06izp": {
-              "name": "Destierro"
+              "name": "Destierro",
+              "description": "<p>Intentas enviar a otra criatura que puedas ver dentro del alcance a otro plano de existencia. El objetivo debe superar una tirada de salvación de Carisma o ser desterrado.</p><p>Si el objetivo es nativo del plano en el que te encuentras, lo destierras a un semiplano inofensivo. Allí está incapacitado. Permanece hasta que termina el conjuro y entonces reaparece en el espacio que dejó o en el espacio desocupado más cercano si aquel está ocupado.</p><p>Si el objetivo es nativo de un plano distinto al tuyo, desaparece con un leve chasquido y regresa a su plano natal. Si el conjuro termina antes de que transcurra 1 minuto, reaparece en el espacio que dejó o en el espacio desocupado más cercano si aquel está ocupado. De lo contrario, no regresa.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 5 o superior, puedes elegir una criatura adicional como objetivo por cada nivel del espacio por encima de 4.</p>"
             },
             "vzISjZ5iGzRRx0cs": {
               "name": "Puerta dimensional",
@@ -9544,7 +9609,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Adoptas una forma distinta. Al lanzar el conjuro, elige una de las siguientes opciones, cuyos efectos se mantienen mientras dure el conjuro. Durante ese tiempo, puedes usar una acción para terminar una opción y obtener los beneficios de otra.</p><p><strong>Adaptación acuática.</strong> Adaptas tu cuerpo a un entorno acuático: te salen branquias y membranas entre los dedos. Puedes respirar bajo el agua y obtienes una velocidad nadando igual a tu velocidad caminando.</p><p><strong>Cambiar de aspecto.</strong> Transformas tu apariencia. Decides tu altura, peso, rasgos faciales, sonido de la voz, longitud del pelo, coloración y cualquier característica distintiva. Puedes parecer un miembro de otra raza, aunque tus estadísticas no cambian. Tampoco puedes parecer una criatura de distinto tamaño y tu estructura corporal básica sigue siendo la misma: por ejemplo, si eres bípedo, no puedes usar el conjuro para convertirte en cuadrúpedo. En cualquier momento durante la duración del conjuro, puedes usar tu acción para volver a cambiar de aspecto de esta forma.</p><p><strong>Armas naturales.</strong> Te crecen garras, colmillos, espinas, cuernos u otra arma natural que elijas. Tus ataques sin armas infligen 1d6 de daño contundente, perforante o cortante, según corresponda al arma natural elegida, y tienes competencia con tus ataques sin armas. Además, el arma natural es mágica y tienes un bonificador de +1 a las tiradas de ataque y daño que realices con ella.</p>"
             },
             "dibzQlTPxRQXa1hZ": {
               "name": "Oscuridad",
@@ -9738,7 +9804,8 @@
                     "condition": "Percibe una criatura incapacitada"
                   }
                 }
-              }
+              },
+              "description": "<section id=\"secret-xGJgOYyo3JJPtZV2\" class=\"secret\"><p>El rompecerebros elige como objetivo a una criatura &amp;Reference[incapacitated]{incapacitada}</p><p>que perciba con su rasgo Sentir criaturas y establece un vínculo psíquico con ella. Hasta que termine el vínculo, puede percibir todo lo que perciba el objetivo. Este advierte que algo está vinculado a su mente cuando deja de estar incapacitado, y el rompecerebros puede terminar el vínculo en cualquier momento, sin acción. El objetivo puede usar una acción en su turno para intentar romperlo, lo que consigue si supera una prueba de [[/check ability=cha dc=17]]. Si lo rompe de esta forma, recibe 10 (3d6) de daño psíquico. El vínculo también termina si el objetivo y el rompecerebros están a más de 1 milla de distancia. El rompecerebros puede establecer vínculos psíquicos con hasta diez criaturas a la vez.</p></section><p>El rompecerebros crea un vínculo psíquico.</p>"
             },
             "CXIpKe4Tj8lGeoGF": {
               "name": "Detectar pensamientos"
@@ -9843,7 +9910,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "OmVDdz2D8aoj4u1P": {
               "name": "Clarividencia",
@@ -10001,7 +10069,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "TjTQs19kXYQsU7nI": {
               "name": "Telequinesis",
@@ -10204,7 +10273,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             }
           },
           "biography": "<p>En su afán por reconstruir su imperio perdido, algunos azotamentes han recurrido a su plano natal, el Reino Lejano, en busca de respuestas. Un azotamentes clarividente ha escudriñado las profundidades sin estrellas de ese reino y ha recibido poderes extraordinarios como recompensa.</p><p>En lugar de obedecer a un cerebro anciano, escucha los susurros y caprichos de las voces del Reino Lejano. Además de alimentarse de cerebros, puede invocar tentáculos que desgarran el tejido de la realidad y distorsionan las mentes de sus enemigos.</p><hr /><h2>Azotamentes</h2><p>Los azotamentes, también conocidos como ilícidos, se alimentan de los cerebros de humanoides por todo el multiverso. Se distinguen por su piel de tonos púrpuras y sus cabezas similares a las de un pulpo, de las que se extienden tentáculos retorcidos.</p>"
@@ -10274,7 +10344,8 @@
               "name": "Invisible",
               "description": "<ul><li>Es imposible ver a una criatura invisible sin ayuda de magia o un sentido especial. A efectos de esconderse, la criatura está en una zona muy oscura. Su ubicación puede detectarse por cualquier ruido que haga o rastro que deje.</li><li>Las tiradas de ataque contra la criatura tienen desventaja y las tiradas de ataque de la criatura tienen ventaja.</li></ul>"
             }
-          }
+          },
+          "biography": "<p>Un acechador invisible es un elemental de aire convocado desde su plano de origen y transformado mediante magia poderosa. Su único propósito es perseguir criaturas y recuperar objetos para quien lo convocó. Cuando es derrotado o expira la magia que lo ata, desaparece en una ráfaga de viento.</p><p><strong>Cazador dirigido.</strong> Cuando se crea un acechador invisible, permanece junto a su convocador hasta recibir una tarea. Si el encargo no consiste en perseguir y matar a una criatura concreta o recuperar un objeto, la magia que lo creó termina y el elemental queda libre. En caso contrario, cumple la tarea y vuelve para recibir nuevas órdenes, obligado a servir hasta que expire la magia que lo ata. Si su convocador muere entretanto, desaparece tras completar su tarea.</p><p>Incluso en el mejor de los casos, un acechador invisible es un sirviente reacio y resentido con cualquier encargo. Una misión que requiera mucho tiempo puede impulsarlo a tergiversar la intención de una orden si no se ha formulado con cuidado.</p><p><strong>Amenaza oculta.</strong> Los acechadores invisibles están compuestos de aire y son &amp;Reference[invisible]{invisibles} por naturaleza. Una criatura puede oír o sentir a uno que pase cerca, pero el elemental sigue siendo invisible incluso cuando ataca. Un conjuro que permita ver lo invisible solo revela su contorno difuso.</p><p><strong>Naturaleza elemental.</strong> Un acechador invisible no necesita aire, comida, bebida ni dormir.</p>"
         },
         "pbsoKraken000000": {
           "name": "Kraken",
@@ -10300,14 +10371,16 @@
               "description": "<p>El kraken realiza tres ataques de [[/item Tentacle]] y puede sustituir cualquiera de ellos por un uso de [[/item Fling]].</p>"
             },
             "8hawsqXAitxKomx5": {
-              "name": "Mordisco"
+              "name": "Mordisco",
+              "description": "<section class=\"secret\" id=\"secret-eipFkKVCpOGsBWwo\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +17 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 23 (3d8 + 10) de daño perforante. Si el objetivo es una criatura Grande o menor agarrada por el kraken, es tragada y termina el agarre. Mientras esté tragada, está cegada y apresada, tiene cobertura total contra ataques y otros efectos externos al kraken y recibe 42 (12d6) de daño de ácido al comienzo de cada turno del kraken.</p><p>Si el kraken recibe 50 puntos de daño o más en un solo turno de una criatura en su interior, debe superar una tirada de salvación de [[/save ability=con dc=25]] al final de ese turno o regurgitar a todas las criaturas tragadas, que caen &amp;Reference[prone]{derribadas} en un espacio a 10 pies o menos de él. Si muere, una criatura tragada deja de estar apresada por él y puede escapar del cadáver usando 15 pies de movimiento, saliendo derribada.</p></section><p>El kraken ataca con su mordisco. Si el objetivo es una criatura Grande o menor &amp;Reference[grappled]{agarrada} por el kraken, es tragada y termina el agarre. Mientras esté tragada, está &amp;Reference[blinded]{cegada} y &amp;Reference[restrained]{apresada} y tiene &amp;Reference[total-cover]{cobertura total} contra ataques y otros efectos externos al kraken.</p>"
             },
             "af2bT1r4fweorBk2": {
               "name": "Garras",
               "description": "<section class=\"secret\" id=\"secret-sdOuvUKcIn7dNQYu\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +7 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 8 (2d4 + 3) de daño cortante. El objetivo debe realizar una tirada de salvación de Constitución CD 14; recibe 10 (3d6) de daño de veneno si falla o la mitad si la supera.</p></section><p>El arcanaloth ataca con sus garras.</p>"
             },
             "tfdqLZ0Guq4S7ysn": {
-              "name": "Arrojar"
+              "name": "Arrojar",
+              "description": "<section class=\"secret\" id=\"secret-lcqSAA6iPLcZXHtL\"><p>Un objeto que sostenga el kraken o una criatura que tenga agarrada, de tamaño Grande o menor, es lanzado hasta 60 pies en una dirección aleatoria y queda derribado. Si golpea una superficie sólida, recibe 3 (1d6) de daño contundente por cada 10 pies que haya sido lanzado. Si se lanza contra otra criatura, esta debe superar una tirada de salvación de Destreza CD 18 o recibir el mismo daño y quedar derribada.</p><p><strong>Nota de Foundry</strong></p><p>Las actividades de Daño y Salvación incluyen una escala en la que puedes introducir el número de incrementos de 10 pies que haya sido lanzado el personaje para ajustar el daño automáticamente.</p></section><p>Un objeto que sostenga el kraken o una criatura que tenga agarrada, de tamaño Grande o menor, es lanzado hasta 60 pies en una dirección aleatoria y queda &amp;Reference[prone]{derribado}. Si se lanza contra otra criatura, esta debe realizar una tirada de salvación de <strong>Destreza</strong> o recibir el mismo daño y quedar derribada.</p>"
             },
             "q2jm6tUcZ2S1hMKZ": {
               "name": "Tormenta de relámpagos",
@@ -10383,7 +10456,8 @@
               "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
             },
             "zMAWdyc8UVb37BK4": {
-              "name": "Sugestión"
+              "name": "Sugestión",
+              "description": "<p>Sugieres un curso de acción, limitado a una o dos frases, e influyes mágicamente en una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. Las criaturas que no pueden quedar hechizadas son inmunes. La sugerencia debe formularse de modo que la acción parezca razonable. Pedirle que se apuñale, se arroje sobre una lanza, se inmole o haga otra cosa evidentemente dañina termina el conjuro.</p><p>El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, sigue el curso de acción descrito lo mejor que puede. La actividad puede continuar durante toda la duración. Si puede completarse antes, el conjuro termina cuando el objetivo termina lo que se le pidió.</p><p>También puedes especificar condiciones que desencadenen una actividad concreta durante la duración. Por ejemplo, podrías sugerir a una caballera que entregue su caballo de guerra al primer mendigo que encuentre. Si la condición no se cumple antes de que expire el conjuro, la actividad no se realiza.</p><p>Si tú o cualquiera de tus compañeros dañáis al objetivo, el conjuro termina.</p>"
             },
             "Ek45cBpVXvJdv1Qy": {
               "name": "Contrahechizo",
@@ -10479,7 +10553,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Creas una esfera de niebla venenosa de color verde amarillento y 20 pies de radio, centrada en un punto que elijas dentro del alcance. La niebla se propaga por las esquinas. Permanece mientras dure el conjuro o hasta que un viento fuerte la disperse y ponga fin al conjuro. Su área está muy oscura.</p><p>Cuando una criatura entra en el área del conjuro por primera vez en un turno o comienza su turno allí, debe realizar una tirada de salvación de Constitución. Recibe 5d8 de daño de veneno si falla o la mitad si la supera. Las criaturas resultan afectadas aunque contengan la respiración o no necesiten respirar.</p><p>La niebla se aleja de ti 10 pies al comienzo de cada uno de tus turnos, desplazándose por la superficie del suelo. Como sus vapores son más pesados que el aire, descienden hasta el nivel más bajo del terreno e incluso se introducen por aberturas.</p><p><strong>A niveles superiores. </strong>Cuando lanzas este conjuro usando un espacio de conjuro de nivel 6 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 5.</p>"
             }
           },
           "biography": "<p>La mayoría de los yugoloths son mezzoloths, criaturas insectoides del tamaño de un humano cubiertas de densas placas quitinosas. Sirven como soldados de infantería en los ejércitos yugoloths, y sus ojos muy separados brillan en rojo cuando se abalanzan sobre sus enemigos.</p><p>La violencia y la recompensa son sus motivaciones fundamentales, y los seres poderosos que les prometen una u otra pueden atraerlos fácilmente a su servicio. Aunque tienen garras letales en sus cuatro brazos, suelen empuñar un tridente con dos de ellos. Si se ven rodeados de enemigos, exhalan vapores tóxicos capaces de asfixiar y matar a grupos enteros de criaturas.</p>"
@@ -10587,7 +10662,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             }
           },
           "tokenName": "Azotamentes clarividente",
@@ -10684,7 +10760,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tres duplicados ilusorios de ti aparecen en tu espacio. Hasta que termine el conjuro, se mueven contigo e imitan tus acciones, cambiando de posición para que sea imposible seguir cuál es la imagen real. Puedes usar tu acción para disipar los duplicados.</p>\n<p>Cada vez que una criatura te elija como objetivo de un ataque mientras dure el conjuro, tira [[/r 1d20 # Mirror Image Check]] para determinar si el ataque se dirige en su lugar a uno de tus duplicados.</p>\n<p>Si tienes tres duplicados, debes obtener un 6 o más para cambiar el objetivo del ataque a uno de ellos. Con dos, debes obtener un 8 o más. Con uno, debes obtener un 11 o más.</p>\n<p>La CA de un duplicado es igual a 10 + tu modificador de Destreza. Si un ataque impacta en un duplicado, lo destruye. Solo puede ser destruido por un ataque que le impacte; ignora todos los demás daños y efectos. El conjuro termina cuando se destruyen los tres duplicados.</p>\n<p>Una criatura no resulta afectada por este conjuro si no puede ver, si depende de otros sentidos, como la visión ciega, o si puede reconocer las ilusiones como falsas, como con la visión verdadera.</p>"
             }
           },
           "biography": "<p>Los nycaloths, tropas de choque aéreas de élite de los yugoloths, parecen gárgolas musculosas. Sus poderosas alas de murciélago los elevan rápidamente en combate, y las garras afiladas de sus manos y pies cortan carne y hueso con facilidad. Un nycaloth es un enemigo de pesadilla que golpea con fuerza y rapidez sin previo aviso y después se teletransporta. Usa su magia innata para volverse &amp;Reference[invisible]{invisible} o crear dobles ilusorios de sí mismo, confundiendo aún más a sus enemigos.</p><p>Los nycaloths son los yugoloths más leales. Cuando encuentran a un amo malvado que los trata bien, es poco probable que incumplan su acuerdo, salvo que la recompensa por hacerlo sea extraordinaria.</p>"
@@ -10751,9 +10828,11 @@
               "description": "<section class=\"secret\" id=\"secret-Btt9GbWYDOZYtIRc\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +11 a impactar, alcance 10 pies, un objetivo. <em>Impacto:</em> 40 (6d10 + 7) de daño perforante más 10 (3d6) de daño de fuego. Si el objetivo es una criatura, queda agarrado (para escapar: [[/check ability=str dc=17]]). Hasta que termine este agarre, el objetivo está apresado y el remorhaz no puede morder a otro objetivo.</p></section><p>El remorhaz ataca con su Mordisco. Si el objetivo es una criatura, queda &amp;Reference[grappled]{agarrado}. Hasta que termine este agarre, el objetivo está &amp;Reference[restrained]{apresado}.</p>"
             },
             "0bDoN2mGNMbmwaOS": {
-              "name": "Tragar"
+              "name": "Tragar",
+              "description": "<section class=\"secret\" id=\"secret-LbXLwa6Lrgi56mJe\"><p>El remorhaz realiza un ataque de mordisco contra una criatura Mediana o menor que tenga &amp;Reference[grappled]{agarrada}. Si impacta, la criatura recibe el daño del mordisco y es tragada, y termina el agarre. Mientras esté tragada, está cegada y apresada, tiene cobertura total contra ataques y otros efectos externos al remorhaz y recibe 21 (6d6) de daño de ácido al comienzo de cada turno del remorhaz.</p><p>Si el remorhaz recibe 30 puntos de daño o más en un solo turno de una criatura que esté en su interior, debe superar una tirada de salvación de [[/save ability=con dc=15]] al final de ese turno o regurgitar a todas las criaturas tragadas, que caen &amp;Reference[prone]{derribadas} en un espacio a 10 pies o menos de él. Si muere, una criatura tragada deja de estar apresada por él y puede escapar del cadáver usando 15 pies de movimiento, saliendo derribada.</p></section><p>El remorhaz ataca con su Tragar. Mientras esté tragada, la criatura está &amp;Reference[blinded]{cegada} y &amp;Reference[restrained]{apresada} y tiene &amp;Reference[total-cover]{cobertura total} contra ataques y otros efectos externos al remorhaz.</p>"
             }
-          }
+          },
+          "biography": "<p>Un remorhaz emerge de la nieve y el hielo entre una nube de vapor, con el cuerpo palpitante de fuego interior. Unas aletas semejantes a alas se despliegan detrás de su cabeza y su ancha boca rebosa de dientes irregulares.</p><p><strong>Depredadores árticos.</strong> Los remorhazes viven en climas árticos y cazan alces, osos polares y otras criaturas de su territorio. No toleran el clima cálido, pues se han adaptado al frío generando un calor de horno en el interior de sus cuerpos. Al cazar, un remorhaz excava bajo la nieve y el hielo y espera las leves vibraciones de una criatura que se mueva sobre él. Mientras está oculto, puede reducir su temperatura corporal para no derretir su cobertura.</p><p><strong>Crías.</strong> Los cazadores gigantes de escarcha recorren los páramos helados en busca de nidos y huevos de remorhaz. Aprecian a las crías, que pueden adiestrarse desde que nacen para obedecer órdenes y custodiar sus ciudadelas de hielo. A diferencia de los adultos, las crías roen a sus víctimas en lugar de tragárselas enteras.</p>"
         },
         "pbsoShalfiLewin0": {
           "name": "Shalfi Lewin",
@@ -10804,7 +10883,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Creas un sonido o la imagen de un objeto dentro del alcance que permanece mientras dure el conjuro. La ilusión también termina si la disipas como acción o vuelves a lanzar este conjuro.</p><p>Si creas un sonido, su volumen puede ir de un susurro a un grito. Puede ser tu voz, la de otra persona, el rugido de un león, tambores o cualquier otro sonido que elijas. Puede continuar sin interrupción durante toda la duración, o puedes producir sonidos separados en distintos momentos antes de que termine el conjuro.</p><p>Si creas la imagen de un objeto —como una silla, huellas de barro o un cofre pequeño—, no debe superar un cubo de 5 pies de lado. No puede producir sonido, luz, olor ni otro efecto sensorial. La interacción física revela que es una ilusión, pues las cosas pueden atravesarla.</p><p>Una criatura que use su acción para examinar el sonido o la imagen puede descubrir que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Para una criatura que la reconozca como tal, la ilusión se vuelve tenue.</p>"
             },
             "9ssesGQFT8XvZmFO": {
               "name": "Portal arcano",
@@ -10812,7 +10892,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Creas portales de teletransporte conectados que permanecen abiertos mientras dure el conjuro. Elige dos puntos del suelo que puedas ver: uno a 10 pies o menos de ti y otro a 500 pies o menos. Sobre cada punto se abre un portal circular de 10 pies de diámetro. Si un portal fuera a abrirse en el espacio ocupado por una criatura, el conjuro falla y se pierde el lanzamiento.</p><p>Los portales son anillos luminosos bidimensionales llenos de niebla que flotan a unas pulgadas del suelo, perpendiculares a él, en los puntos elegidos. Cada anillo solo es visible desde un lado, a tu elección, que es el que funciona como portal.</p><p>Cualquier criatura u objeto que entre en un portal sale por el otro como si ambos fueran adyacentes; atravesarlo desde el lado que no funciona como portal no tiene efecto. La niebla de cada portal es opaca e impide ver a través de él. En tu turno, puedes girar los anillos como acción adicional para orientar el lado activo en otra dirección.</p>"
             },
             "aXoZJWqwTTBs3tQd": {
               "name": "Hambre de Hadar",
@@ -10866,7 +10947,8 @@
               "description": "<p>Una mano espectral flotante aparece en un punto que elijas dentro del alcance. La mano permanece mientras dure el conjuro o hasta que la disipes como acción. Desaparece si en algún momento está a más de 30 pies de ti o si vuelves a lanzar este conjuro.</p><p>Puedes usar tu acción para controlar la mano. Puedes emplearla para manipular un objeto, abrir una puerta o recipiente sin cerrar con llave, guardar o sacar un objeto de un recipiente abierto o verter el contenido de un vial. Puedes mover la mano hasta 30 pies cada vez que la uses.</p><p>La mano no puede atacar, activar objetos mágicos ni transportar más de 10 libras.</p>"
             },
             "oIzA2MEHwxhtQneU": {
-              "name": "Ilusión menor"
+              "name": "Ilusión menor",
+              "description": "<p>Creas un sonido o la imagen de un objeto dentro del alcance que permanece mientras dure el conjuro. La ilusión también termina si la disipas como acción o vuelves a lanzar este conjuro.</p><p>Si creas un sonido, su volumen puede ir de un susurro a un grito. Puede ser tu voz, la de otra persona, el rugido de un león, tambores o cualquier otro sonido que elijas. Puede continuar sin interrupción durante toda la duración, o puedes producir sonidos separados en distintos momentos antes de que termine el conjuro.</p><p>Si creas la imagen de un objeto —como una silla, huellas de barro o un cofre pequeño—, no debe superar un cubo de 5 pies de lado. No puede producir sonido, luz, olor ni otro efecto sensorial. La interacción física revela que es una ilusión, pues las cosas pueden atravesarla.</p><p>Una criatura que use su acción para examinar el sonido o la imagen puede descubrir que es una ilusión si supera una prueba de Inteligencia (Investigación) contra tu CD de salvación de conjuros. Para una criatura que la reconozca como tal, la ilusión se vuelve tenue.</p>"
             },
             "ctW81uiX56xZR2c5": {
               "name": "Rayo de escarcha",
@@ -10881,7 +10963,8 @@
               "description": "<p>Mientras dure el conjuro, percibes la presencia de magia a 30 pies o menos de ti. Si la percibes de esta forma, puedes usar tu acción para ver un aura tenue alrededor de cualquier criatura u objeto visible en el área que posea magia y conocer su escuela de magia, si la tiene.</p><p>El conjuro puede atravesar la mayoría de las barreras, pero lo bloquean 1 pie de piedra, 1 pulgada de metal común, una fina lámina de plomo o 3 pies de madera o tierra.</p>"
             },
             "KhwiSi9fwVfUPtku": {
-              "name": "Dormir"
+              "name": "Dormir",
+              "description": "<p>Este conjuro sume a las criaturas en un sueño mágico. Tira 5d8; el total es la cantidad de puntos de golpe de criaturas a los que puede afectar. Las criaturas a 20 pies o menos de un punto que elijas dentro del alcance resultan afectadas en orden ascendente de sus puntos de golpe actuales, ignorando a las inconscientes.</p><p>Empezando por la que tenga menos puntos de golpe actuales, cada criatura afectada queda inconsciente hasta que termine el conjuro, reciba daño o alguien use una acción para despertarla sacudiéndola o abofeteándola. Resta sus puntos de golpe del total antes de pasar a la siguiente criatura con menos puntos de golpe. Los puntos de golpe de una criatura deben ser iguales o inferiores al total restante para que resulte afectada.</p><p>Los muertos vivientes y las criaturas inmunes a quedar hechizadas no resultan afectados.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, tira 2d8 adicionales por cada nivel del espacio por encima de 1.</p>"
             },
             "ppWAAEul0QHtm4er": {
               "name": "Detectar pensamientos"
@@ -10936,7 +11019,8 @@
               "name": "Mandíbulas",
               "description": "<section id=\"secret-YJm6AfYehoyv0BWi\" class=\"secret\"><p><em>Ataque con arma cuerpo a cuerpo:</em> +8 a impactar, alcance 5 pies, un objetivo. <em>Impacto:</em> 14 (2d8 + 5) de daño cortante.</p></section><p>La mole sombría ataca con sus mandíbulas.</p>"
             }
-          }
+          },
+          "biography": "<p>Un horror abominable de las profundidades de la tierra, la mole sombría excava hasta complejos de cuevas, mazmorras o asentamientos de la Infraoscuridad en busca de alimento. Quienes tienen la suerte de sobrevivir a su ataque suelen recordar muy poco de lo ocurrido debido a su mirada, que altera la mente.</p><p><strong>Excavadores astutos.</strong> Las moles sombrías pueden excavar a través de roca sólida y abrir túneles a su paso. La quitina de su cuerpo, dura como el acero, soporta los derrumbes de cuevas y túneles y las caídas de rocas que suelen provocar.</p><p>Tras excavar hasta la pared de una caverna o un pasadizo, la mole sombría espera a que pasen criaturas al otro lado, detectando cualquier movimiento cercano con sus antenas semejantes a pelos. Cuando irrumpe en una lluvia de tierra y piedras, su presa desprevenida se vuelve hacia la amenaza y queda fascinada por sus ojos desconcertantes, obligada a permanecer indefensa mientras se cierran sus mandíbulas.</p><p><strong>Perturbador de la mente.</strong> Muchos supervivientes recuerdan poco del ataque de una mole sombría, pues su mirada confusa trastorna sus recuerdos. Quienes han luchado contra estas criaturas y las han matado reconocen las señales. Para los demás habitantes de la Infraoscuridad, las historias macabras de exploradores desaparecidos y destrucción indiscriminada hablan de un enemigo desconocido. En estos relatos aterradores, las moles sombrías adquieren una condición sobrenatural, y muchos transmiten la misma advertencia: cuando se ve a una mole sombría, ya es demasiado tarde para escapar.</p>"
         },
         "pbsoVoalsh000000": {
           "name": "Voalsh",
@@ -11033,7 +11117,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "3tqVFCy6TbrGBXTK": {
               "name": "Desatar el vacío",
@@ -11065,7 +11150,8 @@
               "description": "<section class=\"secret\" id=\"secret-SDB47NEHUiSGIxlp\"><p><em>Ataque con arma cuerpo a cuerpo: </em> <strong>+7 a impactar</strong>, alcance <strong>5 pies,</strong> un objetivo. Impacto: <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>.</p></section><p>El elemental de agua ataca con su Golpe.</p>"
             },
             "5XUFTldfE6mtRUfd": {
-              "name": "Envolver"
+              "name": "Envolver",
+              "description": "<section class=\"secret\" id=\"secret-tpnvomAtfNouC7yE\"><p>Cada criatura en el espacio del elemental debe realizar una tirada de salvación de <strong>Fuerza CD 15</strong>. Si falla, recibe <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>. Si es Grande o menor, también queda agarrada (para escapar: [[/check ability=str dc=14]]). Hasta que termine este agarre, está apresada y no puede respirar, salvo que pueda respirar bajo el agua.</p><p>Si supera la salvación, el objetivo es empujado fuera del espacio del elemental. Este puede agarrar a una criatura Grande o hasta dos Medianas o menores a la vez. Al comienzo de cada turno del elemental, cada objetivo que tenga agarrado recibe <strong>13 (2d8 + 4) </strong><em><strong>de daño contundente</strong></em>. Una criatura a 5 pies o menos del elemental puede sacar de él a una criatura u objeto usando una acción y superando una prueba de Fuerza CD 14.</p></section><p>Cada criatura en el espacio del elemental debe realizar una tirada de salvación de <strong>Fuerza</strong>. Si es Grande o menor, también queda &amp;Reference[grappled]{agarrada}. Hasta que termine este agarre, está &amp;Reference[restrained]{apresada} y no puede respirar, salvo que pueda respirar bajo el agua. Una criatura a 5 pies o menos del elemental puede sacar de él a una criatura u objeto usando una acción y superando una prueba de Fuerza.</p>"
             }
           },
           "biography": "<p>Un elemental de agua es una ola encrespada que recorre el suelo y se vuelve casi &amp;Reference[invisible]{invisible} al atravesar una masa de agua mayor. Envuelve a las criaturas que se le oponen y llena sus bocas y pulmones con la misma facilidad con la que apaga una llama.</p>"
@@ -11110,7 +11196,8 @@
               "description": "<p>Una oleada de fuerza atronadora surge de ti. Cada criatura en un cubo de 15 pies de lado que parta de ti debe realizar una tirada de salvación de Constitución. Si falla, recibe 2d8 de daño de trueno y es empujada 10 pies en dirección contraria a ti. Si supera la tirada, recibe la mitad del daño y no es empujada.</p><p>Además, los objetos que no estén sujetos y se encuentren completamente dentro del área de efecto son empujados automáticamente 10 pies en dirección contraria a ti, y el conjuro emite un estruendo audible a 300 pies de distancia.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 2 o superior, el daño aumenta en 1d8 por cada nivel del espacio por encima de 1.</p>"
             },
             "X8w9EzYLGc4vQ1H2": {
-              "name": "Mensajero animal"
+              "name": "Mensajero animal",
+              "description": "<p>Mediante este conjuro, utilizas un animal para entregar un mensaje. Elige una bestia Diminuta que puedas ver dentro del alcance, como una ardilla, un arrendajo azul o un murciélago. Especifica un lugar que hayas visitado y un destinatario que responda a una descripción general, como «un hombre o una mujer con el uniforme de la guardia del pueblo» o «un enano pelirrojo con sombrero puntiagudo». También pronuncias un mensaje de hasta veinticinco palabras. La bestia viaja hacia el lugar indicado mientras dure el conjuro, recorriendo unas 50 millas cada 24 horas si vuela, o 25 millas si es otro animal.</p><p>Cuando llega, entrega el mensaje a la criatura descrita, reproduciendo el sonido de tu voz. Solo habla con una criatura que responda a la descripción. Si no llega a su destino antes de que termine el conjuro, el mensaje se pierde y la bestia regresa al lugar donde lo lanzaste.</p><p><strong>A niveles superiores.</strong> Si lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, su duración aumenta en 48 horas por cada nivel del espacio por encima de 2.</p>"
             },
             "VzgFzcmocr1X1cp4": {
               "name": "Garrote",
@@ -11295,7 +11382,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Este conjuro transforma a una criatura que puedas ver dentro del alcance en una nueva forma. Una criatura no voluntaria debe realizar una tirada de salvación de Sabiduría para evitar el efecto. El conjuro no afecta a un cambiaformas ni a una criatura con 0 puntos de golpe.</p><p>La transformación permanece mientras dure el conjuro o hasta que el objetivo caiga a 0 puntos de golpe o muera. La nueva forma puede ser cualquier bestia cuyo valor de desafío sea igual o inferior al del objetivo (o a su nivel, si no tiene valor de desafío). Sus estadísticas de juego, incluidas las puntuaciones de características mentales, se sustituyen por las de la bestia elegida. Conserva su alineamiento y personalidad.</p><p>El objetivo adquiere los puntos de golpe de su nueva forma. Cuando recupera su forma normal, vuelve a tener los puntos de golpe que tenía antes de transformarse. Si revierte por haber caído a 0 puntos de golpe, el daño sobrante se aplica a su forma normal. Mientras ese daño no reduzca su forma normal a 0 puntos de golpe, no queda inconsciente.</p><p>La naturaleza de su nueva forma limita las acciones que puede realizar. No puede hablar, lanzar conjuros ni realizar otras acciones que requieran manos o habla.</p><p>El equipo del objetivo se fusiona con su nueva forma. La criatura no puede activarlo, usarlo, empuñarlo ni beneficiarse de él de ningún otro modo.</p>"
             }
           },
           "effects": {
@@ -11504,7 +11592,8 @@
               "description": "<p>Envuelto brevemente en una niebla plateada, te teletransportas hasta 30 pies a un espacio desocupado que puedas ver.</p>"
             },
             "zMAWdyc8UVb37BK4": {
-              "name": "Sugestión"
+              "name": "Sugestión",
+              "description": "<p>Sugieres un curso de acción, limitado a una o dos frases, e influyes mágicamente en una criatura que puedas ver dentro del alcance y que pueda oírte y entenderte. Las criaturas que no pueden quedar hechizadas son inmunes. La sugerencia debe formularse de modo que la acción parezca razonable. Pedirle que se apuñale, se arroje sobre una lanza, se inmole o haga otra cosa evidentemente dañina termina el conjuro.</p><p>El objetivo debe realizar una tirada de salvación de Sabiduría. Si falla, sigue el curso de acción descrito lo mejor que puede. La actividad puede continuar durante toda la duración. Si puede completarse antes, el conjuro termina cuando el objetivo termina lo que se le pidió.</p><p>También puedes especificar condiciones que desencadenen una actividad concreta durante la duración. Por ejemplo, podrías sugerir a una caballera que entregue su caballo de guerra al primer mendigo que encuentre. Si la condición no se cumple antes de que expire el conjuro, la actividad no se realiza.</p><p>Si tú o cualquiera de tus compañeros dañáis al objetivo, el conjuro termina.</p>"
             },
             "Ek45cBpVXvJdv1Qy": {
               "name": "Contrahechizo",
@@ -11682,7 +11771,8 @@
                 "dnd5espellchange": {
                   "name": "Cambios de conjuros"
                 }
-              }
+              },
+              "description": "<p>Tú y hasta ocho criaturas voluntarias que os cojáis de las manos formando un círculo sois transportados a otro plano de existencia. Puedes especificar un destino en términos generales, como la Ciudad de Oropel en el Plano Elemental del Fuego o el palacio de Dispater en el segundo nivel de los Nueve Infiernos, y aparecéis en ese destino o cerca de él. Si intentas llegar a la Ciudad de Oropel, por ejemplo, podrías aparecer en su Calle del Acero, ante su Puerta de las Cenizas o contemplando la ciudad desde el otro lado del Mar de Fuego, a discreción del DM.</p><p>Como alternativa, si conoces la secuencia de símbolos de un círculo de teletransporte en otro plano de existencia, el conjuro puede llevaros a él. Si es demasiado pequeño para albergar a todas las criaturas transportadas, aparecen en los espacios desocupados más cercanos al círculo.</p><p>Puedes usar este conjuro para desterrar a una criatura no voluntaria a otro plano. Elige a una criatura a la que puedas alcanzar y realiza un ataque de conjuro cuerpo a cuerpo contra ella. Si impactas, debe realizar una tirada de salvación de Carisma. Si falla, es transportada a un lugar aleatorio del plano de existencia que especifiques. Deberá encontrar por sí misma la forma de regresar a tu plano actual.</p>"
             },
             "ZxV1GXuNF2obA0Vz": {
               "name": "Telequinesis",
@@ -12602,7 +12692,8 @@
                     "description": "<p>Tu cuerpo se vuelve borroso, cambiante y oscilante para quienes puedan verte. Mientras dure el conjuro, cualquier criatura tiene desventaja en las tiradas de ataque contra ti. Un atacante es inmune a este efecto si no depende de la vista, como ocurre con la visión ciega, o si puede ver a través de las ilusiones, como sucede con la visión verdadera.</p>"
                   },
                   "uPx0EefBvwCOJ5xC": {
-                    "name": "Esfera de llamas"
+                    "name": "Esfera de llamas",
+                    "description": "<p>Una esfera de fuego de 5 pies de diámetro aparece en un espacio desocupado que elijas dentro del alcance y permanece mientras dure el conjuro. Cualquier criatura que termine su turno a 5 pies o menos de ella debe realizar una tirada de salvación de Destreza. Recibe 2d6 de daño de fuego si falla o la mitad si la supera.</p><p>Como acción adicional, puedes mover la esfera hasta 30 pies. Si la haces chocar contra una criatura, esta debe realizar la salvación contra su daño y la esfera deja de moverse durante este turno.</p><p>Cuando mueves la esfera, puedes hacer que supere barreras de hasta 5 pies de altura y salte sobre simas de hasta 10 pies de ancho. Prende los objetos inflamables que nadie vista ni transporte y emite luz brillante en un radio de 20 pies y luz tenue durante 20 pies adicionales.</p><p><strong>A niveles superiores.</strong> Cuando lanzas este conjuro usando un espacio de conjuro de nivel 3 o superior, el daño aumenta en 1d6 por cada nivel del espacio por encima de 2.</p>"
                   },
                   "cP0jJo0zwEd4gudl": {
                     "name": "Bola de fuego",
@@ -13416,7 +13507,8 @@
                     "description": "<section class=\"secret\" id=\"secret-ECh3fRmdaFojcHWg\"><p>Ataque con arma cuerpo a cuerpo: +10 a impactar, alcance 5 pies, <strong>una criatura Grande o menor</strong>. Impacto: <strong>17 (2d10 + 6) </strong><em><strong>de daño contundente</strong></em> más <strong>17 (2d10 + 6) </strong><em><strong>de daño cortante</strong></em>.</p><p>El objetivo queda agarrado (CD 16 para escapar) si el behir no está constriñendo ya a una criatura, y permanece apresado hasta que termine este agarre.</p></section><p>El behir ataca con su Constricción. El objetivo queda &amp;Reference[grappled]{agarrado} si el behir no está constriñendo ya a una criatura, y permanece &amp;Reference[restrained]{apresado} hasta que termine este agarre.</p>"
                   },
                   "0QJeW80m89X0RLNz": {
-                    "name": "Tragar"
+                    "name": "Tragar",
+                    "description": "<section class=\"secret\" id=\"secret-H8xZDT5DopanZ1FY\"><p>El behir realiza un ataque de mordisco contra un <strong>objetivo Mediano o menor que tenga &amp;Reference[grappled]{agarrado}</strong>. Si impacta, también se traga al objetivo y termina el agarre. Mientras esté tragado, el objetivo está &amp;Reference[blinded]{cegado} y &amp;Reference[restrained]{apresado}, tiene cobertura total contra ataques y otros efectos externos al behir y recibe <strong>21 (6d6) </strong><em><strong>de daño de ácido</strong></em> al comienzo de cada turno del behir. Un behir solo puede tener tragada a una criatura a la vez.</p><p>Si recibe 30 puntos de daño o más en un solo turno de la criatura tragada, debe superar una tirada de salvación de <strong>Constitución CD 14</strong> al final de ese turno o regurgitarla. La criatura cae derribada en un espacio a 10 pies o menos del behir. Si el behir muere, una criatura tragada deja de estar apresada por él y puede escapar del cadáver usando 15 pies de movimiento, saliendo derribada.</p></section><p>El behir ataca con su Tragar.</p>"
                   }
                 }
               },
@@ -13430,7 +13522,8 @@
                     "description": "<section class=\"secret\" id=\"secret-YLIoZlytEGqabA7H\"><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es un terreno difícil de consistencia pastosa.</p><p>Cada criatura que comience su turno en esa área debe superar una <strong>tirada de salvación de Fuerza CD 10</strong> o su velocidad se reduce a 0 hasta el comienzo de su siguiente turno.</p></section><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es &amp;Reference[difficult-terrain]{terreno difícil} de consistencia pastosa. Realiza una tirada de salvación de <strong>Fuerza</strong>.</p>"
                   },
                   "SzwWnAgr25vDeHKu": {
-                    "name": "Barbotar"
+                    "name": "Barbotar",
+                    "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
                   },
                   "lfUDtJ8hdeULQzqa": {
                     "name": "Mordisco",
@@ -13452,7 +13545,8 @@
                     "description": "<section class=\"secret\" id=\"secret-YLIoZlytEGqabA7H\"><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es un terreno difícil de consistencia pastosa.</p><p>Cada criatura que comience su turno en esa área debe superar una <strong>tirada de salvación de Fuerza CD 10</strong> o su velocidad se reduce a 0 hasta el comienzo de su siguiente turno.</p></section><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es &amp;Reference[difficult-terrain]{terreno difícil} de consistencia pastosa. Realiza una tirada de salvación de <strong>Fuerza</strong>.</p>"
                   },
                   "SzwWnAgr25vDeHKu": {
-                    "name": "Barbotar"
+                    "name": "Barbotar",
+                    "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
                   },
                   "lfUDtJ8hdeULQzqa": {
                     "name": "Mordisco",
@@ -13474,7 +13568,8 @@
                     "description": "<section class=\"secret\" id=\"secret-YLIoZlytEGqabA7H\"><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es un terreno difícil de consistencia pastosa.</p><p>Cada criatura que comience su turno en esa área debe superar una <strong>tirada de salvación de Fuerza CD 10</strong> o su velocidad se reduce a 0 hasta el comienzo de su siguiente turno.</p></section><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es &amp;Reference[difficult-terrain]{terreno difícil} de consistencia pastosa. Realiza una tirada de salvación de <strong>Fuerza</strong>.</p>"
                   },
                   "SzwWnAgr25vDeHKu": {
-                    "name": "Barbotar"
+                    "name": "Barbotar",
+                    "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
                   },
                   "lfUDtJ8hdeULQzqa": {
                     "name": "Mordisco",
@@ -13496,7 +13591,8 @@
                     "description": "<section class=\"secret\" id=\"secret-YLIoZlytEGqabA7H\"><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es un terreno difícil de consistencia pastosa.</p><p>Cada criatura que comience su turno en esa área debe superar una <strong>tirada de salvación de Fuerza CD 10</strong> o su velocidad se reduce a 0 hasta el comienzo de su siguiente turno.</p></section><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es &amp;Reference[difficult-terrain]{terreno difícil} de consistencia pastosa. Realiza una tirada de salvación de <strong>Fuerza</strong>.</p>"
                   },
                   "SzwWnAgr25vDeHKu": {
-                    "name": "Barbotar"
+                    "name": "Barbotar",
+                    "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
                   },
                   "lfUDtJ8hdeULQzqa": {
                     "name": "Mordisco",
@@ -13518,7 +13614,8 @@
                     "description": "<section class=\"secret\" id=\"secret-YLIoZlytEGqabA7H\"><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es un terreno difícil de consistencia pastosa.</p><p>Cada criatura que comience su turno en esa área debe superar una <strong>tirada de salvación de Fuerza CD 10</strong> o su velocidad se reduce a 0 hasta el comienzo de su siguiente turno.</p></section><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es &amp;Reference[difficult-terrain]{terreno difícil} de consistencia pastosa. Realiza una tirada de salvación de <strong>Fuerza</strong>.</p>"
                   },
                   "SzwWnAgr25vDeHKu": {
-                    "name": "Barbotar"
+                    "name": "Barbotar",
+                    "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
                   },
                   "lfUDtJ8hdeULQzqa": {
                     "name": "Mordisco",
@@ -13540,7 +13637,8 @@
                     "description": "<section class=\"secret\" id=\"secret-YLIoZlytEGqabA7H\"><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es un terreno difícil de consistencia pastosa.</p><p>Cada criatura que comience su turno en esa área debe superar una <strong>tirada de salvación de Fuerza CD 10</strong> o su velocidad se reduce a 0 hasta el comienzo de su siguiente turno.</p></section><p>El suelo en un <strong>radio de 10 pies</strong> alrededor del barbotador es &amp;Reference[difficult-terrain]{terreno difícil} de consistencia pastosa. Realiza una tirada de salvación de <strong>Fuerza</strong>.</p>"
                   },
                   "SzwWnAgr25vDeHKu": {
-                    "name": "Barbotar"
+                    "name": "Barbotar",
+                    "description": "<section class=\"secret\" id=\"secret-yKDEFUR92vkoLklz\"><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura y no esté &amp;Reference[incapacitated]{incapacitado}. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una <strong>tirada de salvación de Sabiduría CD 10</strong>. Si falla, no puede realizar reacciones hasta el comienzo de su siguiente turno y tira un d8 para determinar lo que hace durante su turno.</p><p>Con un resultado de 1 a 4, no hace nada. Con un 5 o 6, no realiza acciones ni acciones adicionales y usa todo su movimiento para desplazarse en una dirección aleatoria. Con un 7 u 8, realiza un ataque cuerpo a cuerpo contra una criatura elegida al azar dentro de su alcance, o no hace nada si no puede efectuar ese ataque.</p></section><p>El barbotador balbucea de forma incoherente mientras pueda ver a alguna criatura. Cada criatura que comience su turno <strong>a 20 pies o menos</strong> del barbotador y pueda oír sus balbuceos debe superar una tirada de salvación de Sabiduría.</p>"
                   },
                   "lfUDtJ8hdeULQzqa": {
                     "name": "Mordisco",
@@ -13585,7 +13683,8 @@
                           "condition": "Mientras agarra a una criatura"
                         }
                       }
-                    }
+                    },
+                    "description": "<p>El amasijo de carne elige como objetivo a una criatura Grande o menor que tenga agarrada a 5 pies o menos de sí mismo. El objetivo debe superar una tirada de salvación de Destreza CD 15 o ser tragado. El amasijo solo puede tener tragada a una criatura a la vez.</p><p>Una criatura tragada deja de estar &amp;Reference[grappled]{agarrada}. Mientras esté tragada, está &amp;Reference[blinded]{cegada} y &amp;Reference[restrained]{apresada}, tiene cobertura total contra ataques y otros efectos externos al amasijo y recibe 10 (3d6) de daño necrótico al comienzo de cada turno del amasijo. Si este daño la reduce a 0 puntos de golpe, muere y el amasijo consume su cuerpo.</p><p>Si el amasijo recibe 30 puntos de daño o más en un solo turno de la criatura tragada, debe superar una tirada de salvación de [[/save ability=constitution dc=15]] al final de ese turno o regurgitarla. La criatura cae &amp;Reference[prone]{derribada} en un espacio a 5 pies o menos del amasijo. Si este muere, la criatura tragada deja de estar apresada por él y puede escapar del cadáver usando 10 pies de movimiento, saliendo derribada.</p>"
                   }
                 }
               },

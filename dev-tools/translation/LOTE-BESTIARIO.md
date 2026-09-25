@@ -106,3 +106,15 @@ de objetos integrados en actores conservan sus restricciones de uso y su valor.
 Cobertura propia: 3.053/3.227 campos del bestiario y 6.178/6.718 de Adventure.
 El índice de actores contiene 43 cuerpos de página compuestos con biografías
 revisadas. Cero errores en la comprobación de evidencias y estructura técnica.
+
+## Sexto lote de prosa: textos 0801–0850
+
+50 originales adicionales: posesión, engullir, enfermedades, conjuros de control
+y transformación y biografías extensas. Se conservan las diferencias entre los
+resúmenes y las reglas del original. Se corrige la concordancia de «mole sombría».
+
+Cobertura propia: 3.130/3.227 campos del bestiario y 6.277/6.718 de Adventure.
+El índice de actores alcanza 53 cuerpos de página compuestos con biografías
+revisadas; otros 102 requieren revisión. Los 850 originales revisados pasan los
+controles de números, comandos, enlaces y atributos HTML, sin errores de evidencia.
+Estos lotes posteriores al texto 0600 siguen pendientes de validación en Foundry.

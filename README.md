@@ -10,6 +10,8 @@ Versión: **1.14.2**. Revisión editorial documentada como completada: 165 objet
 
 Consulta [CHANGELOG.md](CHANGELOG.md).
 
+Comprobación del 28 de septiembre de 2026 en Foundry 14.368, dnd5e 6.0.3 y Babele 2.9.1: lectura de 406 documentos en 5 compendios, comprobación de nombres y campos de texto explícitos e importación y revisión visual de una muestra. No es una revisión lingüística ni funcional exhaustiva; permanecen algunas etiquetas inglesas del contenido original.
+
 ## Requisitos
 
 Versiones declaradas en el manifiesto; «—» indica que no se declara ese límite.

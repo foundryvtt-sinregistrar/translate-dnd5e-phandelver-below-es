@@ -9,6 +9,8 @@ All notable changes to this project will be documented in this file.
 
 ## [1.14.2] - 2026-09-28
 
+- Comprobados en Foundry 406 documentos, nombres y campos explícitos; importada y revisada una muestra. Evidencia y límites en `dev-tools/homogeneizacion/VALIDACION-FOUNDRY.md`.
+
 ### Changed
 
 - Homogeneizados documentación ES/EN, guía de desarrollo, configuración, exclusiones, constructor desde commit, perfiles, hashes y CI compartida. Se conservan las herramientas y pruebas Adventure.

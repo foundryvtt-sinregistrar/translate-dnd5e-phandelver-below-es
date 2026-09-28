@@ -10,6 +10,8 @@ Version: **1.14.2**. Documented editorial review is complete: 165 items, 148 cre
 
 See [CHANGELOG.md](CHANGELOG.md).
 
+Checked on September 28, 2026 with Foundry 14.368, dnd5e 6.0.3 and Babele 2.9.1: loaded 406 documents across 5 compendiums, checked names and explicit text fields, and imported and visually reviewed one sample. This is not an exhaustive linguistic or functional review; some English labels from the original content remain.
+
 ## Requirements
 
 Versions declared in the manifest; “—” means that the corresponding limit is not declared.

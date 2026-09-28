@@ -1,0 +1,17 @@
+# Convenciones de edición compartidas; no reformatea archivos existentes.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 2
+trim_trailing_whitespace = true
+
+[*.{js,mjs,py}]
+indent_size = 4
+
+# Conservar los espacios finales usados para saltos de línea en Markdown.
+[*.md]
+trim_trailing_whitespace = false

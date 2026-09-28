@@ -1,32 +1,73 @@
-# 🇬🇧 Phandelver and Below — Spanish Translation (Babele)
+# Phandelver & Below: The Shattered Obelisk — Spanish Translation
 
-Spanish translation for the official Foundry VTT module **Phandelver & Below: The Shattered Obelisk**.
+[Español](README.md) | **English**
 
-## Requirements
-
-- Foundry VTT 13 or 14
-- dnd5e system 5.3.1 or later
-- Babele 2.7.5 or later
-- Official `dnd-phandelver-below` module 3.1.0 or later
-
-## Installation
-
-In Foundry VTT, open **Add-on Modules**, select **Install Module**, and use this manifest URL:
-
-```text
-https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/main/module.json
-```
-
-Alternatively, download the ZIP from the [latest release](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest). Install this module and its dependencies, enable them in your world, and select Spanish as the Foundry VTT language.
+Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-phandelver-below-es`.
 
 ## Status
 
-Translation is in progress. All **53 background tables** in the player tables compendium are translated into Spanish. The adventure compendium contains an initial set of translated journals; the remaining compendiums are still pending.
+Version: **1.14.1**. Documented editorial review is complete: 165 items, 148 creatures, 39 character options, 53 tables and the Adventure, including 521 text pages and 10,855 expected fields. The September 25, 2026 report records a full import with Foundry 14.368, dnd5e 6.0.3, local Babele 2.9.1 and adventure 3.1.0. Nine broken references already present in the original remain. This standardization does not repeat that test or verify other Babele builds.
+
+See [CHANGELOG.md](CHANGELOG.md).
+
+## Requirements
+
+Versions declared in the manifest; “—” means that the corresponding limit is not declared.
+
+| Dependency | Minimum | Verified |
+|---|---|---|
+| Foundry VTT | 13 | 14.368 |
+| dnd5e | 5.3.1 | 6.0.3 |
+| babele | 2.9.1 | 2.9.1 |
+| dnd-phandelver-below | 3.1.0 | 3.1.0 |
+
+Install and enable the dependencies, purchasing official products separately when required.
+
+## Installation
+
+In Foundry's Setup screen, open **Add-on Modules → Install Module** and use this manifest:
+
+```text
+https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest/download/module.json
+```
+
+For manual installation, download `translate-dnd5e-phandelver-below-es.zip` from [releases](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases). With Foundry stopped, extract the `translate-dnd5e-phandelver-below-es` folder into `Data/modules/`; the manifest must be at `Data/modules/translate-dnd5e-phandelver-below-es/module.json`.
+
+## Activation
+
+1. Open a dnd5e world.
+2. Enable Babele, its dependencies, the required official products and this translation.
+3. Select **Spanish** and reload the world.
+4. Open a translated compendium to check the result.
+
+Registration is automatic for `es` and its regional variants. Other languages do not enable the Spanish translation.
+
+## Updating
+
+Update through Foundry or replace the folder with the published ZIP while Foundry is stopped. Reload the world. Previously imported copies do not synchronize automatically: review differences before replacing documents with your own changes.
+
+## Included content
+
+- `dnd-phandelver-below.pbso-adventures.json`.
+- `dnd-phandelver-below.pbso-bestiary.json`.
+- `dnd-phandelver-below.pbso-items.json`.
+- `dnd-phandelver-below.pbso-player-options.json`.
+- `dnd-phandelver-below.pbso-player-tables.json`.
+
+## Limitations
+
+Text coverage and automated tests do not establish that every gameplay automation works. Observe the limitations listed under Status. Imported copies do not update automatically. New release URLs require a publication containing their assets; until available, use a validated ZIP. Private sources, PDFs, OCR and complete official exports are not distributed.
+
+## Support and contributions
+
+Report problems in [issues](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/issues), including versions, affected compendium/document, steps, expected and observed results, and whether it is an imported copy.
 
 ## Development
 
-The version follows the `MAJOR.FOUNDRY.PATCH` scheme. In `1.14.0`, the second component indicates Foundry VTT 14 compatibility.
+The [development guide](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/DEVELOPER.md) is available in the repository and excluded from the installable ZIP.
 
-See [DEVELOPER.md](DEVELOPER.md) for the export, translation, validation, and release workflow.
+## License and credits
 
-This project is not affiliated with or endorsed by Wizards of the Coast or Foundry Gaming. It requires the official commercial module and does not redistribute its source files, artwork, or databases.
+See the license and its terms in [LICENSE.md](LICENSE.md). The existing MIT license is preserved.
+
+Unofficial translation, not affiliated with Wizards of the Coast or Foundry VTT. Official product materials belong to their respective owners. Module author: [foundryvtt-sinregistrar](https://github.com/foundryvtt-sinregistrar).

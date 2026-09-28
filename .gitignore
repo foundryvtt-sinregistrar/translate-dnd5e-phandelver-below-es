@@ -139,3 +139,50 @@ dist
 .python/
 .python-local/
 .tessdata/
+
+# Base común de homogeneización
+# Distribución y temporales locales
+/dist/
+/tmp/
+/_release-zip/
+/staged.txt
+
+# Python y Node
+__pycache__/
+*.py[cod]
+.venv/
+node_modules/
+
+# Fuentes e informes locales
+/dev-tools/export/data/*
+!/dev-tools/export/data/.gitkeep
+/dev-tools/export/_data/
+/dev-tools/_[Ii]nformes/
+
+# Configuración local
+.env
+.env.*
+!.env.example
+
+# IDE: conservar las excepciones de configuración compartida
+/.idea/*
+!/.idea/codeStyles/
+!/.idea/runConfigurations/
+/.vscode/*
+!/.vscode/settings.json
+!/.vscode/tasks.json
+!/.vscode/launch.json
+!/.vscode/extensions.json
+!/.vscode/*.code-snippets
+.history/
+.ionide/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.stackdump

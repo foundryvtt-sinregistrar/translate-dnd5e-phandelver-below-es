@@ -1,7 +1,42 @@
+# Texto: mantener LF en fuentes, datos y documentación
+* text=auto
+*.json text eol=lf
+*.js text eol=lf
+*.mjs text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.sh text eol=lf
+*.template text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+
+# Excluir herramientas y archivos locales del ZIP creado con git archive
 .gitignore export-ignore
 .gitattributes export-ignore
+.editorconfig export-ignore
 .github/ export-ignore
+.idea/ export-ignore
+.vscode/ export-ignore
 dev-tools/ export-ignore
+tests/ export-ignore
 dist/ export-ignore
-README.en.md export-ignore
+tmp/ export-ignore
+_release-zip/ export-ignore
+.venv/ export-ignore
+node_modules/ export-ignore
+__pycache__/ export-ignore
+.history/ export-ignore
+.ionide/ export-ignore
+.env export-ignore
+.env.* export-ignore
 DEVELOPER.md export-ignore
+staged.txt export-ignore
+
+# Se distribuyen README.md, README.en.md, CHANGELOG.md y LICENSE.md.
+
+# Archivos auxiliares específicos
+downloads-*.json export-ignore
+_toDoo.md export-ignore

@@ -1,0 +1,81 @@
+name: Validate
+
+on:
+  push:
+    branches:
+      - "**"
+  pull_request:
+  workflow_call:
+    inputs:
+      revision:
+        description: Optional commit or tag for an explicit workflow call
+        required: false
+        default: ""
+        type: string
+      release-tag:
+        description: Release tag to verify when called by the release workflow
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Test and validate package
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout selected commit
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ inputs.revision || github.sha }}
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Test Babele registration and converters
+        run: node --test dev-tools/export/test-export.mjs dev-tools/translation/test-*.mjs
+
+      - name: Test release builder
+        run: python -B -m unittest discover -s tests -p 'test_*.py' -v
+
+      - name: Test Adventure translation tools
+        run: python -B -m unittest discover -s dev-tools/translation -p 'test_*.py' -v
+
+      - name: Build and validate committed package
+        shell: bash
+        env:
+          RELEASE_TAG: ${{ inputs.release-tag }}
+          SELECTED_REF: ${{ inputs.revision || github.sha }}
+        run: |
+          args=(--dist dist --ref "$SELECTED_REF")
+          if [[ -n "$RELEASE_TAG" ]]; then
+            args+=(--release-tag "$RELEASE_TAG")
+          fi
+          python -B dev-tools/buildScripts/build_release.py "${args[@]}"
+
+      - name: Upload validated package
+        uses: actions/upload-artifact@v4
+        with:
+          name: module-package
+          path: |
+            dist/*.zip
+            dist/module.json
+            dist/SHA256SUMS.txt
+          if-no-files-found: error
+          retention-days: 7

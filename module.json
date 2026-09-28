@@ -61,8 +61,8 @@
     }
   ],
   "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/main/module.json",
-  "download": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest/download/translate-dnd5e-phandelver-below-es.zip",
+  "manifest": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest/download/module.json",
+  "download": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/download/v1.14.1/translate-dnd5e-phandelver-below-es.zip",
   "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/issues",
   "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/README.md",
   "changelog": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases",

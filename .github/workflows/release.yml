@@ -4,51 +4,50 @@ on:
   push:
     tags:
       - "v*"
-  workflow_dispatch:
-    inputs:
-      tag:
-        description: "Tag to publish (for example, v1.14.0)"
-        required: true
-        default: "v1.14.0"
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
+  validate:
+    name: Validate release
+    uses: ./.github/workflows/validate.yml
+    with:
+      release-tag: ${{ github.ref_name }}
+
   release:
-    name: Build & Publish Release (Draft)
+    name: Publish validated release (Draft)
+    needs: validate
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
-      - name: Checkout tagged commit
-        uses: actions/checkout@v5
+      - name: Download validated package
+        uses: actions/download-artifact@v4
         with:
-          fetch-depth: 0
-          ref: ${{ inputs.tag || github.ref_name }}
+          name: module-package
+          path: dist
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: "3.11"
-
-      - name: Build module zip
-        env:
-          RELEASE_REF: ${{ inputs.tag || github.ref_name }}
-        run: |
-          python dev-tools/buildScripts/build_release.py --dist dist --ref "$RELEASE_REF"
-          ls -lah dist
-
-      - name: Verify release assets
+      - name: Verify expected asset exists
         run: |
           test -f "dist/translate-dnd5e-phandelver-below-es.zip"
           test -f "dist/module.json"
+          test -f "dist/SHA256SUMS.txt"
+          (cd dist && sha256sum --check SHA256SUMS.txt)
+          echo "OK: release assets exist"
 
-      - name: Create draft GitHub release
+      - name: Create GitHub Release (DRAFT) and upload asset
         uses: softprops/action-gh-release@v2
         with:
-          tag_name: ${{ inputs.tag || github.ref_name }}
           draft: true
           generate_release_notes: true
+          fail_on_unmatched_files: true
           files: |
-            dist/translate-dnd5e-phandelver-below-es.zip
+            dist/*.zip
             dist/module.json
+            dist/SHA256SUMS.txt

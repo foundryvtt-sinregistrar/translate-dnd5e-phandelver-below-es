@@ -1,116 +1,82 @@
-# Translation workflow
+# Guía de desarrollo
 
-## Current review plan (September 2026)
+Proyecto: `translate-dnd5e-phandelver-below-es`, versión de trabajo **1.14.1**. Instalación: [README.md](README.md) y [README.en.md](README.en.md).
 
-Follow [the review roadmap](dev-tools/ROADMAP.md),
-[the current inventory](dev-tools/translation/INVENTARIO.md), and
-[the bilingual PDF reference guide](dev-tools/export/README.md).
-The existing translation is partial. Phase 1 is complete on Foundry 14.368 /
-dnd5e 6.0.3; see [current sources](dev-tools/translation/FUENTES-ACTUALES.md).
-Use `python dev-tools/export/prepare_pdf_references.py --ocr-all en es` for PDF
-references. Preserve the existing worklist: its legacy builder overwrites it.
+## Entorno y compatibilidad
 
-## Versioning
+`module.json` es la referencia de identidad, requisitos, versión y entradas de ejecución. Ambos README reproducen sus mínimos y versiones verificadas. CI utiliza Ubuntu, Node 24 y Python 3.11. Las comprobaciones locales de homogeneización usan Node 24.17.0 y Python 3.14.6; no constituyen una matriz exhaustiva.
 
-Releases use `MAJOR.FOUNDRY.PATCH`:
+## Preparación y edición
 
-- `MAJOR`: structural or content milestone;
-- `FOUNDRY`: supported Foundry VTT major version;
-- `PATCH`: incremental corrections for that compatibility line.
+Parte de `develop` tras comprobar su relación con `main` y sus remotos. Conserva cambios locales ajenos; no fuerces referencias ni reutilices etiquetas publicadas. Registra las adaptaciones en [ADOPCION.md](dev-tools/homogeneizacion/ADOPCION.md).
 
-Therefore, `1.14.0` is the first release milestone for Foundry VTT 14.
+`.editorconfig` define UTF-8, LF, dos espacios para JSON/YAML y cuatro para JS/Python; conserva espacios finales de Markdown. `.gitattributes` normaliza en Git y controla la exportación. No reformatees masivamente traducciones. Conserva IDs, UUID, claves, fórmulas, números mecánicos, rutas y estructura HTML; traduce solo los textos previstos por mappings y convertidores.
 
-## 1. Export the source compendiums
+## Estructura y registro
 
-Follow [the current export guide](dev-tools/export/README.md). As GM, keep the
-official adventure active, disable this translation and reload, then execute
-`dev-tools/export/export-source.js` in a Script macro. The exporter uses full
-Foundry documents, rejects translated sources, and writes a dated directory
-under `dev-tools/export/_data/source-current/`. Restore the translation afterwards.
-It preserves the historical `dev-tools/export/_data/source/` directory.
+- `compendium/`: 5 JSON de traducción Babele.
+- `lang/`: archivos declarados en el manifiesto.
+- `scripts/`: registro, convertidores y comportamiento específico del módulo.
+- `tests/`: comprobaciones portables y del constructor; no se distribuyen.
+- `dev-tools/`: fuentes de desarrollo, auditorías, perfil y herramientas; no se distribuye.
+- `dist/`: artefactos generados, ignorados por Git.
 
-```powershell
-python dev-tools/export/validate_current_export.py
-python dev-tools/translation/inventory_current.py
+El registro utiliza `babele.init` y espera a `setup` para leer `core.language`; aplica español y variantes regionales. Los documentos ya importados no se sincronizan automáticamente.
+
+Convertidores registrados: `phandelverFoldersById`, `phandelverJournalsById`, `phandelverAdvancementNames`, `converters`.
+
+## Fuentes y particularidades
+
+Se conservan exportador, importación Adventure, mappings y auditorías específicos. El constructor incorpora el contrato común de PHB en su ruta existente. Las suites adicionales siguen en `dev-tools/export/` y `dev-tools/translation/`; las pruebas que requieren originales se omiten explícitamente en un clon sin ellos. Consulta `dev-tools/translation/INFORME-REVISION.md` para la evidencia editorial y de importación previa.
+
+Las fuentes completas, PDF, OCR, modelos y exportaciones del producto oficial son locales. No copies sus bases de datos al paquete ni las añadas al índice. Versiona únicamente las herramientas, mappings y evidencias que corresponda compartir.
+
+- [dev-tools/export/README.md](dev-tools/export/README.md).
+- [dev-tools/translation/README.md](dev-tools/translation/README.md).
+- [dev-tools/translation/INFORME-REVISION.md](dev-tools/translation/INFORME-REVISION.md).
+- [dev-tools/translation/ESTADO-TRADUCCION.md](dev-tools/translation/ESTADO-TRADUCCION.md).
+
+## Validación portable
+
+Desde la raíz del proyecto:
+
+```sh
+node --test dev-tools/export/test-export.mjs dev-tools/translation/test-*.mjs
+python -B -m unittest discover -s tests -p 'test_*.py' -v
+python -B -m unittest discover -s dev-tools/translation -p 'test_*.py' -v
+git diff --check
 ```
 
-The files are private and ignored by Git. Do not copy full original documents
-into `compendium/`; that directory only accepts reviewed Babele translation payloads.
-The old `validate_source_export.py` checks the historical export only.
+Comprueba también un clon aislado: los módulos hermanos y las fuentes privadas del workspace pueden ocultar dependencias. Las omisiones por fuentes ausentes deben aparecer en el resultado y no equivalen a pruebas superadas. No ejecutes generadores como parte de la validación.
 
-## 2. Work in pack order
+Para pruebas funcionales, registra versiones de Foundry, dnd5e, Babele y producto oficial; abre e importa documentos representativos en un mundo de prueba. Revisa enlaces, imágenes, tablas y automatizaciones. No declares una verificación completa basándote solo en JSON válido o cobertura de traducción.
 
-Extract the private PDF into a page-addressable JSON index when the reference PDF changes:
+## Construcción
 
-```powershell
-python dev-tools/export/extract_pdf_text.py
+Con el árbol limpio y los cambios confirmados:
+
+```sh
+python -B dev-tools/buildScripts/build_release.py --dist dist --ref HEAD
 ```
 
-The generated `extracted-pages.json` remains under the ignored `_data` directory.
+El constructor lee manifiesto, perfil y contenido del mismo commit. Genera un ZIP versionado, `translate-dnd5e-phandelver-below-es.zip`, `module.json` y `SHA256SUMS.txt`; el manifiesto externo es idéntico al del ZIP. Comprueba JSON, rutas, documentos obligatorios y lista de admitidos antes de sustituir salidas existentes. `--allow-dirty` permite inspeccionar contenido confirmado sin incorporar cambios locales.
 
-For scanned PDFs, run the resumable Spanish OCR instead:
+`dev-tools/buildScripts/release-profile.json` declara el nombre del ZIP, el canal `latest` y la variante `standard`. En modo release, `--ref vVERSION` o `--ref SHA --release-tag vVERSION` exige correspondencia de tag, commit, versión, changelog y URLs. Los hashes cubren ambos ZIP y el manifiesto. Pruebas, herramientas, contadores, fuentes privadas y archivos de IDE quedan fuera del paquete.
 
-```powershell
-python dev-tools/export/ocr_pdf.py
-```
+## CI y publicación
 
-OCR progress is saved after every page in `_data/pdf/ocr-pages.json`. Existing pages are skipped automatically when the command is run again.
+`validate.yml` ejecuta las suites y construye el commit de la ejecución en PR y pushes a ramas. `release.yml` llama a esa misma validación al subir tags `v*`, descarga sus artefactos y comprueba hashes antes de crear el borrador. Solo el job publicador recibe permiso de escritura. No basta con tener workflows locales: hay que comprobar su ejecución en GitHub después del push y configurar por separado las protecciones de rama.
 
-Generate the private page-level worklist after exporting the source Adventure:
+Prepara una versión nueva: actualiza versión y URL de descarga en `module.json`, ambos README y CHANGELOG. Conserva las etiquetas anteriores y traslada `[Unreleased]` a la versión fechada. Valida el commit en la rama de preparación y etiqueta ese commit, sin adelantar `main`. Revisa y publica los adjuntos, comprueba sus URLs y solo después integra el contenido publicado en `main`. Las instalaciones antiguas pueden seguir consultando el manifiesto de main; prueba también su actualización al canal elegido.
 
-```powershell
-python dev-tools/export/build_adventure_worklist.py
-```
+El canal estable `latest` necesita el adjunto `module.json` de una release estable. DM conserva expresamente su canal preliminar y manifiesto en main. Estos cambios locales no publican archivos, no alteran releases antiguas y no autorizan a reutilizar la versión actual para otra publicación.
 
-Fill `pdf_page_start`, `pdf_page_end`, `status`, and `notes` in `_data/adventure-worklist.csv` while mapping and reviewing journal pages.
+## Etiquetas históricas
 
-Translate and validate packs in this order:
+No se detectaron discrepancias de versión en las etiquetas locales consultadas.
 
-1. `pbso-player-tables`
-2. `pbso-player-options`
-3. `pbso-items`
-4. `pbso-bestiary`
-5. `pbso-adventures`
+Esta comparación corresponde a Git local, no certifica los artefactos publicados. Las discrepancias se conservan para trazabilidad; prepara una etiqueta nueva y coherente en la siguiente publicación.
 
-The Adventure pack is last because it contains nested Foundry documents and has the largest integration surface.
+## Diagnóstico
 
-## 3. Translation rules
-
-- Keep top-level entry keys unchanged. They are Foundry document IDs, which prevents collisions between documents with duplicate names.
-- Keep nested identity fields and IDs unchanged.
-- Preserve `@UUID[...]`, `@Embed[...]`, inline rolls, formulas, macros, image paths, and HTML structure.
-- Translate visible names, descriptions, biographies, journal text, captions, and table-result text.
-- Use the Spanish PDF as the terminology and narrative source.
-- Record progress in the private `inventory.json` using `pending`, `translated`, `reviewed`, or `tested`.
-
-## 4. Promote reviewed translations
-
-After completing and reviewing one exported file, copy only its translated Babele payload into `compendium/`. Never copy the private inventory or raw source material into the distributable module.
-
-## 5. Validate in Foundry
-
-For every pack:
-
-1. Reload the world in Spanish.
-2. Open documents directly from the compendium.
-3. Import representative documents into the world.
-4. Check names, HTML, embedded items, activities, effects, links, and rolls.
-5. For the Adventure pack, import into a clean test world and inspect journals, scenes, actors, items, tables, notes, and UUID links.
-
-## 6. Release checks
-
-- Validate every JSON file.
-- Confirm that no `_data/`, PDF, source export, or temporary file is tracked.
-- Build the ZIP from a clean Git commit.
-- Install the generated ZIP in a clean Foundry data directory before publishing.
-
-## 7. Release process
-
-1. Move the completed entries from `[Unreleased]` to a dated version in `CHANGELOG.md`.
-2. Set the same version in `module.json`.
-3. Run the source-export validator and validate every tracked JSON file.
-4. Commit the release preparation on `develop`.
-5. Fast-forward `main` to the validated `develop` commit and push both branches.
-6. Create and push the annotated tag `vMAJOR.FOUNDRY.PATCH` from `main`.
-7. Confirm that the GitHub Actions release workflow builds the ZIP and uploads both the stable archive and `module.json`.
-8. Inspect the generated draft release and publish it after verifying its assets and manifest URLs.
+Si aparece inglés, revisa dependencias activas, idioma y recarga. Si solo falla una copia importada, compárala con el compendio actual. Si falla el build por árbol sucio, confirma los cambios o utiliza `--allow-dirty` únicamente para una inspección del commit. Si falla un contrato de tag o URL, corrige una nueva versión; no reescribas un tag publicado.

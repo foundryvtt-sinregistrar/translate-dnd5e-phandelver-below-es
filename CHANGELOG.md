@@ -1,8 +1,20 @@
 # Changelog
 
+Las nuevas entradas se redactan en español, bajo `[Unreleased]` y las categorías `Added`, `Changed` y `Fixed`. El historial anterior conserva su contenido e idioma.
+
+
 All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
+
+### Changed
+
+- Homogeneizados documentación ES/EN, guía de desarrollo, configuración, exclusiones, constructor desde commit, perfiles, hashes y CI compartida. Se conservan las herramientas y pruebas Adventure.
+
+## [1.14.1] - 2026-09-25
+
+Entrada reconstruida del contenido ya incluido en el commit de versión `68cf25d`, tras la revisión `e6d5faf`. Se conserva el texto histórico; esta reconstrucción no acredita una release remota.
+
 
 ### Added
 

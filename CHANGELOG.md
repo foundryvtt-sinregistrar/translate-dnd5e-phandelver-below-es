@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.14.2] - 2026-09-28
+
 ### Changed
 
 - Homogeneizados documentación ES/EN, guía de desarrollo, configuración, exclusiones, constructor desde commit, perfiles, hashes y CI compartida. Se conservan las herramientas y pruebas Adventure.
@@ -65,5 +67,6 @@ Entrada reconstruida del contenido ya incluido en el commit de versión `68cf25d
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/compare/v1.14.0...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/compare/v1.14.2...HEAD
+[1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/tag/v1.14.2
 [1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/tag/v1.14.0

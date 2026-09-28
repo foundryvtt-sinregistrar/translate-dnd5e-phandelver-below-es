@@ -6,7 +6,7 @@ Traducción para Foundry VTT mediante Babele. Identificador: `translate-dnd5e-ph
 
 ## Estado
 
-Versión: **1.14.1**. Revisión editorial documentada como completada: 165 objetos, 148 criaturas, 39 opciones de personaje, 53 tablas y Adventure, incluidas 521 páginas con texto; 10.855 campos previstos. El informe del 25 de septiembre de 2026 acredita una importación completa con Foundry 14.368, dnd5e 6.0.3, Babele local 2.9.1 y aventura 3.1.0. Conserva nueve referencias sin destino presentes en el original. Esta homogeneización no repite esa prueba ni acredita otras compilaciones de Babele.
+Versión: **1.14.2**. Revisión editorial documentada como completada: 165 objetos, 148 criaturas, 39 opciones de personaje, 53 tablas y Adventure, incluidas 521 páginas con texto; 10.855 campos previstos. El informe del 25 de septiembre de 2026 acredita una importación completa con Foundry 14.368, dnd5e 6.0.3, Babele local 2.9.1 y aventura 3.1.0. Conserva nueve referencias sin destino presentes en el original. Esta homogeneización no repite esa prueba ni acredita otras compilaciones de Babele.
 
 Consulta [CHANGELOG.md](CHANGELOG.md).
 

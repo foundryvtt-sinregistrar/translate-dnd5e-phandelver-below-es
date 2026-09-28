@@ -1,6 +1,6 @@
 # Guía de desarrollo
 
-Proyecto: `translate-dnd5e-phandelver-below-es`, versión de trabajo **1.14.1**. Instalación: [README.md](README.md) y [README.en.md](README.en.md).
+Proyecto: `translate-dnd5e-phandelver-below-es`, versión de trabajo **1.14.2**. Instalación: [README.md](README.md) y [README.en.md](README.en.md).
 
 ## Entorno y compatibilidad
 

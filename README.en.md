@@ -6,7 +6,7 @@ Translation for Foundry VTT using Babele. Module ID: `translate-dnd5e-phandelver
 
 ## Status
 
-Version: **1.14.1**. Documented editorial review is complete: 165 items, 148 creatures, 39 character options, 53 tables and the Adventure, including 521 text pages and 10,855 expected fields. The September 25, 2026 report records a full import with Foundry 14.368, dnd5e 6.0.3, local Babele 2.9.1 and adventure 3.1.0. Nine broken references already present in the original remain. This standardization does not repeat that test or verify other Babele builds.
+Version: **1.14.2**. Documented editorial review is complete: 165 items, 148 creatures, 39 character options, 53 tables and the Adventure, including 521 text pages and 10,855 expected fields. The September 25, 2026 report records a full import with Foundry 14.368, dnd5e 6.0.3, local Babele 2.9.1 and adventure 3.1.0. Nine broken references already present in the original remain. This standardization does not repeat that test or verify other Babele builds.
 
 See [CHANGELOG.md](CHANGELOG.md).
 

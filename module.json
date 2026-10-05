@@ -1,7 +1,7 @@
 {
   "id": "translate-dnd5e-phandelver-below-es",
-  "title": "Translation: DnD5e Phandelver y Más Allá - Spanish (Babele)",
-  "description": "Spanish translation for the official Phandelver & Below: The Shattered Obelisk module using Babele.",
+  "title": "D&D 5e Phandelver y Más Allá - Traducción al español (Babele)",
+  "description": "Spanish translation for the official Phandelver &amp; Below: The Shattered Obelisk module using Babele.",
   "version": "1.14.2",
   "compatibility": {
     "minimum": "13",
@@ -11,12 +11,14 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     },
     {
       "lang": "es",
       "name": "Español",
-      "path": "lang/es.json"
+      "path": "lang/es.json",
+      "flags": {}
     }
   ],
   "relationships": {
@@ -57,7 +59,8 @@
   ],
   "authors": [
     {
-      "name": "foundryvtt-sinregistrar"
+      "name": "foundryvtt-sinregistrar",
+      "flags": {}
     }
   ],
   "url": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es",
@@ -66,5 +69,6 @@
   "bugs": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/issues",
   "readme": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/README.md",
   "changelog": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases",
-  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/LICENSE.md"
+  "license": "https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/blob/main/LICENSE.md",
+  "flags": {}
 }

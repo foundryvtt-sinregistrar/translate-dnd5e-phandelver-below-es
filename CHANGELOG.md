@@ -7,6 +7,12 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.14.3] - 2026-10-27
+
+### Changed
+
+- Compatibilidad verificada con Foundry VTT 14.369 y D&D5e 6.0.6.
+
 ## [1.14.2] - 2026-09-28
 
 - Comprobados en Foundry 406 documentos, nombres y campos explícitos; importada y revisada una muestra. Evidencia y límites en `dev-tools/homogeneizacion/VALIDACION-FOUNDRY.md`.

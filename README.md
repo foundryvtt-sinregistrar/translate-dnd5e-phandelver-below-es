@@ -11,8 +11,8 @@
 ![Babele 2.9.1 required](https://img.shields.io/badge/Babele-2.9.1_required-orange)
 ![Phandelver required](https://img.shields.io/badge/Phandelver-required-orange)
 
-[![Última versión](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es?label=release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest)
-[![Descargas de la última versión](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/latest/total?label=descargas%20%C3%BAltima%20release)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest)
+[![Última versión](https://img.shields.io/github/v/release/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es?label=versi%C3%B3n)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest)
+[![Descargas de la última versión](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/latest/total?label=descargas%20%C3%BAltima%20versi%C3%B3n)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/latest)
 
 [![Descargas totales](https://img.shields.io/github/downloads/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/total?label=descargas%20totales)](https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases)
 

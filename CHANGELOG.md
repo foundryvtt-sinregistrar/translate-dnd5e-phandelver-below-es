@@ -7,6 +7,10 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+### Changed
+
+- Compatibilidad verificada con Foundry VTT 14.370 y D&D5e 6.0.6.
+
 ## [1.14.3] - 2026-10-27
 
 ### Changed

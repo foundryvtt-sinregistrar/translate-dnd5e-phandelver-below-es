@@ -7,10 +7,14 @@ export async function restoreAdventureLabels(adventure, result) {
     const updates = [];
     for (const token of scene.tokens) {
       const name = original.tokens.find(t => t._id === token.id)?.name;
-      if (typeof name === 'string' && token.name !== name) updates.push({_id:token.id, name});
+      // Babele queues token updates from importAdventure without awaiting them.
+      // The current name can still match while a generic actor name is in flight.
+      // Always queue the reviewed name after those writes, even when equal now.
+      if (typeof name === 'string') updates.push({_id:token.id, name});
     }
     if (updates.length) {
-      await scene.updateEmbeddedDocuments('Token', updates);
+      // Do not let Foundry drop equal-name writes before the pending sync lands.
+      await scene.updateEmbeddedDocuments('Token', updates, {diff:false});
       changed += updates.length;
     }
   }

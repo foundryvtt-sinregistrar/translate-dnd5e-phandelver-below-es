@@ -12,6 +12,11 @@ Se conservan exportador, importación Adventure, mappings y auditorías específ
 
 ## Sincronización
 
+Validación posterior (2026-11-27), en `compat/dnd5e-6.1.1`: importación completa
+en copia QA, corrección de la carrera de nombres de fichas con Babele y marca
+verificada 6.1.1. Se conservan el perfil de publicación y los compendios.
+Evidencia y límites en [la validación](../VALIDACION-DND5E-6.1.1.md).
+
 Antes de actualizar herramientas comunes, compara la base registrada con la nueva revisión de PHB y revisa las diferencias de cada archivo. Conserva este perfil, las suites propias y los adaptadores. No sobrescribas traducciones ni adaptes una licencia mediante una copia ciega. Los SHA-256 del inventario identifican los bytes de Git sin conversiones LF/CRLF.
 
 ## Validación y commits

@@ -9,7 +9,11 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-- Compatibilidad verificada con Foundry VTT 14.370 y D&D5e 6.0.6.
+- Compatibilidad verificada con Foundry VTT 14.370 y D&D5e 6.1.1 mediante importación completa y comprobación tras recargar. Evidencia en [la validación](dev-tools/VALIDACION-DND5E-6.1.1.md).
+
+### Fixed
+
+- Conserva los nombres propios de fichas de escena cuando Babele tiene una sincronización de nombres de actor pendiente al finalizar la importación; fuerza la escritura final aunque el nombre todavía coincida en memoria.
 
 ## [1.14.3] - 2026-10-27
 

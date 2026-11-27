@@ -24,3 +24,18 @@ test('post-import correction is restricted to Spanish PBSO imports', () => {
   assert.equal(options.postImport.length,1);
   delete globalThis.game;
 });
+
+test('reviewed labels survive an in-flight actor-name synchronization', async () => {
+  const token = {id:'t',name:'Mirna Dendrar'};
+  const synchronization = Promise.resolve().then(() => { token.name = 'Commoner'; });
+  const scene = {id:'s',tokens:[token],updateEmbeddedDocuments:async (type, updates, options) => {
+    assert.equal(options.diff,false, 'Equal current values must still be written');
+    await synchronization;
+    assert.equal(type,'Token');
+    for (const update of updates) token.name = update.name;
+  }};
+  const adventure = {scenes:[{_id:'s',tokens:[{_id:'t',name:'Mirna Dendrar'}]}]};
+  assert.equal(await restoreAdventureLabels(adventure,{created:{Scene:[scene]}}),1);
+  await synchronization;
+  assert.equal(token.name,'Mirna Dendrar');
+});

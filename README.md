@@ -2,7 +2,7 @@
 
 **Español** | [English](README.en.md)
 
-![Foundry minimum](https://img.shields.io/badge/Foundry_min-13%2B-green) ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue) ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-5.3.1%2B-blue) ![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.0.6-blue) ![Babele minimum](https://img.shields.io/badge/Babele_min-2.9.1%2B-orange) ![Phandelver required](https://img.shields.io/badge/Phandelver-required-orange)
+![Foundry minimum](https://img.shields.io/badge/Foundry_min-13%2B-green) ![Foundry verified](https://img.shields.io/badge/Foundry_verified-14.370-blue) ![dnd5e minimum](https://img.shields.io/badge/dnd5e_min-5.3.1%2B-blue) ![dnd5e verified](https://img.shields.io/badge/dnd5e_verified-6.1.1-blue) ![Babele minimum](https://img.shields.io/badge/Babele_min-2.9.1%2B-orange) ![Phandelver required](https://img.shields.io/badge/Phandelver-required-orange)
 
 **Versión actual — Foundry v14**
 

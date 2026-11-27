@@ -7,6 +7,8 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [1.14.4] - 2026-11-27
+
 ### Changed
 
 - Compatibilidad verificada con Foundry VTT 14.370 y D&D5e 6.1.1 mediante importación completa y comprobación tras recargar. Evidencia en [la validación](dev-tools/VALIDACION-DND5E-6.1.1.md).
@@ -83,6 +85,7 @@ Entrada reconstruida del contenido ya incluido en el commit de versión `68cf25d
 
 ## Version Links
 
-[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/compare/v1.14.2...HEAD
+[Unreleased]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/compare/v1.14.4...HEAD
 [1.14.2]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/tag/v1.14.2
 [1.14.0]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/tag/v1.14.0
+[1.14.4]: https://github.com/foundryvtt-sinregistrar/translate-dnd5e-phandelver-below-es/releases/tag/v1.14.4
